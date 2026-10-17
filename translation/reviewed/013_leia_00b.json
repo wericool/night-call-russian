@@ -1,0 +1,63 @@
+{
+  "name": "013_leia_00b",
+  "kind": "compiled",
+  "status": "contextually_reviewed",
+  "source_sha256": "2e3e9460c4e81a54059d3d7b8ab5aeec148210f0bd86ded1a32f54a533b40ee4",
+  "context": "Лея Гража — взрослая студентка кино, энергичная и резкая киноманка. Едет из кино домой в Сент-Уэн, защищает собственные идеи и мечтает о режиссуре. Разговоры о фильмах открывают её сомнения, семейные переживания, разрыв с парнем и одиночество. Её пересказы и оценки субъективны, иногда неточны. Водитель говорит на вы; она к нему тоже на вы, хотя использует фамильярное дружище. Отсылки к другим пассажирам и реакции доверия зависят от сохранённых условий.",
+  "decisions": [
+    "Повторное появление и три фразы заказа сверены. Сент-Уэн и Клиньянкур — разные ориентиры одного направления, не разные пассажиры.",
+    "Короткие фразы заказа такси из passengercall сверены отдельно от основных реплик; определения анимаций и технические маркеры не переведены.",
+    "FR: у Лии нет хлопка в ладоши — добавленная деталь убрана.",
+    "Полная ручная сверка всех французских блоков, ответов и приглашений по оригиналу; смысл, адресат, род и команды подтверждены."
+  ],
+  "passages": [
+    {
+      "passage": "leia-00b-start",
+      "texts": [
+        "Вы узнаёте девушку, которая садится в такси…",
+        "Это девушка, помешанная на кино, которая, кажется, ни на секунду не перестаёт двигаться, говорить, думать.",
+        "Она бросает на вас взгляд и узнаёт вас…",
+        "Вы трогаетесь."
+      ],
+      "choices": []
+    }
+  ],
+  "passenger_calls": [
+    {
+      "index": 0,
+      "english": "« Saint-Ouen, please. »",
+      "prefix": "passengercall: ",
+      "original": "passengercall: « Saint-Ouen, please. »",
+      "russian": "«В Сент-Уэн, пожалуйста.»"
+    },
+    {
+      "index": 1,
+      "english": "« Saint-Ouen… near Clignancourt. »",
+      "prefix": "passengercall: ",
+      "original": "passengercall: « Saint-Ouen… near Clignancourt. »",
+      "russian": "«Сент-Уэн… недалеко от Клиньянкура.»"
+    },
+    {
+      "index": 2,
+      "english": "« I need to get back to Saint-Ouen. »",
+      "prefix": "passengercall: ",
+      "original": "passengercall: « I need to get back to Saint-Ouen. »",
+      "russian": "«Мне нужно вернуться в Сент-Уэн.»"
+    }
+  ],
+  "french_review": {
+    "complete": true,
+    "source_sha256": "aa244ab8be8132fefb8bc654642292e720cf92af867c5a51fd8ecb4f9f7f3021",
+    "checked_french_passages": [
+      "leia-00b-start"
+    ],
+    "decisions": [
+      "FR: у Лии нет хлопка в ладоши — добавленная деталь убрана.",
+      "Полная ручная сверка всех французских блоков, ответов и приглашений по оригиналу; смысл, адресат, род и команды подтверждены."
+    ],
+    "passenger_calls_checked": true,
+    "structural_alignment": "FR/EN passage IDs, choice targets and visible line counts match one-to-one; French is the meaning source.",
+    "language": "fr",
+    "original_file": "original/DialogObjectScript/sharedassets0.assets/2158.json"
+  }
+}

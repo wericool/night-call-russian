@@ -1,0 +1,78 @@
+{
+  "name": "014_fragonard_00b",
+  "kind": "compiled",
+  "status": "contextually_reviewed",
+  "source_sha256": "4d66bf91fdcae78090a8d6aa038aec77ac78169a244eaee6b77f1f0b46cbc663",
+  "context": "Поль-Мари Фрагонар, пожилой полицейский на пенсии, едет в больницу Сен-Луи. Все десять встреч прочитаны как одна история: старые дела, травма, болезнь и нарастающая усталость. Его оценки людей, системы и смерти остаются его словами. Подозреваемым он назван только в ветке Судьи; признание из восьмой встречи не переносится в ранние разговоры. До признания обращается к водителю на вы; после frag-08-reveal переходит на ты. Два исходных возврата к вы: просьба frag-08-story4 и общий gameover. Водитель сохраняет вы. Бывшая жена — судья; собственных детей у него нет. Бюссе — его бывшая ученица. Не смешивать исходы смерти, ареста и гибели водителя.",
+  "decisions": [
+    "Все три блока и три варианта заказа сверены. Усталый голос и привычный адрес сохраняют связь со всеми следующими встречами.",
+    "Дополнительное напоминание о подозреваемом зависит от дела Судьи; в других делах его не объявлять убийцей.",
+    "Короткие фразы заказа такси из passengercall сверены отдельно от основных реплик; определения анимаций и технические маркеры не переведены.",
+    "Полная ручная сверка всех французских блоков, ответов и приглашений по оригиналу; смысл, адресат, род и команды подтверждены."
+  ],
+  "passages": [
+    {
+      "passage": "frag-00b-start",
+      "texts": [
+        "Вы узнаёте пассажира, который садится в такси… Полицейский, инспектор полиции…"
+      ],
+      "choices": []
+    },
+    {
+      "passage": "frag-00b-start02-killer",
+      "texts": [
+        "Ваш подозреваемый."
+      ],
+      "choices": []
+    },
+    {
+      "passage": "frag-00b-start02",
+      "texts": [
+        "В его взгляде усталость — и не только из-за раннего часа. Он говорит тягучим голосом.",
+        "ФРАГОНАР: «Туда же, куда обычно.»",
+        "Значит, в больницу Сен-Луи.",
+        "Вы трогаетесь."
+      ],
+      "choices": []
+    }
+  ],
+  "passenger_calls": [
+    {
+      "index": 0,
+      "english": "\"Saint-Louis Hospital. As usual.\"",
+      "prefix": "passengercall: ",
+      "original": "passengercall: \"Saint-Louis Hospital. As usual.\"",
+      "russian": "«В больницу Сен-Луи. Как обычно.»"
+    },
+    {
+      "index": 1,
+      "english": "\"Saint-Louis Hospital… you know.\"",
+      "prefix": "passengercall: ",
+      "original": "passengercall: \"Saint-Louis Hospital… you know.\"",
+      "russian": "«В больницу Сен-Луи… вы знаете.»"
+    },
+    {
+      "index": 2,
+      "english": "\"The usual… Saint-Louis Hospital.\"",
+      "prefix": "passengercall: ",
+      "original": "passengercall: \"The usual… Saint-Louis Hospital.\"",
+      "russian": "«Как обычно… в больницу Сен-Луи.»"
+    }
+  ],
+  "french_review": {
+    "complete": true,
+    "source_sha256": "53908c370ad7878d593d6094817e745626ecf13fb0a08edbc3f6931eb137213e",
+    "checked_french_passages": [
+      "frag-00b-start",
+      "frag-00b-start02-killer",
+      "frag-00b-start02"
+    ],
+    "decisions": [
+      "Полная ручная сверка всех французских блоков, ответов и приглашений по оригиналу; смысл, адресат, род и команды подтверждены."
+    ],
+    "passenger_calls_checked": true,
+    "structural_alignment": "FR/EN passage IDs, choice targets and visible line counts match one-to-one; French is the meaning source.",
+    "language": "fr",
+    "original_file": "original/DialogObjectScript/sharedassets0.assets/2168.json"
+  }
+}
