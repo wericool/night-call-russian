@@ -10,9 +10,11 @@
 
 Путь по умолчанию: `D:\Games\Steam\steamapps\common\Night Call`. Другой путь: `powershell -File Install-NativePatchFR.ps1 -GamePath "полный\путь"`.
 
+**Обновление с прежней версии:** сначала запустите **Восстановить.cmd**, затем **Установить.cmd**.
+
 **Откат:** **Восстановить.cmd**. Оригинальные файлы сохраняются в `.NightCallRussianBackups` внутри папки игры; сохранения игрока не затрагиваются. Проверка целостности Steam вернёт оригинальные файлы — тогда установите заново.
 
-Изменяются 4 файла: `resources.assets`, `sharedassets0.assets`, `sharedassets5.assets`, `Managed/Assembly-CSharp.dll`. Установщик сверяет SHA256 и не работает с другой сборкой игры. BepInEx и другие загрузчики не нужны; если остался старый мод с `winhttp.dll`, отключите его.
+Изменяются 8 файлов: `resources.assets`, `sharedassets0.assets`, `sharedassets3.assets`, `sharedassets5.assets`, `level1`, `level3`, `level7`, `Managed/Assembly-CSharp.dll`. Установщик сверяет SHA256 и не работает с другой сборкой игры. BepInEx и другие загрузчики не нужны; если остался старый мод с `winhttp.dll`, отключите его.
 
 ## Что улучшено
 
