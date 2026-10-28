@@ -1,0 +1,88 @@
+%% Scene Name: Gas Station Shop Ticket
+
+
+=== gasstations-shop-ticket-losinghub
+		-> ??gasstations-shop-ticket-losingA | gasstations-shop-ticket-losingB | gasstations-shop-ticket-losingC | gasstations-shop-ticket-losingD
+
+
+=== gasstations-shop-ticket-losingA
+Билет проигрышный… Не повезло.
+		-> gasstations-shop-ticket-end
+
+
+=== gasstations-shop-ticket-losingB
+…мимо.
+		-> gasstations-shop-ticket-end
+
+
+=== gasstations-shop-ticket-losingC
+…не каждый же раз выигрывать.
+		-> gasstations-shop-ticket-end
+
+
+=== gasstations-shop-ticket-losingD
+…вы вздыхаете.
+		-> gasstations-shop-ticket-end
+
+
+=== gasstations-shop-ticket-win-low-hub
+		-> ??gasstations-shop-ticket-win-lowA | gasstations-shop-ticket-win-lowB | gasstations-shop-ticket-win-lowC
+
+
+=== gasstations-shop-ticket-win-lowA
+Вы забираете выигрыш… Даже небольшая сумма пригодится.
+		-> gasstations-shop-ticket-end
+
+
+=== gasstations-shop-ticket-win-lowB
+…лучше, чем ничего.
+		-> gasstations-shop-ticket-end
+
+
+=== gasstations-shop-ticket-win-lowC
+…жизнь от этого не изменится… Но всё равно приятно.
+		-> gasstations-shop-ticket-end
+
+
+=== gasstations-shop-ticket-win-good-hub
+		-> ??gasstations-shop-ticket-win-goodA | gasstations-shop-ticket-win-goodB | gasstations-shop-ticket-win-goodC
+
+
+=== gasstations-shop-ticket-win-goodA
+…вот такие новости вам по душе.
+		-> gasstations-shop-ticket-end
+
+
+=== gasstations-shop-ticket-win-goodB
+…вдруг эта ночь уже не кажется такой унылой.
+		-> gasstations-shop-ticket-end
+
+
+=== gasstations-shop-ticket-win-goodC
+…на лице появляется тень улыбки.
+		-> gasstations-shop-ticket-end
+
+
+=== gasstations-shop-ticket-win-great
+…лицо озаряется улыбкой.
+		-> gasstations-shop-ticket-end
+
+
+=== gasstations-shop-ticket-win-amazing
+…вы широко улыбаетесь продавцу.
+		-> gasstations-shop-ticket-end
+
+
+=== gasstations-shop-ticket-win-superb
+		$$ reveal: 000_08 $$
+…вы некоторое время молчите. Явно раздражённый продавец пытается вам улыбнуться.
+ПРОДАВЕЦ: «Вы всё-таки везучий тип…»
+Вы невольно смеётесь.
+Вымученный… болезненный смех.
+«Ага, везучий… Точное слово.»
+Продавец, похоже, не понял. Он решает не обращать внимания на вашу реплику.
+		-> gasstations-shop-ticket-end
+
+
+=== gasstations-shop-ticket-end
+		-> END

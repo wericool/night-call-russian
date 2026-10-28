@@ -1,0 +1,7 @@
+*.zip
+*.zip.sha256
+*.dll
+*.assets
+.env
+/payload/
+__pycache__/

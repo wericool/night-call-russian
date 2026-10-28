@@ -1,0 +1,113 @@
+%% Scene name: « Phone: Pick One »
+%% This scene will be played when the Player uses the Phone in the Room.
+
+
+=== phonepick-start
+		$$ music-control: 0 $$
+		$$ sfx: sfx_chambre_phone $$
+Звонит телефон. Вы невольно отступаете на шаг.
+Момент истины.
+* (Взять трубку.) -> phonepick-pickup01
+* (Пусть звонит.) -> phonepick-ring01
+
+
+=== phonepick-ring01
+Вы представляете Бюссе на другом конце провода.
+Раздражённую… Выведенную из себя.
+* (Взять трубку.) -> phonepick-pickup02
+* (Пусть звонит.) -> phonepick-ring02
+
+
+=== phonepick-ring02
+Она вас разнесёт. Можно не сомневаться.
+		-> phonepick-pickup03
+
+
+=== phonepick-pickup01
+		$$ music-control: 20 $$
+		$$ sfx: !sfx_chambre_phone $$
+«Алло?»
+БЮССЕ: «Привет…»
+Ледяной тон.
+БЮССЕ: «Ну?»
+		-> phonepick-time
+
+
+=== phonepick-pickup02
+		$$ music-control: 20 $$
+		$$ sfx: !sfx_chambre_phone $$
+«Алло?»
+БЮССЕ: «Это твой любимый лейтенант полиции…»
+* «Здравствуйте…» -> phonepick-time
+* :irony: «У меня нет любимого лейтенанта полиции». -> phonepick-pickup-lateno
+* :silence: (Промолчать.) -> phonepick-time
+
+
+=== phonepick-pickup03
+		$$ music-control: 20 $$
+Вы наклоняетесь и хватаете трубку — опять не задумываясь.
+		$$ sfx: !sfx_chambre_phone $$
+«Алло?»
+БЮССЕ: «Вы что, на толчке сидели?»
+«Нет, нет, простите…»
+		-> _Driver.Picked.Phone.Late = 1 ? phonepick-pickup-late
+		-> phonepick-pickup-lateno
+
+
+=== phonepick-pickup-late
+БЮССЕ: «Я тебе в прошлый раз что сказала? А?»
+В трубке слегка потрескивает.
+БЮССЕ: «Не люблю терять время. У меня, блядь, другие дела есть».
+		-> phonepick-time
+
+
+=== phonepick-pickup-lateno
+В голосе усталость. Будто сил уже совсем не осталось.
+БЮССЕ: «Проехали…»
+		-> phonepick-time
+
+
+=== phonepick-time
+Она протяжно вздыхает. За её спиной не слышно ничего особенного. Должно быть, она не в участке.
+* «Вы где?» -> phonepick-time-where
+* «У меня для вас есть имя». -> phonepick-time-name
+* :silence: (Промолчать.) -> phonepick-time-silence
+
+
+=== phonepick-time-where
+БЮССЕ: «Я…»
+На секунду вам кажется, что она сейчас ответит. Но…
+БЮССЕ: «Где-то. Тебя не касается».
+Лёгкий звон… Возможно, чашка, которую она ставит на блюдце?
+		-> phonepick-name-intro
+
+
+=== phonepick-time-name
+БЮССЕ: «Отлично. Слушаю».
+		-> phonepick-name
+
+
+=== phonepick-time-silence
+БЮССЕ: «Ну что…»
+		-> phonepick-name-intro
+
+
+=== phonepick-name-intro
+БЮССЕ: «Слушаю. Что у тебя для меня?»
+Она прочищает горло. Голос становится… громче… увереннее.
+		-> phonepick-name
+
+
+=== phonepick-name
+Вы бросаете взгляд на доску. Подозреваемые ровным рядом. Улики. А в голове — сумбур. В животе всё сжимается.
+		$$ dialogspeed: fast $$
+БЮССЕ: «Напоминаю: права на ошибку у тебя нет. Через два часа у меня встреча с прокурором. И с префектом полиции».
+БЮССЕ: «А в углу комнаты ещё и министр внутренних дел посидит».
+		$$ dialogspeed: slow $$
+БЮССЕ: «Можешь себе представить, как я рада… Но, но, но… извини, не хочу на тебя давить».
+		$$ dialogspeed: normal $$
+Вы почти слышите злую улыбку, которая, должно быть, играет у неё на лице.
+Вы кладёте трубку на стол. Теперь нужно решить.
+		%% Goes to Suspect Selection.
+		$$ music-control: 40 $$
+		-> END

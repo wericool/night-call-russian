@@ -1,0 +1,242 @@
+%% Scene name: « Room: The Investigation Board »
+%% This scene will be played at when the Player uses the Investigation Board in the Driver’s room.
+%% DATA
+		VAR tuto_done = 0
+
+
+=== board-start
+		-> _Day.Number = 1 ? board-tutorial
+		-> _Day.Number = 2 ? board-additionaldocs
+		-> _Day.Number = 5 ? board-sandman-hub
+		-> _Julian.Help = 1 ? board-julian
+		-> board-classic-hub
+
+
+=== board-tutorial
+		$$ movie: black $$
+На миг вы наслаждаетесь тишиной своей квартиры-студии.
+За окном медленно просыпается город.
+В ушах всё ещё гудит мотор такси.
+		$$ movie: stop $$
+Вы бросаете на стол папки, которые дала вам Бюссе.
+		%% Missing words here is: “de prison”
+На стену вы снова повесили большую пробковую доску, к которой когда-то прикалывали фотографии племянников.
+Фотографии исчезли с тех пор, как вы вышли из…
+План прост: записывать всё, что может оказаться уликой, и связывать с подозреваемыми.
+Виноват не обязательно тот, против кого больше всего улик, а тот, против кого они убедительнее всего.
+Вы словно восстанавливаете историю каждого подозреваемого.
+Понять мотивы убийств.
+Понять, как этот человек дошёл до такого.
+…
+		-> board-outro01-hub
+
+
+=== board-additionaldocs
+У порога, за трубой, вы замечаете конверт.
+Толстый. Тяжёлый. На бумаге вы разбираете своё имя, написанное широким чёрным маркером.
+Ваше настоящее имя.
+…
+Вы делаете вдох и заходите в свою квартиру-студию. В конверте — дополнительные документы, как и обещала Бюссе.
+		-> _Killer.Is.Judge = 1 ? board-additionaldocs-judge
+		-> _Killer.Is.Sandman = 1 ? board-additionaldocs-sandman
+		-> _Killer.Is.Angel = 1 ? board-additionaldocs-angel
+
+
+=== board-additionaldocs-judge
+		$$ clue: doc_judge_pic04 $$
+		$$ clue: doc_judge_report01 $$
+		$$ clue: doc_judge_report02 $$
+		$$ clue: doc_judge_report03 $$
+		{ _Found.Document.Today = 1 }
+		-> board-additionaldocs-end
+
+
+=== board-additionaldocs-sandman
+		$$ clue: doc_sand_autopsy03 $$
+		$$ clue: doc_sand_chrisrecords $$
+		$$ clue: doc_sand_kcase $$
+		$$ clue: doc_sand_report04 $$
+		{ _Found.Document.Today = 1 }
+		-> board-additionaldocs-end
+
+
+=== board-additionaldocs-angel
+		$$ clue: doc_angel_pic01 $$
+		$$ clue: doc_angel_pic02 $$
+		$$ clue: doc_angel_pic03 $$
+		{ _Found.Document.Today = 1 }
+		-> board-additionaldocs-end
+
+
+=== board-additionaldocs-end
+Вы кладёте их на стол…
+		-> board-classic-hub
+
+
+=== board-sandman-hub
+		-> _Killer.Is.Sandman = 1 ? board-sandman
+		-> board-classic-hub
+
+
+=== board-sandman
+Вы закрываете за собой входную дверь, но… замираете.
+Здесь кто-то был. Вы знаете. Чувствуете.
+На полу раздавленный окурок. Да, ваш, но раздавлен ботинком с толстой подошвой.
+Вы поднимаете его, рассматриваете и кладёте обратно в пепельницу.
+Папки на столе… улики на стене… Да. Здесь кто-то был.
+* (Бюссе?) -> board-sandman-busset
+* (Убийца?) -> board-sandman-killer
+* (Сосед?) -> board-sandman-neighbor
+
+
+=== board-sandman-busset
+Бюссе? Нет… Не может быть. Зачем ей это?
+Захоти она зайти, пришла бы поговорить… или поиздеваться над вами.
+…
+Вы старательно обходите мыслями самое очевидное объяснение.
+		-> board-sandman-killer
+
+
+=== board-sandman-neighbor
+Вы улыбаетесь. Соседи знают: ничего ценного у вас нет.
+Дом в плачевном состоянии, а квартиры-студии в нём за бешеные деньги сдают людям, которые еле сводят концы с концами. Весь Париж такой.
+Нет… Если вчера вечером кто-то заходил к вам, то это…
+		-> board-sandman-killer
+
+
+=== board-sandman-killer
+Песочный человек.
+Должно быть, он. На самом деле это НЕ МОЖЕТ быть никто другой…
+		-> board-sandman-distress
+
+
+=== board-sandman-distress
+Вы глубоко вдыхаете.
+Должно быть, вам всё это снится. Вы сходите с ума. Уже не можете нормально мыслить. Если не будете осторожны, паранойя вас сожрёт.
+Вы решаете не прислушиваться к этому чувству.
+В конце концов… может, это ВЫ наступили на окурок вчера вечером, перед уходом.
+…
+		-> board-classic-hub
+
+
+=== board-julian
+Вы открываете входную дверь и… задеваете что-то ногой.
+Конверт.
+Кто-то просунул его под дверь. Бюссе?
+		$$ clue: doc_judge_julian $$
+Вы тут же вскрываете конверт. Полицейское досье. Вы кладёте его на стол.
+Наверное, это от вашего пассажира… разоблачителя.
+Вы улыбаетесь. Он сдержал слово.
+		-> board-classic-hub
+
+
+=== board-classic-hub
+		-> ??board-classic-hubA | board-classic-hubB
+
+
+=== board-classic-hubA
+		-> _Found.Clue.Today = 1 ? board-newclues
+		-> _Found.Document.Today = 1 ? board-newdocs
+		-> board-emptyhands
+
+
+=== board-classic-hubB
+		-> _Found.Document.Today = 1 ? board-newdocs
+		-> _Found.Clue.Today = 1 ? board-newclues
+		-> board-emptyhands
+
+
+=== board-newdocs
+		%% If new documents.
+Вы смотрите на стол… сегодня вечером вас ждёт работа…
+		-> board-outro01-hub
+
+
+=== board-newclues
+		%% If no new document but new clues.
+Вы ненадолго занимаетесь доской, обновляя сведения об уликах…
+		-> board-outro01-hub
+
+
+=== board-emptyhands
+		%% If no new clues or new documents.
+Вы проводите рукой по лицу. Усталость берёт своё.
+		-> board-outro01-hub
+
+
+=== board-outro01-hub
+		{ _Found.Document.Today = 0 }
+		{ _Found.Clue.Today = 0 }
+		-> ??board-outro01-bus | board-outro01-neighbor | board-outro01-steps | board-outro01-sleep
+
+
+=== board-outro01-bus
+Внизу проезжает автобус. Стены дрожат…
+		-> board-outro02-hub
+
+
+=== board-outro01-neighbor
+Соседка спускает воду в туалете. Краем глаза вы видите, как дрожат трубы.
+		-> board-outro02-hub
+
+
+=== board-outro01-steps
+Шаги в коридоре. Замирают у вашей двери… потом удаляются.
+		-> board-outro02-hub
+
+
+=== board-outro01-sleep
+Вас клонит в сон. Вы закрываете глаза, надавливаете на веки и зеваете.
+		-> board-outro02-hub
+
+
+=== board-outro02-hub
+		-> ??board-outro02-version1 | board-outro02-version2 | board-outro02-version3 | board-outro02-version4 | board-outro02-version5
+
+
+=== board-outro02-version1
+Пора продвинуться в расследовании.
+		-> END
+
+
+=== board-outro02-version2
+Вы вздыхаете и принимаетесь за работу.
+		-> END
+
+
+=== board-outro02-version3
+Вы хрустите костяшками пальцев и принимаетесь за работу.
+		-> END
+
+
+=== board-outro02-version4
+Вы смотрите на кровать… и принимаетесь за работу.
+		-> END
+
+
+=== board-outro02-version5
+Прежде чем приняться за работу, вы снимаете обувь.
+		-> END
+
+
+=== board-explanation
+Вы ненадолго садитесь на кровать, чтобы ещё раз обдумать свой план.
+Бюссе попросила собрать как можно больше улик о подозреваемых. Но нужно внимательно оценивать, насколько они надёжны.
+Ваша цель — восстановить историю каждого подозреваемого: понять, что это за человек и почему он убивает.
+* (Вернуться к доске.) -> board-explanation-end
+* (Подумать ещё.) -> board-explanation02
+
+
+=== board-explanation02
+Есть несколько направлений для размышлений: что может связывать жертв между собой?
+Затем стоит подумать об уликах, которые противоречат версии о конкретном подозреваемом…
+Для этого можно откладывать в сторону подозреваемых и улики.
+И если какая-то версия покажется вам правдоподобной… что ж, вы запишете её прямо под портретом этого подозреваемого.
+Вот и всё.
+Вы потираете руки, словно вновь набрались сил.
+		-> board-explanation-end
+
+
+=== board-explanation-end
+Вы поднимаетесь и поворачиваетесь лицом к доске.
+		-> END

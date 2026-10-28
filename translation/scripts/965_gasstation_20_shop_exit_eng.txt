@@ -1,0 +1,39 @@
+%% Scene Name: Gas Station Shop Exit
+
+
+=== gasstation-shop-exit-hub
+		-> ??gasstation-shop-exitA | gasstation-shop-exitB | gasstation-shop-exitC | gasstation-shop-exitD | gasstation-shop-exitE
+
+
+=== gasstation-shop-exitA
+Парень за прилавком едва удостаивает вас взглядом, когда вы выходите.
+		-> gasstation-shop-exit-outro
+
+
+=== gasstation-shop-exitB
+ПРОДАВЕЦ: «Заходите ещё в…»
+Когда вы выходите из магазина, продавец даже не договаривает фразу.
+		-> gasstation-shop-exit-outro
+
+
+=== gasstation-shop-exitC
+ПРОДАВЕЦ: «Спокойной… ночи, наверное».
+Вы киваете и выходите.
+		-> gasstation-shop-exit-outro
+
+
+=== gasstation-shop-exitD
+ПРОДАВЕЦ: «Хорошего вечера…»
+Встречающий вас холод быстро заставляет забыть о неприятном тоне продавца.
+		-> gasstation-shop-exit-outro
+
+
+=== gasstation-shop-exitE
+Ни слова от продавца.
+Зато вы, едва выйдя наружу, невольно ругаетесь: до того холодно.
+		-> gasstation-shop-exit-outro
+
+
+=== gasstation-shop-exit-outro
+		%% SOUND FX: Door chime.
+		-> END

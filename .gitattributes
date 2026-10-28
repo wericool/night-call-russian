@@ -1,0 +1,4 @@
+# Keep exported game text byte-for-byte, including source whitespace.
+translation/scripts/*.txt -text whitespace=-blank-at-eol
+translation/reviewed/*.json -text whitespace=cr-at-eol
+translation/compiled_dialogues.json -text whitespace=cr-at-eol

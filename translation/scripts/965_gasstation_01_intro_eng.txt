@@ -1,0 +1,50 @@
+%% Scene Name: Gas Station Intro
+%% This scene will be played when the Driver reaches a Gas Station.
+
+
+=== gasstation-01-start
+Вы подъезжаете к заправке…
+		-> _Gasstation.Visit = 0 ? gasstation-01-firsttime
+		-> gasstation-01-intro-hub
+
+
+=== gasstation-01-firsttime
+		{ _Gasstation.Visit = 1 }
+Вокруг ни души.
+Свет люминесцентных ламп режет глаза, а из закутка между колонками тянет мочой.
+Здесь самообслуживание. Оплата — прямо у колонки.
+Магазинчик вон там… Наверное, газеты продают…
+Человек за прилавком наверняка много видит и слышит. Может, стоит задать пару вопросов…
+		-> gasstation-01-intro-hub
+
+
+=== gasstation-01-intro-hub
+		{ _Gasstation.Visit = 1 }
+		%% SOUND FX: Opening door.
+		-> ??gasstation-01-introA | gasstation-01-introB | gasstation-01-introC | gasstation-01-introD | gasstation-01-introE
+
+
+=== gasstation-01-introA
+Вы выходите из такси, и вас снова охватывает знакомое чувство: вы последний человек на Земле.
+		-> END
+
+
+=== gasstation-01-introB
+Это место всё такое же мрачное. Вы осторожно выходите из такси.
+		-> END
+
+
+=== gasstation-01-introC
+Здесь вам не по себе. Хочется только одного — обратно в тепло такси.
+		-> END
+
+
+=== gasstation-01-introD
+Вы не знаете почему, но парижские заправки всегда нагоняют тревогу.
+Прежде чем выйти из такси, вы оглядываетесь по сторонам.
+		-> END
+
+
+=== gasstation-01-introE
+Вы вздыхаете и выходите из такси… Холод тут же пробирает насквозь.
+		-> END

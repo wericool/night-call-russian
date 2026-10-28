@@ -1,0 +1,1881 @@
+%% All the RADIO scenes.
+		%% This document has three large portions: MUSIC, NEWS, and SHOW.
+%% DATA
+		VAR _Talkshow.First = 0
+		VAR client01test = 0
+		VAR client02test = 0
+		VAR client03test = 0
+		VAR client04test = 0
+		VAR client05test = 0
+		VAR client06test = 0
+		VAR client07test = 0
+		VAR client08test = 0
+		VAR client09test = 0
+		VAR client10test = 0
+		VAR client11test = 0
+		VAR client12test = 0
+		VAR killerjudge01test = 0
+		VAR killerjudge02test = 0
+		VAR killerjudge03test = 0
+		VAR killerjudge04test = 0
+		VAR killerjudge05test = 0
+		VAR killerjudge06test = 0
+		VAR killerjudge07test = 0
+		VAR killerjudge08test = 0
+		VAR killersand01test = 0
+		VAR killersand02test = 0
+		VAR killersand03test = 0
+		VAR killersand04test = 0
+		VAR killersand05test = 0
+		VAR killersand06test = 0
+		VAR killersand07test = 0
+		VAR killersand08test = 0
+		VAR killerangel01test = 0
+		VAR killerangel02test = 0
+		VAR killerangel03test = 0
+		VAR killerangel04test = 0
+		VAR killerangel05test = 0
+		VAR killerangel06test = 0
+		VAR killerangel07test = 0
+		VAR killerangel08test = 0
+		VAR talkshow-client01 = 0
+		VAR talkshow-client02 = 0
+		VAR talkshow-client03 = 0
+		VAR talkshow-client04 = 0
+		VAR talkshow-client05 = 0
+		VAR talkshow-client06 = 0
+		VAR talkshow-killer-judge01 = 0
+		VAR talkshow-killer-judge02 = 0
+		VAR talkshow-killer-judge03 = 0
+		VAR talkshow-killer-judge04 = 0
+		VAR talkshow-killer-sand01 = 0
+		VAR talkshow-killer-sand02 = 0
+		VAR talkshow-killer-sand03 = 0
+		VAR talkshow-killer-sand04 = 0
+		VAR talkshow-killer-angel01 = 0
+		VAR talkshow-killer-angel02 = 0
+		VAR talkshow-killer-angel03 = 0
+		VAR talkshow-killer-angel04 = 0
+
+
+=== radio-menu
+		{ _Radio.Listen = 1 }
+Положив палец на кнопки магнитолы, вы ищете, что бы послушать.
+		-> ??radio-menu-hub | radio-menu-hub-late | radio-menu-hub | radio-menu-hub
+
+
+=== radio-menu-hub-late
+Сейчас должны идти «Главные новости вечера» — передача, куда звонят слушатели…
+* (Послушать музыку.) -> radio-menu-music
+* (Послушать новости.) -> radio-menu-news
+* (Послушать разговорную передачу.) -> radio-menu-talkshow
+* :negative: (Ничего не слушать.) -> radio-out
+
+
+=== radio-menu-hub
+* (Послушать музыку.) -> radio-menu-music
+* (Послушать новости.) -> radio-menu-news
+* :negative: (Ничего не слушать.) -> radio-out
+
+
+%% MUSIC
+
+
+=== radio-menu-music
+В такси вы почти никогда не слушаете музыку, но сохранили пять любимых станций.
+		-> radio-menu-music-hub1
+
+
+=== radio-menu-music-hub1
+* (Станция поп-рока.) -> radio-music-poprock-intro
+* (Джазовая станция.) -> radio-music-jazz-intro
+* (Следующие станции.) -> radio-menu-music-hub2
+* (Послушать что-нибудь другое.) -> radio-menu-music-out
+
+
+=== radio-menu-music-hub2
+* (Станция французской музыки.) -> radio-music-france-intro
+* (Следующие станции.) -> radio-menu-music-hub3-intro
+* (Послушать что-нибудь другое.) -> radio-menu-music-out
+
+
+=== radio-menu-music-hub3-intro
+		-> _Driver.Met.Shohreh = 1 ? radio-menu-music-hub3-ghost
+		-> radio-menu-music-hub3-classic
+
+
+=== radio-menu-music-hub3-ghost
+Вы вспоминаете частоту, которую дала одна из ваших пассажирок…
+* (Рэп-станция.) -> radio-music-rap-intro
+* (Призрачная станция.) -> radio-ghost-intro
+* (Предыдущие станции.) -> radio-menu-music-hub1
+* (Послушать что-нибудь другое.) -> radio-menu-music-out
+
+
+=== radio-menu-music-hub3-classic
+* (Рэп-станция.) -> radio-music-rap-intro
+* (Предыдущие станции.) -> radio-menu-music-hub1
+* (Послушать что-нибудь другое.) -> radio-menu-music-out
+
+
+=== radio-menu-music-out
+Вы качаете головой: сейчас хочется чего-то другого…
+* (Послушать новости.) -> radio-menu-news
+* (Послушать разговорную передачу.) -> radio-menu-talkshow
+* (Ничего не слушать.) -> radio-out
+
+
+=== radio-music-poprock-intro
+		-> ??radio-music-poprock-intro1 | radio-music-poprock-intro2 | radio-music-poprock-intro3
+
+
+=== radio-music-poprock-intro1
+		-> _Radio.Music.Poprock.Song03 = 0 ? radio-music-poprock-song03
+		-> _Radio.Music.Poprock.Song04 = 0 ? radio-music-poprock-song04
+		-> _Radio.Music.Poprock.Song02 = 0 ? radio-music-poprock-song02
+		-> _Radio.Music.Poprock.Song01 = 0 ? radio-music-poprock-song01
+		-> radio-music-poprock-song00
+
+
+=== radio-music-poprock-intro2
+		-> _Radio.Music.Poprock.Song04 = 0 ? radio-music-poprock-song04
+		-> _Radio.Music.Poprock.Song03 = 0 ? radio-music-poprock-song03
+		-> _Radio.Music.Poprock.Song02 = 0 ? radio-music-poprock-song02
+		-> _Radio.Music.Poprock.Song01 = 0 ? radio-music-poprock-song01
+		-> radio-music-poprock-song00
+
+
+=== radio-music-poprock-intro3
+		-> _Radio.Music.Poprock.Song01 = 0 ? radio-music-poprock-song01
+		-> _Radio.Music.Poprock.Song02 = 0 ? radio-music-poprock-song02
+		-> _Radio.Music.Poprock.Song03 = 0 ? radio-music-poprock-song03
+		-> _Radio.Music.Poprock.Song04 = 0 ? radio-music-poprock-song04
+		-> radio-music-poprock-song00
+
+
+=== radio-music-poprock-song01
+		{ _Radio.Music.Poprock.Song01 = 1 }
+На вас обрушивается какая-то безумная басовая партия.
+Запыхавшийся певец мяукает всю песню, в которой, кажется, нет внятного припева.
+Ударные удивляют: ритм будто ломаный, слегка сбитый.
+Наконец песня резко обрывается, словно у музыкантов совсем не осталось сил.
+		-> radio-music-endofsong
+
+
+=== radio-music-poprock-song02
+		{ _Radio.Music.Poprock.Song02 = 1 }
+Хватает двух нот, чтобы узнать песню.
+Настоящая классика в исполнении богини поп-музыки. Вы незаметно для себя начинаете притопывать.
+Вот и тот момент, который вы так любите… Акустическая гитара набирает ход… А певица даже решается вставить испанское словечко…
+Солнечный луч в вашем такси.
+		-> radio-music-endofsong
+
+
+=== radio-music-poprock-song03
+		{ _Radio.Music.Poprock.Song03 = 1 }
+Вы сразу узнаёте низкий голос, звучащий из динамиков…
+Старая песня, и звучание под стать… Она напоминает об одном вечере. Медленный танец с девушкой…
+Как же её звали?
+…
+		-> radio-music-endofsong
+
+
+=== radio-music-poprock-song04
+		{ _Radio.Music.Poprock.Song04 = 1 }
+Вы попадаете на середину смутно знакомой песни…
+Всё привычно… Гитара… Ударные… И фортепиано, заполняющее собой всё.
+Странная идея — это фортепиано… Странная…
+Вы улыбаетесь, сами не очень понимая почему. Может, что-то вспомнилось?
+		-> radio-music-endofsong
+
+
+=== radio-music-poprock-song00
+Гитара. Бас. Ударные. Нарочито хриплый голос…
+Вы попали на совершенно заурядную рок-песню.
+Слушаете вполуха… Пока не замечаете, что она уже закончилась и началась следующая…
+		-> radio-music-endofsong
+
+
+=== radio-music-jazz-intro
+		-> ??radio-music-jazz-intro1 | radio-music-jazz-intro2 | radio-music-jazz-intro3
+
+
+=== radio-music-jazz-intro1
+		-> _Radio.Music.Jazz.Song04 = 0 ? radio-music-jazz-song04
+		-> _Radio.Music.Jazz.Song03 = 0 ? radio-music-jazz-song03
+		-> _Radio.Music.Jazz.Song02 = 0 ? radio-music-jazz-song02
+		-> _Radio.Music.Jazz.Song01 = 0 ? radio-music-jazz-song01
+		-> radio-music-jazz-song00
+
+
+=== radio-music-jazz-intro2
+		-> _Radio.Music.Jazz.Song03 = 0 ? radio-music-jazz-song03
+		-> _Radio.Music.Jazz.Song01 = 0 ? radio-music-jazz-song01
+		-> _Radio.Music.Jazz.Song04 = 0 ? radio-music-jazz-song04
+		-> _Radio.Music.Jazz.Song02 = 0 ? radio-music-jazz-song02
+		-> radio-music-jazz-song00
+
+
+=== radio-music-jazz-intro3
+		-> _Radio.Music.Jazz.Song01 = 0 ? radio-music-jazz-song01
+		-> _Radio.Music.Jazz.Song02 = 0 ? radio-music-jazz-song02
+		-> _Radio.Music.Jazz.Song03 = 0 ? radio-music-jazz-song03
+		-> _Radio.Music.Jazz.Song04 = 0 ? radio-music-jazz-song04
+		-> radio-music-jazz-song00
+
+
+=== radio-music-jazz-song01
+		%% The song is inspired by Avisahi Cohen.
+		{ _Radio.Music.Jazz.Song01 = 1 }
+Вы попадаете на середину композиции, которую часто крутят на этой частоте… и которую вы обожаете.
+Кажется, поют на иврите. Проступает простая фортепианная мелодия, а ударные постепенно становятся всё яростнее.
+Будто детская песенка на заднем плане становится всё неистовее.
+		-> radio-music-endofsong
+
+
+=== radio-music-jazz-song02
+		%% Song is inspired by John Coltrane’s « My Favorite Things ».
+		{ _Radio.Music.Jazz.Song02 = 1 }
+По радио звучит классика. Песня из мюзикла… Джазмен всячески обыгрывает её, переиначивает, преображает.
+Вы ничего не понимаете в музыке, но всегда узнаёте, когда музыкант от души наслаждается игрой.
+Звук трубы некоторое время баюкает вас, а потом взрывной финал заставляет широко улыбнуться.
+		-> radio-music-endofsong
+
+
+=== radio-music-jazz-song03
+		%% Song is « Stranger in Paradise » by Dorothy Ashby.
+		{ _Radio.Music.Jazz.Song03 = 1 }
+Ведущая объявляет композицию, полную бесконечной боли. Дороти Эшби. Джазовая арфистка.
+Вы прислушиваетесь: знакомая тема, вариации которой танцуют на струнах.
+Вы легко представляете её руки на инструменте. Дрожание струн под щипками пальцев.
+Музыка заканчивается раньше, чем вам хотелось бы.
+		-> radio-music-endofsong
+
+
+=== radio-music-jazz-song04
+		%% Song is Lalo Schifrin’s « The Wave »
+		{ _Radio.Music.Jazz.Song04 = 1 }
+Вы сразу узнаёте ритм: бразильский… босанова…
+Сразу вспоминаются солнце, пляж… Вы мечтаете побывать в Бразилии. Эта страна манит вас. Заставляет мечтать.
+Фортепианный ритм на заднем плане то приближается, то отдаляется, временами уступая место струнным и оркестру…
+А иногда внимание перехватывает перкуссия. Вступает, набирает силу, затем отступает перед нежностью струнных.
+«Прекрасно».
+		-> radio-music-endofsong
+
+
+=== radio-music-jazz-song00
+Звучащая композиция вам незнакома. Вдалеке играет контрабас, труба изо всех сил выдувает незавершённую мелодию…
+Очень скоро вы теряете интерес к музыке, звучащей по радио.
+		-> radio-music-endofsong
+
+
+=== radio-music-france-intro
+		-> ??radio-music-france-intro1 | radio-music-france-intro2 | radio-music-france-intro3
+
+
+=== radio-music-france-intro1
+		-> _Radio.Music.France.Song04 = 0 ? radio-music-france-song04
+		-> _Radio.Music.France.Song03 = 0 ? radio-music-france-song03
+		-> _Radio.Music.France.Song02 = 0 ? radio-music-france-song02
+		-> _Radio.Music.France.Song01 = 0 ? radio-music-france-song01
+		-> radio-music-france-song00
+
+
+=== radio-music-france-intro2
+		-> _Radio.Music.France.Song03 = 0 ? radio-music-france-song03
+		-> _Radio.Music.France.Song01 = 0 ? radio-music-france-song01
+		-> _Radio.Music.France.Song04 = 0 ? radio-music-france-song04
+		-> _Radio.Music.France.Song02 = 0 ? radio-music-france-song02
+		-> radio-music-france-song00
+
+
+=== radio-music-france-intro3
+		-> _Radio.Music.France.Song01 = 0 ? radio-music-france-song01
+		-> _Radio.Music.France.Song02 = 0 ? radio-music-france-song02
+		-> _Radio.Music.France.Song03 = 0 ? radio-music-france-song03
+		-> _Radio.Music.France.Song04 = 0 ? radio-music-france-song04
+		-> radio-music-france-song00
+
+
+=== radio-music-france-song01
+		{ _Radio.Music.France.Song01 = 1 }
+Тоненький голос объясняет вам: мир стал бы лучше, если бы люди разговаривали друг с другом.
+С каждым новым куплетом трудно не согласиться.
+А припев советует оторвать глаза от телефона и перестать верить рекламе.
+Мгновение спустя песня заканчивается, и ведущий объявляет рекламную паузу.
+		-> radio-music-endofsong
+
+
+=== radio-music-france-song02
+		{ _Radio.Music.France.Song02 = 1 }
+Вы попадаете на одну из тех песен, где модные исполнители и несколько старых звёзд твердят банальности о щедрости.
+Каждый год такие появляются — по самым разным поводам…
+Послушав несколько секунд, вы убавляете громкость: где-то между ушами уже зарождается мигрень.
+		-> radio-music-endofsong
+
+
+=== radio-music-france-song03
+		{ _Radio.Music.France.Song03 = 1 }
+Певец, надрывающийся сейчас по радио, явно никогда не учился петь.
+Голос квакает, скачет вверх-вниз, словно у подростка в разгар ломки голоса.
+А слова… Слова совершенно сбивают вас с толку.
+Кому придёт в голову петь о «новой волне»? Что это вообще такое? И зачем упоминать Мишеля Платини и Симону де Бовуар в одной фразе?
+		-> radio-music-endofsong
+
+
+=== radio-music-france-song04
+		{ _Radio.Music.France.Song04 = 1 }
+Вы попадаете на середину страшно популярной песни. Из тех, что звучат на каждой свадьбе.
+Знаете её наизусть, хотя… ни разу не включали по собственной воле.
+Эдакий французский рок, вполне приятный, слегка истеричный.
+Песня тянется добрых пять минут: сплошные переходы и ритмические сбивки.
+		-> radio-music-endofsong
+
+
+=== radio-music-france-song00
+Когда вы переключаетесь на станцию, играет довольно заурядная песня.
+Поют о нищете и будущем. Вместо припева — натянутый каламбур.
+Вы вздыхаете.
+		-> radio-music-endofsong
+
+
+=== radio-music-rap-intro
+		-> ??radio-music-rap-intro1 | radio-music-rap-intro2 | radio-music-rap-intro3
+
+
+=== radio-music-rap-intro1
+		-> _Radio.Music.Rap.Song04 = 0 ? radio-music-rap-song04
+		-> _Radio.Music.Rap.Song03 = 0 ? radio-music-rap-song03
+		-> _Radio.Music.Rap.Song02 = 0 ? radio-music-rap-song02
+		-> _Radio.Music.Rap.Song01 = 0 ? radio-music-rap-song01
+		-> radio-music-rap-song00
+
+
+=== radio-music-rap-intro2
+		-> _Radio.Music.Rap.Song02 = 0 ? radio-music-rap-song02
+		-> _Radio.Music.Rap.Song01 = 0 ? radio-music-rap-song01
+		-> _Radio.Music.Rap.Song04 = 0 ? radio-music-rap-song04
+		-> _Radio.Music.Rap.Song03 = 0 ? radio-music-rap-song03
+		-> radio-music-rap-song00
+
+
+=== radio-music-rap-intro3
+		-> _Radio.Music.Rap.Song01 = 0 ? radio-music-rap-song01
+		-> _Radio.Music.Rap.Song02 = 0 ? radio-music-rap-song02
+		-> _Radio.Music.Rap.Song03 = 0 ? radio-music-rap-song03
+		-> _Radio.Music.Rap.Song04 = 0 ? radio-music-rap-song04
+		-> radio-music-rap-song00
+
+
+=== radio-music-rap-song01
+		{ _Radio.Music.Rap.Song01 = 1 }
+Песня на два голоса… Первый — американский рэпер, который постепенно распаляется, странно наращивая напор.
+Второй голос… Американская суперзвезда. Она пытается успокоить рэпера, повторяя по кругу три фразы.
+Песня заканчивается, и вы чувствуете… умиротворение.
+		-> radio-music-endofsong
+
+
+=== radio-music-rap-song02
+		{ _Radio.Music.Rap.Song02 = 1 }
+Два французских рэпера сменяют друг друга, обмениваясь подколками.
+Песня до крайности истеричная. Вы чувствуете себя чертовски старым, будто что-то упустили.
+В конце — звуковые эффекты и слова на японском… Наверное, из какого-нибудь мультфильма.
+		-> radio-music-endofsong
+
+
+=== radio-music-rap-song03
+		{ _Radio.Music.Rap.Song03 = 1 }
+Голос, ворвавшийся в радиоэфир, сразу завораживает вас.
+Чувственный, мощный, он пробуждает что-то невероятно радостное.
+И всё же музыка мрачная, а слова — вы их не понимаете — кажутся апокалиптическими.
+Песня заканчивается… А следующая вдруг кажется совсем пресной.
+		-> radio-music-endofsong
+
+
+=== radio-music-rap-song04
+		{ _Radio.Music.Rap.Song04 = 1 }
+Французский рэпер. Голос большого плюшевого медведя, с каким-то очень странным носовым присвистом.
+Только к концу песни — мрачной истории о потерянном коде домофона — вы понимаете, что это пародия.
+Манера… Ритм… Вам нравится, и вы невольно улыбаетесь.
+		-> radio-music-endofsong
+
+
+=== radio-music-rap-song00
+Вы слишком редко слушаете радио, чтобы узнать эту песню…
+Или они все одинаковые?
+Заунывный тон рэпера не побуждает прислушаться.
+Вы быстро теряете интерес.
+		-> radio-music-endofsong
+
+
+=== radio-ghost-intro
+Вы быстро находите призрачную частоту, которую дала одна из ваших пассажирок.
+		-> ??radio-ghost-00 | radio-ghost-01 | radio-ghost-02 | radio-ghost-03 | radio-ghost-04
+
+
+=== radio-ghost-00
+		$$ sfx: sfx_gameplay_car_shohreh_radio $$
+Шум помех… странные переливы потрескивания… медленный вальс электронного шёпота…
+Вы чуть глубже опускаетесь в кресло. Вас наполняют покой и умиротворение.
+		-> radio-ghost-outro
+
+
+=== radio-ghost-01
+		$$ sfx: sfx_gameplay_car_shohreh_radio $$
+Как и в первый раз, когда вы её услышали, эта частота странно на вас действует…
+Вы почти мгновенно расслабляетесь…
+Перед глазами проходят образы. Словно эхо, сквозь треск пробиваются звуки.
+Первая ночь в тюрьме. Гудящая тишина. Дыхание вразнобой. Кислый запах…
+		-> radio-ghost-outro
+
+
+=== radio-ghost-02
+		$$ sfx: sfx_gameplay_car_shohreh_radio $$
+Радиочастота обдаёт вас успокаивающими волнами… несмотря на резкие высокие всплески среди помех…
+Вы быстро моргаете два-три раза.
+За звуками из радио слышится… лязг двери у вас за спиной… в день выхода из тюрьмы.
+Дверь хлопает и звенит, долго тянет одну ноту, словно радиопозывные.
+		-> radio-ghost-outro
+
+
+=== radio-ghost-03
+		$$ sfx: sfx_gameplay_car_shohreh_radio $$
+Пульсация за радиошумом сразу привлекает ваше внимание.
+Перед вами возникают образы — нет, вы не спите, не нужно, больше не нужно.
+Тело на полу. Нож в горле. Всё ещё в горле. Так и в…
+Пульсация резко обрывается, и вы выпрямляетесь.
+Почему-то… вы чувствуете, что в ладу с собой.
+Будто знаете: эти образы вы видите в последний раз.
+		-> radio-ghost-outro
+
+
+=== radio-ghost-04
+		$$ sfx: sfx_gameplay_car_shohreh_radio $$
+Частота слабеет… замедляется, уступая место голосу. Его не разобрать: волны и помехи искажают всё.
+Но вы слышите, как он поднимается. Поёт. Танцует.
+Вы снова видите руку невестки… и след от снятого обручального кольца.
+И младенца у неё на руках.
+Сейчас вы думаете то же, что семь лет назад: нельзя разрешать детям навещать заключённых…
+И всё же… эта улыбка… эти глаза…
+		-> radio-ghost-outro
+
+
+=== radio-ghost-05
+		$$ sfx: sfx_gameplay_car_shohreh_radio $$
+Сегодня частоту словно захватил ритм… удар… затерянный в радиоволнах.
+Бам. Он разносится по такси.
+Бам. Жар заливает лицо.
+Бам. В точности такой же звук, как от вашего кулака по…
+Бам. По столу прораба, который смотрит на вас с улыбкой…
+Бам. Он велит убираться, потому что убийцам…
+Бам. Вы кричите.
+…
+Ритма больше нет. Только призрачная частота, её волны, переливы и радиотреск.
+		-> radio-ghost-outro
+
+
+=== radio-ghost-outro
+		$$ sfx: !sfx_gameplay_car_shohreh_radio $$
+Вы качаете головой. Несколько минут пролетели незаметно. Вы медленно приходите в себя.
+		-> END
+
+
+=== radio-music-endofsong
+Поворотом ручки вы выключаете звук. В такси снова тихо.
+		-> END
+
+
+%% NEWS
+
+
+=== radio-menu-news
+Вы попадаете на ночной выпуск новостей.
+		-> _Day.Number < 4 ? radio-menu-news-hub01
+		-> _Day.Number > 3 ? radio-menu-news-hub02
+
+
+=== radio-menu-news-hub01
+		%% More chance of getting KILLER intel.
+		-> ??radio-menu-news-client-hub | radio-menu-news-killer-hub | radio-menu-news-killer-hub | radio-menu-news-killer-hub
+
+
+=== radio-menu-news-hub02
+		%% More chance of getting CLIENT intel.
+		-> ??radio-menu-news-client-hub | radio-menu-news-client-hub | radio-menu-news-client-hub | radio-menu-news-killer-hub
+
+
+=== radio-menu-news-client-hub
+		-> client01test = 0 ? Radio-News-Clients-01-test
+		-> client02test = 0 ? Radio-News-Clients-02-test
+		-> client03test = 0 ? Radio-News-Clients-03-test
+		-> client04test = 0 ? Radio-News-Clients-04-test
+		-> client05test = 0 ? Radio-News-Clients-05-test
+		-> client06test = 0 ? Radio-News-Clients-06-test
+		-> client07test = 0 ? Radio-News-Clients-07-test
+		-> client08test = 0 ? Radio-News-Clients-08-test
+		-> client09test = 0 ? Radio-News-Clients-09-test
+		-> client10test = 0 ? Radio-News-Clients-10-test
+		-> client11test = 0 ? Radio-News-Clients-11-test
+		-> client12test = 0 ? Radio-News-Clients-12-test
+		-> radio-menu-news-misc-hub
+
+
+=== radio-menu-news-killer-hub
+		-> _Killer.Is.Judge = 1 ? radio-menu-news-killer-hub-judge
+		-> _Killer.Is.Sandman = 1 ? radio-menu-news-killer-hub-sandman
+		-> _Killer.Is.Angel = 1 ? radio-menu-news-killer-hub-angel
+		-> radio-menu-news-misc-hub
+
+
+=== radio-menu-news-killer-hub-judge
+		-> ??radio-menu-news-killer-hub-judge1 | radio-menu-news-killer-hub-judge2 | radio-menu-news-killer-hub-judge3
+
+
+=== radio-menu-news-killer-hub-judge1
+		-> killerjudge01test = 0 ? Radio-News-Killer-Judge-01-test
+		-> killerjudge02test = 0 ? Radio-News-Killer-Judge-02-test
+		-> killerjudge03test = 0 ? Radio-News-Killer-Judge-03-test
+		-> killerjudge04test = 0 ? Radio-News-Killer-Judge-04-test
+		-> killerjudge05test = 0 ? Radio-News-Killer-Judge-05-test
+		-> killerjudge06test = 0 ? Radio-News-Killer-Judge-06-test
+		-> killerjudge07test = 0 ? Radio-News-Killer-Judge-07-test
+		-> killerjudge08test = 0 ? Radio-News-Killer-Judge-08-test
+		-> radio-menu-news-misc-hub
+
+
+=== radio-menu-news-killer-hub-judge2
+		-> killerjudge08test = 0 ? Radio-News-Killer-Judge-08-test
+		-> killerjudge07test = 0 ? Radio-News-Killer-Judge-07-test
+		-> killerjudge06test = 0 ? Radio-News-Killer-Judge-06-test
+		-> killerjudge05test = 0 ? Radio-News-Killer-Judge-05-test
+		-> killerjudge04test = 0 ? Radio-News-Killer-Judge-04-test
+		-> killerjudge03test = 0 ? Radio-News-Killer-Judge-03-test
+		-> killerjudge02test = 0 ? Radio-News-Killer-Judge-02-test
+		-> killerjudge01test = 0 ? Radio-News-Killer-Judge-01-test
+		-> radio-menu-news-misc-hub
+
+
+=== radio-menu-news-killer-hub-judge3
+		-> killerjudge04test = 0 ? Radio-News-Killer-Judge-04-test
+		-> killerjudge03test = 0 ? Radio-News-Killer-Judge-03-test
+		-> killerjudge06test = 0 ? Radio-News-Killer-Judge-06-test
+		-> killerjudge02test = 0 ? Radio-News-Killer-Judge-02-test
+		-> killerjudge07test = 0 ? Radio-News-Killer-Judge-07-test
+		-> killerjudge01test = 0 ? Radio-News-Killer-Judge-01-test
+		-> killerjudge08test = 0 ? Radio-News-Killer-Judge-08-test
+		-> killerjudge05test = 0 ? Radio-News-Killer-Judge-05-test
+		-> radio-menu-news-misc-hub
+
+
+=== Radio-News-Killer-Judge-01-test
+		{ killerjudge01test = 1 }
+		-> _Radio.Clue.Judge.01 = 0 ? Radio-News-Killer-Judge-01
+		-> radio-menu-news-killer-hub-judge
+
+
+=== Radio-News-Killer-Judge-02-test
+		{ killerjudge02test = 1 }
+		-> _Radio.Clue.Judge.02 = 0 ? Radio-News-Killer-Judge-02
+		-> radio-menu-news-killer-hub-judge
+
+
+=== Radio-News-Killer-Judge-03-test
+		{ killerjudge03test = 1 }
+		-> _Radio.Clue.Judge.03 = 0 ? Radio-News-Killer-Judge-03
+		-> radio-menu-news-killer-hub-judge
+
+
+=== Radio-News-Killer-Judge-04-test
+		{ killerjudge04test = 1 }
+		-> _Radio.Clue.Judge.04 = 0 ? Radio-News-Killer-Judge-04
+		-> radio-menu-news-killer-hub-judge
+
+
+=== Radio-News-Killer-Judge-05-test
+		{ killerjudge05test = 1 }
+		-> _Radio.Clue.Judge.05 = 0 ? Radio-News-Killer-Judge-05
+		-> radio-menu-news-killer-hub-judge
+
+
+=== Radio-News-Killer-Judge-06-test
+		{ killerjudge06test = 1 }
+		-> _Radio.Clue.Judge.06 = 0 ? Radio-News-Killer-Judge-06
+		-> radio-menu-news-killer-hub-judge
+
+
+=== Radio-News-Killer-Judge-07-test
+		{ killerjudge07test = 1 }
+		-> _Radio.Clue.Judge.07 = 0 ? Radio-News-Killer-Judge-07
+		-> radio-menu-news-killer-hub-judge
+
+
+=== Radio-News-Killer-Judge-08-test
+		{ killerjudge08test = 1 }
+		-> _Radio.Clue.Judge.08 = 0 ? Radio-News-Killer-Judge-08
+		-> radio-menu-news-killer-hub-judge
+
+
+=== radio-menu-news-killer-hub-sandman
+		-> ??radio-menu-news-killer-hub-sand1 | radio-menu-news-killer-hub-sand2 | radio-menu-news-killer-hub-sand3
+
+
+=== radio-menu-news-killer-hub-sand1
+		-> killersand01test = 0 ? Radio-News-Killer-Sand-01-test
+		-> killersand02test = 0 ? Radio-News-Killer-Sand-02-test
+		-> killersand03test = 0 ? Radio-News-Killer-Sand-03-test
+		-> killersand04test = 0 ? Radio-News-Killer-Sand-04-test
+		-> killersand05test = 0 ? Radio-News-Killer-Sand-05-test
+		-> killersand06test = 0 ? Radio-News-Killer-Sand-06-test
+		-> killersand07test = 0 ? Radio-News-Killer-Sand-07-test
+		-> killersand08test = 0 ? Radio-News-Killer-Sand-08-test
+		-> radio-menu-news-misc-hub
+
+
+=== radio-menu-news-killer-hub-sand2
+		-> killersand06test = 0 ? Radio-News-Killer-Sand-06-test
+		-> killersand07test = 0 ? Radio-News-Killer-Sand-07-test
+		-> killersand08test = 0 ? Radio-News-Killer-Sand-08-test
+		-> killersand01test = 0 ? Radio-News-Killer-Sand-01-test
+		-> killersand02test = 0 ? Radio-News-Killer-Sand-02-test
+		-> killersand03test = 0 ? Radio-News-Killer-Sand-03-test
+		-> killersand04test = 0 ? Radio-News-Killer-Sand-04-test
+		-> killersand05test = 0 ? Radio-News-Killer-Sand-05-test
+		-> radio-menu-news-misc-hub
+
+
+=== radio-menu-news-killer-hub-sand3
+		-> killersand08test = 0 ? Radio-News-Killer-Sand-08-test
+		-> killersand05test = 0 ? Radio-News-Killer-Sand-05-test
+		-> killersand03test = 0 ? Radio-News-Killer-Sand-03-test
+		-> killersand07test = 0 ? Radio-News-Killer-Sand-07-test
+		-> killersand02test = 0 ? Radio-News-Killer-Sand-02-test
+		-> killersand01test = 0 ? Radio-News-Killer-Sand-01-test
+		-> killersand04test = 0 ? Radio-News-Killer-Sand-04-test
+		-> killersand06test = 0 ? Radio-News-Killer-Sand-06-test
+		-> radio-menu-news-misc-hub
+
+
+=== Radio-News-Killer-Sand-01-test
+		{ killersand01test = 1 }
+		-> _Radio.Clue.Sand.01 = 0 ? Radio-News-Killer-Sandman-01
+		-> radio-menu-news-killer-hub-sandman
+
+
+=== Radio-News-Killer-Sand-02-test
+		{ killersand02test = 1 }
+		-> _Radio.Clue.Sand.02 = 0 ? Radio-News-Killer-Sandman-02
+		-> radio-menu-news-killer-hub-sandman
+
+
+=== Radio-News-Killer-Sand-03-test
+		{ killersand03test = 1 }
+		-> _Radio.Clue.Sand.03 = 0 ? Radio-News-Killer-Sandman-03
+		-> radio-menu-news-killer-hub-sandman
+
+
+=== Radio-News-Killer-Sand-04-test
+		{ killersand04test = 1 }
+		-> _Radio.Clue.Sand.04 = 0 ? Radio-News-Killer-Sandman-04
+		-> radio-menu-news-killer-hub-sandman
+
+
+=== Radio-News-Killer-Sand-05-test
+		{ killersand05test = 1 }
+		-> _Radio.Clue.Sand.05 = 0 ? Radio-News-Killer-Sandman-05
+		-> radio-menu-news-killer-hub-sandman
+
+
+=== Radio-News-Killer-Sand-06-test
+		{ killersand06test = 1 }
+		-> _Radio.Clue.Sand.06 = 0 ? Radio-News-Killer-Sandman-06
+		-> radio-menu-news-killer-hub-sandman
+
+
+=== Radio-News-Killer-Sand-07-test
+		{ killersand07test = 1 }
+		-> _Radio.Clue.Sand.07 = 0 ? Radio-News-Killer-Sandman-07
+		-> radio-menu-news-killer-hub-sandman
+
+
+=== Radio-News-Killer-Sand-08-test
+		{ killersand08test = 1 }
+		-> _Radio.Clue.Sand.08 = 0 ? Radio-News-Killer-Sandman-08
+		-> radio-menu-news-killer-hub-sandman
+
+
+=== radio-menu-news-killer-hub-angel
+		-> ??radio-menu-news-killer-hub-angel1 | radio-menu-news-killer-hub-angel2 | radio-menu-news-killer-hub-angel3
+
+
+=== radio-menu-news-killer-hub-angel1
+		-> killerangel01test = 0 ? Radio-News-Killer-Angel-01-test
+		-> killerangel03test = 0 ? Radio-News-Killer-Angel-03-test
+		-> killerangel05test = 0 ? Radio-News-Killer-Angel-05-test
+		-> killerangel07test = 0 ? Radio-News-Killer-Angel-07-test
+		-> radio-menu-news-misc-hub
+
+
+=== radio-menu-news-killer-hub-angel2
+		-> killerangel02test = 0 ? Radio-News-Killer-Angel-02-test
+		-> killerangel04test = 0 ? Radio-News-Killer-Angel-04-test
+		-> killerangel06test = 0 ? Radio-News-Killer-Angel-06-test
+		-> killerangel08test = 0 ? Radio-News-Killer-Angel-08-test
+		-> radio-menu-news-misc-hub
+
+
+=== radio-menu-news-killer-hub-angel3
+		-> killerangel08test = 0 ? Radio-News-Killer-Angel-08-test
+		-> killerangel07test = 0 ? Radio-News-Killer-Angel-07-test
+		-> killerangel06test = 0 ? Radio-News-Killer-Angel-06-test
+		-> killerangel05test = 0 ? Radio-News-Killer-Angel-05-test
+		-> killerangel04test = 0 ? Radio-News-Killer-Angel-04-test
+		-> killerangel03test = 0 ? Radio-News-Killer-Angel-03-test
+		-> killerangel02test = 0 ? Radio-News-Killer-Angel-02-test
+		-> killerangel01test = 0 ? Radio-News-Killer-Angel-01-test
+		-> radio-menu-news-misc-hub
+
+
+=== Radio-News-Killer-Angel-01-test
+		{ killerangel01test = 1 }
+		-> _Radio.Clue.Angel.01 = 0 ? Radio-News-Killer-Angel-01
+		-> radio-menu-news-killer-hub-angel
+
+
+=== Radio-News-Killer-Angel-02-test
+		{ killerangel02test = 1 }
+		-> _Radio.Clue.Angel.02 = 0 ? Radio-News-Killer-Angel-02
+		-> radio-menu-news-killer-hub-angel
+
+
+=== Radio-News-Killer-Angel-03-test
+		{ killerangel03test = 1 }
+		-> _Radio.Clue.Angel.03 = 0 ? Radio-News-Killer-Angel-03
+		-> radio-menu-news-killer-hub-angel
+
+
+=== Radio-News-Killer-Angel-04-test
+		{ killerangel04test = 1 }
+		-> _Radio.Clue.Angel.04 = 0 ? Radio-News-Killer-Angel-04
+		-> radio-menu-news-killer-hub-angel
+
+
+=== Radio-News-Killer-Angel-05-test
+		{ killerangel05test = 1 }
+		-> _Radio.Clue.Angel.05 = 0 ? Radio-News-Killer-Angel-05
+		-> radio-menu-news-killer-hub-angel
+
+
+=== Radio-News-Killer-Angel-06-test
+		{ killerangel06test = 1 }
+		-> _Radio.Clue.Angel.06 = 0 ? Radio-News-Killer-Angel-06
+		-> radio-menu-news-killer-hub-angel
+
+
+=== Radio-News-Killer-Angel-07-test
+		{ killerangel07test = 1 }
+		-> _Radio.Clue.Angel.07 = 0 ? Radio-News-Killer-Angel-07
+		-> radio-menu-news-killer-hub-angel
+
+
+=== Radio-News-Killer-Angel-08-test
+		{ killerangel08test = 1 }
+		-> _Radio.Clue.Angel.08 = 0 ? Radio-News-Killer-Angel-08
+		-> radio-menu-news-killer-hub-angel
+
+
+		%% MISC HUB
+=== radio-menu-news-misc-hub
+		-> ??Radio-News-Misc-01 | Radio-News-Misc-02 | Radio-News-Misc-03 | Radio-News-Misc-04 | Radio-News-Misc-05 | Radio-News-Misc-06 | Radio-News-Misc-07 | Radio-News-Misc-08 | Radio-News-Misc-09 | Radio-News-Misc-10
+
+
+		%% CLIENT HUB
+=== Radio-News-Clients-01-test
+		{ client01test = 1 }
+		-> _Driver.Met.Shohreh = 1 ? Radio-News-Clients-01-test2
+		-> radio-menu-news-client-hub
+
+
+=== Radio-News-Clients-02-test
+		{ client02test = 1 }
+		-> _Driver.Met.Alicia = 1 ? Radio-News-Clients-02-test2
+		-> radio-menu-news-client-hub
+
+
+=== Radio-News-Clients-03-test
+		{ client03test = 1 }
+		-> _Driver.Met.Christophe = 1 ? Radio-News-Clients-03-test2
+		-> radio-menu-news-client-hub
+
+
+=== Radio-News-Clients-04-test
+		{ client04test = 1 }
+		-> _Driver.Met.Francois = 1 ? Radio-News-Clients-04-test2
+		-> radio-menu-news-client-hub
+
+
+=== Radio-News-Clients-05-test
+		{ client05test = 1 }
+		-> _Driver.Met.Chiara = 1 ? Radio-News-Clients-05-test2
+		-> radio-menu-news-client-hub
+
+
+=== Radio-News-Clients-06-test
+		{ client06test = 1 }
+		-> _Driver.Met.Peter = 1 ? Radio-News-Clients-06-test2
+		-> radio-menu-news-client-hub
+
+
+=== Radio-News-Clients-07-test
+		{ client07test = 1 }
+		-> _Driver.Met.Amelie = 1 ? Radio-News-Clients-07-test2
+		-> radio-menu-news-client-hub
+
+
+=== Radio-News-Clients-08-test
+		{ client08test = 1 }
+		-> _Driver.Met.Childeric = 1 ? Radio-News-Clients-08-test2
+		-> radio-menu-news-client-hub
+
+
+=== Radio-News-Clients-09-test
+		{ client09test = 1 }
+		-> _Driver.Met.Houssine = 1 ? Radio-News-Clients-09-test2
+		-> radio-menu-news-client-hub
+
+
+=== Radio-News-Clients-10-test
+		{ client10test = 1 }
+		-> _Driver.Met.Pierrette = 1 ? Radio-News-Clients-10-test2
+		-> radio-menu-news-client-hub
+
+
+=== Radio-News-Clients-11-test
+		{ client11test = 1 }
+		-> _Driver.Met.Sylvie = 1 ? Radio-News-Clients-11-test2
+		-> radio-menu-news-client-hub
+
+
+=== Radio-News-Clients-12-test
+		{ client12test = 1 }
+		-> _Driver.Met.Hugo = 1 ? Radio-News-Clients-12-test2
+		-> radio-menu-news-client-hub
+
+
+=== Radio-News-Clients-01-test2
+		-> _Radio.Client.01 = 0 ? Radio-News-Clients-01
+		-> radio-menu-news-client-hub
+
+
+=== Radio-News-Clients-02-test2
+		-> _Radio.Client.02 = 0 ? Radio-News-Clients-02
+		-> radio-menu-news-client-hub
+
+
+=== Radio-News-Clients-03-test2
+		-> _Radio.Client.03 = 0 ? Radio-News-Clients-03
+		-> radio-menu-news-client-hub
+
+
+=== Radio-News-Clients-04-test2
+		-> _Radio.Client.04 = 0 ? Radio-News-Clients-04
+		-> radio-menu-news-client-hub
+
+
+=== Radio-News-Clients-05-test2
+		-> _Radio.Client.05 = 0 ? Radio-News-Clients-05
+		-> radio-menu-news-client-hub
+
+
+=== Radio-News-Clients-06-test2
+		-> _Radio.Client.06 = 0 ? Radio-News-Clients-06
+		-> radio-menu-news-client-hub
+
+
+=== Radio-News-Clients-07-test2
+		-> _Radio.Client.07 = 0 ? Radio-News-Clients-07
+		-> radio-menu-news-client-hub
+
+
+=== Radio-News-Clients-08-test2
+		-> _Radio.Client.08 = 0 ? Radio-News-Clients-08
+		-> radio-menu-news-client-hub
+
+
+=== Radio-News-Clients-09-test2
+		-> _Radio.Client.09 = 0 ? Radio-News-Clients-09
+		-> radio-menu-news-client-hub
+
+
+=== Radio-News-Clients-10-test2
+		-> _Radio.Client.10 = 0 ? Radio-News-Clients-10
+		-> radio-menu-news-client-hub
+
+
+=== Radio-News-Clients-11-test2
+		-> _Radio.Client.11 = 0 ? Radio-News-Clients-11
+		-> radio-menu-news-client-hub
+
+
+=== Radio-News-Clients-12-test2
+		-> _Radio.Client.12 = 0 ? Radio-News-Clients-12
+		-> radio-menu-news-client-hub
+
+
+=== Radio-News-Clients-01
+		{ _Radio.Client.01 = 1 }
+		$$ reveal: 046_03 $$
+		%% This news flash is about: Médaille Fields and Shoreh. Here, the Player will learn that Shohreh has autism. Please make sure the formulation is as inclusive as possible.
+Вы узнаёте: одна из обладательниц Филдсовской медали — награды самым выдающимся математикам — француженка иранского происхождения.
+В коротком репортаже звучит её голос, и вы сразу узнаёте свою пассажирку.
+Её зовут Шохре Превер. 33 года. У неё аутизм. Она математик.
+Вы невольно улыбаетесь, вспоминая её поездку на заднем сиденье.
+		-> Radio-News-outro
+
+
+=== Radio-News-Clients-02
+		{ _Radio.Client.02 = 1 }
+		%% This news flash is about: Alicia & Esmeralda. The client has to be met first.
+Одна из новостей — о новом законе, который должен помешать подросткам убегать из дома на поезде.
+Вы улыбаетесь: наверное, юная пассажирка не обрадуется тому, что всё началось из-за неё…
+		-> Radio-News-outro
+
+
+=== Radio-News-Clients-03
+		{ _Radio.Client.03 = 1 }
+		%% This news flash is about: Christophe. The client has to be met first.
+Слушая вполуха, вы улавливаете: прихожане составили петицию, чтобы их священник остался в приходе, несмотря на недавнюю женитьбу.
+Наверное, Кристофу от этого скорее неловко, чем радостно…
+		-> Radio-News-outro
+
+
+=== Radio-News-Clients-04
+		{ _Radio.Client.04 = 1 }
+		%% This news flash is about: François de la N. The client has to be met first.
+Ведущая заканчивает выпуск небольшой «новостью из жизни знаменитостей», как она это называет…
+%% Make sure the title is the same as the one used in François 01.
+Публицист и автор «Покорной Франции» якобы встречается с 23-летней украинской моделью.
+Даже имени в выпуске не называют…
+		-> Radio-News-outro
+
+
+=== Radio-News-Clients-05
+		{ _Radio.Client.05 = 1 }
+		%% This news flash is about: Chiara. The client has to be met first.
+Новость привлекает ваше внимание: девушку, развозившую готовую еду на велосипеде, сбил грузовик.
+Её жизни ничто не угрожает, но компания-работодатель из Кремниевой долины бросила её без поддержки…
+Курьер решила подать официальную жалобу.
+«Молодец».
+Вы тихонько присвистываете. Всё-таки эта пассажирка… если это и правда она… с характером.
+		-> Radio-News-outro
+
+
+=== Radio-News-Clients-06
+		{ _Radio.Client.06 = 1 }
+		%% This news flash is about: DJ Watson. The client has to be met first.
+Между двумя не особенно интересными новостями вы слышите: диджея, бывшую звезду французской сцены девяностых, нашли дома мёртвым. Вероятно, самоубийство.
+Других подробностей нет, и вы на мгновение задумываетесь: не ваш ли это пассажир?..
+		-> Radio-News-outro
+
+
+=== Radio-News-Clients-07
+		{ _Radio.Client.07 = 1 }
+		%% This news flash is about: Amélie. The client has to be met first.
+Вы сразу узнаёте голос женщины, у которой берут интервью: режиссёр порнофильмов, которую скоро пригласят в Елисейский дворец.
+Она хочет возродить французскую порноиндустрию и добиться законов, которые защитят актрис и актёров и обеспечат им оплату труда…
+		-> Radio-News-outro
+
+
+=== Radio-News-Clients-08
+		{ _Radio.Client.08 = 1 }
+		%% This news flash is about: Childéric & Hugo. The client has to be met first.
+Несколько минут репортажа с фестиваля погружают вас с головой в мир косплея.
+Один из молодых собеседников говорит на старинном французском, и вы смеётесь.
+Легко представить лицо журналиста при виде доспехов вашего пассажира…
+		-> Radio-News-outro
+
+
+=== Radio-News-Clients-09
+		{ _Radio.Client.09 = 1 }
+		%% This news flash is about: Houssine. The client has to be met first.
+Радио постепенно слышно всё хуже. В животе что-то сжимается… комок…
+Взгляд в зеркало заднего вида: заднее сиденье пусто.
+Сигнал возвращается, и журналистка с восторгом рассказывает о рождении тигрёнка в Венсенском зоопарке…
+		-> Radio-News-outro
+
+
+=== Radio-News-Clients-10
+		{ _Radio.Client.10 = 1 }
+		%% This news flash is about: Pierrette. The client has to be met first.
+Один из репортажей подробно рассказывает о закрытии «Ла Пьер» — ресторана со звездой.
+Поскольку шеф-повар отказывается говорить с прессой, журналисты расспрашивают бывших гостей на улице.
+Вы почти не слушаете, думая о Пьеретт…
+		-> Radio-News-outro
+
+
+=== Radio-News-Clients-11
+		{ _Radio.Client.11 = 1 }
+		%% This news flash is about: Sylvain & Sylvie. The client has to be met first.
+Вы прислушиваетесь к культурной рубрике…
+Говорят об опере Лео Делиба «Лакме». Публике особенно понравились декорации.
+Мать и сын, которых расспрашивают после спектакля, кажутся совершенно очарованными.
+Узнав голоса, вы улыбаетесь…
+		-> Radio-News-outro
+
+
+=== Radio-News-Clients-12
+		{ _Radio.Client.12 = 1 }
+		%% This news flash is about: Lost Legend V.
+Ведущая рассказывает о выходе очень долгожданной видеоигры.
+У магазина на Елисейских полях, где продажи начнутся в полночь, стоит очередь поклонников.
+Один из них называет Lost Legend V игрой целого поколения.
+Вы узнаёте голос и надеетесь, что юноша оделся получше, чем в тот раз в вашем такси…
+		-> Radio-News-outro
+
+
+=== Radio-News-Killer-Angel-01
+		%% This news flash is about: Angel Radio Clue 1. Killer < 1m70
+		{ _Radio.Clue.Angel.01 = 1 }
+Журналист рассказывает о новых свидетельских показаниях по делу Ангела смерти.
+Ничего особенно полезного — пока свидетель не упоминает рост убийцы… Якобы меньше метра семидесяти…
+		$$ clue: clue_angel_radionews01_01 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-News-outro
+
+
+=== Radio-News-Killer-Angel-02
+		%% This news flash is about: Angel Radio Clue 2. Victim 4 = gave part of her fortune to charity.
+		{ _Radio.Clue.Angel.02 = 1 }
+Из короткого репортажа об Ангеле смерти вы узнаёте: четвёртая жертва, Каролина Жарро, завещала всё своё состояние благотворительной организации…
+		$$ clue: clue_angel_radionews02_01 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-News-outro
+
+
+=== Radio-News-Killer-Angel-03
+		%% This news flash is about: Angel Radio Clue 3. Victim 4 = wealthy widow.
+		{ _Radio.Clue.Angel.03 = 1 }
+Журналистка затрагивает дело Ангела смерти, чтобы поговорить о последней жертве — Каролине Жарро.
+Её описывают как баснословно богатую вдову. Возможно, в этом и причина убийства…
+		$$ clue: clue_angel_radionews03_01 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-News-outro
+
+
+=== Radio-News-Killer-Angel-04
+		%% This news flash is about: Angel Radio Clue 4. Victim 1 comes from very religious family.
+		{ _Radio.Clue.Angel.04 = 1 }
+В коротком репортаже об Ангеле смерти вы слышите семью первой жертвы — Симона Коллона.
+Похоже, семья очень религиозная. Родные просят всех французов молиться за его душу…
+		$$ clue: clue_angel_radionews04_01 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-News-outro
+
+
+=== Radio-News-Killer-Angel-05
+		%% This news flash is about: Angel Radio Clue 5. Victim 2 = vegan, against animal cruelty
+		{ _Radio.Clue.Angel.05 = 1 }
+Ведущая возвращается к убийствам Ангела смерти и описывает вторую жертву как вегана, защитника прав животных.
+То, как она это говорит, заставляет вас насторожиться. Тон слегка агрессивный, даже циничный.
+Вы понимаете: это может быть зацепкой…
+		$$ clue: clue_angel_radionews05_01 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-News-outro
+
+
+=== Radio-News-Killer-Angel-06
+		%% This news flash is about: Angel Radio Clue 6. Victim 3 received death threats: « LUST ». Victim 3 rarely left home. Victim 3 famous for her roles in the 60s.
+		{ _Radio.Clue.Angel.06 = 1 }
+В интервью с криминологом журналист вспоминает одну из жертв Ангела смерти — актрису Зиту Вельпо.
+Вы узнаёте, что она жила затворницей с тех пор, как её карьера закончилась в шестидесятых.
+		%% Make sure the way the word is translated here fits with how the clue is translated: "LUST".
+За несколько недель до убийства актрисе угрожали смертью. В одной угрозе было всего одно слово: «ЗАВИСТЬ».
+Отсылка к смертному греху…
+		$$ clue: clue_angel_radionews06_01 $$
+		$$ clue: clue_angel_radionews06_02 $$
+		$$ clue: clue_angel_radionews06_03 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-News-outro
+
+
+=== Radio-News-Killer-Angel-07
+		%% This news flash is about: Angel Radio Clue 7. Break-ins were done by a pro.
+		{ _Radio.Clue.Angel.07 = 1 }
+В коротком репортаже специалистка по безопасности объясняет: все кражи со взломом по делу Ангела смерти — работа профессионала.
+Вы повторяете её слова вслух, чтобы до конца осознать их важность.
+«Работа профессионала…»
+		$$ clue: clue_angel_radionews07_01 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-News-outro
+
+
+=== Radio-News-Killer-Angel-08
+		%% This news flash is about: Angel Radio Clue 8. Victims let the killer in — must look inoffensive
+		{ _Radio.Clue.Angel.08 = 1 }
+По словам ведущего, источник, близкий к полиции, отмечает: судя по всему, жертвы сами впустили убийцу.
+Значит, он должен выглядеть безобидно…
+		$$ clue: clue_angel_radionews08_01 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-News-outro
+
+
+=== Radio-News-Killer-Judge-01
+		%% This news flash is about: Judge Radio Clue 1. First 3 victims files = part of police leak 2 years ago.
+		{ _Radio.Clue.Judge.01 = 1 }
+Вкратце напоминая о деле Судьи, ведущая подчёркивает: сведения о первых трёх жертвах были среди утёкших данных…
+Вы смутно помните: два года назад в открытый доступ попали сведения о судимостях.
+Это может помочь сузить круг подозреваемых…
+		$$ clue: clue_judge_radionews01_01 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-News-outro
+
+
+=== Radio-News-Killer-Judge-02
+		%% This news flash is about: Judge Radio Clue 2. Rictodin victims still asking for retribution.
+		{ _Radio.Clue.Judge.02 = 1 }
+В новостях напоминают: пострадавшие от «Риктодина» — лекарства, вызвавшего множество заболеваний, — всё ещё ждут компенсации.
+Вы мысленно отмечаете эту информацию…
+		$$ clue: clue_judge_radionews02_01 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-News-outro
+
+
+=== Radio-News-Killer-Judge-03
+		%% This news flash is about: Judge Radio Clue 3. Message on crime scene 3 linked to the Process.
+		{ _Radio.Clue.Judge.03 = 1 }
+Журналист беседует с криминологом и упоминает надпись на месте третьего убийства.
+«Время вышло»… Эти слова использовали политические противники аргентинской хунты…
+		$$ clue: clue_judge_radionews03_01 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-News-outro
+
+
+=== Radio-News-Killer-Judge-04
+		%% This news flash is about: Judge Radio Clue 4. Homeless man seen around crime scene 2 & 3
+		{ _Radio.Clue.Judge.04 = 1 }
+Во время уличного опроса о Судье прохожая напоминает: полиция до сих пор не арестовала бездомного, которого видели возле мест преступлений.
+Вы поднимаете бровь. Об этом вы не знали…
+		$$ clue: clue_judge_radionews04_01 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-News-outro
+
+
+=== Radio-News-Killer-Judge-05
+		%% This news flash is about: Judge Radio Clue 5. Bullet case found on crime scene 4 = police gun.
+		{ _Radio.Clue.Judge.05 = 1 }
+Ведущая принимает коллегу с эксклюзивными сведениями о Судье. В основном всё сводится к рекламе его книги.
+И всё же одна деталь привлекает ваше внимание.
+По его словам, гильза на месте последнего преступления доказывает, что оружие — полицейское.
+Затем он пускается в долгие рассуждения о заговоре…
+		$$ clue: clue_judge_radionews05_01 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-News-outro
+
+
+=== Radio-News-Killer-Judge-06
+		%% This news flash is about: Judge Radio Clue 6. Killer = a professional.
+		{ _Radio.Clue.Judge.06 = 1 }
+Эксперт в интервью журналистке не сомневается: убийца — профессионал.
+Он уверенно преподносит это как истину. Вы запоминаете…
+		$$ clue: clue_judge_radionews06_01 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-News-outro
+
+
+=== Radio-News-Killer-Judge-07
+		%% This news flash is about: Judge Radio Clue 7. Killings could be linked to mafia.
+		{ _Radio.Clue.Judge.07 = 1 }
+Прохожий, которого спрашивают о Судье, не сомневается: убийства связаны с мафией.
+Для него это настолько очевидно, что подтверждать свои слова он не считает нужным…
+		$$ clue: clue_judge_radionews07_01 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-News-outro
+
+
+=== Radio-News-Killer-Judge-08
+		%% This news flash is about: Judge Radio Clue 8. Killings could be linked to mafia. Victim 1 owed money to the mafia.
+		{ _Radio.Clue.Judge.08 = 1 }
+Автор детективов, приглашённый журналисткой поговорить о новой книге, затрагивает дело Судьи.
+Он без колебаний заявляет: по его источникам, первая жертва задолжала мафии.
+Впрочем, по его мнению, всё дело связано с мафией.
+Судья — лишь способ скрыть настоящих виновников.
+		$$ clue: clue_judge_radionews08_01 $$
+		$$ clue: clue_judge_radionews08_02 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-News-outro
+
+
+=== Radio-News-Killer-Sandman-01
+		%% This news flash is about: Sandman Radio Clue 1. Albatros Fire = millions in insurance money.
+		{ _Radio.Clue.Sand.01 = 1 }
+Одна из главных новостей касается Песочного человека…
+Согласно новому отчёту, страховка «Альбатроса» может принести группе «Диамант» миллионы.
+Эта новость вас настораживает… вы берёте её на заметку.
+		$$ clue: clue_sand_radionews_01_01 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-News-outro
+
+
+=== Radio-News-Killer-Sandman-02
+		%% This news flash is about: Sandman Radio Clue 2. Albatros Fire = accident due to bad state of building.
+		{ _Radio.Clue.Sand.02 = 1 }
+Журналист возвращается к делу «Альбатроса».
+Согласно предварительному отчёту, пожар, предположительно, произошёл случайно из-за того, что за зданием плохо следили…
+		$$ clue: clue_sand_radionews_02_01 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-News-outro
+
+
+=== Radio-News-Killer-Sandman-03
+		%% This news flash is about: Sandman Radio Clue 3. Albatros Fire = criminal act.
+		{ _Radio.Clue.Sand.03 = 1 }
+Журналистка вскользь упоминает «Альбатрос». По мнению экспертов, не связанных со страховой компанией, причиной пожара мог быть поджог.
+Страховая компания отказалась комментировать это заявление…
+		$$ clue: clue_sand_radionews_03_01 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-News-outro
+
+
+=== Radio-News-Killer-Sandman-04
+		%% This news flash is about: Sandman Radio Clue 4. Victim 1 = suspect in Albatros fire + Victim 1 = no alibi for Albatros fire
+		{ _Radio.Clue.Sand.04 = 1 }
+Ведущий рассказывает о новой зацепке в деле Песочного человека…
+По имеющимся сведениям, первую жертву какое-то время подозревали в причастности к пожару в «Альбатросе», но потом отпустили.
+Хотя алиби на ночь трагедии у него не было…
+		$$ clue: clue_sand_radionews_04_01 $$
+		$$ clue: clue_sand_radionews_04_02 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-News-outro
+
+
+=== Radio-News-Killer-Sandman-05
+		%% This news flash is about: Sandman Radio Clue 5. Victim 3 = fantastic journalist.
+		{ _Radio.Clue.Sand.05 = 1 }
+Затронув дело Песочного человека, ведущий напоминает, какой выдающейся журналисткой была его подруга Микаэла Блан.
+Вы думаете о ней, пока он переходит к следующим новостям…
+		$$ clue: clue_sand_radionews_05_01 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-News-outro
+
+
+=== Radio-News-Killer-Sandman-06
+		%% This news flash is about: Sandman Radio Clue 6. Victim 3 = coins in mouth.
+		{ _Radio.Clue.Sand.06 = 1 }
+Холодным, бесстрастным голосом журналистка рассказывает о Песочном человеке и последних сведениях, просочившихся в прессу…
+Жертву якобы нашли с монетами во рту и горле.
+Вы смотрите на часы, сомневаясь, что в радиоэфире нужны такие подробности…
+		$$ clue: clue_sand_radionews_06_01 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-News-outro
+
+
+=== Radio-News-Killer-Sandman-07
+		%% This news flash is about: Sandman Radio Clue 7. Victims = connected through escort website.
+		{ _Radio.Clue.Sand.07 = 1 }
+Журналист быстро переходит к делу Песочного человека…
+По сведениям источника, близкого к расследованию, некоторые жертвы могут быть связаны через сайт эскорт-услуг. Полиция считает эту версию нелепой.
+Вы мысленно отмечаете эту информацию…
+		$$ clue: clue_sand_radionews_07_01 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-News-outro
+
+
+=== Radio-News-Killer-Sandman-08
+		%% This news flash is about: Sandman Radio Clue 8. Victim 4's will blocking inheritance in case of murder.
+		{ _Radio.Clue.Sand.08 = 1 }
+Журналистка напоминает: после гибели четвёртой жертвы Песочного человека прошли недели, а наследники всё ещё спорят.
+Адвокат семьи объясняет: сначала нужно раскрыть убийство — вдруг убийца сам наследник Анри дю Тийё…
+		$$ clue: clue_sand_radionews_08_01 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-News-outro
+
+
+=== Radio-News-Misc-01
+		%% This news flash is about: Syndrome de Paris pour les Japonais.
+Между двумя мрачными происшествиями журналистка упоминает «парижский синдром»…
+Панику, охватывающую туристов, особенно японских, когда они видят, что Париж далеко не так чист, как им представлялось.
+Из-за этого потрясения многие прерывают отпуск…
+		-> Radio-News-outro
+
+
+=== Radio-News-Misc-02
+		%% This news flash is about: Découverte de ruines romaines durant les travaux du mémorial de l’Holocauste.
+После нескольких унылых новостей журналистка объявляет: на острове Сите, в нескольких метрах от собора Парижской Богоматери, обнаружены римские руины.
+Предположительно, это древний храм неизвестного божества, вероятно связанного с Сеной…
+		-> Radio-News-outro
+
+
+=== Radio-News-Misc-03
+		%% This news flash is about: Arnaque : un Saoudien aurait racheté la tour Eiffel.
+Между двумя плохими новостями журналист вставляет забавную историю: саудовец якобы купил Эйфелеву башню у французской пары.
+Разумеется, это мошенничество. Ведущий добавляет: покупателя должна была насторожить смешная цена — всего 22 миллиона евро…
+		-> Radio-News-outro
+
+
+=== Radio-News-Misc-04
+		%% This news flash is about: Projet d’ouverture d’une nouvelle station service… elle est promise depuis des années.
+Ведущий объявляет: в Париже должна открыться новая заправка… примерно к 2022 году.
+Из-за требований безопасности и расходов город не может обзавестись новыми бензоколонками. К большому огорчению водителей…
+		-> Radio-News-outro
+
+
+=== Radio-News-Misc-05
+		%% This news flash is about: a corrupted football club.
+Ведущая объявляет о новых обысках в крупнейшем французском футбольном клубе…
+По слухам, от налогов скрыли почти полмиллиарда евро.
+Она тут же добавляет: это может помешать клубу выиграть следующий чемпионат.
+Вы устало вздыхаете от такого странного комментария.
+		-> Radio-News-outro
+
+
+=== Radio-News-Misc-06
+		%% This news flash is about: the death of a film composer.
+Журналист возвращается к смерти великого французского кинокомпозитора.
+Перечисляет фильмы с его музыкой, и вы, сами того не ожидая, узнаёте большинство названий.
+Вы и не думали, что француз мог поработать над столькими крупными американскими фильмами…
+		-> Radio-News-outro
+
+
+=== Radio-News-Misc-07
+		%% This news flash is about: Crise alimentaire. New York Pizza Pizza is a name of a fast food chain.
+Одна из многочисленных новостей запоминается: сети быстрого питания New York Pizza Pizza придётся закрыть около дюжины заведений.
+Причина? В тесте для пиццы нашли опасную бактерию. Тесто делают в Турции… и доставляют самолётами.
+…
+Вы щуритесь, пытаясь понять логику…
+		-> Radio-News-outro
+
+
+=== Radio-News-Misc-08
+		%% This news flash is about: L’enquête se poursuit six mois après les faits…
+Ведущий возвращается к пожару в «Альбатросе», чтобы сообщить… что ничего нового нет.
+Спустя полгода всё ещё нет основной версии причин пожара, унёсшего почти девяносто жизней.
+		-> Radio-News-outro
+
+
+=== Radio-News-Misc-09
+		%% This news flash is about: Société Diamant refuse tout commentaire dans l’enquête de l’Albatros.
+Журналистка затрагивает тему «Альбатроса»…
+Сгоревший полгода назад дом всё ещё в центре судебного спора между бывшими жильцами и владельцем — группой «Диамант».
+В пожаре погибли девяносто человек…
+		-> Radio-News-outro
+
+
+=== Radio-News-Misc-10
+		%% This news flash is about: Ouverture d’une franchise au Japon. Confiseries du Marais.
+Журналистка с радостью сообщает об открытии магазина «Кондитерских Маре» в японском Киото.
+Вы не очень понимаете, что делать с этой информацией…
+		-> Radio-News-outro
+
+
+=== Radio-News-outro
+Как только выпуск заканчивается, вы выключаете радио. В такси снова тихо.
+		-> END
+
+
+		%% SHOW
+
+
+=== radio-menu-talkshow
+		-> _Talkshow.First = 1 ? radio-talkshow-introB
+		-> radio-talkshow-introA
+
+
+=== radio-talkshow-introA
+		{ _Talkshow.First = 1 }
+По ночам вы часто попадаете на одну и ту же передачу… Женщина, называющая себя Моник, принимает звонки со всей Франции.
+Люди говорят о проблемах, рассказывают о своей жизни… Моник слушает и советует.
+Вам нравится эта передача: она идёт, пока вы работаете, а люди в ней — такие же потухшие, усталые, на пределе…
+Но ещё и потому, что Моник тоже пытается узнать, кто убийца…
+		-> radio-talkshow-introB
+
+
+=== radio-talkshow-introB
+Вы включаете уже начавшуюся передачу… как всегда.
+		-> _Day.Number < 4 ? radio-talkshow-hub01
+		-> _Day.Number > 3 ? radio-talkshow-hub02
+		-> radio-talkshow-hub01
+
+
+=== radio-talkshow-hub01
+		%% More chance of getting KILLER intel.
+		-> ??radio-talkshow-client-hub | radio-talkshow-killer-hub | radio-talkshow-misc-hub | radio-talkshow-killer-hub | radio-talkshow-killer-hub | radio-talkshow-killer-hub
+
+
+=== radio-talkshow-hub02
+		%% Less chance of getting KILLER intel.
+		-> ??radio-talkshow-client-hub | radio-talkshow-killer-hub | radio-talkshow-misc-hub | radio-talkshow-misc-hub | radio-talkshow-misc-hub | radio-talkshow-client-hub | radio-talkshow-client-hub | radio-talkshow-client-hub
+
+
+=== radio-talkshow-client-hub
+		-> talkshow-client01 = 0 ? Radio-TalkShow-Client-01-test
+		-> talkshow-client02 = 0 ? Radio-TalkShow-Client-02-test
+		-> talkshow-client03 = 0 ? Radio-TalkShow-Client-03-test
+		-> talkshow-client04 = 0 ? Radio-TalkShow-Client-04-test
+		-> talkshow-client05 = 0 ? Radio-TalkShow-Client-05-test
+		-> talkshow-client06 = 0 ? Radio-TalkShow-Client-06-test
+		-> radio-talkshow-misc-hub
+
+
+=== Radio-TalkShow-Client-01-test
+		{ talkshow-client01 = 1 }
+		-> _Driver.Met.Julian = 1 ? Radio-TalkShow-Client-01-test2
+		-> radio-talkshow-client-hub
+
+
+=== Radio-TalkShow-Client-01-test2
+		-> _Radio.Talkshow.Client.01 = 0 ? Radio-TalkShow-Client-01
+		-> radio-talkshow-client-hub
+
+
+=== Radio-TalkShow-Client-02-test
+		{ talkshow-client02 = 1 }
+		-> _Killer.Is.Sandman = 1 ? Radio-TalkShow-Client-02-test2
+		-> radio-talkshow-client-hub
+
+
+=== Radio-TalkShow-Client-02-test2
+		-> _Radio.Talkshow.Client.02 = 0 ? Radio-TalkShow-Client-02
+		-> radio-talkshow-client-hub
+
+
+=== Radio-TalkShow-Client-03-test
+		{ talkshow-client03 = 1 }
+		-> _Killer.Is.Sandman = 1 ? Radio-TalkShow-Client-03-test2
+		-> radio-talkshow-client-hub
+
+
+=== Radio-TalkShow-Client-03-test2
+		-> _Radio.Talkshow.Client.03 = 0 ? Radio-TalkShow-Client-03
+		-> radio-talkshow-client-hub
+
+
+=== Radio-TalkShow-Client-04-test
+		{ talkshow-client04 = 1 }
+		-> _Driver.Met.Geraldine = 1 ? Radio-TalkShow-Client-04-test2
+		-> radio-talkshow-client-hub
+
+
+=== Radio-TalkShow-Client-04-test2
+		-> _Radio.Talkshow.Client.04 = 0 ? Radio-TalkShow-Client-04
+		-> radio-talkshow-client-hub
+
+
+=== Radio-TalkShow-Client-05-test
+		{ talkshow-client05 = 1 }
+		-> _Driver.Met.Denis = 1 ? Radio-TalkShow-Client-05-test2
+		-> radio-talkshow-client-hub
+
+
+=== Radio-TalkShow-Client-05-test2
+		-> _Radio.Talkshow.Client.05 = 0 ? Radio-TalkShow-Client-05
+		-> radio-talkshow-client-hub
+
+
+=== Radio-TalkShow-Client-06-test
+		{ talkshow-client06 = 1 }
+		-> _Driver.Met.Vincent = 1 ? Radio-TalkShow-Client-06-test2
+		-> radio-talkshow-client-hub
+
+
+=== Radio-TalkShow-Client-06-test2
+		-> _Radio.Talkshow.Client.06 = 0 ? Radio-TalkShow-Client-06
+		-> radio-talkshow-client-hub
+
+
+=== radio-talkshow-killer-hub
+		-> _Killer.Is.Judge = 1 ? radio-talkshow-killer-judge-hub
+		-> _Killer.Is.Sandman = 1 ? radio-talkshow-killer-sand-hub
+		-> _Killer.Is.Angel = 1 ? radio-talkshow-killer-angel-hub
+		-> radio-talkshow-client-hub
+
+
+=== radio-talkshow-killer-judge-hub
+		-> ??radio-talkshow-killer-judge-hub1 | radio-talkshow-killer-judge-hub2
+
+
+=== radio-talkshow-killer-judge-hub1
+		-> talkshow-killer-judge01 = 0 ? Radio-TalkShow-Killer-Judge-01-test
+		-> talkshow-killer-judge02 = 0 ? Radio-TalkShow-Killer-Judge-02-test
+		-> talkshow-killer-judge03 = 0 ? Radio-TalkShow-Killer-Judge-03-test
+		-> talkshow-killer-judge04 = 0 ? Radio-TalkShow-Killer-Judge-04-test
+		-> radio-talkshow-misc-hub
+
+
+=== radio-talkshow-killer-judge-hub2
+		-> talkshow-killer-judge04 = 0 ? Radio-TalkShow-Killer-Judge-04-test
+		-> talkshow-killer-judge03 = 0 ? Radio-TalkShow-Killer-Judge-03-test
+		-> talkshow-killer-judge02 = 0 ? Radio-TalkShow-Killer-Judge-02-test
+		-> talkshow-killer-judge01 = 0 ? Radio-TalkShow-Killer-Judge-01-test
+		-> radio-talkshow-misc-hub
+
+
+=== Radio-TalkShow-Killer-Judge-01-test
+		{ talkshow-killer-judge01 = 1 }
+		-> _Radio.Talk.Judge.01 = 0 ? Radio-TalkShow-Killer-Judge-01
+		-> radio-talkshow-killer-judge-hub
+
+
+=== Radio-TalkShow-Killer-Judge-02-test
+		{ talkshow-killer-judge02 = 1 }
+		-> _Radio.Talk.Judge.02 = 0 ? Radio-TalkShow-Killer-Judge-02
+		-> radio-talkshow-killer-judge-hub
+
+
+=== Radio-TalkShow-Killer-Judge-03-test
+		{ talkshow-killer-judge03 = 1 }
+		-> _Radio.Talk.Judge.03 = 0 ? Radio-TalkShow-Killer-Judge-03
+		-> radio-talkshow-killer-judge-hub
+
+
+=== Radio-TalkShow-Killer-Judge-04-test
+		{ talkshow-killer-judge04 = 1 }
+		-> _Radio.Talk.Judge.04 = 0 ? Radio-TalkShow-Killer-Judge-04
+		-> radio-talkshow-killer-judge-hub
+
+
+=== radio-talkshow-killer-sand-hub
+		-> ??radio-talkshow-killer-sand-hub1 | radio-talkshow-killer-sand-hub2
+
+
+=== radio-talkshow-killer-sand-hub1
+		-> talkshow-killer-sand01 = 0 ? Radio-TalkShow-Killer-Sandman-01-test
+		-> talkshow-killer-sand02 = 0 ? Radio-TalkShow-Killer-Sandman-02-test
+		-> talkshow-killer-sand03 = 0 ? Radio-TalkShow-Killer-Sandman-03-test
+		-> talkshow-killer-sand04 = 0 ? Radio-TalkShow-Killer-Sandman-04-test
+		-> radio-talkshow-misc-hub
+
+
+=== radio-talkshow-killer-sand-hub2
+		-> talkshow-killer-sand04 = 0 ? Radio-TalkShow-Killer-Sandman-04-test
+		-> talkshow-killer-sand03 = 0 ? Radio-TalkShow-Killer-Sandman-03-test
+		-> talkshow-killer-sand02 = 0 ? Radio-TalkShow-Killer-Sandman-02-test
+		-> talkshow-killer-sand01 = 0 ? Radio-TalkShow-Killer-Sandman-01-test
+		-> radio-talkshow-misc-hub
+
+
+=== Radio-TalkShow-Killer-Sandman-01-test
+		{ talkshow-killer-sand01 = 1 }
+		-> _Radio.Talk.Sand.01 = 0 ? Radio-TalkShow-Killer-Sandman-01
+		-> radio-talkshow-killer-sand-hub
+
+
+=== Radio-TalkShow-Killer-Sandman-02-test
+		{ talkshow-killer-sand02 = 1 }
+		-> _Radio.Talk.Sand.02 = 0 ? Radio-TalkShow-Killer-Sandman-02
+		-> radio-talkshow-killer-sand-hub
+
+
+=== Radio-TalkShow-Killer-Sandman-03-test
+		{ talkshow-killer-sand03 = 1 }
+		-> _Radio.Talk.Sand.03 = 0 ? Radio-TalkShow-Killer-Sandman-03
+		-> radio-talkshow-killer-sand-hub
+
+
+=== Radio-TalkShow-Killer-Sandman-04-test
+		{ talkshow-killer-sand04 = 1 }
+		-> _Radio.Talk.Sand.04 = 0 ? Radio-TalkShow-Killer-Sandman-04
+		-> radio-talkshow-killer-sand-hub
+
+
+=== radio-talkshow-killer-angel-hub
+		-> ??radio-talkshow-killer-angel-hub1 | radio-talkshow-killer-angel-hub2
+
+
+=== radio-talkshow-killer-angel-hub1
+		-> talkshow-killer-angel01 = 0 ? Radio-TalkShow-Killer-Angel-01-test
+		-> talkshow-killer-angel02 = 0 ? Radio-TalkShow-Killer-Angel-02-test
+		-> talkshow-killer-angel03 = 0 ? Radio-TalkShow-Killer-Angel-03-test
+		-> talkshow-killer-angel04 = 0 ? Radio-TalkShow-Killer-Angel-04-test
+		-> radio-talkshow-misc-hub
+
+
+=== radio-talkshow-killer-angel-hub2
+		-> talkshow-killer-sand04 = 0 ? Radio-TalkShow-Killer-Angel-04-test
+		-> talkshow-killer-sand03 = 0 ? Radio-TalkShow-Killer-Angel-03-test
+		-> talkshow-killer-sand02 = 0 ? Radio-TalkShow-Killer-Angel-02-test
+		-> talkshow-killer-sand01 = 0 ? Radio-TalkShow-Killer-Angel-01-test
+		-> radio-talkshow-misc-hub
+
+
+=== Radio-TalkShow-Killer-Angel-01-test
+		{ talkshow-killer-angel01 = 1 }
+		-> _Radio.Talk.Angel.01 = 0 ? Radio-TalkShow-Killer-Angel-01
+		-> radio-talkshow-killer-angel-hub
+
+
+=== Radio-TalkShow-Killer-Angel-02-test
+		{ talkshow-killer-angel02 = 1 }
+		-> _Radio.Talk.Angel.02 = 0 ? Radio-TalkShow-Killer-Angel-02
+		-> radio-talkshow-killer-angel-hub
+
+
+=== Radio-TalkShow-Killer-Angel-03-test
+		{ talkshow-killer-angel03 = 1 }
+		-> _Radio.Talk.Angel.03 = 0 ? Radio-TalkShow-Killer-Angel-03
+		-> radio-talkshow-killer-angel-hub
+
+
+=== Radio-TalkShow-Killer-Angel-04-test
+		{ talkshow-killer-angel04 = 1 }
+		-> _Radio.Talk.Angel.04 = 0 ? Radio-TalkShow-Killer-Angel-04
+		-> radio-talkshow-killer-angel-hub
+
+
+=== radio-talkshow-misc-hub
+		-> ??Radio-TalkShow-Misc-01 | Radio-TalkShow-Misc-02 | Radio-TalkShow-Misc-03 | Radio-TalkShow-Misc-04 | Radio-TalkShow-Misc-05 | Radio-TalkShow-Misc-06
+
+
+=== Radio-TalkShow-Client-01
+		%% This is about Julian and the Police Leak. It appears only after meeting Julian.
+		{ _Radio.Talkshow.Client.01 = 1 }
+Сегодня Моник говорит об утечке полицейских архивов. Перечисляет несколько замятых дел.
+Вы слышите, что разоблачителя задержали. Вспоминаете его и смотрите на заднее сиденье.
+		-> Radio-TalkShow-outro
+
+
+=== Radio-TalkShow-Client-02
+		%% This is about the Groupe Diamant. It appears only when the Killer is the Sandman.
+		{ _Radio.Talkshow.Client.02 = 1 }
+Двое слушателей спорят, виновата ли группа «Диамант», владеющая «Альбатросом», в пожаре.
+После трагедии прошли месяцы, а люди всё ещё говорят о ней. Эта история задела французов за живое…
+		-> Radio-TalkShow-outro
+
+
+=== Radio-TalkShow-Client-03
+		%% This is about the Albatros building. It appears only when the Killer is the Sandman.
+		{ _Radio.Talkshow.Client.03 = 1 }
+Моник спорит со слушательницей, по мнению которой «Альбатрос» следовало давно снести.
+Если у жильцов нет денег на жизнь в Париже, считает она, то и жить здесь им нельзя.
+Разговор быстро переходит на повышенные тона. Вы убавляете звук: голова вдруг тяжелеет.
+		-> Radio-TalkShow-outro
+
+
+=== Radio-TalkShow-Client-04
+		%% This is about a candy called « Les Confiseries du Marais ». It appears only after meeting Géraldine or Anita.
+		{ _Radio.Talkshow.Client.04 = 1 }
+Слушатель и один из гостей Моник спорят: стоит ли покупать сладости в «Кондитерских Маре» после того, как сеть перешла к крупной группе компаний.
+Вы улыбаетесь, вспоминая пассажирку…
+«Кондитерские Маре»… Надо как-нибудь зайти, попробовать.
+Когда всё закончится… Может быть.
+		-> Radio-TalkShow-outro
+
+
+=== Radio-TalkShow-Client-05
+		%% This is about Denis. It appears only after meeting him.
+		{ _Radio.Talkshow.Client.05 = 1 }
+Посреди гневной речи Моник о том, как отвратительно обошлись с участником телеигры…
+Вы понимаете: речь о вашем пассажире… Говорят, он добился своего, а создатели передачи принесли ему извинения.
+В следующем году он даже станет звездой нового шоу.
+Вы улыбаетесь.
+		-> Radio-TalkShow-outro
+
+
+=== Radio-TalkShow-Client-06
+		%% This is about Vincent and him betraying his political party. It appears only after meeting him.
+		{ _Radio.Talkshow.Client.06 = 1 }
+Слушатель требует вернуть смертную казнь — особенно для политиков, предающих партию и страну!
+Моник пытается унять спор, и звучит имя политика.
+Вы понимаете: это тот пассажир, который оставил портфель в вашем такси.
+Вспоминаете, как с него лил пот на заднем сиденье.
+		-> Radio-TalkShow-outro
+
+
+=== Radio-TalkShow-Killer-Angel-01
+		%% Clue is: Victim 4 = host refugees in her hotel
+		{ _Radio.Talk.Angel.01 = 1 }
+Моник и одна из слушательниц обсуждают нынешнее дело… Ангела смерти.
+По сведениям слушательницы, последняя жертва вполне могла укрывать политических беженцев у себя в особняке!
+Похоже, Моник не очень верит.
+		$$ clue: clue_angel_radioshow01_01 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-TalkShow-outro
+
+
+=== Radio-TalkShow-Killer-Angel-02
+		%% Clue is: Victim 4 = was a Russian spy
+		{ _Radio.Talk.Angel.02 = 1 }
+Слушатель утверждает, что последняя жертва на самом деле была шпионкой на службе у России.
+Моник вежливо осаживает его и напоминает: позвонить может каждый, у кого есть сведения, способные помочь полиции поймать Ангела смерти.
+		$$ clue: clue_angel_radioshow02_01 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-TalkShow-outro
+
+
+=== Radio-TalkShow-Killer-Angel-03
+		%% Clue is: Victim 2 = eco-terrorist
+		{ _Radio.Talk.Angel.03 = 1 }
+Сегодня обсуждают Ангела смерти. Моник беседует со слушателем о том, что Жюль Лима, вторая жертва, якобы был экотеррористом.
+		$$ clue: clue_angel_radioshow03_01 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-TalkShow-outro
+
+
+=== Radio-TalkShow-Killer-Angel-04
+		%% Clues are: Victim 3 part of the « Moon Flesh » cult + Victim 3 = Witness heard female voices
+		{ _Radio.Talk.Angel.04 = 1 }
+Вы попадаете как раз на рассказ Моник о третьей жертве Ангела смерти — Зите Вельпо.
+По словам Моник, всем было известно: Зита состояла в секте «Лунная плоть».
+Слушательница добавляет: она жила по соседству с Зитой Вельпо и в ночь убийства слышала только женские голоса.
+		$$ clue: clue_angel_radioshow04_01 $$
+		$$ clue: clue_angel_radioshow04_02 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-TalkShow-outro
+
+
+=== Radio-TalkShow-Killer-Judge-01
+		%% Clues are: Victim 1 = great football coach + Victims = wealthy
+		{ _Radio.Talk.Judge.01 = 1 }
+Слушатель, которому сейчас дали слово, не сомневается: все жертвы Судьи — обеспеченные люди…
+В пример он приводит первую жертву: отличный футбольный тренер, за плечами долгая карьера.
+		$$ clue: clue_judge_radioshow01_01 $$
+		$$ clue: clue_judge_radioshow01_02 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-TalkShow-outro
+
+
+=== Radio-TalkShow-Killer-Judge-02
+		%% Clue is: Victim 2 = fierce politician
+		{ _Radio.Talk.Judge.02 = 1 }
+Убитая горем слушательница рассказывает, как её потрясла смерть Шарля Бугрена. Политик такого масштаба, красавец, статный мужчина…
+		$$ clue: clue_judge_radioshow02_01 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-TalkShow-outro
+
+
+=== Radio-TalkShow-Killer-Judge-03
+		%% Clue is: Victim 3 = respected colonel & community pillar
+		{ _Radio.Talk.Judge.03 = 1 }
+Слушатель с испанским акцентом объясняет Моник: третья жертва Судьи — прежде всего замечательный человек, выдающийся полковник.
+Делал пожертвования, помогал общине. Его смерть — трагедия.
+		$$ clue: clue_judge_radioshow03_01 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-TalkShow-outro
+
+
+=== Radio-TalkShow-Killer-Judge-04
+		%% Clues are: Victim 2 killed an Algerian man, never arrested + Victim 2 = racist, homophobic far-right leader
+		{ _Radio.Talk.Judge.04 = 1 }
+Моник рассказывает, какое облегчение принесла ей смерть Шарля Бугрена…
+Политик-расист, гомофоб… Годами его обвиняли в убийстве демонстранта-коммуниста алжирского происхождения.
+Моник вздыхает… С его смертью у неё словно отлегло от сердца.
+		$$ clue: clue_judge_radioshow04_01 $$
+		$$ clue: clue_judge_radioshow04_02 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-TalkShow-outro
+
+
+=== Radio-TalkShow-Killer-Sandman-01
+		%% Clue is: Victim 1’s death = scapegoat
+		{ _Radio.Talk.Sand.01 = 1 }
+Моник жарко спорит со слушателем с молодым голосом.
+По его мнению, убийство первой жертвы Песочного человека было лишь способом отвлечь внимание от настоящей трагедии: пожара в «Альбатросе».
+		$$ clue: clue_sand_radioshow01_01 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-TalkShow-outro
+
+
+=== Radio-TalkShow-Killer-Sandman-02
+		%% Clue is: Albatros Fire = good for Groupe Diamant’s business
+		{ _Radio.Talk.Sand.02 = 1 }
+Слушатель считает пожар в «Альбатросе» благом.
+Дом старый, дохода не приносил, только место в Париже занимал…
+Его уничтожение выгодно группе «Диамант».
+		$$ clue: clue_sand_radioshow02_01 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-TalkShow-outro
+
+
+=== Radio-TalkShow-Killer-Sandman-03
+		%% Clue is: Pancuronium bromide used for sexual pleasure
+		{ _Radio.Talk.Sand.03 = 1 }
+Одна из слушательниц Моник считает, что вещество, которым пользовался Песочный человек, в основном применяют любители садомазохизма.
+Она подробно рассказывает о своём опыте с бромидом панкурония.
+		$$ clue: clue_sand_radioshow03_01 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-TalkShow-outro
+
+
+=== Radio-TalkShow-Killer-Sandman-04
+		%% Clue is: Killer > 1m80
+		{ _Radio.Talk.Sand.04 = 1 }
+Моник беседует с человеком, якобы видевшим одно из убийств Песочного человека…
+Голос звучит немолодо, с очень сильным северным акцентом. По словам собеседника, запомнился лишь рост убийцы… больше метра восьмидесяти.
+В остальном? Ничего особенного.
+		$$ clue: clue_sand_radioshow04_01 $$
+		{ _Found.Clue.Today = 1 }
+		-> Radio-TalkShow-outro
+
+
+=== Radio-TalkShow-Misc-01
+		%% Generic text
+Двое слушателей орут друг на друга, сыплют цифрами и процентами. Когда Моник вмешивается, её голос звучит сонно.
+Вы зеваете.
+		-> Radio-TalkShow-outro
+
+
+=== Radio-TalkShow-Misc-02
+		%% Generic text
+Моник с обычным красноречием рассказывает историю. Вы быстро перестаёте следить за ней.
+Сейчас вам не до этого.
+		-> Radio-TalkShow-outro
+
+
+=== Radio-TalkShow-Misc-03
+		%% Generic text
+Моник обсуждает со слушателем что-то очень личное. Кажется, они знакомы.
+Обычно вам нравятся такие доверительные моменты в передаче, но… не сегодня.
+Вы озабочены… встревожены… из-за… из-за…
+Всего.
+		-> Radio-TalkShow-outro
+
+
+=== Radio-TalkShow-Misc-04
+		%% Generic text
+Слушательница объясняет, почему ест только гнилые фрукты.
+Вы улыбаетесь и целую долгую минуту слушаете её доводы, а потом окончательно отвлекаетесь.
+Сегодня нет настроения.
+		-> Radio-TalkShow-outro
+
+
+=== Radio-TalkShow-Misc-05
+		%% Generic text
+Моник, кажется, никак не может перестать смеяться. Слушатель пытается объяснить, почему младенцам нужно разрешить голосовать.
+Вы улыбаетесь: до чего же странная передача.
+		-> Radio-TalkShow-outro
+
+
+=== Radio-TalkShow-Misc-06
+		%% Generic text
+Моник перечисляет всех, кто участвовал в передаче. Людей за стеклом студии. Помощников. Тех, кто остаётся в тени.
+Вы.
+		-> Radio-TalkShow-outro
+
+
+=== Radio-TalkShow-outro
+		-> ??Radio-TalkShow-outroA | Radio-TalkShow-outroB | Radio-TalkShow-outroC | Radio-TalkShow-outroD
+
+
+=== Radio-TalkShow-outroA
+Через некоторое время передача увязает в сомнительных сравнениях…
+		-> radio-out
+
+
+=== Radio-TalkShow-outroB
+		%% The sentence should be working if the person talking with the radio host is a man or a woman.
+Через некоторое время Моник и собеседник уже не слушают друг друга: каждый твердит своё…
+		-> radio-out
+
+
+=== Radio-TalkShow-outroC
+Очень скоро передача начинает ходить по кругу…
+		-> radio-out
+
+
+=== Radio-TalkShow-outroD
+Через несколько мгновений Моник принимает звонок от слушательницы, которая полностью меняет тему…
+		-> radio-out
+
+
+=== radio-out
+		$$ movie: RadioOFF $$
+Вы выключаете звук радио и остаётесь наедине с тишиной такси.
+		-> END

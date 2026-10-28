@@ -1,0 +1,52 @@
+%% Scene Name: « Game Over: You’re Ruined! »
+%% This scene will be played when the Player reaches the money limit of -250€. The next day, when he gets home…
+%% ANIMATIONS
+		%% $$ anim: IDLE_DRIVER $$
+		%% $$ anim: IDLE_WINDOW $$
+		%% $$ anim: IDLE_ARM $$
+		%% $$ anim: IDLE_SAD $$
+		%% $$ anim-link: DRIVER_2_WINDOW $$
+		%% $$ anim-link: WINDOW_2_DRIVER $$
+		%% $$ anim-link: WINDOW_2_SAD $$
+		%% $$ anim-link: SAD_2_WINDOW $$
+		%% $$ anim-link: DRIVER_2_ARM $$
+		%% $$ anim-link: ARM_2_DRIVER $$
+%% DATA
+		+++ passengercall: NO PASSENGERCALL FOR THIS SCENE.
+		+++ anim-link: DRIVER_2_WINDOW -> TURNING_HEAD, IDLE_WINDOW
+		+++ anim-link: WINDOW_2_DRIVER -> TURNING_HEAD_REV, IDLE_DRIVER 
+		+++ anim-link: WINDOW_2_SAD -> IDLE_SAD
+		+++ anim-link: SAD_2_WINDOW -> IDLE_WINDOW
+		+++ anim-link: DRIVER_2_ARM -> RAISING_ARM, IDLE_ARM
+		+++ anim-link: ARM_2_DRIVER -> LOWERING_ARM, IDLE_DRIVER
+
+
+=== gameover-ruined-01-start
+		$$ movie: black $$
+Вы паркуетесь у своего дома. Кто-то стучит в окно. Вы поворачиваетесь: начальник.
+Он садится на заднее сиденье с непроницаемым лицом.
+* «Что-то случилось, босс?» -> gameover-ruined-01-problem
+* «Всё в порядке?» -> gameover-ruined-01-problem
+* :silence: (Промолчать.) -> gameover-ruined-01-silence
+
+
+=== gameover-ruined-01-problem
+БОСС: «Не знаю, как тебе сказать… но…»
+		-> gameover-ruined-01-silence
+
+
+=== gameover-ruined-01-silence
+Он протяжно вздыхает.
+БОСС: «Ты больше не платёжеспособен. У тебя ни гроша… Что ты, чёрт возьми, натворил?»
+«Да, я расплачусь…»
+БОСС: «Нет. Слишком поздно… Прости, но… Выбора нет. Банк на меня давит, я…»
+БОСС: «Мне придётся забрать такси и твою лицензию. Ничего не поделаешь».
+Голова кружится. Вы едва слышите голос начальника.
+Через несколько минут ваше такси уезжает без вас. А скоро полиция… Бюссе…
+Ваше лицо будет во всех газетах. Вся Франция поверит, что вы убийца.
+Вам конец…
+		$$ dialogspeed: fast $$
+Конец…
+…
+		$$ dialogspeed: normal $$
+		-> END

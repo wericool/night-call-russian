@@ -1,0 +1,195 @@
+%% Scene name: « Story: Intro »
+		%% This scene will be played at the beginning of every new game.
+		%% It is directly followed by the Boss_01 Scene.
+
+
+=== intro-start
+		$$ movie: black $$
+		$$ reveal: 000_00 $$
+ДОКТОР: «…»
+ДОКТОР: «…слышите?..»
+		$$ movie: Plafond_LoopIN $$
+		$$ movie: Plafond_Loop $$
+ДОКТОР: «Вы меня… слышите? Или говорить погромче?»
+* «Да, погромче.» -> intro-fontsize01
+* «Хорошо слышно.» -> intro-dyslexia
+* «Кажется, я не совсем понимаю.» -> intro-fontsize-help
+
+
+=== intro-fontsize-help
+ДОКТОР: «Я просто хочу, чтобы вам было удобно. Вы всегда можете передумать…»
+Женский голос — хриплый, потрёпанный жизнью. Он даёт вам глубокое чувство покоя.
+ДОКТОР: «Вам как удобнее: чтобы я говорила нормально, громко или очень громко?»
+* «Так хорошо.» -> intro-dyslexia
+* «Громко.» -> intro-fontsize01
+* «Как можно громче.» -> intro-fontsize02
+
+
+=== intro-fontsize00
+		$$ font-size: 0 $$
+ДОКТОР: «Хорошо. Так вам удобно?»
+* «Да!» -> intro-dyslexia
+* «Погромче, пожалуйста.» -> intro-fontsize01
+
+
+=== intro-fontsize01
+		$$ font-size: 1 $$
+ДОКТОР: «А так? Теперь достаточно громко?»
+* «Да, так хорошо.» -> intro-dyslexia
+* «Ещё громче.» -> intro-fontsize02
+* «Потише.» -> intro-fontsize00
+
+
+=== intro-fontsize02
+		$$ font-size: 2 $$
+ДОКТОР: «А теперь? Так хорошо?»
+* «Да, спасибо.» -> intro-dyslexia
+* «Потише.» -> intro-fontsize01
+
+
+=== intro-dyslexia
+		%% This passage will be expanded if we use a font for dyslexic people.
+		-> intro-story01
+
+
+=== intro-story01
+Она глубоко вздыхает.
+ДОКТОР: «Вы провели две недели в коме.»
+		$$ movie: Plafond_LoopOUT $$
+		$$ movie: black $$
+Слово мечется у вас в голове. Не сразу удаётся понять, что оно значит.
+		$$ movie: black $$
+		$$ dialogspeed: slow $$
+«В коме?»
+		$$ dialogspeed: normal $$
+		$$ movie: black $$
+Слово царапает горло.
+		$$ movie: Perfusion_LoopIN $$
+		$$ movie: Perfusion_Loop $$
+ДОКТОР: «Да… Вы стали жертвой нападения».
+В голове отзывается слово: жертва.
+ДОКТОР: «Вы ведь знаете, что в Париже сейчас орудует серийный убийца…»
+К горлу подступает тошнота.
+		-> _Killer.Is.Judge = 1 ? intro-story01-judge
+		-> _Killer.Is.Sandman = 1 ? intro-story01-sandman
+		-> _Killer.Is.Angel = 1 ? intro-story01-angel
+
+
+=== intro-story01-judge
+		$$ reveal: 999_00 $$
+ДОКТОР: «На вас напал Судья — так полиция называет убийцу. Пуля задела печень. Обычно такое ранение смертельно.»
+		%% Missing words: « a coma ».
+ДОКТОР: «Мы намеренно вызвали…»
+		-> intro-story02
+
+
+=== intro-story01-sandman
+		$$ reveal: 998_00 $$
+ДОКТОР: «Тот, кого… пресса прозвала Песочным человеком, выстрелил в вас и скрылся…»
+		%% Missing words: « a coma ».
+ДОКТОР: «Несколько минут вы оставались без кислорода. Мы намеренно вызвали…»
+		-> intro-story02
+
+
+=== intro-story01-angel
+		$$ reveal: 997_00 $$
+ДОКТОР: «Убийца, которого пресса называет Ангелом смерти, вонзил вам нож в правый бок, повредив много органов».
+		%% Missing words: « in a coma ».
+ДОКТОР: «Честно говоря, когда вас сюда привезли, надежды почти не было. Нам пришлось ввести вас в…»
+		-> intro-story02
+
+
+=== intro-story02
+		$$ movie: Perfusion_LoopOUT $$
+		$$ movie: black $$
+Её голос отдаляется… теряет чёткость…
+Во рту горчит желчь. Голова пылает. В одном ухе свистит.
+Вы тянетесь пальцами к ране. Под повязками чувствуется жёсткая кожа. Вспыхивает сильная боль.
+		$$ movie: Plafond_LoopIN $$
+		$$ movie: Plafond_Loop $$
+«Его…»
+ДОКТОР: «Простите?»
+		-> _Killer.Is.Judge = 1 ? intro-story02-judge
+		-> _Killer.Is.Sandman = 1 ? intro-story02-sandman
+		-> _Killer.Is.Angel = 1 ? intro-story02-angel
+
+
+=== intro-story02-judge
+«Его… поймали… Судью?»
+		-> intro-story02-outro
+
+
+=== intro-story02-sandman
+«Его поймали… этого…»
+ДОКТОР: «Песочного человека?»
+Вы киваете.
+		-> intro-story02-outro
+
+
+=== intro-story02-angel
+«Его поймали… Ангела?»
+		-> intro-story02-outro
+
+
+=== intro-story02-outro
+ДОКТОР: «Нет…»
+* «А мой пассажир?» -> intro-story03-client
+* «А полиция?» -> intro-story03-police-intro
+* :silence: (Ничего не говорить.) -> intro-story03-police-intro
+
+
+=== intro-story03-client
+ДОКТОР: «Он был мёртв ещё до того, как вы вышли из такси…»
+		-> intro-story03-police-intro
+
+
+=== intro-story03-police-intro
+Врач ненадолго замолкает — повисает неловкая пауза. Она колеблется, а потом…
+		-> intro-story03-police
+
+
+=== intro-story03-police
+ДОКТОР: «Скоро полиция захочет увидеть вас и задать вопросы».
+		-> _Killer.Is.Judge = 1 ? intro-story03-police-judge
+		-> _Killer.Is.Sandman = 1 ? intro-story03-police-sandman
+		-> _Killer.Is.Angel = 1 ? intro-story03-police-angel
+
+
+=== intro-story03-police-judge
+ДОКТОР: «Ведь вы единственный, кому удалось пережить нападение Судьи…»
+		-> intro-end
+
+
+=== intro-story03-police-sandman
+ДОКТОР: «Из всех жертв Песочного человека сейчас живы только вы.»
+		-> intro-end
+
+
+=== intro-story03-police-angel
+ДОКТОР: «Строго говоря, вы единственный, кто выжил после нападения Ангела смерти.»
+		-> intro-end
+
+
+=== intro-end
+Шум в коридоре привлекает ваше внимание. Вы пытаетесь повернуть голову… безуспешно.
+ДОКТОР: «Вам нужен покой…»
+		$$ movie: Plafond_LoopOUT $$
+		$$ movie: Perfusion_LoopIN $$
+		$$ movie: Perfusion_Loop $$
+Она выходит. Её голос раздаётся в коридоре.
+		$$ dialogspeed: fast $$
+ДОКТОР: «Мне всё равно, что он единственный свидетель… Он…»
+		$$ dialogspeed: normal $$
+Ей отвечает другая женщина — громким, властным голосом. Слов не разобрать.
+Вас охватывает странное чувство…
+		$$ movie: Perfusion_LoopOUT $$
+		$$ movie: black $$
+Это не боль… не усталость… а какая-то странная смесь того и другого.
+Лишь в этой больничной палате вы понимаете: гнев состоит из боли и изнеможения.
+Гнев.
+Чувство, знакомое вам слишком хорошо…
+…
+		$$ dialogspeed: slow $$
+Дни проходят. Месяц спустя…
+		$$ dialogspeed: normal $$
+		-> END

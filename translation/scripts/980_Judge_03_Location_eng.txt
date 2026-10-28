@@ -1,0 +1,238 @@
+%% SCENE NAME: « Judge Crime Scene 3 »
+%% CONTEXT
+		%% The Player can visit this location when investigating the Judge.
+%% LOCATION
+		%% Argentinian Embassy
+		%% Argentinian Embassy Clue #1: Message on crime scene 3 linked to the Process
+		%% Argentinian Embassy Clue #2: Victim 3 = known to have molested prisoners
+		%% Argentinian Embassy Clue #3: Victim 3 = colonel of the Junta, the Process
+%% DATA
+		VAR hoodie = 0
+
+
+=== 980-03-start
+		$$ movie: black $$
+Вы паркуетесь в нескольких кварталах от посольства Аргентины, где вас ждёт ваш… связной.
+Вы вздыхаете: иметь «связного» — странно. Слишком громко сказано.
+Он играет в покер с одним из ваших постоянных пассажиров… и работает ночным охранником в посольстве.
+		$$ sfx: sfx_gameplay_car_openclose_from_int $$
+		$$ movie: ArgentinianEmbassy $$
+Вы выходите из такси и идёте к ограде. Строгий стиль, наверное, начало двадцатого века. Много кованого железа…
+Ворота открываются. К вам приближается чья-то фигура…
+		$$ music-control: 0 $$
+		{ _Judge_Location_3 = 1 }
+Жестом зовёт за собой.
+Лицо скрыто под огромным капюшоном толстовки.
+Сердце забилось быстрее… А вдруг… это…
+* (Пойти следом.) -> 980-03-intro-follow
+* «Кто вы?» -> 980-03-intro-who
+* (Не двигаться.) -> 980-03-intro-stay
+
+
+=== 980-03-intro-who
+ХАЙМЕ: «Это я… Хайме. Друг вашего приятеля Давида».
+Вы сразу узнаёте акцент.
+Особой опасности вроде бы нет… и вы решаете пойти за ним.
+		-> 980-03-intro-follow
+
+
+=== 980-03-intro-stay
+		{ hoodie = 1 }
+Видя, что вы не идёте, незнакомец оборачивается и снимает капюшон.
+Перед вами молодой человек. Светлая кожа, вьющиеся волосы, спортивное телосложение…
+		-> 980-03-intro-who
+
+
+=== 980-03-intro-follow
+		$$ music-control: 20 $$
+Вы входите в узкий крытый проезд, наверное, ведущий на парковку…
+Мужчина оборачивается и прикуривает.
+		-> hoodie = 1 ? 980-03-intro-follow-hoodie
+		-> 980-03-intro-follow-hoodieno
+
+
+=== 980-03-intro-follow-hoodie
+В свете сигареты он выглядит почти мальчишкой.
+		-> 980-03-intel-intro
+
+
+=== 980-03-intro-follow-hoodieno
+Зажигалка на миг освещает лицо: молодой человек с вьющимися волосами и светлой кожей…
+Он выглядит молодо. Очень молодо.
+		-> 980-03-intel-intro
+
+
+=== 980-03-intel-intro
+ХАЙМЕ: «Двести пятьдесят евро».
+* «За сведения?» -> 980-03-intel-forintel
+* «Что?» -> 980-03-intel-what
+* «Они того стоят?» -> 980-03-intel-price
+* :money: (Заплатить.) -> 980-03-intel-pay-introA
+
+
+=== 980-03-intel-forintel
+ХАЙМЕ: «Ага… за сведения…»
+Он издаёт странный короткий смешок, очень гортанный.
+ХАЙМЕ: «А ты что думал? На свидание пришёл?»
+		-> 980-03-intel-what
+
+
+=== 980-03-intel-price
+ХАЙМЕ: «Я достал всё, что смог… Так что да…»
+		-> 980-03-intel-what
+
+
+=== 980-03-intel-what
+ХАЙМЕ: «Тебе нужны сведения о Городишере? Они у меня есть. За двести пятьдесят евро… Ну так что?»
+		-> 980-03-intel-pay-hub
+
+
+=== 980-03-intel-pay-hub
+* :money: (Заплатить.) -> 980-03-intel-pay-introA
+* (Поторговаться.) -> 980-03-intel-barter
+* (Не платить.) -> 980-03-intel-refuse
+
+
+=== 980-03-intel-pay-introA
+		-> _Money.Balance >= 250 ? 980-03-intel-pay-introA-paid
+		-> 980-03-intel-pay-refused
+
+
+=== 980-03-intel-pay-introA-paid
+		$$ money: -250 $$
+		-> 980-03-intel-pay
+
+
+=== 980-03-intel-pay-introB
+		-> _Money.Balance >= 250 ? 980-03-intel-pay-introB-paid
+		-> 980-03-intel-pay-refused
+
+
+=== 980-03-intel-pay-introB-paid
+		$$ money: -200 $$
+		-> 980-03-intel-pay
+
+
+=== 980-03-intel-pay-refused
+Денег не хватает… Вы опускаете глаза и делаете вид, что передумали.
+		-> 980-03-intel-refuse02
+
+
+=== 980-03-intel-pay
+За такие деньги вы надеетесь получить стоящие сведения… И платите.
+ХАЙМЕ: «Слушай внимательно, повторять не буду…»
+		$$ clue: clue_judge_embassy_03 $$
+		{ _Found.Clue.Today = 1 }
+ХАЙМЕ: «Городишер действительно был полковником хунты. Один из немногих, кого так и не арестовали и не судили».
+		$$ clue: clue_judge_embassy_02 $$
+		{ _Found.Clue.Today = 1 }
+ХАЙМЕ: «Он лично пытал… десятки политических противников. Пытал… и убивал».
+ХАЙМЕ: «Знаешь… Здесь его не любят. Зато богатые аргентинцы в Париже его обожают. Даже уважают».
+* «Уважали». -> 980-03-intel-pay-past
+* «Спасибо». -> 980-03-intel-pay-thanks
+* «И всё?» -> 980-03-intel-last
+
+
+=== 980-03-intel-pay-past
+Поправка его, похоже, не особенно трогает.
+ХАЙМЕ: «Ну да, как скажешь…»
+		-> 980-03-intel-pay-thatsall
+
+
+=== 980-03-intel-pay-thanks
+ХАЙМЕ: «Не за что…»
+		-> 980-03-intel-pay-thatsall
+
+
+=== 980-03-intel-pay-thatsall
+Он бросает на вас последний взгляд.
+		$$ music-control: 40 $$
+ХАЙМЕ: «Есть ещё кое-что…»
+		-> 980-03-intel-last
+
+
+=== 980-03-intel-last
+		%% The text used for the clue is « TIME IS UP ».
+		$$ clue: clue_judge_embassy_01 $$
+		{ _Found.Clue.Today = 1 }
+ХАЙМЕ: «В газете писали, что убийца оставил надпись мелом… „Время вышло“… Такой лозунг был под конец правления хунты».
+ХАЙМЕ: «Противники режима его повторяли. Мол, ваш час пробил».
+ХАЙМЕ: «Понимаешь?»
+Вы киваете.
+…
+		-> 980-03-end-intro
+
+
+=== 980-03-end-intro
+		$$ movie: stop $$
+		$$ sfx: sfx_gameplay_car_openclose_from_ext $$
+Мгновение спустя вы снова в такси. Денег стало меньше… зато появились новые сведения об одной из жертв.
+Если пойти по этой зацепке… возможно, в расследовании что-то прояснится…
+		-> 980-03-end
+
+
+=== 980-03-intel-barter
+Он поднимает обе руки перед грудью. Акцент становится сильнее.
+ХАЙМЕ: «Нет-нет. Двести пятьдесят — или ничего».
+ХАЙМЕ: «Узнают, что я разыскивал эти сведения, — сразу вылечу».
+* :money: (Заплатить.) -> 980-03-intel-pay-introA
+* (Не платить.) -> 980-03-intel-refuse
+
+
+=== 980-03-intel-refuse
+		$$ music-control: 40 $$
+На лице молодого человека разочарование. Что-то его удерживает.
+ХАЙМЕ: «Ладно… Слушай… Давай двести — и договорились, а?»
+* :money: (Заплатить.) -> 980-03-intel-pay-introB
+* (Не платить.) -> 980-03-intel-refuse02
+
+
+=== 980-03-intel-refuse02
+		$$ music-control: 60 $$
+ХАЙМЕ: «Ну и ладно…»
+Молодой человек проходит мимо, едва не толкнув вас, и уходит.
+Слышно, как открывается и с тяжёлым стуком закрывается дверь посольства.
+		$$ movie: stop $$
+		$$ sfx: sfx_gameplay_car_openclose_from_ext $$
+Мгновение спустя вы возвращаетесь в такси. Разочарованно качаете головой.
+		-> 980-03-end
+
+
+=== 980-03-end
+Вы заводите машину и возвращаетесь к работе.
+		-> judge-reveal1
+
+
+=== judge-reveal1
+		-> _Judge_Location_1 = 1 ? judge-reveal2
+		-> judge-conclusion
+
+
+=== judge-reveal2
+		-> _Judge_Location_2 = 1 ? judge-reveal3
+		-> judge-conclusion
+
+
+=== judge-reveal3
+		-> _Judge_Location_3 = 1 ? judge-reveal4
+		-> judge-conclusion
+
+
+=== judge-reveal4
+		-> _Judge_Location_4 = 1 ? judge-reveal5
+		-> judge-conclusion
+
+
+=== judge-reveal5
+		-> _Judge_Location_5 = 1 ? judge-reveal-final
+		-> judge-conclusion
+
+
+=== judge-reveal-final
+		$$ reveal: 000_20 $$
+		-> judge-conclusion
+
+
+=== judge-conclusion
+		$$ movie: stop $$
+		-> END

@@ -1,0 +1,35 @@
+%% Scene Name: « Gas Station Outro »
+
+
+=== gasstation-gas-start
+		{ _Running.Out.Gas += 1 }
+…
+Бензин кончился.
+		$$ dialogspeed: fast $$
+Само по себе глупо. А уж в Париже — совсем идиотизм.
+		$$ dialogspeed: normal $$
+Вы вздыхаете и звоните на ближайшую заправку.
+…
+		$$ time: 1 $$
+Через час вы расплачиваетесь с работником заправки.
+Вы потеряли время. Бак наполовину полон. Вы готовы ехать дальше.
+Придётся пережить насмешливый взгляд работника заправки…
+		-> _Running.Out.Gas = 1 ? gasstation-gas-ending1
+		-> _Running.Out.Gas = 2 ? gasstation-gas-ending2
+		-> _Running.Out.Gas > 2 ? gasstation-gas-ending3
+		-> gasstation-gas-ending3
+
+
+=== gasstation-gas-ending1
+Где это видано: таксист… и бензин кончился?
+		-> END
+
+
+=== gasstation-gas-ending2
+Наверное, он вас узнал…
+		-> END
+
+
+=== gasstation-gas-ending3
+Он знает: когда расскажет вашу историю, в неё будет трудно поверить.
+		-> END

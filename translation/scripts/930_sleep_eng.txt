@@ -1,0 +1,596 @@
+%% Scene name: « Sleep: In Bed »
+%% This scene will be played when the Driver goes to bed.
+
+
+=== sleep-start
+		$$ movie: black $$
+Вы устало проводите тяжёлой рукой по лицу.
+		%% Depending on BED STATE.
+		-> _Day.Number = 1 ? sleep-start-bedclosed-hub
+		-> _Day.Number = 2 ? sleep-start-bedclosed-hub
+		-> _Day.Number = 3 ? sleep-start-bedclosed-hub
+		-> _Day.Number = 4 ? sleep-start-bedopen-hub
+		-> _Day.Number = 5 ? sleep-start-bedopen-hub
+		-> _Day.Number = 6 ? sleep-start-bedopen-hub
+		-> sleep-start-bedopen-hub
+
+
+=== sleep-start-bedopen-hub
+		-> ??sleep-start-bedopen-basic01 | sleep-start-bedopen-basic02 | sleep-start-bedopen-basic03
+
+
+=== sleep-start-bedclosed-hub
+		-> ??sleep-start-bedclosed-basic01 | sleep-start-bedclosed-basic02 | sleep-start-bedclosed-basic03
+
+
+=== sleep-start-bedclosed-basic01
+Вы раскладываете диван и ложитесь.
+		-> sleep-hub
+
+
+=== sleep-start-bedclosed-basic02
+Вы медленно раскладываете диван и ложитесь.
+		-> sleep-hub
+
+
+=== sleep-start-bedclosed-basic03
+Вы тянете за механизм дивана. Он раскладывается с неприятным скрипом.
+Вы падаете на матрас.
+		-> sleep-hub
+
+
+=== sleep-start-bedopen-basic01
+Вы ложитесь на разложенный диван.
+		-> sleep-hub
+
+
+=== sleep-start-bedopen-basic02
+Вы забираетесь на разложенный диван.
+		-> sleep-hub
+
+
+=== sleep-start-bedopen-basic03
+Вы ложитесь на диван. Каркас скрипит.
+		-> sleep-hub
+
+
+=== sleep-hub
+		$$ movie: DriverInBed_Loop $$
+В голове проносятся события дня.
+Улицы… пассажиры… их лица… их проблемы…
+		-> _Money.Bank.Low = 1 ? sleep-finance-danger-hub
+		-> _Money.Bank.Low = 0 ? sleep-tired-mid-hub
+		-> sleep-tired-mid-hub
+
+
+=== sleep-tired-mid-hub
+		-> ?? sleep-tired-mid01 | sleep-tired-high01
+
+
+=== sleep-tired-mid01
+Мысли несутся на полной скорости… Всё тело ноет, вам больно.
+Вы чувствуете, что вашему телу не хватает сна…
+		-> sleep-hub2
+
+
+=== sleep-tired-high01
+Вы зеваете. В уголках глаз выступают слёзы.
+Неизвестно, сколько ещё выдержит тело, если продолжать в том же темпе…
+Если тело…
+		-> sleep-hub2
+
+
+=== sleep-finance-danger-hub
+		-> ?? sleep-finance-danger01 | sleep-finance-danger02
+
+
+=== sleep-finance-danger01
+Мысли снова и снова возвращаются к деньгам…
+Если вы потеряете работу… кто знает, что сделает Бюссе?
+Несколько секунд вы ворочаетесь…
+Устали…
+		-> sleep-hub2
+
+
+=== sleep-finance-danger02
+Несколько минут вы ворочаетесь…
+Все мысли об одном: деньги.
+Чтобы прогнать неприятные мысли, вы обещаете себе сосредоточиться на пассажирах.
+Так… удастся избежать…
+Всякого дерьма…
+		-> sleep-hub2
+
+
+=== sleep-hub2
+Вы смотрите на доску расследования…
+		-> _Day.Number = 1 ? sleep-date-beginninggame-hub
+		-> _Day.Number = 2 ? sleep-date-middlegame-hub
+		-> _Day.Number = 3 ? sleep-date-middlegame-hub
+		-> _Day.Number = 4 ? sleep-date-endgame-hub
+		-> _Day.Number = 5 ? sleep-date-endgame-hub
+		-> _Day.Number = 6 ? sleep-date-lastnight
+		-> sleep-date-lastnight
+
+
+=== sleep-date-beginninggame-hub
+		-> ??sleep-date-beginninggameB | sleep-date-beginninggameC
+
+
+=== sleep-date-middlegame-hub
+		-> ??sleep-date-middlegameA | sleep-date-middlegameB | sleep-date-middlegameC
+
+
+=== sleep-date-endgame-hub
+		-> ??sleep-date-endgameA | sleep-date-endgameB | sleep-date-endgameC
+
+
+=== sleep-date-beginninggameB
+		%% Missing words: « …the best way to investigate. »
+Она всё ещё кажется очень пустой… И уверены ли вы, что это лучшая…
+Пока рано судить.
+		-> sleep-hub3
+
+
+=== sleep-date-beginninggameC
+Она кажется совсем пустой. Завтра у вас будет шанс заполнить её ещё немного.
+		-> sleep-hub3
+
+
+=== sleep-date-middlegameA
+Она понемногу заполняется.
+Словно пытаясь навеять сон, вы проводите рукой по лицу.
+Пальцы дрожат. Наверное, от напряжения.
+		-> sleep-hub3
+
+
+=== sleep-date-middlegameB
+Расследование обретает форму. Понемногу. Кто бы подумал!
+Если бы Бюссе дала вам ещё немного времени…
+		-> sleep-hub3
+
+
+=== sleep-date-middlegameC
+Вы надеетесь найти ещё сведения… Этой ночью… как только проснётесь.
+		-> sleep-hub3
+
+
+=== sleep-date-endgameA
+Вы уже толком не понимаете, как обстоят дела.
+Честно говоря, вы совершенно… потерялись…
+		-> sleep-hub3
+
+
+=== sleep-date-endgameB
+Руки дрожат. Вы уже толком не понимаете, что происходит вокруг.
+На короткий миг комната вокруг вас качается.
+		-> sleep-hub3
+
+
+=== sleep-date-endgameC
+Хочется оказаться далеко отсюда.
+Очень, очень далеко.
+		-> sleep-hub3
+
+
+=== sleep-date-lastnight
+Вы вздыхаете, думая о том, что… через несколько часов… всё закончится.
+У вас будут ответы. У Бюссе — виновный. В Париже снова станет спокойно.
+А вы… что… будете делать?..
+		-> sleep-hub3
+
+
+=== sleep-hub3
+Вы качаете головой. Мысли на секунду уносятся куда-то…
+		-> _Day.Number = 1 ? sleep-client-day1-hub
+		-> _Day.Number = 2 ? sleep-client-day2-hub
+		-> _Day.Number = 3 ? sleep-client-day3-hub
+		-> _Day.Number = 4 ? sleep-client-day4-hub
+		-> _Day.Number = 5 ? sleep-client-day5-hub
+		-> _Day.Number = 6 ? sleep-end-hub
+		-> sleep-end-hub
+
+
+=== sleep-client-day1-hub
+		-> _Driver.Met.Alaric = 1 ? sleep-client-003alaric
+		-> _Driver.Met.Leia = 1 ? sleep-client-013leia
+		-> _Driver.Met.Matthieu = 1 ? sleep-client-067matthieu
+		-> sleep-end-hub
+
+
+=== sleep-client-day2-hub
+		-> _Driver.Met.Shinji = 1 ? sleep-client-037shinji
+		-> _Driver.Met.Djena = 1 ? sleep-client-042djena
+		-> _Driver.Met.Jonas = 1 ? sleep-client-043jonas
+		-> sleep-end-hub
+
+
+=== sleep-client-day3-hub
+		-> _Driver.Met.Ludwig = 1 ? sleep-client-009ludwig
+		-> _Driver.Met.Fragonard = 1 ? sleep-client-014fragonard
+		-> _Driver.Met.Gerard = 1 ? sleep-client-016gerard
+		-> _Driver.Met.Herve = 1 ? sleep-client-019herve
+		-> _Driver.Met.Claudia = 1 ? sleep-client-022claudia
+		-> sleep-end-hub
+
+
+=== sleep-client-day4-hub
+		-> _Driver.Met.Antoine = 1 ? sleep-client-070antoine
+		-> _Driver.Met.Pierrette = 1 ? sleep-client-072pierrette
+		-> _Driver.Met.Emilia = 1 ? sleep-client-074emilia
+		-> _Driver.Met.Janet = 1 ? sleep-client-064janet
+		-> sleep-end-hub
+
+
+=== sleep-client-day5-hub
+		-> _Driver.Met.Santa = 1 ? sleep-client-077santa
+		-> _Driver.Met.Houssine = 1 ? sleep-client-090houssine
+		-> _Driver.Met.Alexandre = 1 ? sleep-client-097alexandre
+		-> sleep-end-hub
+
+
+=== sleep-client-003alaric
+		$$ reveal: 003_01 $$
+Вы думаете о мальчишке, который ехал на мессу.
+На каком языке он хотел её слушать? На греческом?
+Греческий… точно… Странный язык… для мессы.
+		-> sleep-end-hub
+
+
+=== sleep-client-009ludwig
+		$$ reveal: 009_013 $$
+Вы надеетесь быстро заснуть.
+Чтобы ночью были силы. Чтобы не грезить за рулём. Не уснуть. Не увидеть снова этого жуткого маленького призрака.
+Вы… уверены… что он вам привиделся.
+Но тогда…
+		-> sleep-end-hub
+
+
+=== sleep-client-013leia
+		%% After driving 013 LEIA.
+		$$ reveal: 013_09 $$
+Вы улыбаетесь, вспоминая ту экзальтированную девчонку.
+Которая говорит о кино так, будто от этого зависит её жизнь. Кажется, её пожирает эта страсть.
+Вам бы хотелось…
+		-> sleep-end-hub
+
+
+=== sleep-client-014fragonard
+		%% After driving 014 FRAGONARD.
+		$$ reveal: 014_13 $$
+И тот старый полицейский со своими историями…
+		-> _Killer.Is.Judge = 1 ? sleep-client-014fragonard-killer
+		-> sleep-client-014fragonard02
+
+
+=== sleep-client-014fragonard-killer
+Теперь понятно, почему Бюссе не решается вести расследование против него.
+		-> sleep-client-014fragonard02
+
+
+=== sleep-client-014fragonard02
+Старый служака… таких больше нет.
+		-> sleep-end-hub
+
+
+=== sleep-client-012christophe
+		%% After driving 012 CHRISTOPHE.
+		$$ reveal: 012_05 $$
+Вы думаете о том священнике… Его дилеммах… его проблемах.
+Как ни странно, только сейчас вы понимаете, что это первый священник, с которым вы разговаривали.
+За всю… вашу… жизнь…
+Жизнь…
+		-> sleep-end-hub
+
+
+=== sleep-client-016gerard
+		%% After driving 016 GÉRARD.
+		$$ reveal: 016_04 $$
+Вы думаете о том типе, который выходил из тюрьмы.
+Он, должно быть, уже далеко от Парижа. Наверное, смотрит на пейзаж, над которым не властно время: колокольня среди тихих полей…
+Спящая деревня… Равнина…
+В… тумане…
+		-> sleep-end-hub
+
+
+=== sleep-client-019herve
+		%% After driving 019 HERVÉ.
+		$$ reveal: 019_05 $$
+Сквозняк пробирает до костей.
+Вы прекрасно знаете, откуда он: входная дверь плохо подогнана, щель в несколько сантиметров…
+Хочется верить, что Эрве нашёл ночлег.
+		-> sleep-end-hub
+
+
+=== sleep-client-022claudia
+		%% After driving 022 CLAUDIA.
+		$$ reveal: 22_01 $$
+Вы, конечно, вспоминаете ту великолепную, но такую грустную… такую мрачную женщину.
+Хотелось бы, чтобы она действительно пригласила вас… Чтобы…
+Чтобы положила руку вам на плечо…
+И назвала по имени.
+Вы качаете головой, прогоняете её из мыслей и ненадолго смотрите в потолок.
+Эта женщина… убийца? Нет, нет. Быть не может…
+И… всё же…
+		-> sleep-end-hub
+
+
+=== sleep-client-037shinji
+		%% After driving 037 SHINJI.
+		$$ reveal: 037_01 $$
+На губах появляется улыбка.
+Вы только что вспомнили японского туриста. Вы представляете радость на его лице, когда он вернётся домой, вновь откроет запахи и звуки своей страны…
+Как… вы… когда возвращались во Францию…
+После этих летних месяцев…
+		-> sleep-end-hub
+
+
+=== sleep-client-042djena
+		%% After driving 042 DJENA.
+		$$ reveal: 042_03 $$
+Вспоминая эту молодую женщину-врача, вы не можете не испытывать облегчение и стыд.
+Облегчение, потому что… вы всего лишь таксист…
+И стыд, потому что… вы всего лишь…
+Водитель…
+		-> sleep-end-hub
+
+
+=== sleep-client-043jonas
+		%% After driving 043 JONAS.
+		$$ reveal: 043_03 $$
+А если мир и правда всего лишь симуляция? Если ваша жизнь — просто игра? Чьё-то развлечение?
+Изменило бы это ваши поступки?
+Лучше не думать о том человеке…
+…
+Но ваш выбор… ваша… судьба…
+		-> sleep-end-hub
+
+
+=== sleep-client-064janet
+		%% After driving 064 JANET.
+		$$ reveal: 064_01 $$
+Вы вспоминаете эти странные визиты… девушку, которая говорит, что обращается к вам из будущего…
+Каждый раз вы в глубине души убеждены, что она настоящая и…
+И всё же…
+Это… бессмыслица…
+Никто не может… путешествовать… сквозь…
+		-> sleep-end-hub
+
+
+=== sleep-client-067matthieu
+		%% After driving 067 MATHIEU.
+		$$ reveal: 067_01 $$
+Вы думаете о том клиенте… и его люльке.
+Как грустно. Какая странная ситуация.
+Невозможно представить… его отчаяние…
+Его… боль…
+		-> sleep-end-hub
+
+
+=== sleep-client-070antoine
+		%% After driving 070 Antoine.
+		$$ reveal: 070_01 $$
+Вы улыбаетесь, вспоминая того… консьержа.
+Вот это история. Сотни миллионов евро.
+Колоссальное состояние. А он продолжает жить… как будто… ничего не…
+		-> sleep-end-hub
+
+
+=== sleep-client-072pierrette
+		%% After driving 072 PIERRETTE.
+		$$ reveal: 072_01 $$
+Конечно, вы думаете о… ней.
+		-> _Pierrette.Upstairs = 0 ? sleep-client-072pierrette0
+		-> _Pierrette.Upstairs = 1 ? sleep-client-072pierrette1
+		-> sleep-client-072pierrette2
+
+
+=== sleep-client-072pierrette0
+Надо было подняться к ней.
+Неважно, кем она была…
+Было бы… приятно…
+Необычно…
+		-> sleep-client-072pierrette2
+
+
+=== sleep-client-072pierrette1
+Вы улыбаетесь. Не стоило подниматься к ней, но…
+		-> sleep-client-072pierrette2
+
+
+=== sleep-client-072pierrette2
+Мысли ещё на несколько секунд уплывают.
+Груди, обнажённые тела, напряжённые мышцы… образы проплывают перед закрытыми глазами…
+		-> sleep-end-hub
+
+
+=== sleep-client-074emilia
+		%% After driving 074 EMILIA.
+		$$ reveal: 074_01 $$
+Разумеется, оно решает снова прокрутить вам сцену в Венсенском лесу.
+Того кота…
+Мяуканье…
+И это гигантское, огромное оранжевое облако над Парижем…
+Готовое…
+Обрушиться…
+		-> sleep-end-hub
+
+
+=== sleep-client-077santa
+		%% After driving 077 SANTA.
+		$$ reveal: 077_01 $$
+В голову приходит вопрос…
+Очень странный…
+Настолько странный, что надо произнести его вслух — убедиться, что это не сон.
+«Это и правда был Санта-Клаус?»
+Вы так лежите какое-то время… эхо вашего голоса ещё отдаётся от стен вашей квартиры-студии.
+Тишина убаюкивает…
+		-> sleep-end-hub
+
+
+=== sleep-client-090houssine
+		%% After driving 090 HOUSSINE.
+		$$ reveal: 090_01 $$
+Вы качаете головой, прогоняете мысли.
+Говорите себе: если быстро уснёте… если хорошо поспите…
+Он не вернётся.
+Он и его сигарета…
+Тот, кто носит…
+Ваше… лицо…
+		-> sleep-end-hub
+
+
+=== sleep-client-097alexandre
+		%% After driving 097 ALEXANDRE.
+		$$ reveal: 097_00 $$
+По неизвестной причине перед вами возникает залитое слезами лицо вашего клиента.
+Словно горе парализовало его… Он не может пошевелиться… не может прожить ни секунды больше.
+Вы отворачиваетесь от доски расследования. Не хотите видеть там его лицо.
+Не хотите… больше думать… об этом.
+		-> sleep-end-hub
+ 
+ 
+		%%
+		%% END
+
+
+=== sleep-end-hub
+		$$ movie: black $$
+		%% Depending on the day (as we are getting closer to the end of the investigation), the chance of getting special blocks will be higher.
+		-> _Day.Number < 3 ? sleep-end-hub-block01
+		-> _Day.Number = 3 ? sleep-end-hub-block02
+		-> _Day.Number = 4 ? sleep-end-hub-block02
+		-> _Day.Number > 4 ? sleep-end-hub-block03
+		-> sleep-end-hub-block01
+
+
+=== sleep-end-hub-block01
+		-> ??sleep-end-basic01 | sleep-end-basic02 | sleep-end-basic03 | sleep-end-basic01 | sleep-end-basic02 | sleep-end-basic03 | sleep-end-basic01 | sleep-end-basic02 | sleep-end-basic03 | sleep-end-weird01 | sleep-end-weird02 | sleep-end-weird03
+
+
+=== sleep-end-hub-block02
+		-> ??sleep-end-basic01 | sleep-end-basic02 | sleep-end-basic03 | sleep-end-basic01 | sleep-end-basic02 | sleep-end-basic03 | sleep-end-weird01 | sleep-end-weird02 | sleep-end-weird03 | sleep-end-weird01 | sleep-end-weird02 | sleep-end-weird03 | sleep-end-weird01 | sleep-end-weird02 | sleep-end-weird03 | sleep-end-nightmare01 | sleep-end-nightmare02 | sleep-end-nightmare03
+
+
+=== sleep-end-hub-block03
+		-> ??sleep-end-basic01 | sleep-end-basic02 | sleep-end-basic03 | sleep-end-weird01 | sleep-end-weird02 | sleep-end-weird03 | sleep-end-weird01 | sleep-end-weird02 | sleep-end-weird03 | sleep-end-nightmare01 | sleep-end-nightmare02 | sleep-end-nightmare03
+
+
+=== sleep-end-basic01
+И вдруг вы засыпаете.
+		-> END
+
+
+=== sleep-end-basic02
+Через секунду вы уже спите.
+		-> END
+
+
+=== sleep-end-basic03
+Ещё одно движение век — и вы засыпаете.
+		-> END
+
+
+=== sleep-end-nightmare01
+		$$ reveal: 000_16 $$
+Вы уже почти заснули… и вдруг что-то касается ноги.
+Вы поднимаете голову и видите там, в полумраке, лицо… Лицо, будто составленное из лиц всех подозреваемых.
+Вы вздрагиваете и просыпаетесь. Быстро оглядываетесь. В квартире-студии никого нет.
+Вы снова ложитесь, не находя покоя.
+		-> END
+
+
+=== sleep-end-nightmare02
+		$$ reveal: 000_16 $$
+Глаза закрываются. Вы засыпаете. Что-то мешает… Что-то застряло в горле.
+Вы кашляете, кашляете. Свешиваетесь с кровати.
+Изо рта вырывается что-то чёрное и тяжело ударяется об пол.
+Вы вздрагиваете и просыпаетесь.
+«Грёбаный кошмар…»
+Вы смотрите на пол. Там ничего нет. Снова ложитесь, всё ещё дрожа.
+		-> END
+
+
+=== sleep-end-nightmare03
+		$$ reveal: 000_16 $$
+Вы вдруг засыпаете.
+Ваше дыхание становится медленнее, спокойнее… Пока вы не понимаете, что больше не дышите вовсе.
+Вы открываете глаза и смотрите на свою грудь… Что-то вырезало в ней квадрат кожи и плоти… чтобы легче было вынуть лёгкие.
+«Чёрт!»
+Вы садитесь в постели и дышите.
+Кошмар. Просто кошмар…
+Почти сразу вы засыпаете снова.
+		-> END
+
+
+=== sleep-end-weird01
+Вы уже почти заснули, когда, кажется, вдалеке раздаётся голос…
+		-> ??sleep-end-weird01-voice01 | sleep-end-weird01-voice02 | sleep-end-weird01-voice03 | sleep-end-weird01-voice04
+
+
+=== sleep-end-weird01-voice01
+???: «Два и два…»
+		-> sleep-end-weird01-outro
+
+
+=== sleep-end-weird01-voice02
+???: «Она говорит не всю правду.»
+		-> sleep-end-weird01-outro
+
+
+=== sleep-end-weird01-voice03
+???: «Он не судит души.»
+		-> sleep-end-weird01-outro
+
+
+=== sleep-end-weird01-voice04
+???: «Он плачет.»
+		-> sleep-end-weird01-outro
+
+
+=== sleep-end-weird01-outro
+Вы вздрагиваете… Не понимаете, откуда голос…
+За окном просыпается Париж.
+А вы засыпаете.
+		-> END
+
+
+=== sleep-end-weird02
+Глаза закрываются. Вы чувствуете, как проваливаетесь в сон…
+Пока вдалеке не раздаётся голос.
+		-> ??sleep-end-weird02-voice01 | sleep-end-weird02-voice02 | sleep-end-weird02-voice03 | sleep-end-weird02-voice04
+
+
+=== sleep-end-weird02-voice01
+???: «Он готов на всё.»
+		-> sleep-end-weird02-outro
+
+
+=== sleep-end-weird02-voice02
+???: «Кот мёртв.»
+		-> sleep-end-weird02-outro
+
+
+=== sleep-end-weird02-voice03
+???: «У него физиономия тунисца.»
+		-> sleep-end-weird02-outro
+
+
+=== sleep-end-weird02-voice04
+???: «Смотри… Он дохнет.»
+		-> sleep-end-weird02-outro
+
+
+=== sleep-end-weird02-outro
+А потом… тишина.
+Вы закрываете глаза… Так и не поняв, откуда взялся голос.
+Через секунду вы уже спите.
+		-> END
+
+
+=== sleep-end-weird03
+Вы закрываете глаза.
+Почти заснув… чувствуете вкус на языке.
+Солёный, как соевый соус. Чуть горький. Очень сильный.
+Он исчезает так же быстро, как появился.
+Вы засыпаете.
+		-> END

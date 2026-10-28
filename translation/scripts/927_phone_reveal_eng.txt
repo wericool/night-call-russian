@@ -1,0 +1,76 @@
+%% Scene name: « Phone: Suspect Selected »
+%% This scene will be played after the Player has selected a suspect on the investigation board
+
+
+=== phonereveal-start
+		-> _Driver.LastChance = 1 ? phonereveal-lastchance
+		-> phonereveal-firsttime
+
+
+=== phonereveal-firsttime
+Вы снова берёте трубку и объясняете лейтенанту Бюссе свой выбор.
+Почему. Как. Улики. Ваше чутьё. Источники. Она слушает молча.
+		%% Depending on the difficulty
+		-> _Difficulty.Easy = 1 ? phonereveal-easy-hub
+		-> phonereveal-easy-good
+
+
+=== phonereveal-easy-hub
+		%% Depending if the suspect is the good one or not.
+		-> _Suspect.Selected.Correct = 1 ? phonereveal-easy-good
+		-> phonereveal-easy-bad
+
+
+=== phonereveal-easy-good
+Вы замолкаете и переводите дыхание.
+		$$ dialogspeed: slow $$
+БЮССЕ: «Ладно».
+		$$ dialogspeed: normal $$
+БЮССЕ: «Принимается… Звучит убедительно. Могу кое-где покопаться, чтобы подтвердить твои сведения».
+Она умолкает. Вы почти слышите, как она кивает.
+		-> phonereveal-end
+
+
+=== phonereveal-easy-bad
+Вы заканчиваете, но тишина длится на секунду дольше, чем нужно. Кажется, вы её не убедили.
+БЮССЕ: «Слушай… Ты уверен в своих словах?»
+БЮССЕ: «Просто я вспоминаю, что ты рассказал мне тем утром, слушаю тебя сейчас — и сомневаюсь».
+БЮССЕ: «Ты точно хочешь остановиться на этом подозреваемом?»
+* :positive: «Да». -> phonereveal-easy-bad-outro
+* :puzzled: «Подождите минуту». -> phonereveal-secondchance
+
+
+=== phonereveal-secondchance
+		{ _Driver.LastChance = 1 }
+Вы откладываете трубку. Может, она права? Теперь вы сомневаетесь.
+		%% Goes to Suspect Selection.
+		-> END
+
+
+=== phonereveal-easy-bad-outro
+		%% Suspect validated.
+БЮССЕ: «Ну ладно. Подключу своих ребят, попробую придать всему этому приличный вид».
+Вы глубоко вдыхаете. Она тоже.
+		-> phonereveal-end
+
+
+=== phonereveal-lastchance
+		%% Suspect validated.
+Вы снова берёте трубку и объясняете Бюссе свой выбор. Очень скоро… слишком скоро… она вас перебивает.
+БЮССЕ: «Ладно, ладно. Пойдём по этому следу. Он может нас к чему-то привести».
+Она тяжело вздыхает.
+БЮССЕ: «Чёрт. Надеюсь, у тебя веские основания. Для твоего же блага».
+И прежде чем вы успеваете вставить хоть слово…
+		-> phonereveal-end
+
+
+=== phonereveal-end
+БЮССЕ: «Вечером позвоню. Постарайся поспать».
+Пауза. Не может же она закончить разговор на такой… доброй ноте. Нет, сейчас наверняка…
+БЮССЕ: «…может, это твоя последняя ночь на свободе».
+Она усмехается и кладёт трубку.
+		$$ music-control: 60 $$
+Вы кладёте трубку. Под ногами будто ледяная пустота космоса.
+Вы решаете лечь. Поспать. Лучший способ убить время.
+		%% Goes to Sleep.
+		-> END

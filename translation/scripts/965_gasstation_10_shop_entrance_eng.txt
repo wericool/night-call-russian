@@ -1,0 +1,105 @@
+%% Scene Name: Gas Station Shop Entrance
+%% This scene will be played when the Driver reaches a Gas Station.
+
+
+=== gasstation-01-shop-intro
+		%% SOUND FX: Door chime.
+Вы заходите в магазинчик при заправке.
+		-> ??gasstation-01-shop-clerkA | gasstation-01-shop-clerkB | gasstation-01-shop-clerkC | gasstation-01-shop-clerkD | gasstation-01-shop-clerkE
+
+
+=== gasstation-01-shop-clerkA
+Продавец за прилавком — пожалуй, самый заурядный человек, которого вы когда-либо видели.
+		-> gasstation-01-shop-yes-hub
+
+
+=== gasstation-01-shop-clerkB
+Студент за прилавком, готовящийся к экзаменам, лениво поднимает глаза.
+		-> gasstation-01-shop-yes-hub
+
+
+=== gasstation-01-shop-clerkC
+Парень за прилавком похож на всех прочих парней за прилавками, которых вы за жизнь встречали.
+		-> gasstation-01-shop-yes-hub
+
+
+=== gasstation-01-shop-clerkD
+От парня, работающего в магазинчике на этой заправке, слегка пахнет…
+-> ??gasstation-01-shop-clerkD-01 | gasstation-01-shop-clerkD-02 | gasstation-01-shop-clerkD-03 | gasstation-01-shop-clerkD-04 | gasstation-01-shop-clerkD-05
+
+
+=== gasstation-01-shop-clerkD-01
+…луком?..
+		-> gasstation-01-shop-yes-hub
+
+
+=== gasstation-01-shop-clerkD-02
+…спиртным?..
+		-> gasstation-01-shop-yes-hub
+
+
+=== gasstation-01-shop-clerkD-03
+…жареным?..
+		-> gasstation-01-shop-yes-hub
+
+
+=== gasstation-01-shop-clerkD-04
+…кебабом?..
+		-> gasstation-01-shop-yes-hub
+
+
+=== gasstation-01-shop-clerkD-05
+…искусственной лавандой?..
+		-> gasstation-01-shop-yes-hub
+
+
+=== gasstation-01-shop-clerkE
+Парень за прилавком даже не смотрит на вас, когда начинает говорить ленивым, безжизненным голосом.
+		-> gasstation-01-shop-yes-hub
+
+
+=== gasstation-01-shop-yes-hub
+		-> ??gasstation-01-shop-yesA | gasstation-01-shop-yesB | gasstation-01-shop-yesC | gasstation-01-shop-yesD | gasstation-01-shop-yesE | gasstation-01-shop-yesF | gasstation-01-shop-yesG | gasstation-01-shop-yesH
+
+
+=== gasstation-01-shop-yesA
+ПРОДАВЕЦ: «Да?»
+		-> END
+
+
+=== gasstation-01-shop-yesB
+ПРОДАВЕЦ: «Да?»
+		-> END
+
+
+=== gasstation-01-shop-yesC
+ПРОДАВЕЦ: «М-м… да?»
+		-> END
+
+
+=== gasstation-01-shop-yesD
+ПРОДАВЕЦ: «Вечер добрый».
+		-> END
+
+
+=== gasstation-01-shop-yesE
+ПРОДАВЕЦ: «Угу?»
+		-> END
+
+
+=== gasstation-01-shop-yesF
+		%% « La Belle Pompe » is the name of the gas station. Let's keep it in French.
+ПРОДАВЕЦ: «Добро пожаловать…»
+Он вздыхает: до смерти устал повторять одно и то же.
+ПРОДАВЕЦ: «…в „Ла Бель Помп“».
+		-> END
+
+
+=== gasstation-01-shop-yesG
+ПРОДАВЕЦ: «Привет».
+		-> END
+
+
+=== gasstation-01-shop-yesH
+ПРОДАВЕЦ: «Чем могу помочь?»
+		-> END

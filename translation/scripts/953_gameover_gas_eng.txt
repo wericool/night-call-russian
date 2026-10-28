@@ -1,0 +1,84 @@
+%% Scene Name: « Game Over: Empty Tank »
+%% This scene will be played if on the last night, the cab's gas reaches 0.
+%% ANIMATIONS
+		%% $$ anim: IDLE_DRIVER $$
+		%% $$ anim: IDLE_WINDOW $$
+		%% $$ anim: IDLE_DRIVER_LOW $$
+		%% $$ anim: IDLE_ANGER $$
+		%% $$ anim-link: DRIVER_2_WINDOW $$
+		%% $$ anim-link: WINDOW_2_DRIVER $$
+		%% $$ anim-link: WINDOW_2_LOW $$
+		%% $$ anim-link: DRIVER_2_LOW $$
+		%% $$ anim-link: LOW_2_WINDOW $$
+		%% $$ anim-link: LOW_2_ANGER $$
+		%% $$ anim-link: LOW_2_DRIVER $$
+		%% $$ anim-link: ANGER_2_LOW $$
+%% DATA
+		+++ passengercall: N/A
+		+++ anim-link: DRIVER_2_WINDOW -> LOOKING_WINDOW, IDLE_WINDOW
+		+++ anim-link: WINDOW_2_DRIVER -> LOOKING_WINDOW_REV, IDLE_DRIVER
+		+++ anim-link: WINDOW_2_LOW -> LOWERING_HAND, IDLE_DRIVER_LOW
+		+++ anim-link: DRIVER_2_LOW -> LOOKING_WINDOW, LOWERING_HAND, IDLE_DRIVER_LOW
+		+++ anim-link: LOW_2_WINDOW -> LOWERING_HAND_REV, IDLE_WINDOW
+		+++ anim-link: LOW_2_ANGER -> ANGERING, IDLE_ANGER
+		+++ anim-link: LOW_2_DRIVER -> LOWERING_HAND_REV, LOOKING_WIND
+
+
+=== gameover-gas-start
+		$$ movie: black $$
+Мотор глохнет. Бак пуст.
+Вы знали… и ничего не сделали.
+Холодок бежит по спине, поднимается к затылку.
+Вы смотрите на часы. Вы опоздаете на встречу. Вы пустите насмарку всю операцию.
+Вы выходите из машины.
+Ледяной воздух перехватывает дыхание. На вас обрушивается мелкий дождь: то ли мокрый снег, то ли мягкий град — толком не разобрать.
+Ещё секунду.
+Вдох.
+Несколько минут вы стоите неподвижно. Вдалеке гремит голос Бюссе.
+		$$ dialogspeed: fast $$
+БЮССЕ: «Идиот!»
+		$$ dialogspeed: normal $$
+Она подбегает к вам. Защёлкивает наручники. Валит на землю.
+		-> _Killer.Is.Judge = 1 ? gameover-gas-judge
+		-> _Killer.Is.Sandman = 1 ? gameover-gas-sand
+		-> _Killer.Is.Angel = 1 ? gameover-gas-angel
+
+
+=== gameover-gas-judge
+БЮССЕ: «Ты всё запорол! Судья ушёл… Ушёл».
+В её голосе слышна печаль.
+		-> gameover-gas-end
+
+
+=== gameover-gas-sand
+БЮССЕ: «Всё к чёрту! Песочный человек исчез. Испарился!»
+		$$ dialogspeed: slow $$
+БЮССЕ: «ИСПАРИЛСЯ!»
+		$$ dialogspeed: normal $$
+		-> gameover-gas-end
+
+
+=== gameover-gas-angel
+БЮССЕ: «Мы потеряли след подозреваемой».
+		$$ dialogspeed: slow $$
+БЮССЕ: «Словно её… кто-то предупредил…»
+		$$ dialogspeed: normal $$
+Вы отрицательно качаете головой.
+БЮССЕ: «Даже не пытайся раскрыть свою поганую пасть… Это твоя вина».
+		-> gameover-gas-end
+
+
+=== gameover-gas-end
+Её тёплое дыхание согревает вас. Вы дрожите.
+БЮССЕ: «Мне… придётся тебя посадить».
+		$$ dialogspeed: slow $$
+БЮССЕ: «Я же тебя предупреждала, блядь!»
+		$$ dialogspeed: normal $$
+Она ставит вас на ноги. Вы и не думали, что она такая сильная.
+А дальше? Она тащит вас в участок. Взваливает на вас всю вину. Кажется, все ей верят. Улики, которые она предъявляет…
+…подложные…
+Назавтра ваше лицо во всех газетах, ваше имя у всех на устах… Вы — убийца, которого все так ждали…
+Вы пропали…
+Пропали…
+…
+		-> END

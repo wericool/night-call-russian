@@ -1,0 +1,28 @@
+%% Scene Name: Gas Station Shop Clues Outro
+%% Scene plays after the Player got a clue from the gas station clerk.
+
+
+=== gasstation-clue-outro-hub
+		-> ??gasstation-clue-outroA | gasstation-clue-outroB | gasstation-clue-outroC
+
+
+=== gasstation-clue-outroA
+Вы слегка качаете головой, запоминая слова продавца.
+Вы благодарите его. На миг кажется, что он не решается попросить что-нибудь взамен… Может, чаевые?
+Так или иначе, он отказывается от этой мысли, не сказав ни слова.
+		-> END
+
+
+=== gasstation-clue-outroB
+Вы благодарите продавца.
+«Интересно…»
+На миг вам кажется, что он пытается понять: вы серьёзно?
+Он предпочитает оставить этот вопрос без ответа.
+		-> END
+
+
+=== gasstation-clue-outroC
+ПРОДАВЕЦ: «Вот как-то так…»
+Вы киваете и благодарите его, хотя не вполне уверены, пригодятся ли вам эти сведения.
+Разберётесь потом, дома.
+		-> END

@@ -1,0 +1,52 @@
+{
+  "rows": [
+    {
+      "asset": "level3",
+      "path_id": 1494,
+      "source_original": "À ma Maman<size=30><i>— For all these adventures together.</i></size><size=30><i> (Sandra)<i></size>",
+      "russian": "Моей маме<size=30><i>— За все наши совместные приключения.</i></size><size=30><i> (Sandra)<i></size>"
+    },
+    {
+      "asset": "level3",
+      "path_id": 1553,
+      "source_original": "A toi, la plus grande de toutes les détectives.\nA toi à qui je dois tout.\nA toi que j'espère rendre fière malgré tout.\nTu me manques terriblement.",
+      "russian": "Тебе, величайшей из всех сыщиц.\nТебе, без которой всего этого бы не было.\nТебе — в надежде, что ты, несмотря ни на что, будешь мной гордиться.\nМне ужасно тебя не хватает."
+    },
+    {
+      "asset": "level3",
+      "path_id": 1599,
+      "source_original": "Anaïs Mayance<size=30><i>— My Player 2</i></size><size=30><i> (Damien)<i></size>",
+      "russian": "Anaïs Mayance<size=30><i>— Мой игрок № 2</i></size><size=30><i> (Damien)<i></size>"
+    },
+    {
+      "asset": "level3",
+      "path_id": 1635,
+      "source_original": "<u>Production Baby</u>",
+      "russian": "<u>Малыш проекта</u>"
+    },
+    {
+      "asset": "level7",
+      "path_id": 835,
+      "source_original": "À ma Maman<size=30><i>— For all these adventures together.</i></size><size=30><i> (Sandra)<i></size>",
+      "russian": "Моей маме<size=30><i>— За все наши совместные приключения.</i></size><size=30><i> (Sandra)<i></size>"
+    },
+    {
+      "asset": "level7",
+      "path_id": 892,
+      "source_original": "A toi, la plus grande de toutes les détectives.\nA toi à qui je dois tout.\nA toi que j'espère rendre fière malgré tout.\nTu me manques terriblement.",
+      "russian": "Тебе, величайшей из всех сыщиц.\nТебе, без которой всего этого бы не было.\nТебе — в надежде, что ты, несмотря ни на что, будешь мной гордиться.\nМне ужасно тебя не хватает."
+    },
+    {
+      "asset": "level7",
+      "path_id": 938,
+      "source_original": "Anaïs Mayance<size=30><i>— My Player 2</i></size><size=30><i> (Damien)<i></size>",
+      "russian": "Anaïs Mayance<size=30><i>— Мой игрок № 2</i></size><size=30><i> (Damien)<i></size>"
+    },
+    {
+      "asset": "level7",
+      "path_id": 970,
+      "source_original": "<u>Production Baby</u>",
+      "russian": "<u>Малыш проекта</u>"
+    }
+  ]
+}
