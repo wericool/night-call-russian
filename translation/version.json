@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.28",
+  "version": "2026.11.01",
   "source_language": "fr",
   "auxiliary_language": "en",
   "compiled_dialogues": 200,
@@ -8,5 +8,11 @@
   "passidex_rows": 481,
   "input_sha256": "2f8b58376847abe01b6f2df72cc447ac66167b357b79363d24d5dfa0aa4d1e68",
   "upstream": "https://github.com/4RH1T3CT0R7/russian-localisation-night-call",
-  "original_author": "Artem Lytkin (4RH1T3CT0R)"
+  "original_author": "Artem Lytkin (4RH1T3CT0R)",
+  "text_version": "2026.10.28",
+  "font_density": {
+    "gain": 1.75,
+    "contour_offset": 10,
+    "user_approved_in_game": true
+  }
 }
