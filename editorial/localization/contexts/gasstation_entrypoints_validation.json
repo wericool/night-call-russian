@@ -1,0 +1,84 @@
+{
+  "assembly": "review/Assembly-CSharp.dll",
+  "assembly_sha256": "b2e4a3562a6ab43822d3e4d8ee979f3ec84dbee7757a5b80b9e709a408658250",
+  "cecil_sha256": "7ae470288fff4a402899c254d0a76cefef55877f5c54f96e83c797cc5bb6e2f6",
+  "checked_at": "2026-10-15T07:36:04.9788203+03:00",
+  "entrypoint_hits": [
+    {
+      "method": "System.Void NC.GasStation.UI.GasStationPanel::PlayTicketDialog(System.Int32,System.Action)",
+      "offset": 41,
+      "entry": "gasstations-shop-ticket-losinghub"
+    },
+    {
+      "method": "System.Void NC.GasStation.UI.GasStationPanel::PlayTicketDialog(System.Int32,System.Action)",
+      "offset": 52,
+      "entry": "gasstations-shop-ticket-win-good-hub"
+    },
+    {
+      "method": "System.Void NC.GasStation.UI.GasStationPanel::PlayTicketDialog(System.Int32,System.Action)",
+      "offset": 63,
+      "entry": "gasstations-shop-ticket-win-great"
+    },
+    {
+      "method": "System.Void NC.GasStation.UI.GasStationPanel::PlayTicketDialog(System.Int32,System.Action)",
+      "offset": 74,
+      "entry": "gasstations-shop-ticket-win-amazing"
+    },
+    {
+      "method": "System.Void NC.GasStation.UI.GasStationPanel::PlayTicketDialog(System.Int32,System.Action)",
+      "offset": 85,
+      "entry": "gasstations-shop-ticket-win-superb"
+    },
+    {
+      "method": "System.Void NC.GasStation.UI.GasStationPanel::PlayTicketDialog(System.Int32,System.Action)",
+      "offset": 96,
+      "entry": "gasstations-shop-ticket-win-low-hub"
+    }
+  ],
+  "method_instructions": [
+    "IL_0000: ldsfld System.String System.String::Empty",
+    "IL_0005: stloc.0",
+    "IL_0006: ldarg.1",
+    "IL_0007: switch IL_0029,IL_0060,IL_0034,IL_003f,IL_004a,IL_0055",
+    "IL_0024: br IL_0060",
+    "IL_0029: ldstr \"gasstations-shop-ticket-losinghub\"",
+    "IL_002e: stloc.0",
+    "IL_002f: br IL_006b",
+    "IL_0034: ldstr \"gasstations-shop-ticket-win-good-hub\"",
+    "IL_0039: stloc.0",
+    "IL_003a: br IL_006b",
+    "IL_003f: ldstr \"gasstations-shop-ticket-win-great\"",
+    "IL_0044: stloc.0",
+    "IL_0045: br IL_006b",
+    "IL_004a: ldstr \"gasstations-shop-ticket-win-amazing\"",
+    "IL_004f: stloc.0",
+    "IL_0050: br IL_006b",
+    "IL_0055: ldstr \"gasstations-shop-ticket-win-superb\"",
+    "IL_005a: stloc.0",
+    "IL_005b: br IL_006b",
+    "IL_0060: ldstr \"gasstations-shop-ticket-win-low-hub\"",
+    "IL_0065: stloc.0",
+    "IL_0066: br IL_006b",
+    "IL_006b: ldarg.0",
+    "IL_006c: ldfld NC.Dialogs.Display.DialogDisplay NC.GasStation.UI.GasStationPanel::_dialog_display",
+    "IL_0071: ldarg.0",
+    "IL_0072: ldfld NC.GasStation.GasStationNarrativeContentScript NC.GasStation.UI.GasStationPanel::_dialogs",
+    "IL_0077: callvirt NC.GasStation.GasStationNarrativeContentScript/NarrativeContent NC.GasStation.GasStationNarrativeContentScript::get_current()",
+    "IL_007c: ldfld UnityEngine.TextAsset NC.GasStation.GasStationNarrativeContentScript/NarrativeContent::shop_ticket",
+    "IL_0081: ldloc.0",
+    "IL_0082: ldarg.0",
+    "IL_0083: ldarg.2",
+    "IL_0084: call System.Action NC.GasStation.UI.GasStationPanel::OnDialogOver(System.Action)",
+    "IL_0089: callvirt Prompter.Runtime.PrompterStory NC.Dialogs.Display.DialogDisplay::StartDialogExternal(UnityEngine.TextAsset,System.String,System.Action)",
+    "IL_008e: pop",
+    "IL_008f: ldarg.0",
+    "IL_0090: ldc.i4.1",
+    "IL_0091: stfld System.Boolean NC.GasStation.UI.GasStationPanel::_is_in_dialog",
+    "IL_0096: leave IL_00a7",
+    "IL_009b: stloc.1",
+    "IL_009c: ldloc.1",
+    "IL_009d: call System.Void UnityEngine.Debug::LogException(System.Exception)",
+    "IL_00a2: leave IL_00a7",
+    "IL_00a7: ret"
+  ]
+}

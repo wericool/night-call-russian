@@ -1,0 +1,159 @@
+{
+  "status": "contextually_reviewed",
+  "keys": [
+    {
+      "key": "044_chris.bio",
+      "english": "Height = 1m71.\nA young drifter, drop-out of school.\nAverage physical state.\nArrested but always released (minor at the time). Reasons unknown.\nNo known address in Paris. Suspected to steal unlocked cars.\nPossible use of drugs.",
+      "french": "Taille = 1m71.\nUn jeune vagabond, a abandonné ses études.\nÉtat physique moyen.\nArrêté, mais toujours relâché à cause de son âge. Affaires inconnues.\nPas d'adresse connue à Paris. Suspecté dans des vols de voiture.\nUsage possible de drogue.",
+      "russian": "Рост: 1,71 м.\nМолодой бродяга, бросил учёбу.\nСредняя физическая форма.\nЗадерживался, но каждый раз его отпускали: тогда он был несовершеннолетним. Подробности дел неизвестны.\nАдрес в Париже неизвестен. Подозревается в угонах автомобилей.\nВозможно, употребляет наркотики.",
+      "status": "contextually_reviewed",
+      "source_sha256": "78319334ff82ec5fdf60040dcd6065f310ef1fc46e127156b14d2881c3a0eb3f",
+      "french_sha256": "351d9041f6a950f1c492899da43db05b2ec9864c40c2b581c492fe75ad4acf2a",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_dossiers_batch03_fr.py",
+          "before": "Рост: 1,71 м.\nМолодой бродяга, бросил школу.\nСредняя физическая форма.\nЗадерживался, но каждый раз его отпускали: тогда он был несовершеннолетним. Причины задержаний неизвестны.\nАдрес в Париже неизвестен. Подозревается в угоне незапертых автомобилей.\nВозможно, употребляет наркотики.",
+          "after": "Рост: 1,71 м.\nМолодой бродяга, бросил учёбу.\nСредняя физическая форма.\nЗадерживался, но каждый раз его отпускали: тогда он был несовершеннолетним. Подробности дел неизвестны.\nАдрес в Париже неизвестен. Подозревается в угонах автомобилей.\nВозможно, употребляет наркотики."
+        }
+      ]
+    },
+    {
+      "key": "clue_sand_chrisrecords_01.title",
+      "english": "Chris = escort for Secret Escort 75 website",
+      "french": "Chris = escort pour Secret Escort 75",
+      "russian": "Крис работает в эскорте «Secret Escort 75»",
+      "status": "contextually_reviewed",
+      "source_sha256": "82d480658f782d0f59e4b9f889138a06a3cd3982c1d2cff2dcd159d5065aa160",
+      "french_sha256": "6a8eb08765187b9c0847bbc937e09db79f687b078e76e444769576e5ad98aade",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_sources_batch02_fr.py",
+          "before": "Крис оказывает эскорт-услуги через сайт Secret Escort 75",
+          "after": "Крис работает в эскорте «Secret Escort 75»"
+        }
+      ]
+    },
+    {
+      "key": "clue_sand_chrisrecords_02.title",
+      "english": "Chris probably seen near crime scene 1",
+      "french": "Chris probablement aperçu près de la scène de crime 1",
+      "russian": "Криса, вероятно, видели возле места преступления № 1",
+      "status": "contextually_reviewed",
+      "source_sha256": "993e6acf5d11307f336ca126bac315de20cad236ad0d94016ca958ad9e88abe4",
+      "french_sha256": "9012801d31ae312c922bed01cd19f097dc4159623b33e86696640b7dcae84765"
+    },
+    {
+      "key": "clue_sand_chrisrecords_03.title",
+      "english": "Chris seen near crime scene 2 months before",
+      "french": "Chris aperçu près de la scène de crime 2 qques mois avant",
+      "russian": "Криса видели рядом с местом преступления № 2 за несколько месяцев до его совершения",
+      "status": "contextually_reviewed",
+      "source_sha256": "4e81cad6e1adca56d0377d2ced7c6922b82df627bd18957457d4e34e31290fba",
+      "french_sha256": "e68c0e89fa978fa8cad1f124f92523cf9d0ac154c951cc4ebbb3b035291f9708"
+    },
+    {
+      "key": "clue_sand_chrisrecords_04.title",
+      "english": "Chris seen near crime scene 3 days before",
+      "french": "Chris aperçu près de la scène de crime 3 qques jours avant",
+      "russian": "Криса видели рядом с местом преступления № 3 за несколько дней до его совершения",
+      "status": "contextually_reviewed",
+      "source_sha256": "c55016c155d98cdbd9a09161a0db4006af3aa986306f50997dc1c0516d4b255e",
+      "french_sha256": "d5fc1de756bd5739c4ac3cf587c4974b752460997a5a25d34b5160233833db73"
+    },
+    {
+      "key": "doc_sand_chrisrecords.title",
+      "english": "Chris’ criminal records",
+      "french": "Casier judiciaire de Chris",
+      "russian": "Уголовное досье Криса",
+      "status": "contextually_reviewed",
+      "source_sha256": "d60db890f627549454edc80ba0cc48d2eac1cb10800e451892ec4fb08b1157d4",
+      "french_sha256": "3100e2ca951fcdd27b48c80da544b7e21b8a51fd341e400af08eac92e4e2aaa4",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_sources_batch08_fr.py",
+          "before": "Досье Криса",
+          "after": "Уголовное досье Криса"
+        }
+      ]
+    },
+    {
+      "key": "doc_sand_chrisrecords.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "status": "contextually_reviewed",
+      "source_sha256": "917a824b9f215c8074e1d721dacd17cf8d04f2c872901b56bf9899e4d2bf1979",
+      "french_sha256": "68d80bcf0da3444e15cb305308a0757b57ee0de6b53065cdd877bef56bb17515"
+    },
+    {
+      "key": "clue_sand_chrisrecords_01.source",
+      "english": "Chris’ criminal records",
+      "french": "Casier judiciaire de Chris",
+      "russian": "Уголовное досье Криса",
+      "status": "contextually_reviewed",
+      "source_sha256": "d60db890f627549454edc80ba0cc48d2eac1cb10800e451892ec4fb08b1157d4",
+      "french_sha256": "3100e2ca951fcdd27b48c80da544b7e21b8a51fd341e400af08eac92e4e2aaa4",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_sources_batch08_fr.py",
+          "before": "Досье Криса",
+          "after": "Уголовное досье Криса"
+        }
+      ]
+    },
+    {
+      "key": "clue_sand_chrisrecords_02.source",
+      "english": "Chris’ criminal records",
+      "french": "Casier judiciaire de Chris",
+      "russian": "Уголовное досье Криса",
+      "status": "contextually_reviewed",
+      "source_sha256": "d60db890f627549454edc80ba0cc48d2eac1cb10800e451892ec4fb08b1157d4",
+      "french_sha256": "3100e2ca951fcdd27b48c80da544b7e21b8a51fd341e400af08eac92e4e2aaa4",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_sources_batch08_fr.py",
+          "before": "Досье Криса",
+          "after": "Уголовное досье Криса"
+        }
+      ]
+    },
+    {
+      "key": "clue_sand_chrisrecords_03.source",
+      "english": "Chris’ criminal records",
+      "french": "Casier judiciaire de Chris",
+      "russian": "Уголовное досье Криса",
+      "status": "contextually_reviewed",
+      "source_sha256": "d60db890f627549454edc80ba0cc48d2eac1cb10800e451892ec4fb08b1157d4",
+      "french_sha256": "3100e2ca951fcdd27b48c80da544b7e21b8a51fd341e400af08eac92e4e2aaa4",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_sources_batch08_fr.py",
+          "before": "Досье Криса",
+          "after": "Уголовное досье Криса"
+        }
+      ]
+    },
+    {
+      "key": "clue_sand_chrisrecords_04.source",
+      "english": "Chris’ criminal records",
+      "french": "Casier judiciaire de Chris",
+      "russian": "Уголовное досье Криса",
+      "status": "contextually_reviewed",
+      "source_sha256": "d60db890f627549454edc80ba0cc48d2eac1cb10800e451892ec4fb08b1157d4",
+      "french_sha256": "3100e2ca951fcdd27b48c80da544b7e21b8a51fd341e400af08eac92e4e2aaa4",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_sources_batch08_fr.py",
+          "before": "Досье Криса",
+          "after": "Уголовное досье Криса"
+        }
+      ]
+    }
+  ],
+  "source_files": [
+    "original/LocalizationData/sharedassets0.assets/2096.json",
+    "original/LocalizationData/sharedassets0.assets/2097.json"
+  ],
+  "author_file": "scripts/finalize_chris_context.py",
+  "reason": "Одиннадцать связанных ключей, не весь интерфейс. FR разрешает двусмысленность EN о номерах мест и сроках."
+}

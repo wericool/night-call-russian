@@ -1,0 +1,219 @@
+{
+  "status": "french_priority_reviewed",
+  "primary_language": "fr",
+  "scene": "972_radio_eng",
+  "context": "Радио в такси: музыкальные станции, призрачная частота, ночные новости и разговорная передача Моник. Французский основной. Приоритеты дня, знакомых пассажиров и трёх дел сохранены, слухи/свидетельства/мнения не выданы за вердикт. В воспоминаниях водитель мужчина, невестка жена покойного брата; адресат улыбки младенца/женщины не установлен переводчиком. Пассажирка дала частоту; Шохре женщина. В отдельной новости названы Филдсовская медаль, аутизм, французское гражданство/иранское происхождение и возраст33, который расходится с карточкой34; это не повод дописывать раннюю046 или интервью030. Портфель Венсана восстановлен по его французской сцене против явной опечатки manette в радио. Моник без английского титула Lady; культ Лунная плоть, книга Покорная Франция и остальные имена согласованы. Все239блоков/307русскихстрок/24ответа сверены; два количества FR/ENстрок и один NBSP в команде выровнены явно. Технические ошибки исходника, недоступный ghost05 и противоречивые поля улик записаны отдельно, не скрыты чистой компиляцией.",
+  "decisions": [
+    "Вручную прочитаны все FR/EN/старые RU видимые строки и ответы, служебные переходы/условия/команды239блоков. Все24ответа и пустые блоки включены. У TextAsset нет _user_datas приглашений; сохранён английский технический носитель.",
+    "ВыбранFR: полмиллиарда вместо ENполумиллиона, подробные культурные ссылки вместо английского пропуска, долгая карьера позади тренера вместо впереди, игра поколения вместо века, труба вместо старого саксофона, заглавиеENVIE/ЗАВИСТЬ вместо LUST/ЖАЖДА. Комментарий о вдохновении Колтрейном не меняет прямо названную в обоих текстах трубу.",
+    "Курьерка сбита грузовиком, её жизни ничего не угрожает, компания оставила без помощи. ENневредимость/увольнение не перенесены. Юридическая новость/рассказ о панкуронии остаются игровыми словами, новые реальные законы, дозы, процедуры и медицинские объяснения не добавлены.",
+    "Шохре Превер женщина/математик с аутизмом по сообщению и авторской пометке об уважительной формулировке. Не страдает/больная/принижающий ярлык. 33врадио/34вкарточке явное расхождение. Только972называет награду;030по-прежнему неназванная медаль. Новые сведения не раскрывают загадку радио.",
+    "FRClient06 три строки сведены к двум ENслотам: смерть+вероятное самоубийство в первой, сомнение водителя во второй. FRClient08 вторую строку разделили по готовой границе предложений, получив три ENслота. Все FRфразы сохранены; карта и конкретные фрагменты записаны, не позиционная потеря.",
+    "ВFRradio-ghost-outro один NBSP после sfx:, в ENобычный пробел. Носитель сохраняет ENASCII-команду. Для FRкомпиляционной пары допустима лишь отдельная производная с этим одним пробелом и двумя явно изменёнными переносами строк;оригиналы не переписаны.",
+    "Воспоминание невестки/младенца/отсутствующего кольца не стало новым браком водителя или подтверждённым полом младенца. Незавершённые нож-в-горле/прораб/Вы сохранены. Ghost05 переведён, но не входит в исходный случайный список00..04, обычная достижимость не объявлена.",
+    "Сильви/Сильвен мать и сын по условиюMet.Sylvie;Надя/Ивнеотносятся. Слух о телеигре относится к Дени,не к женщине. У новости о подростке исходныйMet.Alicia сохранён,комментарийназываетAlicia&Esmeralda:неподменаусловияпо догадке.",
+    "Портфель Венсана: FR972ошибочноmanette,но условиеMet.Vincent и FR008vincent-party/next прямо называют mallette, EN972briefcase согласуется. Исправлено в полезном русском тексте по первичному FRдоказательству,немолчаливыйвыборанглийского и не новое игровое действие.",
+    "Последовательность старой двухлетней утечки согласована с971Judge09/98002. Моникженщина поune femme;её суждения о полковнике/политике/жертвах остаются мнением. Шпионка/слушательницы/журналистки/Микаэла имеют верный род поFR,не по именам.",
+    "UIвключает самостоятельные французские формулировки: часть состояния против всего в новости;рост1,80вUI противбольше1,80вреплике;actionAngelshow03 выдаёт текст о голосах,а04двеуликибезUIключей. Неизвестные поля/номера/связи не выдуманы и не переназначены в рамках редакторской правки.",
+    "Исходный angel-hub2 читает sand04..01 вместо angel04..01. Записано отдельным техническим долгом без скрытой замены переменных. Временные и случайные условия,включая меню с возвратами,сохранены;компиляциянеравнаприёмкевсехисторий/Unity."
+  ],
+  "visible_text_alignment": [
+    {
+      "passage": "Radio-News-Clients-06",
+      "french_lines": [
+        "Entre deux informations pas très intéressantes, vous entendez qu’un DJ, ancienne star de la scène française des années 90, a été retrouvé mort chez lui.",
+        "Probablement un suicide.",
+        "Sans détails supplémentaires, vous doutez un instant qu’il ne s’agisse de votre client…"
+      ],
+      "carrier_lines": [
+        "In between two boring stories, you hear that DJ, a star of the French music scene back in the 90s, was found dead in his home.",
+        "They give no other details, but you wonder for a second if they’re not talking about your passenger…"
+      ],
+      "french_segments": [
+        "Entre deux informations pas très intéressantes, vous entendez qu’un DJ, ancienne star de la scène française des années 90, a été retrouvé mort chez lui.",
+        "Probablement un suicide.",
+        "Sans détails supplémentaires, vous doutez un instant qu’il ne s’agisse de votre client…"
+      ],
+      "target_slot_for_segment": [
+        0,
+        0,
+        1
+      ],
+      "russian_lines": [
+        "Между двумя не особенно интересными новостями вы слышите: диджея, бывшую звезду французской сцены девяностых, нашли дома мёртвым. Вероятно, самоубийство.",
+        "Других подробностей нет, и вы на мгновение задумываетесь: не ваш ли это пассажир?.."
+      ],
+      "reason": "Complete French wording retained;combine source0+1 into carrier0,source2→carrier1."
+    },
+    {
+      "passage": "Radio-News-Clients-08",
+      "french_lines": [
+        "Un reportage de quelques minutes offre une plongée en apnée dans l’univers du « cosplay » à l’occasion d’un salon.",
+        "Un des jeunes interviewés parle un vieux français qui vous fait rire. Vous imaginez sans peine la tête du journaliste devant l’armure de votre client…"
+      ],
+      "carrier_lines": [
+        "A longish news story brings you straight into heart of the cosplay world during a convention.",
+        "One of the young people being interviewed has an outdated way of speaking that makes you laugh.",
+        "You can just picture the reporter’s expression as she contemplates your passenger’s armor…"
+      ],
+      "french_segments": [
+        "Un reportage de quelques minutes offre une plongée en apnée dans l’univers du « cosplay » à l’occasion d’un salon.",
+        "Un des jeunes interviewés parle un vieux français qui vous fait rire.",
+        "Vous imaginez sans peine la tête du journaliste devant l’armure de votre client…"
+      ],
+      "target_slot_for_segment": [
+        0,
+        1,
+        2
+      ],
+      "russian_lines": [
+        "Несколько минут репортажа с фестиваля погружают вас с головой в мир косплея.",
+        "Один из молодых собеседников говорит на старинном французском, и вы смеётесь.",
+        "Легко представить лицо журналиста при виде доспехов вашего пассажира…"
+      ],
+      "reason": "Split French source line1 at its existing sentence boundary;source0→carrier0,line1firstsentence→1,line1secondsentence→2."
+    }
+  ],
+  "french_source_sha256": "cd21931c432612d82145e41040e3bc130c84a2cc511c6696c7a09100ace2791c",
+  "carrier_source_sha256": "de4b29ec79f8245768085376b4001bc50e78b10a92f6687977c02fe5316d2d72",
+  "author_file": "scripts/author_radio_fr.py",
+  "related_reviewed": [
+    "008_vincent_01",
+    "018_francois_01",
+    "025_ade_02",
+    "030_peter_01",
+    "035_sylvainsylvie_01",
+    "046_shohreh_01",
+    "061_denis_01",
+    "971_newspapers_eng"
+  ],
+  "related_pending": [
+    "990_ending_eng"
+  ],
+  "source_anomalies": [
+    {
+      "id": "radio-visible-line-carrier-alignment",
+      "scene": "972_radio_eng",
+      "source": "FRClient06has3visiblelinesversusEN2;FRClient08has2versusEN3;exactcompleteFrenchsegmentsandcarrierslotsrecorded.",
+      "alignment": [
+        {
+          "passage": "Radio-News-Clients-06",
+          "french_lines": [
+            "Entre deux informations pas très intéressantes, vous entendez qu’un DJ, ancienne star de la scène française des années 90, a été retrouvé mort chez lui.",
+            "Probablement un suicide.",
+            "Sans détails supplémentaires, vous doutez un instant qu’il ne s’agisse de votre client…"
+          ],
+          "carrier_lines": [
+            "In between two boring stories, you hear that DJ, a star of the French music scene back in the 90s, was found dead in his home.",
+            "They give no other details, but you wonder for a second if they’re not talking about your passenger…"
+          ],
+          "french_segments": [
+            "Entre deux informations pas très intéressantes, vous entendez qu’un DJ, ancienne star de la scène française des années 90, a été retrouvé mort chez lui.",
+            "Probablement un suicide.",
+            "Sans détails supplémentaires, vous doutez un instant qu’il ne s’agisse de votre client…"
+          ],
+          "target_slot_for_segment": [
+            0,
+            0,
+            1
+          ],
+          "russian_lines": [
+            "Между двумя не особенно интересными новостями вы слышите: диджея, бывшую звезду французской сцены девяностых, нашли дома мёртвым. Вероятно, самоубийство.",
+            "Других подробностей нет, и вы на мгновение задумываетесь: не ваш ли это пассажир?.."
+          ],
+          "reason": "Complete French wording retained;combine source0+1 into carrier0,source2→carrier1."
+        },
+        {
+          "passage": "Radio-News-Clients-08",
+          "french_lines": [
+            "Un reportage de quelques minutes offre une plongée en apnée dans l’univers du « cosplay » à l’occasion d’un salon.",
+            "Un des jeunes interviewés parle un vieux français qui vous fait rire. Vous imaginez sans peine la tête du journaliste devant l’armure de votre client…"
+          ],
+          "carrier_lines": [
+            "A longish news story brings you straight into heart of the cosplay world during a convention.",
+            "One of the young people being interviewed has an outdated way of speaking that makes you laugh.",
+            "You can just picture the reporter’s expression as she contemplates your passenger’s armor…"
+          ],
+          "french_segments": [
+            "Un reportage de quelques minutes offre une plongée en apnée dans l’univers du « cosplay » à l’occasion d’un salon.",
+            "Un des jeunes interviewés parle un vieux français qui vous fait rire.",
+            "Vous imaginez sans peine la tête du journaliste devant l’armure de votre client…"
+          ],
+          "target_slot_for_segment": [
+            0,
+            1,
+            2
+          ],
+          "russian_lines": [
+            "Несколько минут репортажа с фестиваля погружают вас с головой в мир косплея.",
+            "Один из молодых собеседников говорит на старинном французском, и вы смеётесь.",
+            "Легко представить лицо журналиста при виде доспехов вашего пассажира…"
+          ],
+          "reason": "Split French source line1 at its existing sentence boundary;source0→carrier0,line1firstsentence→1,line1secondsentence→2."
+        }
+      ],
+      "decision": "Explicit complete French segments mapped to2/3carrier slots;no loss of probably-suicide line or cosplay detail."
+    },
+    {
+      "id": "radio-ghost-nbsp-command",
+      "scene": "972_radio_eng",
+      "passage": "radio-ghost-outro",
+      "source": "FR one NBSP after sfx:,ENASCIIspace.",
+      "decision": "Preserve carrier command;only exact single occurrence normalized in separate FRcomparison derivative."
+    },
+    {
+      "id": "radio-shohreh-reported-age",
+      "scene": "972_radio_eng",
+      "passage": "Radio-News-Clients-01",
+      "source": "FR/ENradio33/card34;Fields/autism/French-Iranian explicitly reported here.",
+      "decision": "Separate source-scoped facts recorded,card unchanged,no invented birthday or backward revelation in030/046."
+    },
+    {
+      "id": "radio-vincent-manette-source-typo",
+      "scene": "972_radio_eng",
+      "passage": "Radio-TalkShow-Client-06",
+      "source": "FR972manette butMet.Vincent andFR008vincent-party/next mallette,ENbriefcase.",
+      "decision": "Портфель restored with explicit French owning-scene corroboration;no command/logic changes."
+    },
+    {
+      "id": "radio-angel-second-hub-reads-sand",
+      "scene": "972_radio_eng",
+      "passage": "radio-talkshow-killer-angel-hub2",
+      "source": "Both originals read talkshow-killer-sand04/03/02/01 when choosing Angel tests;hub1 reads Angel variables.",
+      "decision": "Original four predicates preserved;exhaustion/repeated selection behavior must be reproduced and resolved before final runtime acceptance."
+    },
+    {
+      "id": "radio-ghost05-unlinked",
+      "scene": "972_radio_eng",
+      "passage": "radio-ghost-05",
+      "source": "Original ghost random list contains00..04;05 has no inbound link.",
+      "decision": "Full text translated;not claimed reachable from ordinary menu. No extra random target added."
+    },
+    {
+      "id": "radio-angelshow-ui-actions",
+      "scene": "972_radio_eng",
+      "source": "Angelshow03ecoarticle action03_01hasvoicesvictim3UI;Angelshow04actions04_01/02 lackFR/ENUIfields.",
+      "decision": "Own texts translated separately;no fabricated new keys or rewiring. Original data inconsistency remains release technical debt."
+    },
+    {
+      "id": "radio-original-ui-wording-differences",
+      "scene": "972_radio_eng",
+      "source": "Angelnews02allfortune/UIpart;Sandshow04spokenover1.80/FRUIexact1.80.",
+      "decision": "French individual source wording preserved;not silently corrected from English or a different field."
+    },
+    {
+      "id": "radio-french-meaning-differences",
+      "scene": "972_radio_eng",
+      "source": "FRenvie vsENlust;demi-milliard vshalf-million;courierlifesafe/abandoned vsunhurt/fired;coachcareerbehindvsahead.",
+      "decision": "French source chosen explicitly,matching own UIthreat. Specific French cultural references restored without inventing sung lyrics."
+    },
+    {
+      "id": "radio-teen-eligibility",
+      "scene": "972_radio_eng",
+      "passage": "Radio-News-Clients-02-test",
+      "source": "Both source conditionMet.Alicia,commentAlicia&Esmeralda;useful news refers unnamed female young passenger.",
+      "decision": "Source predicate preserved,not silently changed toEsmeralda;no proper name added to ambiguous news."
+    }
+  ],
+  "technical_acceptance": "Pending specific source defects and liveUnity;editorial completion does not prove ordinary reachability of every block."
+}

@@ -1,0 +1,231 @@
+{
+  "status": "superseded_by_complete_editorial_and_native_compiler_validation",
+  "scenes": [
+    "920_board_eng",
+    "925_phone_suspect_eng",
+    "926_phone_pickone_eng",
+    "927_phone_reveal_eng"
+  ],
+  "source_sha256": {
+    "920_board_eng": "b45f5586e7f5b1dd9a95654a7ce4aeeebcb3f45d4b354fd477930538ff39db72",
+    "925_phone_suspect_eng": "99786413d5fbc089e8b021b2303e8ebe0f1d9e80c22fe62c3c69631455d2074d",
+    "926_phone_pickone_eng": "8f425cfb01144164be077e58a48d8f594221c54283c4d2c863d8bfcaab23fd6a",
+    "927_phone_reveal_eng": "fd6bfa57f0041bc58ce49ff63852b270ea0a6f94cc7177f99342cf690d7f695d"
+  },
+  "read_sources": [
+    "Complete English/French/previous Russian visible lines and choices for all four scenes",
+    "All raw English/French controls compared: same97/44/37/24 controls respectively",
+    "Reviewed six100_cop contexts/decisions and start/strategy passages;055Julian complete context/decisions;canon rules/glossary",
+    "100cop card2404:gender0 not evidence of male;female by woman/she/elle scene text"
+  ],
+  "findings": [
+    "Busset uses ты toward driver;driver uses вы. Old925/926/927 contain unlocalized BUSSET and wrong driver ты choices. Translate label БЮССЕ;do not infer gender from title lieutenant or zero card. Existing glossary has gender not confirmed: register fact with direct source quotes when authoring,not by name.",
+    "925 time question got the time means time of day,not asking colleagues for free time;station means police station/отдел,not railway station. Opening It is unfinished time expression,not Это. ENneanderthals kept versusFRabrutis. Early and wipedout is her current condition,not empty cab.",
+    "925 gooddoggie sarcastic demeaning praise,DA fangs/werewolf/badbreath a metaphor and joke,not supernatural fact or new suspect. ENtwo-three days then definite three;FRthree-three differs,keep EN and note variant. Sourcepickup>2 delayed flag only third delay (0/1/2/3). Easy/normal removes alibied suspect,hard skips;do not invent name or game-side removal command.",
+    "926 no backgroundnoise→probablynotatstation,not confirmed home/address. Teacup/coaster sound only maybe. Toilet throne idiom and threateningarrogance remain. Driverchoices Whereareyou/Ihaveaname are formal byFRVous/pourvous. FRone anomalous BussetVousetyouthenreturnsTu;canonasymmetricты/вы preserved explicitly.",
+    "926 allsuspectportraits aligned,ideasamess;stomachknot idiom not literal tied stomach. Prosecutor/chiefofpolice/minister are distinct positions;ENChief versusFRpréfet alreadylocalized начальник полиции context,do not invent jurisdiction. Meetingintwohours and callerpressure retained. Receiverlaidontable≠hangup;external suspectselection follows.",
+    "927 Ibuyit means accepts version tentatively,notmoney. Fisharound vet means check information,not physical fishing. Suspectpursuit not literal walkbehind. Good/bad validation depends on Easy only;Normal/Hard goes easy-good regardless correctness,do not rewrite controls. _Driver.LastChance1 skip revalidation on secondchoice,not reset or guaranteeactualmurderer.",
+    "927 threat lastnight freedom despite morningcall/tonightcallback is sourcewording,do not change into lastday to fix timeline. Coldspace is emotionalcomparison,not new location;putphone down not additional hangup command. SourceENthismorning versusFRothermorning keepEN explicitly.",
+    "920 missing photos are photos (FRelles),not vanished nephews. Phrase gotoutof… deliberately interrupted;sourcecomment says prison but never complete visible ellipsis. Later canonical imprisonment does not authorize early completion. Plural nephews withoutnewnames/mothers/count;not same as driversownson.",
+    "920 board corkboard at home,not notebook. Createbackstory means reconstruct motives/version from evidence,not forge story;both sexes possible,not all suspects guilty. Weight/reliability versusnumber ofclues emphasized. Independent note belowportrait is in-universe UI explanation,retain exact gameplaymeaning withoutdeveloperjargon.",
+    "920 Sandmanintrusion is fear followedbyexplicitdoubt—no proof killer reallyvisited,neighbors or Bussetinnocent. Cigarettebutt on floor not broken cigarette;thick shoe;no invented footprintmatch. Substandard building/FRinsalubre poorcondition,not cheaprent (rentveryexpensive). FRvoisine specifies female neighbor flushing,to clarify neutralENneighbor;not identified with other passengers.",
+    "920 JulianHelp1 document afterDay1/2/5higherpriority;not immediate clue in055. Whistleblower distinct from policeCI. SourceENsmiledpast versusFRpresent withrestpresent→presentconsistent narration;no futuredeliveryexplanation invented. _Julian.Help not reset in920,do not silently repair repeated delivery.",
+    "920 Day2 elevencase-specific documents via commands,Day5Sandmanspecial,Julianfallback,randomordering clue/document preference and4×5ambientoutros. Bothnewflagreset0 atoutro exactlysource. tutorial_explanation externalentry should traceactual engine before declaring unreachable. No document commandsadded/changed."
+  ],
+  "remaining": [],
+  "linked_document_ui_reading": [
+    {
+      "key": "doc_judge_pic04.title",
+      "english": "Picture of Crime Scene 4",
+      "french": "Photo de scène de crime 4",
+      "russian": "Фотография места преступления 4",
+      "existing_editorial_records": []
+    },
+    {
+      "key": "doc_judge_pic04.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "existing_editorial_records": []
+    },
+    {
+      "key": "doc_judge_report01.title",
+      "english": "Police Report, Victim 1",
+      "french": "Rapport de police, victime 1",
+      "russian": "Полицейский отчёт, жертва 1",
+      "existing_editorial_records": []
+    },
+    {
+      "key": "doc_judge_report01.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "existing_editorial_records": []
+    },
+    {
+      "key": "doc_judge_report02.title",
+      "english": "Police Report, Victim 2",
+      "french": "Rapport de police, victime 2",
+      "russian": "Полицейский отчёт, жертва 2",
+      "existing_editorial_records": []
+    },
+    {
+      "key": "doc_judge_report02.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "existing_editorial_records": []
+    },
+    {
+      "key": "doc_judge_report03.title",
+      "english": "Police Report, Victim 3",
+      "french": "Rapport de police, victime 3",
+      "russian": "Полицейский отчёт, жертва 3",
+      "existing_editorial_records": []
+    },
+    {
+      "key": "doc_judge_report03.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "existing_editorial_records": []
+    },
+    {
+      "key": "doc_sand_autopsy03.title",
+      "english": "Autopsy Report, Victim 3",
+      "french": "Rapport d'autopsie, Victime 3",
+      "russian": "Отчёт о вскрытии, жертва 3",
+      "existing_editorial_records": []
+    },
+    {
+      "key": "doc_sand_autopsy03.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "existing_editorial_records": []
+    },
+    {
+      "key": "doc_sand_chrisrecords.title",
+      "english": "Chris’ criminal records",
+      "french": "Casier judiciaire de Chris",
+      "russian": "Досье Криса",
+      "existing_editorial_records": [
+        {
+          "context": "localization/contexts/044_chris_ui.json",
+          "russian": "Досье Криса"
+        }
+      ]
+    },
+    {
+      "key": "doc_sand_chrisrecords.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "existing_editorial_records": [
+        {
+          "context": "localization/contexts/044_chris_ui.json",
+          "russian": "Предоставлено Бюссе"
+        }
+      ]
+    },
+    {
+      "key": "doc_sand_kcase.title",
+      "english": "Killer Case",
+      "french": "Dossier de l'enquête",
+      "russian": "Дело об убийстве",
+      "existing_editorial_records": []
+    },
+    {
+      "key": "doc_sand_kcase.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "existing_editorial_records": []
+    },
+    {
+      "key": "doc_sand_report04.title",
+      "english": "Police Report, Victim 4",
+      "french": "Rapport de police, victime 4",
+      "russian": "Полицейский отчёт, жертва 4",
+      "existing_editorial_records": []
+    },
+    {
+      "key": "doc_sand_report04.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "existing_editorial_records": []
+    },
+    {
+      "key": "doc_angel_pic01.title",
+      "english": "Picture of Crime Scene 1",
+      "french": "Photo de scène de crime 1",
+      "russian": "Фотография места преступления 1",
+      "existing_editorial_records": []
+    },
+    {
+      "key": "doc_angel_pic01.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "existing_editorial_records": []
+    },
+    {
+      "key": "doc_angel_pic02.title",
+      "english": "Picture of Crime Scene 2",
+      "french": "Photo de scène de crime 2",
+      "russian": "Фотография места преступления 2",
+      "existing_editorial_records": []
+    },
+    {
+      "key": "doc_angel_pic02.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "existing_editorial_records": []
+    },
+    {
+      "key": "doc_angel_pic03.title",
+      "english": "Picture of Crime Scene 3",
+      "french": "Photo de scène de crime 3",
+      "russian": "Фотография места преступления 3",
+      "existing_editorial_records": []
+    },
+    {
+      "key": "doc_angel_pic03.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "existing_editorial_records": []
+    },
+    {
+      "key": "doc_judge_julian.title",
+      "english": "Julian’s files",
+      "french": "Documents de Julian",
+      "russian": "Документы Жюльяна",
+      "existing_editorial_records": [
+        {
+          "context": "localization/contexts/055_julian_ui.json",
+          "russian": "Документы Жюльяна"
+        }
+      ]
+    },
+    {
+      "key": "doc_judge_julian.source",
+      "english": "Given by Julian",
+      "french": "Info donnée par Julian",
+      "russian": "Передал Жюльян",
+      "existing_editorial_records": [
+        {
+          "context": "localization/contexts/055_julian_ui.json",
+          "russian": "Передал Жюльян"
+        }
+      ]
+    }
+  ],
+  "prepared_author": "scripts/author_board_phone_context.py",
+  "prepared_author_status": "Applied via save_scene;required pipeline and four native compiler pairs passed. Runtime and Unity boundaries remain explicit.",
+  "engine_entrypoint_reading": "localization/contexts/board_phone_entrypoints_reading.json",
+  "engine_entrypoint_boundary": "Four field-based StartDialogExternal callers recorded (call_pick_one/call_phone_suspect/call_phone_reveal/investigation_board). No literal source tags found. Explanation entry still needs caller/serialization research;absence of literal is not proof of unreachable.",
+  "validation": "localization/board_phone_scene_validation.json"
+}

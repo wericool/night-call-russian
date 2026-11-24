@@ -1,0 +1,17 @@
+{
+  "topic": "Source clarification: ENictus versusFRichthus and Christian fish/acrostic",
+  "source": {
+    "title": "Radio Vaticana — Por que o peixe é a imagem do cristão?",
+    "url": "https://www.archivioradiovaticana.va/storico/2015/02/27/por_que_o_peixe_%C3%A9_a_imagem_do_crist%C3%A3o/br-1125978",
+    "accessed": "2026-10-15",
+    "published": "2015-02-27",
+    "verified": "Opened official Vatican Radio archive;paragraphs about ancient Greek fish name and initials of the Christian phrase."
+  },
+  "paraphrase": "Статья объясняет название рыбы и символ через греческое слово и начальные буквы христианской формулы. Это подтверждает французский термин в игровом диалоге; эпизод не расширен дополнительной исторической справкой.",
+  "decision": "Использована русская форма ихтис. Английское ictus здесь ошибочное написание,уточнённоеFRichthus/контекстом,не медицинский термин.",
+  "game_sources": [
+    "original/TextAsset/sharedassets0.assets/835.json",
+    "original/TextAsset/sharedassets0.assets/822.json"
+  ],
+  "scope": "Terminology only,not an independent proof of all statements/beliefs uttered by fictional priest."
+}

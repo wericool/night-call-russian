@@ -1,0 +1,33 @@
+{
+  "scene": "221_jim_01",
+  "status": "superseded_by_complete_editorial_and_native_validation",
+  "source_sha256": "eb1836cf90df8b23d14b72efacdbf92aeee0fe9f8e6fe85bd6e4e6f5bd235517",
+  "source_file": "original/DialogObjectScript/sharedassets0.assets/2325.json",
+  "source_card": "original/PassengerObjectScript/sharedassets0.assets/2415.json",
+  "read_sources": [
+    "Complete EN47blocks137lines47answers plus invitation",
+    "Complete FR scene and corresponding metadata",
+    "Complete previous Russian scene including choices",
+    "Source card male3 age87",
+    "Reviewed053Camille business context"
+  ],
+  "source_control_agreement": true,
+  "findings": [
+    "Jim M./Джим М., male3 and he/il. Card87 versus apparent early30s is not permission to invent a real human age or declare a particular vampire/celebrity identity.",
+    "Unidentified night-loving regular in drive: primary EN unspecified regular customer versus FR female customer. Preserve unnamed referent, not assume Camille or driver family.",
+    "Conditional _Driver.Met.Camille uses entrepreneur053 not mixedpair010. Her mobilecafe/massage business idea is already reviewed; player repeats annoyance and onejobwell versus threebadly.",
+    "Mutual vous in French: avoid oldRU switches to ты/тебе. Familiar mydear may stay дорогой without genderchange.",
+    "Missing realestate joke/startwhat, steakrestaurant line, hungryannoyed firstline, hungryservice firstline and LookIsaidno choice, coffee agreement, disappointed sigh, backstoryfirstline, gaze/walkingstick/ellipsis. All explicit source lines/choices must be restored.",
+    "Rare meat is meat with blood/lightly cooked not raw; consistency in food is texture/substance, not logical consistency.",
+    "Abbey/triple describes abbey-style tripel beer not a brand Эбби or threebeers; ristretto no sugar, no oldinvented ifnotmistaken. Source adds uncanny knowledge of driverpreferences without proof of mindreading.",
+    "Heat/service ENaroused versus FRteniréveillé: threatening doublemeaning. Choose contextaware wording after full review, record decision; do not arbitrarily invent sexual act.",
+    "ChetBaker references to lostfriend are perceptions/hisclaims, narrator unsure chronology; no added historicaldates or murdertheory. Musicians/Club27 names belong to story, not claimslivingauthor endorses.",
+    "annoyed>2 attacks, annoyed<=2 leaves. Decrement justjob canyield -1; no normalization. Variablescoffee/drink only assigned original branches; no globalrewardcommands inserted.",
+    "Restaurant reveal22101 with source travelstop; bad endings lack travelstop in source. Attack22102 later no neckwound/no passenger and coins uncertain tip; notconfirmed permanentdeath/deathflag.",
+    "Escape22103 clawlike mark asiftiger, not confirmedanimal. PèreLachaise/northernentrance/20th/Gambetta/Étoile/Châtelet map names should be consistent; title pieddecochon alone does not authorize naming restaurant."
+  ],
+  "remaining": [],
+  "draft_author_file": "scripts/author_jim_context.py",
+  "draft_status": "Applied complete scene and native validated; no longer an unapplied draft.",
+  "validation": "localization/jim_scene_validation.json"
+}

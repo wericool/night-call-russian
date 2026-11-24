@@ -1,0 +1,47 @@
+{
+  "scope": "1explicit French UI fields manually read/accepted; not whole interface.",
+  "french_priority_author": "scripts/accept_recluse_ui_followup.py",
+  "french_priority_decisions": [
+    "FRtooltip содержит1, но собственные FRключVIC02 и парное NAME.RECLUSE.VIC02 содержат2; EN и GERtooltip также2. Явное адресное исключение: сохраняем2по собственной паре ключ/название, не переносим из удобного EN. Исходные файлы не меняем, причину рассогласования у разработчиков не утверждаем.",
+    "Жила затворницей приписывает неизвестной жертве женский пол. Вела затворническую жизнь передаёт vivait en réclus без установления пола человека; грамматический род слова жертва не является его биографией. Обе уже принятые NAMEформы используют такую же нейтральную конструкцию.",
+    "Прослежено чтение доски: BoardItemPopUpClue.SetContent формирует ключи clue.id+.title/.source и clue.source.+enum, затем LocalizedText обновляет текст. Среди четырёх InvestigationScript нет GC.CLUE/RECLUSEссылок; во всех18исходных сериализованных ассетах точный RECLUSE.VIC02ключ встретился лишь в трёх LocalizationData. Это отсутствие связи в обследованных данных/маршруте, не доказательство абсолютной недостижимости любого внешнего обращения.",
+    "Единственное отдельное слово recluse вне словарей — FRрадио972/Radio-News-Killer-Angel-06: актриса Зита Вельпо. Все три действительные улики radio06 имеют положительную связь толькоvictim3; FRзаголовки тоже3. Не объявлять эту актрису неизвестной жертвой2изlegacyключа. Корректное жила затворницей в радио не менять глобально.",
+    "Принято именно последнее спорное поле интерфейса,1содержательная редакция и1точный fallback той же строки. Все236сцен/ветки/иконки/графика остаются прежними.921/921принятых UIполей не означают готовый релиз или полную литературную/игровую приёмку."
+  ],
+  "linked_contexts_read": [
+    "scripts/inspect_clue_runtime.ps1",
+    "scripts/trace_recluse_asset_references.py",
+    "review/clue_runtime_inventory.json",
+    "review/clue_runtime_original_il.txt",
+    "review/recluse_asset_reference_trace.json",
+    "original/LocalizationData/sharedassets0.assets/2096.json",
+    "original/LocalizationData/sharedassets0.assets/2097.json",
+    "original/LocalizationData/sharedassets0.assets/2098.json",
+    "original/InvestigationScript/sharedassets0.assets/2102.json",
+    "original/TextAsset/sharedassets0.assets/858.json",
+    "localization/reviewed/972_radio_eng.json"
+  ],
+  "keys": [
+    {
+      "key": "GC.CLUE.TT.RECLUSE.VIC02",
+      "english": "Victim 2 lived as a recluse.",
+      "french": "La victime 1 vivait en réclus.",
+      "russian": "Жертва 2 вела затворническую жизнь.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 2 жила затворницей.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    }
+  ],
+  "exact_legacy_fallback_updates": [
+    {
+      "english": "Victim 2 lived as a recluse.",
+      "ui_keys": [
+        "GC.CLUE.TT.RECLUSE.VIC02"
+      ],
+      "previous_fallback": "Жертва 2 жила затворницей.",
+      "russian": "Жертва 2 вела затворническую жизнь."
+    }
+  ],
+  "legacy_fallback_owner_collisions": []
+}

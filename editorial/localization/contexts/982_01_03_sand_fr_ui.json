@@ -1,0 +1,156 @@
+{
+  "status": "french_priority_reviewed",
+  "primary_language": "fr",
+  "keys": [
+    {
+      "key": "clue_sand_hospital_01.title",
+      "english": "Muscle relaxant disappeared from hospital night of the fire",
+      "french": "Relaxant musculaire volé de l'hôpital le soir de l'incendie",
+      "before": "Миорелаксант исчез из больницы в ночь пожара",
+      "russian": "Миорелаксант украли из больницы в ночь пожара",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Французскийоригинал/связаннаясценаисточникапроверены. РодЖертваграмматический,ЖанБретонмужчина;не новыйвердиктовиновности."
+    },
+    {
+      "key": "clue_sand_hospital_02.title",
+      "english": "Pancuronium bromide used for executions in the US",
+      "french": "Bromure de pancuronium utilisé aux USA pour les executions",
+      "before": "Бромид панкурония, используемый для приведения в исполнение смертных приговоров в США",
+      "russian": "Бромид панкурония используют для казней в США",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Французскийоригинал/связаннаясценаисточникапроверены. РодЖертваграмматический,ЖанБретонмужчина;не новыйвердиктовиновности."
+    },
+    {
+      "key": "clue_sand_hospital_03.title",
+      "english": "With pancuronium bromide, victim feels everything",
+      "french": "Bromure de pancuronium = victime a tout ressenti",
+      "before": "При использовании бромида панкурония жертва чувствует все.",
+      "russian": "Бромид панкурония — жертва всё чувствовала",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Французскийоригинал/связаннаясценаисточникапроверены. РодЖертваграмматический,ЖанБретонмужчина;не новыйвердиктовиновности."
+    },
+    {
+      "key": "clue_sand_cafe_01.title",
+      "english": "Victim 1 worked for Groupe Diamant in the past",
+      "french": "Victime 1 a travaillé pour le Groupe Diamant",
+      "before": "Жертва 1 в прошлом работала в Groupe Diamant",
+      "russian": "Первая жертва работала в группе «Диамант»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Французскийоригинал/связаннаясценаисточникапроверены. РодЖертваграмматический,ЖанБретонмужчина;не новыйвердиктовиновности."
+    },
+    {
+      "key": "clue_sand_cafe_02.title",
+      "english": "Victim 1 fired from Groupe Diamant years before Albatros",
+      "french": "Victime 1 licenciée du Groupe Diamant des années plus tôt",
+      "before": "Жертва 1 уволена из Groupe Diamant за годы до «Альбатроса»",
+      "russian": "Жертву №1 уволили из группы «Диамант» за несколько лет до этого",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Французскийоригинал/связаннаясценаисточникапроверены. РодЖертваграмматический,ЖанБретонмужчина;не новыйвердиктовиновности.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/fieldwork_ui_amendment.py",
+          "before": "Первую жертву уволили из группы «Диамант» много лет назад",
+          "after": "Жертву №1 уволили из группы «Диамант» за несколько лет до этого",
+          "reason": "FR des années plus tôt не задаёт много и не называет в самом заголовке пожар Альбатроса. Сохранено неопределённое до этого; связь с пожаром в полной газетной статье остаётся, но не дописана в UI."
+        }
+      ]
+    },
+    {
+      "key": "clue_sand_cafe_03.title",
+      "english": "Victim 1 = arsonist",
+      "french": "Victime 1 = pyromane",
+      "before": "Жертва 1 = поджигатель",
+      "russian": "Первая жертва — поджигатель",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Французскийоригинал/связаннаясценаисточникапроверены. РодЖертваграмматический,ЖанБретонмужчина;не новыйвердиктовиновности."
+    },
+    {
+      "key": "doc_sand_escort_01.title",
+      "english": "Secret Escort 75’s customer list",
+      "french": "Liste de clients de Secret Escort 75",
+      "before": "Список клиентов Secret Escort 75",
+      "russian": "Список клиентов Secret Escort 75",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Французскийоригинал/связаннаясценаисточникапроверены. РодЖертваграмматический,ЖанБретонмужчина;не новыйвердиктовиновности."
+    },
+    {
+      "key": "clue_sand_hospital_01.source",
+      "english": "From Djena at the Saint-Ouen Hospital",
+      "french": "Selon Djena, à l'hôpital de Saint-Ouen",
+      "before": "От Джены из больницы Сент-Уан",
+      "russian": "От Джены из больницы Сент-Уан",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Французскийоригинал/связаннаясценаисточникапроверены. РодЖертваграмматический,ЖанБретонмужчина;не новыйвердиктовиновности."
+    },
+    {
+      "key": "clue_sand_hospital_02.source",
+      "english": "From Djena at the Saint-Ouen Hospital",
+      "french": "Selon Djena, à l'hôpital de Saint-Ouen",
+      "before": "От Джены из больницы Сент-Уан",
+      "russian": "От Джены из больницы Сент-Уан",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Французскийоригинал/связаннаясценаисточникапроверены. РодЖертваграмматический,ЖанБретонмужчина;не новыйвердиктовиновности."
+    },
+    {
+      "key": "clue_sand_hospital_03.source",
+      "english": "From Djena at the Saint-Ouen Hospital",
+      "french": "Selon Djena, à l'hôpital de Saint-Ouen",
+      "before": "От Джены из больницы Сент-Уан",
+      "russian": "От Джены из больницы Сент-Уан",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Французскийоригинал/связаннаясценаисточникапроверены. РодЖертваграмматический,ЖанБретонмужчина;не новыйвердиктовиновности."
+    },
+    {
+      "key": "clue_sand_cafe_01.source",
+      "english": "From my source inside Groupe Diamant",
+      "french": "Selon ma source dans le Groupe Diamant",
+      "before": "От моего источника в Groupe Diamant",
+      "russian": "От моего источника в группе «Диамант»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Французскийоригинал/связаннаясценаисточникапроверены. РодЖертваграмматический,ЖанБретонмужчина;не новыйвердиктовиновности."
+    },
+    {
+      "key": "clue_sand_cafe_02.source",
+      "english": "From my source inside Groupe Diamant",
+      "french": "Selon ma source dans le Groupe Diamant",
+      "before": "От моего источника в Groupe Diamant",
+      "russian": "От моего источника в группе «Диамант»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Французскийоригинал/связаннаясценаисточникапроверены. РодЖертваграмматический,ЖанБретонмужчина;не новыйвердиктовиновности."
+    },
+    {
+      "key": "clue_sand_cafe_03.source",
+      "english": "From my source inside Groupe Diamant",
+      "french": "Selon ma source dans le Groupe Diamant",
+      "before": "От моего источника в Groupe Diamant",
+      "russian": "От моего источника в группе «Диамант»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Французскийоригинал/связаннаясценаисточникапроверены. РодЖертваграмматический,ЖанБретонмужчина;не новыйвердиктовиновности."
+    },
+    {
+      "key": "doc_sand_escort_01.source",
+      "english": "Stolen at Secret Escort 75",
+      "french": "Volé à Secret Escort 75",
+      "before": "Украдено в Secret Escort 75",
+      "russian": "Украдено в Secret Escort 75",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Французскийоригинал/связаннаясценаисточникапроверены. РодЖертваграмматический,ЖанБретонмужчина;не новыйвердиктовиновности."
+    }
+  ],
+  "author_file": "scripts/author_sand_hospital_cafe_escort_fr.py",
+  "scope": "14 newly explicit qualified fields;including2 unchanged working customer-list values. Organization name agrees with the distinct Chris044 clue;these document keys were not qualified there."
+}

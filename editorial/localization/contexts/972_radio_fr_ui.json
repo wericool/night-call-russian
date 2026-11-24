@@ -1,0 +1,834 @@
+{
+  "status": "french_priority_reviewed",
+  "primary_language": "fr",
+  "keys": [
+    {
+      "key": "clue_angel_radionews01_01.title",
+      "english": "Killer < 1m70",
+      "french": "Tueur < 1m70",
+      "before": "Убийца <1м70",
+      "russian": "Рост убийцы — меньше метра семидесяти",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_angel_radionews01_01.source",
+      "english": "Heard on the news…",
+      "french": "Entendu aux infos…",
+      "before": "Услышано в новостях…",
+      "russian": "Услышано в новостях…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_angel_radionews02_01.title",
+      "english": "Victim 4 = gave part of her fortune to charity",
+      "french": "Victime 4 a donné partie de sa fortune à des associations caritatives",
+      "before": "Жертва 4 = отдала часть своего состояния на благотворительность",
+      "russian": "Жертва №4 отдала часть состояния на благотворительность",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_angel_radionews02_01.source",
+      "english": "Heard on the news…",
+      "french": "Entendu aux infos…",
+      "before": "Услышано в новостях…",
+      "russian": "Услышано в новостях…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_angel_radionews03_01.title",
+      "english": "Victim 4 = wealthy widow",
+      "french": "Victime 4 = veuve richissime",
+      "before": "Жертва 4 = богатая вдова",
+      "russian": "Жертва №4 — баснословно богатая вдова",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_angel_radionews03_01.source",
+      "english": "Heard on the news…",
+      "french": "Entendu aux infos…",
+      "before": "Услышано в новостях…",
+      "russian": "Услышано в новостях…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_angel_radionews04_01.title",
+      "english": "Victim 1 comes from very religious family",
+      "french": "Victime 1 vient d'une famille très religieuse",
+      "before": "Жертва 1 происходит из очень религиозной семьи",
+      "russian": "Жертва №1 из очень религиозной семьи",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_angel_radionews04_01.source",
+      "english": "Heard on the news…",
+      "french": "Entendu aux infos…",
+      "before": "Услышано в новостях…",
+      "russian": "Услышано в новостях…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_angel_radionews05_01.title",
+      "english": "Victim 2 = vegan, against animal cruelty",
+      "french": "Victime 2 = végane, milite contre la cruauté animale",
+      "before": "Жертва 2 = веган, против жестокого обращения с животными",
+      "russian": "Жертва №2 — веган, борец против жестокого обращения с животными",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_angel_radionews05_01.source",
+      "english": "Heard on the news…",
+      "french": "Entendu aux infos…",
+      "before": "Услышано в новостях…",
+      "russian": "Услышано в новостях…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_angel_radionews06_01.title",
+      "english": "Victim 3 received death threats: « LUST »",
+      "french": "Victime 3 a reçu de meances de mort : « ENVIE »",
+      "before": "Жертва 3 получала угрозы расправы: \"LUST\"",
+      "russian": "Жертва №3 получала угрозы смертью: «ЗАВИСТЬ»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_angel_radionews06_01.source",
+      "english": "Heard on the news…",
+      "french": "Entendu aux infos…",
+      "before": "Услышано в новостях…",
+      "russian": "Услышано в новостях…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_angel_radionews06_02.title",
+      "english": "Victim 3 rarely left home",
+      "french": "Victime 3 quittait rarement son domicile",
+      "before": "Жертва 3 редко выходила из дома",
+      "russian": "Жертва №3 редко выходила из дома",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_angel_radionews06_02.source",
+      "english": "Heard on the news…",
+      "french": "Entendu aux infos…",
+      "before": "Услышано в новостях…",
+      "russian": "Услышано в новостях…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_angel_radionews06_03.title",
+      "english": "Victim 3 famous for her roles in the 60s",
+      "french": "Victime 3 célèbre pour ses rôles dans les années 60",
+      "before": "Жертва 3 известна своими ролями в 60-х годах",
+      "russian": "Жертва №3 известна ролями в шестидесятых",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_angel_radionews06_03.source",
+      "english": "Heard on the news…",
+      "french": "Entendu aux infos…",
+      "before": "Услышано в новостях…",
+      "russian": "Услышано в новостях…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_angel_radionews07_01.title",
+      "english": "Break-ins were done by a pro",
+      "french": "Cambriolages faits par un pro",
+      "before": "Взломом занимался профессионал",
+      "russian": "Кражи со взломом — работа профессионала",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_angel_radionews07_01.source",
+      "english": "Heard on the news…",
+      "french": "Entendu aux infos…",
+      "before": "Услышано в новостях…",
+      "russian": "Услышано в новостях…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_angel_radionews08_01.title",
+      "english": "Victims let the killer in = must look inoffensive",
+      "french": "Victimes ont laissé le tueur rentrer = doit avoir l'air inoffensif",
+      "before": "Жертвы впускают убийцу в дом = должны выглядеть непринужденно",
+      "russian": "Жертвы впустили убийцу — значит, он выглядит безобидно",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_angel_radionews08_01.source",
+      "english": "Heard on the news…",
+      "french": "Entendu aux infos…",
+      "before": "Услышано в новостях…",
+      "russian": "Услышано в новостях…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_judge_radionews01_01.title",
+      "english": "First 3 victims files = part of police leak 2 years ago",
+      "french": "Dossiers des 3 premières victimes = fuités il y a 2 ans",
+      "before": "Досье первых 3 жертв = часть утечки из полиции 2 года назад",
+      "russian": "Досье первых трёх жертв попали в утечку два года назад",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_judge_radionews01_01.source",
+      "english": "Heard on the news…",
+      "french": "Entendu aux infos…",
+      "before": "Услышано в новостях…",
+      "russian": "Услышано в новостях…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_judge_radionews02_01.title",
+      "english": "Rictodin victims still asking for retribution",
+      "french": "Victimes du Rictodin attendent toujours dédommagement",
+      "before": "Жертвы риктодина по-прежнему требуют возмездия",
+      "russian": "Пострадавшие от «Риктодина» до сих пор ждут компенсации",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_judge_radionews02_01.source",
+      "english": "Heard on the news…",
+      "french": "Entendu aux infos…",
+      "before": "Услышано в новостях…",
+      "russian": "Услышано в новостях…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_judge_radionews03_01.title",
+      "english": "Message on crime scene 3 linked to the Process",
+      "french": "Message scène de crime 3 lié au Processus",
+      "before": "Сообщение на месте преступления 3, связанное с процессом",
+      "russian": "Надпись на месте третьего убийства связана с «Процессом национальной реорганизации»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_judge_radionews03_01.source",
+      "english": "Heard on the news…",
+      "french": "Entendu aux infos…",
+      "before": "Услышано в новостях…",
+      "russian": "Услышано в новостях…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_judge_radionews04_01.title",
+      "english": "Homeless man seen around crime scene 2 & 3",
+      "french": "Sans-abri aperçu autour des scènes de crime 2 & 3",
+      "before": "Бездомного видели в районе места преступления 2 и 3",
+      "russian": "Бездомного видели возле мест второго и третьего убийств",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_judge_radionews04_01.source",
+      "english": "Heard on the news…",
+      "french": "Entendu aux infos…",
+      "before": "Услышано в новостях…",
+      "russian": "Услышано в новостях…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_judge_radionews05_01.title",
+      "english": "Bullet case found on crime scene 4 = police gun",
+      "french": "Douille trouvée sur scène de crime 4 = arme utilisée par la police",
+      "before": "Гильза, найденная на месте преступления 4 = полицейский пистолет",
+      "russian": "Гильза на месте четвёртого убийства указывает на полицейское оружие",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_judge_radionews05_01.source",
+      "english": "Heard on the news…",
+      "french": "Entendu aux infos…",
+      "before": "Услышано в новостях…",
+      "russian": "Услышано в новостях…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_judge_radionews06_01.title",
+      "english": "Killer = a professional",
+      "french": "Tueur = pro",
+      "before": "Убийца = профессионал",
+      "russian": "Убийца — профессионал",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_judge_radionews06_01.source",
+      "english": "Heard on the news…",
+      "french": "Entendu aux infos…",
+      "before": "Услышано в новостях…",
+      "russian": "Услышано в новостях…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_judge_radionews07_01.title",
+      "english": "Killings could be linked to mafia",
+      "french": "Meurtres peuvent être liés à la mafia",
+      "before": "Убийства могут быть связаны с мафией",
+      "russian": "Убийства могут быть связаны с мафией",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_judge_radionews07_01.source",
+      "english": "Heard on the news…",
+      "french": "Entendu aux infos…",
+      "before": "Услышано в новостях…",
+      "russian": "Услышано в новостях…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_judge_radionews08_01.title",
+      "english": "Killings could be linked to mafia",
+      "french": "Meurtres peuvent être liés à la mafia",
+      "before": "Убийства могут быть связаны с мафией",
+      "russian": "Убийства могут быть связаны с мафией",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_judge_radionews08_01.source",
+      "english": "Heard on the news…",
+      "french": "Entendu aux infos…",
+      "before": "Услышано в новостях…",
+      "russian": "Услышано в новостях…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_judge_radionews08_02.title",
+      "english": "Victim 1 owed money to the mafia",
+      "french": "Victime 1 devait de l'argent à la mafia",
+      "before": "Жертва 1 задолжала деньги мафии.",
+      "russian": "Жертва №1 задолжала мафии",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_judge_radionews08_02.source",
+      "english": "Heard on the news…",
+      "french": "Entendu aux infos…",
+      "before": "Услышано в новостях…",
+      "russian": "Услышано в новостях…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_sand_radionews_01_01.title",
+      "english": "Albatros Fire = millions in insurance money",
+      "french": "Incendie de l'Albatros = des millions en remboursement d'assurance",
+      "before": "Пожар на \"Альбатросе\" = миллионы страховых выплат",
+      "russian": "Пожар в «Альбатросе» сулит миллионы страховых выплат",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_sand_radionews_01_01.source",
+      "english": "Heard on the news…",
+      "french": "Entendu aux infos…",
+      "before": "Услышано в новостях…",
+      "russian": "Услышано в новостях…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_sand_radionews_02_01.title",
+      "english": "Albatros Fire = accident due to bad state of building",
+      "french": "Incendie de l'Albatros = accident à cause de la vetusteté du bâtiment",
+      "before": "Пожар в «Альбатросе» = авария из-за плохого состояния здания",
+      "russian": "Пожар в «Альбатросе» — несчастный случай из-за ветхости здания",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_sand_radionews_02_01.source",
+      "english": "Heard on the news…",
+      "french": "Entendu aux infos…",
+      "before": "Услышано в новостях…",
+      "russian": "Услышано в новостях…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_sand_radionews_03_01.title",
+      "english": "Albatros Fire = criminal act",
+      "french": "Incendie de l'Albatros = acte criminel",
+      "before": "Пожар на Альбатросе = преступное деяние",
+      "russian": "Пожар в «Альбатросе» — преступление",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_sand_radionews_03_01.source",
+      "english": "Heard on the news…",
+      "french": "Entendu aux infos…",
+      "before": "Услышано в новостях…",
+      "russian": "Услышано в новостях…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_sand_radionews_04_01.title",
+      "english": "Victim 1 = suspect in Albatros fire",
+      "french": "Victime 1 = un des suspects dans l'incendie de l'Albatros",
+      "before": "Жертва 1 = подозреваемый в пожаре на Альбатросе",
+      "russian": "Жертва №1 — один из подозреваемых в пожаре «Альбатроса»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_sand_radionews_04_01.source",
+      "english": "Heard on the news…",
+      "french": "Entendu aux infos…",
+      "before": "Услышано в новостях…",
+      "russian": "Услышано в новостях…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_sand_radionews_04_02.title",
+      "english": "Victim 1 = no alibi for Albatros fire",
+      "french": "Victime 1 = pas d'alibi pour l'incendie de l'Albatros",
+      "before": "Жертва 1 = нет алиби для огня \"Альбатроса",
+      "russian": "У жертвы №1 нет алиби на время пожара в «Альбатросе»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_sand_radionews_04_02.source",
+      "english": "Heard on the news…",
+      "french": "Entendu aux infos…",
+      "before": "Услышано в новостях…",
+      "russian": "Услышано в новостях…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_sand_radionews_05_01.title",
+      "english": "Victim 3 = fantastic journalist",
+      "french": "Victime 3 = excellente journaliste",
+      "before": "Жертва 3 = журналист-фантаст",
+      "russian": "Жертва №3 — отличная журналистка",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_sand_radionews_05_01.source",
+      "english": "Heard on the news…",
+      "french": "Entendu aux infos…",
+      "before": "Услышано в новостях…",
+      "russian": "Услышано в новостях…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_sand_radionews_06_01.title",
+      "english": "Victim 3 = coins found in mouth",
+      "french": "Victime 3 = pièces de monnaire retrouvées dans sa bouche",
+      "before": "Жертва 3 = монеты найдены во рту",
+      "russian": "Во рту жертвы №3 нашли монеты",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_sand_radionews_06_01.source",
+      "english": "Heard on the news…",
+      "french": "Entendu aux infos…",
+      "before": "Услышано в новостях…",
+      "russian": "Услышано в новостях…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_sand_radionews_07_01.title",
+      "english": "Victims = connected through escort website",
+      "french": "Victimes = connectées via le site d'escort",
+      "before": "Жертвы = связь через сайт эскорта",
+      "russian": "Жертвы связаны через сайт эскорт-услуг",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_sand_radionews_07_01.source",
+      "english": "Heard on the news…",
+      "french": "Entendu aux infos…",
+      "before": "Услышано в новостях…",
+      "russian": "Услышано в новостях…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_sand_radionews_08_01.title",
+      "english": "Victim 4's will blocking inheritance in case of murder",
+      "french": "Victime 4 = héritage bloqué en cas de meurtre",
+      "before": "Завещание жертвы 4 блокирует наследство в случае убийства",
+      "russian": "Наследство жертвы №4 заблокировано в случае убийства",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_sand_radionews_08_01.source",
+      "english": "Heard on the news…",
+      "french": "Entendu aux infos…",
+      "before": "Услышано в новостях…",
+      "russian": "Услышано в новостях…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_angel_radioshow01_01.title",
+      "english": "Victim 4 = host refugees in her hotel",
+      "french": "Victime 4 = héberge des réfugiés dans son hôtel",
+      "before": "Жертва 4 = принимала беженцев в своем отеле",
+      "russian": "Жертва №4 укрывала беженцев у себя в особняке",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_angel_radioshow01_01.source",
+      "english": "Heard on the radio…",
+      "french": "Entendu à la radio…",
+      "before": "Услышано по радио…",
+      "russian": "Услышано по радио…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_angel_radioshow02_01.title",
+      "english": "Victim 4 = was a Russian spy",
+      "french": "Victime 4 = espionne russe",
+      "before": "Жертва 4 = был русским шпионом",
+      "russian": "Жертва №4 — российская шпионка",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_angel_radioshow02_01.source",
+      "english": "Heard on the radio…",
+      "french": "Entendu à la radio…",
+      "before": "Услышано по радио…",
+      "russian": "Услышано по радио…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_angel_radioshow03_01.title",
+      "english": "Victim 3 = Witness heard female voices",
+      "french": "Victime 3 = témoin a entendu des voix féminines",
+      "before": "Жертва 3 = Свидетель слышал женские голоса",
+      "russian": "Жертва №3 — свидетель слышал женские голоса",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_angel_radioshow03_01.source",
+      "english": "Heard on the radio…",
+      "french": "Entendu à la radio…",
+      "before": "Услышано по радио…",
+      "russian": "Услышано по радио…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_judge_radioshow01_01.title",
+      "english": "Victim 1 = great football coach",
+      "french": "Victime 1 = excellent entraîneur de football",
+      "before": "Жертва 1 - великий футбольный тренер",
+      "russian": "Жертва №1 — отличный футбольный тренер",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_judge_radioshow01_01.source",
+      "english": "Heard on the radio…",
+      "french": "Entendu à la radio…",
+      "before": "Услышано по радио…",
+      "russian": "Услышано по радио…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_judge_radioshow01_02.title",
+      "english": "Victims = wealthy",
+      "french": "Victimes = riches",
+      "before": "Жертвы = богатые",
+      "russian": "Жертвы — богатые люди",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_judge_radioshow01_02.source",
+      "english": "Heard on the radio…",
+      "french": "Entendu à la radio…",
+      "before": "Услышано по радио…",
+      "russian": "Услышано по радио…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_judge_radioshow02_01.title",
+      "english": "Victim 2 = fierce politician",
+      "french": "Victime 2 = politicien féroce",
+      "before": "Жертва 2 = яростный политик",
+      "russian": "Жертва №2 — напористый политик",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_judge_radioshow02_01.source",
+      "english": "Heard on the radio…",
+      "french": "Entendu à la radio…",
+      "before": "Услышано по радио…",
+      "russian": "Услышано по радио…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_judge_radioshow03_01.title",
+      "english": "Victim 3 = respected colonel & community pillar",
+      "french": "Victime 3 = colonel respecté et pilier de la communauté argentine",
+      "before": "Жертва 3 = уважаемый полковник и опора общества",
+      "russian": "Жертва №3 — уважаемый полковник, опора аргентинской общины",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_judge_radioshow03_01.source",
+      "english": "Heard on the radio…",
+      "french": "Entendu à la radio…",
+      "before": "Услышано по радио…",
+      "russian": "Услышано по радио…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_judge_radioshow04_01.title",
+      "english": "Victim 2 killed an Algerian man, never arrested",
+      "french": "Victime 2 a tué un Algérien, n'a jamais été arrêté",
+      "before": "Жертва 2 убила алжирца, который так и не был арестован",
+      "russian": "Жертва №2 убила алжирца, но её так и не арестовали",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_judge_radioshow04_01.source",
+      "english": "Heard on the radio…",
+      "french": "Entendu à la radio…",
+      "before": "Услышано по радио…",
+      "russian": "Услышано по радио…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_judge_radioshow04_02.title",
+      "english": "Victim 2 = racist, homophobic far-right leader",
+      "french": "Victime 2 = leader politique d'extrême-droite, raciste et homophobe",
+      "before": "Жертва 2 = расистский, гомофобный лидер ультраправых",
+      "russian": "Жертва №2 — ультраправый лидер, расист и гомофоб",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_judge_radioshow04_02.source",
+      "english": "Heard on the radio…",
+      "french": "Entendu à la radio…",
+      "before": "Услышано по радио…",
+      "russian": "Услышано по радио…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_sand_radioshow01_01.title",
+      "english": "Victim 1’s death = scapegoat",
+      "french": "Mort de la victime 1 = bouc-émissaire pratique",
+      "before": "Смерть жертвы 1 = козел отпущения",
+      "russian": "Смерть жертвы №1 — удобный способ найти козла отпущения",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_sand_radioshow01_01.source",
+      "english": "Heard on the radio…",
+      "french": "Entendu à la radio…",
+      "before": "Услышано по радио…",
+      "russian": "Услышано по радио…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_sand_radioshow02_01.title",
+      "english": "Albatros Fire = good for Groupe Diamant’s business",
+      "french": "Incendie de l'Albatros = bonne chose pour les affaires du Groupe Diamant",
+      "before": "Пожар в «Альбатросе» = выгода для бизнеса Groupe Diamant",
+      "russian": "Пожар в «Альбатросе» выгоден группе «Диамант»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_sand_radioshow02_01.source",
+      "english": "Heard on the radio…",
+      "french": "Entendu à la radio…",
+      "before": "Услышано по радио…",
+      "russian": "Услышано по радио…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_sand_radioshow03_01.title",
+      "english": "Pancuronium bromide used for sexual pleasure",
+      "french": "Bromure de pancuronium utilisé pour le plaisir sexuel",
+      "before": "Панкурония бромид, используемый для получения сексуального удовольствия",
+      "russian": "Бромид панкурония используют для сексуального удовольствия",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_sand_radioshow03_01.source",
+      "english": "Heard on the radio…",
+      "french": "Entendu à la radio…",
+      "before": "Услышано по радио…",
+      "russian": "Услышано по радио…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_sand_radioshow04_01.title",
+      "english": "Killer > 1m80",
+      "french": "Tueur = 1m80",
+      "before": "Убийца > 1м80",
+      "russian": "Рост убийцы — метр восемьдесят",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    },
+    {
+      "key": "clue_sand_radioshow04_01.source",
+      "english": "Heard on the radio…",
+      "french": "Entendu à la radio…",
+      "before": "Услышано по радио…",
+      "russian": "Услышано по радио…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Собственный FR-текст радиоулики. Источник слуха/мнения указан в сцене,жертва грамматическиженскогорода. ENVIEпереданоодинакововреплике/улике;исходныеномер/рост/долянаследстваприпротиворечиисохраненыявно."
+    }
+  ],
+  "missing_original_keys": [
+    "clue_angel_radioshow04_01.title",
+    "clue_angel_radioshow04_01.source",
+    "clue_angel_radioshow04_02.title",
+    "clue_angel_radioshow04_02.source"
+  ],
+  "author_file": "scripts/author_radio_fr.py",
+  "scope": "82 existing fields/41clues. Two actions in Angelshow04 have no original UI fields;Angelshow03 points at an independently contradictory voices clue. Neither rewired or fabricated here."
+}

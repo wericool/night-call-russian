@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "checks": 83976,
+  "exit_code": 0,
+  "checked_at": "2026-10-17T11:47:24.652756+03:00",
+  "input": "localization/reviewed_engine_input.json",
+  "input_sha256": "6cd3fca986b07fa3fa8652445b4c1557f730ec946ef8490ed0b9846a17c52f2b",
+  "validator": "scripts/FullContextStoryChecks.cs",
+  "validator_sha256": "4740cefd2b9af370f050dce3e06b37d36815fdc9dd986d5c4e8a40332edc88fa",
+  "validator_exe": "review/FullContextStoryChecks.exe",
+  "validator_exe_sha256": "023bff8a9c1e4aa97740677c2693134b00e0a545e6c46e5988caa451c2c5ab7d",
+  "runtime": "review/Prompter.dll",
+  "runtime_sha256": "a5e9b109a6aff69884e5550bc91ad2b690ffeef89c18706bbd937f45dd08781d",
+  "output": "review/story_checks_fr236_6cd3fca986b0_20261017_115048_953169.txt",
+  "output_sha256": "0820d59289719099cc8eebcd3054908476f4bd8584b79f009deece4c08d9c23f",
+  "scope": [
+    "Actual standalone Prompter run on the current exported input.",
+    "A nonzero exit is a failed/incomplete run, regardless of prior PASS lines."
+  ],
+  "boundaries": [
+    "Not live Unity gameplay. Native package has not been rebuilt for the current French editorial input."
+  ],
+  "historical_record": "localization/validation_attempts/historical_story_1b7d07a7a4658917_023bff8a9c1e_a94b947a6287.json",
+  "source_build": "localization/editorial_checker_build.json",
+  "source_build_sha256": "51ca9a6a1aa39d86e92e6d74fa0d57db10ecc787cb30887d02e65c8be796da9f"
+}

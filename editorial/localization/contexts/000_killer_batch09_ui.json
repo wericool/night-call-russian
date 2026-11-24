@@ -1,0 +1,810 @@
+{
+  "scope": "62explicit French UI fields manually read/accepted; not whole interface.",
+  "french_priority_author": "scripts/review_ui_killer_batch09_fr.py",
+  "french_priority_decisions": [
+    "Вручную прочитаны 62 поля EN/FR/текущий RU. Два общих дела, чужие показания и догадки не превращены в единый объективный профиль убийцы.",
+    "Шесть указаний роста FR1m75/1m80 не содержат >, в ENон добавлен. Восстановлены 1,75м/1,80м без добавок «ровно» или «примерно». Прежние русские «больше» явно отменены только у этих шести ключей. Отдельные исходные <1m70/<1m80/>1m80 сохранены как строгие неравенства; слухи не унифицируются по более сильному ограничению.",
+    "Bien commun — общее благо, не обязательно абстрактное высшее благо. N’aime pas не означает hates: не любит лишать жизни, не новое заявление о ненависти. Уже убивал прежде сохранено, но война/страна/личность не выведены из соседних улик.",
+    "Prend soin de son arme à feu — продолжающийся уход за своим огнестрельным оружием, не разовый «отлично позаботился». Предположение devait connaître — знал самих жертв, а не лишь что-то о них; вероятность «должно быть» сохранена. Знал ИЛИ исследовал остаётся отдельным полем и не сливается с гипотезами.",
+    "Militants/activistes — активисты без английского добавления обязательной политической принадлежности. Две разные борьбы с жертвами, оставление родины, морщинистые руки/чёрные перчатки/связь с женщиной/действие ради другого/манипуляция и нежелание убивать прочитаны без новых выводов о поле или убийце.",
+    "Scènes1&3=cambriolages — именно кражи со взломом, не только факт проникновения. Слёзы убийцы — вопрос, а не установленная принадлежность. Казнь остаётся исходной оценкой. Vampire утверждают источники слухов; перевод не прибавляет собственного доказательства и не смягчает саму реплику словом «может быть».",
+    "Все13подписей и3заголовка Dossier de l’enquête — единые материалы расследования в трёх разных делах. Это не основание объединить жертв или сюжетные флаги. D’après Jonas/Anita — со слов, не просто техническая встреча/передача предмета. Бюссе предоставила пять разных документов этой прочитанной группы, подмена их содержимого не выполнялась.",
+    "Принимается именно поле autopsy04_03.title с исходным <1m80. Его source остаётся отдельной нерешённой ошибкой FRномера6 противEN4; статус поля роста не означает принятия всего документа. SecretEscort75/связь с церковью/священник изцерквиГильды сохранены по своим источникам."
+  ],
+  "linked_contexts_read": [
+    "025_ade",
+    "019_herve",
+    "043_jonas",
+    "032_anita",
+    "972_radio_fr_ui"
+  ],
+  "keys": [
+    {
+      "key": "clue_sand_customer_rumor_08.title",
+      "english": "Killer > 1m75",
+      "french": "Tueur = 1m75",
+      "russian": "Рост убийцы — 1,75 м",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Рост убийцы — больше 1,75 м",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_kcase_01.title",
+      "english": "Killer > 1m75",
+      "french": "Tueur = 1m75",
+      "russian": "Рост убийцы — 1,75 м",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийца > 1м75",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_rumor_05.title",
+      "english": "Killer > 1m80",
+      "french": "Tueur = 1m80",
+      "russian": "Рост убийцы — 1,80 м",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Рост убийцы — больше 1,80 м",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_herve_01.title",
+      "english": "Killer > 1m80",
+      "french": "Tueur = 1m80",
+      "russian": "Рост убийцы — 1,80 м",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийца > 1м80",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_rumor_05.title",
+      "english": "Killer > 1m80",
+      "french": "Tueur = 1m80",
+      "russian": "Рост убийцы — 1,80 м",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Рост убийцы — больше 1,80 м",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_gas_01.title",
+      "english": "Killer > 1m80",
+      "french": "Tueur = 1m80",
+      "russian": "Рост убийцы — 1,80 м",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Рост убийцы — больше 1,80 м",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_ade_02.title",
+      "english": "Killer believes murders are for the greater good",
+      "french": "Tueur croit tuer pour le bien commun",
+      "russian": "Убийца считает, что убивает ради общего блага",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийца считает, что убийства совершаются ради высшего блага",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_ludwig_03.title",
+      "english": "Killer hates taking lives… did it in the past",
+      "french": "Tueur n'aime pas prendre une vie… l'a déjà fait",
+      "russian": "Убийца не любит лишать жизни… уже делал это раньше",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийца ненавидит забирать жизни... делал это в прошлом.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_kcase_03.title",
+      "english": "Killer left message in chalk on first 3 crime scenes",
+      "french": "Tueur a laissé message à la craie sur les 3 premières scènes de crime",
+      "russian": "Убийца оставил сообщение мелом на первых 3 местах преступлений",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийца оставил сообщение мелом на первых 3 местах преступлений",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_customer_ludwig_01.title",
+      "english": "Killer left their country",
+      "french": "Tueur a quitté son pays",
+      "russian": "Убийца покинул свою страну",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийца покинул свою страну",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_report01_02.title",
+      "english": "Killer fought with Victim 1",
+      "french": "Tueur s'est battu avec victime 1",
+      "russian": "Убийца дрался с жертвой 1",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийца дрался с жертвой 1",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_report03_01.title",
+      "english": "Killer fought with Victim 3",
+      "french": "Tueur s'est battu avec victim 3",
+      "russian": "Убийца дрался с жертвой 3",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийца дрался с жертвой 3",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_customer_ludwig_02.title",
+      "english": "Killer took great care of the gun",
+      "french": "Tueur prend soin de son arme à feu",
+      "russian": "Убийца ухаживает за своим огнестрельным оружием",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийца отлично позаботился о пистолете",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_houssine_01.title",
+      "english": "Killer had wrinkles on their hands",
+      "french": "Tueur avait mains ridées",
+      "russian": "На руках убийцы были морщины",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "На руках убийцы были морщины",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.NAME.MESSAGE.RUMOR",
+      "english": "Killer is leaving message",
+      "french": "Le tueur laisse un message",
+      "russian": "Убийца оставляет сообщение",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийца оставляет сообщение",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_kcase_02.title",
+      "english": "Killer knew the victims or researched them",
+      "french": "Tueur connaissait victimes ou a fait des recherches",
+      "russian": "Убийца знал жертв или изучал их",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийца знал жертв или изучал их",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_judge_sus01_03.title",
+      "english": "Killer would have known for the victims",
+      "french": "Tueur devait connaître ses victimes",
+      "russian": "Убийца, должно быть, знал своих жертв",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийца должен был знать о жертвах.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_judge_sus02_03.title",
+      "english": "Killer would have known for the victims",
+      "french": "Tueur devait connaître ses victimes",
+      "russian": "Убийца, должно быть, знал своих жертв",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийца должен был знать о жертвах.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_ade_01.title",
+      "english": "Killer connected to a woman",
+      "french": "Tueur connecté à une femme",
+      "russian": "Убийца связан с женщиной",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийца связан с женщиной",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_ludwig_01.title",
+      "english": "Killer linked to war",
+      "french": "Tueur lié à une guerre",
+      "russian": "Убийца связан с войной",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийца, связанный с войной",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_ade_02.title",
+      "english": "Killer is killing for someone else",
+      "french": "Tueur tue pour quelqu'un d'autre",
+      "russian": "Убийца убивает ради кого-то другого",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийца убивает ради кого-то другого",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_customer_herve_01.title",
+      "english": "Killer wearing black gloves",
+      "french": "Tueur portait des gants noirs",
+      "russian": "Убийца в чёрных перчатках",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийца в чёрных перчатках",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.TT.MESSAGE.RUMOR",
+      "english": "Killer wants to be seen.",
+      "french": "Le tueur veut être vu.",
+      "russian": "Убийца хочет, чтобы его видели.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийца хочет, чтобы его видели.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_ade_01.title",
+      "english": "Killer doesn't want to kill",
+      "french": "Tueur ne veut pas tuer",
+      "russian": "Убийца не хочет убивать",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийца не хочет убивать",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_ludwig_02.title",
+      "english": "Killer is manipulated to kill",
+      "french": "Tueur est manipulé pour tuer",
+      "russian": "Убийцей манипулируют, чтобы он убил",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийцей манипулируют, чтобы он убил",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_gas_03.title",
+      "english": "Killer targeting political activists",
+      "french": "Tueur vise militants et activistes",
+      "russian": "Убийца охотится на активистов",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийца охотится на политических активистов",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_customer_rumor_01.title",
+      "english": "Killer's height < 1m70",
+      "french": "Taille du tueur < 1m70",
+      "russian": "Рост убийцы — меньше 1,70 м",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Рост убийцы — меньше 1,70 м",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_autopsy04_03.title",
+      "english": "Killer's height < 1m80",
+      "french": "Taille du tueur < 1m80",
+      "russian": "Рост убийцы — меньше 1,80 м",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Рост убийцы < 1м80",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_gas_02.title",
+      "english": "Killer’s height > 1m80",
+      "french": "Taille du tueur > 1m80",
+      "russian": "Рост убийцы — больше 1,80 м",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Рост убийцы — больше 1,80 м",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_report01_01.title",
+      "english": "Killer’s height > 1m80",
+      "french": "Taille du tueur > 1m80",
+      "russian": "Рост убийцы — больше 1,80 м",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Рост убийцы > 1м80",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_kcase_03.title",
+      "english": "Break-in for crime scenes 1 & 3",
+      "french": "Scènes de crime 1 & 3 = cambriolages",
+      "russian": "На местах преступлений №1 и №3 были кражи со взломом",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Проникновение на места преступлений 1 и 3",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_kcase_01.title",
+      "english": "Death = execution",
+      "french": "Mort = exécution",
+      "russian": "Смерть = казнь",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Смерть = казнь",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_autopsy02_02.title",
+      "english": "Tears found on Victim 2, maybe Killer ?",
+      "french": "Larmes trouvées sur victime 2, peut-être celles du tueur ?",
+      "russian": "На жертве №2 найдены слёзы — возможно, убийцы?",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "На второй жертве найдены слезы, возможно, убийцы?",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_autopsy03_02.title",
+      "english": "Tears found on Victim 3, maybe Killer ?",
+      "french": "Larmes trouvées sur victime 3, peut-être celles du tueur ?",
+      "russian": "На жертве №3 найдены слёзы — возможно, убийцы?",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "На третьей жертве найдены слезы, возможно, убийцы?",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_jonas_01.source",
+      "english": "Meeting Jonas",
+      "french": "D'après Jonas",
+      "russian": "Со слов Йонаса",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Встреча с Йонасом",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_kcase_01.source",
+      "english": "Killer Case",
+      "french": "Dossier de l'enquête",
+      "russian": "Материалы расследования",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Дело об убийстве",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_kcase_02.source",
+      "english": "Killer Case",
+      "french": "Dossier de l'enquête",
+      "russian": "Материалы расследования",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Дело об убийстве",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_kcase_03.source",
+      "english": "Killer Case",
+      "french": "Dossier de l'enquête",
+      "russian": "Материалы расследования",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Дело об убийстве",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_kcase_04.source",
+      "english": "Killer Case",
+      "french": "Dossier de l'enquête",
+      "russian": "Материалы расследования",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Дело об убийстве",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_kcase_05.source",
+      "english": "Killer Case",
+      "french": "Dossier de l'enquête",
+      "russian": "Материалы расследования",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Дело об убийстве",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_kcase_01.source",
+      "english": "Killer Case",
+      "french": "Dossier de l'enquête",
+      "russian": "Материалы расследования",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Дело об убийстве",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_kcase_02.source",
+      "english": "Killer Case",
+      "french": "Dossier de l'enquête",
+      "russian": "Материалы расследования",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Дело об убийстве",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_kcase_03.source",
+      "english": "Killer Case",
+      "french": "Dossier de l'enquête",
+      "russian": "Материалы расследования",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Дело об убийстве",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_kcase_04.source",
+      "english": "Killer Case",
+      "french": "Dossier de l'enquête",
+      "russian": "Материалы расследования",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Дело об убийстве",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_kcase_01.source",
+      "english": "Killer Case",
+      "french": "Dossier de l'enquête",
+      "russian": "Материалы расследования",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Дело об убийстве",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_kcase_02.source",
+      "english": "Killer Case",
+      "french": "Dossier de l'enquête",
+      "russian": "Материалы расследования",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Дело об убийстве",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_kcase_03.source",
+      "english": "Killer Case",
+      "french": "Dossier de l'enquête",
+      "russian": "Материалы расследования",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Дело об убийстве",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_kcase_04.source",
+      "english": "Killer Case",
+      "french": "Dossier de l'enquête",
+      "russian": "Материалы расследования",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Дело об убийстве",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_angel_kcase.title",
+      "english": "Killer Case",
+      "french": "Dossier de l'enquête",
+      "russian": "Материалы расследования",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Дело об убийстве",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_judge_kcase.title",
+      "english": "Killer Case",
+      "french": "Dossier de l'enquête",
+      "russian": "Материалы расследования",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Дело об убийстве",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_sand_kcase.title",
+      "english": "Killer Case",
+      "french": "Dossier de l'enquête",
+      "russian": "Материалы расследования",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Материалы расследования",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_rumor_07.title",
+      "english": "Vampires are real… use knife to hide bite",
+      "french": "Les vampires existent… couteau utilisé pour cacher la morsure",
+      "russian": "Вампиры существуют; ножом скрывают следы укуса",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Вампиры существуют; ножом скрывают следы укуса",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_rumor_11.title",
+      "english": "Vampires exist, is the real killer",
+      "french": "Les vampires existent, le tueur en est un",
+      "russian": "Вампиры существуют; убийца — один из них",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Вампиры существуют; убийца — один из них",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.TT.SYMBOL.CHURCH",
+      "english": "Linked to Church or religion.",
+      "french": "Lié à l'Eglise ou à la religion.",
+      "russian": "Связано с церковью или религией.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Связано с церковью или религией.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_escort_04.title",
+      "english": "Suspect 2 = Secret Escort 75 client",
+      "french": "Suspect 2 = client de Secret Escort 75",
+      "russian": "Подозреваемый №2 — клиент «Secret Escort 75»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Подозреваемый 2 = клиент Secret Escort 75",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_church_01.source",
+      "english": "From the priest at Gilda’s church",
+      "french": "D'après le prêtre à l'églisée fréquentée par Gilda",
+      "russian": "От священника в церкви Гильды",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "От священника в церкви Гильды",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_anita_01.source",
+      "english": "From Anita",
+      "french": "D'après Anita",
+      "russian": "Со слов Аниты",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "От Аниты",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_angel_fileherve.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Предоставлено Бюссе",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_angel_kcase.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Предоставлено Бюссе",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_angel_pic01.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Предоставлено Бюссе",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_angel_pic02.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Предоставлено Бюссе",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_angel_pic03.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Предоставлено Бюссе",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    }
+  ],
+  "exact_legacy_fallback_updates": [
+    {
+      "english": "Killer > 1m75",
+      "ui_keys": [
+        "clue_sand_customer_rumor_08.title",
+        "clue_sand_kcase_01.title"
+      ],
+      "previous_fallback": "Рост убийцы — больше 1,75 м",
+      "russian": "Рост убийцы — 1,75 м"
+    },
+    {
+      "english": "Killer believes murders are for the greater good",
+      "ui_keys": [
+        "clue_sand_customer_ade_02.title"
+      ],
+      "previous_fallback": "Убийца считает, что убийства совершаются ради высшего блага",
+      "russian": "Убийца считает, что убивает ради общего блага"
+    },
+    {
+      "english": "Killer hates taking lives… did it in the past",
+      "ui_keys": [
+        "clue_sand_customer_ludwig_03.title"
+      ],
+      "previous_fallback": "Убийца ненавидит забирать жизни... делал это в прошлом.",
+      "russian": "Убийца не любит лишать жизни… уже делал это раньше"
+    },
+    {
+      "english": "Killer took great care of the gun",
+      "ui_keys": [
+        "clue_judge_customer_ludwig_02.title"
+      ],
+      "previous_fallback": "Убийца отлично позаботился о пистолете",
+      "russian": "Убийца ухаживает за своим огнестрельным оружием"
+    },
+    {
+      "english": "Killer would have known for the victims",
+      "ui_keys": [
+        "guess_judge_sus01_03.title",
+        "guess_judge_sus02_03.title"
+      ],
+      "previous_fallback": "Убийца должен был знать о жертвах.",
+      "russian": "Убийца, должно быть, знал своих жертв"
+    },
+    {
+      "english": "Killer linked to war",
+      "ui_keys": [
+        "clue_sand_customer_ludwig_01.title"
+      ],
+      "previous_fallback": "Убийца, связанный с войной",
+      "russian": "Убийца связан с войной"
+    },
+    {
+      "english": "Killer's height < 1m80",
+      "ui_keys": [
+        "clue_judge_autopsy04_03.title"
+      ],
+      "previous_fallback": "Рост убийцы < 1м80",
+      "russian": "Рост убийцы — меньше 1,80 м"
+    },
+    {
+      "english": "Break-in for crime scenes 1 & 3",
+      "ui_keys": [
+        "clue_angel_kcase_03.title"
+      ],
+      "previous_fallback": "Проникновение на места преступлений 1 и 3",
+      "russian": "На местах преступлений №1 и №3 были кражи со взломом"
+    },
+    {
+      "english": "Tears found on Victim 2, maybe Killer ?",
+      "ui_keys": [
+        "clue_sand_autopsy02_02.title"
+      ],
+      "previous_fallback": "На второй жертве найдены слезы, возможно, убийцы?",
+      "russian": "На жертве №2 найдены слёзы — возможно, убийцы?"
+    },
+    {
+      "english": "Tears found on Victim 3, maybe Killer ?",
+      "ui_keys": [
+        "clue_sand_autopsy03_02.title"
+      ],
+      "previous_fallback": "На третьей жертве найдены слезы, возможно, убийцы?",
+      "russian": "На жертве №3 найдены слёзы — возможно, убийцы?"
+    },
+    {
+      "english": "Meeting Jonas",
+      "ui_keys": [
+        "clue_angel_customer_jonas_01.source"
+      ],
+      "previous_fallback": "Встреча с Йонасом",
+      "russian": "Со слов Йонаса"
+    },
+    {
+      "english": "Suspect 2 = Secret Escort 75 client",
+      "ui_keys": [
+        "clue_sand_escort_04.title"
+      ],
+      "previous_fallback": "Подозреваемый 2 = клиент Secret Escort 75",
+      "russian": "Подозреваемый №2 — клиент «Secret Escort 75»"
+    },
+    {
+      "english": "From Anita",
+      "ui_keys": [
+        "clue_sand_customer_anita_01.source"
+      ],
+      "previous_fallback": "От Аниты",
+      "russian": "Со слов Аниты"
+    }
+  ],
+  "legacy_fallback_owner_collisions": [
+    {
+      "key": "clue_angel_customer_rumor_05.title",
+      "english": "Killer > 1m80",
+      "owners": [
+        "clue_angel_customer_rumor_05.title",
+        "clue_sand_customer_herve_01.title",
+        "clue_sand_customer_rumor_05.title",
+        "clue_sand_gas_01.title",
+        "clue_sand_radioshow04_01.title"
+      ],
+      "decision": "Keyed Russian is authoritative. Global legacy fallback cannot distinguish owners; unchanged."
+    },
+    {
+      "key": "clue_sand_customer_herve_01.title",
+      "english": "Killer > 1m80",
+      "owners": [
+        "clue_angel_customer_rumor_05.title",
+        "clue_sand_customer_herve_01.title",
+        "clue_sand_customer_rumor_05.title",
+        "clue_sand_gas_01.title",
+        "clue_sand_radioshow04_01.title"
+      ],
+      "decision": "Keyed Russian is authoritative. Global legacy fallback cannot distinguish owners; unchanged."
+    },
+    {
+      "key": "clue_sand_customer_rumor_05.title",
+      "english": "Killer > 1m80",
+      "owners": [
+        "clue_angel_customer_rumor_05.title",
+        "clue_sand_customer_herve_01.title",
+        "clue_sand_customer_rumor_05.title",
+        "clue_sand_gas_01.title",
+        "clue_sand_radioshow04_01.title"
+      ],
+      "decision": "Keyed Russian is authoritative. Global legacy fallback cannot distinguish owners; unchanged."
+    },
+    {
+      "key": "clue_sand_gas_01.title",
+      "english": "Killer > 1m80",
+      "owners": [
+        "clue_angel_customer_rumor_05.title",
+        "clue_sand_customer_herve_01.title",
+        "clue_sand_customer_rumor_05.title",
+        "clue_sand_gas_01.title",
+        "clue_sand_radioshow04_01.title"
+      ],
+      "decision": "Keyed Russian is authoritative. Global legacy fallback cannot distinguish owners; unchanged."
+    },
+    {
+      "key": "clue_angel_gas_03.title",
+      "english": "Killer targeting political activists",
+      "owners": [
+        "clue_angel_gas_03.title",
+        "clue_angel_journal03_01.title"
+      ],
+      "decision": "Keyed Russian is authoritative. Global legacy fallback cannot distinguish owners; unchanged."
+    }
+  ]
+}

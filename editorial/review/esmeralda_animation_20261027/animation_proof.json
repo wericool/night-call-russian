@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "pristine_resource_sha256": "a1a3d1ab6911d8f330a927af285d756c5d2b3e2019ef142985cf0d7c3ce4b854",
+  "skeleton_resource_path": "Passengers/Skeletons/006_esmeralda/006_Esmeralda-Skeleton",
+  "game_object": 4761,
+  "animator": 8284,
+  "controller": 1196,
+  "raw_object_sha256": {
+    "4761": "e97120e1004716b7801633f96cd55f10b1d16a8f0c9669a4491df02c1deb6c7c",
+    "8284": "425cc6a09797d384043ee2c1069dce05901a7b50472ec942e2e488347d3e5554",
+    "1196": "6867da94f67c612414a0e4a1d0ab1eb1d881221da20de88ac2b27937bb27569f",
+    "438": "a9fce781c8657bab66c7c31d3a51f7cb795f692dedb957ae17b59ee2498fa721",
+    "1109": "430f318e5a9940c2d462d1118f5a61ca1a699dc2721eb5c47a23319e9013142d",
+    "858": "a3f9eb028cfc78f4de6a5f453c7ff1dfe5418e71e5e34344bb2288f8195869da",
+    "387": "acd8bed3b4b43c2ecefa07cf17c379cee9eb53c39471116cce594629c57c42cd"
+  },
+  "installed_animation_objects_equal_pristine": true,
+  "forward": {
+    "state": "getting_angry",
+    "clip": 1109,
+    "speed": 1,
+    "completion_event": {
+      "time": 0.875,
+      "functionName": "OnHarmonyAnimationOver",
+      "data": "getting_angry",
+      "objectReferenceParameter": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "floatParameter": 0.0,
+      "intParameter": 0,
+      "messageOptions": 0
+    }
+  },
+  "reverse": {
+    "state": "getting_angry_rev",
+    "clip": 858,
+    "speed": -1,
+    "completion_event": {
+      "time": 0.0,
+      "functionName": "OnHarmonyAnimationOver",
+      "data": "getting_angry_rev",
+      "objectReferenceParameter": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "floatParameter": 0.0,
+      "intParameter": 0,
+      "messageOptions": 0
+    }
+  },
+  "motion_and_bindings_identical": true,
+  "original_french_corroboration": {
+    "scene": "006_esmeralda_01",
+    "passage": "esmeralda-01-speech",
+    "sequence": [
+      "anim: GETTING_ANGRY_REV",
+      "anim: IDLE_TELEPHONE"
+    ]
+  },
+  "handler_evidence": {
+    "passenger_dispatch": "DialogTriggerAnim.Parse -> PassengerInstance.PlayAnimation -> AnimationLogic.FindAndPlayAnimation",
+    "animation_queue": "FindAndPlayAnimation enqueues exact matching trigger; completion dequeues then runs next",
+    "il_sha256": "105e2a6ea37ec56a047968a4f094cb45d91252207f4d44d93210632447fc82ce",
+    "animation_trigger_il_sha256": "1b8f0399c182a506e7461d49a36282331cdfb318a08cf6c46095399e3003a387"
+  },
+  "decision": "Retain English REV at parents/14 as an explicitly documented French command defect. Restore French timing of fast/music and normal separately.",
+  "limits": "Read-only source assets/IL and neighboring FR evidence. No Unity rendering or claim about live visual smoothness."
+}

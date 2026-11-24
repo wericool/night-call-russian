@@ -1,0 +1,51 @@
+{
+  "scene": "014_fragonard_04",
+  "complete_french_reread": true,
+  "passages_read": [
+    "frag-04-start",
+    "frag-04-start-lights-intro",
+    "frag-04-start-lights",
+    "frag-04-start-christmas",
+    "frag-04-question",
+    "frag-04-question-family",
+    "frag-04-question-you",
+    "frag-04-question-girlfriend",
+    "frag-04-question-friends",
+    "frag-04-answer",
+    "frag-04-birthday",
+    "frag-04-story1",
+    "frag-04-story2",
+    "frag-04-story3",
+    "frag-04-story4",
+    "frag-04-story5",
+    "frag-04-story6",
+    "frag-04-story6-father",
+    "frag-04-story6-silence",
+    "frag-04-story7",
+    "frag-04-story8",
+    "frag-04-fatherjail",
+    "frag-04-vengeance",
+    "frag-04-judge-hard",
+    "frag-04-judge-divorce",
+    "frag-04-judge-silence",
+    "frag-04-end"
+  ],
+  "reviewed_choices": 14,
+  "decisions": [
+    "Повторная литературная FR-сверка: все27блоков/14ответов прочитаны полностью. Настоящее время полицейского рассказа восстановлено адресно; собственные воспоминания в прошедшем и будущие/условные высказывания остаются своими формами.",
+    "Все три одинаковых siffle entre ses dents в этой сцене — свист сквозь зубы; прежний вздох в story7 отменён. Не менять по этому решению чужие вздохи, жесты hocher или музыкальное насвистывание из других встреч.",
+    "Оба чувства au même temps переданы совместно. Оскорбление con de psy принадлежит Фрагонару, не рассказчику. Уход матери в себя выводится из целого объяснения о защите от мира, не диагностируется переводчиком.",
+    "Угроза отца mourir avec Ethan сохраняет условность и совместную смерть, без добавки take with him изEN. Его последующие будущие угрозы не выдаются за намерение рассказчика/водителя. Предположение о будущем мелком хулигане — способ полицейского оправдаться, не биография убитого.",
+    "Имена не унифицированы: полное сканирование236FR/ENсцен находит Erwan только во FRstory1 и Ethan во FRstory2/обоихEN. Это не доказывает, какую форму автор намеревался оставить. Эрван/Этан сохранены, второй ребёнок не добавлен; вопрос остаётся отложенным."
+  ],
+  "changed_cells": 39,
+  "source_sha256": "16cf8629c3d4dde63366f94f232e98eb53dcea18f9ef6be6f19526333cbfb757",
+  "original_file": "original/DialogObjectScript/sharedassets0.assets/2172.json",
+  "lexical_sources": [
+    {
+      "url": "https://www.dictionnaire-academie.fr/article/A9F1572",
+      "paraphrase": "Argot: young hoodlum or shady individual; supports мелкий хулиган, not a prediction of criminal facts."
+    }
+  ],
+  "boundary": "No scene topology, markers, images, UI or other scenes edited. Erwan/Ethan and Leonie Fantôme remain unresolved."
+}

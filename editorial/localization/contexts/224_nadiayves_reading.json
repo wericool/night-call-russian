@@ -1,0 +1,15 @@
+{
+  "scene": "224_nadiayves_01",
+  "source_sha256": "37651b30518fc7b3b0afcf8237f4ec9e614a64348b6fd93677eb5e98b0523174",
+  "read_sources": [
+    "Complete English dialogue and choices/metadata",
+    "Complete French dialogue and choices/metadata",
+    "Complete previous Russian dialogue and choices",
+    "PassengerObjectScript card and enum categories",
+    "Related reviewed025/217/219 context"
+  ],
+  "source_control_agreement": true,
+  "status": "superseded_by_complete_editorial_and_native_validation",
+  "validation": "localization/nadiayves_scene_validation.json",
+  "remaining": []
+}

@@ -1,0 +1,1585 @@
+{
+  "scope": "156individual original fields manually read FR/EN/previousRU:133UI keys plus23case/difficulty/display/yes-no fields. UI.VOLUME not accepted: generic owner still requires asset/code inspection. Not all UI or live display verification.",
+  "french_priority_author": "scripts/review_interface_core_fr.py",
+  "french_priority_decisions": [
+    "Judge/Sandman/Angel names retain established case canon. Descriptions use French certainty/motive and tone: Sandman link appears quickly/darkdisturbing, not merelytwisted; Angel onlyapparentlyunconnected/mysteriousmotive/moredifficult without ENrandom/slightly. Judge murders/motive singular and first NightCall run retained; no killers revealed.",
+    "DifficultyHistoire/Équilibré labels retain Сюжетная/Сбалансированная; Défi named Испытание, not merely Hard. French descriptions more/less timeandmoney and balanced neither tooeasy/toohard. Do not add English per-action duration mechanics or way developersdesigned. Only text labels changed, no difficulty values/logic. Randomall versus onlyunsolved explicitly distinct.",
+    "Original confirmedstoryselection field is empty inbothFRandEN; remove invented Выборподтверждён and preserveempty. No new action/screen hidden. WINDOWED/FULLSCREEN/YES/NO, menusandcredits, brandedPassidex, lottery names and receipt/tariff/tips/fees/rent/fuel retained after individual reading.",
+    "Endnight/endshift are action buttons: Завершить ночь/Завершить смену, not Конечная смена. ReceiptEncaisser obtainpayment, not ambiguous Takeobject. Oneclue isулика consistently with collectedclues, not tutorialhint. Sameanalyser action onroomdocument/case uses изучить, buttonhold semantics preserved. Apartmentnotunspecifiedroom. Board/desk transitions кдоске/кстолу, investigationboardnotnotebook.",
+    "French auto text speed gives slow/normal/fast/very slow/veryfast: consistent feminine speed labels, no added scrolling animation. Autosavewarning do not quitgame/turnoffcomputer whileexisting symboldisplayed; no newlydrawnsymbol. MATURE inspiredbyrealstories/mayshock, not asserted documentaryrecreation. Xboxconnectedprofile currentprofile, not externalaccountpairing. GenericUI.VOLUME deferred, not guessed soundvolume fromEN.",
+    "Taxi financial labels distinguish fares/tips/profit/loss/company share: percentage offarepayments, not unexplained all moneyincltips. Gasclerks employee/sameemployee talk prompt; Clientin passenger UI =passenger, Endshiftpassengers likewise. Key placeholders/currency/%/markup retained, no code or asset writes. Textlayout/fonts/controller/icons still require native/liveUnity review.",
+    "25.10.2026: по замечанию пользователя Mode auto → Авторежим; компактная подпись, механизм автоматической смены реплик не меняется."
+  ],
+  "keys": [
+    {
+      "key": "UI.STATION.TICKET_CASH",
+      "english": "« Cash! Cash! Cash! »",
+      "french": "« Cash! Cash! Cash! »",
+      "russian": "«Наличные! Наличные! Наличные!»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "«Наличные! Наличные! Наличные!»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.STATION.TICKET_JOYEUX_SOURIRE",
+      "english": "« Joyeux Sourire »",
+      "french": "« Joyeux Sourire »",
+      "russian": "«Радостная улыбка»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "«Радостная улыбка»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.STATION.TICKET_VERSAILLES",
+      "english": "« Versailles »",
+      "french": "« Versailles »",
+      "russian": "«Версаль»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "«Версаль»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ENDSHIFT.SUMUP.COMPANYCUT.DESC",
+      "english": "({0}% of fares)",
+      "french": "({0}% des courses)",
+      "russian": "({0}% от платы за поездки)",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "({0}% от выручки)",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ENDSHIFT.SUMUP.BONUS.DESC",
+      "english": "(far destinations)",
+      "french": "(destinations lointaines)",
+      "russian": "(за дальние поездки)",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "(за дальние поездки)",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ENDSHIFT.SUMUP.SPENDING.DESC",
+      "english": "(rent, food, cigarettes)",
+      "french": "(loyer, nourriture, cigarettes)",
+      "russian": "(аренда, еда, сигареты)",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "(аренда, еда, сигареты)",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ENDSHIFT.SUMUP.MAINTENANCE.DESC",
+      "english": "(cleaning, taxi licence)",
+      "french": "(nettoyage, licence du taxi)",
+      "russian": "(уборка, лицензия на такси)",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "(уборка, лицензия на такси)",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ROOM.CLUES.DISCOVERED",
+      "english": "{0} clues discovered",
+      "french": "{0} indices découverts",
+      "russian": "Обнаружено улик: {0}",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Обнаружено улик: {0}",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ROOM.POIS.DISCOVERED",
+      "english": "{0} locations discovered",
+      "french": "{0} lieux découverts",
+      "russian": "Обнаружено мест: {0}",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Обнаружено мест: {0}",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.STATION.TICKET.WON",
+      "english": "You win {0}€!",
+      "french": "Vous gagnez {0}€ !",
+      "russian": "Вы выиграли {0}€!",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Вы выиграли {0}€!",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.CAR.PASSENGER.PICKUP.REFUSE",
+      "english": "Refuse",
+      "french": "Refuser",
+      "russian": "Отказаться",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Отказаться",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.CAR.PASSENGER.END.MONEY.BANK",
+      "english": "Current Balance",
+      "french": "Solde actuel",
+      "russian": "Баланс",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Баланс",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ENDSHIFT.SUMUP.BANK.ACCOUNT",
+      "english": "Current balance",
+      "french": "Solde actuel",
+      "russian": "Баланс",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Баланс",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.OPTIONS.GENERAL",
+      "english": "General",
+      "french": "Général",
+      "russian": "Основные",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Основные",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ROOM.TOOLTIP.ACCUSE.SUSPECT.CANCEL",
+      "english": "Select another suspect",
+      "french": "Choisir un autre suspect",
+      "russian": "Выбрать другого подозреваемого",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Выбрать другого подозреваемого",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.STATION.TALK",
+      "english": "Clerk",
+      "french": "Employé",
+      "russian": "Сотрудник",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Продавец",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.CAR.PASSENGER.PICKUP.ACCEPT",
+      "english": "Accept",
+      "french": "Accepter",
+      "russian": "Принять",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Принять",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.OPTIONS.FULLSCREEN",
+      "english": "Display",
+      "french": "Affichage",
+      "russian": "Режим экрана",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Режим экрана",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.OPTIONS.AUDIO",
+      "english": "Audio",
+      "french": "Audio",
+      "russian": "Звук",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Звук",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.OPTIONS.RESOLUTION",
+      "english": "Resolution",
+      "french": "Résolution",
+      "russian": "Разрешение",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Разрешение",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ENDSHIFT.SUMUP.SPENDING",
+      "english": "Spending",
+      "french": "Dépenses",
+      "russian": "Расходы",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Расходы",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "DIFFICULTY.NORMAL",
+      "english": "Balanced",
+      "french": "Équilibré",
+      "russian": "Сбалансированная",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Сбалансированная",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ROOM.TOOLTIP.ACCUSE.SUSPECT",
+      "english": "CONFIRM SELECTION",
+      "french": "CONFIRMER VOTRE CHOIX",
+      "russian": "ПОДТВЕРДИТЬ ВЫБОР",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "ПОДТВЕРДИТЬ ВЫБОР",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.SELECT",
+      "english": "Select",
+      "french": "Sélectionner",
+      "russian": "Выбрать",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Выбрать",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ENDSHIFT.SUMUP.MAINTENANCE",
+      "english": "Car Maintenance",
+      "french": "Entretien de la voiture",
+      "russian": "Обслуживание машины",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Обслуживание машины",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.OPTIONS.TEXT_SPEED",
+      "english": "Text auto speed",
+      "french": "Vitesse du texte auto",
+      "russian": "Скорость авторежима",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Скорость автопрокрутки",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.CAR.DIALOGUE.AUTOMODE",
+      "english": "Auto Mode",
+      "french": "Mode auto",
+      "russian": "Авторежим",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Автоматический режим",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ENDSHIFT.SUMUP.BANKFEES",
+      "english": "Bank fees",
+      "french": "Frais bancaires",
+      "russian": "Банковские комиссии",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Банковские комиссии",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.SPLASHSCREEN.WARNING",
+      "english": "Do not turn off the game or your computer when this symbol is on screen.",
+      "french": "Ne quittez pas le jeu et n'éteignez pas votre ordinateur quand ce symbole est affiché.",
+      "russian": "Не выходите из игры и не выключайте компьютер, пока этот символ отображается на экране.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Не выключайте игру или компьютер, когда этот символ отображается на экране.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.MENU.QUIT",
+      "english": "Quit",
+      "french": "Quitter",
+      "russian": "Выход",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Выход",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ENDSHIFT.SUMUP.GAS",
+      "english": "Gas",
+      "french": "Essence",
+      "russian": "Бензин",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Бензин",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.BOARD.DESCRIPTION",
+      "english": "Description",
+      "french": "Description",
+      "russian": "Описание",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Описание",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.STATION.SHOP.PROMPT",
+      "english": "Enter",
+      "french": "Entrer",
+      "russian": "Войти",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Войти",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ROOM.TOOLTIP.ACCUSE.SUSPECT.CONFIRM",
+      "english": "Accuse",
+      "french": "Accuser",
+      "russian": "Обвинить",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Обвинить",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ENDSHIFT.SUMUP.BONUS",
+      "english": "Bonus",
+      "french": "Bonus",
+      "russian": "Бонус",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Бонус",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.CAR.PASSENGER.PICKUP.DURATION",
+      "english": "Duration",
+      "french": "Durée",
+      "russian": "Продолжительность",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Продолжительность",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "INVESTIGATION.JUDGE.TITLE",
+      "english": "The Judge",
+      "french": "Le Juge",
+      "russian": "Судья",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Судья",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "INVESTIGATION.SANDMAN.TITLE",
+      "english": "The Sandman",
+      "french": "Le Marchand de Sable",
+      "russian": "Песочный человек",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Песочный человек",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "INVESTIGATION.ANGEL.TITLE",
+      "english": "The Angel of Death",
+      "french": "L'Ange de la Mort",
+      "russian": "Ангел смерти",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Ангел смерти",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "INVESTIGATION.JUDGE.DESCRIPTION",
+      "english": "Victims have all something in common and the motives seem clear. But which suspect could have done it? Balanced case, perfect for a first run.",
+      "french": "Les victimes ont un lien entre elles et le mobile semble clair. Mais quel suspect aurait pu commettre ces meurtres ? Une enquête équilibrée, parfait pour une première partie de Night Call.",
+      "russian": "Жертвы связаны между собой, и мотив кажется ясным. Но кто из подозреваемых мог совершить эти убийства? Сбалансированное расследование, которое отлично подойдёт для первого прохождения Night Call.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "У всех жертв есть нечто общее, и мотивы кажутся ясными. Но кто из подозреваемых мог это сделать? Сбалансированное дело, идеально для первого прохождения.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "INVESTIGATION.SANDMAN.DESCRIPTION",
+      "english": "The victims may feel random at first, but there’s a connection. Yet the motives might be hard to find. Dark and twisted case.",
+      "french": "Les victimes n'ont pas tout de suite de lien entre elles… mais très vite une connexion apparaît. Le mobile sera difficile à trouver. Une enquête sombre et dérangeante.",
+      "russian": "На первый взгляд жертвы не связаны, но вскоре между ними обнаруживается связь. Найти мотив будет непросто. Мрачное, тревожное расследование.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертвы поначалу кажутся случайными, но связь есть. Мотивы будет сложно найти. Тёмное и запутанное дело.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.CAR.PASSENGER.PICKUP.DISTANCE",
+      "english": "Distance",
+      "french": "Distance",
+      "russian": "Расстояние",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Расстояние",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.PRESS.BEFORE",
+      "english": "Press",
+      "french": "Appuyez sur",
+      "russian": "Нажмите",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Нажать",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.CREDITS.INTRO.GAMEBY",
+      "english": "a game by",
+      "french": "un jeu de",
+      "russian": "игра от",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "игра от",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.CAR.PASSENGER.END.PROFITS",
+      "english": "Profits",
+      "french": "Profits",
+      "russian": "Прибыль",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Прибыль",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ENDSHIFT.SUMUP.PROFITS",
+      "english": "Profits",
+      "french": "Profits",
+      "russian": "Прибыль",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Прибыль",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.CAR.PASSENGER.END.TITLE",
+      "english": "RECEIPT",
+      "french": "REÇU",
+      "russian": "ЧЕК",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "ЧЕК",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.MENU.PASSIDEX",
+      "english": "Passidex",
+      "french": "Passidex",
+      "russian": "Пассидекс",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Пассидекс",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.REVEALS.TITLE",
+      "english": "Passidex",
+      "french": "Passidex",
+      "russian": "Пассидекс",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Пассидекс",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ENDSHIFT.SUMUP.INVESTIGATION",
+      "english": "Investigation",
+      "french": "Enquête",
+      "russian": "Расследование",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Расследование",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "STORYSELECT.TITLE.CHOOSE.INVESTIGATION",
+      "english": "Choose the investigation",
+      "french": "Choisissez une enquête",
+      "russian": "Выберите расследование",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Выбрать расследование",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "INVESTIGATION.FULL.DESCRIPTION",
+      "english": "The game will randomly pick an investigation, no matter if solved or unsolved.",
+      "french": "Le jeu démarre en sélectionnant aléatoirement une enquête, qu'elle soit résolue ou pas.",
+      "russian": "Игра начнётся со случайного расследования — раскрытого или ещё не раскрытого.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Игра случайно выберет расследование, неважно, раскрыто оно или нет.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "INVESTIGATION.RANDOM.DESCRIPTION",
+      "english": "The game will randomly pick an unsolved investigation.",
+      "french": "Le jeu démarre en sélectionnant aléatoirement une enquête encore non-résolue.",
+      "russian": "Игра начнётся со случайного нераскрытого расследования.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Игра случайно выберет нераскрытое расследование.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.CAR.PASSENGER.PICKUP.FEE",
+      "english": "Fare",
+      "french": "Tarif",
+      "russian": "Тариф",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Тариф",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ENDSHIFT.SUMUP.FARE",
+      "english": "Fares",
+      "french": "Courses",
+      "russian": "Выручка за поездки",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Выручка за поездки",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "WINDOWED",
+      "english": "Windowed",
+      "french": "Fenêtré",
+      "russian": "В окне",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "В окне",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ENDSHIFT.SUMUP.COMPANYCUT",
+      "english": "Company cut",
+      "french": "Part société de taxi",
+      "russian": "Доля службы такси",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Доля компании",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.CAR.PASSENGER.END.MONEY.RECEIVED",
+      "english": "Money received",
+      "french": "Argent reçu",
+      "russian": "Получено",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Получено",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "DIFFICULTY.EASY.DESCRIPTION",
+      "english": "Money will be easy to get by. The investigation will be easier. Every action will take less time. For a chiller experience.",
+      "french": "Davantage de temps et d'argent. L'enquête sera plus simple à résoudre. Parfait pour profiter de l'histoire.",
+      "russian": "Больше времени и денег. Расследование будет проще. Отличный выбор, чтобы насладиться историей.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Деньги будет легко заработать. Расследование будет проще. Каждое действие займёт меньше времени. Для спокойного прохождения.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "DIFFICULTY.HARD.DESCRIPTION",
+      "english": "Money will be tighter. The investigation will be harder to solve. Every action will cost more time. For a more challenging experience.",
+      "french": "Moins de temps et d'argent. L'enquête sera plus difficile. Une expérience plus difficile et exigeante.",
+      "russian": "Меньше времени и денег. Расследование будет сложнее и потребует больше усилий.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Деньги придётся экономить. Раскрыть дело будет сложнее. Каждое действие займёт больше времени. Для напряжённого прохождения.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ENDSHIFT.SUMUP.SMOKED.CIGS",
+      "english": "smoked cigs",
+      "french": "cigarettes fumées",
+      "russian": "выкурено сигарет",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "выкурено сигарет",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ENDSHIFT.SUMUP.TOTAL",
+      "english": "Total",
+      "french": "Total",
+      "russian": "Всего",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Всего",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.REVEALS.LOCKED",
+      "english": "Locked",
+      "french": "Verrouillé",
+      "russian": "Заблокировано",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Заблокировано",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.TUTORIAL.CLUES",
+      "english": "Talking to passengers might unlock new documents and clues for your investigation. You will find them back at your studio, after your shift.",
+      "french": "Parler aux clients peut vous permettre de débloquer de nouveaux indices pour votre enquête. Retrouvez-les dans votre appartement en fin de service.",
+      "russian": "Разговоры с пассажирами могут помочь найти новые улики для расследования. После смены вы найдёте их в своей квартире.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Разговоры с пассажирами могут открыть новые документы и улики для вашего расследования. Вы найдёте их в своей квартире после смены.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.INVESTIGATION.INVESTIGATE",
+      "english": "HOLD to investigate",
+      "french": "MAINTENIR pour analyser",
+      "russian": "УДЕРЖИВАЙТЕ, чтобы изучить",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Удерживать, чтобы исследовать",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ROOM.TOOLTIP.DOCUMENT.INVESTIGATE",
+      "english": "Hold to investigate",
+      "french": "Maintenir pour analyser",
+      "russian": "Удерживайте, чтобы изучить",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Удерживать, чтобы расследовать",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ROOM.CLUE.DISCOVERED.HELP",
+      "english": "Available in your room",
+      "french": "Disponible à l'appartement",
+      "russian": "Доступно в квартире",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Доступно в вашей комнате",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.CREDITS.INTRO.COLLABORATION",
+      "english": "in collaboration with",
+      "french": "en collaboration avec",
+      "russian": "в сотрудничестве с",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "в сотрудничестве с",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "YES",
+      "english": "Yes",
+      "french": "Oui",
+      "russian": "Да",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Да",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.STATION.SHOP.BUY",
+      "english": "Buy",
+      "french": "Acheter",
+      "russian": "Купить",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Купить",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.TAXI.NEWSPAPER.HOW",
+      "english": "No newspaper available",
+      "french": "Pas de journal à lire",
+      "russian": "Нет газеты для чтения",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Газет нет",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ENDSHIFT.SUMUP.KM.TRAVELED",
+      "english": "km",
+      "french": "km",
+      "russian": "км",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "км",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.DIALOG.CLIENT",
+      "english": "Client",
+      "french": "Client",
+      "russian": "Пассажир",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Клиент",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ENDSHIFT.SUMUP.CUSTOMERS",
+      "english": "Customers",
+      "french": "Clients",
+      "russian": "Пассажиры",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Пассажиры",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.STATION.SHOP",
+      "english": "Shop",
+      "french": "Boutique",
+      "russian": "Магазин",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Магазин",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.OPTIONS.TEXT_SPEED.SLOW",
+      "english": "Slower",
+      "french": "Lent",
+      "russian": "Медленная",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Медленнее",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.DELETE",
+      "english": "Delete",
+      "french": "Supprimer",
+      "russian": "Удалить",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Удалить",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.CAR.DIALOGUE.MANUALMODE",
+      "english": "Manual Mode",
+      "french": "Mode manuel",
+      "russian": "Ручной режим",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Ручной режим",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.OPTIONS.MASTER_VOLUME",
+      "english": "Master",
+      "french": "Master",
+      "russian": "Общая громкость",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Общая громкость",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ENDSHIFT.SUMUP.RENT",
+      "english": "Rent",
+      "french": "Loyer",
+      "russian": "Аренда",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Аренда",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.STATION.SHOP.TALK.PROMPT",
+      "english": "Talk with the clerk",
+      "french": "Discuter avec l’employé",
+      "russian": "Поговорить с сотрудником",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Поговорить с продавцом",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.MENU.CREDITS",
+      "english": "Credits",
+      "french": "Générique",
+      "russian": "Авторы",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Авторы",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.STATION.SHOP.TOMORROW",
+      "english": "Come back tomorrow",
+      "french": "Revenez demain",
+      "russian": "Приходите завтра",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Приходите завтра",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.OPTIONS.MUSIC_VOLUME",
+      "english": "Music",
+      "french": "Musique",
+      "russian": "Музыка",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Музыка",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ROOM.DOCUMENTS.SCROLL",
+      "english": "Next documents",
+      "french": "Documents suivants",
+      "russian": "Следующие документы",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Следующие документы",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.NIGHT",
+      "english": "Night",
+      "french": "Nuit",
+      "russian": "Ночь",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Ночь",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.CAR.ROAM.ENDNIGHT",
+      "english": "End night",
+      "french": "Finir la nuit",
+      "russian": "Завершить ночь",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Конец ночи",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.CAR.ROAM.ENDSHIFT",
+      "english": "End shift",
+      "french": "Finir le service",
+      "russian": "Завершить смену",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Конечная смена",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.CAR.PASSENGER.END.OK",
+      "english": "Take",
+      "french": "Encaisser",
+      "russian": "Получить оплату",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Взять",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "NO",
+      "english": "No",
+      "french": "Non",
+      "russian": "Нет",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Нет",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ENDSHIFT.REVEALS.NEW",
+      "english": "You now know more about your clients…",
+      "french": "Vous en savez davantage sur vos passagers…",
+      "russian": "Вы узнали больше о своих пассажирах…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Теперь вы знаете больше о своих клиентах...",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ROOM.POI.DISCOVERED",
+      "english": "New investigation location",
+      "french": "Nouveau lieu d’enquête",
+      "russian": "Новое место расследования",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Новое место проведения расследования",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ROOM.CLUE.DISCOVERED",
+      "english": "New clue",
+      "french": "Nouvel indice",
+      "russian": "Новая улика",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Новая подсказка",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.MENU.NEW",
+      "english": "New game",
+      "french": "Nouvelle partie",
+      "russian": "Новая игра",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Новая игра",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.STATION.PUMP.NOMONEY",
+      "english": "Not enough money",
+      "french": "Pas assez d'argent",
+      "russian": "Недостаточно денег",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Недостаточно денег",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.STATION.SHOP.NOMONEY",
+      "english": "Not enough money",
+      "french": "Pas assez d'argent",
+      "russian": "Недостаточно денег",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Недостаточно денег",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.INVESTIGATION.NOTENOUGHTIME",
+      "english": "Not enough time",
+      "french": "Pas assez de temps",
+      "russian": "Недостаточно времени",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Недостаточно времени",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.STATION.TICKET.LOST",
+      "english": "Perdu",
+      "french": "Perdu",
+      "russian": "Проигрыш",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Проигрыш",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.SPLASHSCREEN.MATURE",
+      "english": "Night Call is inspired by real life stories and therefore may disturb some players.",
+      "french": "Night Call s'inspire d'histoires vraies et peut choquer certains joueurs.",
+      "russian": "Night Call вдохновлена реальными историями и может шокировать некоторых игроков.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Night Call основана на реальных историях и может вызвать дискомфорт у некоторых игроков.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.OPTIONS.TEXT_SPEED.NORMAL",
+      "english": "Normal",
+      "french": "Normal",
+      "russian": "Обычная",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Обычная",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.MENU.OPTIONS",
+      "english": "Options",
+      "french": "Options",
+      "russian": "Настройки",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Настройки",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ROOM.TRANSITION.BOARD",
+      "english": "check the board",
+      "french": "voir le tableau",
+      "russian": "к доске",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "проверить доску",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.PRICE",
+      "english": "Price",
+      "french": "Prix",
+      "russian": "Цена",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Цена",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.BOARD.SOURCE",
+      "english": "Source",
+      "french": "Source",
+      "russian": "Источник",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Источник",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.TAXI.RADIO",
+      "english": "Listen to radio",
+      "french": "Écouter la radio",
+      "russian": "Слушать радио",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Слушать радио",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.OPTIONS.TEXT_SPEED.FAST",
+      "english": "Faster",
+      "french": "Rapide",
+      "russian": "Быстрая",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Быстрее",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "DIFFICULTY.HARD",
+      "english": "Hard",
+      "french": "Défi",
+      "russian": "Испытание",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Сложная",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "STORYSELECT.TITLE.CHOOSE.DIFFICULTY",
+      "english": "Choose the difficulty mode",
+      "french": "Choisissez le mode de difficulté",
+      "russian": "Выберите сложность",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Выбрать режим сложности",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "DIFFICULTY.NORMAL.DESCRIPTION",
+      "english": "The way Night Call was designed.",
+      "french": "Pour une expérience ni trop simple, ni trop difficile.",
+      "russian": "Не слишком просто и не слишком сложно.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Так, как задумали разработчики Night Call.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.OPTIONS.SFX_VOLUME",
+      "english": "Sound",
+      "french": "Sons",
+      "russian": "Звук",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Звук",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.PAUSE.EXITGAME",
+      "english": "Quit Game",
+      "french": "Quitter le jeu",
+      "russian": "Выйти из игры",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Выйти из игры",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.MENU.LOAD",
+      "english": "Load game",
+      "french": "Charger une partie",
+      "russian": "Загрузить игру",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Загрузить игру",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.PLAYTIME",
+      "english": "Play time:",
+      "french": "Temps de jeu :",
+      "russian": "Время игры:",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Время игры:",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.OPTIONS.LANGUAGE",
+      "english": "Language",
+      "french": "Langue",
+      "russian": "Язык",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Язык",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "DIFFICULTY.EASY",
+      "english": "Story",
+      "french": "Histoire",
+      "russian": "Сюжетная",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Сюжетная",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.STATION.PUMP.PROMPT",
+      "english": "Fill the tank",
+      "french": "Remplir le réservoir",
+      "russian": "Заправить бак",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Заправить бак",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.STATION.PUMP.PROMPT.FULL",
+      "english": "Tank full",
+      "french": "Réservoir plein",
+      "russian": "Бак полон",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Бак полон",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.STATION.EXIT.PROMPT",
+      "english": "Leave the gas station",
+      "french": "Quitter la station-service",
+      "russian": "Покинуть заправку",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Покинуть заправку",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.STATION.EXIT",
+      "english": "Taxi",
+      "french": "Taxi",
+      "russian": "Такси",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Такси",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.OPTIONS.TEXT_SIZE",
+      "english": "Text size",
+      "french": "Taille du texte",
+      "russian": "Размер текста",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Размер текста",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.CAR.PASSENGER.END.TIP",
+      "english": "Tip",
+      "french": "Pourboire",
+      "russian": "Чаевые",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Чаевые",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ENDSHIFT.SUMUP.TIPS",
+      "english": "Tips",
+      "french": "Pourboires",
+      "russian": "Чаевые",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Чаевые",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "INVESTIGATION.RANDOM.TITLE",
+      "english": "\"Surprise\" Investigation",
+      "french": "Enquête \"surprise\"",
+      "russian": "Расследование «Сюрприз»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Расследование \"Сюрприз\"",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.SPECIFIC.XBOX.CONNECTEDPROFILE",
+      "english": "Connected Profile",
+      "french": "Profil connecté",
+      "russian": "Текущий профиль",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Связанный профиль",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ENDSHIFT.SUMUP.LOSSES",
+      "english": "Losses",
+      "french": "Pertes",
+      "russian": "Потери",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Потери",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.CREDITS.INTRO.PUBLISHED",
+      "english": "published by",
+      "french": "publié par",
+      "russian": "издатель",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "издатель",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ROOM.BOARD.MOVE",
+      "english": "Move",
+      "french": "Déplacer",
+      "russian": "Переместить",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Переместить",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.VERSION",
+      "english": "Version",
+      "french": "Version",
+      "russian": "Версия",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Версия",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.OPTIONS.VSYNC",
+      "english": "Vertical sync",
+      "french": "Synchronisation verticale",
+      "russian": "Вертикальная синхронизация",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Вертикальная синхронизация",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.OPTIONS.VIDEO",
+      "english": "Video",
+      "french": "Vidéo",
+      "russian": "Видео",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Видео",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.OPTIONS.TEXT_SPEED.VERYSLOW",
+      "english": "Much slower",
+      "french": "Très lent",
+      "russian": "Очень медленная",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Гораздо медленнее",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.OPTIONS.TEXT_SPEED.VERYFAST",
+      "english": "Much faster",
+      "french": "Très rapide",
+      "russian": "Очень быстрая",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Гораздо быстрее",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "FULLSCREEN",
+      "english": "Fullscreen",
+      "french": "Plein écran",
+      "russian": "Полный экран",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Полный экран",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ENDSHIFT.SUMUP.CONTINUE",
+      "english": "Continue",
+      "french": "Continuer",
+      "russian": "Продолжить",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Продолжить",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.MENU.CONTINUE",
+      "english": "Continue",
+      "french": "Continuer",
+      "russian": "Продолжить",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Продолжить",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.PAUSE.RESUME",
+      "english": "Continue",
+      "french": "Continuer",
+      "russian": "Продолжить",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Продолжить",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.CAR.DIALOGUE.SKIP",
+      "english": "Next",
+      "french": "Suivant",
+      "russian": "Далее",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Далее",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.TUTORIAL.NEXT",
+      "english": "Next",
+      "french": "Suite",
+      "russian": "Далее",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Далее",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ENDSHIFT.REVEALS.MENU",
+      "english": "Check the Passidex menu for more details",
+      "french": "Ouvrez le menu Passidex pour plus de détails",
+      "russian": "Подробности — в «Пассидексе»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Подробности — в «Пассидексе»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.LOADING",
+      "english": "Loading",
+      "french": "Chargement",
+      "russian": "Загрузка",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Загрузка",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.STATION.PUMP",
+      "english": "Gas pump",
+      "french": "Pompe à essence",
+      "russian": "Бензоколонка",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Бензоколонка",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ROOM.TIMELINE",
+      "english": "Timeline",
+      "french": "Temps",
+      "russian": "Хронология",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Хронология",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.STATION.NEWSPAPER",
+      "english": "Newspaper",
+      "french": "Journal",
+      "russian": "Газета",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Газета",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.TAXI.NEWSPAPER",
+      "english": "Read the newspaper",
+      "french": "Lire le journal",
+      "russian": "Читать газету",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Читать газету",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ENDSHIFT.SUMUP.CIGS",
+      "english": "Cigarettes",
+      "french": "Cigarettes",
+      "russian": "Сигареты",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Сигареты",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "INVESTIGATION.ANGEL.DESCRIPTION",
+      "english": "Random victims. Unknown motive. Weird case, slightly more difficult than the others.",
+      "french": "Victimes a priori sans rapports. Mobile mystérieux… Une enquête étrange, plus difficile que les autres.",
+      "russian": "На первый взгляд жертв ничто не связывает. Загадочный мотив… Странное расследование, более сложное, чем остальные.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Случайные жертвы. Неизвестный мотив. Странное дело, немного сложнее остальных.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "INVESTIGATION.FULL.TITLE",
+      "english": "Random investigation (all)",
+      "french": "Enquête aléatoire (toutes)",
+      "russian": "Случайное расследование (все)",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Случайное расследование (все)",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.PAUSE.BACKTOMENU",
+      "english": "Back to menu",
+      "french": "Retour au menu",
+      "russian": "Вернуться к меню",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Вернуться к меню",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.PRESS.AFTER",
+      "english": "to start",
+      "french": "pour commencer",
+      "russian": "для начала игры",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "для начала",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.MENU.PRESS",
+      "english": "PRESS TO START",
+      "french": "APPUYEZ POUR COMMENCER",
+      "russian": "НАЖМИТЕ ДЛЯ НАЧАЛА ИГРЫ",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "НАЖМИТЕ ДЛЯ ЗАПУСКА",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.BACK",
+      "english": "Back",
+      "french": "Retour",
+      "russian": "Назад",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Назад",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ROOM.TRANSITION.DESK",
+      "english": "back to the desk",
+      "french": "voir le bureau",
+      "russian": "к столу",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "к столу",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.APPLY",
+      "english": "Apply",
+      "french": "Appliquer",
+      "russian": "Применить",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Применить",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.ENDSHIFT.SUMUP.START",
+      "english": "Start balance",
+      "french": "Solde départ",
+      "russian": "Начальный баланс",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Начальный баланс",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "STORYSELECT.TITLE.CHOOSE.CONFIRMED",
+      "english": "",
+      "french": "",
+      "russian": "",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Выбор подтверждён",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.MENU.FREEROAM",
+      "english": "Free Roaming",
+      "french": "Balade",
+      "russian": "Свободная езда",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Свободная езда",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    }
+  ],
+  "remaining": [
+    {
+      "key": "UI.VOLUME",
+      "french": "Quantité",
+      "english": "Volume",
+      "current_russian": "Объём",
+      "reason": "Owner not verified: generic quantity field may belong to fuel purchase, not audio. Current value retained, not markedFRaccepted.",
+      "next_step": "Inspect original UI asset/code usage and visible screen. No question to user required."
+    }
+  ]
+}

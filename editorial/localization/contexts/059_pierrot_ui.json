@@ -1,0 +1,19 @@
+{
+  "scope": "One Pierrot biography key, fully read with his62 dialogue blocks.",
+  "keys": [
+    {
+      "key": "059_pierrot.bio",
+      "english": "Height = 1m70.\nCop in Paris.\nDad was a cop (financial affairs). Died 2 years ago.\nMom got health issues after Rictodin health scandal.\nGay, in a relationship. Never disclosed this information at work.",
+      "french": "Taille = 1m70.\nPolicier à Paris.\nPère était policier (affaires financières). Décédé il y a 2 ans.\nMère malade, liée au scandale du Rictodin.\nHomosexuel, en couple. N'a jamais divulgé cette information au travail.",
+      "russian": "Рост: 1,70 м.\nПолицейский в Париже.\nОтец служил в полиции, занимался финансовыми преступлениями. Умер два года назад.\nМать больна; её болезнь связана со скандалом вокруг «Риктодина».\nГей, состоит в отношениях. На работе об этом не рассказывал.",
+      "reviewed": true,
+      "previous_contextual_russian": "Рост: 1,70 м.\nПолицейский в Париже.\nОтец служил в полиции, занимался финансовыми преступлениями. Умер два года назад.\nПосле скандала с препаратом «Риктодин» у матери начались проблемы со здоровьем.\nГей, состоит в отношениях. На работе об этом не рассказывал.",
+      "french_priority_reviewed": true,
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    }
+  ],
+  "french_priority_author": "scripts/review_pierrot_fr.py",
+  "french_priority_decisions": [
+    "Policier à Paris confirms active policeman. Retired mailman text belongs to another passenger. French mother illness is linked to Rictodin scandal; temporal onset from EN is not asserted. No kinship with Lucie inferred from Bataz surname."
+  ]
+}

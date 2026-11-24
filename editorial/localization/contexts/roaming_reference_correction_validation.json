@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "scope": "Bibliographic023/033 correction only;all three native script bytes and the exported compiled input unchanged. No new export was performed after this reference-only correction.",
+  "unchanged_sha256": {
+    "localization/reviewed_engine_input.json": "e64386b973911ddf68159c5d3060a23d8d9416974b78f90ff818e0f7270ec014",
+    "localization/native_scripts/951_gameover_ruined_eng.txt": "a875b113fd4daba76aa0f9f18c5b84a85b76d46d96635b6e5122abe6444d8372",
+    "localization/native_scripts/953_gameover_gas_eng.txt": "34c64a58ef23fd993d0ac1b2092143d15b2edacb26905552370d785213bc411a",
+    "localization/native_scripts/970_roaming_events_eng.txt": "1a891c5330d0ad9748dce3d240f52c44c49145d84b31b4447018f5f14408ebb9"
+  }
+}

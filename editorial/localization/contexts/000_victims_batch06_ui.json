@@ -1,0 +1,728 @@
+{
+  "scope": "49explicit French UI fields manually read/accepted; not whole interface.",
+  "french_priority_author": "scripts/review_ui_victims_batch06_fr.py",
+  "french_priority_decisions": [
+    "Вручную прочитаны50целыхполей EN/FR/текущийRU,49приняты. Один tooltipRECLUSE.VIC02 отложен: FRжертва1, ENжертва2, соседнийFRназваниежертва2. ПрежнийRU2сохранён, номернеисправлендогадкой.",
+    "Victime — грамматическиженскоеслово, не доказательствополавсехжертв. ОбщиеGCполя используемыеразнымиделами не делают всехбогатыхжертвмужчинами: богатый/богач и затворник замененыестественнымипредикатами ксловуЖертва. Описаниямужчины/тренера вконкретныхуликахсохранены; visiteurкафе1мужчина, clienteкафе2/эскорт2женщина поFRсамихсоответствующихключей.",
+    "Пожарный: строгаярелигиознаяСЕМЬЯ, не жертвасамаестьсемья; trèsнепотеряно. ЧувствовинызанеспасениеБОЛЬШЕлюдей, не ENonlyнеспасвсех. КлиентыкафеБельведер, не автоматическибарилиегосотрудники. Красивая/храбрая/героическаяоценкавдвухисточниках не независимаяистинаавтора.",
+    "Вскрытие1: ожогипри жизни, нерисункипослесмерти. Исходное самоубийством считали ДОвторойжертвы, прежнееatfirstтерялоконкретныймомент. Вскрытие2: сдавливаниешеипослесмерти, не новаясмертьпослесмерти и не придуманнаяверёвка/способсдавливания. Число/место/порядокубийств не менялись.",
+    "Эскорт2: клиенткаFRcliente, нечленбазыданныхизEN, несломаннаякавычка иневтороеназваниепереведённогоагентства. Бумажник былукраденужертвы, сама жертване бумажник. Corrompue — коррупция, не обязательноустановленноевзяточничество; заслуживаласмерти остаётсяоценкойисточниказаправки.",
+    "Jamaisarrêté вдвухуликахобсексуальномнасилии/убийствеалжирца сохраняет никогда, не толькооднократнуюневзятуюподстражу. Помощьосуждённымсвященникамв80-хотдельнаяулика, не заменяетуровеньуверенностигазетыощёнеподтверждённыхобвинениях. МэрСент-Уэна, мафия, козёлотпущения иразныеполитикиотносятсяксобственнымделам.",
+    "РаныFRhésitantes — неувереннонанесённые, спешка ИЛИнеопытность. Слабостьотболезни, не простообщийфактболезни; снотворноепринято переднападением, не доказаннаяпостояннаяпривычка. Другие ножи/чеснок/кровьсобственногопальца/возможнонарисоваласимвол/самавпустила/кажетсяслежка/отсутствиекамер/церковь:правильныепрочитанныеполя сохранены."
+  ],
+  "linked_contexts_read": [
+    "972_radio_fr_ui",
+    "097_alexandre",
+    "031_geraldine",
+    "032_anita",
+    "014_fragonard"
+  ],
+  "keys": [
+    {
+      "key": "clue_sand_autopsy01_01.title",
+      "english": "Victim 1 = burn marks on the body, done while alive",
+      "french": "Victime 1 = marques de brûlure alors que victime vivait encore",
+      "russian": "Жертва №1 получила ожоги при жизни",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 1 = следы ожогов на теле, нанесены при жизни",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_fire_04.title",
+      "english": "Victim 1 = strict religious family",
+      "french": "Victime 1 = famille très religieuse et stricte",
+      "russian": "Жертва №1 — из очень религиозной и строгой семьи",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 1 — строгая религиозная семья",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_bar_01.title",
+      "english": "Victim 1 = client of Belvédère Café",
+      "french": "Victime 1 = client du Belvédère Café",
+      "russian": "Жертва №1 — посетитель бара «Бельведер»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 1 — посетитель бара «Бельведер»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af",
+      "russian_revision_history": [
+        {
+          "author": "scripts/fieldwork_ui_amendment.py",
+          "before": "Жертва №1 — посетитель кафе «Бельведер»",
+          "after": "Жертва №1 — посетитель бара «Бельведер»",
+          "reason": "Единый бар Бельведер по полной FR-сцене98105 и связанному023/apollonie-end-belvedere. Не второй объект кафе с тем же именем; название не меняется."
+        }
+      ]
+    },
+    {
+      "key": "clue_judge_customer_rumor_05.title",
+      "english": "Victim 1 = protected by Saint-Ouen mayor",
+      "french": "Victime 1 protégée par le maire de Saint-Ouen",
+      "russian": "Жертва №1 — под защитой мэра Сент-Уэна",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва №1 — под защитой мэра Сент-Уэна",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_rumor_08.title",
+      "english": "Victim 1 = gorgeous, brave man",
+      "french": "Victime 1 = bel homme, courageux",
+      "russian": "Жертва №1 — красивый, храбрый мужчина",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва №1 — красивый, храбрый мужчина",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_fire_03.title",
+      "english": "Victim 1 = gorgeous, brave man",
+      "french": "Victime 1 = bel homme, courageux",
+      "russian": "Жертва 1 — красивый, храбрый мужчина",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 1 — красивый, храбрый мужчина",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_fire_01.title",
+      "english": "Victim 1 = hero, loved by everyone",
+      "french": "Victime 1 = héros, tout le monde l'appréciait",
+      "russian": "Жертва 1 — герой, которого все любили",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 1 — герой, которого все любили",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_fire_02.title",
+      "english": "Victim 1 = couldn’t save everyone in the Albatros, felt guilt",
+      "french": "Victime 1 = se sentait coupable de n'avoir pas sauvé plus d'habitants de l'Albatros",
+      "russian": "Жертва №1 — чувство вины: не удалось спасти больше жильцов «Альбатроса»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 1 — не смог спасти всех в «Альбатросе», чувствовал вину",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.NAME.RICH.VIC01",
+      "english": "Victim 1 = rich",
+      "french": "Victime 1 = riche",
+      "russian": "Жертва №1 была богата",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 1 = богатый",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.NAME.VICTIM.WEAK.VIC01",
+      "english": "Victim 1 = weak",
+      "french": "La victime 1 = faible",
+      "russian": "Жертва №1 была слаба",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 1 = слабая",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.NAME.WEAK.NEWS.VIC01",
+      "english": "Victim 1 = weak",
+      "french": "Victime 1 = faible",
+      "russian": "Жертва №1 была слаба",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 1 = слабая",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_customer_rumor_04.title",
+      "english": "Victim 1 = great football coach",
+      "french": "Victime 1 = excellent entraîneur de football",
+      "russian": "Жертва №1 — отличный футбольный тренер",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва №1 — отличный футбольный тренер",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_rumor_07.title",
+      "english": "Victim 1’s death = scapegoat",
+      "french": "Mort de la victime 1 = bouc-émissaire pratique",
+      "russian": "Жертва №1 после смерти — удобный козёл отпущения",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва №1 после смерти — удобный козёл отпущения",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_gas_03.title",
+      "english": "Victim 1’s death = scapegoat",
+      "french": "Mort de la victime 1 = bouc-émissaire pratique",
+      "russian": "Жертва №1 после смерти — удобный козёл отпущения",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва №1 после смерти — удобный козёл отпущения",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_customer_rumor_03.title",
+      "english": "Victim 1 = molester, never arrested",
+      "french": "Victime 1 = a agressé sexuellement… mais jamais arrêté",
+      "russian": "Жертву №1 никогда не арестовывали за совершённое сексуальное насилие",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертву №1 не арестовали за совершённое сексуальное насилие",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.NAME.RECLUSE.VIC01",
+      "english": "Victim 1 = recluse",
+      "french": "Victime 1 = recluse",
+      "russian": "Жертва №1 вела затворническую жизнь",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 1 = затворник",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.NAME.PAST.VIC01",
+      "english": "Victim 1 had tainted past",
+      "french": "La victime 1 a un passé sombre",
+      "russian": "У жертвы №1 тёмное прошлое",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 1 имела запятнанное прошлое",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.TT.PAST.VIC01",
+      "english": "Victim 1 helped convicted priests in the 80s.",
+      "french": "La victime 1 a aidé des prêtres condamnés dans les années 80.",
+      "russian": "Жертва №1 помогала осуждённым священникам в 80-е годы.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 1 помогала осужденным священникам в 80-е годы.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_victimrecords_01.title",
+      "english": "Victim 1 used to work with mafia",
+      "french": "Victime 1 travaillait avec la mafia",
+      "russian": "Жертва 1 раньше работала с мафией",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 1 раньше работала с мафией",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.TT.RECLUSE.VIC01",
+      "english": "Victim 1 never left his home.",
+      "french": "La victime 1 n'a jamais quitté sa maison.",
+      "russian": "Жертва 1 никогда не покидала свой дом.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 1 никогда не покидала свой дом.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.TT.CHURCH.LINK.VIC01",
+      "english": "Victim 1 was linked to the Church.",
+      "french": "La victime 1 était liée à l'Église.",
+      "russian": "Жертва 1 была связана с церковью.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 1 была связана с церковью.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.TT.KNIFE.VIC01",
+      "english": "Victim 1 was gutted with a fish knife.",
+      "french": "La victime 1 a été éventrée avec un couteau à poisson.",
+      "russian": "Жертва 1 была выпотрошена ножом для рыбы.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 1 была выпотрошена ножом для рыбы.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.TT.ROBBED.VIC01.VIC03",
+      "english": "Victims 1 and 3 robbed.",
+      "french": "Victimes 1 et 3 volées.",
+      "russian": "Жертвы 1 и 3 ограблены.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертвы 1 и 3 ограблены.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.TT.KILLER.SLOPPY.VIC01",
+      "english": "The Victim 1's wounds were clumsy, killed was rushed or unexperienced.",
+      "french": "Les blessures de la victime 1 sont hésitantes, le tueur était pressé ou inexpérimenté.",
+      "russian": "Раны жертвы №1 нанесены неуверенно: убийца торопился или был неопытен.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Раны жертвы 1 были неаккуратными, убийца торопился или был неопытен.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.TT.VICTIM.WEAK.VIC01",
+      "english": "Victim 1 was weak, old",
+      "french": "La victime 1 était faible, vieille",
+      "russian": "Жертва 1 была слабой, старой",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 1 была слабой, старой",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.TT.WEAK.NEWS.VIC01",
+      "english": "Victim 1 was sick",
+      "french": "La victime 1 était faible (maladie)",
+      "russian": "Жертва №1 была ослаблена болезнью.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 1 была больна",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.TT.RICH.VIC01",
+      "english": "Victim 1 was wealthy.",
+      "french": "La victime 1 était riche.",
+      "russian": "Жертва 1 была богата.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 1 была богата.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_autopsy01_02.title",
+      "english": "Victim 1 thought to be a suicide at first",
+      "french": "Victime 1 = mort reconnue comme suicide avant la victime 2",
+      "russian": "Смерть жертвы №1 считали самоубийством, пока не появилась вторая жертва",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертву 1 сначала приняли за самоубийцу",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_bar_02.title",
+      "english": "Victim 2 = client of Belvédère",
+      "french": "Victime 2 = cliente du Belvédère Café",
+      "russian": "Жертва №2 — посетитель бара «Бельведер»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 2 — посетитель бара «Бельведер»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af",
+      "russian_revision_history": [
+        {
+          "author": "scripts/fieldwork_ui_amendment.py",
+          "before": "Жертва №2 — посетительница кафе «Бельведер»",
+          "after": "Жертва №2 — посетитель бара «Бельведер»",
+          "reason": "Жюль мужчина по явным FR il/un type brillant в98105/angel-victims-yes и данным второй жертвы. Женская форма cliente в короткой FR-подписи при слове victime не заменяет сценовый пол персонажа. Посетительница исправлена, бар согласован с диалогами."
+        }
+      ]
+    },
+    {
+      "key": "clue_sand_escort_01.title",
+      "english": "Victim 2 = member of Secret Escort 75 database",
+      "french": "Victime 2 = cliente de Secret Escort 75",
+      "russian": "Жертва №2 — клиентка «Secret Escort 75»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 2 = член базы данных \"Секретный эскорт 75",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_customer_rumor_06.title",
+      "english": "Victim 2 = fierce politician",
+      "french": "Victime 2 = politicien féroce",
+      "russian": "Жертва №2 — жёсткий политик",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва №2 — жёсткий политик",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_radioshow02_02.title",
+      "english": "Victim 2 = eco-terrorist",
+      "french": "Victime 2 = éco-terroriste",
+      "russian": "Жертва 2 = экотеррорист",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 2 = экотеррорист",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_report02_01.title",
+      "english": "Victim 2 = stolen wallet",
+      "french": "Victime 2 = portefeuille volé",
+      "russian": "У жертвы №2 украли бумажник",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 2 = украденный бумажник",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_autopsy02_01.title",
+      "english": "Victim 2 = strangled post-mortem",
+      "french": "Victime 2 = étranglé post-mortem",
+      "russian": "Шею жертвы №2 сдавливали уже после смерти",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 2 = задушена посмертно",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.NAME.RICH.VIC02",
+      "english": "Victim 2 = rich",
+      "french": "Victime 2 = riche",
+      "russian": "Жертва №2 была богата",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 2 = богач",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.NAME.VICTIM.WEAK.VIC02",
+      "english": "Victim 2 = weak",
+      "french": "Victime 2 = faible",
+      "russian": "Жертва №2 была слаба",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 2 = слабая",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.NAME.FORGOT.NEWS.VIC02",
+      "english": "VIctim 2 = forgotten actress",
+      "french": "Victime 2 = actrice oubliée",
+      "russian": "Жертва 2 = забытая актриса",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 2 = забытая актриса",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.NAME.RECLUSE.VIC02",
+      "english": "Victim 2 = recluse",
+      "french": "Victime 2 = recluse",
+      "russian": "Жертва №2 вела затворническую жизнь",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 2 = затворник",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_report02_02.title",
+      "english": "Victim 2 killed in only spot without CCTV",
+      "french": "Victime 2 = tué dans seul endroit sans caméra de surveillance",
+      "russian": "Жертва 2 убита в единственном месте, где нет камер видеонаблюдения",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 2 убита в единственном месте, где нет камер видеонаблюдения",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_rumor_02.title",
+      "english": "Victim 2 felt he was followed",
+      "french": "Victime 2 avait l'impression d'être suivie",
+      "russian": "Жертве №2 казалось, что за ней следят",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертве №2 казалось, что за ней следят",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_customer_rumor_07.title",
+      "english": "Victim 2 killed an Algerian man, never arrested",
+      "french": "Victime 2 a tué un Algérien, n'a jamais été arrêté",
+      "russian": "Жертву №2 никогда не арестовывали за убийство алжирца",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертву №2 не арестовали за убийство алжирца",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.TT.SYMBOL.VIC02",
+      "english": "Victime 2 could have drew fish symbol: her thumb was covered in blood",
+      "french": "Victime 2 aurait pu dessiner un symbole de poisson, son pouce était couvert de sang.",
+      "russian": "Жертва 2 могла нарисовать символ рыбы: её большой палец был в крови.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 2 могла нарисовать символ рыбы: её большой палец был в крови.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_report02_02.title",
+      "english": "Victim 2 opened door to Killer",
+      "french": "Victime 2 a ouvert la porte au tueur",
+      "russian": "Жертва 2 открыла дверь убийце",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 2 открыла дверь убийце",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_report02_01.title",
+      "english": "Victim 2 had garlic in her hand",
+      "french": "Victime 2 avait de l'ail dans la main",
+      "russian": "У жертвы 2 в руке был чеснок",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "У жертвы 2 в руке был чеснок",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.TT.CHURCH.LINK.VIC02",
+      "english": "Victim 2 was linked to the church.",
+      "french": "La victime 2 était liée à l'Église.",
+      "russian": "Жертва 2 была связана с церковью.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 2 была связана с церковью.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.TT.VICTIM.WEAK.VIC02",
+      "english": "Victim 2 had sleeping pills prior to attack",
+      "french": "Victime 2 a pris des somnifères avant de se faire attaquer",
+      "russian": "Жертва №2 приняла снотворное перед нападением.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 2 принимала снотворное перед нападением",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_gas_05.title",
+      "english": "Victim 2 corrupted, deserved to die",
+      "french": "Victime 2 corrompue, elle méritait de mourir",
+      "russian": "Жертва №2 была коррумпирована, заслуживала смерти",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва №2 — взяточница, заслуживала смерти",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.TT.KNIFE.VIC02",
+      "english": "Victim 2 was gutted with a fish knife.",
+      "french": "La victime 2 a été éventrée avec un couteau à poisson.",
+      "russian": "Жертва 2 была выпотрошена ножом для рыбы.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 2 была выпотрошена ножом для рыбы.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.TT.KILLER.SLOPPY.VIC02",
+      "english": "Victime 2's wounds were clumsy, killed was rushed or unexperienced.",
+      "french": "Les blessures de la victime 2 sont hésitantes, le tueur était pressé ou inexpérimenté.",
+      "russian": "Раны жертвы №2 нанесены неуверенно: убийца торопился или был неопытен.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Раны жертвы 2 были неаккуратными, убийца торопился или был неопытен.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    }
+  ],
+  "exact_legacy_fallback_updates": [
+    {
+      "english": "Victim 1 = burn marks on the body, done while alive",
+      "ui_keys": [
+        "clue_sand_autopsy01_01.title"
+      ],
+      "previous_fallback": null,
+      "russian": "Жертва №1 получила ожоги при жизни"
+    },
+    {
+      "english": "Victim 1 = strict religious family",
+      "ui_keys": [
+        "clue_angel_fire_04.title"
+      ],
+      "previous_fallback": "Жертва 1 = строгая религиозная семья",
+      "russian": "Жертва №1 — из очень религиозной и строгой семьи"
+    },
+    {
+      "english": "Victim 1 = client of Belvédère Café",
+      "ui_keys": [
+        "clue_angel_bar_01.title"
+      ],
+      "previous_fallback": "Жертва 1 = клиент кафе \"Бельведер",
+      "russian": "Жертва №1 — посетитель кафе «Бельведер»"
+    },
+    {
+      "english": "Victim 1 = couldn’t save everyone in the Albatros, felt guilt",
+      "ui_keys": [
+        "clue_angel_fire_02.title"
+      ],
+      "previous_fallback": null,
+      "russian": "Жертва №1 — чувство вины: не удалось спасти больше жильцов «Альбатроса»"
+    },
+    {
+      "english": "Victim 1 = rich",
+      "ui_keys": [
+        "GC.CLUE.NAME.RICH.VIC01"
+      ],
+      "previous_fallback": "Жертва 1 = богатый",
+      "russian": "Жертва №1 была богата"
+    },
+    {
+      "english": "Victim 2 = rich",
+      "ui_keys": [
+        "GC.CLUE.NAME.RICH.VIC02"
+      ],
+      "previous_fallback": "Жертва 2 = богач",
+      "russian": "Жертва №2 была богата"
+    },
+    {
+      "english": "Victim 1 = weak",
+      "ui_keys": [
+        "GC.CLUE.NAME.VICTIM.WEAK.VIC01",
+        "GC.CLUE.NAME.WEAK.NEWS.VIC01"
+      ],
+      "previous_fallback": "Жертва 1 = слабая",
+      "russian": "Жертва №1 была слаба"
+    },
+    {
+      "english": "Victim 2 = weak",
+      "ui_keys": [
+        "GC.CLUE.NAME.VICTIM.WEAK.VIC02"
+      ],
+      "previous_fallback": "Жертва 2 = слабая",
+      "russian": "Жертва №2 была слаба"
+    },
+    {
+      "english": "Victim 1 = recluse",
+      "ui_keys": [
+        "GC.CLUE.NAME.RECLUSE.VIC01"
+      ],
+      "previous_fallback": "Жертва 1 = затворник",
+      "russian": "Жертва №1 вела затворническую жизнь"
+    },
+    {
+      "english": "Victim 2 = recluse",
+      "ui_keys": [
+        "GC.CLUE.NAME.RECLUSE.VIC02"
+      ],
+      "previous_fallback": "Жертва 2 = затворник",
+      "russian": "Жертва №2 вела затворническую жизнь"
+    },
+    {
+      "english": "Victim 1 had tainted past",
+      "ui_keys": [
+        "GC.CLUE.NAME.PAST.VIC01"
+      ],
+      "previous_fallback": "Жертва 1 имела запятнанное прошлое",
+      "russian": "У жертвы №1 тёмное прошлое"
+    },
+    {
+      "english": "Victim 1 helped convicted priests in the 80s.",
+      "ui_keys": [
+        "GC.CLUE.TT.PAST.VIC01"
+      ],
+      "previous_fallback": "Жертва 1 помогала осужденным священникам в 80-е годы.",
+      "russian": "Жертва №1 помогала осуждённым священникам в 80-е годы."
+    },
+    {
+      "english": "The Victim 1's wounds were clumsy, killed was rushed or unexperienced.",
+      "ui_keys": [
+        "GC.CLUE.TT.KILLER.SLOPPY.VIC01"
+      ],
+      "previous_fallback": null,
+      "russian": "Раны жертвы №1 нанесены неуверенно: убийца торопился или был неопытен."
+    },
+    {
+      "english": "Victime 2's wounds were clumsy, killed was rushed or unexperienced.",
+      "ui_keys": [
+        "GC.CLUE.TT.KILLER.SLOPPY.VIC02"
+      ],
+      "previous_fallback": null,
+      "russian": "Раны жертвы №2 нанесены неуверенно: убийца торопился или был неопытен."
+    },
+    {
+      "english": "Victim 1 was sick",
+      "ui_keys": [
+        "GC.CLUE.TT.WEAK.NEWS.VIC01"
+      ],
+      "previous_fallback": "Жертва 1 была больна",
+      "russian": "Жертва №1 была ослаблена болезнью."
+    },
+    {
+      "english": "Victim 1 thought to be a suicide at first",
+      "ui_keys": [
+        "clue_sand_autopsy01_02.title"
+      ],
+      "previous_fallback": "Жертву 1 сначала приняли за самоубийцу",
+      "russian": "Смерть жертвы №1 считали самоубийством, пока не появилась вторая жертва"
+    },
+    {
+      "english": "Victim 2 = client of Belvédère",
+      "ui_keys": [
+        "clue_angel_bar_02.title"
+      ],
+      "previous_fallback": "Жертва 2 = клиент Бельведера",
+      "russian": "Жертва №2 — посетительница кафе «Бельведер»"
+    },
+    {
+      "english": "Victim 2 = member of Secret Escort 75 database",
+      "ui_keys": [
+        "clue_sand_escort_01.title"
+      ],
+      "previous_fallback": "Жертва 2 = член базы данных \"Секретный эскорт 75",
+      "russian": "Жертва №2 — клиентка «Secret Escort 75»"
+    },
+    {
+      "english": "Victim 2 = stolen wallet",
+      "ui_keys": [
+        "clue_judge_report02_01.title"
+      ],
+      "previous_fallback": "Жертва 2 = украденный бумажник",
+      "russian": "У жертвы №2 украли бумажник"
+    },
+    {
+      "english": "Victim 2 = strangled post-mortem",
+      "ui_keys": [
+        "clue_sand_autopsy02_01.title"
+      ],
+      "previous_fallback": "Жертва 2 = задушена посмертно",
+      "russian": "Шею жертвы №2 сдавливали уже после смерти"
+    },
+    {
+      "english": "Victim 2 had sleeping pills prior to attack",
+      "ui_keys": [
+        "GC.CLUE.TT.VICTIM.WEAK.VIC02"
+      ],
+      "previous_fallback": "Жертва 2 принимала снотворное перед нападением",
+      "russian": "Жертва №2 приняла снотворное перед нападением."
+    },
+    {
+      "english": "Victim 2 corrupted, deserved to die",
+      "ui_keys": [
+        "clue_sand_gas_05.title"
+      ],
+      "previous_fallback": "Жертва №2 — взяточница, заслуживала смерти",
+      "russian": "Жертва №2 была коррумпирована, заслуживала смерти"
+    }
+  ],
+  "legacy_fallback_owner_collisions": [
+    {
+      "key": "clue_judge_customer_rumor_03.title",
+      "english": "Victim 1 = molester, never arrested",
+      "owners": [
+        "clue_judge_customer_rumor_03.title",
+        "clue_judge_stad_02.title"
+      ],
+      "decision": "Keyed Russian is authoritative. Global legacy fallback cannot distinguish owners; unchanged."
+    },
+    {
+      "key": "clue_judge_customer_rumor_07.title",
+      "english": "Victim 2 killed an Algerian man, never arrested",
+      "owners": [
+        "clue_judge_customer_rumor_07.title",
+        "clue_judge_journal04_01.title",
+        "clue_judge_radioshow04_01.title"
+      ],
+      "decision": "Keyed Russian is authoritative. Global legacy fallback cannot distinguish owners; unchanged."
+    }
+  ]
+}

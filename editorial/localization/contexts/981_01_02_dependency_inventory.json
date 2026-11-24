@@ -1,0 +1,330 @@
+{
+  "scope": "Source occurrence inventory by owner/context,not a global replacement list. Pending scenes remain pending.",
+  "rows": [
+    {
+      "scene": "981_Angel_02_Location_eng",
+      "passage": "981-02-intro",
+      "english": [
+        "PAUL : « I asked around about Simon… »",
+        "Simon Collomb. The Angel of Death’s first victim."
+      ],
+      "reviewed": true
+    },
+    {
+      "scene": "981_Angel_02_Location_eng",
+      "passage": "981-02-simon",
+      "english": [
+        "PAUL : « Simon was seeing a shrink… nothing out of the ordinary. We see some not-so-nice things sometimes… »"
+      ],
+      "reviewed": true
+    },
+    {
+      "scene": "981_Angel_02_Location_eng",
+      "passage": "981-02-simon-silence",
+      "english": [
+        "PAUL : « Simon had kind of a strange childhood. »"
+      ],
+      "reviewed": true
+    },
+    {
+      "scene": "981_Angel_02_Location_eng",
+      "passage": "981-02-family",
+      "english": [
+        "PAUL : « Simon was raised in a very rigid, very Catholic family. Like, mass in Greek and all that. »"
+      ],
+      "reviewed": true
+    },
+    {
+      "scene": "981_Angel_02_Location_eng",
+      "passage": "981-02-tanguy",
+      "english": [
+        "PAUL : « When… Tanguy died… I shouldn’t have been so distant.»"
+      ],
+      "reviewed": true
+    },
+    {
+      "scene": "981_Angel_02_Location_eng",
+      "passage": "981-02-end",
+      "english": [
+        "As you stare into your rearview mirror, you try to remember what Tanguy’s laugh sounded like…"
+      ],
+      "reviewed": true
+    },
+    {
+      "scene": "981_Angel_01_Location_eng",
+      "passage": "981-01-start",
+      "english": [
+        "The door opens and you see your old buddy Marco…",
+        "Marco… the one who stole your wife…"
+      ],
+      "reviewed": true
+    },
+    {
+      "scene": "981_Angel_01_Location_eng",
+      "passage": "981-01-intro",
+      "english": [
+        "« No, Marco… »"
+      ],
+      "reviewed": true
+    },
+    {
+      "scene": "981_Angel_01_Location_eng",
+      "passage": "981-01-visit-girlfriend",
+      "english": [
+        "Marco laughs nervously and it resonates off the cemetery walls."
+      ],
+      "reviewed": true
+    },
+    {
+      "scene": "981_Angel_01_Location_eng",
+      "passage": "981-01-visit-answer",
+      "english": [
+        "You lean over. The flashlight illuminates the name of Zita Vellpeau, the third victim.",
+        "MARCO : « This is where her ashes are buried, along with the other members of the Moonie Tunes cult. »"
+      ],
+      "reviewed": true
+    },
+    {
+      "scene": "981_Angel_01_Location_eng",
+      "passage": "981-01-why-murders",
+      "english": [
+        "You nod. The flashlight wavers and shines all around you for five seconds while Marco pouts."
+      ],
+      "reviewed": true
+    },
+    {
+      "scene": "981_Angel_01_Location_eng",
+      "passage": "981-01-end-intro",
+      "english": [
+        "You follow Marco through the stones. In the glow of his flashlight, you catch glimpses of portraits of unassuming faces that ignore you.",
+        "Once you get to the entrance, Marco turns his light off."
+      ],
+      "reviewed": true
+    },
+    {
+      "scene": "980_Judge_05_Location_eng",
+      "passage": "980-05-marco-intro",
+      "english": [
+        "Marco appears.",
+        "Marco is a former taxi driver. A strange guy, a bit spacey and different. He’s been working at the stadium for a few years now.",
+        "That’s Marco. You like him."
+      ],
+      "reviewed": false
+    },
+    {
+      "scene": "980_Judge_05_Location_eng",
+      "passage": "980-05-questions-intro",
+      "english": [
+        "The only noise in the room is the TV behind Marco. Before you came by, he was playing a soccer video game."
+      ],
+      "reviewed": false
+    },
+    {
+      "scene": "980_Judge_05_Location_eng",
+      "passage": "980-05-questions",
+      "english": [
+        "Marco drops his head between his shoulders. He starts to beg."
+      ],
+      "reviewed": false
+    },
+    {
+      "scene": "980_Judge_05_Location_eng",
+      "passage": "980-05-lastthing-victims",
+      "english": [
+        "Marco sits up."
+      ],
+      "reviewed": false
+    },
+    {
+      "scene": "980_Judge_05_Location_eng",
+      "passage": "980-05-thanks-coffee-outro",
+      "english": [
+        "Marco looks away."
+      ],
+      "reviewed": false
+    },
+    {
+      "scene": "971_newspapers_eng",
+      "passage": "News-Killer-Angel-02",
+      "english": [
+        "It’s an article on the Angel of Death and the actress Zita Vellpeau, the third victim."
+      ],
+      "reviewed": false
+    },
+    {
+      "scene": "971_newspapers_eng",
+      "passage": "News-Killer-Angel-05",
+      "english": [
+        "One article goes over the life of Zita Vellpeau, the Angel of Death’s third victim."
+      ],
+      "reviewed": false
+    },
+    {
+      "scene": "971_newspapers_eng",
+      "passage": "News-Killer-Judge-01",
+      "english": [
+        "It’s a sensationalist article about the third victim, Simon Gorodischer."
+      ],
+      "reviewed": false
+    },
+    {
+      "scene": "971_newspapers_eng",
+      "passage": "News-Killer-Judge-09",
+      "english": [
+        "Documents about Ronan Besson, Charles Bougrain and Simon Gorodischer, the Judge’s first three victims."
+      ],
+      "reviewed": false
+    },
+    {
+      "scene": "982_Sandman_02_Location_eng",
+      "passage": "982-02-start",
+      "english": [
+        "You catch sight of Marco just sneaking inside."
+      ],
+      "reviewed": false
+    },
+    {
+      "scene": "982_Sandman_02_Location_eng",
+      "passage": "982-02-entrance",
+      "english": [
+        "You look over at Marco and head to his table.",
+        "You and Marco were old friends, until he… ‘stole’ your wife."
+      ],
+      "reviewed": false
+    },
+    {
+      "scene": "982_Sandman_02_Location_eng",
+      "passage": "982-02-sit",
+      "english": [
+        "He’s shaking, his voice is low. He’s clearly uncomfortable. Marco’s a nervous type, but tonight… tonight it’s different."
+      ],
+      "reviewed": false
+    },
+    {
+      "scene": "982_Sandman_02_Location_eng",
+      "passage": "982-02-end-paid",
+      "english": [
+        "You pay Marco’s tab and leave."
+      ],
+      "reviewed": false
+    },
+    {
+      "scene": "981_Angel_05_Location_eng",
+      "passage": "981-05-angel-victims-who",
+      "english": [
+        "« Simon Collomb and Jules Lima? »"
+      ],
+      "reviewed": false
+    },
+    {
+      "scene": "981_Angel_05_Location_eng",
+      "passage": "981-05-angel-victims-yes",
+      "english": [
+        "BARMAID : « They came in a lot. They were good clients, regulars… Simon didn’t drink, but he liked the atmosphere. »"
+      ],
+      "reviewed": false
+    },
+    {
+      "scene": "981_Angel_05_Location_eng",
+      "passage": "981-05-tip-low",
+      "english": [
+        "BARMAID : « For… let’s say… a fifty… I’ll tell you who knew Jules and Simon particularly well. »"
+      ],
+      "reviewed": false
+    },
+    {
+      "scene": "981_Angel_05_Location_eng",
+      "passage": "981-05-tip-high",
+      "english": [
+        "BARMAID : « For 250 euros, I’ll tell you who knew Jules and Simon… oh so very well. »"
+      ],
+      "reviewed": false
+    },
+    {
+      "scene": "981_Angel_05_Location_eng",
+      "passage": "981-05-tip-normal",
+      "english": [
+        "BARMAID : « 150 euros and I’ll tell you who knew Jules and Simon very well. »"
+      ],
+      "reviewed": false
+    },
+    {
+      "scene": "981_Angel_05_Location_eng",
+      "passage": "981-05-intel",
+      "english": [
+        "BARMAID : « Apollonie Girardeau. A regular. She’s like a fixture here. She likes them young and I know she scored with Simon and Jules. »",
+        "BARMAID : « But she was too sketchy for him… She’s part of the Moonie Tunes. You know what that is? »"
+      ],
+      "reviewed": false
+    },
+    {
+      "scene": "972_radio_eng",
+      "passage": "Radio-News-Killer-Angel-04",
+      "english": [
+        "During a brief news story about the Angel of Death, you hear them mention the first victim, Simon Collomb’s family."
+      ],
+      "reviewed": false
+    },
+    {
+      "scene": "972_radio_eng",
+      "passage": "Radio-News-Killer-Angel-06",
+      "english": [
+        "During an interview with a criminologist, the anchor refers to one of the Angel of Death’s victims, actress Zita Vellpeau."
+      ],
+      "reviewed": false
+    },
+    {
+      "scene": "972_radio_eng",
+      "passage": "Radio-TalkShow-Killer-Angel-04",
+      "english": [
+        "You tune in right when Lady Monique is talking about the Angel of Death’s third victim, Zita Vellpeau.",
+        "Everyone knew — according to Lady Monique — that she was part of the Moonie Tunes cult.",
+        "The caller adds that she was Zita Vellpeau’s neighbor and on the night of her murder, she heard only female voices."
+      ],
+      "reviewed": false
+    },
+    {
+      "scene": "208_myrtille_04",
+      "passage": "myrtille-04-intro",
+      "english": [
+        "MYRTILLE: “One of my… girl pals told it to me. Have I ever mentioned Simone?”"
+      ],
+      "reviewed": true
+    },
+    {
+      "scene": "208_myrtille_04",
+      "passage": "myrtille-04-simone",
+      "english": [
+        "MYRTILLE: “Simone was, well… like a sister.”",
+        "MYRTILLE: “Simone, she’s the one who got me into riddles. She did crossword puzzles, too. Stuff to improve your mind.”"
+      ],
+      "reviewed": true
+    },
+    {
+      "scene": "208_myrtille_04",
+      "passage": "myrtille-04-simone-silence",
+      "english": [
+        "MYRTILLE: “Anyhow, enough about Simone! You still haven’t answered the riddle…”"
+      ],
+      "reviewed": true
+    },
+    {
+      "scene": "208_myrtille_04",
+      "passage": "myrtille-04-answer-horizon",
+      "english": [
+        "Suddenly, there’s a faraway look on her face. Perhaps she’s thinking about Simone?"
+      ],
+      "reviewed": true
+    }
+  ],
+  "source_sha256": {
+    "981_Angel_02_Location_eng": "dd12f1678139610cb1ac2c188ecd0d0f4eb3e112123dada235c0cb79b738104f",
+    "981_Angel_01_Location_eng": "badfce90be430e027d4a884454bd816fe6d4aee8f69a63474d2213a35cc4745b",
+    "980_Judge_05_Location_eng": "a50f829ede43392458341f7f22d1c15e69827b27e4b55563a54ad9951bcdf876",
+    "971_newspapers_eng": "005d8a6231526561541655e6e7b8803b2f26dcb60053c6f2eb96667624367d6b",
+    "982_Sandman_02_Location_eng": "a6b0186f85a99be8058efb0164e4f25c0a82ff96e750a2ddb307caae44f83f01",
+    "981_Angel_05_Location_eng": "5908070b846ec1f5f5defde0e3a54dbdaa5ffdd111b276d5fe21b2bc4d5c33e8",
+    "972_radio_eng": "de4b29ec79f8245768085376b4001bc50e78b10a92f6687977c02fe5316d2d72",
+    "208_myrtille_04": "1ef43ba0b055a1a02956dec9000d5c596624907d36011313b521f7a6eb6d7655"
+  }
+}

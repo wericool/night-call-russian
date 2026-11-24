@@ -1,0 +1,56 @@
+{
+  "version": "ru-fr-2026-10-17b",
+  "status": "FINAL_CANDIDATE_NOT_LIVE_QA",
+  "created_at": "2026-10-17T11:58:28.242986+03:00",
+  "input_sha256": "6cd3fca986b07fa3fa8652445b4c1557f730ec946ef8490ed0b9846a17c52f2b",
+  "files": [
+    {
+      "path": "Night Call_Data/resources.assets",
+      "source_sha256": "a1a3d1ab6911d8f330a927af285d756c5d2b3e2019ef142985cf0d7c3ce4b854",
+      "patched_sha256": "6fea33ea5bc7967863cce28878e16ec148f85c7d53959f9258b9e9caae2d2eef",
+      "bytes": 88379208
+    },
+    {
+      "path": "Night Call_Data/sharedassets0.assets",
+      "source_sha256": "cb218b06d8c76d854b92ea42f6887cd9b4c1e1e6a9b581b0855f5a05fdd7fb89",
+      "patched_sha256": "5a3debd08fa2289783b5859f3f7443e976ae348e135d0a001a1b2281c5e8486f",
+      "bytes": 44295144
+    },
+    {
+      "path": "Night Call_Data/sharedassets5.assets",
+      "source_sha256": "02982980150b3b89ad32b409464e24249cd76a98c1da46b530533d23e9959b70",
+      "patched_sha256": "116b21f7474f88e2c0e12cb084fb6fdfd865801156249e62d1e82ffbdb675962",
+      "bytes": 2712744
+    },
+    {
+      "path": "Night Call_Data/Managed/Assembly-CSharp.dll",
+      "source_sha256": "b2e4a3562a6ab43822d3e4d8ee979f3ec84dbee7757a5b80b9e709a408658250",
+      "patched_sha256": "f33421463649a95f5570eab8eeee6ea05402837f62382299815de0b47592a172",
+      "bytes": 645632
+    },
+    {
+      "path": "Night Call_Data/level1",
+      "source_sha256": "96deacb69e67ba290c9dcafab2d79bddb216e54c546fe4ef47bac384fd756a31",
+      "patched_sha256": "8eb0686b050f26982952422a737a15915a9d7459c68c9f359877597c8785a00f",
+      "bytes": 11840
+    },
+    {
+      "path": "Night Call_Data/level3",
+      "source_sha256": "5bffb481dfc7ea0aa4865e1c4d8dd408d221947beb08142c1200c9afe12f2d23",
+      "patched_sha256": "cfe29f6c723455dd2aaa41a52a2c3c99d3f90c4865723e2c71541ead9a9ca3f7",
+      "bytes": 308320
+    },
+    {
+      "path": "Night Call_Data/level7",
+      "source_sha256": "9d14a805d002b1d097dfd986d8e9a3a674e5dfb12348699f716903e7679823a8",
+      "patched_sha256": "0482fbf963b03a9d58a823151a3e370532c201366f6022c3fb4517869f6f429b",
+      "bytes": 192408
+    },
+    {
+      "path": "Night Call_Data/sharedassets3.assets",
+      "source_sha256": "2df0c2618910f219d013a46b7db18d3fe3ef7f796388c17b0b2437177d7389fd",
+      "patched_sha256": "cd54d81c56699d6b0ea61594be707c4edaee9f14a9892f7cb1cf2ddef2aa03c2",
+      "bytes": 76504
+    }
+  ]
+}

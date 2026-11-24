@@ -1,0 +1,20 @@
+{
+  "scope": "One full French biography read with all65blocks of08 and linked10scene context. Not the whole interface.",
+  "keys": [
+    {
+      "key": "014_fragonard.bio",
+      "english": "Height = 1m69.\nRetired cop, joined the police in 1977.\nDivorced from a judge.\nBorn in the French Antilles. Moved to mainland France in 1976.",
+      "french": "Taille = 1m69.\nPolicier depuis 1977, à la retraite.\nDivorcé, femme = juge.\nNé dans les Antilles. Déménagement en métropole en 1976.",
+      "russian": "Рост: 1,69 м.\nПолицейский на пенсии. Служил в полиции с 1977 года.\nРазведён. Бывшая жена — судья.\nРодился на Антильских островах. Переехал в материковую Францию в 1976 году.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Рост: 1,69 м.\nПолицейский в отставке. Поступил на службу в 1977 году.\nРазведён. Бывшая жена — судья.\nРодился на Французских Антильских островах. Переехал в материковую Францию в 1976 году.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    }
+  ],
+  "french_priority_author": "scripts/review_fragonard_ui_fr.py",
+  "french_priority_decisions": [
+    "1m69/retiredpoliceman/since1977/divorced/exwifejudge/Antilles/movedmetropolitanFrance1976. FRjustAntilles does not narrow birth toMartinique or explicitlyaddFrench qualifier fromEN. Mother camefromMartinique in08; not automatically hisexactbirthplace.",
+    "Source chronology remains contradictory: biography police1977;08 says joined a fewmonths afterMesrine1979death. BothimmutableFrench sources retain own dates, no invented earlierunit/rejoining/datecorrection. Recorded for later, no question to sleeping user."
+  ]
+}

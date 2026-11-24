@@ -1,0 +1,133 @@
+{
+  "scope": "Original GameProperties -> UIConfigProperties -> UIEmoticons -> configured original sprites; existing historical native payload compared read-only.",
+  "asset": "sharedassets0.assets",
+  "game_properties_id": 2088,
+  "ui_config_id": 2129,
+  "configuration": [
+    {
+      "trigger_name": "anger",
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 1484
+      }
+    },
+    {
+      "trigger_name": "irony",
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 1537
+      }
+    },
+    {
+      "trigger_name": "love",
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 1127
+      }
+    },
+    {
+      "trigger_name": "money",
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 1426
+      }
+    },
+    {
+      "trigger_name": "negative",
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 1445
+      }
+    },
+    {
+      "trigger_name": "positive",
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 1365
+      }
+    },
+    {
+      "trigger_name": "puzzled",
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 1176
+      }
+    },
+    {
+      "trigger_name": "radio",
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 1331
+      }
+    },
+    {
+      "trigger_name": "sad",
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 1522
+      }
+    },
+    {
+      "trigger_name": "silence",
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 1184
+      }
+    },
+    {
+      "trigger_name": "smile",
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 992
+      }
+    },
+    {
+      "trigger_name": "smoking",
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 1590
+      }
+    },
+    {
+      "trigger_name": "taxi",
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 1010
+      }
+    },
+    {
+      "trigger_name": "violence",
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 1046
+      }
+    }
+  ],
+  "configured_triggers": 14,
+  "all_configured_sprites_and_config_byte_identical": true,
+  "source_sha256": "cb218b06d8c76d854b92ea42f6887cd9b4c1e1e6a9b581b0855f5a05fdd7fb89",
+  "unknown_original_markers": [
+    {
+      "scene": "015_alicia_01",
+      "passage": "alicia-OK-intro",
+      "choice_index": 0,
+      "english": ":angry: ‘Show some respect!’",
+      "french": ":angry: « Un peu de respect ! »",
+      "russian": ":angry: «Повежливее!»",
+      "upstream": ":angry: \"Мне что-то не нравится ваш тон.\"",
+      "english_markers": [
+        ":angry:"
+      ],
+      "french_markers": [
+        ":angry:"
+      ],
+      "russian_markers": [
+        ":angry:"
+      ],
+      "original_en_file": "original/DialogObjectScript/sharedassets0.assets/2177.json",
+      "original_fr_file": "original/DialogObjectScript/sharedassets0.assets/2177.json"
+    }
+  ],
+  "source_code": "NC.UI.UIEmoticons.GetEmoticon returns null and logs a warning for an unknown trigger; ChoiceButton.SetContent still strips that marker from visible text.",
+  "decision": "Preserve EN carrier tags for now. Record the existing angry/anger source typo separately; any later technical correction needs an explicit guarded exception and native/live verification, not a newly drawn icon."
+}

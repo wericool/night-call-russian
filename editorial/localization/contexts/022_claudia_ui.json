@@ -1,0 +1,40 @@
+{
+  "scope": "Three complete French fields read with all70scene blocks; not the whole UI.",
+  "keys": [
+    {
+      "key": "clue_judge_customer_claudia_01.title",
+      "english": "Claudia = parents died during the junta",
+      "french": "Claudia = parents tués par la junte argentine",
+      "russian": "Родителей Клаудии убила аргентинская хунта",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Клаудия = родители погибли во время хунты",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "022_claudia.bio",
+      "english": "Height = 1m79.\nMedical examiner in Paris.\nEscaped from Argentina when she was young.\nLost her parents to the Argentinian junta (the Process).",
+      "french": "Taille = 1m79.\nMédecin légiste à Paris.\nA fui l'Argentine lorsqu'elle était jeune.\nSes parents sont morts sous la junte argentine (appelée le \"Processus\").",
+      "russian": "Рост: 1,79 м.\nСудебно-медицинский эксперт в Париже.\nВ молодости бежала из Аргентины.\nЕё родители погибли при аргентинской хунте, в годы «Процесса».",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Рост: 1,79 м.\nСудебно-медицинский эксперт в Париже.\nВ молодости бежала из Аргентины.\nЕё родители погибли при аргентинской хунте, во время «Процесса национальной реорганизации».",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_customer_claudia_01.source",
+      "english": "Info about Claudia",
+      "french": "Info sur Claudia",
+      "russian": "Сведения о Клаудии",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Сведения о Клаудии",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    }
+  ],
+  "french_priority_author": "scripts/review_claudia_fr.py",
+  "french_priority_decisions": [
+    "FRclueparentstuésparjunteargentine says killedBYjunta, formerEN/RUdiedDURINGweakenedagency. UIexplicit, speechonlyparentsdiedthere: keepseparatelevels.",
+    "BIO1m79/medicalexaminerParis/fledArgentinayoung/parentsdiedsousjuntecalledProcessus. KeepFrenchshortProcess, no addedhistoricalyears/method/perpetratornamesorfullregimenamefrompriorEnglish-orientedexpansion. SourceInfoaboutClaudiaunchanged."
+  ]
+}

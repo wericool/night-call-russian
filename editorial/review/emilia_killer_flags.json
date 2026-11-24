@@ -1,0 +1,16 @@
+{
+  "enum": "NC.Investigation.EKillerName",
+  "flags_attribute": true,
+  "values": {
+    "judge": 1,
+    "sandman": 2,
+    "angel": 4,
+    "no_killer": 999
+  },
+  "value3": "judge, sandman",
+  "assembly": "review/Assembly-CSharp.dll",
+  "assembly_sha256": "b2e4a3562a6ab43822d3e4d8ee979f3ec84dbee7757a5b80b9e709a408658250",
+  "checked_at": "2026-10-14T21:11:10.9736143+03:00",
+  "method": "Read-only .NET reflection of enum constants, FlagsAttribute and formatted value3.",
+  "scope": "3 combines judge1 and sandman2 in the flags enum. This does not execute the Unity passenger appearance selector or prove related_to_killers field behavior."
+}

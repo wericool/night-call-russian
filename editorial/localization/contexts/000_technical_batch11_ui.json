@@ -1,0 +1,83 @@
+{
+  "scope": "4explicit French UI fields manually read/accepted; not whole interface.",
+  "french_priority_author": "scripts/review_ui_technical_batch11_fr.py",
+  "french_priority_decisions": [
+    "UI.VOLUME найден в оригинальном level4:MonoBehaviour2286, Text на GameObject317. Полная иерархия: Canvases/CanvasUI/GasStation/Panel/Panel - Parallax/Area - Gas Pump/Panel - Actions/Root/Panel - Gas Infos/Text - Volume Title. Это объём топлива на колонке, не громкость звука. FRQuantité/ENVolume/GERLiter прочитаны. Текущее «Объём» верно и явно принято; живой Unity ещё не проверен.",
+    "KEY=ENG — сохранённая техническая первая строка английского ресурса. В FR тамFRA. По исходному LocalizationData.get_lang выбирается сериализованное поле _lang; LocalizationManager.ChangeLang сравнивает именноего, незначение KEY. KEY не объявлен игровымсловом, требующимперевода; идентификаторносителя сохранён. Прямых ILпотребителей строкиKEYненайдено, это не доказательство отсутствия всех динамических обращений.",
+    "ENG=Русский — сознательное имя русского перевода, поставляемого в английском слоте1. OptionsGeneral строит меню из GetAllLangs/eLanguage.ToString, OptionComponent помещает выбранную строку в LocalizedText.UpdateKeyAndTextContent. Поэтому это отображаемая подписьслота, анепереводязыковогокода. Нативныйbuild_native меняет LocalizationDataENG и dialoglang1, сохраняетостальныеязыки. Проверкакода не означаетновуюнативнуюсборку/живуюсменуязыка.",
+    "Кафе: «Бистро Argentueil» — буквальное название французского источника. Принято «Бистро «Argentueil»» срусскимикавычками: переводтипазаведения, сохранённое собственноеимя. Не исправлять по похожему географическому Argenteuil и не придумывать произношение/транслитерацию без доказательства. Латинское имя бренда, какSecretEscort75, оставлено сознательно.",
+    "Принятытолькоэтичетыреполя. Шесть спорных номеров автопсии/фотографий/затворника остаются pending; этимпринятием онинеисправлены. Пользователю ответ не требуется."
+  ],
+  "linked_contexts_read": [
+    "review/volume_label_consumer.json",
+    "review/localization_manager_il.txt",
+    "review/localization_data_il.txt",
+    "review/options_general_il.txt",
+    "review/option_component_il.txt"
+  ],
+  "keys": [
+    {
+      "key": "KEY",
+      "english": "ENG",
+      "french": "FRA",
+      "russian": "ENG",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "ENG",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "ENG",
+      "english": "English",
+      "french": "English",
+      "russian": "Русский",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Русский",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "poi_sand_cafe.title",
+      "english": "L’Argentueil Bistrot",
+      "french": "Bistrot Argentueil",
+      "russian": "Бистро «Argentueil»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Бистро L'Argentueil",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "UI.VOLUME",
+      "english": "Volume",
+      "french": "Quantité",
+      "russian": "Объём",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Объём",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    }
+  ],
+  "exact_legacy_fallback_updates": [
+    {
+      "english": "L’Argentueil Bistrot",
+      "ui_keys": [
+        "poi_sand_cafe.title"
+      ],
+      "previous_fallback": "Бистро L'Argentueil",
+      "russian": "Бистро «Argentueil»"
+    }
+  ],
+  "legacy_fallback_owner_collisions": [],
+  "evidence_sha256": {
+    "review/volume_label_consumer.json": "d9bfde66c6dc30519d353089415cd88144341aa40d36f1e19b685f5dda97fe10",
+    "review/localization_consumers.json": "14569aef3ee8a4cded84eeff6a4e464a91946130fd5d17b97c16ff1895bdb690",
+    "review/localization_manager_il.txt": "9ff6cd367132a4c8f42f2372a2a797c73b9076f77d349b3a9544e635094c3f3a",
+    "review/localization_data_il.txt": "262d9d92318125d86fb10b9035955d96f14149acb03369eb1eb8e74202445133",
+    "review/options_general_il.txt": "9b466cf57fc1cd2d06fcfaad6e3cb22890c3eca56af64d8c447d79f26fca74d7",
+    "review/option_component_il.txt": "6e4e56fee5afd196a4f42dff3ddbe0bde0c8aedfc03626afae376bc957433143",
+    "original/LocalizationData/sharedassets0.assets/2096.json": "cd3cb9ea9297144a2656fd6e24e593be323f550fbae0730ae2da22c9839360de",
+    "scripts/build_native.py": "73e7a05e0ee02df5f65e198901fcd9425dd86b397d8d12ec32a822601e998d1c"
+  },
+  "evidence_game_modified": false,
+  "volume_source_hash_pin": "Additional immutable source-asset/object hashes recorded after rerunning the same read-only lookup; all original fields/hierarchy matched the accepted first result."
+}

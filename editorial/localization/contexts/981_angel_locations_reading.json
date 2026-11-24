@@ -1,0 +1,41 @@
+{
+  "status": "superseded_by_complete_editorial_of_all_five_locations",
+  "reviewed": [
+    "981_Angel_01_Location_eng",
+    "981_Angel_02_Location_eng",
+    "981_Angel_03_Location_eng",
+    "981_Angel_04_Location_eng",
+    "981_Angel_05_Location_eng"
+  ],
+  "read_as_context_pending": [],
+  "source_sha256": {
+    "981_Angel_02_Location_eng": "dd12f1678139610cb1ac2c188ecd0d0f4eb3e112123dada235c0cb79b738104f",
+    "981_Angel_01_Location_eng": "badfce90be430e027d4a884454bd816fe6d4aee8f69a63474d2213a35cc4745b",
+    "981_Angel_03_Location_eng": "654d86c0be53a9d88110a29d1dae27d253fd23d790069d9caa3031b0d802ff63",
+    "981_Angel_05_Location_eng": "5908070b846ec1f5f5defde0e3a54dbdaa5ffdd111b276d5fe21b2bc4d5c33e8",
+    "981_Angel_04_Location_eng": "d1895532cdd624d09ab63415e6b051d2f5cdd41c75df50f9bf4f4dcac9bcc80c"
+  },
+  "findings": [
+    "01/02 original EN and French raw assets881/824 read wholly and compared with prior RU. Reviewed023 whole passenger,067childtruth,073deadbrother,072dossier rule and970 intel read for shared meaning.",
+    "970re_intel001 mentions anonymous actress;971News-Killer-Angel02/05 explicitly identify ZitaVellpeau. She is third victim atPassy,not the unrelated unnamed male actor in970ambient065.",
+    "Marco inSandman98202entrance andJudge98005intro also stole driver wife. Related source fragments read;do not split into new named people or transfer cemetery employment to the stadium scene. All other Marco scenes remainpending.",
+    "Another Simon in971Judge news is SimonGorodischer,not SimonCollomb. Simone208Myrtille friend is a woman. No global Simon or Marco name/profession replacement.",
+    "Cemetery silence can increment only at visit-silence andcult-silence;why-silence-intro does not increment. Therefore threshold>2/silence3 is source-unreachable from ordinary entry. Actual EN/RU2880ordinary route pairs observed all other visible text andallanswers;3separate direct-entry controls verify this preserved block.",
+    "Fire02 actual1568paired ordinary routes under16prior-location combinations cover all source visible strings/answers. Neither inspector asserts liveUnity case/asset wiring.",
+    "03 church GildaBerger,cleaningwomen,fish/Ictus/GreekChristian phrase,priest hostile. Pending whole editorial,reference fishbowl to boss needs canonlookup;do not invent priest name/real denomination.",
+    "04: полностью перечитаны31FRблок/80строк/18ответов и связанные043контекст/улики. Этьен взрослый мужчина, на ты; опасность/теория его мнение. Поправлены высота, зарплатный минимум, сила восхищения и gros nerd без телосложения. _Jonas.Met и _Driver.Met.Jonas сохранены разными; направление hoche не доказано одним FRсловом, нынешний совместимый жест сохранён. Проверки и точный delta в review/intro_hacker_quality_20261018, не новая Unity-приёмка.",
+    "05 barBelvedere links023Apollonie andfirsttwo malevictims. BARMAID female. Source declaresnice but modifiescool;nice-based50/150/250branches must remain sourcefaithful and be investigated separately,not silently repaired by translation.",
+    "05 Apollonie .Met/.SameDay/.Belvedere comments and prose do not fully agree (unmetfallback still saysoften driven here). Keep explicit source discrepancy,pending semantic decisions. MoonieTunes alias inEN appearsagain;French/UI/072canonicalcult needs same consciously documented choice as01.",
+    "14qualified UIfields reviewed;English duplicate title also belongs toradio clue. Shared mapping intentionally unchanged to avoid editing unreviewed context. UIremaining674 is auditqueue,not674confirmederrors."
+  ],
+  "remaining": [
+    "Ten Judge/Sandmanlocations;971newspapers;972radio;990ending",
+    "Remaining interface semantic audit;nativeassets/fonts/installer/Unityacceptance"
+  ],
+  "validation": "localization/angel_church_hacker_bar_scene_validation.json",
+  "completion_findings": [
+    "98103/04/05 now saved in full;all98blocks215lines54answers/18qualified UIfields. Earlierpendingnotes retained as historical reading only.",
+    "Actual paired runs:400church/8192hacker/16128bar ordinary-start paths under controlledexternalflags;168separate niceprice50/250controls. Normal bar nicealways0/coolvaries,150europrice. No source links orlogic corrected.",
+    "Standalone _Driver.Met.Jonas alone does not open _Jonas.Met-gated recollection;bothvaluesindependently tested. Doesnot establish actualUnity aliasing/selection."
+  ]
+}

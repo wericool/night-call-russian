@@ -1,0 +1,54 @@
+{
+  "status": "superseded_by_complete_editorial_and_native_compiler_validation",
+  "scenes": [
+    "951_gameover_ruined_eng",
+    "953_gameover_gas_eng"
+  ],
+  "source_sha256": {
+    "951_gameover_ruined_eng": "74e3f25b041c53ca3568a69a3b7e90b32146e3d8cd890457395a8c0f58719ce5",
+    "953_gameover_gas_eng": "e925fd835082a538b2958e9c962f2926a64ae91e00b64bdf2b5855d919945b00"
+  },
+  "read_sources": [
+    "Full EN/FR/previous Russian raw source scripts including headers, controls and all text/choices",
+    "Related100cop01/05/06 contexts,gasstation965/966 reviewed facts,driverlicense canon"
+  ],
+  "findings": [
+    "951:3blocks14visiblelines3choices. Bossmale/driver male; mutual tu established by explicit FR099choices, no direct driver address pronoun in951. БОСС remains established speaker label, professional taxi licence retained; not cheerful farewell, new ownership or murder confession.",
+    "951sourcecomment-250 is not visible dialogue. No new amount/loan/conversion. French J’ai la banque sur le dos is present and now means банк на меня давит; the historical EN unfinished sentence does not override FR. Headspinning/partial hearing and future police accusation stay point of view.",
+    "951sourcepassengercallNO PASSENGERCALL FOR THIS SCENE is technicalheader. OldRUtranslatedprefixinvalid;native rendering from original preservesrawmetadata/animationcommands. No new passengerinvitation.",
+    "953onlylastnightfuel0 as comment;notallrunoutoffuel scenarios (966callsattendant/halftank). Fiveblocks29lines0choices. Engineoutoffuel not mechanicalbreakdown;meetingpointmissed,notinventnewhours/caseobjective.",
+    "953/FR801: neige fondue / grêle molle — падающие мокрый снег/мягкий град, не слякоть на земле и не редакторское объяснение подтаивания. Сомнение в виде осадков сохранено. Наручники, земля, подъём — исходный порядок. Отрицательное движение головы прямо дано во FR, без добавленной реплики Нет.",
+    "953threecaseoutcomes remainconditional:JudgeescapedwithsadsoundingBusset,Sandmanvanished,Angelwomen suspect byFRsuspecte/prévenue andreviewed100cop03Gilda. NeutralENtheynotnewmale. Suspiciontippedoff notverifiedleak/actualwarningbydriver.",
+    "953stationpolice,notstationrailway. Evidencefalse/fabricationdistinct from newmurderconfession. Tepidbreathwarmstremblingdriver,noburns. Endpublicscapegoat echoes100cop06 and951butuseappropriateoriginaltense.",
+    "953/FR801 — основной источник. В gameover-gas-end прямо сказано Je t'avais prévenu, putain !; нынешнее блядь передаёт FR, не усиление по собственному решению. EN Jesus вспомогательный и не подменяет эту реплику. В start присутствует вся FR-мысль о сорванной операции. Старый приоритет EN в этой памятке явно отменён. LOOKING_WIND/анимации/N/A остаются буквальными техническими данными."
+  ],
+  "remaining": [],
+  "validation": "localization/roaming_gameover_scene_validation.json",
+  "explicit_reading_corrections": [
+    {
+      "previous": "951:3blocks14visiblelines3choices. Bossmale byHe/Il,drivermale;boss→ты/driver→вы existingcanon. Retaininitialgentlehesitation and shock/foreclosure,not transform into cheerfulfarewell. Untranslated BOSS→established НАЧАЛЬНИК afterchecking priorboss scenes. Permit professional taxi license,not generic permission or proof carownership.",
+      "corrected": "951:3blocks14visiblelines3choices. Bossmale byHe/Il,drivermale;boss→ты/driver→вы existingcanon. Retaininitialgentlehesitation and shock/foreclosure,not transform into cheerfulfarewell. Untranslated BOSS→established БОСС after checking reviewed09901/02;earlier НАЧАЛЬНИК suggestion was provisional and wrong. Permit professional taxi license,not generic permission or proof carownership.",
+      "evidence": "Reviewed099_boss_01/02 actual speaker labels БОСС."
+    },
+    {
+      "previous": "951:3blocks14visiblelines3choices. Bossmale byHe/Il,drivermale;boss→ты/driver→вы existingcanon. Retaininitialgentlehesitation and shock/foreclosure,not transform into cheerfulfarewell. Untranslated BOSS→established БОСС after checking reviewed09901/02;earlier НАЧАЛЬНИК suggestion was provisional and wrong. Permit professional taxi license,not generic permission or proof carownership.",
+      "corrected": "951:3blocks14visiblelines3choices. Bossmale/driver male; mutual tu established by explicit FR099choices, no direct driver address pronoun in951. БОСС remains established speaker label, professional taxi licence retained; not cheerful farewell, new ownership or murder confession.",
+      "evidence": "FR951/gameover-ruined-01-silence; FR09901/boss-01-listening-yes,09902/boss-02-start. Full additional951reread18.10; explicit source-priority correction."
+    },
+    {
+      "previous": "951commentmoneylimit-250 is source trigger documentation,not visible dialogue. Do not insert amount,newbankloan or any dollarconversion. FRaddsbankonthebossbackwhereENunfinishedIneed,retainENexplicitdifference. Headspinning/barelyhear and futureforcedaccusation remainpointofview,notactualconfession.",
+      "corrected": "951sourcecomment-250 is not visible dialogue. No new amount/loan/conversion. French J’ai la banque sur le dos is present and now means банк на меня давит; the historical EN unfinished sentence does not override FR. Headspinning/partial hearing and future police accusation stay point of view.",
+      "evidence": "FR951/gameover-ruined-01-silence; FR09901/boss-01-listening-yes,09902/boss-02-start. Full additional951reread18.10; explicit source-priority correction."
+    },
+    {
+      "previous": "953body immobilized incold/rain:slush inweather is wetsnow,notgroundslush. Perceived precip uncertainty preserved. Handcuffs andpushedtoground order,thenstoodup. HeadshakeNo is gesture,notnewspokenНет line.",
+      "corrected": "953/FR801: neige fondue / grêle molle — падающие мокрый снег/мягкий град, не слякоть на земле и не редакторское объяснение подтаивания. Сомнение в виде осадков сохранено. Наручники, земля, подъём — исходный порядок. Отрицательное движение головы прямо дано во FR, без добавленной реплики Нет.",
+      "evidence": "FR801/gameover-gas-start или gameover-gas-end; повторная полная ручная вычитка18.10.2026, журнал JUDGE_GAS_QUALITY_CHANGES_RU.md."
+    },
+    {
+      "previous": "953ENJesusIwarnedyou versusFRputainIwarnedyou:explicitprimaryENdecision,not silentlyintensifybecauseFrench. EN953firstgaspstartlessoperationclaimthanFR,keepEN. RawLOOKING_WIND typo/animlinks preserved,not fixtechnicalmetadata as translation.",
+      "corrected": "953/FR801 — основной источник. В gameover-gas-end прямо сказано Je t'avais prévenu, putain !; нынешнее блядь передаёт FR, не усиление по собственному решению. EN Jesus вспомогательный и не подменяет эту реплику. В start присутствует вся FR-мысль о сорванной операции. Старый приоритет EN в этой памятке явно отменён. LOOKING_WIND/анимации/N/A остаются буквальными техническими данными.",
+      "evidence": "FR801/gameover-gas-start или gameover-gas-end; повторная полная ручная вычитка18.10.2026, журнал JUDGE_GAS_QUALITY_CHANGES_RU.md."
+    }
+  ]
+}

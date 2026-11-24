@@ -1,0 +1,849 @@
+{
+  "status": "contextually_reviewed",
+  "keys": [
+    {
+      "key": "clue_judge_journal01_01.title",
+      "english": "Victim 3 = suspected member of the Process",
+      "russian": "Жертва №3 — предполагаемый участник «Процесса национальной реорганизации»",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "04bedec8bd18ed26bb9639b0b15ec033c032aa5bad86647eb0d23018238fff6a",
+      "french": "Victime 3 = membre suspecté du Processus",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_judge_journal01_01.source",
+      "english": "Read in a newspaper…",
+      "russian": "Прочитано в газете…",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "b6a9ce4ad1562433db085840f35ab5db63cc56107f70afba92ea5a57579accae",
+      "french": "Lu dans un journal…",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_judge_journal01_02.title",
+      "english": "Victim 3 escaped from Argentina in the 80s",
+      "russian": "Жертва №3 бежала из Аргентины в восьмидесятых",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "d47190ee8f439fa8b3fc7f4fb849138271d32a14de2661004f61decaa22b49e3",
+      "french_priority_revisions": [
+        {
+          "previous_russian": "Жертва №3 — побег из Аргентины в 1980-х",
+          "russian": "Жертва №3 бежала из Аргентины в восьмидесятых",
+          "source_scene": "971_newspapers_eng",
+          "reason": "Повторная сверка общего газетного ключа с его FR оригиналом. Особенно dédommagement: компенсация, не возмездие. Старый EN статус сцены Джанет не закрывает её отдельную FR очередь."
+        }
+      ],
+      "french": "Victime 3 a fuit l'Argentine dans les années 80",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_judge_journal01_02.source",
+      "english": "Read in a newspaper…",
+      "russian": "Прочитано в газете…",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "b6a9ce4ad1562433db085840f35ab5db63cc56107f70afba92ea5a57579accae",
+      "french": "Lu dans un journal…",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_judge_journal02_01.title",
+      "english": "Rictodin victims still asking for retribution",
+      "russian": "Пострадавшие от «Риктодина» до сих пор ждут компенсации",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "0e09709568d16121032e069f309d2ba90efa8ec2709fc4b5ae3494d84c75c29b",
+      "french_priority_revisions": [
+        {
+          "previous_russian": "Пострадавшие от «Риктодина» по-прежнему требуют возмездия",
+          "russian": "Пострадавшие от «Риктодина» до сих пор ждут компенсации",
+          "source_scene": "971_newspapers_eng",
+          "reason": "Повторная сверка общего газетного ключа с его FR оригиналом. Особенно dédommagement: компенсация, не возмездие. Старый EN статус сцены Джанет не закрывает её отдельную FR очередь."
+        }
+      ],
+      "french": "Victimes du Rictodin attendent toujours dédommagement",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_judge_journal02_01.source",
+      "english": "Read in a newspaper…",
+      "russian": "Прочитано в газете…",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "b6a9ce4ad1562433db085840f35ab5db63cc56107f70afba92ea5a57579accae",
+      "french": "Lu dans un journal…",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_judge_journal03_01.title",
+      "english": "Victim 4 = never trialed for Rictodin health scandal",
+      "russian": "Жертву №4 так и не судили по делу «Риктодина»",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "c6e9cddb9e714dee27e768298f721998d92b8478f391d19d634f43222a52288d",
+      "french": "Victime 4 = jamais jugé pour le scandale sanitaire du Rictodin",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_judge_journal03_01.source",
+      "english": "Read in a newspaper…",
+      "russian": "Прочитано в газете…",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "b6a9ce4ad1562433db085840f35ab5db63cc56107f70afba92ea5a57579accae",
+      "french": "Lu dans un journal…",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_judge_journal04_01.title",
+      "english": "Victim 2 killed an Algerian man, never arrested",
+      "russian": "Жертва №2 убила алжирца, но её так и не арестовали",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "097bb89c89d2b111046adae02bfa171d65eefa73db56a484ec2d24ef63d3c075",
+      "french_priority_revisions": [
+        {
+          "previous_russian": "Жертву №2 не арестовали за убийство алжирца",
+          "russian": "Жертва №2 убила алжирца, но её так и не арестовали",
+          "source_scene": "971_newspapers_eng",
+          "reason": "Повторная сверка общего газетного ключа с его FR оригиналом. Особенно dédommagement: компенсация, не возмездие. Старый EN статус сцены Джанет не закрывает её отдельную FR очередь."
+        }
+      ],
+      "french": "Victime 2 a tué un Algérien, n'a jamais été arrêté",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_judge_journal04_01.source",
+      "english": "Read in a newspaper…",
+      "russian": "Прочитано в газете…",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "b6a9ce4ad1562433db085840f35ab5db63cc56107f70afba92ea5a57579accae",
+      "french": "Lu dans un journal…",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_judge_journal05_01.title",
+      "english": "Salim = defended the mafia in a trial",
+      "russian": "Салим защищал мафиози в суде",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "3cf1d8a52dcf02aa9ba14c5527b230ee500cb6cf2d7f50a3d0bb6c7f99ccbca7",
+      "french_priority_revisions": [
+        {
+          "previous_russian": "Салим защищал мафию в суде",
+          "russian": "Салим защищал мафиози в суде",
+          "source_scene": "971_newspapers_eng",
+          "reason": "Повторная сверка общего газетного ключа с его FR оригиналом. Особенно dédommagement: компенсация, не возмездие. Старый EN статус сцены Джанет не закрывает её отдельную FR очередь."
+        }
+      ],
+      "french": "Salim = a défendu des mafieux durant un procès",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_judge_journal05_01.source",
+      "english": "Read in a newspaper…",
+      "russian": "Прочитано в газете…",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "b6a9ce4ad1562433db085840f35ab5db63cc56107f70afba92ea5a57579accae",
+      "french": "Lu dans un journal…",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_judge_journal05_02.title",
+      "english": "Victim 1 = protected by Saint-Ouen mayor",
+      "russian": "Жертву №1 защищал мэр Сент-Уэна",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "02336affa923773f2b55bbbf29604c87944a1c211f8042c7790dca90c116b323",
+      "french_priority_revisions": [
+        {
+          "previous_russian": "Жертва №1 — под защитой мэра Сент-Уэна",
+          "russian": "Жертву №1 защищал мэр Сент-Уэна",
+          "source_scene": "971_newspapers_eng",
+          "reason": "Повторная сверка общего газетного ключа с его FR оригиналом. Особенно dédommagement: компенсация, не возмездие. Старый EN статус сцены Джанет не закрывает её отдельную FR очередь."
+        }
+      ],
+      "french": "Victime 1 protégée par le maire de Saint-Ouen",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_judge_journal05_02.source",
+      "english": "Read in a newspaper…",
+      "russian": "Прочитано в газете…",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "b6a9ce4ad1562433db085840f35ab5db63cc56107f70afba92ea5a57579accae",
+      "french": "Lu dans un journal…",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_judge_journal06_01.title",
+      "english": "Killer = a professional",
+      "russian": "Убийца — профессионал",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "6a045701e8545b2e8476403761763a66f0804ab394a7f4e08d6d1b4d9d22781e",
+      "french": "Tueur = pro",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_judge_journal06_01.source",
+      "english": "Read in a newspaper…",
+      "russian": "Прочитано в газете…",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "b6a9ce4ad1562433db085840f35ab5db63cc56107f70afba92ea5a57579accae",
+      "french": "Lu dans un journal…",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_judge_journal07_01.title",
+      "english": "Killer's height < 1m70",
+      "russian": "Рост убийцы — меньше метра семидесяти",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "9b0a8e8aa80335b260878f0f82d8f6fdd740a40e7a85aee19e1c0e447c73fc76",
+      "french_priority_revisions": [
+        {
+          "previous_russian": "Рост убийцы — меньше 1,70 м",
+          "russian": "Рост убийцы — меньше метра семидесяти",
+          "source_scene": "971_newspapers_eng",
+          "reason": "Повторная сверка общего газетного ключа с его FR оригиналом. Особенно dédommagement: компенсация, не возмездие. Старый EN статус сцены Джанет не закрывает её отдельную FR очередь."
+        }
+      ],
+      "french": "Taille du tueur < 1m70",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_judge_journal07_01.source",
+      "english": "Read in a newspaper…",
+      "russian": "Прочитано в газете…",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "b6a9ce4ad1562433db085840f35ab5db63cc56107f70afba92ea5a57579accae",
+      "french": "Lu dans un journal…",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_judge_journal08_01.title",
+      "english": "First 3 victims = suspected but never arrested",
+      "russian": "Первые три жертвы были под подозрением, но их не арестовывали",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "5d5e8eca80f3c2974285eea9e6fcd0160884defd3fcc123ea7062a932d87373f",
+      "french": "3 premières victimes = suspectées, jamais arrêtées",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_judge_journal08_01.source",
+      "english": "Read in a newspaper…",
+      "russian": "Прочитано в газете…",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "b6a9ce4ad1562433db085840f35ab5db63cc56107f70afba92ea5a57579accae",
+      "french": "Lu dans un journal…",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_judge_journal08_02.title",
+      "english": "First 3 victims files = part of police leak 2 years ago",
+      "russian": "Досье на первых трёх жертв попали в утечку два года назад",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "fcbe0ca203c24caaec6f298d74f61839387194fd8c860589e8aa06596c4fbcb3",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_sources_batch02_fr.py",
+          "before": "Досье первых трёх жертв вошли в полицейскую утечку двухлетней давности",
+          "after": "Досье на первых трёх жертв попали в утечку два года назад"
+        }
+      ]
+    },
+    {
+      "key": "clue_judge_journal08_02.source",
+      "english": "Read in a newspaper…",
+      "russian": "Прочитано в газете…",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "b6a9ce4ad1562433db085840f35ab5db63cc56107f70afba92ea5a57579accae"
+    },
+    {
+      "key": "clue_sand_journal01_01.title",
+      "english": "Victim 1 fired from Groupe Diamant years before Albatros",
+      "russian": "Жертву №1 уволили из группы «Диамант» за несколько лет до этого",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "f0d95434b0f2318242d7a69b7e71eac3747acd7cbb6dcf55cbb65f2b7d894598",
+      "french_priority_revisions": [
+        {
+          "previous_russian": "Жертву №1 уволили из группы «Диамант» за несколько лет до пожара «Альбатроса»",
+          "russian": "Жертву №1 уволили из группы «Диамант» много лет назад",
+          "source_scene": "971_newspapers_eng",
+          "reason": "Повторная сверка общего газетного ключа с его FR оригиналом. Особенно dédommagement: компенсация, не возмездие. Старый EN статус сцены Джанет не закрывает её отдельную FR очередь."
+        }
+      ],
+      "french": "Victime 1 licenciée du Groupe Diamant des années plus tôt",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json",
+      "russian_revision_history": [
+        {
+          "author": "scripts/fieldwork_ui_amendment.py",
+          "before": "Жертву №1 уволили из группы «Диамант» много лет назад",
+          "after": "Жертву №1 уволили из группы «Диамант» за несколько лет до этого",
+          "reason": "FR des années plus tôt не задаёт много и не называет в самом заголовке пожар Альбатроса. Сохранено неопределённое до этого; связь с пожаром в полной газетной статье остаётся, но не дописана в UI."
+        }
+      ]
+    },
+    {
+      "key": "clue_sand_journal01_01.source",
+      "english": "Read in a newspaper…",
+      "russian": "Прочитано в газете…",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "b6a9ce4ad1562433db085840f35ab5db63cc56107f70afba92ea5a57579accae",
+      "french": "Lu dans un journal…",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_sand_journal02_01.title",
+      "english": "Muscle relaxant disappeared from hospital night of the fire",
+      "russian": "Миорелаксант украли из больницы в ночь пожара",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "999d190f8b5f67db77f6deb1297c13faf73279ef1201b2f4b8b9f93be40afa8e",
+      "french": "Relaxant musculaire volé de l'hôpital le soir de l'incendie",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json",
+      "russian_revision_history": [
+        {
+          "author": "review/check_pauline_janet_sources_20261020.py",
+          "before": "В ночь пожара из больницы пропал миорелаксант",
+          "after": "Миорелаксант украли из больницы в ночь пожара",
+          "reason": "FRvolé — украли; прежний журнал следовал английскому disappeared и ослаблял сообщение до пропал. Идентичная французская больничная улика уже правильно говорит украли. Принято её существующее русское значение; обе исходные формулировки и полный982-01-truth проверены. Ни виновник, ни взлом, ни диагноз не добавлены."
+        }
+      ]
+    },
+    {
+      "key": "clue_sand_journal02_01.source",
+      "english": "Read in a newspaper…",
+      "russian": "Прочитано в газете…",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "b6a9ce4ad1562433db085840f35ab5db63cc56107f70afba92ea5a57579accae",
+      "french": "Lu dans un journal…",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_sand_journal03_01.title",
+      "english": "Victim 3 = fantastic journalist",
+      "russian": "Жертва №3 — выдающаяся журналистка",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "d2fd80b693a41418ca7273b18ca2beeaf8f00554ec8499834e6178a8a254045a",
+      "french_priority_revisions": [
+        {
+          "previous_russian": "Жертва №3 — отличная журналистка",
+          "russian": "Жертва №3 — выдающаяся журналистка",
+          "source_scene": "971_newspapers_eng",
+          "reason": "Повторная сверка общего газетного ключа с его FR оригиналом. Особенно dédommagement: компенсация, не возмездие. Старый EN статус сцены Джанет не закрывает её отдельную FR очередь."
+        }
+      ],
+      "french": "Victime 3 = excellente journaliste",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_sand_journal03_01.source",
+      "english": "Read in a newspaper…",
+      "russian": "Прочитано в газете…",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "b6a9ce4ad1562433db085840f35ab5db63cc56107f70afba92ea5a57579accae",
+      "french": "Lu dans un journal…",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_sand_journal04_01.title",
+      "english": "Killer = low voice, sounded old",
+      "russian": "У убийцы низкий голос, как у немолодого человека",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "cb48f5dc12d264c1f2191163818c8a65f2463d745a8875a7e9733f299c19731f",
+      "french_priority_revisions": [
+        {
+          "previous_russian": "У убийцы низкий голос, как у пожилого человека",
+          "russian": "У убийцы низкий голос, как у немолодого человека",
+          "source_scene": "971_newspapers_eng",
+          "reason": "Повторная сверка общего газетного ключа с его FR оригиналом. Особенно dédommagement: компенсация, не возмездие. Старый EN статус сцены Джанет не закрывает её отдельную FR очередь."
+        }
+      ],
+      "french": "Tueur = voix grave, plutôt âgée",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_sand_journal04_01.source",
+      "english": "Read in a newspaper…",
+      "russian": "Прочитано в газете…",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "b6a9ce4ad1562433db085840f35ab5db63cc56107f70afba92ea5a57579accae",
+      "french": "Lu dans un journal…",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_sand_journal05_01.title",
+      "english": "Killer = female voice pretending to be male",
+      "russian": "Женский голос убийцы замаскирован под мужской",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "000f3b8057c03af0436fd3da267c7125e70de189f5117a4bef881cedac8443ba",
+      "french_priority_revisions": [
+        {
+          "previous_russian": "Голос убийцы — женский, замаскированный под мужской",
+          "russian": "Женский голос убийцы замаскирован под мужской",
+          "source_scene": "971_newspapers_eng",
+          "reason": "Повторная сверка общего газетного ключа с его FR оригиналом. Особенно dédommagement: компенсация, не возмездие. Старый EN статус сцены Джанет не закрывает её отдельную FR очередь."
+        }
+      ],
+      "french": "Tueur = voix féminine se faisant passer pour un homme",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_sand_journal05_01.source",
+      "english": "Read in a newspaper…",
+      "russian": "Прочитано в газете…",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "b6a9ce4ad1562433db085840f35ab5db63cc56107f70afba92ea5a57579accae",
+      "french": "Lu dans un journal…",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_sand_journal06_01.title",
+      "english": "Victim 3 = bad journalist",
+      "russian": "Жертва №3 — плохая журналистка",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "a2dc432985e0ae3bd6e9487f9a5dc5e6bd41ed75bf4d5c51c1988f80c84a185c",
+      "french": "Victime 3 = mauvaise journaliste",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_sand_journal06_01.source",
+      "english": "Read in a newspaper…",
+      "russian": "Прочитано в газете…",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "b6a9ce4ad1562433db085840f35ab5db63cc56107f70afba92ea5a57579accae",
+      "french": "Lu dans un journal…",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_sand_journal07_01.title",
+      "english": "Victim 3 = coins found in mouth",
+      "russian": "Во рту жертвы №3 нашли монеты",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "b7db4980aedcfab04efd0c665efe468be2493b281d533dc6780d2ee608a20459",
+      "french": "Victime 3 = pièces de monnaire retrouvées dans sa bouche",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_sand_journal07_01.source",
+      "english": "Read in a newspaper…",
+      "russian": "Прочитано в газете…",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "b6a9ce4ad1562433db085840f35ab5db63cc56107f70afba92ea5a57579accae",
+      "french": "Lu dans un journal…",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_sand_journal08_01.title",
+      "english": "Victims = connected through escort website",
+      "russian": "Жертвы связаны через сайт эскорт-услуг",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "b6e1adb8c49a8bce45baa098b7314dfc645ef295e2142b4cf1761259c1b7480b",
+      "french": "Victimes = connectées via le site d'escort",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_sand_journal08_01.source",
+      "english": "Read in a newspaper…",
+      "russian": "Прочитано в газете…",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "b6a9ce4ad1562433db085840f35ab5db63cc56107f70afba92ea5a57579accae",
+      "french": "Lu dans un journal…",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_sand_journal09_01.title",
+      "english": "Victim deaths = bad for Groupe Diamant",
+      "russian": "Убийства жертв вредят группе «Диамант»",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "87b64e7d7f13271bd7ab08211f4b5ecf0382679c9dadce076874a4b7135873cd",
+      "french_priority_revisions": [
+        {
+          "previous_russian": "Смерти жертв невыгодны группе «Диамант»",
+          "russian": "Убийства жертв вредят группе «Диамант»",
+          "source_scene": "971_newspapers_eng",
+          "reason": "Повторная сверка общего газетного ключа с его FR оригиналом. Особенно dédommagement: компенсация, не возмездие. Старый EN статус сцены Джанет не закрывает её отдельную FR очередь."
+        }
+      ],
+      "french": "Victimes tuées = mauvais pour le Groupe Diamant",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_sand_journal09_01.source",
+      "english": "Read in a newspaper…",
+      "russian": "Прочитано в газете…",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "b6a9ce4ad1562433db085840f35ab5db63cc56107f70afba92ea5a57579accae",
+      "french": "Lu dans un journal…",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_sand_journal10_01.title",
+      "english": "Victim 4's will blocking inheritance in case of murder",
+      "russian": "Наследство жертвы №4 заблокировано в случае убийства",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "cd734cbaac42f18f5a539f2f9e2061252234a50f18ecfcca222556d509ecb315",
+      "french_priority_revisions": [
+        {
+          "previous_russian": "Завещание жертвы №4 запрещает наследование в случае убийства",
+          "russian": "Наследство жертвы №4 заблокировано в случае убийства",
+          "source_scene": "971_newspapers_eng",
+          "reason": "Повторная сверка общего газетного ключа с его FR оригиналом. Особенно dédommagement: компенсация, не возмездие. Старый EN статус сцены Джанет не закрывает её отдельную FR очередь."
+        }
+      ],
+      "french": "Victime 4 = héritage bloqué en cas de meurtre",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_sand_journal10_01.source",
+      "english": "Read in a newspaper…",
+      "russian": "Прочитано в газете…",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "b6a9ce4ad1562433db085840f35ab5db63cc56107f70afba92ea5a57579accae",
+      "french": "Lu dans un journal…",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_angel_journal01_01.title",
+      "english": "Victim 4 = gave part of her fortune to charity",
+      "russian": "Жертва №4 отдала часть состояния на благотворительность",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "d19745a6ead270a87965e41b0011fc43bb7328d8897c6b78674502176561af1f",
+      "french": "Victime 4 a donné partie de sa fortune à des associations caritatives",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_angel_journal01_01.source",
+      "english": "Read in a newspaper…",
+      "russian": "Прочитано в газете…",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "b6a9ce4ad1562433db085840f35ab5db63cc56107f70afba92ea5a57579accae",
+      "french": "Lu dans un journal…",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_angel_journal02_01.title",
+      "english": "Victim 3 = Witness heard female voices",
+      "russian": "Жертва №3 — свидетель слышал женские голоса",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "721b58201c67b1dec9b08254a6240a56e0b8f3e4de02192684f4cecdcf83cb22",
+      "french": "Victime 3 = témoin a entendu des voix féminines",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_angel_journal02_01.source",
+      "english": "Read in a newspaper…",
+      "russian": "Прочитано в газете…",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "b6a9ce4ad1562433db085840f35ab5db63cc56107f70afba92ea5a57579accae",
+      "french": "Lu dans un journal…",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_angel_journal03_01.title",
+      "english": "Killer targeting political activists",
+      "russian": "Убийца охотится на участников общественных движений и активистов",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "f2ebb9c4804119ae92378cb43921b3463909033300210f382558615cf6d1919c",
+      "french_priority_revisions": [
+        {
+          "previous_russian": "Убийца охотится на политических активистов",
+          "russian": "Убийца охотится на участников общественных движений и активистов",
+          "source_scene": "971_newspapers_eng",
+          "reason": "Повторная сверка общего газетного ключа с его FR оригиналом. Особенно dédommagement: компенсация, не возмездие. Старый EN статус сцены Джанет не закрывает её отдельную FR очередь."
+        }
+      ],
+      "french": "Tueur vise militants et activistes",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_angel_journal03_01.source",
+      "english": "Read in a newspaper…",
+      "russian": "Прочитано в газете…",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "b6a9ce4ad1562433db085840f35ab5db63cc56107f70afba92ea5a57579accae",
+      "french": "Lu dans un journal…",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_angel_journal04_01.title",
+      "english": "More and more far-right students in universities",
+      "russian": "В университетах всё больше ультраправых студентов",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "0af13f4a1097dbb7bb858dcab763b71c2c41be1691086d923b1fa66acbed3128",
+      "french": "De plus en plus d'étudiants d'extrême-droite dans les universités",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_angel_journal04_01.source",
+      "english": "Read in a newspaper…",
+      "russian": "Прочитано в газете…",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "b6a9ce4ad1562433db085840f35ab5db63cc56107f70afba92ea5a57579accae",
+      "french": "Lu dans un journal…",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_angel_journal05_01.title",
+      "english": "Victim 3 = attacked by far-right in the 90s",
+      "russian": "На жертву №3 нападали ультраправые в девяностых",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "7743040e23bb0820109bdd82e203f05609cade5a159640eca447349c5459f29f",
+      "french_priority_revisions": [
+        {
+          "previous_russian": "На жертву №3 напали ультраправые в 1990-х",
+          "russian": "На жертву №3 нападали ультраправые в девяностых",
+          "source_scene": "971_newspapers_eng",
+          "reason": "Повторная сверка общего газетного ключа с его FR оригиналом. Особенно dédommagement: компенсация, не возмездие. Старый EN статус сцены Джанет не закрывает её отдельную FR очередь."
+        }
+      ],
+      "french": "Victime 3 attaquée par l'extrême-droite dans les années 90",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_angel_journal05_01.source",
+      "english": "Read in a newspaper…",
+      "russian": "Прочитано в газете…",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "b6a9ce4ad1562433db085840f35ab5db63cc56107f70afba92ea5a57579accae",
+      "french": "Lu dans un journal…",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_angel_journal06_01.title",
+      "english": "Victim 2 = best friend killed by skinhead during a protest",
+      "russian": "Лучшего друга жертвы №2 убил скинхед на демонстрации",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "c22bbf9d544cb6dd8b0467693866c00dc705a4bcc01ec4aa5b72ddc307e36379",
+      "french": "Victime 2 = meilleur ami tué par skinhead durant une manifestation",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_angel_journal06_01.source",
+      "english": "Read in a newspaper…",
+      "russian": "Прочитано в газете…",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "b6a9ce4ad1562433db085840f35ab5db63cc56107f70afba92ea5a57579accae",
+      "french": "Lu dans un journal…",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_angel_journal07_01.title",
+      "english": "Victims let the killer in = must look inoffensive",
+      "russian": "Жертвы сами впускали убийцу — значит, он выглядит безобидно",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "8efcbe6e6dd3c84429ff35de4a479c06f82795efeb2fece244b12e7d01d5bc92",
+      "french_priority_revisions": [
+        {
+          "previous_russian": "Жертвы сами впускали убийцу — значит, внешность не вызывала опасений",
+          "russian": "Жертвы сами впускали убийцу — значит, он выглядит безобидно",
+          "source_scene": "971_newspapers_eng",
+          "reason": "Повторная сверка общего газетного ключа с его FR оригиналом. Особенно dédommagement: компенсация, не возмездие. Старый EN статус сцены Джанет не закрывает её отдельную FR очередь."
+        }
+      ],
+      "french": "Victimes ont laissé le tueur rentrer = doit avoir l'air inoffensif",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_angel_journal07_01.source",
+      "english": "Read in a newspaper…",
+      "russian": "Прочитано в газете…",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "b6a9ce4ad1562433db085840f35ab5db63cc56107f70afba92ea5a57579accae",
+      "french": "Lu dans un journal…",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_angel_journal08_01.title",
+      "english": "Scientists reveal we live in a simulation",
+      "russian": "Учёные заявляют, что мы живём в симуляции",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "90f274079de3696a2e97bef09bf999b99f2d71bda34cf38c2f3f04d30fc80432",
+      "french_priority_revisions": [
+        {
+          "previous_russian": "Учёные выяснили: мы живём в симуляции",
+          "russian": "Учёные заявляют, что мы живём в симуляции",
+          "source_scene": "971_newspapers_eng",
+          "reason": "Повторная сверка общего газетного ключа с его FR оригиналом. Особенно dédommagement: компенсация, не возмездие. Старый EN статус сцены Джанет не закрывает её отдельную FR очередь."
+        }
+      ],
+      "french": "Des scientifiques révèlent que nous vivons dans une simulation",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_angel_journal08_01.source",
+      "english": "Read in a newspaper…",
+      "russian": "Прочитано в газете…",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "b6a9ce4ad1562433db085840f35ab5db63cc56107f70afba92ea5a57579accae",
+      "french": "Lu dans un journal…",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_angel_journal09_01.title",
+      "english": "Break-ins are on the rise",
+      "russian": "Краж со взломом становится больше",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "ca2ddec777f32f8031666899f91ce99d1db39e91e554ca7fee0899815239401a",
+      "french_priority_revisions": [
+        {
+          "previous_russian": "Краж со взломом всё больше",
+          "russian": "Краж со взломом становится больше",
+          "source_scene": "971_newspapers_eng",
+          "reason": "Повторная сверка общего газетного ключа с его FR оригиналом. Особенно dédommagement: компенсация, не возмездие. Старый EN статус сцены Джанет не закрывает её отдельную FR очередь."
+        }
+      ],
+      "french": "Cambriolages en hausse",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_angel_journal09_01.source",
+      "english": "Read in a newspaper…",
+      "russian": "Прочитано в газете…",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "b6a9ce4ad1562433db085840f35ab5db63cc56107f70afba92ea5a57579accae",
+      "french": "Lu dans un journal…",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_angel_journal10_01.title",
+      "english": "Victim 2 = eco-terrorist",
+      "russian": "Жертва №2 — экотеррорист",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "120b1a15811c31a44130c3470ddd417be4edf63bc27af8d453a1b3647ec4848f",
+      "french": "Victime 2 = éco-terroriste",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    },
+    {
+      "key": "clue_angel_journal10_01.source",
+      "english": "Read in a newspaper…",
+      "russian": "Прочитано в газете…",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "b6a9ce4ad1562433db085840f35ab5db63cc56107f70afba92ea5a57579accae",
+      "french": "Lu dans un journal…",
+      "french_priority_reviewed": true,
+      "french_review_context": "localization/contexts/971_newspapers_fr_ui.json"
+    }
+  ],
+  "source_files": [
+    "original/LocalizationData/sharedassets0.assets/2096.json",
+    "original/LocalizationData/sharedassets0.assets/2097.json"
+  ],
+  "references": [
+    "https://www.argentina.gob.ar/noticias/24-de-marzo-dia-nacional-por-la-memoria-la-verdad-y-la-justicia"
+  ],
+  "reason": "31газетнаяулика/62ключа, не весьинтерфейс. FRexcellentе/mauvaiseиарест/inoffensifпрочитаны. Противоречиеутечкидокументовнеисправленозаменоюодногосвидетельства.",
+  "author_file": "scripts/finalize_janet_context.py"
+}

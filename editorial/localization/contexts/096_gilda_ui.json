@@ -1,0 +1,43 @@
+{
+  "status": "contextually_reviewed",
+  "keys": [
+    {
+      "key": "clue_angel_customer_gilda_01.title",
+      "english": "Gilda talks to Jesus",
+      "french": "Gilda parle à Jésus",
+      "before": "Гильда разговаривает с Иисусом",
+      "russian": "Гильда говорит с Иисусом",
+      "reviewed": true,
+      "previous_contextual_russian": "Гильда говорит с Иисусом",
+      "french_priority_reviewed": true,
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_gilda_01.source",
+      "english": "Meeting Gilda",
+      "french": "D'après Gilda",
+      "before": "Встреча с Гильдой",
+      "russian": "Со слов Гильды",
+      "reviewed": true,
+      "previous_contextual_russian": "Встреча с Гильдой",
+      "french_priority_reviewed": true,
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "096_gilda.bio",
+      "english": "Height = 1m67.\nSet designer for the Opera.\nWas hospitalized after her mother's death.\nDifficult relationship with her dad, also working at the Opera.\nCatholic and a member of the Korean community in Paris.",
+      "french": "Taille = 1m67.\nDécoratrice à l'Opéra.\nA passé plusieurs mois en institut après la mort de sa mère.\nRelations difficiles avec son père, qui travaille aussi à l'Opéra.\nCatholique, membre de la communauté coréenne de Paris.",
+      "before": "Рост: 1,67 м.\nХудожница-постановщица в опере.\nПосле смерти матери была госпитализирована.\nСложные отношения с отцом, который тоже работает в опере.\nКатоличка, состоит в корейской общине Парижа.",
+      "russian": "Рост — 1,67 м.\nХудожница-декоратор в Опере.\nПосле смерти матери несколько месяцев провела в больнице.\nСложные отношения с отцом, который тоже работает в Опере.\nКатоличка, член корейской общины Парижа.",
+      "reviewed": true,
+      "previous_contextual_russian": "Рост — 1,67 м.\nХудожница-декоратор в Опере.\nПосле смерти матери была госпитализирована.\nСложные отношения с отцом, который тоже работает в Опере.\nКатоличка, член корейской общины Парижа.",
+      "french_priority_reviewed": true,
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    }
+  ],
+  "scope": "Three Gilda biography/clue keys only.",
+  "french_priority_author": "scripts/review_gilda02_fr.py",
+  "french_priority_decisions": [
+    "UI only:3 Gilda biography/clue keys, read with all129 dialogue blocks in01/02. French plusieurs mois accepted; institu­tion medical sense supported by EN hospitalized, no new psychiatric diagnosis. D’après Gilda is source attribution Со слов Гильды, not the English meeting event."
+  ]
+}

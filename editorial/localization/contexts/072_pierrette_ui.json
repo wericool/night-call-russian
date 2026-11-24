@@ -1,0 +1,30 @@
+{
+  "status": "contextually_reviewed",
+  "keys": [
+    {
+      "key": "072_pierrette.bio",
+      "english": "Height = 1m89.\nChef in La Pierre restaurant in Paris.\nIn financial troubles.\nWas an activist when she was younger.\nPart of the Moon Flesh cult.",
+      "french": "Taille = 1m89.\nCheffe du restaurant La Pierre, à Paris.\nProblèmes financiers.\nA été une militante durant sa jeunesse.\nMembre de la secte de la Chair de Lune.",
+      "before": "Рост: 1,89 м.\nШеф-повар ресторана «Ла Пьер» в Париже.\nФинансовые трудности.\nВ молодости была активисткой.\nСостоит в культе «Лунная плоть».",
+      "russian": "Рост: 1,89 м.\nШеф-повар ресторана «Ла Пьер» в Париже.\nФинансовые трудности.\nВ молодости была активисткой.\nСостоит в культе «Лунная плоть».",
+      "reviewed": true
+    },
+    {
+      "key": "clue_angel_customer_pierrette_01.title",
+      "english": "Pierrette didn’t say anything about your scar",
+      "french": "Pierrette n'a rien dit au sujet de votre cicatrice",
+      "before": "Пьеретт ничего не сказала о вашем шраме.",
+      "russian": "Пьеретт ничего не сказала о вашем шраме.",
+      "reviewed": true
+    },
+    {
+      "key": "clue_angel_customer_pierrette_01.source",
+      "english": "Pierrette’s Info",
+      "french": "Info sur Pierrette",
+      "before": "Информация о Пьеретт",
+      "russian": "Информация о Пьеретт",
+      "reviewed": true
+    }
+  ],
+  "scope": "Only the three Pierrette dossier/clue keys, not all interface keys."
+}

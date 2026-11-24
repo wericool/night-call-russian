@@ -1,0 +1,31 @@
+{
+  "scene": "223_berenice_01",
+  "status": "superseded_by_complete_editorial_and_native_validation",
+  "source_sha256": "af91e073d7da5392a4dde4170f9dfc8dd58803337a01768c242a0ebb1ce7e14d",
+  "source_file": "original/DialogObjectScript/sharedassets0.assets/2328.json",
+  "source_card": "original/PassengerObjectScript/sharedassets0.assets/2417.json",
+  "read_sources": [
+    "Full English26blocks208lines19answers plus invitation",
+    "Full French scene/choices/controls",
+    "Full old Russian scene including separately retrieved recit body",
+    "Source female0/age31 card",
+    "Existing Russian fullname mapping Беренис Фабр"
+  ],
+  "source_control_agreement": true,
+  "findings": [
+    "Canonical inherited fullname Беренис Фабр, not automatically Береника. Woman she/elle/female0. Card31, narratedabout30, explicit28 insourcehaine1 ENFR; retain discrepancy, do not invent three-year-old incident as todaystory happens tonight.",
+    "Adult woman31/card28speech, childish face/body/littlegirl are subjective trauma metaphors, not actualminor. Hypothetical14yearold stays hypothetical, not her realage.",
+    "Mutual vous/monsieur. Backpack oneрюкзак, strap snags overalls buckleкомбинезон; phone goes seat/backpackfloor, sameowners. No ownerchange to driver notebook/bag/children.",
+    "Sexual touching without consent is her account; do not weaken into accidental touch or invent extra actions/duration/rape details. Selfblame/menfriends mocking and hostile player options remain character speech/choices, not author approval or objective herfault.",
+    "OldRU missing firstlines/pause/ignoredreaction, replaces Whatdoyoumean with Youthinkso, adds reachedmylimit instead sourceShe stares, inserts whistling instead sheleanstowarddriver, misses two I-dontknow lines and makes reassuring smile aimatdriver insteadher.",
+    "OldRU idioms totalfuckingidiot→полная idiot, pantiesbunch→натягиватьтрусики, freezing/controltone and partyreaction need natural emotional language. Do not turn spasms into proved clinicalconvulsions or add diagnosis.",
+    "agacement early>1 cuts talk. Ordinary lastblaming canonlyreach2, so >2haine1 likely unreachable; verify sourcegraph and nativecontrolled boundary rather than invent newpath. All26blocks still translate, including her28speech.",
+    "ENhaine1 narrator sayshershrinks vsFRdriver shrinks; explicit primaryENdecision needed. ENmillions vsFRbillions inhaine2; ENthisbar vsFRanybar incomprendre; ENbreathesin vsFRholdsbreath incomplique:record primarysourcechoices.",
+    "Adepastmemory and vague maybehurtwomen/butnotlikethat do not prove sexual assault by hero/newbrotherdeathcause; retain ambiguity instead inventing onlyemotionalharm or confession.",
+    "Furiosa bar propername; Place desFêtes useful French invitation prefix exactlypassengercall-space-colon. Reconcile place spelling against reviewed glossary instead inventing literal translatedstreetname.",
+    "F5/F6 are her game metaphor not actualNightCallkeybindinstructions. No new policeprocedure/medical advice/helpcontacts or didactic author text inserted.",
+    "Initial travelstart/stop atredlight then travelstart afterpause and finalstop, allsourcecommands retained. Initialtiplow; earlywithdrawal setsnone, mainend no newhigh/payment commands. Shepays inbothends, no route actuallygoestopolice despite offer."
+  ],
+  "remaining": [],
+  "validation": "localization/berenice_scene_validation.json"
+}

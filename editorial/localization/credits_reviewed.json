@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "baseline_package": "release/NightCall_Russian_FR_v2",
+  "baseline_manifest_sha256": "b96d24ea7b7bf075bc0539cf5db7b9ec9cbd015008cb99d7161c1756fe8aa112",
+  "prior_readback": "review/audit_20261018/assets.json",
+  "prior_readback_sha256": "fd6bdd315b8259964018dccb20f32030361ab598f341554098bf7667896591c5",
+  "policy": "Only the eight explicitly indexed text fields. Keep all personal/studio names, rich-text tags, other fields and original attribution. French takes priority when present; shared English credit labels have no separate FR variant.",
+  "rows": [
+    {
+      "asset": "level3",
+      "path_id": 1494,
+      "before": "À ma Maman<size=30><i>— За все наши совместные приключения.</i></size><size=30><i> (Sandra)<i></size>",
+      "russian": "Моей маме<size=30><i>— За все наши совместные приключения.</i></size><size=30><i> (Sandra)<i></size>",
+      "source_language": "fr",
+      "reason": "Обращение À ma Maman — не личное имя; остальное пояснение и теги прежние.",
+      "source_original": "À ma Maman<size=30><i>— For all these adventures together.</i></size><size=30><i> (Sandra)<i></size>"
+    },
+    {
+      "asset": "level3",
+      "path_id": 1553,
+      "before": "A toi, la plus grande de toutes les détectives.\nA toi à qui je dois tout.\nA toi que j'espère rendre fière malgré tout.\nTu me manques terriblement.",
+      "russian": "Тебе, величайшей из всех сыщиц.\nТебе, без которой всего этого бы не было.\nТебе — в надежде, что ты, несмотря ни на что, будешь мной гордиться.\nМне ужасно тебя не хватает.",
+      "source_language": "fr",
+      "reason": "Полностью переведено личное посвящение: повтор Тебе, долг/благодарность за всё, надежда несмотря ни на что и сильная тоска. Féminin détectives/fière относится к адресату; пол автора и родство с отдельной строкой мамы не выдуманы.",
+      "source_original": "A toi, la plus grande de toutes les détectives.\nA toi à qui je dois tout.\nA toi que j'espère rendre fière malgré tout.\nTu me manques terriblement."
+    },
+    {
+      "asset": "level3",
+      "path_id": 1599,
+      "before": "Anaïs Mayance<size=30><i>— Мой второй игрок</i></size><size=30><i> (Damien)<i></size>",
+      "russian": "Anaïs Mayance<size=30><i>— Мой игрок № 2</i></size><size=30><i> (Damien)<i></size>",
+      "source_language": "shared_original_english",
+      "reason": "My Player 2: сохранена игровая метафора второго игрока и авторский личный тон. Брак, пол адресата или буквальная должность не добавлены. У оригинальных титров нет отдельной французской версии этой строки.",
+      "source_original": "Anaïs Mayance<size=30><i>— My Player 2</i></size><size=30><i> (Damien)<i></size>"
+    },
+    {
+      "asset": "level3",
+      "path_id": 1635,
+      "before": "<u>Продюсерский малыш</u>",
+      "russian": "<u>Малыш проекта</u>",
+      "source_language": "shared_original_english",
+      "reason": "Production Baby — шутливый заголовок раздела проекта, не должность и не указание на профессию родителя. Избегаем ложного «продюсерский»; дату рождения/семейные отношения не добавляем. Отдельной FR-строки в источнике нет.",
+      "source_original": "<u>Production Baby</u>"
+    },
+    {
+      "asset": "level7",
+      "path_id": 835,
+      "before": "À ma Maman<size=30><i>— За все наши совместные приключения.</i></size><size=30><i> (Sandra)<i></size>",
+      "russian": "Моей маме<size=30><i>— За все наши совместные приключения.</i></size><size=30><i> (Sandra)<i></size>",
+      "source_language": "fr",
+      "reason": "Обращение À ma Maman — не личное имя; остальное пояснение и теги прежние.",
+      "source_original": "À ma Maman<size=30><i>— For all these adventures together.</i></size><size=30><i> (Sandra)<i></size>"
+    },
+    {
+      "asset": "level7",
+      "path_id": 892,
+      "before": "A toi, la plus grande de toutes les détectives.\nA toi à qui je dois tout.\nA toi que j'espère rendre fière malgré tout.\nTu me manques terriblement.",
+      "russian": "Тебе, величайшей из всех сыщиц.\nТебе, без которой всего этого бы не было.\nТебе — в надежде, что ты, несмотря ни на что, будешь мной гордиться.\nМне ужасно тебя не хватает.",
+      "source_language": "fr",
+      "reason": "Полностью переведено личное посвящение: повтор Тебе, долг/благодарность за всё, надежда несмотря ни на что и сильная тоска. Féminin détectives/fière относится к адресату; пол автора и родство с отдельной строкой мамы не выдуманы.",
+      "source_original": "A toi, la plus grande de toutes les détectives.\nA toi à qui je dois tout.\nA toi que j'espère rendre fière malgré tout.\nTu me manques terriblement."
+    },
+    {
+      "asset": "level7",
+      "path_id": 938,
+      "before": "Anaïs Mayance<size=30><i>— Мой второй игрок</i></size><size=30><i> (Damien)<i></size>",
+      "russian": "Anaïs Mayance<size=30><i>— Мой игрок № 2</i></size><size=30><i> (Damien)<i></size>",
+      "source_language": "shared_original_english",
+      "reason": "My Player 2: сохранена игровая метафора второго игрока и авторский личный тон. Брак, пол адресата или буквальная должность не добавлены. У оригинальных титров нет отдельной французской версии этой строки.",
+      "source_original": "Anaïs Mayance<size=30><i>— My Player 2</i></size><size=30><i> (Damien)<i></size>"
+    },
+    {
+      "asset": "level7",
+      "path_id": 970,
+      "before": "<u>Продюсерский малыш</u>",
+      "russian": "<u>Малыш проекта</u>",
+      "source_language": "shared_original_english",
+      "reason": "Production Baby — шутливый заголовок раздела проекта, не должность и не указание на профессию родителя. Избегаем ложного «продюсерский»; дату рождения/семейные отношения не добавляем. Отдельной FR-строки в источнике нет.",
+      "source_original": "<u>Production Baby</u>"
+    }
+  ],
+  "original_source_files": {
+    "level3": "5bffb481dfc7ea0aa4865e1c4d8dd408d221947beb08142c1200c9afe12f2d23",
+    "level7": "9d14a805d002b1d097dfd986d8e9a3a674e5dfb12348699f716903e7679823a8"
+  }
+}

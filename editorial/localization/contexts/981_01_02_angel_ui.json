@@ -1,0 +1,214 @@
+{
+  "status": "contextually_reviewed",
+  "keys": [
+    {
+      "key": "clue_angel_cemetery_01.title",
+      "english": "Victim 3 part of the « Moon Flesh » cult",
+      "french": "Victime 3 = membre de la secte de la Chair de Lune",
+      "before": "Жертва 3 - часть культа \"Лунная плоть\".",
+      "russian": "Жертва 3 — состояла в культе «Лунная плоть»",
+      "reviewed": true,
+      "context": "Семь улик кладбища/пожарной части и их источники. Членство/хиппи/посадки и герой/вина/внешность/религиозная семья; не приговор. UIне все сохранено отдельно от сценового никого."
+    },
+    {
+      "key": "clue_angel_cemetery_02.title",
+      "english": "Moon Flesh cult = basically hippies",
+      "french": "Secte du Chair de Lune = des hippies",
+      "before": "Культ Лунной Плоти = в основном хиппи",
+      "russian": "Культ «Лунная плоть» — хиппи",
+      "reviewed": true,
+      "context": "Семь улик кладбища/пожарной части и их источники. Членство/хиппи/посадки и герой/вина/внешность/религиозная семья; не приговор. UIне все сохранено отдельно от сценового никого.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_clues_batch05_fr.py",
+          "before": "Культ «Лунная плоть» — по сути, хиппи",
+          "after": "Культ «Лунная плоть» — хиппи"
+        }
+      ]
+    },
+    {
+      "key": "clue_angel_cemetery_03.title",
+      "english": "Moon Flesh cult = planted flowers & trees illegally",
+      "french": "Secte du Chair de Lune = membres plantent des arbres illégalement",
+      "before": "Культ «Лунная плоть» = нелегально сажали цветы и деревья",
+      "russian": "Культ «Лунная плоть» — участники незаконно сажают деревья",
+      "reviewed": true,
+      "context": "Семь улик кладбища/пожарной части и их источники. Членство/хиппи/посадки и герой/вина/внешность/религиозная семья; не приговор. UIне все сохранено отдельно от сценового никого.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_clues_batch05_fr.py",
+          "before": "Культ «Лунная плоть» — незаконно сажали цветы и деревья",
+          "after": "Культ «Лунная плоть» — участники незаконно сажают деревья"
+        }
+      ]
+    },
+    {
+      "key": "clue_angel_fire_01.title",
+      "english": "Victim 1 = hero, loved by everyone",
+      "french": "Victime 1 = héros, tout le monde l'appréciait",
+      "before": "Жертва 1 = герой, которого все любят",
+      "russian": "Жертва 1 — герой, которого все любили",
+      "reviewed": true,
+      "context": "Семь улик кладбища/пожарной части и их источники. Членство/хиппи/посадки и герой/вина/внешность/религиозная семья; не приговор. UIне все сохранено отдельно от сценового никого."
+    },
+    {
+      "key": "clue_angel_fire_02.title",
+      "english": "Victim 1 = couldn’t save everyone in the Albatros, felt guilt",
+      "french": "Victime 1 = se sentait coupable de n'avoir pas sauvé plus d'habitants de l'Albatros",
+      "before": "Жертва 1 = не смог спасти всех в «Альбатросе», чувствовал вину",
+      "russian": "Жертва №1 — чувство вины: не удалось спасти больше жильцов «Альбатроса»",
+      "reviewed": true,
+      "context": "Семь улик кладбища/пожарной части и их источники. Членство/хиппи/посадки и герой/вина/внешность/религиозная семья; не приговор. UIне все сохранено отдельно от сценового никого.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_victims_batch06_fr.py",
+          "before": "Жертва 1 — не смог спасти всех в «Альбатросе», чувствовал вину",
+          "after": "Жертва №1 — чувство вины: не удалось спасти больше жильцов «Альбатроса»"
+        }
+      ]
+    },
+    {
+      "key": "clue_angel_fire_03.title",
+      "english": "Victim 1 = gorgeous, brave man",
+      "french": "Victime 1 = bel homme, courageux",
+      "before": "Жертва 1 = великолепный, храбрый мужчина",
+      "russian": "Жертва 1 — красивый, храбрый мужчина",
+      "reviewed": true,
+      "context": "Семь улик кладбища/пожарной части и их источники. Членство/хиппи/посадки и герой/вина/внешность/религиозная семья; не приговор. UIне все сохранено отдельно от сценового никого."
+    },
+    {
+      "key": "clue_angel_fire_04.title",
+      "english": "Victim 1 = strict religious family",
+      "french": "Victime 1 = famille très religieuse et stricte",
+      "before": "Жертва 1 = строгая религиозная семья",
+      "russian": "Жертва №1 — из очень религиозной и строгой семьи",
+      "reviewed": true,
+      "context": "Семь улик кладбища/пожарной части и их источники. Членство/хиппи/посадки и герой/вина/внешность/религиозная семья; не приговор. UIне все сохранено отдельно от сценового никого.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_victims_batch06_fr.py",
+          "before": "Жертва 1 — строгая религиозная семья",
+          "after": "Жертва №1 — из очень религиозной и строгой семьи"
+        }
+      ]
+    },
+    {
+      "key": "clue_angel_cemetery_01.source",
+      "english": "From Marco at cemetery",
+      "french": "Selon Marco, au cimetière",
+      "before": "От Марко на кладбище",
+      "russian": "Со слов Марко на кладбище",
+      "reviewed": true,
+      "context": "Семь улик кладбища/пожарной части и их источники. Членство/хиппи/посадки и герой/вина/внешность/религиозная семья; не приговор. UIне все сохранено отдельно от сценового никого.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_sources_batch10_fr.py",
+          "before": "От Марко на кладбище",
+          "after": "Со слов Марко на кладбище"
+        }
+      ]
+    },
+    {
+      "key": "clue_angel_cemetery_02.source",
+      "english": "From Marco at cemetery",
+      "french": "Selon Marco, au cimetière",
+      "before": "От Марко на кладбище",
+      "russian": "Со слов Марко на кладбище",
+      "reviewed": true,
+      "context": "Семь улик кладбища/пожарной части и их источники. Членство/хиппи/посадки и герой/вина/внешность/религиозная семья; не приговор. UIне все сохранено отдельно от сценового никого.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_sources_batch10_fr.py",
+          "before": "От Марко на кладбище",
+          "after": "Со слов Марко на кладбище"
+        }
+      ]
+    },
+    {
+      "key": "clue_angel_cemetery_03.source",
+      "english": "From Marco at cemetery",
+      "french": "Selon Marco, au cimetière",
+      "before": "От Марко на кладбище",
+      "russian": "Со слов Марко на кладбище",
+      "reviewed": true,
+      "context": "Семь улик кладбища/пожарной части и их источники. Членство/хиппи/посадки и герой/вина/внешность/религиозная семья; не приговор. UIне все сохранено отдельно от сценового никого.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_sources_batch10_fr.py",
+          "before": "От Марко на кладбище",
+          "after": "Со слов Марко на кладбище"
+        }
+      ]
+    },
+    {
+      "key": "clue_angel_fire_01.source",
+      "english": "From my source at the fire station",
+      "french": "Selon votre source chez les pompiers",
+      "before": "От моего источника в пожарной части",
+      "russian": "Со слов вашего источника в пожарной части",
+      "reviewed": true,
+      "context": "Семь улик кладбища/пожарной части и их источники. Членство/хиппи/посадки и герой/вина/внешность/религиозная семья; не приговор. UIне все сохранено отдельно от сценового никого.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_sources_batch10_fr.py",
+          "before": "От моего источника в пожарной части",
+          "after": "Со слов вашего источника в пожарной части"
+        }
+      ]
+    },
+    {
+      "key": "clue_angel_fire_02.source",
+      "english": "From my source at the fire station",
+      "french": "Selon votre source chez les pompiers",
+      "before": "От моего источника в пожарной части",
+      "russian": "Со слов вашего источника в пожарной части",
+      "reviewed": true,
+      "context": "Семь улик кладбища/пожарной части и их источники. Членство/хиппи/посадки и герой/вина/внешность/религиозная семья; не приговор. UIне все сохранено отдельно от сценового никого.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_sources_batch10_fr.py",
+          "before": "От моего источника в пожарной части",
+          "after": "Со слов вашего источника в пожарной части"
+        }
+      ]
+    },
+    {
+      "key": "clue_angel_fire_03.source",
+      "english": "From my source at the fire station",
+      "french": "Selon votre source chez les pompiers",
+      "before": "От моего источника в пожарной части",
+      "russian": "Со слов вашего источника в пожарной части",
+      "reviewed": true,
+      "context": "Семь улик кладбища/пожарной части и их источники. Членство/хиппи/посадки и герой/вина/внешность/религиозная семья; не приговор. UIне все сохранено отдельно от сценового никого.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_sources_batch10_fr.py",
+          "before": "От моего источника в пожарной части",
+          "after": "Со слов вашего источника в пожарной части"
+        }
+      ]
+    },
+    {
+      "key": "clue_angel_fire_04.source",
+      "english": "From my source at the fire station",
+      "french": "Selon votre source chez les pompiers",
+      "before": "От моего источника в пожарной части",
+      "russian": "Со слов вашего источника в пожарной части",
+      "reviewed": true,
+      "context": "Семь улик кладбища/пожарной части и их источники. Членство/хиппи/посадки и герой/вина/внешность/религиозная семья; не приговор. UIне все сохранено отдельно от сценового никого.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_sources_batch10_fr.py",
+          "before": "От моего источника в пожарной части",
+          "after": "Со слов вашего источника в пожарной части"
+        }
+      ]
+    }
+  ],
+  "author_file": "scripts/author_angel_cemetery_fire_context.py",
+  "source_files": [
+    "original/LocalizationData/sharedassets0.assets/2096.json",
+    "original/LocalizationData/sharedassets0.assets/2097.json"
+  ],
+  "scope": "14qualified fields only;shared mapping and other radio/bar clues remain separate review work."
+}

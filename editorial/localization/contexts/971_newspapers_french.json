@@ -1,0 +1,97 @@
+{
+  "status": "french_priority_reviewed",
+  "primary_language": "fr",
+  "scene": "971_newspapers_eng",
+  "context": "Газета в бардачке: три этапа чтения, ранние выходы, случайные новости, статьи о знакомых пассажирах и отдельные наборы улик трёх дел. Французский основной, английский вспомогательный. Журналистские домыслы, слухи и обвинения остаются приписаны источникам; адвокат Салим не становится террористом. Все повторные имена, бары, компании и ресторан согласованы. Недавний PoliceLeaks и случайная утечка двухлетней давности различены: архив Элен опровергает наличие первых трёх дел в новой утечке, не в старой. Номер жертвы, доля наследства и отсутствующие технические цели имеют исходные противоречия, записанные отдельно; это не повод придумывать недостающие статьи или менять игровые условия.",
+  "decisions": [
+    "Вручную сверены все 156 блоков французского и английского источника, 174 видимые строки и четыре ответа, включая старый русский перевод. Пустые служебные блоки сохранены явно; _user_datas у TextAsset пусты, новых фраз заказа нет.",
+    "При расхождениях выбран французский: листание вперёд, молодость Жюля, страховой брокер, французский департамент Гвиана, надежда установить личность Песочного человека, скептическое Quel intérêt. Название игры/современные даты и реальные политики не дописаны.",
+    "Министр — женщина в правительстве, не священнослужительница. Письмо подписчицы не стало авторской колонкой; интервьюируемый бывший полицейский не интервьюер, частного детектива не допрашивают. Возмещение пострадавшим от Риктодина — компенсация, не возмездие.",
+    "Симон Городишер и Симон Коллон — разные жертвы разных дел. Жюль Лима, Микаэла Блан, Даниэль Пети-Рено, Анри дю Тийё, Шарль Бугрен, Ронан Бессон, Джена и Алисия Клеф согласованы с контекстом. Подозреваемая студентка остаётся женщиной по suspecte étudiante.",
+    "Кондитерские Маре, группа Диамант, Альбатрос, Ла Пьер, Дом на колёсах, Солилес, Напо и Фуриоза сохранены последовательно. Запомнить сведения не означает записать их в новый блокнот.",
+    "PoliceLeaks: в Judge09 говорится о случайной утечке два года назад. Это не противоречит 98002, где первые три дела отсутствуют в нынешней утечке. Все сведения об убийцах/свидетелях остаются догадками, а не установленным полом или виновностью.",
+    "Исходное расхождение не скрыто: статья Angel01 говорит о всём состоянии, UI об его части; статья Sand07 о второй жертве, UI о третьей. Каждый текст переведён по своему французскому оригиналу, без выдуманной причины. Предметная редактура не меняет доказательства игры.",
+    "Обнаружены исходные технические дефекты обоих языков: случайные ссылки News-Misc-04/17 ведут в отсутствующие блоки; test_clue_sand01 и test_clue_sand_01 (также Judge/Angel) различаются; у clue_judge_journal09_01 нет исходных UI ключей. Команды и случайные веса пока сохранены, ошибки вынесены отдельно для технического этапа, это не непереведённые существующие строки.",
+    "Техническое дополнение17.10.2026 явно отменяет прежнее сохранение дефектных имён и двух отсутствующих ссылок только в40адресных местах; исходные факты и прежние решения выше исторические. Полная текущая спецификация — french_review.newspaper_source_repairs в reviewed/971_newspapers_eng.json. Две UI-строки реальной улики ещё не добавлены; исходники, связи подозреваемых/жертв и весь игровой текст не изменены."
+  ],
+  "french_source_sha256": "242fc7c2004e58cb276e57df0b4f6cb9b5b2d890aa9c0c36e2717a4c87d5ec4b",
+  "carrier_source_sha256": "005d8a6231526561541655e6e7b8803b2f26dcb60053c6f2eb96667624367d6b",
+  "author_file": "scripts/author_newspapers_fr.py",
+  "related_reviewed": [
+    "007_salim_01",
+    "015_alicia_01",
+    "029_jerome_01",
+    "031_geraldine_01",
+    "053_camille_01",
+    "055_julian_01",
+    "072_pierrette_01",
+    "980_Judge_02_Location_eng",
+    "981_Angel_01_Location_eng",
+    "982_Sandman_02_Location_eng"
+  ],
+  "related_pending": [
+    "972_radio_eng",
+    "990_ending_eng"
+  ],
+  "source_anomalies": [
+    {
+      "id": "newspapers-missing-random-passages",
+      "scene": "971_newspapers_eng",
+      "passages": [
+        "news-hub-miscA",
+        "news-hub-miscD"
+      ],
+      "source": "Both raw FR/EN random lists refer to absent News-Misc-04 and News-Misc-17.",
+      "decision": "Не выдумывать статьи или цели. Исходные веса/ссылки пока сохранены; требуется отдельное воспроизведение и обоснованное техническое исправление до готового патча.",
+      "current_status": "source_backed_native_script_repair_integrated_not_live_accepted",
+      "resolution": "Предыдущее решение сохранять отсутствующие ссылки отменено только для двух точно закреплённых списков: удалены News-Misc-04/17, новых статей нет. Веса оставшихся внутри A/D изменены на1/5 и1/4 явно, верхние веса прежние. См. newspaper_source_repairs и NEWSPAPER_REPAIRS_RU.md.",
+      "native_resolution_evidence": "localization/newspaper_integration_validation.json"
+    },
+    {
+      "id": "newspapers-clue-test-spelling",
+      "scene": "971_newspapers_eng",
+      "source": "Both FR/EN declare/read test_clue_sand01..10/judge01..09/angel01..10 but assign test_clue_sand_01..10/judge_01..09/angel_01..10.",
+      "decision": "29 исходных несовпадений написания переменных сохранены и вынесены для проверки; не называть исчерпание статей проверенным. Не заменять глобально одинаковые куски текста.",
+      "current_status": "source_backed_native_script_repair_integrated_not_live_accepted",
+      "resolution": "29 записей используют те же объявленные/читаемые имена без дополнительного подчёркивания. Кроме того, добавлены9адресных выходов: A/B→полный C своего дела, C→news-hub-clients. Все исходные условия/приоритеты/суммы/команды прежние. Пройдены29проверок записи,96контролей и768полных чтений.",
+      "native_resolution_evidence": "localization/newspaper_integration_validation.json"
+    },
+    {
+      "id": "newspapers-judge09-ui-absent",
+      "scene": "971_newspapers_eng",
+      "passage": "News-Killer-Judge-09",
+      "source": "Action clue_judge_journal09_01 has no .title/.source in bundled FR/EN dictionaries.",
+      "decision": "В существующем словаре нечего переводить; не добавлен придуманный текст/новая улика. Проверить ресурс и отображение при технической приёмке.",
+      "current_status": "two_source_backed_native_locale_fields_added_existing_clue_unchanged",
+      "positive_asset_evidence": "review/newspaper_missing_clue_ui_evidence.json",
+      "native_resolution_evidence": "localization/native_ui_extensions.json",
+      "resolution": "Изначальные UIключи отсутствовали, но сама улика есть. Добавлены только2поля в LocalizationDataENG по FRJudge09/реальному ресурсу и параллельной FRподписи источника. Не новая улика и не новые связи. Общий raw-title радиоулики сохранён; реальное окно ещё не принято."
+    },
+    {
+      "id": "newspapers-angel01-fortune-scope",
+      "scene": "971_newspapers_eng",
+      "passage": "News-Killer-Angel-01",
+      "source": "FR article toute sa fortune;FR UI partie de sa fortune.",
+      "decision": "В статье всё состояние, в собственной подписи часть. Противоречие оригинала явно сохранено, не исправлено без доказательства."
+    },
+    {
+      "id": "newspapers-sand07-victim-index",
+      "scene": "971_newspapers_eng",
+      "passage": "News-Killer-Sandman-07",
+      "source": "FR/EN article second victim;FR/EN UI victim3.",
+      "decision": "Текст статьи и подпись переведены по собственному FR. Не менять номера/геймплей по догадке."
+    },
+    {
+      "id": "newspapers-french-intention",
+      "scene": "971_newspapers_eng",
+      "passages": [
+        "News-Killer-Sandman-03",
+        "News-Misc-22",
+        "news-hub02-intro"
+      ],
+      "source": "FR hope to find killer/skeptical Quel intérêt/forward pages versus EN disappointment/Sounds cool/back pages.",
+      "decision": "Выбран французский смысл в каждом из трёх мест; машинное английское наследование удалено."
+    }
+  ],
+  "technical_acceptance": "Pending source-defect reproduction/resolution;editorial coverage is not whole-game acceptance."
+}

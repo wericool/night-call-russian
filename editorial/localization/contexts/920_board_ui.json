@@ -1,0 +1,241 @@
+{
+  "status": "contextually_reviewed",
+  "keys": [
+    {
+      "key": "doc_judge_pic04.title",
+      "english": "Picture of Crime Scene 4",
+      "french": "Photo de scène de crime 4",
+      "before": "Фотография места преступления 4",
+      "russian": "Фотография места преступления 4",
+      "reviewed": true,
+      "context": "Названия и источники двенадцати документов, выдаваемых доской. Номер жертвы/места и источник сохранены. Досье Криса не доказывает судимость; документы Жюльяна не полицейское поручение."
+    },
+    {
+      "key": "doc_judge_pic04.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "before": "Предоставлено Бюссе",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "context": "Названия и источники двенадцати документов, выдаваемых доской. Номер жертвы/места и источник сохранены. Досье Криса не доказывает судимость; документы Жюльяна не полицейское поручение."
+    },
+    {
+      "key": "doc_judge_report01.title",
+      "english": "Police Report, Victim 1",
+      "french": "Rapport de police, victime 1",
+      "before": "Полицейский отчёт, жертва 1",
+      "russian": "Полицейский отчёт, жертва 1",
+      "reviewed": true,
+      "context": "Названия и источники двенадцати документов, выдаваемых доской. Номер жертвы/места и источник сохранены. Досье Криса не доказывает судимость; документы Жюльяна не полицейское поручение."
+    },
+    {
+      "key": "doc_judge_report01.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "before": "Предоставлено Бюссе",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "context": "Названия и источники двенадцати документов, выдаваемых доской. Номер жертвы/места и источник сохранены. Досье Криса не доказывает судимость; документы Жюльяна не полицейское поручение."
+    },
+    {
+      "key": "doc_judge_report02.title",
+      "english": "Police Report, Victim 2",
+      "french": "Rapport de police, victime 2",
+      "before": "Полицейский отчёт, жертва 2",
+      "russian": "Полицейский отчёт, жертва 2",
+      "reviewed": true,
+      "context": "Названия и источники двенадцати документов, выдаваемых доской. Номер жертвы/места и источник сохранены. Досье Криса не доказывает судимость; документы Жюльяна не полицейское поручение."
+    },
+    {
+      "key": "doc_judge_report02.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "before": "Предоставлено Бюссе",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "context": "Названия и источники двенадцати документов, выдаваемых доской. Номер жертвы/места и источник сохранены. Досье Криса не доказывает судимость; документы Жюльяна не полицейское поручение."
+    },
+    {
+      "key": "doc_judge_report03.title",
+      "english": "Police Report, Victim 3",
+      "french": "Rapport de police, victime 3",
+      "before": "Полицейский отчёт, жертва 3",
+      "russian": "Полицейский отчёт, жертва 3",
+      "reviewed": true,
+      "context": "Названия и источники двенадцати документов, выдаваемых доской. Номер жертвы/места и источник сохранены. Досье Криса не доказывает судимость; документы Жюльяна не полицейское поручение."
+    },
+    {
+      "key": "doc_judge_report03.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "before": "Предоставлено Бюссе",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "context": "Названия и источники двенадцати документов, выдаваемых доской. Номер жертвы/места и источник сохранены. Досье Криса не доказывает судимость; документы Жюльяна не полицейское поручение."
+    },
+    {
+      "key": "doc_sand_autopsy03.title",
+      "english": "Autopsy Report, Victim 3",
+      "french": "Rapport d'autopsie, Victime 3",
+      "before": "Отчёт о вскрытии, жертва 3",
+      "russian": "Отчёт о вскрытии, жертва 3",
+      "reviewed": true,
+      "context": "Названия и источники двенадцати документов, выдаваемых доской. Номер жертвы/места и источник сохранены. Досье Криса не доказывает судимость; документы Жюльяна не полицейское поручение."
+    },
+    {
+      "key": "doc_sand_autopsy03.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "before": "Предоставлено Бюссе",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "context": "Названия и источники двенадцати документов, выдаваемых доской. Номер жертвы/места и источник сохранены. Досье Криса не доказывает судимость; документы Жюльяна не полицейское поручение."
+    },
+    {
+      "key": "doc_sand_chrisrecords.title",
+      "english": "Chris’ criminal records",
+      "french": "Casier judiciaire de Chris",
+      "before": "Досье Криса",
+      "russian": "Уголовное досье Криса",
+      "reviewed": true,
+      "context": "Названия и источники двенадцати документов, выдаваемых доской. Номер жертвы/места и источник сохранены. Досье Криса не доказывает судимость; документы Жюльяна не полицейское поручение.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_sources_batch08_fr.py",
+          "before": "Досье Криса",
+          "after": "Уголовное досье Криса"
+        }
+      ]
+    },
+    {
+      "key": "doc_sand_chrisrecords.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "before": "Предоставлено Бюссе",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "context": "Названия и источники двенадцати документов, выдаваемых доской. Номер жертвы/места и источник сохранены. Досье Криса не доказывает судимость; документы Жюльяна не полицейское поручение."
+    },
+    {
+      "key": "doc_sand_kcase.title",
+      "english": "Killer Case",
+      "french": "Dossier de l'enquête",
+      "before": "Дело об убийстве",
+      "russian": "Материалы расследования",
+      "reviewed": true,
+      "context": "Названия и источники двенадцати документов, выдаваемых доской. Номер жертвы/места и источник сохранены. Досье Криса не доказывает судимость; документы Жюльяна не полицейское поручение.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_killer_batch09_fr.py",
+          "before": "Материалы расследования",
+          "after": "Материалы расследования"
+        }
+      ]
+    },
+    {
+      "key": "doc_sand_kcase.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "before": "Предоставлено Бюссе",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "context": "Названия и источники двенадцати документов, выдаваемых доской. Номер жертвы/места и источник сохранены. Досье Криса не доказывает судимость; документы Жюльяна не полицейское поручение."
+    },
+    {
+      "key": "doc_sand_report04.title",
+      "english": "Police Report, Victim 4",
+      "french": "Rapport de police, victime 4",
+      "before": "Полицейский отчёт, жертва 4",
+      "russian": "Полицейский отчёт, жертва 4",
+      "reviewed": true,
+      "context": "Названия и источники двенадцати документов, выдаваемых доской. Номер жертвы/места и источник сохранены. Досье Криса не доказывает судимость; документы Жюльяна не полицейское поручение."
+    },
+    {
+      "key": "doc_sand_report04.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "before": "Предоставлено Бюссе",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "context": "Названия и источники двенадцати документов, выдаваемых доской. Номер жертвы/места и источник сохранены. Досье Криса не доказывает судимость; документы Жюльяна не полицейское поручение."
+    },
+    {
+      "key": "doc_angel_pic01.title",
+      "english": "Picture of Crime Scene 1",
+      "french": "Photo de scène de crime 1",
+      "before": "Фотография места преступления 1",
+      "russian": "Фотография места преступления 1",
+      "reviewed": true,
+      "context": "Названия и источники двенадцати документов, выдаваемых доской. Номер жертвы/места и источник сохранены. Досье Криса не доказывает судимость; документы Жюльяна не полицейское поручение."
+    },
+    {
+      "key": "doc_angel_pic01.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "before": "Предоставлено Бюссе",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "context": "Названия и источники двенадцати документов, выдаваемых доской. Номер жертвы/места и источник сохранены. Досье Криса не доказывает судимость; документы Жюльяна не полицейское поручение."
+    },
+    {
+      "key": "doc_angel_pic02.title",
+      "english": "Picture of Crime Scene 2",
+      "french": "Photo de scène de crime 2",
+      "before": "Фотография места преступления 2",
+      "russian": "Фотография места преступления 2",
+      "reviewed": true,
+      "context": "Названия и источники двенадцати документов, выдаваемых доской. Номер жертвы/места и источник сохранены. Досье Криса не доказывает судимость; документы Жюльяна не полицейское поручение."
+    },
+    {
+      "key": "doc_angel_pic02.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "before": "Предоставлено Бюссе",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "context": "Названия и источники двенадцати документов, выдаваемых доской. Номер жертвы/места и источник сохранены. Досье Криса не доказывает судимость; документы Жюльяна не полицейское поручение."
+    },
+    {
+      "key": "doc_angel_pic03.title",
+      "english": "Picture of Crime Scene 3",
+      "french": "Photo de scène de crime 3",
+      "before": "Фотография места преступления 3",
+      "russian": "Фотография места преступления 3",
+      "reviewed": true,
+      "context": "Названия и источники двенадцати документов, выдаваемых доской. Номер жертвы/места и источник сохранены. Досье Криса не доказывает судимость; документы Жюльяна не полицейское поручение."
+    },
+    {
+      "key": "doc_angel_pic03.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "before": "Предоставлено Бюссе",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "context": "Названия и источники двенадцати документов, выдаваемых доской. Номер жертвы/места и источник сохранены. Досье Криса не доказывает судимость; документы Жюльяна не полицейское поручение."
+    },
+    {
+      "key": "doc_judge_julian.title",
+      "english": "Julian’s files",
+      "french": "Documents de Julian",
+      "before": "Документы Жюльяна",
+      "russian": "Документы Жюльяна",
+      "reviewed": true,
+      "context": "Названия и источники двенадцати документов, выдаваемых доской. Номер жертвы/места и источник сохранены. Досье Криса не доказывает судимость; документы Жюльяна не полицейское поручение."
+    },
+    {
+      "key": "doc_judge_julian.source",
+      "english": "Given by Julian",
+      "french": "Info donnée par Julian",
+      "before": "Передал Жюльян",
+      "russian": "Передал Жюльян",
+      "reviewed": true,
+      "context": "Названия и источники двенадцати документов, выдаваемых доской. Номер жертвы/места и источник сохранены. Досье Криса не доказывает судимость; документы Жюльяна не полицейское поручение."
+    }
+  ],
+  "source_files": [
+    "original/LocalizationData/sharedassets0.assets/2096.json",
+    "original/LocalizationData/sharedassets0.assets/2097.json"
+  ],
+  "author_file": "scripts/author_board_phone_context.py",
+  "scope": "Only24 title/source fields for12 documents issued by920;not the entire interface or every clue extracted from these documents."
+}

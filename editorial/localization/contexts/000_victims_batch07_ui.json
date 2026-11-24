@@ -1,0 +1,643 @@
+{
+  "scope": "45explicit French UI fields manually read/accepted; not whole interface.",
+  "french_priority_author": "scripts/review_ui_victims_batch07_fr.py",
+  "french_priority_decisions": [
+    "Вручную прочитаны 45 полных полей EN/FR/текущий RU. Номера жертв и дела сохранены; одинаковая нумерация в разных делах не означает одного человека.",
+    "Secret Escort 75: клиент-мужчина в обоих французских полях жертв 3 и 4, не «член базы данных» из EN. Разбитая кавычка и самостоятельный перевод названия агентства удалены; единое собственное название сохранено.",
+    "Полковник — опора именно аргентинской общины по FR. «Процесс национальной реорганизации» — уже закреплённое наименование режима в связанных газетах/Жюльяне/Клаудии, не судебный процесс. Предполагаемое участие и побег в 80-х остаются разными свидетельствами.",
+    "Газета во рту помещена после смерти; купюры в горле не перепутаны с газетой другого тела. Богатая вдова richissime — очень богатая; завещание собаке передаёт состояние/наследство, не произвольную небольшую сумму. Два дня до смерти сохранены.",
+    "Благотворительные организации и организации защиты животных различаются по источникам. Приём беженцев в отеле по FR в настоящем времени; персонаж Каролины может быть жив во время своей поездки, не объявлен мёртвым во всех ветках заранее.",
+    "Nuque — сзади в шею, одна пуля; не новое число выстрелов, другой тип оружия или подмена раннего нападения на водителя. Surprises в кавычках означает застигнуты врасплох, не восхищены/удивлены приятным событием.",
+    "Lieu — подпись источника «Место», без добавленной процедуры осмотра. Восемь полей личной теории сверены отдельно; гипотеза остаётся гипотезой. Сведения о безобидной внешности убийцы сохраняют вывод «должно быть», а не уверенное опознание.",
+    "Корректные поля о славе в 70-х, богатстве, угрозах, женских голосах свидетеля, открытом кухонном окне, ответственности за Риктодин/отсутствии суда, политике и общих источниках сохранены. Вступление в культ в 80–90-е не заменено единственным придуманным годом."
+  ],
+  "linked_contexts_read": [
+    "028_carolinaj",
+    "055_julian",
+    "022_claudia",
+    "972_radio_fr_ui",
+    "097_alexandre"
+  ],
+  "keys": [
+    {
+      "key": "GC.CLUE.TT.FORGOT.NEWS.VIC02",
+      "english": "Victim 2 was famous in the 70s.",
+      "french": "La victime 2 était célèbre dans les années 70.",
+      "russian": "Жертва 2 была знаменита в 70-е годы.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 2 была знаменита в 70-е годы.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.TT.PAST.VIC02",
+      "english": "Victim 2 joined cult in the 80s and 90s.",
+      "french": "La victime 2 a rejoins le culte dans les années 80 et 90.",
+      "russian": "Жертва №2 присоединилась к культу в 80–90-е годы.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 2 присоединилась к секте в 80-90-е годы.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.TT.RICH.VIC02",
+      "english": "Victim 2 was wealthy.",
+      "french": "La victime 2 était riche.",
+      "russian": "Жертва 2 была богата.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 2 была богата.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_gas_03.title",
+      "english": "Victim 3 = colonel of the Junta, the Process",
+      "french": "Victime 3 = colonel de la Junte (le Processus)",
+      "russian": "Жертва №3 — полковник хунты («Процесс национальной реорганизации»)",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва №3 — полковник хунты («Процесс национальной реорганизации»)",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_julian_01.title",
+      "english": "Victim 3 = colonel of the Junta, the Process",
+      "french": "Victime 3 = colonel de la Junte (le Processus)",
+      "russian": "Жертва №3 — полковник хунты («Процесс национальной реорганизации»)",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва №3 — полковник хунты («Процесс национальной реорганизации»)",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_rumor_04.title",
+      "english": "Victim 3 = received death threats",
+      "french": "Victime 3 a reçu des menaces de mort",
+      "russian": "Жертва №3 получала угрозы убийством",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва №3 получала угрозы убийством",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_escort_02.title",
+      "english": "Victim 3 = member of Secret Escort 75 database",
+      "french": "Victime 3 client de Secret Escort 75",
+      "russian": "Жертва №3 — клиент «Secret Escort 75»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 3 = член базы данных \"Секретный эскорт 75",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_customer_rumor_09.title",
+      "english": "Victim 3 escaped from Argentina in the 80s",
+      "french": "Victime 3 a fuit l'Argentine dans les années 80",
+      "russian": "Жертва №3 — побег из Аргентины в 1980-х",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва №3 — побег из Аргентины в 1980-х",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_customer_rumor_08.title",
+      "english": "Victim 3 = suspected member of the Process",
+      "french": "Victime 3 = membre suspecté du Processus",
+      "russian": "Жертва №3 — предполагаемый участник «Процесса национальной реорганизации»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва №3 — предполагаемый участник «Процесса национальной реорганизации»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_gas_04.title",
+      "english": "Victim 3 = respected colonel & community pillar",
+      "french": "Victime 3 = colonel respecté et pilier de la communauté argentine",
+      "russian": "Жертва №3 — уважаемый полковник и опора аргентинской общины",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва №3 — уважаемый полковник и опора общины",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_autopsy03_01.title",
+      "english": "Victim 3 = newspaper in mouth (post-mortem)",
+      "french": "Victime 3 retrouvée avec journal dans la bouche (post-mortem)",
+      "russian": "Газету поместили в рот жертвы №3 после смерти",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 3 = газета во рту (посмертно)",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_rumor_04.title",
+      "english": "Victim 3 = Witness heard female voices",
+      "french": "Victime 3 = témoin a entendu des voix féminines",
+      "russian": "Жертва №3 — свидетель слышал женские голоса",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва №3 — свидетель слышал женские голоса",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_cemetery_01.title",
+      "english": "Victim 3 part of the « Moon Flesh » cult",
+      "french": "Victime 3 = membre de la secte de la Chair de Lune",
+      "russian": "Жертва 3 — состояла в культе «Лунная плоть»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 3 — состояла в культе «Лунная плоть»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_radioshow03_02.title",
+      "english": "Victim 3 part of the « Moon Flesh » cult",
+      "french": "Victime 3 = membre de la secte de la Chair de Lune",
+      "russian": "Жертва №3 состояла в культе «Лунная плоть»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 3 - часть культа \"Лунная плоть\".",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.TT.KILLED.OUTSIDE.VIC03",
+      "english": "Victim 3 was killed in a rush outside his building.",
+      "french": "Victime 3 a été tuée de manière pressée et en dehors de son immeuble.",
+      "russian": "Жертву №3 убили в спешке за пределами её дома.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 3 была убита в спешке у своего дома.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_report04_05.title",
+      "english": "Victim 4 = bank notes stuffed in throat",
+      "french": "Victime 4 = billet de banques enfoncées dans la gorge",
+      "russian": "Жертва №4 — купюры, затолканные в горло",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 4 = банковские купюры, засунутые в горло",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_gas_05.title",
+      "english": "Victim 4 = host refugees in her hotel",
+      "french": "Victime 4 = héberge des réfugiés dans son hôtel",
+      "russian": "Жертва №4 принимает беженцев в своём отеле",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва №4 принимала беженцев в своём отеле",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_customer_rumor_10.title",
+      "english": "Victim 4 = fantastic politician",
+      "french": "Victime 4 = grand homme politique",
+      "russian": "Жертва №4 — выдающийся политик",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва №4 — выдающийся политик",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_rumor_10.title",
+      "english": "Victim 4 = gave part of her fortune to charity",
+      "french": "Victime 4 a donné partie de sa fortune à des associations caritatives",
+      "russian": "Жертва №4 пожертвовала часть состояния благотворительным организациям",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва №4 — часть состояния на благотворительность",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_gas_01.title",
+      "english": "Victim 4 = gave part of her fortune to defend animal cause",
+      "french": "Victime 4 a donné partie de sa fortune à des associations de protection des animaux",
+      "russian": "Жертва №4 пожертвовала часть состояния организациям по защите животных",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва №4 пожертвовала часть состояния на защиту животных",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_escort_03.title",
+      "english": "Victim 4 was a member of Secret Escort 75 database",
+      "french": "Victime 4 client de Secret Escort 75",
+      "russian": "Жертва №4 — клиент «Secret Escort 75»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 4 была в базе данных Secret Escort 75",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_customer_rumor_02.title",
+      "english": "Victim 4 = responsible for Rictodin scandal, never trialed",
+      "french": "Victime 4 = responsable pour le scandale du Rictodin, jamais jugé",
+      "russian": "Жертва №4 несёт ответственность за скандал с «Риктодином», но её не судили",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва №4 несёт ответственность за скандал с «Риктодином», но её не судили",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_rumor_09.title",
+      "english": "Victim 4 = wealthy widow",
+      "french": "Victime 4 = veuve richissime",
+      "russian": "Жертва №4 — очень богатая вдова",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва №4 — богатая вдова",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_rumor_10.title",
+      "english": "Victim 4 left money to his dog",
+      "french": "Victime 4 a laissé son héritage à son chien",
+      "russian": "Жертва №4 завещала своё состояние своей собаке",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва №4 оставила деньги своей собаке",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_report04_04.title",
+      "english": "Victim 4 changed will 2 days before death",
+      "french": "Victime 4 a changé son testament 2 jours avant sa mort",
+      "russian": "Жертва 4 изменила завещание за 2 дня до смерти",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 4 изменила завещание за 2 дня до смерти",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.NAME.ROBBED.VIC01.VIC03",
+      "english": "Victims robbed",
+      "french": "Victimes volées",
+      "russian": "Жертв обокрали",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертвы ограблены",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.NAME.KILLED.OUTSIDE.VIC03",
+      "english": "Victim killed outside",
+      "french": "Victime tuée dehors",
+      "russian": "Жертва убита на улице",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва убита на улице",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_rumor_14.title",
+      "english": "Victims let the killer in = must look inoffensive",
+      "french": "Victimes ont laissé le tueur rentrer = doit avoir l'air inoffensif",
+      "russian": "Жертвы впустили убийцу — должно быть, внешность безобидная",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертвы впустили убийцу — должно быть, внешность безобидная",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_gas_04.title",
+      "english": "Victims let the killer in = must look inoffensive",
+      "french": "Victimes ont laissé le tueur rentrer = doit avoir l'air inoffensif",
+      "russian": "Жертвы впустили убийцу — должно быть, внешность безобидная",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертвы впустили убийцу — должно быть, внешность безобидная",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_report01_01.title",
+      "english": "Kitchen window left open by victim",
+      "french": "Fenêtre de la cuisine laissée ouverte par victime",
+      "russian": "Кухонное окно, оставленное жертвой открытым",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Кухонное окно, оставленное жертвой открытым",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.NAME.CULT.NEWS",
+      "english": "Victim linked to cult",
+      "french": "Victime lié au culte",
+      "russian": "Жертва связана с культом",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва связана с сектой",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.NAME.PAST.VIC02",
+      "english": "Victim had a tainted past",
+      "french": "Victime a un passé sombre",
+      "russian": "У жертвы тёмное прошлое",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "У жертвы было запятнанное прошлое",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_kcase_04.title",
+      "english": "Victims killed with 1 bullet in the neck",
+      "french": "Victimes tuées d'une balle dans la nuque",
+      "russian": "Жертвы убиты одной пулей в шею сзади",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертвы убиты 1 пулей в шею",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.NAME.ROBBED.NO.VIC02",
+      "english": "Victim not robbed",
+      "french": "La victime n'a pas été volée",
+      "russian": "У жертвы ничего не украли",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва не ограблена",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_kcase_04.title",
+      "english": "Victims « surprised » by injection",
+      "french": "Victimes « surprises » par injection",
+      "russian": "Инъекция «застала жертв врасплох»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертвы, \"удивленные\" инъекцией",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_rumor_03.title",
+      "english": "Victim deaths = bad for Groupe Diamant",
+      "french": "Victimes tuées = mauvais pour le Groupe Diamant",
+      "russian": "Смерти жертв невыгодны группе «Диамант»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Смерти жертв невыгодны группе «Диамант»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue.source.location",
+      "english": "Location",
+      "french": "Lieu",
+      "russian": "Место",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Осмотр места",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_angel_sus01_01.source",
+      "english": "Personal theory",
+      "french": "Théorie personnelle",
+      "russian": "Личная теория",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Личная теория",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_angel_sus03_01.source",
+      "english": "Personal theory",
+      "french": "Théorie personnelle",
+      "russian": "Личная теория",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Личная теория",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_angel_sus04_01.source",
+      "english": "Personal theory",
+      "french": "Théorie personnelle",
+      "russian": "Личная теория",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Личная теория",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_angel_sus04_02.source",
+      "english": "Personal theory",
+      "french": "Théorie personnelle",
+      "russian": "Личная теория",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Личная теория",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_angel_sus05_01.source",
+      "english": "Personal theory",
+      "french": "Théorie personnelle",
+      "russian": "Личная теория",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Личная теория",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_judge_sus01_03.source",
+      "english": "Personal theory",
+      "french": "Théorie personnelle",
+      "russian": "Личная теория",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Личная теория",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_judge_sus02_01.source",
+      "english": "Personal theory",
+      "french": "Théorie personnelle",
+      "russian": "Личная теория",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Личная теория",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_judge_sus02_02.source",
+      "english": "Personal theory",
+      "french": "Théorie personnelle",
+      "russian": "Личная теория",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Личная теория",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    }
+  ],
+  "exact_legacy_fallback_updates": [
+    {
+      "english": "Victim 2 joined cult in the 80s and 90s.",
+      "ui_keys": [
+        "GC.CLUE.TT.PAST.VIC02"
+      ],
+      "previous_fallback": "Жертва 2 присоединилась к секте в 80-90-е годы.",
+      "russian": "Жертва №2 присоединилась к культу в 80–90-е годы."
+    },
+    {
+      "english": "Victim 3 = member of Secret Escort 75 database",
+      "ui_keys": [
+        "clue_sand_escort_02.title"
+      ],
+      "previous_fallback": "Жертва 3 = член базы данных \"Секретный эскорт 75",
+      "russian": "Жертва №3 — клиент «Secret Escort 75»"
+    },
+    {
+      "english": "Victim 3 = newspaper in mouth (post-mortem)",
+      "ui_keys": [
+        "clue_sand_autopsy03_01.title"
+      ],
+      "previous_fallback": "Жертва 3 = газета во рту (посмертно)",
+      "russian": "Газету поместили в рот жертвы №3 после смерти"
+    },
+    {
+      "english": "Victim 3 was killed in a rush outside his building.",
+      "ui_keys": [
+        "GC.CLUE.TT.KILLED.OUTSIDE.VIC03"
+      ],
+      "previous_fallback": null,
+      "russian": "Жертву №3 убили в спешке за пределами её дома."
+    },
+    {
+      "english": "Victim 4 = bank notes stuffed in throat",
+      "ui_keys": [
+        "clue_sand_report04_05.title"
+      ],
+      "previous_fallback": "Жертва 4 = банковские купюры, засунутые в горло",
+      "russian": "Жертва №4 — купюры, затолканные в горло"
+    },
+    {
+      "english": "Victim 4 = gave part of her fortune to defend animal cause",
+      "ui_keys": [
+        "clue_angel_gas_01.title"
+      ],
+      "previous_fallback": "Жертва №4 пожертвовала часть состояния на защиту животных",
+      "russian": "Жертва №4 пожертвовала часть состояния организациям по защите животных"
+    },
+    {
+      "english": "Victim 4 was a member of Secret Escort 75 database",
+      "ui_keys": [
+        "clue_sand_escort_03.title"
+      ],
+      "previous_fallback": null,
+      "russian": "Жертва №4 — клиент «Secret Escort 75»"
+    },
+    {
+      "english": "Victim 4 left money to his dog",
+      "ui_keys": [
+        "clue_sand_customer_rumor_10.title"
+      ],
+      "previous_fallback": "Жертва №4 оставила деньги своей собаке",
+      "russian": "Жертва №4 завещала своё состояние своей собаке"
+    },
+    {
+      "english": "Victims robbed",
+      "ui_keys": [
+        "GC.CLUE.NAME.ROBBED.VIC01.VIC03"
+      ],
+      "previous_fallback": "Жертвы ограблены",
+      "russian": "Жертв обокрали"
+    },
+    {
+      "english": "Victim linked to cult",
+      "ui_keys": [
+        "GC.CLUE.NAME.CULT.NEWS"
+      ],
+      "previous_fallback": "Жертва связана с сектой",
+      "russian": "Жертва связана с культом"
+    },
+    {
+      "english": "Victim had a tainted past",
+      "ui_keys": [
+        "GC.CLUE.NAME.PAST.VIC02"
+      ],
+      "previous_fallback": "У жертвы было запятнанное прошлое",
+      "russian": "У жертвы тёмное прошлое"
+    },
+    {
+      "english": "Victims killed with 1 bullet in the neck",
+      "ui_keys": [
+        "clue_judge_kcase_04.title"
+      ],
+      "previous_fallback": "Жертвы убиты 1 пулей в шею",
+      "russian": "Жертвы убиты одной пулей в шею сзади"
+    },
+    {
+      "english": "Victim not robbed",
+      "ui_keys": [
+        "GC.CLUE.NAME.ROBBED.NO.VIC02"
+      ],
+      "previous_fallback": "Жертва не ограблена",
+      "russian": "У жертвы ничего не украли"
+    },
+    {
+      "english": "Victims « surprised » by injection",
+      "ui_keys": [
+        "clue_sand_kcase_04.title"
+      ],
+      "previous_fallback": "Жертвы, «удивленные» инъекцией",
+      "russian": "Инъекция «застала жертв врасплох»"
+    },
+    {
+      "english": "Location",
+      "ui_keys": [
+        "clue.source.location"
+      ],
+      "previous_fallback": "Расположение",
+      "russian": "Место"
+    }
+  ],
+  "legacy_fallback_owner_collisions": [
+    {
+      "key": "clue_judge_gas_04.title",
+      "english": "Victim 3 = respected colonel & community pillar",
+      "owners": [
+        "clue_judge_gas_04.title",
+        "clue_judge_radioshow03_01.title"
+      ],
+      "decision": "Keyed Russian is authoritative. Global legacy fallback cannot distinguish owners; unchanged."
+    },
+    {
+      "key": "clue_angel_radioshow03_02.title",
+      "english": "Victim 3 part of the « Moon Flesh » cult",
+      "owners": [
+        "clue_angel_cemetery_01.title",
+        "clue_angel_radioshow03_02.title"
+      ],
+      "decision": "Keyed Russian is authoritative. Global legacy fallback cannot distinguish owners; unchanged."
+    },
+    {
+      "key": "clue_angel_gas_05.title",
+      "english": "Victim 4 = host refugees in her hotel",
+      "owners": [
+        "clue_angel_gas_05.title",
+        "clue_angel_radioshow01_01.title"
+      ],
+      "decision": "Keyed Russian is authoritative. Global legacy fallback cannot distinguish owners; unchanged."
+    },
+    {
+      "key": "clue_angel_customer_rumor_10.title",
+      "english": "Victim 4 = gave part of her fortune to charity",
+      "owners": [
+        "clue_angel_customer_rumor_10.title",
+        "clue_angel_journal01_01.title",
+        "clue_angel_radionews02_01.title"
+      ],
+      "decision": "Keyed Russian is authoritative. Global legacy fallback cannot distinguish owners; unchanged."
+    },
+    {
+      "key": "clue_angel_customer_rumor_09.title",
+      "english": "Victim 4 = wealthy widow",
+      "owners": [
+        "clue_angel_customer_rumor_09.title",
+        "clue_angel_radionews03_01.title"
+      ],
+      "decision": "Keyed Russian is authoritative. Global legacy fallback cannot distinguish owners; unchanged."
+    }
+  ]
+}

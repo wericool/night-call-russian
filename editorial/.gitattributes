@@ -1,0 +1,4 @@
+# Keep source-bound evidence and baseline text byte-for-byte on checkout.
+* -text whitespace=cr-at-eol
+# Baseline translations preserve spacing from the upstream mod.
+upstream/data/Russian_Texts/*.txt whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof,-space-before-tab

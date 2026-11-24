@@ -1,0 +1,820 @@
+{
+  "scope": "All originalEN namedreferences; do not merge namesakes automatically.",
+  "references": [
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-intro-02",
+      "text": "XAVIER : «Are you the cab I ordered?»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-intro-02",
+      "text": "XAVIER : «Super. I’m the one you’re waiting for. Be right there. »"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-intro-02",
+      "text": "XAVIER : «You can start driving. Neuilly, please.»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive01-victim",
+      "text": "XAVIER : «Who?»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive01-victim",
+      "text": "XAVIER : «Oh, him! He’s fine. Don’t worry. He was unconscious long before he went out the window.»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive01-victim",
+      "text": "XAVIER : «And an ambulance is on its way.»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive01-victim",
+      "text": "XAVIER : «So. No worries.»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive01-goodevening",
+      "text": "XAVIER : «Pretty good, yeah.»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive01-goodevening",
+      "text": "XAVIER : «I screwed up a little… but all in all, it was a good evening.»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive01-goodevening",
+      "text": "XAVIER : «You?»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive02",
+      "text": "XAVIER : «Ok, all right. Come on, let’s talk about the elephant in the room. You’re on to me and you know it. I’m the Masked Joker.»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive02",
+      "text": "XAVIER : «The Masked Joker… The hero that makes Parisian nights more… peaceful? No?»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive02",
+      "text": "XAVIER : «I’m all over Twitter. So, probably on the radio and in the newspapers, I think.»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive02-sorry",
+      "text": "XAVIER : «Oh, don’t worry about it. It’s normal. I’m only just starting out.»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive02-sorry",
+      "text": "XAVIER : «It’s hard to manage everything at once: the marketing campaign, physical training, managing the equipment, the sponsors, plus…»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive02-sorry",
+      "text": "XAVIER : «Plus the actual fights, you know?»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive02-role",
+      "text": "XAVIER : «I protect people. I’m a guardian.»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive02-role",
+      "text": "XAVIER : «No, I don’t have any superpowers.»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive02-role",
+      "text": "XAVIER : «Yes… I mean, for the moment, I mostly take care of small time crooks, pickpockets…»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive02-role",
+      "text": "XAVIER : «It’s not very prestigious but you have to start somewhere.»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive02-name-introA",
+      "text": "XAVIER : «So, how about the name… you like it?»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive02-name-introB",
+      "text": "XAVIER : «Yes. The Masked Joker. I think it sounds good.»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive02-name-notsure",
+      "text": "XAVIER : «It’s Joker. Like the card. And Masked because I’m wearing a mask.»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive02-name-ok",
+      "text": "XAVIER : «Oh cool! Finally, someone gets what I’m trying to do!»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive02-name-ok",
+      "text": "XAVIER : «I can’t tell you how hard it is to find a decent name!»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive02-name-horrible",
+      "text": "XAVIER : «Awful?»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive02-name-horrible",
+      "text": "XAVIER : «Ah, ok. You’re not the only one, actually.»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive03",
+      "text": "XAVIER : «See, I wanted something that wasn’t too…»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive03",
+      "text": "XAVIER : «Problematic.»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive03",
+      "text": "XAVIER : «I did a lot of brainstorming and came up with the Masked Joker.»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive03",
+      "text": "XAVIER : «I haven’t gotten great feedback but it’s hard these days to find a name everyone likes.»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive03",
+      "text": "XAVIER : «You have to make sacrifices if you want your core business to succeed.»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive03",
+      "text": "XAVIER : «That’s what they tell us at school, anyway.»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive03",
+      "text": "XAVIER : «Yes, and ENK…»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive03",
+      "text": "XAVIER : «Shit. I almost gave you the name of my business school.»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive03",
+      "text": "XAVIER : «What an idiot. Can you imagine if Bruce Wayne went around telling everyone he was Bruce Wayne?»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive04",
+      "text": "XAVIER : «No. Batman! If BATMAN went around telling everyone he was BRUCE WAYNE.»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive04",
+      "text": "XAVIER : «I’m getting all mixed up.»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-drive04",
+      "text": "XAVIER : «I think I… I’m hurt.»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-end-introA",
+      "text": "XAVIER : «No, no, I’m fine… I shouldn’t have… jumped out of the window like that.»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-end-introA",
+      "text": "XAVIER : «But you were already coming down the street and I didn’t want to make you wait.»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-end-introB",
+      "text": "XAVIER : «Ok, I broke something. I’m sure of it. Oh fuck, that hurts!»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-end",
+      "text": "XAVIER : «Pull over… right there in front of the driveway…»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-end",
+      "text": "XAVIER : «Don’t worry. It’s… it’s just a flesh wound. I’ll be home in two minutes and I have everything I need to… take care of myself.»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-end",
+      "text": "XAVIER : «One last thing… Please don’t say anything about ENKID… I’m trying to lead a double life and it’s not super easy.»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-end-enkid",
+      "text": "XAVIER : «ENKID. My business school…»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-end-enkid",
+      "text": "XAVIER : «Oh! I just got it. You’re playing along. Ok. Great.»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-end-yes",
+      "text": "XAVIER : «Perfect. I hope to…»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-end-yes",
+      "text": "XAVIER : …see you again… sometime…»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-end-yes",
+      "text": "XAVIER : «I’ll be much better soon. No worries.»"
+    },
+    {
+      "scene": "210_xavier_01",
+      "passage": "xavier-01-end-final",
+      "text": "XAVIER : «You’re really a classy guy.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-intro",
+      "text": "XAVIER : «We can go. Same address as last time.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-drive",
+      "text": "XAVIER : «I’ll tell you in a minute. First, start driving.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-drive",
+      "text": "XAVIER : «The police are on their way and I don’t want to run into them.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-drive",
+      "text": "XAVIER : «And I don’t want to get you mixed up in all this.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-start",
+      "text": "XAVIER : «I…»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-start-fine",
+      "text": "XAVIER : «Yeah, yeah… I’m ok.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story01",
+      "text": "XAVIER : «I’m sorry, but…»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story01",
+      "text": "XAVIER : «I think I shit my pants a little.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story01",
+      "text": "XAVIER : «But don’t you worry… there are no marks.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story01",
+      "text": "XAVIER : «I was just so scared.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story01",
+      "text": "XAVIER : «When he pulled his katana out… Man… I was like “That’s it. It’s over. You had a good life and now he’s going to cut you up like a turkey.”»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story01",
+      "text": "XAVIER : «But actually, I handled it.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story01",
+      "text": "XAVIER : «Yeah, I handled it. I handled the hell out of it.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story02-intro-work",
+      "text": "XAVIER : «Of course!»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story02-intro-work",
+      "text": "XAVIER : «Ok… all right… last time I was not at my best. But I’m getting better. I’m making progress.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story02-intro-work",
+      "text": "XAVIER : «And now, I’m on to something big.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story02-intro-katana",
+      "text": "XAVIER : «It’s a kind of Japanese saber, you see?»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story02-intro-katana",
+      "text": "XAVIER : «I didn’t think he’d have that kind of weapon. Those guys aren’t Japanese at all, actually.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story02-intro-silence",
+      "text": "XAVIER : «Actually, since last time, I’ve made a whole lot of progress.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story02",
+      "text": "XAVIER : «I’m investigating a sort of… organization… like, mob types, you know?»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story02",
+      "text": "XAVIER : «They’re forcing kids to work in this squat. They’re sorting through jewelry, wallets. Sometimes they’re sent out to panhandle.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story02",
+      "text": "XAVIER : «Girls are sent to… I mean, you get the gist, right?»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story02",
+      "text": "XAVIER : «But the police aren’t doing anything about it.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story02-why",
+      "text": "XAVIER : «No idea.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story02-classique",
+      "text": "XAVIER : «You think?»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story02-classique",
+      "text": "XAVIER : «I don’t know. I think there’s something else to it.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story02-kids",
+      "text": "XAVIER : «First off, the kids aren’t French.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story02-kids",
+      "text": "XAVIER : «The organization is tied to the Albanians and this not-so-nice German guy. They have ties with an extreme right-wing organization with connections to two police captains.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story02-kids",
+      "text": "XAVIER : «I came to get photos. I want to alert the press.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story02-kids",
+      "text": "XAVIER : «And while I was going about my business… that guy jumped me with his katana.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story02-kids",
+      "text": "XAVIER : «Scared me to death.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story02-crazy",
+      "text": "XAVIER : «Crazy… I don’t know.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story02-dangerous",
+      "text": "XAVIER : «Yeah, it’s dangerous… but that’s not what’s most important.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story02-fine",
+      "text": "XAVIER : «I’m ok. I swear.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story02-outro",
+      "text": "XAVIER : «What I’m about to say will probably sound pretty weird, ok?»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story03",
+      "text": "XAVIER : «Since I’ve been chasing this organization down, I really feel like I’m doing something useful.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story03",
+      "text": "XAVIER : «Like I can really make a difference.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story03",
+      "text": "XAVIER : «And shit… that makes it all worth it.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story03",
+      "text": "XAVIER : «Would it… would it be ok if I just got some shut-eye for the rest of the trip?»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story03",
+      "text": "XAVIER : «I… I think I need to…»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story04",
+      "text": "XAVIER : «Already?»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story04",
+      "text": "XAVIER : «I could have slept for about 20 more hours.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story04",
+      "text": "XAVIER : «I have an essay to turn in six hours from now. Wish me luck.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story04-thanks",
+      "text": "XAVIER : «Thank you!»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story04-nochoice",
+      "text": "XAVIER : «I don’t really have the choice. I’m not planning on making a career out of…»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story04-nochoice",
+      "text": "XAVIER : «This.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story04-nochoice",
+      "text": "XAVIER : «Unless I get into merchandising: mugs, t-shirts…»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story04-nochoice",
+      "text": "XAVIER : «Then, maybe…»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story04-grades",
+      "text": "XAVIER : «When you’re in business school, it’s actually pretty stupid to be a good student.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-story04-grades",
+      "text": "XAVIER : «I mean, once you get in and you’ve paid… it’s a done deal. Good or bad, your grades don’t make any difference.»"
+    },
+    {
+      "scene": "210_xavier_02",
+      "passage": "xavier-02-outro",
+      "text": "XAVIER : «Anyway. Shower, breakfast, essay, sleep. That’s the plan.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "intro-death",
+      "text": "XAVIER : «Drive. Now.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "drive",
+      "text": "XAVIER : «Go. Fast.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "drive",
+      "text": "XAVIER : «Faster. As fast as possible.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "drive",
+      "text": "XAVIER : «It’s a bomb.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "drive-bomb",
+      "text": "XAVIER : «Yes, a bomb. The kind that explodes and kills people.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "drive-bomb",
+      "text": "XAVIER : «I’m telling you, it’s a bomb.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "drive-crazy",
+      "text": "XAVIER : «On the contrary.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "drive-lives",
+      "text": "XAVIER : «Tonight, you and I are going to save lives.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "drive-radio-on",
+      "text": "XAVIER : «Would you mind just…»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "drive-radio-on",
+      "text": "XAVIER : «Thank you.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "drive-plan-intro",
+      "text": "XAVIER : «I need a moment to think.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "drive-plan-intro",
+      "text": "XAVIER : «You… you happen to know where I can get rid of this thing?»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "drive-plan",
+      "text": "XAVIER : «No.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "drive-plan",
+      "text": "XAVIER : «Well, yeah, I had a plan: ask you to come pick me up and ask you if you knew where I could get rid of this thing!»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "drive-plan-panic",
+      "text": "XAVIER : «A bit.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "drive-plan-panic",
+      "text": "XAVIER : «I wasn’t gonna leave it there!»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "drive-getrid",
+      "text": "XAVIER : «It’s a bomb. They have to be disposed of. Otherwise, well, I mean, bombs kill, you know?»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "drive-time",
+      "text": "XAVIER : «Especially since… it’s going to… explode in just… a few minutes.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "drive-time",
+      "text": "XAVIER : «I’d rather not say.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "drive-time-tell",
+      "text": "XAVIER : «In five minutes.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "drive-time-tell",
+      "text": "XAVIER : «Or rather… in five minutes… one minute ago…»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "drive-seine-intro",
+      "text": "XAVIER : «But the good news is that I just had an idea: the Seine.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "drive-seine-intro",
+      "text": "XAVIER : «If I throw the bomb in the Seine, it won’t hurt anyone.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "drive-seine-intro",
+      "text": "XAVIER : «How long until we get there?»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "drive-seine-intro",
+      "text": "XAVIER : «Ok. I knew you were the right man for the job.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "light-01-stop",
+      "text": "XAVIER : «Listen… I’ve got to be honest with you…»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "light-01-stop",
+      "text": "XAVIER : «I wouldn’t normally run the light.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "light-01-stop",
+      "text": "XAVIER : «But in this case… come on.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "light-01-red",
+      "text": "XAVIER : «That was… daring.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "light-02",
+      "text": "XAVIER : «I wanted to thank you.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "light-02",
+      "text": "XAVIER : «You’ve been an incredible partner to have.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "light-02-orange",
+      "text": "XAVIER : «I think I’ll close my eyes.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "light-02-stop",
+      "text": "XAVIER : «You… You believe in fate?»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "light-02-stop-no",
+      "text": "XAVIER : «That makes this situation all the more incredible.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "light-02-stop-no",
+      "text": "XAVIER : «You don’t know if you’re going to die right now… and yet…»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "light-02-stop-no",
+      "text": "XAVIER : «You’re helping me.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "light-02-stop-maybe",
+      "text": "XAVIER : «Well, then I’m having even more trouble understanding why you’re here.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "light-02-stop-destiny",
+      "text": "XAVIER : «According to you, this is all just a crap shoot.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "light-02-stop-destiny",
+      "text": "XAVIER : «You impress me.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "light-02-stop-yes",
+      "text": "XAVIER : «And that’s why you’re doing this? Why you’re risking your life?!»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "light-02-stop-chat-01",
+      "text": "XAVIER : «I didn’t believe in fate before tonight. I only had faith in work, motivation, results…»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "light-02-stop-chat-01",
+      "text": "XAVIER : «But now that I’ve crossed your path…»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "light-02-stop-chat-01",
+      "text": "XAVIER : «I have no more doubts.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "light-02-stop-chat-01-drive",
+      "text": "XAVIER : «We… almost died back there?»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "light-02-stop-chat-02",
+      "text": "XAVIER : «To be honest…»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "light-02-stop-chat-02",
+      "text": "XAVIER : «I’m trying to say things that sound deep so I won’t sound too stupid if they’re my last words.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "light-02-stop-chat-02",
+      "text": "XAVIER : «Shit.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "light-02-stop-chat-02",
+      "text": "XAVIER : «Sorry, but… shit, shit, shit.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "light-02-stop-chat-02",
+      "text": "XAVIER : «Holy fuck. Thank God!»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "light-03",
+      "text": "XAVIER : «You… know where you’re going?»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "light-03",
+      "text": "XAVIER : «Whatever happens…»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "light-03",
+      "text": "XAVIER : «I want to say…»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "light-03",
+      "text": "XAVIER : «I think that after tonight…»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "light-03",
+      "text": "XAVIER : «I’m done with all this.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "light-03",
+      "text": "XAVIER : «I’m going to stop now.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "bank-explosion-late",
+      "text": "XAVIER : «We had… one second to go.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "bank-explosion-late",
+      "text": "XAVIER : «You saved our lives.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "bank-explosion-late",
+      "text": "XAVIER : «Oh yes, it is… Listen, I’ve got to run. It’s a bit complicated to explain why, but let’s just say…»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "bank-explosion-late",
+      "text": "XAVIER : «This might seem weird but… the police are corrupted to the core.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "bank-explosion-late-02",
+      "text": "XAVIER : «It’s hard to tell with you… I never know whether you’re being sarcastic or not. Here.»"
+    },
+    {
+      "scene": "210_xavier_03",
+      "passage": "bank-explosion-late-02",
+      "text": "XAVIER : «Good luck.»"
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+%% Scene name: " Story: Intro "
+
+  %% Эта сцена будет воспроизводиться в начале каждой новой игры.
+
+  %% Сразу за ним следует сцена Boss_01.
+
+=== intro-start
+
+$$ movie: black $$
+$$ reveal: 000_00 $$
+DOCTOR: "..."
+DOCTOR: "... слышите...?"
+$$ movie: Plafond_LoopIN $$
+$$ movie: Plafond_Loop $$
+DOCTOR: "Сэр? Вы... меня слышите? Или мне нужно говорить громче?"
+*"Да, погромче." -> intro-fontsize01
+*"Так нормально." -> intro-dyslexia
+*"Не совсем понимаю." -> intro-fontsize-help
+
+
+=== intro-fontsize-help
+
+DOCTOR: "Я просто хочу, чтобы вам было удобно. Вы всегда можете передумать..."
+Голос женский, хрипловатый и усталый. В нём есть что-то глубоко успокаивающее.
+DOCTOR: "Вы хотите, чтобы я говорила нормальным, средним или громким голосом?"
+*"Все в порядке." -> intro-dyslexia
+*"Средний." -> intro-fontsize01
+*"Как можно громче." -> intro-fontsize02
+
+
+=== intro-fontsize00
+
+$$ font-size: 0 $$
+DOCTOR: "Очень хорошо. Это вам подходит?"
+*"Да!" -> intro-dyslexia
+*"Громче, пожалуйста." -> intro-fontsize01
+
+
+=== intro-fontsize01
+
+$$ font-size: 1 $$
+DOCTOR: "Вы не против? Достаточно ли громкий у меня голос?"
+*"Да, все в порядке." -> intro-dyslexia
+*"Громче." -> intro-fontsize02
+*"Не так громко." -> intro-fontsize00
+
+
+=== intro-fontsize02
+
+$$ font-size: 2 $$
+DOCTOR: "А сейчас? Это нормально?"
+*"Да, спасибо." -> intro-dyslexia
+*"Не так громко." -> intro-fontsize01
+
+
+=== intro-dyslexia
+
+%% Этот отрывок будет расширен, если мы будем использовать шрифт для людей с дислексией.
+-> intro-story01
+
+
+=== intro-story01
+
+Она делает глубокий вдох.
+DOCTOR: "Сэр, вы только что провели две недели в коме."
+$$ movie: Plafond_LoopOUT $$
+$$ movie: black $$
+Это слово крутится у вас в голове. Вам нужно время, чтобы понять его значение.
+$$ movie: black $$
+$$ dialogspeed: slow $$
+"Кома?"
+$$ dialogspeed: normal $$
+$$ movie: black $$
+Это слово царапает вам горло.
+$$ movie: Perfusion_LoopIN $$
+$$ movie: Perfusion_Loop $$
+DOCTOR: "Да... Вы стали жертвой нападения."
+В вашей голове звучит слово: "жертва."
+DOCTOR: "Вам известно, что сейчас в Париже орудует серийный убийца..."
+Вы чувствуете, как содержимое вашего желудка заползает в горло.
+-> _Killer.Is.Judge = 1 ? intro-story01-judge
+-> _Killer.Is.Sandman = 1 ? intro-story01-sandman
+-> _Killer.Is.Angel = 1 ? intro-story01-angel
+
+
+=== intro-story01-judge
+
+$$ reveal: 999_00 $$
+DOCTOR: "Судья - так полиция называет убийцу - напал на вас. Пуля задела вашу печень, и в большинстве случаев это привело бы к летальному исходу."
+%% Missing words: " a coma ".
+DOCTOR: "Мы решили ввести вас в искусственную..."
+-> intro-story02
+
+
+=== intro-story01-sandman
+
+$$ reveal: 998_00 $$
+DOCTOR: "Тот, кого... СМИ называют Песочным человеком, стрелял в вас, прежде чем сбежать..."
+%% Missing words: " a coma ".
+DOCTOR: "Вы были лишены кислорода в течение нескольких минут, и мы решили ввести вас в искусственную..."
+-> intro-story02
+
+
+=== intro-story01-angel
+
+$$ reveal: 997_00 $$
+DOCTOR: "Убийца, которого СМИ называют Ангелом Смерти, вонзил нож в ваш правый бок. Он задел несколько органов."
+%% Missing words: " in a coma ".
+DOCTOR: "Честно говоря, вы были в ужасном состоянии, когда вас привезли, и нам пришлось ввести вас в искусственную..."
+-> intro-story02
+
+
+=== intro-story02
+
+$$ movie: Perfusion_LoopOUT $$
+$$ movie: black $$
+Её голос становится все более далеким... исчезает...
+Вы чувствуете вкус желчи во рту. Голова горит. Вы слышите свист в одном ухе.
+Ваши пальцы перемещаются к ране. Под бинтами вы чувствуете твердую кожу. Это невероятно больно.
+$$ movie: Plafond_LoopIN $$
+$$ movie: Plafond_Loop $$
+"Они..."
+DOCTOR: "Простите?"
+-> _Killer.Is.Judge = 1 ? intro-story02-judge
+-> _Killer.Is.Sandman = 1 ? intro-story02-sandman
+-> _Killer.Is.Angel = 1 ? intro-story02-angel
+
+
+=== intro-story02-judge
+
+"Они... поймали... судью?"
+-> intro-story02-outro
+
+
+=== intro-story02-sandman
+
+"Они поймали..."
+DOCTOR: "Песочного человека?"
+Вы киваете.
+-> intro-story02-outro
+
+
+=== intro-story02-angel
+
+"Они поймали... ангела?"
+-> intro-story02-outro
+
+
+=== intro-story02-outro
+
+DOCTOR: "Нет..."
+*"А как же мой пассажир?" -> intro-story03-client
+*"А что полиция?" -> intro-story03-police-intro
+*:silence: (Промолчать.) -> intro-story03-police-intro
+
+
+=== intro-story03-client
+
+DOCTOR: "Он был мертв ещё до того, как вы вышли из такси..."
+-> intro-story03-police-intro
+
+
+=== intro-story03-police-intro
+
+Доктор молчит секунду - очень неловкую секунду. Она колеблется...
+-> intro-story03-police
+
+
+=== intro-story03-police
+
+DOCTOR: "Полиция хотела бы встретиться с вами как можно скорее, чтобы задать вам несколько вопросов."
+-> _Killer.Is.Judge = 1 ? intro-story03-police-judge
+-> _Killer.Is.Sandman = 1 ? intro-story03-police-sandman
+-> _Killer.Is.Angel = 1 ? intro-story03-police-angel
+
+
+=== intro-story03-police-judge
+
+DOCTOR: "В конце концов, вы единственный, кто выжил после встречи с Судьёй..."
+-> intro-end
+
+
+=== intro-story03-police-sandman
+
+DOCTOR: "На данный момент вы — единственная жертва Песочного человека, кто ещё жив."
+-> intro-end
+
+
+=== intro-story03-police-angel
+
+DOCTOR: "Технически, вы единственный человек, переживший Ангела Смерти."
+-> intro-end
+
+
+=== intro-end
+
+Шум в коридоре привлекает ваше внимание. Вы пытаетесь повернуть голову... безрезультатно.
+DOCTOR: "Вам нужно отдохнуть..."
+$$ movie: Plafond_LoopOUT $$
+$$ movie: Perfusion_LoopIN $$
+$$ movie: Perfusion_Loop $$
+Она выходит из комнаты. Её голос раздается в коридоре.
+$$ dialogspeed: fast $$
+DOCTOR: "Мне всё равно, что он единственный свидетель... он..."
+$$ dialogspeed: normal $$
+К ней присоединяется ещё один женский голос — сильный, властный. Вы не можете разобрать, что она говорит.
+Странное чувство охватывает вас...
+$$ movie: Perfusion_LoopOUT $$
+$$ movie: black $$
+Это не боль... не усталость... какое-то странное сочетание того и другого.
+До того как оказаться в этой больничной палате, вы и не подозревали, что гнев - это сочетание боли и усталости.
+Гнев.
+Чувство, которое вам слишком хорошо знакомо...
+...
+$$ dialogspeed: slow $$
+Проходят дни, и вот месяц спустя...
+$$ dialogspeed: normal $$
+-> END
+
+

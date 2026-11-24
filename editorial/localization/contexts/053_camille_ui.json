@@ -1,0 +1,41 @@
+{
+  "status": "contextually_reviewed",
+  "keys": [
+    {
+      "key": "053_camille.bio",
+      "english": "Height = 1m77.\nEntrepreneur. Heir of the fourth victim.\nYoung, fit, good physical state.\nAnger management issues. Attacked a cop the day of the first killing.\nNever arrested. Blurry past. Lives in a studio owned by her family… & the Groupe Diamant.",
+      "russian": "Рост: 1,77 м.\nПредпринимательница. Наследница четвёртой жертвы.\nМолодая, здоровая.\nВспыльчивая. В день первого убийства напала на полицейского.\nНикогда не была арестована. О прошлом известно мало. Живёт в квартире-студии, принадлежащей её семье… и группе «Диамант».",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "13177156d64e6d85d939d237969260fc92e4828fc3b3f648bdfc14b10fb92592",
+      "french": "Taille = 1m77.\nEntrepreneur. Héritière de la quatrième victime.\nJeune, en bonne santé.\nColérique. A attaqué un policier le jour du premier meurtre.\nJamais arrêtée. Passé vague. Elle vit dans un studio appartenant à sa famille… & au Groupe Diamant.",
+      "french_priority_reviewed": true,
+      "reviewed": true,
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af",
+      "previous_contextual_russian": "Рост: 1,77 м.\nПредпринимательница. Наследница четвёртой жертвы.\nМолодая, подтянутая, в хорошей физической форме.\nПроблемы с контролем гнева. В день первого убийства напала на полицейского.\nНикогда не была арестована. О прошлом известно мало. Живёт в квартире-студии, принадлежащей её семье… и группе «Диамант»."
+    },
+    {
+      "key": "clue_sand_report04_03.title",
+      "english": "Camille = heir to Victim 4’s fortune",
+      "russian": "Камий — наследница четвёртой жертвы",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "4f1d7377bbd9909c31e78f41fb0117415a5c641aa9cdf014c5f8fb4ad29f5a21",
+      "french": "Camille = Héritière de victime 4",
+      "french_priority_reviewed": true,
+      "reviewed": true,
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af",
+      "previous_contextual_russian": "Камий — наследница состояния четвёртой жертвы"
+    }
+  ],
+  "source_files": [
+    "original/LocalizationData/sharedassets0.assets/2096.json",
+    "original/LocalizationData/sharedassets0.assets/2097.json"
+  ],
+  "reason": "Два связанных ключа, не весь интерфейс.",
+  "author_file": "scripts/finalize_camille_context.py",
+  "french_priority_author": "scripts/review_camille_fr.py",
+  "french_priority_decisions": [
+    "Two keys only: full biography and related clue title read with49 scene blocks. French health/temperament without ENadded physical fitness/management diagnosis. Héritière de victime4 has no added fortune noun; no invented identity/gender for victim. No new arrest or guilt."
+  ]
+}

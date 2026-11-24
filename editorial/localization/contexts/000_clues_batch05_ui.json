@@ -1,0 +1,674 @@
+{
+  "scope": "44explicit French UI fields manually read/accepted; not whole interface.",
+  "french_priority_author": "scripts/review_ui_clues_batch05_fr.py",
+  "french_priority_decisions": [
+    "Вручную прочитаны45полей EN/FR/текущийRU изочереди иещёодно связанноеполе угрозы.44приняты;2противоречивыхномерафотоподписей оставленыpending. Номеражертв/дела/смыслнеунифицируются поодинаковомуанглийскомуключу.",
+    "GC.SUSPECT.TT.SOPHIA: прежняя биографияполицейской полностьюотсутствует вОБОИХоригиналах. FRmondaine=светскаядама, художницадекораторвОпере/не замужем/сарказманкеты/ультраправаякатолическаягруппаЦерковьИлии восстановлены. ENmundane/brilliantstudent несуществующиеFRзначения неунаследованы. ИсторическийключSOPHIA иотдельноеисходноеимяSophia неравныдоказаннойсвязисГильдой, не переименовыватькарточки/связи догадкой.",
+    "Нождлярыбы coteauàpoisson согласован спрочитаннымGC.CLUE.TT.KNIFE.STANDARD: старыйENfilletнеобязательновсамомFRключе. Другие реплики сфилейнымножом не заменять безисточника. Миорелаксант — каноническийтермин, подпись a toutressenti впрошедшемвремени. Этоулика вымышленногорасследования, непровереннаявнешняямедицинскаясправка.",
+    "ENVIE соответствует уже закреплённойЗАВИСТИ в972Radio-News-Killer-Angel-06 иегоFRclue_angel_radionews06_01. Фотография3 теперьтотжегрех, неENLUST/ПОХОТЬ иневидимыйанглийскийостаток. Сопоставленыодинаковаяжертва3/угроза, не общаязаменавсехenvie. ILTEVOIT вфото2 иотдельнойуликеугрозы2 переданоОНТЕБЯВИДИТ, неENwatching/слежка. MÉRITÉ=ПОДЕЛОМ, бездобавленногополадресата; JUSTICE=СПРАВЕДЛИВОСТЬ.",
+    "Двафотономеранеприняты: angel_pic01 FRпишетместо2, ноегоFRdocангелphoto1называетсяфото1/ENтоже1; judge_pic03 FRпишетместо4, ноFRdocjudgephoto3называетсяфото3/ENтоже3. ПрежнийRU1/3 сохранёнцеликом дообоснованногорешения; точныеисточникизаписаныввопросе, неподстановкаизудобстваанглийского.",
+    "Мотивыиубийстваназваныестественно; всеисходныевопросительныеформы сохранены. Боль/удовольствие/выгодагруппеДиамант/месть/социальнаясправедливость/сатанизм/скрытиеподжога остаютсягипотезами, невиновностьюперсонажа поимениключа.",
+    "Cultcemetery03 FRтолько деревья, ENonlyцветыубраныименнотут; времянастоящее. Другие источникимогутговоритьоцветахотдельно. Бездомный/богатыепотерпевшие/нетследовнасилия/гильза/палецисвоякровь2/пятьвиденийЛюдвига прочитаны, корректноесохранено. Pyromane=пироман, не автоматическилюбойподжигатель."
+  ],
+  "linked_contexts_read": [
+    "096_gilda",
+    "972_radio_fr_ui",
+    "043_jonas",
+    "014_fragonard"
+  ],
+  "keys": [
+    {
+      "key": "clue_judge_customer_ludwig_02.source",
+      "english": "Ludwig’s Vision",
+      "french": "Vision de Ludwig",
+      "russian": "Видение Людвига",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Видение Людвига",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_customer_ludwig_03.source",
+      "english": "Ludwig’s Vision",
+      "french": "Vision de Ludwig",
+      "russian": "Видение Людвига",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Видение Людвига",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_ludwig_01.source",
+      "english": "Ludwig’s Vision",
+      "french": "Vision de Ludwig",
+      "russian": "Видение Людвига",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Видение Людвига",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_ludwig_02.source",
+      "english": "Ludwig’s Vision",
+      "french": "Vision de Ludwig",
+      "russian": "Видение Людвига",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Видение Людвига",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_ludwig_03.source",
+      "english": "Ludwig’s Vision",
+      "french": "Vision de Ludwig",
+      "russian": "Видение Людвига",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Видение Людвига",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_pic04_01.title",
+      "english": "Spent bullet case",
+      "french": "Douille",
+      "russian": "Стреляная гильза",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Стреляная гильза",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.TT.SYMBOL.PHOTO",
+      "english": "Drawn using victim 2's thumb.",
+      "french": "Dessiné en utilisant le pouce de la victime 2.",
+      "russian": "Нарисовано большим пальцем жертвы 2.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Нарисовано большим пальцем жертвы 2.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.TT.SYMBOL.BLOOD",
+      "english": "Drawn using victim 2's blood.",
+      "french": "Dessiné avec le sang de la victime 2.",
+      "russian": "Нарисовано кровью жертвы 2.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Нарисовано кровью жертвы 2.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_rumor_09.title",
+      "english": "With pancuronium bromide, victim feels everything",
+      "french": "Bromure de pancuronium = victime a tout ressenti",
+      "russian": "Бромид панкурония — жертва всё чувствовала",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Бромид панкурония — жертва всё чувствует",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.SUSPECT.TT.SOPHIA",
+      "english": "Very mundane proﬁle (works as a set designer at the Opera, brilliant student, single)… until you realise she’s part of a Catholic group called the Church of Elijah, close to the far-right.",
+      "french": "Très mondaine, décoratrice à l’Opera, célibataire... Ce profil aurait sa place sur un site de rencontres. Jusqu’à ce que vous réalisiez qu'elle fait partie d'un groupe catholique d’extrême-droite appelé « Église d’Élijah ».",
+      "russian": "Светская дама, художница-декоратор в Опере, не замужем… Такой анкете самое место на сайте знакомств. Пока не выясняется, что она состоит в ультраправой католической группе «Церковь Илии».",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Следователь полиции, ведущая дело Ангела Смерти. Одержимая этим делом, она готова на всё ради правосудия.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_cemetery_03.title",
+      "english": "Moon Flesh cult = planted flowers & trees illegally",
+      "french": "Secte du Chair de Lune = membres plantent des arbres illégalement",
+      "russian": "Культ «Лунная плоть» — участники незаконно сажают деревья",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Культ «Лунная плоть» — незаконно сажали цветы и деревья",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_cemetery_02.title",
+      "english": "Moon Flesh cult = basically hippies",
+      "french": "Secte du Chair de Lune = des hippies",
+      "russian": "Культ «Лунная плоть» — хиппи",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Культ «Лунная плоть» — по сути, хиппи",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_rumor_06.title",
+      "english": "Moon Flesh Cult = crazy",
+      "french": "Secte du Chair de Lune = des fous",
+      "russian": "Культ «Лунная плоть» — безумцы",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Культ «Лунная плоть» — безумцы",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_sand_sus04_01.title",
+      "english": "Killing = pleasure for Killer?",
+      "french": "Tuer = plaisir pour le tueur ?",
+      "russian": "Убийца получает удовольствие от убийств?",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийство = удовольствие для убийцы?",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.NAME.KILLER.SLOPPY.VIC01",
+      "english": "Murder = sloppy",
+      "french": "Le meurtre = bâclé",
+      "russian": "Убийство совершено небрежно",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийство = небрежность",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.NAME.KILLER.SLOPPY.VIC02",
+      "english": "Murder = sloppy",
+      "french": "Le meurtre = bâclé",
+      "russian": "Убийство совершено небрежно",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийство = небрежность",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_sand_sus01_01.title",
+      "english": "Killing = painful for Killer?",
+      "french": "Tuer = douloureux pour le tueur ?",
+      "russian": "Убийце больно убивать?",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийство = боль для убийцы?",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_sand_sus03_01.title",
+      "english": "Killing = painful for Killer?",
+      "french": "Tuer = douloureux pour le tueur ?",
+      "russian": "Убийце больно убивать?",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийство = боль для убийцы?",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_sand_sus05_01.title",
+      "english": "Killing = painful for Killer?",
+      "french": "Tuer = douloureux pour le tueur ?",
+      "russian": "Убийце больно убивать?",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийство = боль для убийцы?",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_angel_sus03_01.title",
+      "english": "Killings = failed break-ins?",
+      "french": "Meurtres = cambriolages ratés ?",
+      "russian": "Убийства — неудачные кражи со взломом?",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийства = неудачные взломы?",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_sand_sus02_02.title",
+      "english": "Killings = good for Groupe Diamant?",
+      "french": "Meurtres = bénéfiques pour le Groupe Diamant ?",
+      "russian": "Убийства выгодны группе «Диамант»?",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийства = благо для Groupe Diamant?",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_sand_sus01_02.title",
+      "english": "Killings = vengeance?",
+      "french": "Meurtres = vengeance ?",
+      "russian": "Убийства — месть?",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийства = месть?",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_kcase_05.title",
+      "english": "Murders = rituals?",
+      "french": "Meurtres = rituels ?",
+      "russian": "Ритуальные убийства?",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийства = ритуалы?",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_angel_sus04_02.title",
+      "english": "Killings = satanic rituals?",
+      "french": "Meurtres = rituels satanistes ?",
+      "russian": "Убийства — сатанинские ритуалы?",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийства = сатанинские ритуалы?",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_angel_sus05_01.title",
+      "english": "Killings = satanic rituals?",
+      "french": "Meurtres = rituels satanistes ?",
+      "russian": "Убийства — сатанинские ритуалы?",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийства = сатанинские ритуалы?",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_sand_sus02_01.title",
+      "english": "Killings = cover up for criminal Albatros fire?",
+      "french": "Meurtres = manière de dissimuler l'incendie criminel de l'Albatros ?",
+      "russian": "Убийства — способ скрыть поджог «Альбатроса»?",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийства = прикрытие преступного огня \"Альбатроса\"?",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_customer_ade_02.title",
+      "english": "Killings not about money",
+      "french": "Meurtres = aucun rapport avec l'argent",
+      "russian": "Убийства не из-за денег",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийства не из-за денег",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_kcase_02.title",
+      "english": "Murder weapon = fillet knife",
+      "french": "Arme du crime = couteau à poisson",
+      "russian": "Орудие убийства — нож для рыбы",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Орудие убийства = филейный нож",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_judge_sus05_01.title",
+      "english": "Motivation = Money?",
+      "french": "Mobile = argent ?",
+      "russian": "Мотив — деньги?",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Мотивация = деньги?",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_judge_sus02_02.title",
+      "english": "Motivation = Justice?",
+      "french": "Mobile = justice ?",
+      "russian": "Мотив — справедливость?",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Мотивация = справедливость?",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_judge_sus03_02.title",
+      "english": "Motivation = Justice?",
+      "french": "Mobile = justice ?",
+      "russian": "Мотив — справедливость?",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Мотивация = справедливость?",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_judge_sus04_01.title",
+      "english": "Motivation = Personal Vengeance?",
+      "french": "Mobile = vengeance personnelle ?",
+      "russian": "Мотив — личная месть?",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Мотивация = личная месть?",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_judge_sus05_03.title",
+      "english": "Motivation = Personal Vengeance?",
+      "french": "Mobile = vengeance personnelle ?",
+      "russian": "Мотив — личная месть?",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Мотивация = личная месть?",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_judge_sus02_01.title",
+      "english": "Motivation = Social Justice?",
+      "french": "Mobile = justice sociale ?",
+      "russian": "Мотив — социальная справедливость?",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Мотивация = социальная справедливость?",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_judge_sus03_03.title",
+      "english": "Motivation = Social Justice?",
+      "french": "Mobile = justice sociale ?",
+      "russian": "Мотив — социальная справедливость?",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Мотивация = социальная справедливость?",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_kcase_02.title",
+      "english": "Muscle relaxant = pancuronium bromide",
+      "french": "Relaxant musculaire = bromure de pancuronium",
+      "russian": "Миорелаксант — бромид панкурония",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Мышечный релаксант = бромид панкурония",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_pic01_01.title",
+      "english": "Message on crime scene 1 = « JUSTICE »",
+      "french": "Message scène de crime 1 = « JUSTICE »",
+      "russian": "Надпись на месте преступления №1: «СПРАВЕДЛИВОСТЬ»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Сообщение на месте преступления 1 = «СПРАВЕДЛИВОСТЬ»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_pic02_01.title",
+      "english": "Message on crime scene 2 = « YOU DESERVE THIS »",
+      "french": "Message scène de crime 2 = « MÉRITÉ »",
+      "russian": "Надпись на месте преступления №2: «ПОДЕЛОМ»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Сообщение на месте преступления 2 = \"ТЫ ЗАСЛУЖИЛ ЭТО\".",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_pic02_02.title",
+      "english": "Message on crime scene 2 = « HE WATCHES YOU »",
+      "french": "Message scène de crime 2 = « IL TE VOIT »",
+      "russian": "Надпись на месте преступления №2: «ОН ТЕБЯ ВИДИТ»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Сообщение на месте преступления 2 = \"Он следит за тобой\".",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_pic03_01.title",
+      "english": "Message on crime scene 3 = « LUST »",
+      "french": "Message scène de crime 3 = « ENVIE »",
+      "russian": "Надпись на месте преступления №3: «ЗАВИСТЬ»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Сообщение на месте преступления 3 = \"LUST\"",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_gas_05.title",
+      "english": "Homeless man seen around crime scene 2 & 3",
+      "french": "Sans-abri aperçu autour des scènes de crime 2 & 3",
+      "russian": "Бездомного видели у мест преступлений №2 и №3",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Бездомного видели у мест преступлений №2 и №3",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_gas_01.title",
+      "english": "Victims = wealthy",
+      "french": "Victimes = riches",
+      "russian": "Жертвы — состоятельные люди",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертвы — состоятельные люди",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_victimrecords_02.title",
+      "english": "Victim 1 = arsonist",
+      "french": "Victime 1 = pyromane",
+      "russian": "Жертва 1 — пироман",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва 1 = поджигатель",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_rumor_03.title",
+      "english": "Victim 2 received death threats: « HE WATCHES YOU »",
+      "french": "Victime 2 a reçu menaces de mort = « IL TE VOIT »",
+      "russian": "Жертве №2 угрожали смертью: «ОН ТЕБЯ ВИДИТ»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертве №2 угрожали смертью: «ОН НАБЛЮДАЕТ ЗА ТОБОЙ»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    }
+  ],
+  "exact_legacy_fallback_updates": [
+    {
+      "english": "With pancuronium bromide, victim feels everything",
+      "ui_keys": [
+        "clue_sand_customer_rumor_09.title",
+        "clue_sand_hospital_03.title"
+      ],
+      "previous_fallback": "Бромид панкурония — жертва всё чувствует",
+      "russian": "Бромид панкурония — жертва всё чувствовала"
+    },
+    {
+      "english": "Very mundane proﬁle (works as a set designer at the Opera, brilliant student, single)… until you realise she’s part of a Catholic group called the Church of Elijah, close to the far-right.",
+      "ui_keys": [
+        "GC.SUSPECT.TT.SOPHIA"
+      ],
+      "previous_fallback": null,
+      "russian": "Светская дама, художница-декоратор в Опере, не замужем… Такой анкете самое место на сайте знакомств. Пока не выясняется, что она состоит в ультраправой католической группе «Церковь Илии»."
+    },
+    {
+      "english": "Moon Flesh cult = planted flowers & trees illegally",
+      "ui_keys": [
+        "clue_angel_cemetery_03.title"
+      ],
+      "previous_fallback": null,
+      "russian": "Культ «Лунная плоть» — участники незаконно сажают деревья"
+    },
+    {
+      "english": "Moon Flesh cult = basically hippies",
+      "ui_keys": [
+        "clue_angel_cemetery_02.title"
+      ],
+      "previous_fallback": "Культ Лунной Плоти = в основном хиппи",
+      "russian": "Культ «Лунная плоть» — хиппи"
+    },
+    {
+      "english": "Killing = pleasure for Killer?",
+      "ui_keys": [
+        "guess_sand_sus04_01.title"
+      ],
+      "previous_fallback": "Убийство = удовольствие для убийцы?",
+      "russian": "Убийца получает удовольствие от убийств?"
+    },
+    {
+      "english": "Murder = sloppy",
+      "ui_keys": [
+        "GC.CLUE.NAME.KILLER.SLOPPY.VIC01",
+        "GC.CLUE.NAME.KILLER.SLOPPY.VIC02"
+      ],
+      "previous_fallback": "Убийство = небрежность",
+      "russian": "Убийство совершено небрежно"
+    },
+    {
+      "english": "Killing = painful for Killer?",
+      "ui_keys": [
+        "guess_sand_sus01_01.title",
+        "guess_sand_sus03_01.title",
+        "guess_sand_sus05_01.title"
+      ],
+      "previous_fallback": "Убийство = боль для убийцы?",
+      "russian": "Убийце больно убивать?"
+    },
+    {
+      "english": "Killings = failed break-ins?",
+      "ui_keys": [
+        "guess_angel_sus03_01.title"
+      ],
+      "previous_fallback": "Убийства = неудачные взломы?",
+      "russian": "Убийства — неудачные кражи со взломом?"
+    },
+    {
+      "english": "Killings = good for Groupe Diamant?",
+      "ui_keys": [
+        "guess_sand_sus02_02.title"
+      ],
+      "previous_fallback": "Убийства = благо для Groupe Diamant?",
+      "russian": "Убийства выгодны группе «Диамант»?"
+    },
+    {
+      "english": "Killings = vengeance?",
+      "ui_keys": [
+        "guess_sand_sus01_02.title"
+      ],
+      "previous_fallback": "Убийства = месть?",
+      "russian": "Убийства — месть?"
+    },
+    {
+      "english": "Murders = rituals?",
+      "ui_keys": [
+        "clue_angel_kcase_05.title"
+      ],
+      "previous_fallback": "Убийства = ритуалы?",
+      "russian": "Ритуальные убийства?"
+    },
+    {
+      "english": "Killings = satanic rituals?",
+      "ui_keys": [
+        "guess_angel_sus04_02.title",
+        "guess_angel_sus05_01.title"
+      ],
+      "previous_fallback": "Убийства = сатанинские ритуалы?",
+      "russian": "Убийства — сатанинские ритуалы?"
+    },
+    {
+      "english": "Killings = cover up for criminal Albatros fire?",
+      "ui_keys": [
+        "guess_sand_sus02_01.title"
+      ],
+      "previous_fallback": "Убийства = прикрытие преступного огня \"Альбатроса\"?",
+      "russian": "Убийства — способ скрыть поджог «Альбатроса»?"
+    },
+    {
+      "english": "Murder weapon = fillet knife",
+      "ui_keys": [
+        "clue_angel_kcase_02.title"
+      ],
+      "previous_fallback": "Орудие убийства = филейный нож",
+      "russian": "Орудие убийства — нож для рыбы"
+    },
+    {
+      "english": "Motivation = Money?",
+      "ui_keys": [
+        "guess_judge_sus05_01.title"
+      ],
+      "previous_fallback": "Мотивация = деньги?",
+      "russian": "Мотив — деньги?"
+    },
+    {
+      "english": "Motivation = Justice?",
+      "ui_keys": [
+        "guess_judge_sus02_02.title",
+        "guess_judge_sus03_02.title"
+      ],
+      "previous_fallback": "Мотивация = справедливость?",
+      "russian": "Мотив — справедливость?"
+    },
+    {
+      "english": "Motivation = Personal Vengeance?",
+      "ui_keys": [
+        "guess_judge_sus04_01.title",
+        "guess_judge_sus05_03.title"
+      ],
+      "previous_fallback": "Мотивация = личная месть?",
+      "russian": "Мотив — личная месть?"
+    },
+    {
+      "english": "Motivation = Social Justice?",
+      "ui_keys": [
+        "guess_judge_sus02_01.title",
+        "guess_judge_sus03_03.title"
+      ],
+      "previous_fallback": "Мотивация = социальная справедливость?",
+      "russian": "Мотив — социальная справедливость?"
+    },
+    {
+      "english": "Muscle relaxant = pancuronium bromide",
+      "ui_keys": [
+        "clue_sand_kcase_02.title"
+      ],
+      "previous_fallback": "Мышечный релаксант = бромид панкурония",
+      "russian": "Миорелаксант — бромид панкурония"
+    },
+    {
+      "english": "Message on crime scene 1 = « JUSTICE »",
+      "ui_keys": [
+        "clue_judge_pic01_01.title"
+      ],
+      "previous_fallback": "Сообщение на месте преступления 1 = «СПРАВЕДЛИВОСТЬ»",
+      "russian": "Надпись на месте преступления №1: «СПРАВЕДЛИВОСТЬ»"
+    },
+    {
+      "english": "Message on crime scene 2 = « YOU DESERVE THIS »",
+      "ui_keys": [
+        "clue_judge_pic02_01.title"
+      ],
+      "previous_fallback": "Сообщение на месте преступления 2 = «ТЫ ЗАСЛУЖИЛ ЭТО».",
+      "russian": "Надпись на месте преступления №2: «ПОДЕЛОМ»"
+    },
+    {
+      "english": "Message on crime scene 2 = « HE WATCHES YOU »",
+      "ui_keys": [
+        "clue_angel_pic02_02.title"
+      ],
+      "previous_fallback": "Сообщение на месте преступления 2 = «Он следит за тобой».",
+      "russian": "Надпись на месте преступления №2: «ОН ТЕБЯ ВИДИТ»"
+    },
+    {
+      "english": "Message on crime scene 3 = « LUST »",
+      "ui_keys": [
+        "clue_angel_pic03_01.title"
+      ],
+      "previous_fallback": "Сообщение на месте преступления 3 = «LUST»",
+      "russian": "Надпись на месте преступления №3: «ЗАВИСТЬ»"
+    },
+    {
+      "english": "Victim 2 received death threats: « HE WATCHES YOU »",
+      "ui_keys": [
+        "clue_angel_customer_rumor_03.title"
+      ],
+      "previous_fallback": "Жертве №2 угрожали смертью: «ОН НАБЛЮДАЕТ ЗА ТОБОЙ»",
+      "russian": "Жертве №2 угрожали смертью: «ОН ТЕБЯ ВИДИТ»"
+    }
+  ],
+  "legacy_fallback_owner_collisions": [
+    {
+      "key": "clue_sand_victimrecords_02.title",
+      "english": "Victim 1 = arsonist",
+      "owners": [
+        "clue_sand_cafe_03.title",
+        "clue_sand_victimrecords_02.title"
+      ],
+      "decision": "Keyed Russian is authoritative. Global legacy fallback cannot distinguish owners; unchanged."
+    }
+  ]
+}

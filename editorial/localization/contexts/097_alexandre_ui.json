@@ -1,0 +1,143 @@
+{
+  "status": "contextually_reviewed",
+  "keys": [
+    {
+      "key": "097_alexandre.bio",
+      "english": "Height = 1m81.\nRetired mailman. Good physical state despite his alcoholism.\nLost his grandson in the Albatros fire a few months ago.\nWas one of the more vocal protesters after the Albatros fire.\nAttacked Anita Ventimiglia during a protest. She never pressed charges.",
+      "french": "Taille = 1m81.\nFacteur à la retraite. Bonne santé physique malgré son alcoolisme.\nPetit-fils décédé dans l'incendie de l'Albatros.\nSuite à l'incendie, a beaucoup manifesté.\nS'en ai pris physiquement à Anita Ventimiglia durant l'une des manifestations. Elle n'a jamais porté plainte.",
+      "before": "Рост — 1,81 м.\nПочтальон на пенсии. Несмотря на алкоголизм, в хорошей физической форме.\nНесколько месяцев назад потерял внука в пожаре в «Альбатросе».\nПосле пожара был одним из самых активных участников протестов.\nВо время протеста напал на Аниту Вентимилью. Она не стала подавать заявление.",
+      "russian": "Рост — 1,81 м.\nПочтальон на пенсии. Несмотря на алкоголизм, в хорошей физической форме.\nПотерял внука в пожаре в «Альбатросе».\nПосле пожара активно участвовал в протестах.\nВо время одного из протестов напал на Аниту Вентимилью. Она не стала подавать заявление.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Рост — 1,81 м.\nПочтальон на пенсии. Несмотря на алкоголизм, в хорошей физической форме.\nНесколько месяцев назад потерял внука в пожаре в «Альбатросе».\nПосле пожара был одним из самых активных участников протестов.\nВо время протеста напал на Аниту Вентимилью. Она не стала подавать заявление.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_cemetery_01.title",
+      "english": "Alexandre = doctor in French Army",
+      "french": "Alexandre = médecin dans l'armée française",
+      "before": "Александр был врачом во французской армии",
+      "russian": "Александр был врачом во французской армии",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Александр был врачом во французской армии",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_cemetery_02.title",
+      "english": "Alexandre = lost medical licence back in the 50s",
+      "french": "Alexandre = licence médicale révoquée dans les années 50",
+      "before": "Александр лишился права на врачебную практику в 1950-х",
+      "russian": "Александр лишился права на врачебную практику в 1950-х",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Александр лишился права на врачебную практику в 1950-х",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_cemetery_03.title",
+      "english": "Groupe Diamant plan on selling land",
+      "french": "Groupe Diamant voulait vendre terrain de l'Albatros",
+      "before": "Планы группы «Диамант» продать землю",
+      "russian": "Группа «Диамант» хотела продать участок «Альбатроса»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Планы группы «Диамант» продать землю",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_cemetery_01.source",
+      "english": "From the visit at the Batignolles Cemetery",
+      "french": "D'après la visite au cimetière des Batignolles",
+      "before": "Посещение кладбища Батиньоль",
+      "russian": "Посещение кладбища Батиньоль",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Посещение кладбища Батиньоль",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_cemetery_02.source",
+      "english": "From the visit at the Batignolles Cemetery",
+      "french": "D'après la visite au cimetière des Batignolles",
+      "before": "Посещение кладбища Батиньоль",
+      "russian": "Посещение кладбища Батиньоль",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Посещение кладбища Батиньоль",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_cemetery_03.source",
+      "english": "From the visit at the Batignolles Cemetery",
+      "french": "D'après la visite au cimetière des Batignolles",
+      "before": "Посещение кладбища Батиньоль",
+      "russian": "Посещение кладбища Батиньоль",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Посещение кладбища Батиньоль",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_mireille_01.title",
+      "english": "Alexandre = soldier in Indochina War",
+      "french": "Alexandre = soldat guerre d'Indochine",
+      "before": "Александр — участник войны в Индокитае",
+      "russian": "Александр — участник войны в Индокитае",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Александр — участник войны в Индокитае",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_mireille_01.source",
+      "english": "From Mireille, Alexandre’s neighbor",
+      "french": "D'après Mireille, la voisine d'Alexandre",
+      "before": "Со слов Мирей, соседки Александра",
+      "russian": "Со слов Мирей, соседки Александра",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Со слов Мирей, соседки Александра",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_suspectsintel_01.title",
+      "english": "Alexandre’s grandson died from in Albatros Fire",
+      "french": "Le petit-fils d'Alexandre est mort dans incendie de l'Albatros",
+      "before": "Внук Александра погиб в пожаре в «Альбатросе»",
+      "russian": "Внук Александра погиб в пожаре в «Альбатросе»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Внук Александра погиб в пожаре в «Альбатросе»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_suspectsintel_01.source",
+      "english": "Suspects Intel",
+      "french": "Informations sur les suspects",
+      "before": "Сведения о подозреваемых",
+      "russian": "Сведения о подозреваемых",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Сведения о подозреваемых",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    }
+  ],
+  "scope": "11complete French fields read; eight alreadyaccepted by related98204/98205/Mireille stages, three newly accepted. Not whole UI.",
+  "shared_fallback": {
+    "english": "Suspects Intel",
+    "before": "Сведения о подозреваемых",
+    "russian": "Сведения о подозреваемых",
+    "keys": [
+      "clue_sand_suspectsintel_01.source",
+      "clue_sand_suspectsintel_02.source",
+      "clue_sand_suspectsintel_03.source",
+      "doc_sand_suspectsintel.title"
+    ]
+  },
+  "french_priority_author": "scripts/review_alexandre_fr.py",
+  "french_priority_decisions": [
+    "Пенсионерпочтальон/прошлыйврач/1950-е неизменны; ENonlyнесколькомесяцевдосмерти и превосходнаястепеньпротестовсняты изFRBIO.",
+    "FRхотелапродатьименноучастокАльбатроса,прошлоенамерение,неподтверждённаяпродажа. Все3источникакладбищеБатиньоль,неМонпарнас; Мирейсоседка/уликаИндокитай иобщийSuspectsIntelнеизменны."
+  ]
+}

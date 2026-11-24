@@ -1,0 +1,24 @@
+{
+  "scenes": [
+    "222_melchior_01",
+    "222_melchior_02"
+  ],
+  "read_sources": [
+    "Complete English scenes/metadata",
+    "Complete French scenes/metadata",
+    "Complete old Russian scenes and all menus",
+    "PassengerObjectScript card and enum categories",
+    "Related reviewed025/073/090/096 and canonical Neuilly210"
+  ],
+  "source_control_agreement": true,
+  "status": "superseded_by_complete_editorial_and_native_validation",
+  "validation": "localization/melchior_scene_validation.json",
+  "remaining": [],
+  "french_priority_authors": [
+    "scripts/review_melchior02_fr.py",
+    "scripts/review_melchior01_fr_additional.py"
+  ],
+  "decisions": [
+    " FRdémon вобеихсвязанныхрепликах02 демон, не ENdevil/дьявол; ангел егоутверждение, не установленныйАнгелсмерти."
+  ]
+}

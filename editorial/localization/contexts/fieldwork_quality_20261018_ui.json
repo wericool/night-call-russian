@@ -1,0 +1,216 @@
+{
+  "scope": "17related FR/EN/RU UI fields manually reread,4declared revisions of already accepted fields; no new resource or key.",
+  "french_priority_author": "scripts/fieldwork_ui_amendment.py",
+  "french_priority_decisions": [
+    "Французский основной; мужской Жюль подтверждён непосредственно98105/angel-victims-yes (Jules,il,un type brillant), а не именем. Грамматическая женская форма короткого FRUI при victime не является отдельной биографией.",
+    "Бельведер один бар по связанным023/98105; названия и двое мужчин-жертв согласованы с репликами/досье. Не исправляются другие женщины/кафе.",
+    "Des années plus tôt оставляет неопределённое до этого: несколько лет вместо много. В полной газете увольнение за несколько лет до пожара прямо сказано, но этого события нет в самих двух FRUI-заголовках. Не дописывать его через старыйENfallback.",
+    "Все921базовое поле уже имели старый статус FR-reviewed; это исправление качества четырёх из них, а не повторная выдача старого счётчика за новые921поле. Нативный пакет/игра не меняются."
+  ],
+  "linked_contexts_read": [
+    "982_Sandman_02_Location_eng",
+    "951_gameover_ruined_eng",
+    "980_Judge_02_Location_eng",
+    "981_Angel_05_Location_eng"
+  ],
+  "keys": [
+    {
+      "key": "clue_angel_bar_03.title",
+      "english": "Apollonie « hunting » young people",
+      "french": "Apollonie \"chasse\" des jeunes",
+      "russian": "Аполлони «охотится» на молодых людей",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Аполлони «охотится» на молодых людей",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_bar_04.title",
+      "english": "Apollonie member of the Moon Flesh Cult",
+      "french": "Apollonie membre de la secte de la Chair de la Lune",
+      "russian": "Аполлони состоит в культе «Лунная плоть»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Аполлони состоит в культе «Лунная плоть»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_archiv_01.title",
+      "english": "First 3 victims files = NOT part of police leak",
+      "french": "Dossiers des 3 premières victimes = PAS partie de la fuite",
+      "russian": "Дела первых трёх жертв НЕ попали в утечку из полиции",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Дела первых трёх жертв НЕ попали в утечку из полиции",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_cafe_03.title",
+      "english": "Victim 1 = arsonist",
+      "french": "Victime 1 = pyromane",
+      "russian": "Первая жертва — поджигатель",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Первая жертва — поджигатель",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_bar_01.title",
+      "english": "Victim 1 = client of Belvédère Café",
+      "french": "Victime 1 = client du Belvédère Café",
+      "russian": "Жертва №1 — посетитель бара «Бельведер»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва №1 — посетитель кафе «Бельведер»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_cafe_02.title",
+      "english": "Victim 1 fired from Groupe Diamant years before Albatros",
+      "french": "Victime 1 licenciée du Groupe Diamant des années plus tôt",
+      "russian": "Жертву №1 уволили из группы «Диамант» за несколько лет до этого",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Первую жертву уволили из группы «Диамант» много лет назад",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_journal01_01.title",
+      "english": "Victim 1 fired from Groupe Diamant years before Albatros",
+      "french": "Victime 1 licenciée du Groupe Diamant des années plus tôt",
+      "russian": "Жертву №1 уволили из группы «Диамант» за несколько лет до этого",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертву №1 уволили из группы «Диамант» много лет назад",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_cafe_01.title",
+      "english": "Victim 1 worked for Groupe Diamant in the past",
+      "french": "Victime 1 a travaillé pour le Groupe Diamant",
+      "russian": "Первая жертва работала в группе «Диамант»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Первая жертва работала в группе «Диамант»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_bar_02.title",
+      "english": "Victim 2 = client of Belvédère",
+      "french": "Victime 2 = cliente du Belvédère Café",
+      "russian": "Жертва №2 — посетитель бара «Бельведер»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жертва №2 — посетительница кафе «Бельведер»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_bar_01.source",
+      "english": "From the bartender at Belvédère",
+      "french": "D'après la barman au Belvédère",
+      "russian": "Со слов барменши «Бельведера»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Со слов барменши «Бельведера»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_bar_02.source",
+      "english": "From the bartender at Belvédère",
+      "french": "D'après la barman au Belvédère",
+      "russian": "Со слов барменши «Бельведера»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Со слов барменши «Бельведера»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_bar_03.source",
+      "english": "From the bartender at Belvédère",
+      "french": "D'après la barman au Belvédère",
+      "russian": "Со слов барменши «Бельведера»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Со слов барменши «Бельведера»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_bar_04.source",
+      "english": "From the bartender at Belvédère",
+      "french": "D'après la barman au Belvédère",
+      "russian": "Со слов барменши «Бельведера»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Со слов барменши «Бельведера»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_cafe_01.source",
+      "english": "From my source inside Groupe Diamant",
+      "french": "Selon ma source dans le Groupe Diamant",
+      "russian": "От моего источника в группе «Диамант»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "От моего источника в группе «Диамант»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_cafe_02.source",
+      "english": "From my source inside Groupe Diamant",
+      "french": "Selon ma source dans le Groupe Diamant",
+      "russian": "От моего источника в группе «Диамант»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "От моего источника в группе «Диамант»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_cafe_03.source",
+      "english": "From my source inside Groupe Diamant",
+      "french": "Selon ma source dans le Groupe Diamant",
+      "russian": "От моего источника в группе «Диамант»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "От моего источника в группе «Диамант»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_archiv_01.source",
+      "english": "From source at police archives",
+      "french": "D'après source aux archives de la police",
+      "russian": "От источника в полицейском архиве",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "От источника в полицейском архиве",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    }
+  ],
+  "exact_legacy_fallback_updates": [
+    {
+      "english": "Victim 1 fired from Groupe Diamant years before Albatros",
+      "owners": [
+        "clue_sand_cafe_02.title",
+        "clue_sand_journal01_01.title"
+      ],
+      "before": "Жертву №1 уволили из группы «Диамант» за несколько лет до пожара «Альбатроса»",
+      "after": "Жертву №1 уволили из группы «Диамант» за несколько лет до этого"
+    },
+    {
+      "english": "Victim 1 = client of Belvédère Café",
+      "owners": [
+        "clue_angel_bar_01.title"
+      ],
+      "before": "Жертва №1 — посетитель кафе «Бельведер»",
+      "after": "Жертва №1 — посетитель бара «Бельведер»"
+    },
+    {
+      "english": "Victim 2 = client of Belvédère",
+      "owners": [
+        "clue_angel_bar_02.title"
+      ],
+      "before": "Жертва №2 — посетительница кафе «Бельведер»",
+      "after": "Жертва №2 — посетитель бара «Бельведер»"
+    }
+  ],
+  "legacy_fallback_owner_collisions": []
+}

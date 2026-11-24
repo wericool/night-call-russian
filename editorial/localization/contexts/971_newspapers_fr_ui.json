@@ -1,0 +1,628 @@
+{
+  "status": "french_priority_reviewed",
+  "primary_language": "fr",
+  "keys": [
+    {
+      "key": "clue_angel_journal01_01.title",
+      "english": "Victim 4 = gave part of her fortune to charity",
+      "french": "Victime 4 a donné partie de sa fortune à des associations caritatives",
+      "before": "Жертва №4 отдала часть состояния на благотворительность",
+      "russian": "Жертва №4 отдала часть состояния на благотворительность",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_angel_journal01_01.source",
+      "english": "Read in a newspaper…",
+      "french": "Lu dans un journal…",
+      "before": "Прочитано в газете…",
+      "russian": "Прочитано в газете…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_angel_journal02_01.title",
+      "english": "Victim 3 = Witness heard female voices",
+      "french": "Victime 3 = témoin a entendu des voix féminines",
+      "before": "Жертва №3 — свидетель слышал женские голоса",
+      "russian": "Жертва №3 — свидетель слышал женские голоса",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_angel_journal02_01.source",
+      "english": "Read in a newspaper…",
+      "french": "Lu dans un journal…",
+      "before": "Прочитано в газете…",
+      "russian": "Прочитано в газете…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_angel_journal03_01.title",
+      "english": "Killer targeting political activists",
+      "french": "Tueur vise militants et activistes",
+      "before": "Убийца охотится на политических активистов",
+      "russian": "Убийца охотится на участников общественных движений и активистов",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_angel_journal03_01.source",
+      "english": "Read in a newspaper…",
+      "french": "Lu dans un journal…",
+      "before": "Прочитано в газете…",
+      "russian": "Прочитано в газете…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_angel_journal04_01.title",
+      "english": "More and more far-right students in universities",
+      "french": "De plus en plus d'étudiants d'extrême-droite dans les universités",
+      "before": "В университетах всё больше ультраправых студентов",
+      "russian": "В университетах всё больше ультраправых студентов",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_angel_journal04_01.source",
+      "english": "Read in a newspaper…",
+      "french": "Lu dans un journal…",
+      "before": "Прочитано в газете…",
+      "russian": "Прочитано в газете…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_angel_journal05_01.title",
+      "english": "Victim 3 = attacked by far-right in the 90s",
+      "french": "Victime 3 attaquée par l'extrême-droite dans les années 90",
+      "before": "На жертву №3 напали ультраправые в 1990-х",
+      "russian": "На жертву №3 нападали ультраправые в девяностых",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_angel_journal05_01.source",
+      "english": "Read in a newspaper…",
+      "french": "Lu dans un journal…",
+      "before": "Прочитано в газете…",
+      "russian": "Прочитано в газете…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_angel_journal06_01.title",
+      "english": "Victim 2 = best friend killed by skinhead during a protest",
+      "french": "Victime 2 = meilleur ami tué par skinhead durant une manifestation",
+      "before": "Лучшего друга жертвы №2 убил скинхед на демонстрации",
+      "russian": "Лучшего друга жертвы №2 убил скинхед на демонстрации",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_angel_journal06_01.source",
+      "english": "Read in a newspaper…",
+      "french": "Lu dans un journal…",
+      "before": "Прочитано в газете…",
+      "russian": "Прочитано в газете…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_angel_journal07_01.title",
+      "english": "Victims let the killer in = must look inoffensive",
+      "french": "Victimes ont laissé le tueur rentrer = doit avoir l'air inoffensif",
+      "before": "Жертвы сами впускали убийцу — значит, внешность не вызывала опасений",
+      "russian": "Жертвы сами впускали убийцу — значит, он выглядит безобидно",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_angel_journal07_01.source",
+      "english": "Read in a newspaper…",
+      "french": "Lu dans un journal…",
+      "before": "Прочитано в газете…",
+      "russian": "Прочитано в газете…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_angel_journal08_01.title",
+      "english": "Scientists reveal we live in a simulation",
+      "french": "Des scientifiques révèlent que nous vivons dans une simulation",
+      "before": "Учёные выяснили: мы живём в симуляции",
+      "russian": "Учёные заявляют, что мы живём в симуляции",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_angel_journal08_01.source",
+      "english": "Read in a newspaper…",
+      "french": "Lu dans un journal…",
+      "before": "Прочитано в газете…",
+      "russian": "Прочитано в газете…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_angel_journal09_01.title",
+      "english": "Break-ins are on the rise",
+      "french": "Cambriolages en hausse",
+      "before": "Краж со взломом всё больше",
+      "russian": "Краж со взломом становится больше",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_angel_journal09_01.source",
+      "english": "Read in a newspaper…",
+      "french": "Lu dans un journal…",
+      "before": "Прочитано в газете…",
+      "russian": "Прочитано в газете…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_angel_journal10_01.title",
+      "english": "Victim 2 = eco-terrorist",
+      "french": "Victime 2 = éco-terroriste",
+      "before": "Жертва №2 — экотеррорист",
+      "russian": "Жертва №2 — экотеррорист",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_angel_journal10_01.source",
+      "english": "Read in a newspaper…",
+      "french": "Lu dans un journal…",
+      "before": "Прочитано в газете…",
+      "russian": "Прочитано в газете…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_judge_journal01_01.title",
+      "english": "Victim 3 = suspected member of the Process",
+      "french": "Victime 3 = membre suspecté du Processus",
+      "before": "Жертва №3 — предполагаемый участник «Процесса национальной реорганизации»",
+      "russian": "Жертва №3 — предполагаемый участник «Процесса национальной реорганизации»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_judge_journal01_01.source",
+      "english": "Read in a newspaper…",
+      "french": "Lu dans un journal…",
+      "before": "Прочитано в газете…",
+      "russian": "Прочитано в газете…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_judge_journal01_02.title",
+      "english": "Victim 3 escaped from Argentina in the 80s",
+      "french": "Victime 3 a fuit l'Argentine dans les années 80",
+      "before": "Жертва №3 — побег из Аргентины в 1980-х",
+      "russian": "Жертва №3 бежала из Аргентины в восьмидесятых",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_judge_journal01_02.source",
+      "english": "Read in a newspaper…",
+      "french": "Lu dans un journal…",
+      "before": "Прочитано в газете…",
+      "russian": "Прочитано в газете…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_judge_journal02_01.title",
+      "english": "Rictodin victims still asking for retribution",
+      "french": "Victimes du Rictodin attendent toujours dédommagement",
+      "before": "Пострадавшие от «Риктодина» по-прежнему требуют возмездия",
+      "russian": "Пострадавшие от «Риктодина» до сих пор ждут компенсации",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_judge_journal02_01.source",
+      "english": "Read in a newspaper…",
+      "french": "Lu dans un journal…",
+      "before": "Прочитано в газете…",
+      "russian": "Прочитано в газете…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_judge_journal03_01.title",
+      "english": "Victim 4 = never trialed for Rictodin health scandal",
+      "french": "Victime 4 = jamais jugé pour le scandale sanitaire du Rictodin",
+      "before": "Жертву №4 так и не судили по делу «Риктодина»",
+      "russian": "Жертву №4 так и не судили по делу «Риктодина»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_judge_journal03_01.source",
+      "english": "Read in a newspaper…",
+      "french": "Lu dans un journal…",
+      "before": "Прочитано в газете…",
+      "russian": "Прочитано в газете…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_judge_journal04_01.title",
+      "english": "Victim 2 killed an Algerian man, never arrested",
+      "french": "Victime 2 a tué un Algérien, n'a jamais été arrêté",
+      "before": "Жертву №2 не арестовали за убийство алжирца",
+      "russian": "Жертва №2 убила алжирца, но её так и не арестовали",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_judge_journal04_01.source",
+      "english": "Read in a newspaper…",
+      "french": "Lu dans un journal…",
+      "before": "Прочитано в газете…",
+      "russian": "Прочитано в газете…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_judge_journal05_01.title",
+      "english": "Salim = defended the mafia in a trial",
+      "french": "Salim = a défendu des mafieux durant un procès",
+      "before": "Салим защищал мафию в суде",
+      "russian": "Салим защищал мафиози в суде",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_judge_journal05_01.source",
+      "english": "Read in a newspaper…",
+      "french": "Lu dans un journal…",
+      "before": "Прочитано в газете…",
+      "russian": "Прочитано в газете…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_judge_journal05_02.title",
+      "english": "Victim 1 = protected by Saint-Ouen mayor",
+      "french": "Victime 1 protégée par le maire de Saint-Ouen",
+      "before": "Жертва №1 — под защитой мэра Сент-Уэна",
+      "russian": "Жертву №1 защищал мэр Сент-Уэна",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_judge_journal05_02.source",
+      "english": "Read in a newspaper…",
+      "french": "Lu dans un journal…",
+      "before": "Прочитано в газете…",
+      "russian": "Прочитано в газете…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_judge_journal06_01.title",
+      "english": "Killer = a professional",
+      "french": "Tueur = pro",
+      "before": "Убийца — профессионал",
+      "russian": "Убийца — профессионал",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_judge_journal06_01.source",
+      "english": "Read in a newspaper…",
+      "french": "Lu dans un journal…",
+      "before": "Прочитано в газете…",
+      "russian": "Прочитано в газете…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_judge_journal07_01.title",
+      "english": "Killer's height < 1m70",
+      "french": "Taille du tueur < 1m70",
+      "before": "Рост убийцы — меньше 1,70 м",
+      "russian": "Рост убийцы — меньше метра семидесяти",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_judge_journal07_01.source",
+      "english": "Read in a newspaper…",
+      "french": "Lu dans un journal…",
+      "before": "Прочитано в газете…",
+      "russian": "Прочитано в газете…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_judge_journal08_01.title",
+      "english": "First 3 victims = suspected but never arrested",
+      "french": "3 premières victimes = suspectées, jamais arrêtées",
+      "before": "Первые три жертвы были под подозрением, но их не арестовывали",
+      "russian": "Первые три жертвы были под подозрением, но их не арестовывали",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_judge_journal08_01.source",
+      "english": "Read in a newspaper…",
+      "french": "Lu dans un journal…",
+      "before": "Прочитано в газете…",
+      "russian": "Прочитано в газете…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_sand_journal01_01.title",
+      "english": "Victim 1 fired from Groupe Diamant years before Albatros",
+      "french": "Victime 1 licenciée du Groupe Diamant des années plus tôt",
+      "before": "Жертву №1 уволили из группы «Диамант» за несколько лет до пожара «Альбатроса»",
+      "russian": "Жертву №1 уволили из группы «Диамант» за несколько лет до этого",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/fieldwork_ui_amendment.py",
+          "before": "Жертву №1 уволили из группы «Диамант» много лет назад",
+          "after": "Жертву №1 уволили из группы «Диамант» за несколько лет до этого",
+          "reason": "FR des années plus tôt не задаёт много и не называет в самом заголовке пожар Альбатроса. Сохранено неопределённое до этого; связь с пожаром в полной газетной статье остаётся, но не дописана в UI."
+        }
+      ]
+    },
+    {
+      "key": "clue_sand_journal01_01.source",
+      "english": "Read in a newspaper…",
+      "french": "Lu dans un journal…",
+      "before": "Прочитано в газете…",
+      "russian": "Прочитано в газете…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_sand_journal02_01.title",
+      "english": "Muscle relaxant disappeared from hospital night of the fire",
+      "french": "Relaxant musculaire volé de l'hôpital le soir de l'incendie",
+      "before": "В ночь пожара из больницы пропал миорелаксант",
+      "russian": "Миорелаксант украли из больницы в ночь пожара",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье.",
+      "russian_revision_history": [
+        {
+          "author": "review/check_pauline_janet_sources_20261020.py",
+          "before": "В ночь пожара из больницы пропал миорелаксант",
+          "after": "Миорелаксант украли из больницы в ночь пожара",
+          "reason": "FRvolé — украли; прежний журнал следовал английскому disappeared и ослаблял сообщение до пропал. Идентичная французская больничная улика уже правильно говорит украли. Принято её существующее русское значение; обе исходные формулировки и полный982-01-truth проверены. Ни виновник, ни взлом, ни диагноз не добавлены."
+        }
+      ]
+    },
+    {
+      "key": "clue_sand_journal02_01.source",
+      "english": "Read in a newspaper…",
+      "french": "Lu dans un journal…",
+      "before": "Прочитано в газете…",
+      "russian": "Прочитано в газете…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_sand_journal03_01.title",
+      "english": "Victim 3 = fantastic journalist",
+      "french": "Victime 3 = excellente journaliste",
+      "before": "Жертва №3 — отличная журналистка",
+      "russian": "Жертва №3 — выдающаяся журналистка",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_sand_journal03_01.source",
+      "english": "Read in a newspaper…",
+      "french": "Lu dans un journal…",
+      "before": "Прочитано в газете…",
+      "russian": "Прочитано в газете…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_sand_journal04_01.title",
+      "english": "Killer = low voice, sounded old",
+      "french": "Tueur = voix grave, plutôt âgée",
+      "before": "У убийцы низкий голос, как у пожилого человека",
+      "russian": "У убийцы низкий голос, как у немолодого человека",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_sand_journal04_01.source",
+      "english": "Read in a newspaper…",
+      "french": "Lu dans un journal…",
+      "before": "Прочитано в газете…",
+      "russian": "Прочитано в газете…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_sand_journal05_01.title",
+      "english": "Killer = female voice pretending to be male",
+      "french": "Tueur = voix féminine se faisant passer pour un homme",
+      "before": "Голос убийцы — женский, замаскированный под мужской",
+      "russian": "Женский голос убийцы замаскирован под мужской",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_sand_journal05_01.source",
+      "english": "Read in a newspaper…",
+      "french": "Lu dans un journal…",
+      "before": "Прочитано в газете…",
+      "russian": "Прочитано в газете…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_sand_journal06_01.title",
+      "english": "Victim 3 = bad journalist",
+      "french": "Victime 3 = mauvaise journaliste",
+      "before": "Жертва №3 — плохая журналистка",
+      "russian": "Жертва №3 — плохая журналистка",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_sand_journal06_01.source",
+      "english": "Read in a newspaper…",
+      "french": "Lu dans un journal…",
+      "before": "Прочитано в газете…",
+      "russian": "Прочитано в газете…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_sand_journal07_01.title",
+      "english": "Victim 3 = coins found in mouth",
+      "french": "Victime 3 = pièces de monnaire retrouvées dans sa bouche",
+      "before": "Во рту жертвы №3 нашли монеты",
+      "russian": "Во рту жертвы №3 нашли монеты",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_sand_journal07_01.source",
+      "english": "Read in a newspaper…",
+      "french": "Lu dans un journal…",
+      "before": "Прочитано в газете…",
+      "russian": "Прочитано в газете…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_sand_journal08_01.title",
+      "english": "Victims = connected through escort website",
+      "french": "Victimes = connectées via le site d'escort",
+      "before": "Жертвы связаны через сайт эскорт-услуг",
+      "russian": "Жертвы связаны через сайт эскорт-услуг",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_sand_journal08_01.source",
+      "english": "Read in a newspaper…",
+      "french": "Lu dans un journal…",
+      "before": "Прочитано в газете…",
+      "russian": "Прочитано в газете…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_sand_journal09_01.title",
+      "english": "Victim deaths = bad for Groupe Diamant",
+      "french": "Victimes tuées = mauvais pour le Groupe Diamant",
+      "before": "Смерти жертв невыгодны группе «Диамант»",
+      "russian": "Убийства жертв вредят группе «Диамант»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_sand_journal09_01.source",
+      "english": "Read in a newspaper…",
+      "french": "Lu dans un journal…",
+      "before": "Прочитано в газете…",
+      "russian": "Прочитано в газете…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_sand_journal10_01.title",
+      "english": "Victim 4's will blocking inheritance in case of murder",
+      "french": "Victime 4 = héritage bloqué en cas de meurtre",
+      "before": "Завещание жертвы №4 запрещает наследование в случае убийства",
+      "russian": "Наследство жертвы №4 заблокировано в случае убийства",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    },
+    {
+      "key": "clue_sand_journal10_01.source",
+      "english": "Read in a newspaper…",
+      "french": "Lu dans un journal…",
+      "before": "Прочитано в газете…",
+      "russian": "Прочитано в газете…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "Газетная улика, источник — статья. Женский род слова жертва не определяет пол человека. Текст UI переведён по FR; не унифицирован молча с противоречащим номером/долей в статье."
+    }
+  ],
+  "missing_original_keys": [
+    "clue_judge_journal09_01.title",
+    "clue_judge_journal09_01.source"
+  ],
+  "author_file": "scripts/author_newspapers_fr.py",
+  "scope": "60 existing UI fields for30clues. Judge09 action has no bundled FR/EN UI keys;not invented as a new translation."
+}

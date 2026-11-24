@@ -1,0 +1,107 @@
+{
+  "status": "superseded_by_complete_editorial_and_native_validation",
+  "scenes": [
+    {
+      "name": "208_myrtille_00a",
+      "source_file": "original/DialogObjectScript/sharedassets0.assets/2313.json",
+      "source_sha256": "6512b00e45e634f11dae5b1a78c5747a3498ba6a59f90a88e4eb5118c3cc5043",
+      "passages": 2,
+      "visible_lines": 23,
+      "choices": 0,
+      "declared_variables": [
+        {
+          "_name": "_enigmaAsked",
+          "_value": 0
+        },
+        {
+          "_name": "_enigmaGoodAnswer",
+          "_value": 0
+        },
+        {
+          "_name": "_enigmaBadAnswer",
+          "_value": 0
+        }
+      ],
+      "controls_EN_FR_identical": true
+    },
+    {
+      "name": "208_myrtille_00b",
+      "source_file": "original/DialogObjectScript/sharedassets0.assets/2314.json",
+      "source_sha256": "9fe1bd2902a23f9cc2ac6bbf75a57e762aa4419a3b2ca03a5a3b9526692b0a18",
+      "passages": 6,
+      "visible_lines": 20,
+      "choices": 0,
+      "declared_variables": [],
+      "controls_EN_FR_identical": true
+    },
+    {
+      "name": "208_myrtille_01",
+      "source_file": "original/DialogObjectScript/sharedassets0.assets/2315.json",
+      "source_sha256": "b8aececd8c6e8aa9cff1a0935464cc2b847c6bcff7f04fa7e640f777c3189571",
+      "passages": 16,
+      "visible_lines": 79,
+      "choices": 8,
+      "declared_variables": [
+        {
+          "_name": "enigma_01",
+          "_value": 0
+        }
+      ],
+      "controls_EN_FR_identical": true
+    },
+    {
+      "name": "208_myrtille_02",
+      "source_file": "original/DialogObjectScript/sharedassets0.assets/2316.json",
+      "source_sha256": "a1b3b48018d162b016f3a0843d0a688bec29358a8114562b8d386b9d71b76ed0",
+      "passages": 26,
+      "visible_lines": 71,
+      "choices": 12,
+      "declared_variables": [
+        {
+          "_name": "enigma_02",
+          "_value": 0
+        },
+        {
+          "_name": "saucisson",
+          "_value": 0
+        }
+      ],
+      "controls_EN_FR_identical": true
+    },
+    {
+      "name": "208_myrtille_03",
+      "source_file": "original/DialogObjectScript/sharedassets0.assets/2317.json",
+      "source_sha256": "b029b22923f0b8240e13c21f6650b24a61525080e69eca7f88ed62304ecc3540",
+      "passages": 19,
+      "visible_lines": 82,
+      "choices": 11,
+      "declared_variables": [
+        {
+          "_name": "enigma_03",
+          "_value": 0
+        }
+      ],
+      "controls_EN_FR_identical": true
+    },
+    {
+      "name": "208_myrtille_04",
+      "source_file": "original/DialogObjectScript/sharedassets0.assets/2318.json",
+      "source_sha256": "1ef43ba0b055a1a02956dec9000d5c596624907d36011313b521f7a6eb6d7655",
+      "passages": 20,
+      "visible_lines": 95,
+      "choices": 11,
+      "declared_variables": [
+        {
+          "_name": "enigma_04",
+          "_value": 0
+        }
+      ],
+      "controls_EN_FR_identical": true
+    }
+  ],
+  "author_draft": "scripts/author_myrtille_context.py",
+  "source_card": "original/PassengerObjectScript/sharedassets0.assets/2410.json",
+  "remaining": [],
+  "editorial_context": "localization/contexts/208_myrtille.json",
+  "validation": "localization/myrtille_scene_validation.json"
+}

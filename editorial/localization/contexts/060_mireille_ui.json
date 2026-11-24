@@ -1,0 +1,38 @@
+{
+  "status": "contextually_reviewed",
+  "keys": [
+    {
+      "key": "clue_sand_customer_mireille_01.title",
+      "english": "Alexandre = soldier in Indochina War",
+      "russian": "Александр — участник войны в Индокитае",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "0f834e0f5e6d0f584c1f42a1e16c0230a11d141d92246a4be7d6844da6ce0e4a",
+      "french": "Alexandre = soldat guerre d'Indochine",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_mireille_01.source",
+      "english": "From Mireille, Alexandre’s neighbor",
+      "russian": "Со слов Мирей, соседки Александра",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "7349ef6d3d1653e4e9b308ee9a354f4c6a5b1d1a1421bf87d212c39b99dd8482",
+      "french": "D'après Mireille, la voisine d'Alexandre",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    }
+  ],
+  "source_files": [
+    "original/LocalizationData/sharedassets0.assets/2096.json"
+  ],
+  "reason": "Оба связанныхключа. НазваниевойныестьвUI, но не произнесено вдиалоге; не весьинтерфейс.",
+  "author_file": "scripts/author_mireille_context.py",
+  "french_priority_author": "scripts/review_mireille_fr.py",
+  "french_priority_decisions": [
+    "BothFRfieldsread:soldatguerred’Indochine andD’aprèsMireille,lavoisined’Alexandre. ExistingRUучастниквойны/соседка accuratelyretained; doesnotinsertIndochinaintounnamedwarinspeech."
+  ]
+}

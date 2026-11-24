@@ -1,0 +1,893 @@
+{
+  "scope": "75explicit French UI fields manually read/accepted; not whole interface.",
+  "french_priority_author": "scripts/review_ui_sources_batch08_fr.py",
+  "french_priority_decisions": [
+    "Вручную прочитаны 75 полных полей EN/FR/текущий RU: все 13 подписей оставшихся личных теорий, 21 подпись/название полицейских отчётов, три их общих названия, пять полей уголовного досье Криса, четыре досье первой жертвы и отдельные улики/места/источники. Это не автоматическое принятие всего одинакового английского текста.",
+    "Салим собирал сведения о первых трёх жертвах; нельзя буквально «расследовать жертв» и придумывать их установленные преступления/приговоры. Dossier — бумажное досье, не технические файлы компьютера. Пьеро и его отец из собственного ключа не отождествлены с Пьеретт.",
+    "Уголовное досье сохраняет источник casier judiciaire без самостоятельного утверждения, что каждое подозрение/задержание Криса уже закончилось приговором. Его история о несовершеннолетии и неизвестных делах остаётся в отдельном досье, не переписана этой подписью.",
+    "Secret Escort 75 едино в названии места и клиентских уликах; латинское собственное название оставлено сознательно, не пропущенный перевод обычной фразы. София — исходное имя исторического ключа SOPHIA, без доказательства не переименована в Гильду или Бюссе.",
+    "Houssine: отдельно найден оригинальный FR090_houssine_02/houssine-02-end, непосредственно выдающий clue_sand_houssine_01. Там «Désolé» и «Il a dit… désolé quand il m’a attaqué» подтверждают, что убийца именно произнёс извинение. Текущий «Убийца извинился» поэтому сохранён, а не заменён догадкой о невысказанном сожалении. Источник — воспоминание/видение водителя, не новое независимое свидетельство.",
+    "Trop haut — СЛИШКОМ высоко, не просто высоко: это обоснование вывода, что жертва не могла нарисовать символ. Три других названия сохраняют вопрос; две разные связи с церковью и отрицательный вывод не превращены в один уверенный ответ.",
+    "Три улики роста <1,70 и отдельный отчёт <1,80 сохраняют строгие неравенства, не «не выше»/ровно и не усреднённый единый рост. Источники могут расходиться, ограничение <1,80 не заменяется более сильным слухом <1,70. Вопрос о вампире не стал фактом; низкий/пожилой и женский маскируемый голос остаются разными показаниями.",
+    "Полицейские отчёты 1/2/3/4 сверены каждый отдельно, исходные номера в этой группе совпадают. Пьеретт ничего не сказала о шраме; Info sur Pierrette — сведения О ней, не обязательно её собственные слова. Вопросы/личные теории не объявлены уликами с установленной истинностью."
+  ],
+  "linked_contexts_read": [
+    "090_houssine_02",
+    "007_salim_01",
+    "044_chris",
+    "072_pierrette_ui",
+    "059_pierrot",
+    "055_julian"
+  ],
+  "keys": [
+    {
+      "key": "guess_judge_sus02_03.source",
+      "english": "Personal theory",
+      "french": "Théorie personnelle",
+      "russian": "Личная теория",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Личная теория",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_judge_sus03_02.source",
+      "english": "Personal theory",
+      "french": "Théorie personnelle",
+      "russian": "Личная теория",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Личная теория",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_judge_sus03_03.source",
+      "english": "Personal theory",
+      "french": "Théorie personnelle",
+      "russian": "Личная теория",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Личная теория",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_judge_sus04_01.source",
+      "english": "Personal theory",
+      "french": "Théorie personnelle",
+      "russian": "Личная теория",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Личная теория",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_judge_sus05_01.source",
+      "english": "Personal theory",
+      "french": "Théorie personnelle",
+      "russian": "Личная теория",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Личная теория",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_judge_sus05_03.source",
+      "english": "Personal theory",
+      "french": "Théorie personnelle",
+      "russian": "Личная теория",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Личная теория",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_sand_sus01_01.source",
+      "english": "Personal theory",
+      "french": "Théorie personnelle",
+      "russian": "Личная теория",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Личная теория",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_sand_sus01_02.source",
+      "english": "Personal theory",
+      "french": "Théorie personnelle",
+      "russian": "Личная теория",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Личная теория",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_sand_sus02_01.source",
+      "english": "Personal theory",
+      "french": "Théorie personnelle",
+      "russian": "Личная теория",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Личная теория",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_sand_sus02_02.source",
+      "english": "Personal theory",
+      "french": "Théorie personnelle",
+      "russian": "Личная теория",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Личная теория",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_sand_sus03_01.source",
+      "english": "Personal theory",
+      "french": "Théorie personnelle",
+      "russian": "Личная теория",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Личная теория",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_sand_sus04_01.source",
+      "english": "Personal theory",
+      "french": "Théorie personnelle",
+      "russian": "Личная теория",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Личная теория",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_sand_sus05_01.source",
+      "english": "Personal theory",
+      "french": "Théorie personnelle",
+      "russian": "Личная теория",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Личная теория",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_pierrette_01.title",
+      "english": "Pierrette didn’t say anything about your scar",
+      "french": "Pierrette n'a rien dit au sujet de votre cicatrice",
+      "russian": "Пьеретт ничего не сказала о вашем шраме.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Пьеретт ничего не сказала о вашем шраме.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_pierrette_01.source",
+      "english": "Pierrette’s Info",
+      "french": "Info sur Pierrette",
+      "russian": "Информация о Пьеретт",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Информация о Пьеретт",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_julian_05.title",
+      "english": "Pierrot’s dad worked on Rictodin’s scandal",
+      "french": "Père de Pierrot a travaillé sur le scandale du Rictodin",
+      "russian": "Отец Пьеро занимался скандалом с «Риктодином»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Отец Пьеро занимался скандалом с «Риктодином»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_report01_01.source",
+      "english": "Police Report, Victim 1",
+      "french": "Rapport de police, victime 1",
+      "russian": "Полицейский отчёт, жертва 1",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Полицейский отчёт, жертва 1",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_report01_01.source",
+      "english": "Police Report, Victim 1",
+      "french": "Rapport de police, victime 1",
+      "russian": "Полицейский отчёт, жертва 1",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Полицейский отчёт, жертва 1",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_report01_02.source",
+      "english": "Police Report, Victim 1",
+      "french": "Rapport de police, victime 1",
+      "russian": "Полицейский отчёт, жертва 1",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Полицейский отчёт, жертва 1",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_angel_report01.title",
+      "english": "Police Report, Victim 1",
+      "french": "Rapport de police, victime 1",
+      "russian": "Полицейский отчёт, жертва 1",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Полицейский отчёт, жертва 1",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_judge_report01.title",
+      "english": "Police Report, Victim 1",
+      "french": "Rapport de police, victime 1",
+      "russian": "Полицейский отчёт, жертва 1",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Полицейский отчёт, жертва 1",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_report02_01.source",
+      "english": "Police Report, Victim 2",
+      "french": "Rapport de police, victime 2",
+      "russian": "Полицейский отчёт, жертва 2",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Полицейский отчёт, жертва 2",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_report02_02.source",
+      "english": "Police Report, Victim 2",
+      "french": "Rapport de police, victime 2",
+      "russian": "Полицейский отчёт, жертва 2",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Полицейский отчёт, жертва 2",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_report02_01.source",
+      "english": "Police Report, Victim 2",
+      "french": "Rapport de police, victime 2",
+      "russian": "Полицейский отчёт, жертва 2",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Полицейский отчёт, жертва 2",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_report02_02.source",
+      "english": "Police Report, Victim 2",
+      "french": "Rapport de police, victime 2",
+      "russian": "Полицейский отчёт, жертва 2",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Полицейский отчёт, жертва 2",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_angel_report02.title",
+      "english": "Police Report, Victim 2",
+      "french": "Rapport de police, victime 2",
+      "russian": "Полицейский отчёт, жертва 2",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Полицейский отчёт, жертва 2",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_judge_report02.title",
+      "english": "Police Report, Victim 2",
+      "french": "Rapport de police, victime 2",
+      "russian": "Полицейский отчёт, жертва 2",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Полицейский отчёт, жертва 2",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_report03_01.source",
+      "english": "Police Report, Victim 3",
+      "french": "Rapport de police, victime 3",
+      "russian": "Полицейский отчёт, жертва 3",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Полицейский отчёт, жертва 3",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_report03_01.source",
+      "english": "Police Report, Victim 3",
+      "french": "Rapport de police, victime 3",
+      "russian": "Полицейский отчёт, жертва 3",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Полицейский отчёт, жертва 3",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_angel_report03.title",
+      "english": "Police Report, Victim 3",
+      "french": "Rapport de police, victime 3",
+      "russian": "Полицейский отчёт, жертва 3",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Полицейский отчёт, жертва 3",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_judge_report03.title",
+      "english": "Police Report, Victim 3",
+      "french": "Rapport de police, victime 3",
+      "russian": "Полицейский отчёт, жертва 3",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Полицейский отчёт, жертва 3",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_report04_01.source",
+      "english": "Police Report, Victim 4",
+      "french": "Rapport de police, victime 4",
+      "russian": "Полицейский отчёт, жертва 4",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Полицейский отчёт, жертва 4",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_report04_02.source",
+      "english": "Police Report, Victim 4",
+      "french": "Rapport de police, victime 4",
+      "russian": "Полицейский отчёт, жертва 4",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Полицейский отчёт, жертва 4",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_report04_03.source",
+      "english": "Police Report, Victim 4",
+      "french": "Rapport de police, victime 4",
+      "russian": "Полицейский отчёт, жертва 4",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Полицейский отчёт, жертва 4",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_report04_04.source",
+      "english": "Police Report, Victim 4",
+      "french": "Rapport de police, victime 4",
+      "russian": "Полицейский отчёт, жертва 4",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Полицейский отчёт, жертва 4",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_report04_05.source",
+      "english": "Police Report, Victim 4",
+      "french": "Rapport de police, victime 4",
+      "russian": "Полицейский отчёт, жертва 4",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Полицейский отчёт, жертва 4",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_sand_report04.title",
+      "english": "Police Report, Victim 4",
+      "french": "Rapport de police, victime 4",
+      "russian": "Полицейский отчёт, жертва 4",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Полицейский отчёт, жертва 4",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.DOCUMENT.NAME.REPORT01.VICTIM1",
+      "english": "Police Report: Autopsy, Victim # 1",
+      "french": "Rapport de police : Autopsie, Victime # 1",
+      "russian": "Полицейский отчёт: вскрытие, жертва №1",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Полицейский отчёт: Вскрытие, жертва № 1",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.DOCUMENT.NAME.REPORT02.VICTIM2",
+      "english": "Police Report: Autopsy, Victim # 2",
+      "french": "Rapport de police : Autopsie, Victime # 2",
+      "russian": "Полицейский отчёт: вскрытие, жертва №2",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Полицейский отчёт: Вскрытие, жертва № 2",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.DOCUMENT.NAME.REPORT03.AOD.CASE",
+      "english": "Police Report: Angel of Death Case",
+      "french": "Rapport de police : Dossier Ange de la Mort",
+      "russian": "Полицейский отчёт: дело Ангела смерти",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Полицейский отчёт: Дело об ангеле смерти",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue.source.cop",
+      "english": "Cop",
+      "french": "Flic",
+      "russian": "Полицейский",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Полицейский",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue.source.radio",
+      "english": "Radio",
+      "french": "Radio",
+      "russian": "Радио",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Радио",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_houssine_01.title",
+      "english": "Killer was sorry",
+      "french": "Tueur désolé",
+      "russian": "Убийца извинился",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийца извинился",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_salim_01.title",
+      "english": "Salim = investigating the first 3 victims",
+      "french": "Salim = a enquêté sur les 3 premières victimes",
+      "russian": "Салим собирал сведения о первых трёх жертвах",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Салим = расследовал первых 3 жертв",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_salim_01.source",
+      "english": "Salim’s files",
+      "french": "Dossier de Salim",
+      "russian": "Досье Салима",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Файлы Салима",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_judge_salim.title",
+      "english": "Salim’s files",
+      "french": "Dossier de Salim",
+      "russian": "Досье Салима",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Файлы Салима",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_customer_ludwig_03.title",
+      "english": "Powder smell while talking to Ludwig",
+      "french": "Odeur de poudre de pistolet sentie avec Ludwig",
+      "russian": "Запах пороха во время разговора с Людвигом",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Запах пороха во время разговора с Людвигом",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "poi_sand_escort.title",
+      "english": "Secret Escort 75",
+      "french": "Secret Escort 75",
+      "russian": "Secret Escort 75",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Секретный эскорт 75",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.SUSPECT.NAME.SOPHIA",
+      "english": "Sophia",
+      "french": "Sophia",
+      "russian": "София",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "София",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_chrisrecords_01.source",
+      "english": "Chris’ criminal records",
+      "french": "Casier judiciaire de Chris",
+      "russian": "Уголовное досье Криса",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Досье Криса",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_chrisrecords_02.source",
+      "english": "Chris’ criminal records",
+      "french": "Casier judiciaire de Chris",
+      "russian": "Уголовное досье Криса",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Досье Криса",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_chrisrecords_03.source",
+      "english": "Chris’ criminal records",
+      "french": "Casier judiciaire de Chris",
+      "russian": "Уголовное досье Криса",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Досье Криса",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_chrisrecords_04.source",
+      "english": "Chris’ criminal records",
+      "french": "Casier judiciaire de Chris",
+      "russian": "Уголовное досье Криса",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Досье Криса",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_sand_chrisrecords.title",
+      "english": "Chris’ criminal records",
+      "french": "Casier judiciaire de Chris",
+      "russian": "Уголовное досье Криса",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Досье Криса",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_victimrecords_01.source",
+      "english": "Victim 1’s criminal records",
+      "french": "Casier judiciaire de victime 1",
+      "russian": "Уголовное досье жертвы №1",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Судимости жертвы 1",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_victimrecords_02.source",
+      "english": "Victim 1’s criminal records",
+      "french": "Casier judiciaire de victime 1",
+      "russian": "Уголовное досье жертвы №1",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Судимости жертвы 1",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_victimrecords_03.source",
+      "english": "Victim 1’s criminal records",
+      "french": "Casier judiciaire de victime 1",
+      "russian": "Уголовное досье жертвы №1",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Судимости жертвы 1",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_sand_victimrecords.title",
+      "english": "Victim 1’s criminal records",
+      "french": "Casier judiciaire de victime 1",
+      "russian": "Уголовное досье жертвы №1",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Судимости жертвы 1",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.NAME.SYMBOL.NO.VIC02",
+      "english": "Symbot not drawn by victim 2",
+      "french": "Symbole pas dessiné par victime 2",
+      "russian": "Символ не нарисован жертвой 2",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Символ не нарисован жертвой 2",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.NAME.CHURCH.LINK.PHOTO",
+      "english": "Symbol linked to church",
+      "french": "Symbole lié à l'église",
+      "russian": "Символ, связанный с церковью",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Символ, связанный с церковью",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.NAME.SYMBOL.CHURCH",
+      "english": "Symbol linked to Church",
+      "french": "Symbole lié à l'Église",
+      "russian": "Символ, связанный с церковью",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Символ, связанный с церковью",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.NAME.SYMBOL.BLOOD",
+      "english": "Symbol drawn by victim 2?",
+      "french": "Symbole dessiné par victime 2?",
+      "russian": "Символ, нарисованный жертвой 2?",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Символ, нарисованный жертвой 2?",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.NAME.SYMBOL.PHOTO",
+      "english": "Symbol drawn by victim 2?",
+      "french": "Symbole dessiné par victime 2?",
+      "russian": "Символ, нарисованный жертвой 2?",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Символ, нарисованный жертвой 2?",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.NAME.SYMBOL.VIC02",
+      "english": "Symbol drawn by victim 2?",
+      "french": "Symbole dessiné par la victime 2 ?",
+      "russian": "Символ, нарисованный жертвой 2?",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Символ, нарисованный жертвой 2?",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.TT.SYMBOL.NO.VIC02",
+      "english": "Symbol drawn high.",
+      "french": "Symbole écrit trop haut.",
+      "russian": "Символ нарисован слишком высоко.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Символ нарисован высоко.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue.source.gasstation",
+      "english": "Gas Station",
+      "french": "Station service",
+      "russian": "Заправка",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Заправка",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_herve_01.title",
+      "english": "Killer < 1m70",
+      "french": "Tueur < 1m70",
+      "russian": "Рост убийцы — меньше 1,70 м",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийца <1м70",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_rumor_01.title",
+      "english": "Killer < 1m70",
+      "french": "Tueur < 1m70",
+      "russian": "Рост убийцы — меньше 1,70 м",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Рост убийцы — меньше 1,70 м",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_houssine_01.title",
+      "english": "Killer < 1m70",
+      "french": "Tueur < 1m70",
+      "russian": "Рост убийцы — меньше 1,70 м",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Рост убийцы — меньше 1,70 м",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_kcase_01.title",
+      "english": "Killer < 1m80",
+      "french": "Tueur < 1m80",
+      "russian": "Рост убийцы — меньше 1,80 м",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийца < 1м80",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_customer_ade_01.title",
+      "english": "Killer = taking satisfaction in killing",
+      "french": "Tueur = prend du plaisir à tuer",
+      "russian": "Убийца получает удовольствие от убийств",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийца = получающий удовольствие от убийства",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_gas_02.title",
+      "english": "Killer = religious freak",
+      "french": "Tueur = fanatique religieux",
+      "russian": "Убийца — религиозный фанатик",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийца — религиозный фанатик",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_rumor_01.title",
+      "english": "Killer = low voice, sounded old",
+      "french": "Tueur = voix grave, plutôt âgée",
+      "russian": "У убийцы низкий голос, как у пожилого человека",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "У убийцы низкий голос, как у пожилого человека",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_angel_sus04_01.title",
+      "english": "Killer = vampire?",
+      "french": "Tueur = vampire?",
+      "russian": "Убийца — вампир?",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийца = вампир?",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_rumor_02.title",
+      "english": "Killer = female voice pretending to be male",
+      "french": "Tueur = voix féminine se faisant passer pour un homme",
+      "russian": "Голос убийцы — женский, замаскированный под мужской",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Голос убийцы — женский, замаскированный под мужской",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    }
+  ],
+  "exact_legacy_fallback_updates": [
+    {
+      "english": "Police Report: Autopsy, Victim # 1",
+      "ui_keys": [
+        "GC.DOCUMENT.NAME.REPORT01.VICTIM1"
+      ],
+      "previous_fallback": "Полицейский отчёт: Вскрытие, жертва № 1",
+      "russian": "Полицейский отчёт: вскрытие, жертва №1"
+    },
+    {
+      "english": "Police Report: Autopsy, Victim # 2",
+      "ui_keys": [
+        "GC.DOCUMENT.NAME.REPORT02.VICTIM2"
+      ],
+      "previous_fallback": "Полицейский отчёт: Вскрытие, жертва № 2",
+      "russian": "Полицейский отчёт: вскрытие, жертва №2"
+    },
+    {
+      "english": "Police Report: Angel of Death Case",
+      "ui_keys": [
+        "GC.DOCUMENT.NAME.REPORT03.AOD.CASE"
+      ],
+      "previous_fallback": "Полицейский отчёт: Дело об ангеле смерти",
+      "russian": "Полицейский отчёт: дело Ангела смерти"
+    },
+    {
+      "english": "Salim = investigating the first 3 victims",
+      "ui_keys": [
+        "clue_judge_salim_01.title"
+      ],
+      "previous_fallback": "Салим = расследовал первых 3 жертв",
+      "russian": "Салим собирал сведения о первых трёх жертвах"
+    },
+    {
+      "english": "Salim’s files",
+      "ui_keys": [
+        "clue_judge_salim_01.source",
+        "doc_judge_salim.title"
+      ],
+      "previous_fallback": "Файлы Салима",
+      "russian": "Досье Салима"
+    },
+    {
+      "english": "Secret Escort 75",
+      "ui_keys": [
+        "poi_sand_escort.title"
+      ],
+      "previous_fallback": "Секретный эскорт 75",
+      "russian": "Secret Escort 75"
+    },
+    {
+      "english": "Chris’ criminal records",
+      "ui_keys": [
+        "clue_sand_chrisrecords_01.source",
+        "clue_sand_chrisrecords_02.source",
+        "clue_sand_chrisrecords_03.source",
+        "clue_sand_chrisrecords_04.source",
+        "doc_sand_chrisrecords.title"
+      ],
+      "previous_fallback": "Досье Криса",
+      "russian": "Уголовное досье Криса"
+    },
+    {
+      "english": "Victim 1’s criminal records",
+      "ui_keys": [
+        "clue_sand_victimrecords_01.source",
+        "clue_sand_victimrecords_02.source",
+        "clue_sand_victimrecords_03.source",
+        "doc_sand_victimrecords.title"
+      ],
+      "previous_fallback": "Судимости жертвы 1",
+      "russian": "Уголовное досье жертвы №1"
+    },
+    {
+      "english": "Symbol drawn high.",
+      "ui_keys": [
+        "GC.CLUE.TT.SYMBOL.NO.VIC02"
+      ],
+      "previous_fallback": "Символ нарисован высоко.",
+      "russian": "Символ нарисован слишком высоко."
+    },
+    {
+      "english": "Killer < 1m80",
+      "ui_keys": [
+        "clue_angel_kcase_01.title"
+      ],
+      "previous_fallback": "Убийца < 1м80",
+      "russian": "Рост убийцы — меньше 1,80 м"
+    },
+    {
+      "english": "Killer = taking satisfaction in killing",
+      "ui_keys": [
+        "clue_judge_customer_ade_01.title"
+      ],
+      "previous_fallback": "Убийца = получающий удовольствие от убийства",
+      "russian": "Убийца получает удовольствие от убийств"
+    },
+    {
+      "english": "Killer = vampire?",
+      "ui_keys": [
+        "guess_angel_sus04_01.title"
+      ],
+      "previous_fallback": "Убийца = вампир?",
+      "russian": "Убийца — вампир?"
+    }
+  ],
+  "legacy_fallback_owner_collisions": [
+    {
+      "key": "clue_angel_customer_herve_01.title",
+      "english": "Killer < 1m70",
+      "owners": [
+        "clue_angel_customer_herve_01.title",
+        "clue_angel_customer_rumor_01.title",
+        "clue_angel_houssine_01.title",
+        "clue_angel_radionews01_01.title"
+      ],
+      "decision": "Keyed Russian is authoritative. Global legacy fallback cannot distinguish owners; unchanged."
+    }
+  ]
+}

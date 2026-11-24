@@ -1,0 +1,12 @@
+{
+  "kind": "CREDIT_LAYOUT_ONLY",
+  "baseline_package": "release/NativePatch_LEXICAL_FR_WIP_20261018_064132",
+  "baseline_manifest_sha256": "f8cceed17b71bc52646a5630189032d7c8762ba580106ea18af9aa071e794f60",
+  "live_defect": "review/live_retry_20261018_081330/validation.json",
+  "reason_ru": "Длинная благодарность Josepha Guigues обрезалась справа при 100% и 150%. Контейнер Credits Roller растягивается по предпочтительной ширине содержимого. Ограничить его шириной Viewport, сохранив автоматический расчёт высоты и перенос строк.",
+  "text_changes": 0,
+  "rows": [
+    {"asset": "level3", "path_id": 1571, "game_object_id": 302, "rect_transform_id": 949, "josepha_text_id": 1439, "class": "ContentSizeFitter", "game_object": "Credits Roller", "field": "m_HorizontalFit", "before": 2, "after": 0},
+    {"asset": "level7", "path_id": 910, "game_object_id": 163, "rect_transform_id": 555, "josepha_text_id": 782, "class": "ContentSizeFitter", "game_object": "Credits Roller", "field": "m_HorizontalFit", "before": 2, "after": 0}
+  ]
+}

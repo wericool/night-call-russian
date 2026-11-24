@@ -1,0 +1,72 @@
+{
+  "status": "contextually_reviewed",
+  "keys": [
+    {
+      "key": "GC.SUSPECT.TT.JONAS",
+      "english": "This brilliant physicist was arrested twice for assault and domestic violence. His last companion reached the police, saying he was sure Jonas was the Angel of Death. His passion: ﬁshing.",
+      "russian": "Этого талантливого физика дважды арестовывали за домашнее насилие. Его последний партнёр позвонил в полицию, заявив, что уверен: Йонас — Ангел смерти. Его увлечение — рыбалка.",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "d6db4ee143cdc3af5fef95330ccd8e856fd91e12a65a5b38ad253015b19c6474",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_sources_batch02_fr.py",
+          "before": "Этот талантливый физик дважды был арестован за нападение и домашнее насилие. Его последний партнёр обратился в полицию, заявив, что уверен: Йонас — Ангел смерти. Его увлечение — рыбалка.",
+          "after": "Этого талантливого физика дважды арестовывали за домашнее насилие. Его последний партнёр позвонил в полицию, заявив, что уверен: Йонас — Ангел смерти. Его увлечение — рыбалка."
+        }
+      ]
+    },
+    {
+      "key": "043_jonas.bio",
+      "english": "Height = 1m81.\nA brilliant programmer for several start-ups & companies.\nWrote books about the \"simulation we're all living in.\"\nDestroyed evidence when the police started investigating.",
+      "russian": "Рост: 1,81 м.\nТалантливый программист, работал на стартапы и компании.\nАвтор книг о «симуляции, в которой мы все живём».\nУничтожил много документов, как только полиция начала расследование.",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "0b4223253b4d80eab5d6e16b7e25c7b9bb63341a5f5d3cde6fda2e83073dd5f3",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_dossiers_batch03_fr.py",
+          "before": "Рост: 1,81 м.\nТалантливый программист, работал на несколько стартапов и компаний.\nАвтор книг о «симуляции, в которой мы все живём».\nУничтожил улики, когда полиция начала расследование.",
+          "after": "Рост: 1,81 м.\nТалантливый программист, работал на стартапы и компании.\nАвтор книг о «симуляции, в которой мы все живём».\nУничтожил много документов, как только полиция начала расследование."
+        }
+      ]
+    },
+    {
+      "key": "GC.SUSPECT.NAME.JONAS",
+      "english": "Jonas",
+      "russian": "Йонас",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "9b67e15f271a91f875a2cad35cb8196b79e726f9c5b28e091037d739abc2d7fa"
+    },
+    {
+      "key": "clue_angel_customer_jonas_01.title",
+      "english": "Jonas believes we’re in a simulation",
+      "russian": "Йонас считает, что мы живём в симуляции",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "cdeebae865a6de306630ee5b5bacca377e44762a5da0e1c511762daecc5ffebd"
+    },
+    {
+      "key": "clue_angel_customer_jonas_01.source",
+      "english": "Meeting Jonas",
+      "russian": "Со слов Йонаса",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "a3a42d701c452367c7ab9beccdc6f2df26ffbd7277816e33ababddc1275d1f2f",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_killer_batch09_fr.py",
+          "before": "Встреча с Йонасом",
+          "after": "Со слов Йонаса"
+        }
+      ]
+    }
+  ],
+  "source_files": [
+    "original/LocalizationData/sharedassets0.assets/2096.json",
+    "original/LocalizationData/sharedassets0.assets/2097.json"
+  ],
+  "reason": "Пять связанных с Йонасом ключей, не весь интерфейс. Программист/физик сохранены в своих исходных ключах.",
+  "author_file": "scripts/finalize_jonas_context.py"
+}

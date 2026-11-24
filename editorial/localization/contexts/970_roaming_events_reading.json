@@ -1,0 +1,60 @@
+{
+  "status": "superseded_by_complete_editorial_and_native_compiler_validation",
+  "scene": "970_roaming_events_eng",
+  "source_sha256": "c704b55f31c3921138785b4eecba4fad5a94f6e31de734bb89987dd08d11a71c",
+  "original_files": [
+    "original/TextAsset/sharedassets0.assets/863.json",
+    "original/TextAsset/sharedassets0.assets/839.json"
+  ],
+  "read_sources": [
+    "All103English/French/previousRussian blocks,101visiblelines0choices",
+    "All English/French raw controls compared: identical;no $$commands in scene",
+    "Related canon names/driverpast contexts read previously;detailed linked15location scenes stillpending"
+  ],
+  "findings": [
+    "Allambient/intel paragraphs read. Source has re_ambient_076 with %% Deleted. and no text;keep explicitly empty,not absent/missing prose. Twoemptytechnicalblocks explicit in future save_scene. No new menu/action/variable should be added.",
+    "Street/body idioms follow FR: sudden brief wound pain has no EN long second; fingers check blood then all fine, no new diagnosis. Dog025 howls as if sensing death by traditional FR image, not EN barking up a storm or real death. No physical notebook/extra attack inserted.",
+    "Ambient016buswaves is metonymic vehicle signal,not waving wheels/arms. Ambient031maintenance workers arestreetcleaners perFRagentsproprete,not repaircrew. Ambient038luxurycartriggersspeedradar,not merely visible radar;that explainsdriverssmile. Ambient040publicworks truck versus031cleaners are separate roles.",
+    "Traffic officer is регулировщик, not invented DPS. Industrial zones remain; FR barres d’immeubles037 is long apartment blocks, no supported social-housing status from EN. Ambulance/fire/public-works signals keep road context; ground floor stays Russian first floor.",
+    "Ambient017unnamedcat neutralENits/FRchat;018ENhe supportsmale;020tomcat definitelymale. Do not turn randomcats into Круки/Вано/Муйетт or importotherpetsex/owners. Femalegreyhoundowner067 not necessarily randomdogsex. Fortysomethings056not infermalejustfromsuits;neutralдвое preventsinventedfact.",
+    "Ambient065movie-starfromcoffeeads male byFRcelui,notoldRUтой female. No namedactor/identity inferred. Ambient066Ade keeps momentaryuncertainty thenconfirmsAde,notrobotAda200. Ambient059/062Herve samecanonicalЭрве;083Jacquie sameЖаки,notoldЖакки. Do not invent precise passenger linkwithoutsourceflags.",
+    "Toponyms/puns070/072 and Orsay/Louvre original impressions retained, not factual history additions. Marais079 both ancien labels retained; bobo adapted as prosperous hipsters by primary FR meaning, not generic fashionable youth. GareduNord082 slang/poor tourist impression retained as driver observation.",
+    "Intel001 along cemetery;002fire station;003female suspect church;005Belvedere bar/female regular.004FRil vous semble is merely кажется, not ENpretty-sure. Jules remains male; жила agrees with жертва.008contact inside not new officer;009one of photos, not multiple images.",
+    "Intel011Sandmanattackconditionalcontextmustbetracedfromcallerflags,notgeneralclaimkilleridentityallcases. 012femalehospitalworker notmale;не006Esmeraldawithsamedestinationwithoutproof. 013SecretEscort75keepcanonicalbrand/escortserviceunassumingbuilding. 014Albatrosbuildingcanonical.",
+    "Intel015FRpaquebot is glass liner; former EN-yacht priority explicitly cancelled, current RU already liner.016spectators leave shows;017generic starred restaurant without invented Michelin brand/star count.018after-midnight/019dawn remain opportunities, not guaranteed bookings."
+  ],
+  "remaining": [],
+  "validation": "localization/roaming_gameover_scene_validation.json",
+  "explicit_reading_corrections": [
+    {
+      "previous": "Allambient/intel paragraphs read. Sourcehasnoambient076,do notinventmissingtranslation. Twoemptytechnicalblocks explicit in future save_scene. No new menu/action/variable should be added.",
+      "corrected": "Allambient/intel paragraphs read. Source has re_ambient_076 with %% Deleted. and no text;keep explicitly empty,not absent/missing prose. Twoemptytechnicalblocks explicit in future save_scene. No new menu/action/variable should be added.",
+      "evidence": "Original970 raw title re_ambient_076/Deleted;real compiled/runtime empty entry emits0 lines."
+    },
+    {
+      "previous": "Literal body/street idioms:turnonheels→разворачивается,heavyeyes→тяжёлые веки,barkingupstormnotweather,heartgoesout→сочувствие,mentalnote≠physicalnotebook,cab≠кабина. Fatigue/traumawound/tasteofblood remain sensations withlaterallfine,not newdiagnosis/actualfreshattack.",
+      "corrected": "Street/body idioms follow FR: sudden brief wound pain has no EN long second; fingers check blood then all fine, no new diagnosis. Dog025 howls as if sensing death by traditional FR image, not EN barking up a storm or real death. No physical notebook/extra attack inserted.",
+      "evidence": "Complete FR970103blocks/101visible lines manually reread18.10; exact source quotes and reasons in ROAMING_HOSPITAL_QUALITY_CHANGES_RU.md/plan."
+    },
+    {
+      "previous": "ENtrafficcontrolofficer→регулировщик,not RussianDPSinstitution. ENindustrialparks/subsidizedhousing→industrialzones/socialhousing,not literalgreenparks. Firetrucks/ambulance/shininglights allroadcontext,not militaryvehicles. Groundfloor Russianпервыйэтаж.",
+      "corrected": "Traffic officer is регулировщик, not invented DPS. Industrial zones remain; FR barres d’immeubles037 is long apartment blocks, no supported social-housing status from EN. Ambulance/fire/public-works signals keep road context; ground floor stays Russian first floor.",
+      "evidence": "Complete FR970103blocks/101visible lines manually reread18.10; exact source quotes and reasons in ROAMING_HOSPITAL_QUALITY_CHANGES_RU.md/plan."
+    },
+    {
+      "previous": "Toponyms/wordplay070RueDesDeuxBoules and072PontNeuf need Russianreadablepropernames plusretainedtwo-balls/new-bridge jokes;not silentlyEnglishleftover. Orsayformerstationnowmuseum,MaraisJewish/gay/hipster phrasingasdriversview,notnewhistoricalguide. Louvreviewline retainedassourceimpression,notbasisforinventedhistory.",
+      "corrected": "Toponyms/puns070/072 and Orsay/Louvre original impressions retained, not factual history additions. Marais079 both ancien labels retained; bobo adapted as prosperous hipsters by primary FR meaning, not generic fashionable youth. GareduNord082 slang/poor tourist impression retained as driver observation.",
+      "evidence": "Complete FR970103blocks/101visible lines manually reread18.10; exact source quotes and reasons in ROAMING_HOSPITAL_QUALITY_CHANGES_RU.md/plan."
+    },
+    {
+      "previous": "Locationintel001drivingALONGcemetery,notthroughgraves. 002firestationnotrailwaystation. 003churchfemale suspectbyFRsuspecte;005BelvedereisBARandfemaleregularbyFRhabituée,not inventedrestaurant/malesuspect. 004JulesLima residentpretty-sure,notcertainty. 008embassycontactnotnewpoliceofficeroutside. 009militarysurplusstore,not literalмагазинизлишков.",
+      "corrected": "Intel001 along cemetery;002fire station;003female suspect church;005Belvedere bar/female regular.004FRil vous semble is merely кажется, not ENpretty-sure. Jules remains male; жила agrees with жертва.008contact inside not new officer;009one of photos, not multiple images.",
+      "evidence": "Complete FR970103blocks/101visible lines manually reread18.10; exact source quotes and reasons in ROAMING_HOSPITAL_QUALITY_CHANGES_RU.md/plan."
+    },
+    {
+      "previous": "Intel015recognizeglassheadquarters,notknowfactwithoutobject. ENyachtlike versusFRliner explicitprimaryENdecisionfuture. 016audience leavingperformances,not passengers finishingownshows. 017starredrestaurant means restaurantwithstars,not cosmic/hotel;luxury/front/peoplehailingcabretained. 018after-midnight and019dawn distinctopportunitiestogetfares,notnewguaranteedbookings.",
+      "corrected": "Intel015FRpaquebot is glass liner; former EN-yacht priority explicitly cancelled, current RU already liner.016spectators leave shows;017generic starred restaurant without invented Michelin brand/star count.018after-midnight/019dawn remain opportunities, not guaranteed bookings.",
+      "evidence": "Complete FR970103blocks/101visible lines manually reread18.10; exact source quotes and reasons in ROAMING_HOSPITAL_QUALITY_CHANGES_RU.md/plan."
+    }
+  ]
+}

@@ -1,0 +1,763 @@
+{
+  "scope": "60explicit French UI fields manually read/accepted; not whole interface.",
+  "french_priority_author": "scripts/review_ui_sources_batch10_fr.py",
+  "french_priority_decisions": [
+    "Вручную прочитаны все60оставшихся обычных полей EN/FR/текущийRU, включая10пустых оригинальныхисточниковPOI. Первые10очереди (неоднозначные/технические) здесь не приняты.",
+    "Отчёт о первой автопсии: полицейская «подруга» женщина поFRamie и подтверждённойБюссе, кавычкисаркастические. Страницынебыливырваны: данныхмного, водительмалоечтопонимает, резюмепонятнее. Старыйрусскийвыдуманныйсюжетовырванныхстраницахполностьюснят.",
+    "Статьяокражахсовзломом восстановила отсутствовавшиеинструментыишутку«длячайников». Заголовкитрёх газетныхстатейсталиназваниямистатей, нецелойгазетой; исходныевосклицательные знакисохранены. Архиепископ/Ангелсмерти — текстигры, не новое обвинениереальныхлиц.",
+    "Барменша подтвержденаграмматическимFRla barman, неименем. Со словбарменши/Жеральдины/Марко/вашегоисточникапожарных передаётавторствоинформации, не независимуюистину. ENmyнепереводитсявопрекиFRvotre: вэтойгруппевашисточник. Все21подписьБюссе иоднаЖюльянапрочитаныотдельно, верныесохранены.",
+    "Орудиеножидентично уже свереннымcase/tooltipполям: рыбацкийинструмент, нождлярыбы. Редкийпистолетиспользовалсяв70-х, неавтоматическиизготовленв70-х/новаямарка/доказанныйвладелец. Сравниваетсяпочеркподжигателей, несамчеловекбуквальнопохожнапожар.",
+    "Десятьpoi*.source пустыВОБОИХоригиналах, noENtext/noFRtext; прежниепридуманныеподписи«Хакер/Больница/БарBelvédère» удаленыименноизэтихпустыхполей. Собственныеpoi*.titleполностьюсохранены; названияместненарезались. Обычнаяпустотаоригиналанеестьнедопереведённыйтекст.",
+    "Газетакакисточник/японскийязык/лёгкийдоступсбалкона/словасвидетеляопожиломмужчинеилиженщине прочитаны, корректноесохранено. Полсвидетеляиубийцыдополнительнонеопределён. Порядокзацепок/ID/переходы/команды/числаресурсовне менялись."
+  ],
+  "linked_contexts_read": [
+    "100_cop",
+    "055_julian",
+    "031_geraldine",
+    "014_fragonard",
+    "972_radio_fr_ui"
+  ],
+  "keys": [
+    {
+      "key": "doc_angel_report01.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Предоставлено Бюссе",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_angel_report02.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Предоставлено Бюссе",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_angel_report03.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Предоставлено Бюссе",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_judge_autopsy03.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Предоставлено Бюссе",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_judge_autopsy04.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Предоставлено Бюссе",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_judge_kcase.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Предоставлено Бюссе",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_judge_pic01.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Предоставлено Бюссе",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_judge_pic02.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Предоставлено Бюссе",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_judge_pic03.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Предоставлено Бюссе",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_judge_pic04.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Предоставлено Бюссе",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_judge_report01.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Предоставлено Бюссе",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_judge_report02.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Предоставлено Бюссе",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_judge_report03.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Предоставлено Бюссе",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_sand_autopsy01.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Предоставлено Бюссе",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_sand_autopsy02.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Предоставлено Бюссе",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_sand_autopsy03.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Предоставлено Бюссе",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_sand_chrisrecords.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Предоставлено Бюссе",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_sand_kcase.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Предоставлено Бюссе",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_sand_report04.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Предоставлено Бюссе",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_sand_suspectsintel.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Предоставлено Бюссе",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_sand_victimrecords.source",
+      "english": "Given by Busset",
+      "french": "Info donnée par Busset",
+      "russian": "Предоставлено Бюссе",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Предоставлено Бюссе",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_bar_01.source",
+      "english": "From the bartender at Belvédère",
+      "french": "D'après la barman au Belvédère",
+      "russian": "Со слов барменши «Бельведера»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "От барменши в «Бельведере»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_bar_02.source",
+      "english": "From the bartender at Belvédère",
+      "french": "D'après la barman au Belvédère",
+      "russian": "Со слов барменши «Бельведера»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "От барменши в «Бельведере»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_bar_03.source",
+      "english": "From the bartender at Belvédère",
+      "french": "D'après la barman au Belvédère",
+      "russian": "Со слов барменши «Бельведера»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "От барменши в «Бельведере»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_bar_04.source",
+      "english": "From the bartender at Belvédère",
+      "french": "D'après la barman au Belvédère",
+      "russian": "Со слов барменши «Бельведера»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "От барменши в «Бельведере»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_geraldine_01.source",
+      "english": "From Géraldine",
+      "french": "D'après Géraldine",
+      "russian": "Со слов Жеральдины",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "От Жеральдины",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_geraldine_02.source",
+      "english": "From Géraldine",
+      "french": "D'après Géraldine",
+      "russian": "Со слов Жеральдины",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "От Жеральдины",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_judge_julian.source",
+      "english": "Given by Julian",
+      "french": "Info donnée par Julian",
+      "russian": "Передал Жюльян",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Передал Жюльян",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_cemetery_01.source",
+      "english": "From Marco at cemetery",
+      "french": "Selon Marco, au cimetière",
+      "russian": "Со слов Марко на кладбище",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "От Марко на кладбище",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_cemetery_02.source",
+      "english": "From Marco at cemetery",
+      "french": "Selon Marco, au cimetière",
+      "russian": "Со слов Марко на кладбище",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "От Марко на кладбище",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_cemetery_03.source",
+      "english": "From Marco at cemetery",
+      "french": "Selon Marco, au cimetière",
+      "russian": "Со слов Марко на кладбище",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "От Марко на кладбище",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.DOCUMENT.TT.REPORT01.VICTIM1",
+      "english": "Given by your \"friend\" from the police... the autopsy report of the first victim. A lot of pages were given to you but you don't understand much... You understand the sum-up better.",
+      "french": "Donné par votre « amie » de la police… Le rapport d’autopsie de la première victime. Des pages entières de données dont vous ne comprenez pas grand-chose… Le résumé vous parle davantage.",
+      "russian": "От вашей «подруги» из полиции… Отчёт о вскрытии первой жертвы. Целые страницы данных, в которых вы почти ничего не понимаете… Краткое изложение куда понятнее.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "От вашего «друга» из полиции... отчёт о вскрытии первой жертвы. Многие страницы были вырваны, но кое-что полезное осталось.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_fire_01.source",
+      "english": "From my source at the fire station",
+      "french": "Selon votre source chez les pompiers",
+      "russian": "Со слов вашего источника в пожарной части",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "От моего источника в пожарной части",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_fire_02.source",
+      "english": "From my source at the fire station",
+      "french": "Selon votre source chez les pompiers",
+      "russian": "Со слов вашего источника в пожарной части",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "От моего источника в пожарной части",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_fire_03.source",
+      "english": "From my source at the fire station",
+      "french": "Selon votre source chez les pompiers",
+      "russian": "Со слов вашего источника в пожарной части",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "От моего источника в пожарной части",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_fire_04.source",
+      "english": "From my source at the fire station",
+      "french": "Selon votre source chez les pompiers",
+      "russian": "Со слов вашего источника в пожарной части",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "От моего источника в пожарной части",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_victimrecords_03.title",
+      "english": "Victim 1’s usual MO similar to Albatros fire",
+      "french": "Victime 1 = mode opération similaire à l'incendie de l'Albatros",
+      "russian": "Почерк жертвы №1 схож с почерком поджигателя «Альбатроса»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Обычный почерк Жертвы 1 похож на пожар Альбатроса",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.NAME.KNIFE.STANDARD",
+      "english": "Weapon = fisherman tool",
+      "french": "L'arme = outil de pêcheur",
+      "russian": "Орудие убийства — инструмент рыбака",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Оружие = рыбацкий инструмент",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.NAME.KNIFE.VIC01",
+      "english": "Weapon = fish knife",
+      "french": "Arme = couteau à poisson",
+      "russian": "Орудие убийства — нож для рыбы",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Оружие = нож для рыбы",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.NAME.KNIFE.VIC02",
+      "english": "Weapon = fish knife",
+      "french": "Arme = couteau à poisson",
+      "russian": "Орудие убийства — нож для рыбы",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Оружие = нож для рыбы",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_autopsy03_02.title",
+      "english": "Weapon = rare gun, used in the 70s",
+      "french": "Arme = pistolet rare, utilisé dans les années 70",
+      "russian": "Оружие — редкий пистолет, использовавшийся в 70-х годах",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Оружие = редкий пистолет, использовавшийся в 70-х годах.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_autopsy04_02.title",
+      "english": "Weapon = rare gun, used in the 70s",
+      "french": "Arme = pistolet rare, utilisé dans les années 70",
+      "russian": "Оружие — редкий пистолет, использовавшийся в 70-х годах",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Оружие = редкий пистолет, использовавшийся в 70-х годах.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue.source.newspaper",
+      "english": "Newspaper",
+      "french": "Journal",
+      "russian": "Газета",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Газета",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.DOCUMENT.NAME.NEWSPAPER05.ARCHBISHOP",
+      "english": "Newspaper: \"Archbishop killed in Paris\"",
+      "french": "Article de journal : « Archevêque tué à Paris ! »",
+      "russian": "Статья: «Архиепископ убит в Париже!»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Газета: \"Архиепископ убит в Париже\"",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.DOCUMENT.NAME.NEWSPAPER04.BURGLARIES",
+      "english": "Newspaper: \"Burglaries on the rise!\"",
+      "french": "Article de journal : « Cambriolages en hausse ! »",
+      "russian": "Статья: «Число краж со взломом растёт!»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Газета: \"Число квартирных краж растет!\"",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.DOCUMENT.NAME.NEWSPAPER06.AOE",
+      "english": "Newspaper: \"The Angel of Death strikes again!\"",
+      "french": "Article de journal : « L'ange de la Mort frappe encore ! »",
+      "russian": "Статья: «Ангел смерти наносит новый удар!»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Газета: \"Ангел смерти наносит новый удар!\"",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.DOCUMENT.TT.NEWSPAPER04.BURGLARIES",
+      "english": "A newspaper article talking about the significative rise of burglaries. The text describes techniques and tools necessaries to do a good burglary. It almost looks like a \"Burglaries for dummies\".",
+      "french": "Un article de journal qui parle d’une augmentation significative des cambriolages. Le texte décrit les techniques et les outils nécessaires. On dirait presque un guide de cambriolage pour les nuls.",
+      "russian": "Газетная статья о значительном росте краж со взломом. В тексте описаны приёмы взлома и необходимые инструменты. Почти пособие «Квартирные кражи для чайников».",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Газетная статья о значительном росте краж со взломом. В тексте описываются методы, используемые грабителями.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_gas_02.title",
+      "english": "Witness described Killer as old man or woman",
+      "french": "Témoin = tueur était homme ou femme âgée",
+      "russian": "Свидетель описал убийцу как пожилого мужчину или женщину",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Свидетель описал убийцу как пожилого мужчину или женщину",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.TT.BURGLARY.BALCONY",
+      "english": "Very easy to enter flat through balcony.",
+      "french": "Très facile d'entrer dans un appartement par le balcon.",
+      "russian": "Очень легко войти в квартиру через балкон.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Очень легко войти в квартиру через балкон.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "JAP",
+      "english": "Japanese",
+      "french": "Japonais",
+      "russian": "Японский",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Японский",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "poi_angel_bar.source",
+      "english": "",
+      "french": "",
+      "russian": "",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Бар Belvédère",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "poi_angel_cemetery.source",
+      "english": "",
+      "french": "",
+      "russian": "",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Кладбище",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "poi_angel_church.source",
+      "english": "",
+      "french": "",
+      "russian": "",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Церковь",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "poi_angel_fire.source",
+      "english": "",
+      "french": "",
+      "russian": "",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Пожарная часть",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "poi_angel_hacker.source",
+      "english": "",
+      "french": "",
+      "russian": "",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Хакер",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "poi_sand_cafe.source",
+      "english": "",
+      "french": "",
+      "russian": "",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Кафе",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "poi_sand_cemetery.source",
+      "english": "",
+      "french": "",
+      "russian": "",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Кладбище",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "poi_sand_escort.source",
+      "english": "",
+      "french": "",
+      "russian": "",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Эскорт-агентство",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "poi_sand_hospital.source",
+      "english": "",
+      "french": "",
+      "russian": "",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Больница",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "poi_sand_newsroom.source",
+      "english": "",
+      "french": "",
+      "russian": "",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Редакция",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    }
+  ],
+  "exact_legacy_fallback_updates": [
+    {
+      "english": "From the bartender at Belvédère",
+      "ui_keys": [
+        "clue_angel_bar_01.source",
+        "clue_angel_bar_02.source",
+        "clue_angel_bar_03.source",
+        "clue_angel_bar_04.source"
+      ],
+      "previous_fallback": "От бармена в ресторане Belvédère",
+      "russian": "Со слов барменши «Бельведера»"
+    },
+    {
+      "english": "From Géraldine",
+      "ui_keys": [
+        "clue_sand_customer_geraldine_01.source",
+        "clue_sand_customer_geraldine_02.source"
+      ],
+      "previous_fallback": "От Жеральдины",
+      "russian": "Со слов Жеральдины"
+    },
+    {
+      "english": "From Marco at cemetery",
+      "ui_keys": [
+        "clue_angel_cemetery_01.source",
+        "clue_angel_cemetery_02.source",
+        "clue_angel_cemetery_03.source"
+      ],
+      "previous_fallback": "От Марко на кладбище",
+      "russian": "Со слов Марко на кладбище"
+    },
+    {
+      "english": "Given by your \"friend\" from the police... the autopsy report of the first victim. A lot of pages were given to you but you don't understand much... You understand the sum-up better.",
+      "ui_keys": [
+        "GC.DOCUMENT.TT.REPORT01.VICTIM1"
+      ],
+      "previous_fallback": null,
+      "russian": "От вашей «подруги» из полиции… Отчёт о вскрытии первой жертвы. Целые страницы данных, в которых вы почти ничего не понимаете… Краткое изложение куда понятнее."
+    },
+    {
+      "english": "From my source at the fire station",
+      "ui_keys": [
+        "clue_angel_fire_01.source",
+        "clue_angel_fire_02.source",
+        "clue_angel_fire_03.source",
+        "clue_angel_fire_04.source"
+      ],
+      "previous_fallback": "От моего источника в пожарной части",
+      "russian": "Со слов вашего источника в пожарной части"
+    },
+    {
+      "english": "Victim 1’s usual MO similar to Albatros fire",
+      "ui_keys": [
+        "clue_sand_victimrecords_03.title"
+      ],
+      "previous_fallback": null,
+      "russian": "Почерк жертвы №1 схож с почерком поджигателя «Альбатроса»"
+    },
+    {
+      "english": "Weapon = fisherman tool",
+      "ui_keys": [
+        "GC.CLUE.NAME.KNIFE.STANDARD"
+      ],
+      "previous_fallback": "Оружие = рыбацкий инструмент",
+      "russian": "Орудие убийства — инструмент рыбака"
+    },
+    {
+      "english": "Weapon = fish knife",
+      "ui_keys": [
+        "GC.CLUE.NAME.KNIFE.VIC01",
+        "GC.CLUE.NAME.KNIFE.VIC02"
+      ],
+      "previous_fallback": "Оружие = нож для рыбы",
+      "russian": "Орудие убийства — нож для рыбы"
+    },
+    {
+      "english": "Weapon = rare gun, used in the 70s",
+      "ui_keys": [
+        "clue_judge_autopsy03_02.title",
+        "clue_judge_autopsy04_02.title"
+      ],
+      "previous_fallback": "Оружие = редкий пистолет, использовавшийся в 70-х годах.",
+      "russian": "Оружие — редкий пистолет, использовавшийся в 70-х годах"
+    },
+    {
+      "english": "Newspaper: \"Archbishop killed in Paris\"",
+      "ui_keys": [
+        "GC.DOCUMENT.NAME.NEWSPAPER05.ARCHBISHOP"
+      ],
+      "previous_fallback": "Газета: \"Архиепископ убит в Париже\"",
+      "russian": "Статья: «Архиепископ убит в Париже!»"
+    },
+    {
+      "english": "Newspaper: \"Burglaries on the rise!\"",
+      "ui_keys": [
+        "GC.DOCUMENT.NAME.NEWSPAPER04.BURGLARIES"
+      ],
+      "previous_fallback": "Газета: \"Число квартирных краж растет!\"",
+      "russian": "Статья: «Число краж со взломом растёт!»"
+    },
+    {
+      "english": "Newspaper: \"The Angel of Death strikes again!\"",
+      "ui_keys": [
+        "GC.DOCUMENT.NAME.NEWSPAPER06.AOE"
+      ],
+      "previous_fallback": "Газета: \"Ангел смерти наносит новый удар!\"",
+      "russian": "Статья: «Ангел смерти наносит новый удар!»"
+    },
+    {
+      "english": "A newspaper article talking about the significative rise of burglaries. The text describes techniques and tools necessaries to do a good burglary. It almost looks like a \"Burglaries for dummies\".",
+      "ui_keys": [
+        "GC.DOCUMENT.TT.NEWSPAPER04.BURGLARIES"
+      ],
+      "previous_fallback": null,
+      "russian": "Газетная статья о значительном росте краж со взломом. В тексте описаны приёмы взлома и необходимые инструменты. Почти пособие «Квартирные кражи для чайников»."
+    },
+    {
+      "english": "",
+      "ui_keys": [
+        "poi_angel_bar.source",
+        "poi_angel_cemetery.source",
+        "poi_angel_church.source",
+        "poi_angel_fire.source",
+        "poi_angel_hacker.source",
+        "poi_judge_archiv.source",
+        "poi_judge_embassy.source",
+        "poi_judge_gun.source",
+        "poi_judge_park.source",
+        "poi_judge_stad.source",
+        "poi_sand_cafe.source",
+        "poi_sand_cemetery.source",
+        "poi_sand_escort.source",
+        "poi_sand_hospital.source",
+        "poi_sand_newsroom.source",
+        "STORYSELECT.TITLE.CHOOSE.CONFIRMED"
+      ],
+      "previous_fallback": null,
+      "russian": ""
+    }
+  ],
+  "legacy_fallback_owner_collisions": []
+}

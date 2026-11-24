@@ -1,0 +1,697 @@
+{
+  "status": "contextually_reviewed",
+  "keys": [
+    {
+      "key": "clue_judge_customer_rumor_01.title",
+      "english": "Killer's height < 1m70",
+      "french": "Taille du tueur < 1m70",
+      "before": "Рост убийцы — меньше 1,70 м",
+      "russian": "Рост убийцы — меньше 1,70 м",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_judge_customer_rumor_01.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_judge_customer_rumor_02.title",
+      "english": "Victim 4 = responsible for Rictodin scandal, never trialed",
+      "french": "Victime 4 = responsable pour le scandale du Rictodin, jamais jugé",
+      "before": "Жертва №4 несёт ответственность за скандал с «Риктодином», но её не судили",
+      "russian": "Жертва №4 несёт ответственность за скандал с «Риктодином», но её не судили",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_judge_customer_rumor_02.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_judge_customer_rumor_03.title",
+      "english": "Victim 1 = molester, never arrested",
+      "french": "Victime 1 = a agressé sexuellement… mais jamais arrêté",
+      "before": "Жертва №1 — сексуальное насилие, ареста не было",
+      "russian": "Жертву №1 никогда не арестовывали за совершённое сексуальное насилие",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_victims_batch06_fr.py",
+          "before": "Жертву №1 не арестовали за совершённое сексуальное насилие",
+          "after": "Жертву №1 никогда не арестовывали за совершённое сексуальное насилие"
+        }
+      ]
+    },
+    {
+      "key": "clue_judge_customer_rumor_03.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_judge_customer_rumor_04.title",
+      "english": "Victim 1 = great football coach",
+      "french": "Victime 1 = excellent entraîneur de football",
+      "before": "Жертва №1 — отличный футбольный тренер",
+      "russian": "Жертва №1 — отличный футбольный тренер",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_judge_customer_rumor_04.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_judge_customer_rumor_05.title",
+      "english": "Victim 1 = protected by Saint-Ouen mayor",
+      "french": "Victime 1 protégée par le maire de Saint-Ouen",
+      "before": "Жертва №1 — под защитой мэра Сент-Уэна",
+      "russian": "Жертва №1 — под защитой мэра Сент-Уэна",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_judge_customer_rumor_05.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_judge_customer_rumor_06.title",
+      "english": "Victim 2 = fierce politician",
+      "french": "Victime 2 = politicien féroce",
+      "before": "Жертва №2 — жёсткий политик",
+      "russian": "Жертва №2 — жёсткий политик",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_judge_customer_rumor_06.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_judge_customer_rumor_07.title",
+      "english": "Victim 2 killed an Algerian man, never arrested",
+      "french": "Victime 2 a tué un Algérien, n'a jamais été arrêté",
+      "before": "Жертву №2 не арестовали за убийство алжирца",
+      "russian": "Жертву №2 никогда не арестовывали за убийство алжирца",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_victims_batch06_fr.py",
+          "before": "Жертву №2 не арестовали за убийство алжирца",
+          "after": "Жертву №2 никогда не арестовывали за убийство алжирца"
+        }
+      ]
+    },
+    {
+      "key": "clue_judge_customer_rumor_07.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_judge_customer_rumor_08.title",
+      "english": "Victim 3 = suspected member of the Process",
+      "french": "Victime 3 = membre suspecté du Processus",
+      "before": "Жертва №3 — предполагаемый участник «Процесса национальной реорганизации»",
+      "russian": "Жертва №3 — предполагаемый участник «Процесса национальной реорганизации»",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_judge_customer_rumor_08.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_judge_customer_rumor_09.title",
+      "english": "Victim 3 escaped from Argentina in the 80s",
+      "french": "Victime 3 a fuit l'Argentine dans les années 80",
+      "before": "Жертва №3 — побег из Аргентины в 1980-х",
+      "russian": "Жертва №3 — побег из Аргентины в 1980-х",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_judge_customer_rumor_09.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_judge_customer_rumor_10.title",
+      "english": "Victim 4 = fantastic politician",
+      "french": "Victime 4 = grand homme politique",
+      "before": "Жертва №4 — выдающийся политик",
+      "russian": "Жертва №4 — выдающийся политик",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_judge_customer_rumor_10.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_sand_customer_rumor_01.title",
+      "english": "Killer = low voice, sounded old",
+      "french": "Tueur = voix grave, plutôt âgée",
+      "before": "У убийцы низкий голос, как у пожилого человека",
+      "russian": "У убийцы низкий голос, как у пожилого человека",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_sand_customer_rumor_01.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_sand_customer_rumor_02.title",
+      "english": "Killer = female voice pretending to be male",
+      "french": "Tueur = voix féminine se faisant passer pour un homme",
+      "before": "Голос убийцы — женский, замаскированный под мужской",
+      "russian": "Голос убийцы — женский, замаскированный под мужской",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_sand_customer_rumor_02.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_sand_customer_rumor_03.title",
+      "english": "Victim deaths = bad for Groupe Diamant",
+      "french": "Victimes tuées = mauvais pour le Groupe Diamant",
+      "before": "Смерти жертв невыгодны группе «Диамант»",
+      "russian": "Смерти жертв невыгодны группе «Диамант»",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_sand_customer_rumor_03.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_sand_customer_rumor_04.title",
+      "english": "Victim 3 = received death threats",
+      "french": "Victime 3 a reçu des menaces de mort",
+      "before": "Жертва №3 получала угрозы убийством",
+      "russian": "Жертва №3 получала угрозы убийством",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_sand_customer_rumor_04.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_sand_customer_rumor_05.title",
+      "english": "Killer > 1m80",
+      "french": "Tueur = 1m80",
+      "before": "Рост убийцы — больше 1,80 м",
+      "russian": "Рост убийцы — 1,80 м",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_killer_batch09_fr.py",
+          "before": "Рост убийцы — больше 1,80 м",
+          "after": "Рост убийцы — 1,80 м"
+        }
+      ]
+    },
+    {
+      "key": "clue_sand_customer_rumor_05.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_sand_customer_rumor_06.title",
+      "english": "Albatros Fire = millions in insurance money",
+      "french": "Incendie de l'Albatros = des millions en remboursement d'assurance",
+      "before": "Пожар «Альбатроса» — миллионы страховых выплат",
+      "russian": "Пожар «Альбатроса» — миллионы страховых выплат",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_sand_customer_rumor_06.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_sand_customer_rumor_07.title",
+      "english": "Victim 1’s death = scapegoat",
+      "french": "Mort de la victime 1 = bouc-émissaire pratique",
+      "before": "Жертва №1 после смерти — удобный козёл отпущения",
+      "russian": "Жертва №1 после смерти — удобный козёл отпущения",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_sand_customer_rumor_07.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_sand_customer_rumor_08.title",
+      "english": "Killer > 1m75",
+      "french": "Tueur = 1m75",
+      "before": "Рост убийцы — больше 1,75 м",
+      "russian": "Рост убийцы — 1,75 м",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_killer_batch09_fr.py",
+          "before": "Рост убийцы — больше 1,75 м",
+          "after": "Рост убийцы — 1,75 м"
+        }
+      ]
+    },
+    {
+      "key": "clue_sand_customer_rumor_08.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_sand_customer_rumor_09.title",
+      "english": "With pancuronium bromide, victim feels everything",
+      "french": "Bromure de pancuronium = victime a tout ressenti",
+      "before": "Бромид панкурония — жертва всё чувствует",
+      "russian": "Бромид панкурония — жертва всё чувствовала",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_clues_batch05_fr.py",
+          "before": "Бромид панкурония — жертва всё чувствует",
+          "after": "Бромид панкурония — жертва всё чувствовала"
+        }
+      ]
+    },
+    {
+      "key": "clue_sand_customer_rumor_09.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_sand_customer_rumor_10.title",
+      "english": "Victim 4 left money to his dog",
+      "french": "Victime 4 a laissé son héritage à son chien",
+      "before": "Жертва №4 оставила деньги своей собаке",
+      "russian": "Жертва №4 завещала своё состояние своей собаке",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_victims_batch07_fr.py",
+          "before": "Жертва №4 оставила деньги своей собаке",
+          "after": "Жертва №4 завещала своё состояние своей собаке"
+        }
+      ]
+    },
+    {
+      "key": "clue_sand_customer_rumor_10.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_angel_customer_rumor_01.title",
+      "english": "Killer < 1m70",
+      "french": "Tueur < 1m70",
+      "before": "Рост убийцы — меньше 1,70 м",
+      "russian": "Рост убийцы — меньше 1,70 м",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_angel_customer_rumor_01.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_angel_customer_rumor_02.title",
+      "english": "Victim 2 felt he was followed",
+      "french": "Victime 2 avait l'impression d'être suivie",
+      "before": "Жертве №2 казалось, что за ней следят",
+      "russian": "Жертве №2 казалось, что за ней следят",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_angel_customer_rumor_02.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_angel_customer_rumor_03.title",
+      "english": "Victim 2 received death threats: « HE WATCHES YOU »",
+      "french": "Victime 2 a reçu menaces de mort = « IL TE VOIT »",
+      "before": "Жертве №2 угрожали смертью: «ОН НАБЛЮДАЕТ ЗА ТОБОЙ»",
+      "russian": "Жертве №2 угрожали смертью: «ОН ТЕБЯ ВИДИТ»",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_clues_batch05_fr.py",
+          "before": "Жертве №2 угрожали смертью: «ОН НАБЛЮДАЕТ ЗА ТОБОЙ»",
+          "after": "Жертве №2 угрожали смертью: «ОН ТЕБЯ ВИДИТ»"
+        }
+      ]
+    },
+    {
+      "key": "clue_angel_customer_rumor_03.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_angel_customer_rumor_04.title",
+      "english": "Victim 3 = Witness heard female voices",
+      "french": "Victime 3 = témoin a entendu des voix féminines",
+      "before": "Жертва №3 — свидетель слышал женские голоса",
+      "russian": "Жертва №3 — свидетель слышал женские голоса",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_angel_customer_rumor_04.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_angel_customer_rumor_05.title",
+      "english": "Killer > 1m80",
+      "french": "Tueur = 1m80",
+      "before": "Рост убийцы — больше 1,80 м",
+      "russian": "Рост убийцы — 1,80 м",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_killer_batch09_fr.py",
+          "before": "Рост убийцы — больше 1,80 м",
+          "after": "Рост убийцы — 1,80 м"
+        }
+      ]
+    },
+    {
+      "key": "clue_angel_customer_rumor_05.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_angel_customer_rumor_06.title",
+      "english": "Moon Flesh Cult = crazy",
+      "french": "Secte du Chair de Lune = des fous",
+      "before": "Культ «Лунная плоть» — безумцы",
+      "russian": "Культ «Лунная плоть» — безумцы",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_angel_customer_rumor_06.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_angel_customer_rumor_07.title",
+      "english": "Vampires are real… use knife to hide bite",
+      "french": "Les vampires existent… couteau utilisé pour cacher la morsure",
+      "before": "Вампиры существуют; ножом скрывают следы укуса",
+      "russian": "Вампиры существуют; ножом скрывают следы укуса",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_angel_customer_rumor_07.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_angel_customer_rumor_08.title",
+      "english": "Victim 1 = gorgeous, brave man",
+      "french": "Victime 1 = bel homme, courageux",
+      "before": "Жертва №1 — красивый, храбрый мужчина",
+      "russian": "Жертва №1 — красивый, храбрый мужчина",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_angel_customer_rumor_08.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_angel_customer_rumor_09.title",
+      "english": "Victim 4 = wealthy widow",
+      "french": "Victime 4 = veuve richissime",
+      "before": "Жертва №4 — богатая вдова",
+      "russian": "Жертва №4 — очень богатая вдова",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_victims_batch07_fr.py",
+          "before": "Жертва №4 — богатая вдова",
+          "after": "Жертва №4 — очень богатая вдова"
+        }
+      ]
+    },
+    {
+      "key": "clue_angel_customer_rumor_09.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_angel_customer_rumor_10.title",
+      "english": "Victim 4 = gave part of her fortune to charity",
+      "french": "Victime 4 a donné partie de sa fortune à des associations caritatives",
+      "before": "Жертва №4 — часть состояния на благотворительность",
+      "russian": "Жертва №4 пожертвовала часть состояния благотворительным организациям",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_victims_batch07_fr.py",
+          "before": "Жертва №4 — часть состояния на благотворительность",
+          "after": "Жертва №4 пожертвовала часть состояния благотворительным организациям"
+        }
+      ]
+    },
+    {
+      "key": "clue_angel_customer_rumor_10.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_angel_customer_rumor_11.title",
+      "english": "Vampires exist, is the real killer",
+      "french": "Les vampires existent, le tueur en est un",
+      "before": "Вампиры существуют; убийца — один из них",
+      "russian": "Вампиры существуют; убийца — один из них",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_angel_customer_rumor_11.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_angel_customer_rumor_12.title",
+      "english": "Fish = original symbol for Christianity",
+      "french": "Poisson = symbole des premiers chrétiens",
+      "before": "Рыба — символ первых христиан",
+      "russian": "Рыба — символ первых христиан",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_angel_customer_rumor_12.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_angel_customer_rumor_13.title",
+      "english": "Fish symbol = linked to a cult",
+      "french": "Symbole de poisson = lié à une secte",
+      "before": "Символ рыбы связан с культом",
+      "russian": "Символ рыбы связан с культом",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_angel_customer_rumor_13.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_angel_customer_rumor_14.title",
+      "english": "Victims let the killer in = must look inoffensive",
+      "french": "Victimes ont laissé le tueur rentrer = doit avoir l'air inoffensif",
+      "before": "Жертвы впустили убийцу — должно быть, внешность безобидная",
+      "russian": "Жертвы впустили убийцу — должно быть, внешность безобидная",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    },
+    {
+      "key": "clue_angel_customer_rumor_14.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "before": "Услышано в вашем такси…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "context": "Слухизтакси, дело/номер/отношение/высота/предположениесохранены, не объективныйвердикт."
+    }
+  ],
+  "source_files": [
+    "original/LocalizationData/sharedassets0.assets/2096.json",
+    "original/LocalizationData/sharedassets0.assets/2097.json"
+  ],
+  "author_file": "scripts/author_sonny_context.py",
+  "scope": "34customer-rumorclues,68title/sourcekeys; differentcasesandcontradictorytestimoniespreserved, notreviewofentire921UI.",
+  "consumer_scenes": [
+    "068_sonny_02",
+    "070_antoine_01"
+  ]
+}

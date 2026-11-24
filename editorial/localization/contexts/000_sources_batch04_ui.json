@@ -1,0 +1,885 @@
+{
+  "scope": "78explicit French UI fields manually read/accepted; not whole interface.",
+  "french_priority_author": "scripts/review_ui_sources_batch04_fr.py",
+  "french_priority_decisions": [
+    "Вручную прочитаны80полей EN/FR/текущийRU,78приняты; UI.VOLUME икафеArgentueil покаpending. Короткие одинаковые подписи проверены по каждому ключу, не по одному образцу всей группы.",
+    "Эрве: FR был обвинён вкраже уторговцарыбой, не якобы доказанное ограбление; другой ключ подозревает вмногочисленныхкражахсовзломом. Dossierjudiciaire — судебноедосье, старыйENpolicefileотменён именно втрёхключах. Несколько арестов/тюремныхзаключений и10летвtooltip остаются исходными против отдельногобио2/реплики15лет; не сочинятьновуюобщуюхронологию.",
+    "Trois témoignagesЭрве — атрибуцияисточника; деньгиРиктодинсуда безновойсуммы/решения. Moi=Я, собственныесведенияводителя, анепеременаегоимени/пола. Passager=Пассажир, не тариф/клиентскаябаза.",
+    "Прочитаны34подписи слуховвтакси (14Angel/10Judge/10Sand), две радио, газетная, церковьГильды, триSuspectsIntel, InfoTV, двеchurchlinks, триLudwigvisions. Правильные значения сохранены. Ни одна подпись не доказывает содержание слуха/видения/сна. Три уже прочитанные Houssine dream были приняты вbatch03, здесь не считаются повторно.",
+    "Йонас лидердаркнетгруппы/опасен/тестируеттеорию — триотдельныеулики источникахакера. Simulationbelief сохраняет считает, не объективнуюсимуляцию. ИмяЙонаснеизменено. Гипотезаорелигиозностиубийцы остаётся вопросом.",
+    "Все6подписейдокументовЖюльяна: канонический ЖюльянПаз, мужчина; документы, неблокнот/тетрадь и неполицейскийсампассажир. Источник055полностьюFRсверен, двухлетняяутечканеавтоматическоедоказательство виновности.",
+    "Кровь поFR украдена/исчезла: обе возможности сохранены, не добавлен объёмчасть и не автоматическиновое оружие. Два отсутствияследовнасилия относятсякразнымавтопсиям, непереписаны из-за видадругихдел. Запахсвечей/виденияЛюдвига не проверка его сверхъестественныхспособностей.",
+    "Культ действительнораспущенв2000-х поименноэтойулике, не меняются другие источникиегоистории. БольницавСент-Уэне со склонением, не имяновогочеловека. Ворывыбираютпустыеквартиры: названиепередаётцелькраж, не буквальные кражи направлены.",
+    "Отложено: FR Bistrot Argentueil противEN L’ArgentueilBistrot — установитьфирменноеимя/произношение, не исправлятьавтоматически нагеографическийArgenteuil. UI.VOLUME Quantité/Volume требуетнайтипотребителя, это пока не доказаннаягромкость/топливо. Пользователянебудить."
+  ],
+  "linked_contexts_read": [
+    "019_herve",
+    "043_jonas",
+    "055_julian",
+    "096_gilda",
+    "014_fragonard"
+  ],
+  "keys": [
+    {
+      "key": "clue_angel_fileherve_02.title",
+      "english": "Hervé allegedly robbed fishmonger.",
+      "french": "Hervé a été accusé de voler un poissonnier",
+      "russian": "Эрве обвиняли в краже у торговца рыбой",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Эрве якобы ограбил продавца рыбы.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_julian_04.title",
+      "english": "Hervé received money from the Rictodin’s trial",
+      "french": "Hervé a reçu de l'argent du procès du Rictodin",
+      "russian": "Эрве получил деньги в связи с судебным процессом по «Риктодину»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Эрве получил деньги в связи с судебным процессом по «Риктодину»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.SUSPECT.TT.HERVE",
+      "english": "Homeless for the past decade, Hervé has been arrested and jailed several times for burglary and theft.",
+      "french": "Sans domicile fixe depuis une décénie, Hervé a été arrêté puis emprisonné plusieurs fois pour cambriolage et vol.",
+      "russian": "Последние десять лет Эрве живёт на улице. Его несколько раз арестовывали и сажали в тюрьму за кражи со взломом и воровство.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Бездомный в течение последних десяти лет, Эрве несколько раз подвергался арестам и тюремному заключению за кражи со взломом и воровство.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_fileherve_01.title",
+      "english": "Hervé suspected in many break-ins.",
+      "french": "Hervé suspecté dans de nombreux cambriolages",
+      "russian": "Эрве подозревается во многих кражах со взломом",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Эрве подозревается во многих взломах.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_fileherve_01.source",
+      "english": "Hervé’s police file",
+      "french": "Dossier judiciaire d'Hervé",
+      "russian": "Судебное досье Эрве",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Полицейское досье Эрве",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_fileherve_02.source",
+      "english": "Hervé’s police file",
+      "french": "Dossier judiciaire d'Hervé",
+      "russian": "Судебное досье Эрве",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Полицейское досье Эрве",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_angel_fileherve.title",
+      "english": "Hervé’s police file",
+      "french": "Dossier judiciaire d'Hervé",
+      "russian": "Судебное досье Эрве",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Полицейское досье Эрве",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_herve_01.source",
+      "english": "Hervé's testimony",
+      "french": "Témoignage d'Hervé",
+      "russian": "Свидетельство Эрве",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Свидетельство Эрве",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_customer_herve_01.source",
+      "english": "Hervé's testimony",
+      "french": "Témoignage d'Hervé",
+      "russian": "Свидетельство Эрве",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Свидетельство Эрве",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_herve_01.source",
+      "english": "Hervé's testimony",
+      "french": "Témoignage d'Hervé",
+      "russian": "Свидетельство Эрве",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Свидетельство Эрве",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue.source.driver",
+      "english": "Me",
+      "french": "Moi",
+      "russian": "Я",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Водитель",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_radioshow02_02.source",
+      "english": "Heard on the radio…",
+      "french": "Entendu à la radio…",
+      "russian": "Услышано по радио…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано по радио…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_radioshow03_02.source",
+      "english": "Heard on the radio…",
+      "french": "Entendu à la radio…",
+      "russian": "Услышано по радио…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано по радио…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_rumor_01.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_rumor_02.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_rumor_03.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_rumor_04.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_rumor_05.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_rumor_06.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_rumor_07.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_rumor_08.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_rumor_09.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_rumor_10.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_rumor_11.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_rumor_12.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_rumor_13.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_rumor_14.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_customer_rumor_01.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_customer_rumor_02.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_customer_rumor_03.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_customer_rumor_04.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_customer_rumor_05.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_customer_rumor_06.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_customer_rumor_07.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_customer_rumor_08.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_customer_rumor_09.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_customer_rumor_10.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_rumor_01.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_rumor_02.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_rumor_03.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_rumor_04.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_rumor_05.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_rumor_06.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_rumor_07.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_rumor_08.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_rumor_09.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_rumor_10.source",
+      "english": "Heard in your taxi…",
+      "french": "Entendu dans votre taxi…",
+      "russian": "Услышано в вашем такси…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано в вашем такси…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_journal08_02.source",
+      "english": "Read in a newspaper…",
+      "french": "Lu dans un journal…",
+      "russian": "Прочитано в газете…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Прочитано в газете…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_church_02.source",
+      "english": "At Gilda’s church",
+      "french": "À l'église de Gilda",
+      "russian": "В церкви, куда ходит Гильда",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "В церкви, куда ходит Гильда",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.NAME.CHURCH.LINK.VIC01",
+      "english": "Linked to church",
+      "french": "Liée à l'église",
+      "russian": "Связь с церковью",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Связь с церковью",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.NAME.CHURCH.LINK.VIC02",
+      "english": "Linked to church",
+      "french": "Liée à l'église",
+      "russian": "Связь с церковью",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Связь с церковью",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_suspectsintel_02.source",
+      "english": "Suspects Intel",
+      "french": "Informations sur les suspects",
+      "russian": "Сведения о подозреваемых",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Сведения о подозреваемых",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_suspectsintel_03.source",
+      "english": "Suspects Intel",
+      "french": "Informations sur les suspects",
+      "russian": "Сведения о подозреваемых",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Сведения о подозреваемых",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_sand_suspectsintel.title",
+      "english": "Suspects Intel",
+      "french": "Informations sur les suspects",
+      "russian": "Сведения о подозреваемых",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Сведения о подозреваемых",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "poi_sand_newsroom.title",
+      "english": "InfoTV Newsroom",
+      "french": "Rédaction InfoTV",
+      "russian": "Редакция «ИнфоТВ»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Редакция «ИнфоТВ»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "guess_angel_sus01_01.title",
+      "english": "Is the Killer a religious person?",
+      "french": "Tueur est une personne religieuse ?",
+      "russian": "Убийца религиозен?",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Убийца религиозен?",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.SUSPECT.NAME.JONAS",
+      "english": "Jonas",
+      "french": "Jonas",
+      "russian": "Йонас",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Йонас",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_hacker_02.title",
+      "english": "Jonas = leader of dark web group",
+      "french": "Jonas = chef d'un groupe du dark web",
+      "russian": "Йонас — лидер группы в даркнете",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Йонас — лидер группы в даркнете",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_hacker_01.title",
+      "english": "Jonas = dangerous man",
+      "french": "Jonas = homme dangeureux",
+      "russian": "Йонас — опасный человек",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Йонас — опасный человек",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_hacker_03.title",
+      "english": "Jonas = testing his theory",
+      "french": "Jonas teste sa théorie",
+      "russian": "Йонас проверяет свою теорию",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Йонас проверяет свою теорию",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_jonas_01.title",
+      "english": "Jonas believes we’re in a simulation",
+      "french": "Jonas croit que nous vivons dans une simulation",
+      "russian": "Йонас считает, что мы живём в симуляции",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Йонас считает, что мы живём в симуляции",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_julian_01.source",
+      "english": "Julian’s files",
+      "french": "Documents de Julian",
+      "russian": "Документы Жюльяна",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Документы Жюльяна",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_julian_02.source",
+      "english": "Julian’s files",
+      "french": "Documents de Julian",
+      "russian": "Документы Жюльяна",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Документы Жюльяна",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_julian_03.source",
+      "english": "Julian’s files",
+      "french": "Documents de Julian",
+      "russian": "Документы Жюльяна",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Документы Жюльяна",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_julian_04.source",
+      "english": "Julian’s files",
+      "french": "Documents de Julian",
+      "russian": "Документы Жюльяна",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Документы Жюльяна",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_julian_05.source",
+      "english": "Julian’s files",
+      "french": "Documents de Julian",
+      "russian": "Документы Жюльяна",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Документы Жюльяна",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_judge_julian.title",
+      "english": "Julian’s files",
+      "french": "Documents de Julian",
+      "russian": "Документы Жюльяна",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Документы Жюльяна",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_kcase_04.title",
+      "english": "MO = slit throat, words written in blood, blood missing",
+      "french": "Gorge tranchée, mots écrits avec du sang, sang volé/disparu",
+      "russian": "Перерезанное горло, надписи кровью; кровь украдена или пропала",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Почерк убийцы: перерезанное горло, надписи кровью; часть крови исчезла",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_autopsy03_01.title",
+      "english": "No sign of violence",
+      "french": "Aucun signe de violence",
+      "russian": "Нет следов насилия",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Нет следов насилия",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_autopsy04_01.title",
+      "english": "No sign of violence",
+      "french": "Aucun signe de violence",
+      "russian": "Нет следов насилия",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Нет следов насилия",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_ludwig_01.title",
+      "english": "Candle smell while talking to Ludwig",
+      "french": "Odeur de bougie sentie avec Ludwig",
+      "russian": "Запах свечей во время разговора с Людвигом",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Запах свечей во время разговора с Людвигом",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "poi_sand_hospital.title",
+      "english": "Saint-Ouen Hospital",
+      "french": "Hôpital de Saint-Ouen",
+      "russian": "Больница Сент-Уэна",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Больница Сент-Уэн",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.TT.CULT.NEWS",
+      "english": "Cult was finally disbanded in the 2000s.",
+      "french": "Le culte a finalement été dissous dans les années 2000.",
+      "russian": "Культ был окончательно распущен в 2000-х годах.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Культ был окончательно распущен в 2000-х годах.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue.source.customer",
+      "english": "Customer",
+      "french": "Passager",
+      "russian": "Пассажир",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Клиент",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.NAME.BURGLARY.EMPTY",
+      "english": "Burglaries aim empty flats",
+      "french": "Cambriolages visent des appartements vides",
+      "russian": "Квартирные воры выбирают пустые квартиры",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Кражи со взломом направлены на пустые квартиры",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_ludwig_01.source",
+      "english": "Ludwig’s Vision",
+      "french": "Vision de Ludwig",
+      "russian": "Видение Людвига",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Видение Людвига",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_ludwig_02.source",
+      "english": "Ludwig’s Vision",
+      "french": "Vision de Ludwig",
+      "russian": "Видение Людвига",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Видение Людвига",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_customer_ludwig_01.source",
+      "english": "Ludwig’s Vision",
+      "french": "Vision de Ludwig",
+      "russian": "Видение Людвига",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Видение Людвига",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    }
+  ],
+  "exact_legacy_fallback_updates": [
+    {
+      "english": "Hervé allegedly robbed fishmonger.",
+      "ui_keys": [
+        "clue_angel_fileherve_02.title"
+      ],
+      "previous_fallback": "Эрве якобы ограбил продавца рыбы.",
+      "russian": "Эрве обвиняли в краже у торговца рыбой"
+    },
+    {
+      "english": "Homeless for the past decade, Hervé has been arrested and jailed several times for burglary and theft.",
+      "ui_keys": [
+        "GC.SUSPECT.TT.HERVE"
+      ],
+      "previous_fallback": "Бездомный в течение последних десяти лет, Эрве несколько раз подвергался арестам и тюремному заключению за кражи со взломом и воровство.",
+      "russian": "Последние десять лет Эрве живёт на улице. Его несколько раз арестовывали и сажали в тюрьму за кражи со взломом и воровство."
+    },
+    {
+      "english": "Hervé suspected in many break-ins.",
+      "ui_keys": [
+        "clue_angel_fileherve_01.title"
+      ],
+      "previous_fallback": "Эрве подозревается во многих взломах.",
+      "russian": "Эрве подозревается во многих кражах со взломом"
+    },
+    {
+      "english": "Hervé’s police file",
+      "ui_keys": [
+        "clue_angel_fileherve_01.source",
+        "clue_angel_fileherve_02.source",
+        "doc_angel_fileherve.title"
+      ],
+      "previous_fallback": "Полицейское досье Эрве",
+      "russian": "Судебное досье Эрве"
+    },
+    {
+      "english": "Me",
+      "ui_keys": [
+        "clue.source.driver"
+      ],
+      "previous_fallback": null,
+      "russian": "Я"
+    },
+    {
+      "english": "MO = slit throat, words written in blood, blood missing",
+      "ui_keys": [
+        "clue_angel_kcase_04.title"
+      ],
+      "previous_fallback": "ОД = перерезанное горло, слова написаны кровью, кровь отсутствует",
+      "russian": "Перерезанное горло, надписи кровью; кровь украдена или пропала"
+    },
+    {
+      "english": "Saint-Ouen Hospital",
+      "ui_keys": [
+        "poi_sand_hospital.title"
+      ],
+      "previous_fallback": null,
+      "russian": "Больница Сент-Уэна"
+    },
+    {
+      "english": "Customer",
+      "ui_keys": [
+        "clue.source.customer"
+      ],
+      "previous_fallback": "Клиент",
+      "russian": "Пассажир"
+    },
+    {
+      "english": "Burglaries aim empty flats",
+      "ui_keys": [
+        "GC.CLUE.NAME.BURGLARY.EMPTY"
+      ],
+      "previous_fallback": "Кражи со взломом направлены на пустые квартиры",
+      "russian": "Квартирные воры выбирают пустые квартиры"
+    }
+  ],
+  "legacy_fallback_owner_collisions": [],
+  "deferred_keys": [
+    "poi_sand_cafe.title",
+    "UI.VOLUME"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "enums": [
+    {
+      "type": "NC.Passengers.ePassengerGender",
+      "fields": [
+        {
+          "value": 0,
+          "name": "female"
+        },
+        {
+          "value": 1,
+          "name": "female_female"
+        },
+        {
+          "value": 2,
+          "name": "group"
+        },
+        {
+          "value": 3,
+          "name": "male"
+        },
+        {
+          "value": 4,
+          "name": "male_female"
+        },
+        {
+          "value": 5,
+          "name": "male_male"
+        }
+      ]
+    },
+    {
+      "type": "NC.Passengers.ePassengerEthnicity",
+      "fields": [
+        {
+          "value": 0,
+          "name": "african"
+        },
+        {
+          "value": 1,
+          "name": "asian"
+        },
+        {
+          "value": 2,
+          "name": "animal"
+        },
+        {
+          "value": 3,
+          "name": "arabic"
+        },
+        {
+          "value": 4,
+          "name": "caucasian"
+        },
+        {
+          "value": 5,
+          "name": "creole"
+        },
+        {
+          "value": 6,
+          "name": "indian"
+        },
+        {
+          "value": 7,
+          "name": "latino"
+        },
+        {
+          "value": 8,
+          "name": "mix"
+        },
+        {
+          "value": 9,
+          "name": "native_american"
+        }
+      ]
+    }
+  ],
+  "animal_ethnicity_value": 2,
+  "semantics": "Engine categories; not proof of exact species/count/biological gender/age.",
+  "assembly": "review/Assembly-CSharp.dll",
+  "checked_at": "2026-10-15T05:34:43.3211843+03:00",
+  "group_gender_value": 2,
+  "reader": "Read-only Mono.Cecil fields/constants",
+  "assembly_sha256": "b2e4a3562a6ab43822d3e4d8ee979f3ec84dbee7757a5b80b9e709a408658250",
+  "cecil_sha256": "7ae470288fff4a402899c254d0a76cefef55877f5c54f96e83c797cc5bb6e2f6"
+}

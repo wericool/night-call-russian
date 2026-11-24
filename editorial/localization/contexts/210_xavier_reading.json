@@ -1,0 +1,122 @@
+{
+  "status": "superseded_by_complete_editorial_and_native_validation",
+  "scenes": [
+    {
+      "name": "210_xavier_01",
+      "source_file": "original/DialogObjectScript/sharedassets0.assets/2319.json",
+      "source_sha256": "857f6e6dd47ed4f229f4dcd455b4c96f48a98fb2cffb48eee3106479828b587e",
+      "controls_EN_FR_equal": false,
+      "declared_variables": []
+    },
+    {
+      "name": "210_xavier_02",
+      "source_file": "original/DialogObjectScript/sharedassets0.assets/2320.json",
+      "source_sha256": "53c9524343a8d9035e53874541066624262e23bf417480fa65a251a643302d6b",
+      "controls_EN_FR_equal": true,
+      "declared_variables": []
+    },
+    {
+      "name": "210_xavier_03",
+      "source_file": "original/DialogObjectScript/sharedassets0.assets/2321.json",
+      "source_sha256": "808be5d93a934197e79710eb409ab997bc9a2c15f03afc86128a0c47a20e5782",
+      "controls_EN_FR_equal": true,
+      "declared_variables": [
+        {
+          "_name": "radio",
+          "_value": 0
+        },
+        {
+          "_name": "tell",
+          "_value": 0
+        },
+        {
+          "_name": "time",
+          "_value": 0
+        },
+        {
+          "_name": "accident",
+          "_value": 0
+        }
+      ]
+    }
+  ],
+  "source_card": "original/PassengerObjectScript/sharedassets0.assets/2411.json",
+  "notes": [
+    "Sourcecard gender0/age0 conflicts with explicit man/he/his in all three EN scenes. Do not infer female from these contradictory card fields. ConfirmFR and record anomaly before registering male/unknownage.",
+    "Masked Joker cardpun; ENK→ENKID businessschool disclosed despite secretidentity. No invented DCplot; BruceWayne thenBatman correction must remain.",
+    "01blood on white teeth/bills, unconsciousfallingbody perhero’s speech, not editorial claim no injury; he declineshospital.",
+    "02katana Japaneseweapon but wielder notJapanese perhero, foreignkids/Albanians/German/farright/policecaptains as his allegations. _freeroam=0 condition includes attemptedkiller memory; unknown killer gender must remain.",
+    "03radiofemale voice, poetic muse/amuse badrhyme must have Russianphonetic joke; radiobefore sourceprelude separated.",
+    "03guard dead observed; hero carries claimedbomb, riverplanhisfictionalplan. Do not add technicalinstruction/news/legaladvice.",
+    "03time initial0; stoppingfirstlight+1 unlocksyellowsecond; stoppingsecond+1→earlyexplosion. Runningafterstop setsaccident1 withouttimeincrement, waitingchat+1instead preventscollision. Time>1→earlyinjury+vanishes/cashnote; accident1addsnote+high. time<=1→latehalfsecondwater/exchangehandshakes. Unlinkeddrive-getrid must be reviewed and checked by directstart, not linked silently.",
+    "03ENhumorous masks/bodilyfear/heartmetaphors not medicaldiagnosis. No MetXavier setter in stories. Need readwholeFR/RU, associatedUI/items/names and applycanonical decisions only with evidence.",
+    "All3FR explicitlyhomme/il confirm male againstgender0card; placeholder/default-field explanation unconfirmed;age0notnumericinfant. Formalvousbothways.",
+    "ENNeuilly abbreviated whileFR01fullNeuilly-Plaisance; don’t silently substituteNeuilly-sur-Seine. Keep sourceambiguity/explicitfullname decision.",
+    "ENher radio rhymes vsFRun chanteur male; no inventedidentity; a neutral song formulation can avoid claiming contradictoryartistsex. muse/amuse requires a working Russianclichérhyme, notмуза/развлечься.",
+    "03ENleft hand vsFRright hand must have explicitchoice, primaryENleft currentlyinoldRU. Earlyinjury must remaininference bydriver; disappearance notconfirmeddeath.",
+    "OldRU01manymissing firstlines/options, includingvictimWho/GoodEveningresponse/Nameexplanation/Batman correction/hospital/ENKID/compliment. Morethan linepolish needed.",
+    "OldRU02throatclear replacedwithweteyes;sourcepausesmissing; unknownkiller memoryheadshake replacedwithinventedinformationquestion;coastclearisnooneaboutnotriverbank.",
+    "OldRU03intro entirelyforeignfemale/unknownoutfit/Whereandmissesradiochoices;badpoemheadshake replacedinformationquestion;orphansecondsmeanssecondhelpingnotsecondoftime;crapshootisrollofdice,notbadride; crossedpathnotobstructed; runlightendingfalsequestioninsteadquiet;wrongsmirk/rollcount.",
+    "03Noactualtimecountdowncommand—timecounteronlychoicebased. tell merelyspokenremainingtime,radio alterscallback; no gameplaytimerinvented. Oneunlinkeddrive-getridneedsdirectentry, not silentnewlink."
+  ],
+  "remaining_reading": [],
+  "card_controls": {
+    "fullname": "Xavier Turcev",
+    "age": 0,
+    "gender": 0,
+    "related_to_killers": 0,
+    "recurrent": 0,
+    "stories": 0,
+    "has_storyline": 1,
+    "exclude_from_flow_matrix": 0
+  },
+  "card_encounters": [
+    {
+      "dialog_content": {
+        "has_appear": 0,
+        "has_passenger_call": 0,
+        "has_travel": 0
+      },
+      "appears_only_for_killer": 0,
+      "has_clues_for_killer": 0,
+      "is_climax": 0,
+      "dialog_container": {
+        "m_FileID": 0,
+        "m_PathID": 2319
+      },
+      "additional_destinations": []
+    },
+    {
+      "dialog_content": {
+        "has_appear": 0,
+        "has_passenger_call": 0,
+        "has_travel": 0
+      },
+      "appears_only_for_killer": 0,
+      "has_clues_for_killer": 0,
+      "is_climax": 0,
+      "dialog_container": {
+        "m_FileID": 0,
+        "m_PathID": 2320
+      },
+      "additional_destinations": []
+    },
+    {
+      "dialog_content": {
+        "has_appear": 0,
+        "has_passenger_call": 0,
+        "has_travel": 0
+      },
+      "appears_only_for_killer": 0,
+      "has_clues_for_killer": 0,
+      "is_climax": 0,
+      "dialog_container": {
+        "m_FileID": 0,
+        "m_PathID": 2321
+      },
+      "additional_destinations": []
+    }
+  ],
+  "editorial_context": "localization/contexts/210_xavier.json",
+  "validation": "localization/xavier_scene_validation.json"
+}

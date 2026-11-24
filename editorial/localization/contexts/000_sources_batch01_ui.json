@@ -1,0 +1,695 @@
+{
+  "scope": "56 explicit French UI keys accepted from60 manually read fields; four deferred, not whole UI.",
+  "french_priority_author": "scripts/review_ui_sources_batch01_fr.py",
+  "french_priority_decisions": [
+    "Ручное чтение первых60 pending полей: EN/FR/текущийRU. Приняты56, четыре явно оставлены pending. Не массовое повышение прежнего статуса.",
+    "Шесть подписей Vision d’Ade: Аде, не Эйд; женщина/невестка водителя подтверждены025контекстом и consistency. Vision остаётся атрибуцией источника улики, не независимым подтверждением пророчества. Семь сцен Аде уже FRсверены; здесь новые подписи.",
+    "clue_sand_report04_02 FR жертва4 продала ВСЕ акции после пожара; ENonly pushed-to не сохранено вместо совершённой продажи. Участок/доля другого персонажа не подменяют акции этой жертвы.",
+    "clue_sand_customer_ludwig_02: ощущался запах алкоголя при разговоре, не новая установленная причина/степень опьянения. Владельцы других запахов не менялись.",
+    "ГазетаARCHBISHOP: aurait protégé — сообщаемое предположение, не установленное доказательство. Attouchements — непристойные прикосновения к детям, без выдуманной более конкретной квалификации. Другие газетные ключи пока не приняты автоматически.",
+    "ГазетаAOE сохраняет киноактрису и многоточие, не только любую актрису. Abscons в автопсии означает трудный для понимания отчёт, не загадочное преступление; связь между убийствами не потеряна.",
+    "Пятнадцать подписей заправки, четыре подписи базы Secret Escort75, три подписи знакомого хакера прочитаны каждая. Источник сообщения не становится доказанным фактом. Название базы сохранено как собственное, не непропущенный английский диалог.",
+    "Номера1/2/3 и первый source четвёртой автопсии совпадают. Но следующие два source/title имеют FR5/6/7 против EN4: НЕ приняты, НЕ заменены без контекста всех материалов Судьи. Технический KEY FRA/ENG тоже пока не принят до проверки потребителя.",
+    "Аполлони и Лунная плоть сохраняют уже закреплённые формы. Hunting в кавычках; культ в улике не доказывает вампирскую природу. Алисия сохранена. Пистолет Второй мировой, доступ через балкон, отсутствие кражи у2, миорелаксант мужа Аниты и страховые выплаты прочитаны, без новых имён/степени/сумм/виновности."
+  ],
+  "linked_contexts_read": [
+    "025_ade",
+    "023_apollonie",
+    "031_geraldine",
+    "032_anita"
+  ],
+  "keys": [
+    {
+      "key": "clue_angel_customer_ade_01.source",
+      "english": "Ade’s Vision",
+      "french": "Vision d'Ade",
+      "russian": "Видение Аде",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Видение Эйда",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_ade_02.source",
+      "english": "Ade’s Vision",
+      "french": "Vision d'Ade",
+      "russian": "Видение Аде",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Видение Эйда",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_customer_ade_01.source",
+      "english": "Ade’s Vision",
+      "french": "Vision d'Ade",
+      "russian": "Видение Аде",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Видение Эйда",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_customer_ade_02.source",
+      "english": "Ade’s Vision",
+      "french": "Vision d'Ade",
+      "russian": "Видение Аде",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Видение Эйда",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_ade_01.source",
+      "english": "Ade’s Vision",
+      "french": "Vision d'Ade",
+      "russian": "Видение Аде",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Видение Эйда",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_ade_02.source",
+      "english": "Ade’s Vision",
+      "french": "Vision d'Ade",
+      "russian": "Видение Аде",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Видение Эйда",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_rumor_06.title",
+      "english": "Albatros Fire = millions in insurance money",
+      "french": "Incendie de l'Albatros = des millions en remboursement d'assurance",
+      "russian": "Пожар «Альбатроса» — миллионы страховых выплат",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Пожар «Альбатроса» — миллионы страховых выплат",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_report04_02.title",
+      "english": "Albatros Fire = pushed Victim 4 to sell shares",
+      "french": "Incendie de l'Albatros = victime 4 a vendu toutes ses parts",
+      "russian": "Пожар в «Альбатросе» — жертва 4 продала все свои акции",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Огонь \"Альбатроса\" = подтолкнул Жертву 4 к продаже акций",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_gas_04.title",
+      "english": "Albatros Fire = criminal act",
+      "french": "Incendie de l'Albatros = acte criminel",
+      "russian": "Пожар в «Альбатросе» — преступление",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Пожар в «Альбатросе» — преступление",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.SUSPECT.NAME.ALICIA",
+      "english": "Alicia",
+      "french": "Alicia",
+      "russian": "Алисия",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Алисия",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_ludwig_02.title",
+      "english": "Alcohol vapors while talking to Ludwig",
+      "french": "Vapeurs d'alcool senties avec Ludwig",
+      "russian": "Запах алкоголя во время разговора с Людвигом",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Пары алкоголя во время разговора с Людвигом",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_gas_01.source",
+      "english": "Heard at a gas station…",
+      "french": "Entendu à la station-service…",
+      "russian": "Услышано на заправке…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано на заправке…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_gas_02.source",
+      "english": "Heard at a gas station…",
+      "french": "Entendu à la station-service…",
+      "russian": "Услышано на заправке…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано на заправке…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_gas_03.source",
+      "english": "Heard at a gas station…",
+      "french": "Entendu à la station-service…",
+      "russian": "Услышано на заправке…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано на заправке…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_gas_04.source",
+      "english": "Heard at a gas station…",
+      "french": "Entendu à la station-service…",
+      "russian": "Услышано на заправке…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано на заправке…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_gas_05.source",
+      "english": "Heard at a gas station…",
+      "french": "Entendu à la station-service…",
+      "russian": "Услышано на заправке…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано на заправке…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_gas_01.source",
+      "english": "Heard at a gas station…",
+      "french": "Entendu à la station-service…",
+      "russian": "Услышано на заправке…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано на заправке…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_gas_02.source",
+      "english": "Heard at a gas station…",
+      "french": "Entendu à la station-service…",
+      "russian": "Услышано на заправке…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано на заправке…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_gas_03.source",
+      "english": "Heard at a gas station…",
+      "french": "Entendu à la station-service…",
+      "russian": "Услышано на заправке…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано на заправке…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_gas_04.source",
+      "english": "Heard at a gas station…",
+      "french": "Entendu à la station-service…",
+      "russian": "Услышано на заправке…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано на заправке…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_gas_05.source",
+      "english": "Heard at a gas station…",
+      "french": "Entendu à la station-service…",
+      "russian": "Услышано на заправке…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано на заправке…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_gas_01.source",
+      "english": "Heard at a gas station…",
+      "french": "Entendu à la station-service…",
+      "russian": "Услышано на заправке…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано на заправке…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_gas_02.source",
+      "english": "Heard at a gas station…",
+      "french": "Entendu à la station-service…",
+      "russian": "Услышано на заправке…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано на заправке…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_gas_03.source",
+      "english": "Heard at a gas station…",
+      "french": "Entendu à la station-service…",
+      "russian": "Услышано на заправке…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано на заправке…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_gas_04.source",
+      "english": "Heard at a gas station…",
+      "french": "Entendu à la station-service…",
+      "russian": "Услышано на заправке…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано на заправке…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_gas_05.source",
+      "english": "Heard at a gas station…",
+      "french": "Entendu à la station-service…",
+      "russian": "Услышано на заправке…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Услышано на заправке…",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_suspectsintel_02.title",
+      "english": "Anita's husband = dentist with access to muscle relaxant",
+      "french": "Mari d'Anita = dentiste avec accès au relaxant musculaire",
+      "russian": "Муж Аниты = стоматолог с доступом к миорелаксанту",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Муж Аниты = стоматолог с доступом к миорелаксанту",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.TT.BURGLARY.REPORT",
+      "english": "Victim 1 and 2’s apartments were burglarised through balcony.",
+      "french": "Appartements des victimes 1 et 2 cambriolés par le balcon.",
+      "russian": "Квартиры жертв 1 и 2 были ограблены через балкон.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Квартиры жертв 1 и 2 были ограблены через балкон.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_bar_03.title",
+      "english": "Apollonie « hunting » young people",
+      "french": "Apollonie \"chasse\" des jeunes",
+      "russian": "Аполлони «охотится» на молодых людей",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Аполлони «охотится» на молодых людей",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_bar_04.title",
+      "english": "Apollonie member of the Moon Flesh Cult",
+      "french": "Apollonie membre de la secte de la Chair de la Lune",
+      "russian": "Аполлони состоит в культе «Лунная плоть»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Аполлони состоит в культе «Лунная плоть»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.DOCUMENT.TT.NEWSPAPER05.ARCHBISHOP",
+      "english": "An article about the first victim of the Angel of Death. In the past, the victim would have protected priests accused of sexual abuses on kids",
+      "french": "Un article sur la première victime de l’Ange de la Mort. Dans le passé, la victime aurait protégé des prêtres accusés d’attouchements sur des enfants.",
+      "russian": "Статья о первой жертве Ангела Смерти. Утверждается, что в прошлом жертва защищала священников, обвинённых в непристойных прикосновениях к детям.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Статья о первой жертве Ангела Смерти. В прошлом жертва защищала священников, обвинённых в сексуальном насилии над детьми.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.DOCUMENT.TT.NEWSPAPER06.AOE",
+      "english": "An article about the second victim of the Angel of Death, an actress forgotten by everyone.",
+      "french": "Un article sur la deuxième victime de l’Ange de la Mort, une actrice de cinéma oubliée de tous…",
+      "russian": "Статья о второй жертве Ангела Смерти, забытой всеми киноактрисе…",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Статья о второй жертве Ангела Смерти, забытой всеми актрисе.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_escort_01.source",
+      "english": "From the Secret Escort 75 database",
+      "french": "D'après la base de données de Secret Escort 75",
+      "russian": "Из базы данных «Secret Escort 75»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Из базы данных «Secret Escort 75»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_escort_02.source",
+      "english": "From the Secret Escort 75 database",
+      "french": "D'après la base de données de Secret Escort 75",
+      "russian": "Из базы данных «Secret Escort 75»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Из базы данных «Secret Escort 75»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_escort_03.source",
+      "english": "From the Secret Escort 75 database",
+      "french": "D'après la base de données de Secret Escort 75",
+      "russian": "Из базы данных «Secret Escort 75»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Из базы данных «Secret Escort 75»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_escort_04.source",
+      "english": "From the Secret Escort 75 database",
+      "french": "D'après la base de données de Secret Escort 75",
+      "russian": "Из базы данных «Secret Escort 75»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Из базы данных «Secret Escort 75»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_hacker_01.source",
+      "english": "From hacker source",
+      "french": "Selon votre ami hacker",
+      "russian": "По словам знакомого хакера",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "От знакомого хакера",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_hacker_02.source",
+      "english": "From hacker source",
+      "french": "Selon votre ami hacker",
+      "russian": "По словам знакомого хакера",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "От знакомого хакера",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_hacker_03.source",
+      "english": "From hacker source",
+      "french": "Selon votre ami hacker",
+      "russian": "По словам знакомого хакера",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "От знакомого хакера",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.DOCUMENT.TT.REPORT02.VICTIM2",
+      "english": "The autopsy report of the second victim. Even more mysterious than the first one. The report puts some light on links between the two murders",
+      "french": "Le rapport d’autopsie de la seconde victime. Encore plus abscons que le premier… Le rapport met en évidence les liens entre les deux meurtres.",
+      "russian": "Отчёт о вскрытии второй жертвы. Ещё непонятнее первого… В нём выявлена связь между двумя убийствами.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Отчёт о вскрытии второй жертвы. Ещё более загадочный, чем первый. Отчёт проливает свет на связи между двумя убийствами.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_autopsy01_01.source",
+      "english": "Autopsy Report, Victim 1",
+      "french": "Rapport d'autopsie, Victime 1",
+      "russian": "Отчёт о вскрытии, жертва 1",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Отчёт о вскрытии, жертва 1",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_autopsy01_02.source",
+      "english": "Autopsy Report, Victim 1",
+      "french": "Rapport d'autopsie, Victime 1",
+      "russian": "Отчёт о вскрытии, жертва 1",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Отчёт о вскрытии, жертва 1",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_sand_autopsy01.title",
+      "english": "Autopsy Report, Victim 1",
+      "french": "Rapport d'autopsie, Victime 1",
+      "russian": "Отчёт о вскрытии, жертва 1",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Отчёт о вскрытии, жертва 1",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_autopsy02_01.source",
+      "english": "Autopsy Report, Victim 2",
+      "french": "Rapport d'autopsie, Victime 2",
+      "russian": "Отчёт о вскрытии, жертва 2",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Отчёт о вскрытии, жертва 2",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_autopsy02_02.source",
+      "english": "Autopsy Report, Victim 2",
+      "french": "Rapport d'autopsie, Victime 2",
+      "russian": "Отчёт о вскрытии, жертва 2",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Отчёт о вскрытии, жертва 2",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_sand_autopsy02.title",
+      "english": "Autopsy Report, Victim 2",
+      "french": "Rapport d'autopsie, Victime 2",
+      "russian": "Отчёт о вскрытии, жертва 2",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Отчёт о вскрытии, жертва 2",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_autopsy03_01.source",
+      "english": "Autopsy Report, Victim 3",
+      "french": "Rapport d'autopsie, Victime 3",
+      "russian": "Отчёт о вскрытии, жертва 3",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Отчёт о вскрытии, жертва 3",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_autopsy03_02.source",
+      "english": "Autopsy Report, Victim 3",
+      "french": "Rapport d'autopsie, Victime 3",
+      "russian": "Отчёт о вскрытии, жертва 3",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Отчёт о вскрытии, жертва 3",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_autopsy03_01.source",
+      "english": "Autopsy Report, Victim 3",
+      "french": "Rapport d'autopsie, Victime 3",
+      "russian": "Отчёт о вскрытии, жертва 3",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Отчёт о вскрытии, жертва 3",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_autopsy03_02.source",
+      "english": "Autopsy Report, Victim 3",
+      "french": "Rapport d'autopsie, Victime 3",
+      "russian": "Отчёт о вскрытии, жертва 3",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Отчёт о вскрытии, жертва 3",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_judge_autopsy03.title",
+      "english": "Autopsy Report, Victim 3",
+      "french": "Rapport d'autopsie, Victime 3",
+      "russian": "Отчёт о вскрытии, жертва 3",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Отчёт о вскрытии, жертва 3",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_sand_autopsy03.title",
+      "english": "Autopsy Report, Victim 3",
+      "french": "Rapport d'autopsie, Victime 3",
+      "russian": "Отчёт о вскрытии, жертва 3",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Отчёт о вскрытии, жертва 3",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_autopsy04_01.source",
+      "english": "Autopsy Report, Victim 4",
+      "french": "Rapport d'autopsie, Victime 4",
+      "russian": "Отчёт о вскрытии, жертва 4",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Отчёт о вскрытии, жертва 4",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.NAME.BURGLARY.BALCONY",
+      "english": "Balcony: easy access",
+      "french": "Balcon = accès facile",
+      "russian": "Балкон: лёгкий доступ",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Балкон: легкий доступ",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_report04_01.title",
+      "english": "Weapon used on you = WW2 gun",
+      "french": "Arme utilisée sur vous = pistolet de la 2e guerre mondiale",
+      "russian": "Оружие, использованное против вас — пистолет времён Второй мировой войны",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Оружие, использованное против вас = пистолет времен Второй мировой войны",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.TT.ROBBED.NO.VIC02",
+      "english": "Victim 2 had nothing stolen.",
+      "french": "Rien n’a été volé chez la victime 2.",
+      "russian": "У жертвы 2 ничего не было украдено.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "У жертвы 2 ничего не было украдено.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    }
+  ],
+  "deferred_keys": [
+    {
+      "key": "KEY",
+      "english": "ENG",
+      "french": "FRA",
+      "russian": "ENG",
+      "reason": "Technical language identifier requires consumer proof"
+    },
+    {
+      "key": "clue_judge_autopsy04_02.source",
+      "english": "Autopsy Report, Victim 4",
+      "french": "Rapport d'autopsie, Victime 5",
+      "russian": "Отчёт о вскрытии, жертва 4",
+      "reason": "FR5/6/7 versus EN4; original metadata discrepancy requires surrounding case documents"
+    },
+    {
+      "key": "clue_judge_autopsy04_03.source",
+      "english": "Autopsy Report, Victim 4",
+      "french": "Rapport d'autopsie, Victime 6",
+      "russian": "Отчёт о вскрытии, жертва 4",
+      "reason": "FR5/6/7 versus EN4; original metadata discrepancy requires surrounding case documents"
+    },
+    {
+      "key": "doc_judge_autopsy04.title",
+      "english": "Autopsy Report, Victim 4",
+      "french": "Rapport d'autopsie, Victime 7",
+      "russian": "Отчёт о вскрытии, жертва 4",
+      "reason": "FR5/6/7 versus EN4; original metadata discrepancy requires surrounding case documents"
+    }
+  ],
+  "exact_legacy_fallback_updates": [
+    {
+      "english": "Ade’s Vision",
+      "ui_keys": [
+        "clue_angel_customer_ade_01.source",
+        "clue_angel_customer_ade_02.source",
+        "clue_judge_customer_ade_01.source",
+        "clue_judge_customer_ade_02.source",
+        "clue_sand_customer_ade_01.source",
+        "clue_sand_customer_ade_02.source"
+      ],
+      "previous_fallback": "Видение Эйда",
+      "russian": "Видение Аде"
+    },
+    {
+      "english": "Albatros Fire = pushed Victim 4 to sell shares",
+      "ui_keys": [
+        "clue_sand_report04_02.title"
+      ],
+      "previous_fallback": "Огонь \"Альбатроса\" = подтолкнул Жертву 4 к продаже акций",
+      "russian": "Пожар в «Альбатросе» — жертва 4 продала все свои акции"
+    },
+    {
+      "english": "Alcohol vapors while talking to Ludwig",
+      "ui_keys": [
+        "clue_sand_customer_ludwig_02.title"
+      ],
+      "previous_fallback": "Пары алкоголя во время разговора с Людвигом",
+      "russian": "Запах алкоголя во время разговора с Людвигом"
+    },
+    {
+      "english": "An article about the first victim of the Angel of Death. In the past, the victim would have protected priests accused of sexual abuses on kids",
+      "ui_keys": [
+        "GC.DOCUMENT.TT.NEWSPAPER05.ARCHBISHOP"
+      ],
+      "previous_fallback": null,
+      "russian": "Статья о первой жертве Ангела Смерти. Утверждается, что в прошлом жертва защищала священников, обвинённых в непристойных прикосновениях к детям."
+    },
+    {
+      "english": "An article about the second victim of the Angel of Death, an actress forgotten by everyone.",
+      "ui_keys": [
+        "GC.DOCUMENT.TT.NEWSPAPER06.AOE"
+      ],
+      "previous_fallback": null,
+      "russian": "Статья о второй жертве Ангела Смерти, забытой всеми киноактрисе…"
+    },
+    {
+      "english": "From hacker source",
+      "ui_keys": [
+        "clue_angel_hacker_01.source",
+        "clue_angel_hacker_02.source",
+        "clue_angel_hacker_03.source"
+      ],
+      "previous_fallback": "Из хакерского источника",
+      "russian": "По словам знакомого хакера"
+    },
+    {
+      "english": "The autopsy report of the second victim. Even more mysterious than the first one. The report puts some light on links between the two murders",
+      "ui_keys": [
+        "GC.DOCUMENT.TT.REPORT02.VICTIM2"
+      ],
+      "previous_fallback": null,
+      "russian": "Отчёт о вскрытии второй жертвы. Ещё непонятнее первого… В нём выявлена связь между двумя убийствами."
+    },
+    {
+      "english": "Balcony: easy access",
+      "ui_keys": [
+        "GC.CLUE.NAME.BURGLARY.BALCONY"
+      ],
+      "previous_fallback": "Балкон: легкий доступ",
+      "russian": "Балкон: лёгкий доступ"
+    },
+    {
+      "english": "Weapon used on you = WW2 gun",
+      "ui_keys": [
+        "clue_sand_report04_01.title"
+      ],
+      "previous_fallback": "Оружие, использованное против вас = пистолет времен Второй мировой войны",
+      "russian": "Оружие, использованное против вас — пистолет времён Второй мировой войны"
+    }
+  ],
+  "fallback_scope": "Only16changed explicit keys, merged to exact EN values after checking all UI owners agree; no word replacements or reprocessing old dialogue."
+}

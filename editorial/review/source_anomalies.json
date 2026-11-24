@@ -1,0 +1,3626 @@
+[
+  {
+    "id": "esmeralda-age",
+    "scene": "006_esmeralda_01",
+    "source": "English 16/2; French 15/3; PassengerObjectScript.age=15",
+    "decision": "Русская версия 15/3 после дополнительной проверки метаданных. Предыдущее решение 16/2 пересмотрено явно."
+  },
+  {
+    "id": "couple-hotel-routing",
+    "scene": "010_camilleantoine_01",
+    "source": "hotel=5 from ca-goto-hotel-perfect -> ca-hotel-average; hotel=1 from ca-goto-hotel-average -> ca-hotel-perfect",
+    "decision": "Оригинальные условия сохранены. Расхождение маршрутизации и названий блоков не скрыто перестановкой текста."
+  },
+  {
+    "id": "christophe-parish-reaction",
+    "scene": "012_christophe_04",
+    "source": "English quite well; French plutôt mal",
+    "decision": "Сохранена английская реакция довольно спокойно, с ошеломлением и вопросами в следующих репликах."
+  },
+  {
+    "id": "leia-age",
+    "scene": "013_leia_07",
+    "source": "PassengerObjectScript.age=19; EN и FR: пятнадцать было семь лет назад, то есть подразумевается 22.",
+    "decision": "Слова персонажа сохранены в обеих частях диалога. Рассказчик не сообщает нового точного возраста; совершеннолетие подтверждено и метаданными, и её отдельной репликой."
+  },
+  {
+    "id": "leia-priest-story-condition",
+    "scene": "013_leia_01",
+    "source": "Пересказ решения священника оставить церковь включается по _Driver.Met.Christophe=1, установленному уже в первой встрече с ним.",
+    "decision": "Исходный переход сохранён. Возможное раннее раскрытие истории священника отмечено как особенность оригинальной маршрутизации, а не исправленная ошибка перевода."
+  },
+  {
+    "id": "leia-farewell-condition",
+    "scene": "013_leia_01",
+    "source": "Особое прощание о призраке, коте или полицейском зависит от знакомства с ними, а не от того, рассказал ли водитель об этом Лее.",
+    "decision": "Оригинальная маршрутизация сохранена; особое прощание может произойти и после отказа поделиться историей. Это не новая связь, созданная переводом."
+  },
+  {
+    "id": "fragonard-system-failed",
+    "scene": "014_fragonard_01",
+    "source": "frag-01-victims: English But the system failed us; French Mais le système l’a foiré; next FR Tout comme il a fait défaut aux victimes.",
+    "decision": "Система его подвела: французский местоименный адресат относится к ребёнку, которого били и который стал преступником. Следующая реплика связывает его с жертвами, которых система также подвела. Одобрение пожизненного приговора сохранено, оправдание преступления не добавлено."
+  },
+  {
+    "id": "alicia-noclue-condition",
+    "scene": "015_alicia_03",
+    "source": "alicia-03-poem3-clue-hub increments clue but tests noclue=2. Declared locals: dream, nightmare, sleep, clue. Both EN and FR share this condition.",
+    "decision": "Исходное условие сохранено. Два отказа дают холодную реакцию из clue1, затем завершение поэмы по clue=2; реакция clue2 требует отдельного noclue=2. Штатный движок проверен на всех 16 сочетаниях ответов. Это дефект/несогласованность оригинальной логики, не молча исправленная ошибка перевода."
+  },
+  {
+    "id": "alicia-fine-wordplay",
+    "scene": "015_alicia_02",
+    "source": "EN in fine / IS fine / endless; FR infinie / EST finie / sans fin.",
+    "decision": "Русский парадокс законченная / без конца уточнён по французскому исходнику. Её признание я тоже не понимаю сохранено."
+  },
+  {
+    "id": "alicia-poem-source-adaptation",
+    "scene": "015_alicia_03",
+    "source": "EN frail/fragile/fraggle, dream without sails; FR chevalier/cavalier/cheval, rêve sans volières.",
+    "decision": "Сохранена английская адаптация с русской парой ранимый/хрупкий и хранимый; родство слов передано по смыслу, не как ложное утверждение об этимологии. Сон без парусов оставлен по основному источнику; французскую лошадь, рыцаря и вольеры не смешивали с английской версией."
+  },
+  {
+    "id": "gerard-accomplice",
+    "scene": "016_gerard_01",
+    "source": "gerard-01-mother: EN first loser; FR premier complice.",
+    "decision": "Восстановлен соучастник, чтобы не превращать рассказ в доказанное осуждение полностью непричастного. Утверждения о стрельбе двоюродного брата остаются словами Жерара."
+  },
+  {
+    "id": "gerard-wink-idiom",
+    "scene": "016_gerard_01",
+    "source": "gerard-01-end: EN He pays you with a wink of his eye; FR En un clin d’œil, il vous paye.",
+    "decision": "Он мигом платит. Французская идиома означает быстро, в мгновение ока, не обязательно подмигивая."
+  },
+  {
+    "id": "grace-unused-bad-ending",
+    "scene": "017_grace_01",
+    "source": "From grace-01-start no internal link reaches grace-01-end-bad. Silence in grace-01-silence01 points to grace-01-end.",
+    "decision": "Оба финала переведены, исходные переходы сохранены. Полное молчание по штатному движку тоже даёт обычную благодарность. Не выдавать это за новую исправленную маршрутизацию."
+  },
+  {
+    "id": "francois-positive-affirmation",
+    "scene": "018_francois_02",
+    "source": "EN positive reinforcement; FR affirmation positive.",
+    "decision": "Принята французская формулировка позитивные аффирмации. В исходной фразе нет discrimination positive, поэтому она не превращена в политическую положительную дискриминацию."
+  },
+  {
+    "id": "francois-poem-homophones",
+    "scene": "018_francois_02",
+    "source": "EN there/they’re; FR est/et.",
+    "decision": "Русская пара итак/и так вместе с объясняющей строкой. При адаптации сохранены Земля, пространственные здесь/там и намеренная высокая оценка банального каламбура."
+  },
+  {
+    "id": "francois-electric-silence-target",
+    "scene": "018_francois_07",
+    "source": "EN less noise links to francois-07-silence (silence as consent); FR C’est plus silencieux links to francois-07-silent (expected noise response).",
+    "decision": "Английский переход сохранён и проверен Prompter.dll как переход основного источника. Французский вариант использует другой адресат: это несогласованность английской исходной локализации, а не общий для двух языков переход. Не заменять silent вместо silence молча."
+  },
+  {
+    "id": "francois-pseudonym-localizations",
+    "scene": "018_francois_08",
+    "source": "EN Aurore Dupin/George Sand; FR Romain Gary/Émile Ajar.",
+    "decision": "Историческое EN-решение отменено FR-приоритетом: Ромен Гари/Эмиль Ажар уже в действующем русском тексте08; женская пара изEN не возвращается.",
+    "historical_english_decision": "Цельная английская адаптация с Авророй Дюпен и Жорж Санд. Женский род сохраняется; сведения о Ромене Гари из французского варианта не вставлены в эту реплику.",
+    "status": "HISTORICAL_EN_POLICY_EXPLICITLY_SUPERSEDED",
+    "current_evidence": "review/contextual_second_batch_working.json"
+  },
+  {
+    "id": "francois-final-debate-localizations",
+    "scene": "018_francois_08",
+    "source": "EN clown pun, IVF for single women, logger degree; FR baltringue gender, feminization of occupational names, éboueur qualification.",
+    "decision": "Историческое EN-решение отменено: действуют FRмусорщик/феминизация названий, не лесоруб/ЭКО. Согласованность русской шутки тряпка/женскийрод с последующим упрёком отдельно отложена; не смешивать с исходным ENклоуном.",
+    "historical_english_decision": "Сохранена английская версия перепалки и лесоруб. Не считать всё расхождение ошибкой русского мода и не собирать новую случайную смесь двух исходных локализаций.",
+    "status": "HISTORICAL_EN_POLICY_EXPLICITLY_SUPERSEDED",
+    "current_evidence": "review/contextual_second_batch_working.json"
+  },
+  {
+    "id": "francois-extra-given-name",
+    "scene": "018_francois_05",
+    "source": "Speech François-Jacques de la N.; PassengerObjectScript.fullname François de la Nérée.",
+    "decision": "Произнесённый вариант сохранён в одной реплике о стаканчике. Основная карточка и остальные сцены не переименованы."
+  },
+  {
+    "id": "francois-hand-image-localizations",
+    "scene": "018_francois_03",
+    "source": "EN bite the hand; FR couper la main.",
+    "decision": "Историческое ENкусать отменено: действующий FRtoonice требует отрубить бьющую руку. Верный текст уже был исправлен прежним FRэтапом; повторное чтение03 это подтвердило.",
+    "historical_english_decision": "Кусать руку по основному английскому источнику. Не подменять его отсечением руки из французской версии.",
+    "status": "HISTORICAL_EN_POLICY_EXPLICITLY_SUPERSEDED",
+    "current_evidence": "review/contextual_second_batch_working.json"
+  },
+  {
+    "id": "herve-witness-localizations",
+    "scene": "019_herve_05",
+    "source": "EN profile, 50 feet, Angel5ft2–3in, Sandman over5ft8in; FR silhouette,15m,160–165cm,over175cm.",
+    "decision": "Исторические ENпрофиль/конверсияфутов отменены: FRсилуэт/15метров/Ангел1,60–1,65/Песочный>1,75. Не смешивать прежние числа с текущими; вся05 заново прочитана. Это свидетельство Эрве, не доказанная личность убийцы.",
+    "historical_english_decision": "Сохранён английский профиль, не досье. Расстояние около15м; английские значения роста переведены в сантиметры:157–160см и выше173см. Слегка отличающиеся французские численные версии не смешаны с английскими.",
+    "status": "HISTORICAL_EN_POLICY_EXPLICITLY_SUPERSEDED",
+    "current_evidence": "review/contextual_second_batch_working.json"
+  },
+  {
+    "id": "herve-rhyming-addresses",
+    "scene": "019_herve_03",
+    "source": "EN every day, Ray / thanks again, Ken; repeated rhymes throughout seven scenes.",
+    "decision": "Рифмованные случайные обращения Коля/Стас — адаптация речевого тика в двух репликах. Это не каноническое имя игрока, не отдельные новые персонажи и не изменение гендера. Другие рифмы чаще адаптированы повтором окончания без имени."
+  },
+  {
+    "id": "jacquie-bois-years",
+    "scene": "020_jacquie_04",
+    "source": "00a narrator: two years at Bois de Boulogne;04 passenger: almost nine. Both EN and FR contain the difference.",
+    "decision": "Оба исходных числа сохранены. Не менять биографию молча; прежние два года не считать доказательством ошибки русского перевода."
+  },
+  {
+    "id": "jacquie-third-clue-routing",
+    "scene": "020_jacquie_00b",
+    "source": "start at _Jacquie.Gave.Clue=2 selects hub03, whose random targets only include youok01/02/03. killer-intro can select killer03 if reached with value2.",
+    "decision": "Переходы сохранены. Третий рассказ переведён, но его наличие не означает доступность третьей выдачи улики из штатного start. Список возможных улик не сокращён."
+  },
+  {
+    "id": "jacquie-girlfriend-versions",
+    "scene": "020_jacquie_01",
+    "source": "Full account: Redwane says he has no girlfriend but everyone thinks he does. Short account: he prepares for his older girlfriend.",
+    "decision": "Оба варианта оставлены как слова Жаки, без сочинённого объяснения противоречия."
+  },
+  {
+    "id": "jacquie-creek-cove",
+    "scene": "020_jacquie_01",
+    "source": "EN small creek; FR petite crique; preceding scene at a lake.",
+    "decision": "Бухточка по французскому оригиналу и озёрному контексту. Не добавлять реку или ручей."
+  },
+  {
+    "id": "jacquie-nongraphic-minor-adaptation",
+    "scene": "020_jacquie_01",
+    "source": "Past account explicitly identifies a 17-year-old; story/story2/story3/story-end/short contain intimate detail or appraisals.",
+    "decision": "Неграфическое изложение без интимных инструкций и оценки сексуальных навыков подростка. Не повышен возраст, не скрыт факт опыта, не добавлено новое действие. Часть реплик сокращена и переформулирована: это сознательное отступление, а не исправление ошибочно переведённого слова."
+  },
+  {
+    "id": "jacquie-believer-fidele",
+    "scene": "020_jacquie_04",
+    "source": "EN believer; FR fidèle after client régulier.",
+    "decision": "Верующий по основному английскому источнику; конфессия не добавлена. Французская неоднозначность не смешана с отдельной репликой о постоянном клиенте."
+  },
+  {
+    "id": "carlo-entomologist-localizations",
+    "scene": "021_carlo_01",
+    "source": "EN entomologist/dentomologist with Tick/Spiderman/Ant-Man; FR apiculteur/appliculteur with honey/bees. Variable remains carlo-apiculteur.",
+    "decision": "FR235full72blocksread. EarlierprimaryENexplicitlysuperseded: pchelоvod/pchelоvoditel, honey/bees/organicbees and PanziParisgoalscorer/header, not entomologist/superheroes/endangeredspecies/goalie/bicyclekick. Originalflags/score/routes unchanged.",
+    "previous_decision": "Цельная английская версия энтомолог/дентомолог. Французский технический идентификатор сохранён; он не определяет видимую профессию."
+  },
+  {
+    "id": "carlo-goalie-striker",
+    "scene": "021_carlo_01",
+    "source": "EN Paris goalie; FR buteur de Paris.",
+    "decision": "FR235full72blocksread. EarlierprimaryENexplicitlysuperseded: pchelоvod/pchelоvoditel, honey/bees/organicbees and PanziParisgoalscorer/header, not entomologist/superheroes/endangeredspecies/goalie/bicyclekick. Originalflags/score/routes unchanged.",
+    "previous_decision": "Парижский вратарь по основному английскому источнику. Панзи — выдуманная встреча с футболистом, не подтверждённый реальный игрок."
+  },
+  {
+    "id": "carlo-battery-recap",
+    "scene": "021_carlo_01",
+    "source": "01lie-outofbattery proposes faulty battery after rejecting failure to charge; recap01c says totally uncharged.",
+    "decision": "Сохранена несогласованность пьяного пересказа; не менять выбранное условие или команду, не переписывать сюжет за Карло."
+  },
+  {
+    "id": "carlo-toilet-timing",
+    "scene": "021_carlo_01",
+    "source": "Earlier he plans phone loss before drinking; recap01b drops phone in toilet while having drinks.",
+    "decision": "Исходная путаница времени сохранена как его речь. Реальное время потери телефона не переопределено ради связного алиби."
+  },
+  {
+    "id": "carlo-exact-fare-tip-command",
+    "scene": "021_carlo_01",
+    "source": "end-bad-01 exact fare emits tip:medium; end-bad-02 take more money emits tip:high.",
+    "decision": "Сохранены обе исходные команды. Кнопка не переименована в добровольные чаевые; штатный движок проверяет выдачу команд отдельно от поведения Unity-обработчика."
+  },
+  {
+    "id": "claudia-smile-gender-typo",
+    "scene": "022_claudia_01",
+    "source": "EN part3-beautiful: he flashes you a smile; FR elle vous lance un sourire.",
+    "decision": "Она улыбается. Женский род подтверждён французским текстом и всем контекстом, мужской персонаж не добавлен."
+  },
+  {
+    "id": "claudia-rolled-r-adaptation",
+    "scene": "022_claudia_01",
+    "source": "EN part2-question: she rolls the r on the last word; FR does not contain that narration here.",
+    "decision": "FR231: explicit4→3and1→2visiblealignments. Tongue/syllablegesture belongs toFrenchcharmingbranch; no English-only r narration/barword requirement in sharedquestion. No FRcontentlost.",
+    "previous_decision": "Последнее слово русской реплики баре содержит р. Сохранён языковой жест, исходная реплика адаптирована к воображаемому бару без реального заказа напитка."
+  },
+  {
+    "id": "claudia-tip-sequence",
+    "scene": "022_claudia_01",
+    "source": "end-intro emits tip:medium and leads to end-good with tip:high.",
+    "decision": "Обе исходные команды сохранены, последовательность проверяется штатным движком. Текстовый просмотр не доказывает, как Unity рассчитывает итоговые чаевые."
+  },
+  {
+    "id": "claudia-parents-clue-command",
+    "scene": "022_claudia_01",
+    "source": "accent-why emits clue_judge_customer_claudia_01 without killer-case condition or _Found.Clue.Today modifier.",
+    "decision": "Исходная команда не снабжена новым фильтром или флагом переводом. Unity-обработчик выдачи улик имеет отдельную область проверки."
+  },
+  {
+    "id": "claudia-bad-fare-repeat",
+    "scene": "022_claudia_01",
+    "source": "EN end-bad first says she pays fare, later hands fare and exits; FR only one fare mention.",
+    "decision": "FR231 keeps singlefaremention, then hurriedexit asFrench; old English textualrepeatretired, paymentcommands unchanged.",
+    "previous_decision": "Английские описания сохранены без добавления ещё раз, второй поездки или двойного тарифа."
+  },
+  {
+    "id": "alicehyoga-thanks-farewell",
+    "scene": "024_alicehyoga_01",
+    "source": "EN mother says thank driver, Hyoga; boy says Goodbye Driver Hyoga. FR mother says say goodbye, Hyoga; boy repeats au revoir au monsieur Hyoga.",
+    "decision": "Английские спасибо/до свидания сохранены. Двусмысленность имени в детском повторении оставлена, имя таксиста не меняется."
+  },
+  {
+    "id": "alicehyoga-none-tip-change",
+    "scene": "024_alicehyoga_01",
+    "source": "end emits tip:none; end2 says Keep the change.",
+    "decision": "Обе исходные детали сохранены. Не менять чаевые на high или medium по фразе сдачу оставьте."
+  },
+  {
+    "id": "alicehyoga-card-age",
+    "scene": "024_alicehyoga_01",
+    "source": "Group PassengerObjectScript.age37; direct dialogue child age5.",
+    "decision": "Пять лет — возраст сына по реплике. 37 сохранено как значение общей карточки, не назначено мальчику."
+  },
+  {
+    "id": "apollonie-offer-meaning",
+    "scene": "023_apollonie_01",
+    "source": "EN proposition-no wants you to take me there; FR tu m’accompagnes. Following lines concern becoming a vampire and past offers.",
+    "decision": "Приглашение присоединиться к ней уточнено по французскому и продолжению сцены. Оно не подменено только просьбой довезти до места."
+  },
+  {
+    "id": "apollonie-prey-localizations",
+    "scene": "023_apollonie_01",
+    "source": "EN one little gay advertising worker, a vegan addicted to MDMA; FR un petit gay ... une végane ...",
+    "decision": "Сохранена цельная английская версия с одним мужчиной; два разных примера французского текста не смешаны в одну грамматически противоречивую фигуру."
+  },
+  {
+    "id": "apollonie-age-claim",
+    "scene": "023_apollonie_01",
+    "source": "PassengerObjectScript.age110; passenger claims past three centuries in Solilès ending.",
+    "decision": "Карточка и слова персонажа записаны отдельно. Не исправлять одно число другим без доказательства и не объявлять вампиризм подтверждённым."
+  },
+  {
+    "id": "apollonie-belvedere-localizations",
+    "scene": "023_apollonie_01",
+    "source": "EN Marie-Antoinette/Count of Paris/hearts thump; FR Marie-Ant/Duc de Paris/hearts stop.",
+    "decision": "Сохранён цельный английский вариант: Мария-Антуанетта, граф Парижский, сердца колотились бы. Не приписывать им конкретные исторические личности сверх произнесённых имён и титула."
+  },
+  {
+    "id": "apollonie-carter-fare-repeat",
+    "scene": "023_apollonie_01",
+    "source": "end-carter hands fare; end-carter2 pays ride.",
+    "decision": "Оба описания сохранены без слов ещё раз и второй тариф. Сумма в игре определяется исходными командами, не догадкой по повторению рассказчика."
+  },
+  {
+    "id": "ade-tarot-justice-judgment",
+    "scene": "025_ade_01 /025_ade_02",
+    "source": "EN Judgment; FR Justice in first two stories. Both appear distinctly in07 case readings.",
+    "decision": "Суд по английскому в01/02; Правосудие отдельно в07. Два аркана не смешаны по одинаковому русскому слову судебной темы."
+  },
+  {
+    "id": "ade-guyana-guiana-prefect",
+    "scene": "025_ade_04",
+    "source": "EN Guyana/commissioner; FR Guyane/le préfet.",
+    "decision": "Гвиана и префект по уточняющему французскому источнику. Не вносить конкретного чиновника, политический факт или доказанное убийство."
+  },
+  {
+    "id": "ade-voice-gender-typo",
+    "scene": "025_ade_04",
+    "source": "EN His voice trails off. She closes her eyes; FR Sa voix s’éteint. Elle ferme les yeux.",
+    "decision": "Её голос затихает, относится к Аде. Не добавлен мужчина-рассказчик в салоне."
+  },
+  {
+    "id": "ade-visible-editor-comment",
+    "scene": "025_ade_07",
+    "source": "First choice in start-no2 contains spoken Yes, I’m sure plus French editor question C’est bien ça, le sens du NON en FR?",
+    "decision": "Редакторская пометка удалена из видимого перевода. Да, уверен сохраняет исходный переход к отказу слушать; отрицание не инвертировано."
+  },
+  {
+    "id": "ade-repeated-clue-flag",
+    "scene": "025_ade_07",
+    "source": "Judge and Angel passages each repeat _Found.Clue.Today=1 twice.",
+    "decision": "Оба исходных присваивания сохранены. Повтор не означает две находки сам по себе; отдельные clue-команды проверяются по делу."
+  },
+  {
+    "id": "skaterz-hotel-empty-condition",
+    "scene": "026_skaterz_01",
+    "source": "hotel-arrival2 increments yellow_found; hotel-empty then checks yellow_found>0, so first visit reaches emptyA. emptyB unreachable from normal start.",
+    "decision": "Исходное условие сохранено. Обе реакции переведены; недоступность B не исправлена переводом."
+  },
+  {
+    "id": "skaterz-beer-spelling",
+    "scene": "026_skaterz_01",
+    "source": "EN BEEER, FR BIERRE, intentional error on beer label.",
+    "decision": "ПИИВО с лишней И как цельная русская адаптация опечатки. Не BEEER как непереведённое обычное слово и не исправление авторской шутки."
+  },
+  {
+    "id": "skaterz-pouf-adaptation",
+    "scene": "026_skaterz_01",
+    "source": "running_pouf callback: FR dès qu’il boit... POUF; EN as soon as he starts drinking... NOTHING.",
+    "decision": "FR234полнаясверкавсех90блоков: прежнийосновнойENотменён. УсловныйповторПУФ/запахАНИСАсохраненыпоFR. Неисправлятьшуткуилихимическийсоставпредположением.",
+    "previous_decision": "Ничего по основному английскому источнику. Переменная running_pouf и условный дополнительный рассказ о Синем сохранены."
+  },
+  {
+    "id": "skaterz-odor-adaptation",
+    "scene": "026_skaterz_01",
+    "source": "EN cab smells like licorice; FR anis.",
+    "decision": "FR234полнаясверкавсех90блоков: прежнийосновнойENотменён. УсловныйповторПУФ/запахАНИСАсохраненыпоFR. Неисправлятьшуткуилихимическийсоставпредположением.",
+    "previous_decision": "Лакрица по основному английскому источнику. Не объединять её с анисом и не объявлять фактический состав выпитого установленным."
+  },
+  {
+    "id": "skaterz-first-try-boast",
+    "scene": "026_skaterz_01",
+    "source": "bar-found selected at yellow_found=2, but Green boasts ON THE FIRST TRY, while Red says they wandered for an hour.",
+    "decision": "Хвастовство с первой попытки сохранено как реплика пьяного персонажа; третий этап поиска не переписан под неё."
+  },
+  {
+    "id": "le-second-tip-overrides",
+    "scene": "027_lucieemilie_02",
+    "source": "arrival-drunk emits medium, arrival-silence emits low; common end emits high and trust+=1.",
+    "decision": "Сохранены все исходные команды и поздний рост доверия. Не рассчитывать финальные чаевые по отдельной ранней команде без Unity-обработчика."
+  },
+  {
+    "id": "le-uncertain-genetics-same-link",
+    "scene": "027_lucieemilie_01",
+    "source": "I don’t know links to same response as No, impossible.",
+    "decision": "Исходная реакция Эмили на неопределённость как на отрицание сохранена, новый логичный ответ не добавлен."
+  },
+  {
+    "id": "le-wife-nickname-localizations",
+    "scene": "027_lucieemilie_03",
+    "source": "EN stop: Him, are you crazy / Him, please; FR Lu, mais ça va pas / Lu, s’il te plaît.",
+    "decision": "Сохранён цельный английский смысл: Эмили возражает против водителя. Все обращения к жене в женском роде, милая вместо старого дорогой."
+  },
+  {
+    "id": "le-donor-not-father-role",
+    "scene": "027_lucieemilie_03",
+    "source": "01 asks for donor, not father;03 Phil branch says chose his dad for good looks.",
+    "decision": "Отец в позднем пересказе сохранён: биологическая связь не обязательно социальная роль. Не переписать женщинами заявленную цель найти только донора."
+  },
+  {
+    "id": "carolina-travel-asymmetry",
+    "scene": "028_carolinaj_01",
+    "source": "Why do you have to go out? -> carolina-start-out-intro emits travel:start; I know all about that -> carolina-start-taxi links directly to carolina-start-out. Both reach travel:stop in carolina-rules.",
+    "decision": "Оригинальные команды и связи сохранены. Не вставлять travel:start в перевод по предположению о движении автомобиля. Эффект требует проверки обработчика Unity."
+  },
+  {
+    "id": "carolina-living-encounter-radio-victim",
+    "scene": "028_carolinaj_01",
+    "source": "Carolina speaks in her encounter; 972 Radio-News-Killer-Angel-02 names fourth victim Carolina Jarreau who donated entire fortune; -03 describes rich widow and insinuates money motive.",
+    "decision": "Сообщения радио относятся к своей ветке Ангела смерти. Не переписывать встречу с живой Каролиной и не придумывать хронологию или установленный мотив по отдельным слухам. Связанные радио-блоки прочитаны, полный радиосценарий pending."
+  },
+  {
+    "id": "jerome-blood-response-routing",
+    "scene": "029_jerome_01",
+    "source": "far-blood -> Yes I’m fine/smile; far-ok -> Why wouldn’t it/arm bleeding/it’s nothing. Upstream responses swapped.",
+    "decision": "Восстановлены исходные английские реплики каждой ветки. Не переставлять реакции ради психологической логики."
+  },
+  {
+    "id": "jerome-first-tip-sequence",
+    "scene": "029_jerome_01",
+    "source": "end01 tip:mid; optional returned-passenger route end02 tip:low.",
+    "decision": "Порядок обеих команд сохранён. Отдельная поздняя low не даёт оснований менять первоначальную mid или утверждать окончательный расчёт Unity."
+  },
+  {
+    "id": "jerome-return-travel-asymmetry",
+    "scene": "029_jerome_01",
+    "source": "end02-often emits travel:start; end02-job and direct end02 do not, although prose starts the cab. All returned routes emit travel:stop.",
+    "decision": "Текст переведён, все исходные команды сохранены. Проверить обработчик движения в Unity, не добавлять команды в локализации."
+  },
+  {
+    "id": "jerome-first-call-geography",
+    "scene": "029_jerome_01",
+    "source": "Original call French La Défense; end01 describes Haussmannian building at unnamed street address112 then212.",
+    "decision": "Дефанс сохранён в фразе заказа. Тип дома и отсутствие улицы не основание переписывать географию; команды destination не изменены."
+  },
+  {
+    "id": "jerome-second-disconnected-fire-intro",
+    "scene": "029_jerome_02",
+    "source": "jerome-02-start -> start2 directly; startB exists but no compiled link reaches it.",
+    "decision": "startB про горящий дом переведён, не добавлен новый условный переход. Исходная шутка про номер зависит от Burning.InCar отдельно."
+  },
+  {
+    "id": "jerome-second-disconnected-wait-options",
+    "scene": "029_jerome_02",
+    "source": "wait-sleep -> wait-sleep-low unconditionally; low sleep0, mid/high sleep1; radio/journal have no incoming choices.",
+    "decision": "Все блоки переведены. Обычный выбор подремать включает heat1, но не sleep1; ветку продолжающегося сна проверять отдельно как неподключённую в текущем ресурсе."
+  },
+  {
+    "id": "jerome-eye-joke-localizations",
+    "scene": "029_jerome_02",
+    "source": "EN hardly a sight for sore EYES; FR failli tourner de L’ŒIL.",
+    "decision": "Адаптирован английский смысл неприглядного зрелища русским ГЛАЗА бы мои этого не видели! Сохранены акцент и хохот, французский иной каламбур не смешан."
+  },
+  {
+    "id": "jerome-medical-claims-speaker",
+    "scene": "029_jerome_02",
+    "source": "Jérôme says trichiasis often due to excessive masturbation, cornea dries because pain, youngest case, five operations.",
+    "decision": "Это реплики ненадёжного пассажира. Переведены без превращения в справочный медицинский факт, без коррекции сюжета и без выдуманного лечения."
+  },
+  {
+    "id": "jerome-slavic-nationalities",
+    "scene": "029_jerome_02",
+    "source": "Passenger guesses Russians/Ukrainians/Poles; narrator asks Polish area? and observes Chechen license plates.",
+    "decision": "Сохранены говорящий и степень уверенности каждой детали. Не объединять всё в доказанную национальность жильцов или преследователей."
+  },
+  {
+    "id": "jerome-third-scout-hospital-localizations",
+    "scene": "029_jerome_03",
+    "source": "EN all campers were released from local hospital; FR departure of comrades to local hospital. EN basal-cell carcinoma; FR dozen carcinomas.",
+    "decision": "Сохранён английский вариант: ребят выписали, базальноклеточная карцинома без добавленного количества. Медицинский рассказ пассажира не превращён в документальную справку."
+  },
+  {
+    "id": "jerome-third-hat-localizations",
+    "scene": "029_jerome_03",
+    "source": "EN wear black HAT; FR porter le CHAPEAU (take blame); Jérôme hears secret link hat/Panama.",
+    "decision": "Смысл чёрной шляпы раскрыт выставить злодеем, сам образ и связь с панамой сохранены. Это его неверное толкование, не доказанный шифр отца."
+  },
+  {
+    "id": "jerome-third-swear-joke-localizations",
+    "scene": "029_jerome_03",
+    "source": "EN fuck a duck/Natural History Museum/animal welfare; FR merde/Comédie française/superstitions.",
+    "decision": "Цельный английский вариант адаптирован ругательством ёб твою утку, музеем и защитой животных. Старое блин не сохраняло ни силу, ни шутку. Не описано сексуальное действие."
+  },
+  {
+    "id": "jerome-third-legal-contradictions",
+    "scene": "029_jerome_03",
+    "source": "First ride father in jail,03 father custody11hours and may go to jail; son says real accounts Panama then no hidden accounts.",
+    "decision": "Утверждения сына и неопределённая хронология оставлены. Не выдумывать освобождение/повторный арест/приговор, не убирать противоречие скрытых счетов ради оправдания отца."
+  },
+  {
+    "id": "jerome-third-irony-same-end",
+    "scene": "029_jerome_03",
+    "source": "Plain Good luck and :irony: Good luck link to same end-goodluck.",
+    "decision": "Исходная благодарность и поддержка сохранены в обоих вариантах. Не сочинять иную саркастическую реакцию или менять чаевые."
+  },
+  {
+    "id": "peter-shohreh-radio-gender",
+    "scene": "030_peter_01",
+    "source": "EN02C mathematician/medal he received/His voice; FR mathématicienne/elle.046 own introduction She and Passenger.gender0.",
+    "decision": "Радиоинтервью в женском роде по двум независимым внутригровым подтверждениям. Пол Шохре закреплён, полная046-сцена не объявлена сверенной."
+  },
+  {
+    "id": "peter-radio-priority",
+    "scene": "030_peter_01",
+    "source": "Alicia1 ->02A before Julian1 ->02B before Shohreh1 ->02C, then killer radio, then anonymous poet.",
+    "decision": "Исходные приоритеты сохранены. При нескольких знакомствах не показывать всех сразу, узнавание только в соответствующем варианте."
+  },
+  {
+    "id": "peter-tip-sequence",
+    "scene": "030_peter_01",
+    "source": "radio04-wakeup low; music-who high; other choices no tip commands and common end no tip command.",
+    "decision": "Сохранены ранняя low и поздняя high по фактической ветке. Отсутствие новой команды не означает нулевые чаевые: финальную сумму определяет Unity."
+  },
+  {
+    "id": "peter-brief-tu-transition",
+    "scene": "030_peter_01",
+    "source": "FR polite Montez/Laissez/votre/Écoutez/vous; stadium one Tu sais; end vous again.",
+    "decision": "Краткий переход Знаешь в ревнивой реплике сохранён; остальное вы. Вложенное tu можешь смотреть обращено к юному Бланту, не к водителю."
+  },
+  {
+    "id": "peter-teaching-claim",
+    "scene": "030_peter_01",
+    "source": "Taught everything claim followed by no,but you can watch weekly; X pays entry.",
+    "decision": "Противоречие саморекламы и наблюдения оставлено. Не придумывать полноценные уроки, обучение за наркотики или реальную биографию артиста."
+  },
+  {
+    "id": "geraldine-known-restaurant-menu",
+    "scene": "031_geraldine_01",
+    "source": "startB sets Known1 before restaurant question. Full start with incoming0 or1 reaches var-yes; var-no exists but not reached through full start.",
+    "decision": "Триответное меню остаётся доступным по исходному флагу. Двухответный блок переведён, связи не изменены."
+  },
+  {
+    "id": "geraldine-sandman-clue-unconditional",
+    "scene": "031_geraldine_01",
+    "source": "story2 emits clue_sand_customer_geraldine_01 unconditionally; story4-accept emits02, no Found.Clue.Today modifiers and no killer checks.",
+    "decision": "Команды/переменные сохранены. Фактическую фильтрацию/выдачу улики в другом деле не выводить из самостоятельного Prompter."
+  },
+  {
+    "id": "geraldine-anita-shared-call",
+    "scene": "031_geraldine_01",
+    "source": "031 and032 share call I’m off to6th/my friend17th. Anita dialogue names herselfSaint-Germain/friendÉtoile; actual passengers differ by scene.",
+    "decision": "Сохранён общий текст заказа, совпадающий с адресами Аниты. Не менять я/подруга, не переназначать районы по имени главного пассажира файла."
+  },
+  {
+    "id": "geraldine-completed-revenge-conditional-plan",
+    "scene": "031_geraldine_01",
+    "source": "Says winning plan and saw retaliation to end, then If my plan works company disappears.",
+    "decision": "Сохранены уверенность героини и условный будущий результат. Не объявлять закрытие сети, разоблачение/арест Аниты уже завершёнными."
+  },
+  {
+    "id": "geraldine-normal-no-tip-command",
+    "scene": "031_geraldine_01",
+    "source": "Great high at liked>3, good medium at>1, normal has no tip command.",
+    "decision": "При обычном финале нет дополнительной команды, а не обязательно нулевые чаевые. Окончательный расчёт Unity пока не проверен."
+  },
+  {
+    "id": "anita-franchise-conflicting-view",
+    "scene": "032_anita_01",
+    "source": "Anita built a franchise from nothing/almost nothing; Géraldine031 inheritance and did not want to franchise.",
+    "decision": "Обе версии даны своим голосам, не исправлены под единую юридическую биографию. Анита также хвалит подругу и оправдывает увольнение."
+  },
+  {
+    "id": "anita-its-her-fear",
+    "scene": "032_anita_01",
+    "source": "end-chat she reaches hip/unbuckles seatbelt; narrator It’s her; she relaxes and says probably too much alcohol.",
+    "decision": "Это она сохранено как сильная мысль водителя. Не усилено словом убийца, не дописан пистолет или признание виновности."
+  },
+  {
+    "id": "anita-quiet-sentence-without-prior-speech",
+    "scene": "032_anita_01",
+    "source": "silence01 leave her alone ->silence02 whose prose says Her sentence ends conversation even with no preceding speech.",
+    "decision": "Исходное описание сохранено без новой выдуманной реплики, ссылки неизменны. Это особенность соединения блоков, не повод дописывать слова персонажа."
+  },
+  {
+    "id": "anita-gender-about-friend",
+    "scene": "032_anita_01",
+    "source": "story02 she had kids/separated husband/worked16 refers Géraldine; I parents money/schools refers Anita.",
+    "decision": "Владельцы биографий явно закреплены. Родила заменой had kids не добавлено; разошлась с мужем не превращено в подтверждённый официальный развод."
+  },
+  {
+    "id": "anita-fund-clue-unconditional",
+    "scene": "032_anita_01",
+    "source": "story04 unconditional clue_sand_customer_anita_01; no case check or Found.Clue.Today modifier; quiet route bypasses story04.",
+    "decision": "Команда и исходные условия сохранены. Тихая ветка не даёт этот блок, реальная выдача/фильтр улик Unity пока не проверены."
+  },
+  {
+    "id": "chiara-age-description-card",
+    "scene": "033_chiara_01",
+    "source": "Passenger.age26; EN earlytwenties; FR she isn’t25.",
+    "decision": "ДополнительнаяFR227: рассказчикейнет25, карточка26неизменна. СтараяENранниедвадцатипометкаотменена; причинарасхожденияневыдумана.",
+    "previous_decision": "Точная карточка26 сохранена. Прикидка рассказчика передана на вид чуть за двадцать, не другая точная биографическая дата. Не исправлять карточку на22/24."
+  },
+  {
+    "id": "chiara-near-miss-english-wording",
+    "scene": "033_chiara_01",
+    "source": "EN cyclists you almost always hit; FR vous manquez d’écraser à chaque feu rouge.",
+    "decision": "У светофоров едва не сбивает, не регулярные совершённые наезды. Шутка о взаимных нарушениях сохранена."
+  },
+  {
+    "id": "chiara-two-sleeps-tip",
+    "scene": "033_chiara_01",
+    "source": "start low; firstsilence sleep+1; secondsilence sleep+1; wakeup sleep=2 ->double medium, else single no new tip.",
+    "decision": "Порядок и условия исходника сохранены. Разговор о работе не даёт первый счётчик сна, прочие ответы после доставки не дают второй. Итоговый расчёт Unity не доказан."
+  },
+  {
+    "id": "chiara-taking-it-easy-relative",
+    "scene": "033_chiara_01",
+    "source": "Exhausting job/40hours but can take easy bike/no boss; immediately corrects boss phone/algorithm.",
+    "decision": "Спокойно ездит относительно прежних домогательств, не бездельничает и не независима от заказов/компании. Исходное уточнение алгоритма не удалено."
+  },
+  {
+    "id": "chiara-takoyaki-description",
+    "scene": "033_chiara_01",
+    "source": "EN octopusfritters; FR beignetsau poulpe; source says Osaka/grandmotherrecipe.",
+    "decision": "Шарики из теста с осьминогом по культурному контексту JNTO, не оладьи из осьминога. Сохранён домашний рецепт, дополнительные ингредиенты и история семьи не придуманы."
+  },
+  {
+    "id": "phil-silent-threshold",
+    "scene": "034_phil_01",
+    "source": "start/error silence+1;airport2/3 +1;airport4 no modifier;normal +1;aggressive -2. end silence>3 ->03402.",
+    "decision": "Сохранён строгий порог и все модификаторы. Молчание в других строках и кивок не дают отдельно новую прибавку сверх конечногоnormal+1."
+  },
+  {
+    "id": "phil-half-sister-fabrication",
+    "scene": "034_phil_01",
+    "source": "Pretends worried waiting for little sister;half-sister line then divorced/remarried parents works every time.",
+    "decision": "Вложенные цитаты обозначают выдуманную роль, не фактическую биографию. Один общий родитель передан без выдуманного пола этого родителя."
+  },
+  {
+    "id": "phil-fear-or-insult-aggressive",
+    "scene": "034_phil_01",
+    "source": "fearwomen ->question-stupid ->aggressive, same as directasshole;after rating ->simple.",
+    "decision": "Объяснение страха тоже заканчивается ссорой/none и03401, не мягким успокоением. Рейтинг после номеров не вызывает автоматически ссору."
+  },
+  {
+    "id": "phil-shoe-smell-observation",
+    "scene": "034_phil_01",
+    "source": "Passenger complains smells shit, narrator spots darkbrown under rightsole in both endings.",
+    "decision": "Сохранены повтор запаха и наблюдение правильной стороны. Не добавлено прямое утверждение о фекалиях/заражении/нечистом салоне."
+  },
+  {
+    "id": "phil-same-firstname-not-proven",
+    "scene": "034_phil_01",
+    "source": "027 calls candidate onlyPhil, goodlooking/macho.034card fullnamePhilBourgeois, similar description but no directsurname link.",
+    "decision": "Не соединять биографии по одному имени и внешности. Связанные027-сцены сверены, возможная связь остаётся неподтверждённой."
+  },
+  {
+    "id": "sylsyl-generic-you-agreement",
+    "scene": "035_sylvainsylvie_01",
+    "source": "Gay does not make you beautiful/intelligent/honest;beingblondexample. Upstream beautiful/intelligent/blond/honest are feminine.",
+    "decision": "Сохранено обобщение о качествах, форма красивым/умным/блондин/честный без ложной смены пола сына. Пример не устанавливает цвет волос."
+  },
+  {
+    "id": "sylsyl-group-age",
+    "scene": "035_sylvainsylvie_01",
+    "source": "PassengerObjectScript age44,is_multiple1;dialogue explicitlymother/teenageson.",
+    "decision": "44 сохранено как возраст карточки, не назначено подростку или всем одинаково."
+  },
+  {
+    "id": "sylsyl-parent-attitudes",
+    "scene": "035_sylvainsylvie_01",
+    "source": "Mother father has no problem with homosexuals;son afraid father won’t understand. Mother says happy;son says relieved.",
+    "decision": "Различия голосов и чувств сохранены, отец не объявлен точно поддерживающим/точно враждебным. Раскрытие ориентации не роман/сексуальный эпизод."
+  },
+  {
+    "id": "sylsyl-shared-last-answer",
+    "scene": "035_sylvainsylvie_01",
+    "source": "Noproblem and everyreasontobeproud both link end-problem/reveal03501;silence skips;common medium.",
+    "decision": "Два произнесённых ответа дают общий дополнительный разговор, чаевые не изменены. Молчание не придумано как осуждение/ссора."
+  },
+  {
+    "id": "sean-informal-switch-missing-thanks",
+    "scene": "036_sean_01",
+    "source": "Thanksmangoodtotalktoyou precedes narrator explicittu. Oldblock missesthanksline and uses tulate other lines.",
+    "decision": "Благодарность восстановлена, тамявное ты, до неёвы. Поздний vous изFR сохранён, не все следующие реплики переведены на ты."
+  },
+  {
+    "id": "sean-driver-police-headgesture",
+    "scene": "036_sean_01",
+    "source": "EN smile andshakehead noneedknow;FR smile andnod noneedknow.",
+    "decision": "Цельный английский вариант отрицательно качает. Водитель не делится опытом, не утверждается объективное отсутствие плохого обращения в его прошлом."
+  },
+  {
+    "id": "sean-goodschool-interesting-same-answer",
+    "scene": "036_sean_01",
+    "source": "Goodschool andmustinteresting bothlink school/Thebest.",
+    "decision": "Лучшая в обоих вариантах сохранено. Не создан новый развёрнутый ответ ради логики после интересно."
+  },
+  {
+    "id": "sean-talk-flag-subset",
+    "scene": "036_sean_01",
+    "source": "talk1 onlyin thanks after spoken philosopheranswers;firstschoolskip/student2silence/philosophersilence bypass.",
+    "decision": "Итог high/03602 зависит от этого конкретного контакта, не просто от разговора на любом раннем этапе. Никаких новых флагов не добавлено."
+  },
+  {
+    "id": "sean-racaille-word",
+    "scene": "036_sean_01",
+    "source": "New Frenchslang racaille, lowlifereference anduncertainpronunciation.",
+    "decision": "Оставлено иностранное слово как предмет вопроса, смысл шпана. Не пустой машинный ракайль и не убеждение редактора о самом человеке."
+  },
+  {
+    "id": "sean-animation-zero",
+    "scene": "036_sean_01",
+    "source": "Commands and_userdatas use C0LD_2_DRIVER withdigit0.",
+    "decision": "Нольнепереписан буквойO, связи и внешний вид анимации не нарушены по предположению о названии."
+  },
+  {
+    "id": "shinji-foreign-dialogue-not-omission",
+    "scene": "037_shinji_01",
+    "source": "EN and FR retain identical Japanese dialogue and Japanese echoes by driver.",
+    "decision": "Японский сохранён посимвольно, переводится только подпись говорящего. Русские пояснения не раскрывают водителю содержание японских слов."
+  },
+  {
+    "id": "shinji-son-versus-wife-guess",
+    "scene": "037_shinji_01",
+    "source": "Japanese son died at Christmas, leukemia, age19. English/French driver guesses wife, cannot understand.",
+    "decision": "Догадка о жене не исправляется на сына в русском рассказчике: водитель не знает, кого потерял пассажир. Сын зафиксирован в базе фактов, а не добавлен в мысли водителя."
+  },
+  {
+    "id": "shinji-head-shake-and-missing-lines",
+    "scene": "037_shinji_01",
+    "source": "EN shakehead / FR nod in nounderstanding and story; old Russian omits Japanese thanks, first anger/food lines and several narrator actions.",
+    "decision": "Сохранён цельный английский жест. Пропуски восстановлены; лишний повтор Я.Не.Понимаю в introA снят, исходный выбор остался."
+  },
+  {
+    "id": "shinji-name-and-font",
+    "scene": "037_shinji_01",
+    "source": "Old name mapping Shindzi; original Shinji, old Russian speaker СИНДЗИ and patched font selector синдзи.",
+    "decision": "Каноническое полное имя Синдзи Курумада. Шрифт не изменён при редактуре, новая нативная сборка и экранная проверка остаются отдельной задачей."
+  },
+  {
+    "id": "francine-stuffed-toy-and-mother",
+    "scene": "041_francine_01",
+    "source": "EN stuffedanimal/FRpeluche in cat basket; EN/FR mother died before adoption, old Russian omits mother.",
+    "decision": "Мягкая игрушка вместо чучела. Возвращена смерть матери как мотив привязанности, не придуман диагноз или смерть Круки."
+  },
+  {
+    "id": "francine-dream-speaker-gender",
+    "scene": "041_francine_01",
+    "source": "EN one malformed quote in OrhedrunkButIwantedbelieve. FR one female passenger utterance. Old Russian splits second part into unnamed male Iwanted.",
+    "decision": "Вся реплика относится к Франсин. Желание поверить передано в женском контексте без смены говорящего; свидетель безымянный."
+  },
+  {
+    "id": "francine-two-memory-flags",
+    "scene": "041_francine_01",
+    "source": "tell=1 set by earlytrainclaim; _Driver.Crouky=0/1 from040 chooses actual late truth. Earlymenus not conditioned on the global.",
+    "decision": "Разные флаги сохранены. Противоречивые ранние заявления возможны по исходной логике; сцена не переписана ради исключения лжи."
+  },
+  {
+    "id": "francine-travel-command-asymmetry",
+    "scene": "041_francine_01",
+    "source": "No travel:start anywhere; travel:stop onlyend-bad. End01 also describes pullingover without that command.",
+    "decision": "Тексты обеих остановок естественные, команды исходные. Нельзя делать вывод о фактическом поведении поездки Unity из одного самостоятельного теста."
+  },
+  {
+    "id": "francine-head-and-uncertain-cat-fate",
+    "scene": "041_francine_01",
+    "source": "EN shakehead/FRnod in endbad02; probablydead and Deauville are passenger claims.",
+    "decision": "Качает головой по EN. Довиль не превращён в подтверждённый адрес, вероятная смерть не объявлена состоявшейся. Полицейская не переименована в Бюссе."
+  },
+  {
+    "id": "djena-female-patient-across-encounters",
+    "scene": "042_djena_01 / 042_djena_02",
+    "source": "EN initial gender-neutralpatient; FRpatiente fromfirst;ENshe later. OldRussianmale early versusfemale later.",
+    "decision": "Пациентка в обеих встречах, одна и та же потеря. Не добавлены новое имя, возраст в цифрах или отдельная смерть мужчины."
+  },
+  {
+    "id": "djena-first-sleep-version",
+    "scene": "042_djena_01",
+    "source": "EN looksoutside/shivers andIwasnotsleeping;FRsleepingdeeply andIamawake.",
+    "decision": "Цельная английская версия с дрожью и отрицанием сна; не смешана с французским пробуждением. Прибавление отопления восстановлено во всех исходных ветках."
+  },
+  {
+    "id": "djena-algerian-song-rai",
+    "scene": "042_djena_01",
+    "source": "EN Algeriansong / FRchansonderai.",
+    "decision": "Алжирская песня по EN, жанр отмечен в контексте. Исполнитель, название и гражданство не придуманы."
+  },
+  {
+    "id": "djena-doctor-self-blame",
+    "scene": "042_djena_02",
+    "source": "I killed accidentally fromfirst becomes I lost patient/flu/notemergency/otheremergencies insecond.",
+    "decision": "Не признание в умышленном убийстве и не установленная невиновность; две авторские формулировки сохранены. Врач/медсестра не перепутаны."
+  },
+  {
+    "id": "djena-silence-and-travel",
+    "scene": "042_djena_02",
+    "source": "Initialsilence orcalmdown->bad;postangersilence->peculiar->good. No travelcommands in02, start/stopin01.",
+    "decision": "Два молчания дают разные исходы, команды поездки не добавлены. Порядок low/medium илиlow/low сохранён; раскрытия04201/04202 не стали новыми clueкомандами."
+  },
+  {
+    "id": "jonas-invented-driver-choice",
+    "scene": "043_jonas_01",
+    "source": "EN Excuseme?/FRCommentça;oldRussian latelyIonlythinkaboutthat.",
+    "decision": "Восстановлено Простите. Водитель не согласился с теорией и не получил новую навязчивую мысль."
+  },
+  {
+    "id": "jonas-float-value-and-ignominy",
+    "scene": "043_jonas_01",
+    "source": "ENfloatvalue/FRvaleurflottante;ENignominy absentFR.",
+    "decision": "Значение с плавающей точкой возвращено; унижение по смыслу словаря. Английский перечень сохранён, конкретная уязвимость не придумана."
+  },
+  {
+    "id": "jonas-god-program-versus-programmer",
+    "scene": "043_jonas_01",
+    "source": "ENGodnothingmorethancomputerprogram;FRDieunestquuninformaticien.",
+    "decision": "Компьютерная программа по EN. Не создана новая личность/профессия создателя мира."
+  },
+  {
+    "id": "jonas-ui-profession-and-partner",
+    "scene": "GC.SUSPECT.TT.JONAS / 043_jonas.bio",
+    "source": "EN/FRphysicist intooltip/programmer inbio;FRmalecompanion,ENhe. Germanphysician/colleague. OldRussianinventeddarkpast,omittedcompanion/fishing.",
+    "decision": "Подсказка восстановлена по EN/FR: физик, два ареста, последний партнёр-мужчина обратился в полицию с подозрением, рыбалка. Досье программиста сохранено; расхождение профессий не устранено выдумкой."
+  },
+  {
+    "id": "jonas-unconditional-clue-and-silence",
+    "scene": "043_jonas_01",
+    "source": "Allroutesreality2 emitclueangeljonas01 andFound1;onlyfinalsilence tipnone.",
+    "decision": "Исходная выдача улики не ограничена новым условием по делу. Последнее молчание не уравнено с ранними отказами говорить; обычный финал без tipкоманды не равен неоплаченной поездке."
+  },
+  {
+    "id": "chris-continue-means-drive",
+    "scene": "044_chris_01",
+    "source": "ENKeepdriving/FRaccepterdeleconduire;oldRussianParkinbothdilemma hubs.",
+    "decision": "Продолжить поездку, не Припарковаться. Фактический переход keepdriving остался исходным."
+  },
+  {
+    "id": "chris-driver-formality-switch",
+    "scene": "044_chris_01",
+    "source": "ENunmarkedyou;FRexplicitVouslaveztutoye/Letutoiement andtufromproposition,Chriskeepsvous.",
+    "decision": "Водитель на ты с предложения, пояснения FR внутри существующих строк. Крис по-прежнему на вы; возраст19 не изменён."
+  },
+  {
+    "id": "chris-lies-and-clients",
+    "scene": "044_chris_01",
+    "source": "Father/friendsoriginalstory correctedtomale/femaleescortclients,platonic. Roommategendernotgiven,oldRussianfemale.",
+    "decision": "Легенды и признание раздельно, пол альтернативного клиента сохранён. Соседка не закреплена; личная ориентация не придумана."
+  },
+  {
+    "id": "chris-crime-numbers-not-exact-timing",
+    "scene": "clue_sand_chrisrecords_03.title / clue_sand_chrisrecords_04.title",
+    "source": "ENcrime scene2months /3days ambiguous;FRscenecrime2 qquesmois /3 qquesjours. OldRussianexact2months/3dayswithoutscenenumbers.",
+    "decision": "Места преступлений №2/№3, несколько месяцев/дней до преступления. Точные сроки не выдуманы; место№1 остаётся вероятным наблюдением."
+  },
+  {
+    "id": "chris-carolina-kindness-versus-fees",
+    "scene": "044_chris_01",
+    "source": "DriverEN/FRAexpectsnothinginexchange;Carolina028eachpayswhatcan. ConditionalDeal/destination0.",
+    "decision": "Заверение водителя сохранено, не универсальный новый тариф. Каролина не родная бабушка, помощь по флагу, прошлый помощник водителя без имени."
+  },
+  {
+    "id": "chris-remembers-past-gesture",
+    "scene": "044_chris_01",
+    "source": "ENendCarolinaalmostimperceptiblenod/FRshakehead. Initialsilence??randomfather/friends.",
+    "decision": "Незаметный кивок по EN, обе случайные ранние версии сохраняют позднее признание. Молодеет/салютребёнка — сравнения, не текущая несовершеннолетность."
+  },
+  {
+    "id": "vero-missing-sent-message-and-rejection",
+    "scene": "045_vero_01",
+    "source": "Message1 onlyquestionno; oldRussianmissingtyping/sending andGladmetyou,addedThinkbetter.",
+    "decision": "Действие отправки и полный вежливый отказ восстановлены, сообщение не появляется в других ранних ветках."
+  },
+  {
+    "id": "vero-swipe-direction-reversed",
+    "scene": "045_vero_01",
+    "source": "EN/FRA mostlyrightapproval,rareleftreject;oldRussianleftleftleftandsigh.",
+    "decision": "Вправо — чаще выбирает, влево — иногда отклоняет. Не выдуманная серия отказов."
+  },
+  {
+    "id": "vero-women-and-addresses",
+    "scene": "045_vero_01",
+    "source": "ENthatgirl;FRamiesolder;SMSfemaleheureuse/rencontrée. DriverFRvous,oldRussianlatechoiceТы.",
+    "decision": "Девушка и подруги женщины; водитель на вы. Ты в сообщении и самоободрении имеет другой адресат и сохранено."
+  },
+  {
+    "id": "vero-emoji-gesture-and-choice-order",
+    "scene": "045_vero_01",
+    "source": "ENWomanRaisingHand/FRAfemmeditau revoir;ENsorrynod/FRAshakehead;ENchoicesemoji,sorry,leave versusFRAemoji,leave,sorry.",
+    "decision": "Описание эмодзи и кивок по EN, английский порядок трёх вариантов сохранён. Реплики финального прощания и поддержки себя восстановлены."
+  },
+  {
+    "id": "vero-original-trave-command",
+    "scene": "045_vero_01",
+    "source": "Silentending $$ trave: stop $$;openending has no travelstop command.",
+    "decision": "Служебная строка сохранена как оригинальная, не стала исправлением перевода. Проверка автомобиля и возможного исправления исходного обработчика остаётся отдельной технической задачей."
+  },
+  {
+    "id": "vero-closed-conversation-after-reply",
+    "scene": "045_vero_01",
+    "source": "Leaveherafterreceivedreply->silence2 whilemessage1,04502earlier and04501endlater.",
+    "decision": "Закрытый финал после полученного SMS возможен. Два раскрытия не объявлены противоречащими и message не сброшен ради одного финала."
+  },
+  {
+    "id": "shohreh-static-and-chorus",
+    "scene": "046_shohreh_01",
+    "source": "ENstatic/chorus thenArefrain;FRgrésillements/refrain. OldRussianstaticastatika/chorusashor.",
+    "decision": "Радиопомехи и припев по контексту. Не добавлена реальная станция/исполнитель и не изменена частота89,4."
+  },
+  {
+    "id": "shohreh-missing-radio-and-research-lines",
+    "scene": "046_shohreh_01",
+    "source": "OldRussianinventsrepeatpolicequestion/genres,missesquietness/Ok/hearit,firstalgebra/denialteacher andotheractions.",
+    "decision": "Вернулся полный порядок реплик и действий. Исследовательница, а не преподавательница; все4жанра ведут к одной частоте."
+  },
+  {
+    "id": "shohreh-ghosts-not-explanation",
+    "scene": "046_shohreh_01",
+    "source": "Childhoodthoughtghosts,nowmusicformsforDriver andvoiceislikechild. No namedcause.",
+    "decision": "Неоднозначность сохранена. Не диагноз, не конкретный ребёнок/дух, не подтверждённая физическая теория."
+  },
+  {
+    "id": "shohreh-gesture-and-sir",
+    "scene": "046_shohreh_01",
+    "source": "ENshakehead/FRA nod atstation;ENsir/FRA monsieur. MedaluntitledinPeter.",
+    "decision": "Покачивание по EN, месье по парижскому обращению. Медаль не названа Филдсовской по ассоциации с реальным математиком."
+  },
+  {
+    "id": "shohreh-bare-movie-and-fixed-tip",
+    "scene": "046_shohreh_01",
+    "source": "Four $$ movie $$ withoutargs,twoslow in frequencies. Lowstart/highbeforenoisechoice,evenrefrainrefusalreveal04602.",
+    "decision": "Команды сохранены. High не сделан наградой за один ответ, отказ припева не перенесён в04601. Работа звука/movie требует Unity."
+  },
+  {
+    "id": "amelie-missing-lines-and-choices",
+    "scene": "047_amelie_01",
+    "source": "OldRussianomitsoneinitialanswer,severalactionsandlines;thisismyjobanswersreplaceWhatdoyoumean/IcanimaginewithTV/threepeople.",
+    "decision": "Полный порядок и смысл всех57блоков/35ответов восстановлен поEN. Метаданные сохранены."
+  },
+  {
+    "id": "amelie-anger-en-fr",
+    "scene": "047_amelie_01",
+    "source": "EN You see? Can you imagine the talk? Interesting movie! / FR Ah ouais? Vous pouvez imaginer? Intéressant ça.",
+    "decision": "В ответ на Могу себе представить взят связный смысл FR: Да неужели? Можете себе представить? Любопытно. Не выдуман отдельный фильм."
+  },
+  {
+    "id": "amelie-company-and-residuals",
+    "scene": "047_amelie_01",
+    "source": "ENgender-positive/residualearnings;FRegalitaire/droitssurlesdiffusions.",
+    "decision": "Основанное на равенстве и отчисления за показы. Позиция и уважение компании, без подмены терминов."
+  },
+  {
+    "id": "amelie-nathalie-unspecified",
+    "scene": "047_amelie_01",
+    "source": "Nathalie workedtogether/babysatson;219cardNathaliePingeot74notidentifiedasthisfriend.",
+    "decision": "Без фамилии, профессии и нового родства. Не объединять по имени и не раскрывать пересказ неуказанными деталями."
+  },
+  {
+    "id": "amelie-gesture-and-career-en-fr",
+    "scene": "047_amelie_01",
+    "source": "ENshakeheadno/dozenyears;FRnod/dixans.",
+    "decision": "СвязнаяENсохранена: качает головой, около12лет. Возраст начала карьеры не придуман."
+  },
+  {
+    "id": "amelie-source-case-boundary",
+    "scene": "047_amelie_01",
+    "source": "end-outro has three conditional killer links and nofallback;clueactionswithoutFoundmodifier;freeroam skipsclue andattackmemory.",
+    "decision": "Исходные условия и отсутствие модификатора сохранены. Переход для нештатного сочетания без дела не добавлен."
+  },
+  {
+    "id": "leonie-missing-dialogue-and-boyfriend",
+    "scene": "051_leonie_01",
+    "source": "OldRussianomitsfirstresponses,thesisdetails,boyfrienddumpedthree months,changingradio,thanks andlastline.",
+    "decision": "Восстановлены251строка и35ответов поEN, бывший мужчина и срок3месяца сохранены."
+  },
+  {
+    "id": "leonie-music-identities",
+    "scene": "051_leonie_01",
+    "source": "Tribalhouse andSisterPearlreordered/translatedasSister. Mahler/jazzlikedearlyhatedlater.",
+    "decision": "FR229: трайбл-хаус/SisterPearl как имяисполнителя, группа/солистневыведеныизartiste. Кора/контрабас/контрастпроигрыша. Исходные переменывкуса сохранены.",
+    "previous_decision": "Трайбл-хаус единообразно, Sister Pearl как название группы. Исходные изменения вкусов не исправлены выдуманной постоянной реакцией."
+  },
+  {
+    "id": "leonie-degree-and-parents",
+    "scene": "051_leonie_01",
+    "source": "ENdoctoralthesis/FRAthèse;parentsneverexplicitlysaidfailedbuthelpsupport. ENMBA/FRHEC.",
+    "decision": "FR229: HEC/училисьбизнесу, прежнийENMBAотменён. Диссертация/неприсвоеннаястепень; оценкародителейеёуверенность. ПолнаяFRсценаи технические поля сверены.",
+    "previous_decision": "Диссертация без присвоенной российской степени. Оценка родителей остаётся уверенностью Леони. MBA поEN."
+  },
+  {
+    "id": "leonie-missing-jazz-variable",
+    "scene": "051_leonie_01",
+    "source": "Both EN/FR localvariables lackmusic-jazz but modifiers/conditionsreferit.",
+    "decision": "Штатный Prompter автоматически создаёт music-jazz=1 при исполнении модификатора; подтверждено отдельным тестом и полными джазовыми маршрутами. Локальные ресурсы не изменены."
+  },
+  {
+    "id": "leonie-unreachable-yawn-thresholds",
+    "scene": "051_leonie_01",
+    "source": "boringstarts0,thesis2max3 butcondition>3;peoplemax4 butcondition>4.",
+    "decision": "Недостижимые из штатного старта блоки также переведены; исходные пороги сохранены. Прямые проверки порогов отдельно от полных маршрутов."
+  },
+  {
+    "id": "childeric-missing-knight-story",
+    "scene": "052_childeric_01",
+    "source": "OldRussianomitsandmoveshorns/battle/mount/armor/actions,addsblacksmiths.",
+    "decision": "Все33блока полностью восстановлены поEN; доспехи, не герб; без выдуманных кузнецов."
+  },
+  {
+    "id": "childeric-gravia-and-crush",
+    "scene": "052_childeric_01",
+    "source": "OldRussianGravias andinventedfunnyarmor atScarlet-facedchampion/CrystalSage;hugo3dropsanother.",
+    "decision": "Гравий согласован с005, заговор восстановлен. Нравится мужчинеЮго без усиления любит и без выдуманной подтверждённой пары."
+  },
+  {
+    "id": "childeric-burnt-fish-joke",
+    "scene": "052_childeric_01",
+    "source": "ENBurnt fish mishearsburnished;FRdragon de rein mishearsairain.",
+    "decision": "Русская слышимая ошибка начищенные/начинённые рога, только в исходном ошибочном выборе. Не буквальная машинная рыба."
+  },
+  {
+    "id": "childeric-unlinked-costume-block",
+    "scene": "052_childeric_01",
+    "source": "yourhorse-costume has no incominglink/choice. end05201 requiresMetHugo andplay>2.",
+    "decision": "Изолированный блок переведён, новый вход не придуман. Раннее признание и позднее узнаваниеЮго не объединены одним условием."
+  },
+  {
+    "id": "camille-unrelated-driver-lines",
+    "scene": "053_camille_01",
+    "source": "OldRussianinsertsring/information/chorus/rockbottom/sources insteadgesturesandpauses.",
+    "decision": "Вернулся смысл205строк оригинала без посторонних реплик и нового расследования."
+  },
+  {
+    "id": "camille-name-and-victim-heir",
+    "scene": "053_camille_01",
+    "source": "CardCamilleAntoine/female23;oldCamilla fullname/clue,CamillelabelKamill.",
+    "decision": "Камий Антуан/КАМИЙ/Камий в улике. Наследница четвёртой жертвы, не КамийРивьер010 и не обвинённая убийца."
+  },
+  {
+    "id": "camille-questions-and-upspeak",
+    "scene": "053_camille_01",
+    "source": "NoNeed/Yeschoicesreplacedotherlines;ENnumbers/FRfrequentation;stretchedvoice/echo.",
+    "decision": "Ответы Незачем/Да/Нет и манипуляция считатьДА сохранены. Число клиентов, растяжение и эхо водителя восстановлены."
+  },
+  {
+    "id": "camille-mobile-home-and-disruption",
+    "scene": "053_camille_01",
+    "source": "MobileHomegenericexistingterm,slowfood/fastlife,disruption;oldmobilehouse/destruction.",
+    "decision": "Дом на колёсах единообразно; неспешная трапеза/стремительный ритм, подрывные инновации. Минуты ожидания, накопления и Греция сохранены."
+  },
+  {
+    "id": "camille-fare-and-double-stop",
+    "scene": "053_camille_01",
+    "source": "getout1 contains2travelstop/getout1 andfare0 later;lowstart,paidregular/cold.",
+    "decision": "Двойная остановка и бесплатная высадка сохранены. Не добавлены улики, чаевые и общийend послеcold."
+  },
+  {
+    "id": "ludivine-fare-and-copy",
+    "scene": "054_ludivine_01",
+    "source": "OldRussian paidfare/correctcopies insteaddrivingpassenger/editjournalisticcopy.",
+    "decision": "Везли пассажира и правили тексты. Профессия уточнена функционально по EN/FR и Onisep."
+  },
+  {
+    "id": "ludivine-apology-loop",
+    "scene": "054_ludivine_01",
+    "source": "excuses02 choice1 links excuses01-quick,increment1,returnssecondmenu. excuses02-quick+2unlinked.",
+    "decision": "Сохранена исходная повторяемая петля. Отдельный блок переведён без придуманного входа; накопление и приоритет проверять отдельно."
+  },
+  {
+    "id": "ludivine-interruption-source-errors",
+    "scene": "054_ludivine_01",
+    "source": "pluralmax5/story6>5;endsingularinterruption>3 notpluralinterruptions.",
+    "decision": "Пороги/имена не переписаны. Недостижимые из обычного старта ветки также переведены."
+  },
+  {
+    "id": "ludivine-reporter-and-time",
+    "scene": "054_ludivine_01",
+    "source": "FRun journaliste? actualunejournaliste;ENLastOctober27/22:46,attacklater. Oldlastyearinventsdate.",
+    "decision": "Журналистка без имени, дата без года, позднее нападение и ненадёжная реконструкция сохранились."
+  },
+  {
+    "id": "ludivine-technical-call-marker",
+    "scene": "054_ludivine_01",
+    "source": "UserdataNO PASSENGER CALL;cardhas_passenger_call0/has_travel0.",
+    "decision": "Маркер сохранён и явно помеченtechnical_marker. Позиция метаданных проверена, перевод полезной фразы не требуется."
+  },
+  {
+    "id": "ludivine-idioms-and-driver-thoughts",
+    "scene": "054_ludivine_01",
+    "source": "Cheapbeer packs/catchbreath/takethingstoofar andThattoo narrative.",
+    "decision": "Упаковки пива, переводить дух, заходить далеко. Мысль рассказчика не стала произнесённой репликой; все203строки сохранены."
+  },
+  {
+    "id": "ludivine-conditional-fare-and-bare-movie",
+    "scene": "054_ludivine_01",
+    "source": "Fare0 onlygetout-outside,notgetout-outro;two baremovie statements.",
+    "decision": "Стоимость0 только при выходе вслед за угрозой, не при простом уходе. Movie без аргумента сохранены; visualUnity не проверено."
+  },
+  {
+    "id": "julian-missing-help-and-publicity",
+    "scene": "055_julian_01",
+    "source": "OldRussianomitsfuturepublicity,parentsambiguity,swearing,policesecrecyandseveralgestures.",
+    "decision": "Полный смысл151строки восстановлен. Ни слова полиции и отсутствие обещанного результата сохранены."
+  },
+  {
+    "id": "julian-age-estimate-and-name",
+    "scene": "055_julian_01",
+    "source": "Card36/ENFRestimated35;old30 andJulienPas.",
+    "decision": "36в карточке,35 как впечатление. ЖюльянПаз/ЖЮЛЬЯН единообразно, источникПередалЖюльян вместоДжулиана."
+  },
+  {
+    "id": "julian-ui-files-and-process",
+    "scene": "055_julian_01",
+    "source": "First3victimsfiles notfirst3files;Junta/leProcessus;JulianDocgivenbynamevariant.",
+    "decision": "Первые3досье исключены изутечки. Исторический Процесс национальной реорганизации уточнён поофициальномуисточнику, не процесссуда."
+  },
+  {
+    "id": "julian-case-and-deferred-document",
+    "scene": "055_julian_01",
+    "source": "LiteralJudge;cardEKiller1=judge;Help1 no cluecmd;920boardJulianenvelopehome.",
+    "decision": "Судья не заменён другимделом, в055 нетновойулики. Приходдокументапозже не получилвыдуманного путидоставки."
+  },
+  {
+    "id": "julian-card-no-call-with-useful-text",
+    "scene": "055_julian_01",
+    "source": "Cardhas_passenger_call0 yetuserdatausefulIneedtodrive;manualtravelstartstop despitehas_travel0.",
+    "decision": "Полезная фраза переведена, командыпоездкисохранены. Нулевойфлаг неуниверсально обозначает техническуюзаглушку."
+  },
+  {
+    "id": "julian-fall-and-gunpowder",
+    "scene": "055_julian_01",
+    "source": "ENvoicevulnerablefromfall/FRcorrosion;memorygunpowder despiteknifewoundelsewhere.",
+    "decision": "Метафора голоса без нового повреждения; запахпороха бездомыслапистолета. Явныерасхождения записаны, нетглобальнойзаменывоспоминаний."
+  },
+  {
+    "id": "kader-book-and-idioms",
+    "scene": "056_kader_01",
+    "source": "OldRussianasksrepeatYoucansaythatagain/futurewouldnotbelievemybook,cutsopeningreading/friendspostscript.",
+    "decision": "Вот именно, не поверили; пропущенные строки/жесты восстановлены. Книга в мягкой обложке единообразна."
+  },
+  {
+    "id": "kader-address-and-adult-ages",
+    "scene": "056_kader_01",
+    "source": "FRtu/bookfamiliarity;card21vsdriverbarely20;girlfriend37municipalcop.",
+    "decision": "Оба на ты, полицейскаяцитата на вы.21точно/20впечатление; девушка37безимени, неБюссе."
+  },
+  {
+    "id": "kader-music-show-fr",
+    "scene": "056_kader_01",
+    "source": "ENputtingonshow/FRAfaitladifficile;Englishdumaslineendsstrayw.",
+    "decision": "Она привередничает к рэпу, не выступает. Случайныйw убран из видимого текста, команды не менялись."
+  },
+  {
+    "id": "kader-beret-and-insult-en-fr",
+    "scene": "056_kader_01",
+    "source": "ENberet/aunt;FRBernard/mother. Strongobscenityoldsoftened.",
+    "decision": "Основной EN сохранён, брань естественная. Не выдуманы реальные родственники/полицейскийБернар из шаблонного оскорбления."
+  },
+  {
+    "id": "kader-duplicate-reveal-and-missing-stop",
+    "scene": "056_kader_01",
+    "source": "05603inbookshow/hightrust,not05602;warmendsnotravelstop,lowtip;silentnone.",
+    "decision": "Исходные идентификаторы/команды сохранены. Не придуман новый reveal/stop; соответствие визуальному Unity потребует проверки."
+  },
+  {
+    "id": "annabelle-yoga-and-angry-unreachable-default",
+    "scene": "057_annabelle_01",
+    "source": "No yoga variable declaration/modifier; angry starts0, maximum2, airport3-angry requires>2.",
+    "decision": "All visible blocks translated; source graph preserved. Default reachability and controlled external values tested separately; Unity external writes unknown."
+  },
+  {
+    "id": "annabelle-job-and-phone-state",
+    "scene": "057_annabelle_01",
+    "source": "job1onlygreece; late profession disclosure has no jobmodifier; phone dynamically created1/2/3.",
+    "decision": "Do not change original flags to match narrative; airport phone callbacks use actual selected stage."
+  },
+  {
+    "id": "annabelle-phone-photography-en-fr",
+    "scene": "057_annabelle_01",
+    "source": "ENYou didn’t introduce me to photography; FR Ce n’est pas de ta faute si j’ai commencé la photo.",
+    "decision": "FR232 explicitlyretires formerPrimaryEN denial: mothernotatFAULT, participationnotdeniedorproven. Individualtu/pluralvousparentsdistinguished; no newcamera giver/biography.",
+    "previous_decision": "Primary EN denial kept; mother is addressee, female agreement. No invented full responsibility/backstory."
+  },
+  {
+    "id": "annabelle-place-poetry-and-malformed-quote",
+    "scene": "057_annabelle_01",
+    "source": "EN/FRLibyaearly/Greecelater; EN/FR hunger and happiness; extra openingquote before ANNABELLE inradio-rock-change.",
+    "decision": "Places and poetic contradiction retained without fabricated route; malformed quote normalized only in visible text."
+  },
+  {
+    "id": "annabelle-old-text-branch-substitution",
+    "scene": "057_annabelle_01",
+    "source": "Old RU tunnel exit/yoga ability/accelerating steps; saved-end replaced with radio remark; airport3 omits payment.",
+    "decision": "Restored original meaning, speakers, all missing lines and branch-specific replies."
+  },
+  {
+    "id": "agnes-unlinked-introB",
+    "scene": "058_agnes_01",
+    "source": "drive choices1and2both introA; introB has no incoming link.",
+    "decision": "Preserved original graph; introB translated and tested via direct start separately."
+  },
+  {
+    "id": "agnes-kit-idioms-and-exhusband",
+    "scene": "058_agnes_01",
+    "source": "Old RU no liveslost literal/overnight kit/full beard/every-single-day; end-ok missing kicking exhusband out.",
+    "decision": "Idioms and toiletries clarified with FR; exhusband intention, payment, relief and missing gestures restored."
+  },
+  {
+    "id": "agnes-unrecognized-francois-en-fr",
+    "scene": "058_agnes_01",
+    "source": "ENDe la Nerée…there’s something about him; FRFrançois…quelquechose.",
+    "decision": "ENsurname and vague unfinished remark retained; full recognition onlyMet.Francois1, no invented admiration or real prototype."
+  },
+  {
+    "id": "mireille-train-and-bag-original",
+    "scene": "060_mireille_01",
+    "source": "EN/FRlasttrain; oldRU22:12. ENbag/suitcase andFRsac/valise same luggage.",
+    "decision": "Lasttrain restored without departuretime; sameleather travel bag canonical allscene."
+  },
+  {
+    "id": "mireille-actor-and-attacks-fr",
+    "scene": "060_mireille_01",
+    "source": "ENunconventional/FRbobo oldsexualorientation; ENattacks/FRattentats.",
+    "decision": "Bohemian actor, no inferred sexualidentity; terroristattacks, not serialkillerattacks."
+  },
+  {
+    "id": "mireille-conspiracy-idiom-en-fr",
+    "scene": "060_mireille_01",
+    "source": "ENalotfussaboutnothing/FRpasbesoindecherchermidiàquatorzeheures after profit-neglect explanation.",
+    "decision": "No need complicated explanations; not a verdict that dead people were nothing. Different wording explicitly documented."
+  },
+  {
+    "id": "mireille-story-and-commands",
+    "scene": "060_mireille_01",
+    "source": "story1earlyonly;part2-outunused;cemeterystaytravelstartwithoutdestination2;up-staytime0stilldriverleaving;BAG_2_DRIVERcontainsMILING_REV.",
+    "decision": "Alloriginalmodifiers/commands/links preserved, context distinguishes script from unverified Unity outcomes."
+  },
+  {
+    "id": "mireille-clue-ui-specificity",
+    "scene": "060_mireille_01",
+    "source": "Dialogue says soldier; clueUI specifiesIndochinaWar; Alexandre retiredmailman biography independent.",
+    "decision": "TwoUIkeys audited andrenderednaturally; no warnameinsertedintodialogue, no changed profession for Pierrot/Mireille."
+  },
+  {
+    "id": "denis-tv-knowledge-en-fr",
+    "scene": "061_denis_01",
+    "source": "ENso you don’t know / FRdonc vous savez; flag1on don’twatchTV; Yes jumpshell3.",
+    "decision": "ENnegativekept, literalflag/branchorderpreserved; narratorrecognizesalways, nofalseknowledgefact."
+  },
+  {
+    "id": "denis-intentional-network-and-memes",
+    "scene": "061_denis_01",
+    "source": "Tweety/Innernet/MomsMamsMims intentional; FRpronunciationTvitere/memesvariants.",
+    "decision": "Твити/Интырнет/МомыМамыМимы adapted consistently, notmodernized/correctedaway."
+  },
+  {
+    "id": "denis-restored-rural-story",
+    "scene": "061_denis_01",
+    "source": "Old RU country=state/cowsdo/lightsyears=yearsaway; drops TVclips/exwife/cows/apology/firstnewspaperline.",
+    "decision": "Natural ruralcontext, offensiveinternetimagery asreportedabuse, allmissingmeaning/gestures restored."
+  },
+  {
+    "id": "denis-name-and-newspaper-owner",
+    "scene": "061_denis_01",
+    "source": "DenisPetitjean shares surnamewith003whosefatherdead; customernewspaperuncertainowner.",
+    "decision": "No inventedkinship or confirmednewspaperowner; six/farmer/timing onlyoriginalevidence."
+  },
+  {
+    "id": "pauline-comp-time-and-hidden-thoughts",
+    "scene": "063_pauline_01",
+    "source": "ENcomptime/FRRTT; oldRUonlyYes. NarratorWestIndiesgivenasquotedspokenline.",
+    "decision": "Owedtimeoffrestored, originthoughtsnotspoken, Reuniononlyafterheranswer."
+  },
+  {
+    "id": "pauline-reunion-romance-and-passport",
+    "scene": "063_pauline_01",
+    "source": "No namedAmericanlover; oldmissingusualothersfallinlove/cold/notgoingwithher; passportreasoninventedjustincase.",
+    "decision": "UnnamedwomanSeattle/4days/layover retained, reciprocalromanceandmissinglinesrestored, noaddedpassportreason."
+  },
+  {
+    "id": "pauline-missing-three-case-promises",
+    "scene": "063_pauline_01",
+    "source": "OldRussianall3caseopeningtell/sendlinesmissing;AngelENtell/FRsend.",
+    "decision": "Allcasepromisesrestoredindividually; primaryENtellforAngel, senderhe separatefromwomanlover, no deliveredclueclaimed."
+  },
+  {
+    "id": "pauline-choice-and-trip-original",
+    "scene": "063_pauline_01",
+    "source": "Bothnod/shrug06303uturn; choice1onlytheone; no destination; helpwithoutcase stops twice and repeatsairportarrival.",
+    "decision": "Originalmodifiers/graph/commandsunchanged, defaultnocaseandmultiflagprioritytestedseparately fromUnityroute."
+  },
+  {
+    "id": "janet-first-encounter-replaced",
+    "scene": "064_janet_01",
+    "source": "OldRussianjanet01start containsjanet00asmell/lookingaround insteadvirus/Hyoga/answernow.",
+    "decision": "Actualsceneopeningrestored, all seven encounters translatedtogether."
+  },
+  {
+    "id": "janet-sean-surname-source-variant",
+    "scene": "064_janet_02",
+    "source": "EN/FRASeanJacksonvs036cardSeanChristie, Met.Sean recognizesthemime, seenbranchstillsean-no.",
+    "decision": "ШонДжексонasJanetclaim, ШонКристиcanonicalcardunchanged; noinventedstage-name/rename; sourcebranchpreserved."
+  },
+  {
+    "id": "janet-related-future-places",
+    "scene": "064_janet_03",
+    "source": "AnnabelleSyriafuturevs057Greece;PaulineCanadafuturewifevs063Seattlecurrentlover, noMet.Pauline.",
+    "decision": "Futureclaimsandpresentstoriesdistinguished, identities/spellingsconsistentwithoutfabricatedtravel."
+  },
+  {
+    "id": "janet-age-robots-and-fragments",
+    "scene": "064_janet_04",
+    "source": "twentyyearsoldbackold20yearsago; ENrobots/FRAI; semester/FRsixmonths; unclearvirusfragment.",
+    "decision": "Age20then, every6months, ENrobotsretained; fragmentnotcompletedwithmedicalexplanation."
+  },
+  {
+    "id": "janet-write-and-folder-initial",
+    "scene": "064_janet_05",
+    "source": "writeoldmemorize; Watchfiles/FRattentiondossiers; ThankuJ/FRMerssiJ oldThankJay.",
+    "decision": "Write/handlepaperscarefully/physicalfolder,initialJwithoutinventedaddressee, sourcefuturedate+2years."
+  },
+  {
+    "id": "janet-journal-contradictions",
+    "scene": "064_janet_05",
+    "source": "futurepaperfirst3filesINleakvs055NOT; excellent/badjournalistandold/femalevoicereports.",
+    "decision": "Contradictorysourcecluesretained,audited62UIkeys; notglobalreplacementofstoryfacts."
+  },
+  {
+    "id": "janet-radio-and-unlinked-block",
+    "scene": "064_janet_04",
+    "source": "3originalrandom??links; janet01A-dontknow has no inboundlink; Radiooffhub03goesintro2.",
+    "decision": "Originalrandom/commands/linksretained; deterministicunlinkedstarts and realrandomcoverage scope separated."
+  },
+  {
+    "id": "nina-rage-unreachable-default",
+    "scene": "065_nina_01",
+    "source": "rage0maximum3; finalrunawayrequires>3; earlyofferedstopreachable.",
+    "decision": "Originalthreshold preserved; complete normal paths andcontrolledrage3/4distinguished, no Unityexternalflag claim."
+  },
+  {
+    "id": "nina-heat-and-shrinking",
+    "scene": "065_nina_01",
+    "source": "Oldheatblockduplicatesdidnothear; Noheatliteral; missingI saidNo/hasty/lovemetaphor; shrinkreplacedwithtriesfindanswer.",
+    "decision": "Alloriginalmeaningandorder restored; heatflag onlyofferedheat, fragileimage not inventedthought."
+  },
+  {
+    "id": "nina-name-and-objects",
+    "scene": "065_nina_01",
+    "source": "BriceFrencholdBryce; RueLevispronouncesLevi; tookheels off literal; ringandrose separate.",
+    "decision": "Брис/улицадеЛеви/туфли; sourcephysicalrolesandrandomroseendingsretained."
+  },
+  {
+    "id": "nina-partner-and-driver-memory",
+    "scene": "065_nina_01",
+    "source": "Shethinkscheated/parentaldislike/Japanesedescent/Sarcelles; yourwifehypothesis andyourmarriageproposal memory.",
+    "decision": "No provedcheating/engagement/diagnosis/currentdriverwife. Optionalmemory andprivateemotions preserved."
+  },
+  {
+    "id": "tps-source-arithmetic-37",
+    "scene": "066_tps_01",
+    "passage": "tps-01-game-xenofex-entrance-reveal-damage-pierre-A",
+    "source": "EN27; FR37;6+6+5+20=37;pierre-health-=37.",
+    "decision": "Русская реплика37, игроваялогиканеменяется."
+  },
+  {
+    "id": "tps-d6-phrasing",
+    "scene": "066_tps_01",
+    "source": "ENtwo6s andanother6 vsFRdeux dés6/un dé6; ENresidualdeathvsFRdégâtsrésiduels.",
+    "decision": "FR236alsofixes76twoD6+5asformula, preserves37actualcriticalandalloriginalmodifiers. 88twoD6+4+surpriseD6;89/90actualresultsdistinct. ResidualdamagefromFrenchalreadycorrect; no HPflagsadded.",
+    "previous_decision": "Формулауронадвашестигранных+4 и остаточныйурон, не готовыйрезультатброска/остаточнаясмерть."
+  },
+  {
+    "id": "tps-original-hit-claim",
+    "scene": "066_tps_01",
+    "passage": "tps-01-game-xenofex-fight-turn01p-dice-3",
+    "source": "EN/FRclaims hit3+1=4 then134saysmiss; originalgraphmiss.",
+    "decision": "ПротиворечивыесловаПьера/объяснениеШаин сохранены; не подменятьдействие."
+  },
+  {
+    "id": "tps-missing-xenofex-damage",
+    "scene": "066_tps_01",
+    "source": "148..150have8/11/25spoken damagewithoutanymodifier/commands.",
+    "decision": "Не добавленновыйурон; nativeпроверкаисходногоповедениедолжнабытьвотдельномпротоколе."
+  },
+  {
+    "id": "tps-wrong-killed-character",
+    "scene": "066_tps_01",
+    "passage": "tps-01-game-xenofex-fight-driver-killed-pierre",
+    "source": "Reachedfromdriver-health<1afterPierreaxe; dialogueyoukilledSangrenat/setspierre-dead1.",
+    "decision": "Сохраненыпротиворечивыеисходныеслова/флаги; фактическийродпротагониста не изменён."
+  },
+  {
+    "id": "tps-health-typo-and-shadowed-final",
+    "scene": "066_tps_01",
+    "source": "170pierre-heatlh misspelling;197dead0/1conditionspreemptdem-used;178Sangrenatvictorydoesnotsetxenofex-dead.",
+    "decision": "Непереписаныпереходы/флаги; контролируемыепроверкиотличатьотобычныхпутей."
+  },
+  {
+    "id": "tps-voice-directions-and-song-label",
+    "scene": "066_tps_01",
+    "source": "190EN/FRnarrationfemaleaddswithPIERRElabel;183ENtowardfortress vsFRoutoffortress.",
+    "decision": "СохранёнPIERREпри нейтральной фразепослепаузы; выходизкрепости поFR. 191фиксируетавторствопесни."
+  },
+  {
+    "id": "tps-game-versus-real-brother",
+    "scene": "066_tps_01",
+    "source": "Fantasybrotherrevealtriggersdriverthoughtofhisownbrother;025Adewifeoflatedriverbrother.",
+    "decision": "Сохраненаболезненнаяпамять, безвыдуманногородства/убийствавреальномтакси. Thoughtstrangled, notaperson."
+  },
+  {
+    "id": "mathieu-age-source-conflict",
+    "scene": "067_mathieu_02",
+    "passage": "mathieu-02-story3",
+    "source": "Card31,03looksabout30,02EN/FR35yearsforthefather.",
+    "decision": "Keep31cardand35spokenwithsourceconflict,notchangeeitherbyguess."
+  },
+  {
+    "id": "mathieu-double-talked-english-link",
+    "scene": "067_mathieu_02",
+    "passage": "mathieu-02-start",
+    "source": "EN_Mathieu.Talked.Talked.Father vs01modifier_Mathieu.Talked.Father;FRsingleTalked.",
+    "decision": "FR221: explicit condition_flag_overrides restores originalFR singleTalked actually set by both original01 languages; metadata guarded against immutable2262/2263. actual01→02 four hospital profiles/all4answers passed16routes plus2negativeobsoleteflag profiles. Not live Unity.",
+    "previous_decision": "ENgraphunchangedperAGENTS;verifyactual01handoffseparatelyfromforceddoubleflagchat."
+  },
+  {
+    "id": "mathieu-carrier-and-doll",
+    "scene": "067_mathieu_04",
+    "source": "Oldcarrierasноситель/перевозчик;03heardbreathing/thinkempty,04someeyesdead/pupslatefinal.",
+    "decision": "Oneлюлька, uncertainperceptionsandknownplasticdollnotglobalrewrite. Glass eyes notplasticeyes."
+  },
+  {
+    "id": "mathieu-ticks-false-insult",
+    "scene": "067_mathieu_03",
+    "passage": "mathieu-03-tick02",
+    "source": "Creepylittlebuggers/FRbestiolesflippantes oldunrelatedsexualslur.",
+    "decision": "Жуткиемаленькиетвари, accurateobject andmedicalterminology."
+  },
+  {
+    "id": "mathieu-wife-daughter-source-switch",
+    "scene": "067_mathieu_04",
+    "passage": "mathieu-04-philo-sadness",
+    "source": "MathildejustfineinEN/FRvs03/04remembereddeadwife;Celestedaughter.",
+    "decision": "KeepMathildeutterance/sourcefreeze,notrewriteasCelesteorprovewifealive."
+  },
+  {
+    "id": "mathieu-driver-own-son",
+    "scene": "067_mathieu_03",
+    "source": "ExplicittruthYesone;He/his mother;lieNo branch.",
+    "decision": "Confirmedunnamedson, raremeetings/motherrelation, noaddedcurrentwife/name/divorce/age."
+  },
+  {
+    "id": "mathieu-implicit-bomb-and-diagnosis",
+    "scene": "067_mathieu_02",
+    "passage": "mathieu-02-end-tears-excuse",
+    "source": "Iamsuicidebomberwithexplosives, emotioncontext,novisiblebomb/action.",
+    "decision": "Keepfigurativeclaim, no inventedactualdeviceorclinicaldiagnosis."
+  },
+  {
+    "id": "mathieu-unlinked-control-and-memory",
+    "scene": "067_mathieu_02",
+    "source": "Fallhubunlinked,nomenuFallsecondtime;Hospitalhubnofallbackwithoutoldflags;04ERintroCunlinked.",
+    "decision": "Translateallandtestcontrolledentry, notsupplementmissingchoices/links."
+  },
+  {
+    "id": "mathieu-street-spelling",
+    "scene": "067_mathieu_03",
+    "source": "01/02Sibelle,03/04Sybelle; officialavenue de laSibelle14.",
+    "decision": "UnifiedавенюделаСибель4usefulcalls, sourceprefix/animationsliteral."
+  },
+  {
+    "id": "sonny-player-gender-and-kids",
+    "scene": "068_sonny_01",
+    "source": "Playeressoldигроманка; noobligationhavekidsoldnoneedcarekids.",
+    "decision": "Игрокиня/никто незаставляетзаводитьдетей, metaaddressnotdriversex/familychange."
+  },
+  {
+    "id": "sonny-call-description-and-silence",
+    "scene": "068_sonny_01",
+    "source": "N/A Theclientjumpsintaxi vs exactN/Amarkers;02ellipsis.",
+    "decision": "DescriptiontranslatedwithN/Apreserved,02silencepreserved; no inventeddestination/voice."
+  },
+  {
+    "id": "sonny-rumor-priorities-and-day-counter",
+    "scene": "068_sonny_02",
+    "source": "Day1skiprumors;FoundClue.Today=1not+=1;candidatepriorityJudgeSandAngel versus thoughtsJudgeAngelSand.",
+    "decision": "Retain sourcebehaviorandverifyinputs separately; noUnityall-IDawardclaim."
+  },
+  {
+    "id": "sonny-rumor-wrong-subject",
+    "scene": "068_sonny_02",
+    "source": "Victim2killedAlgerian,notarrested oldAlgerianneverarrested;victimsletkillerinoldvictimsrelaxed.",
+    "decision": "Correct perpetratorarrestandkillerinoffensiveappearance;sourceuncertaintyretained."
+  },
+  {
+    "id": "sonny-rumor-process-politics-and-vampires",
+    "scene": "068_sonny_02",
+    "source": "ProcessArgentinaregimeoldgenerictrial;fantasticpolitician;knifehidebiteoldimperative;isvampireFRoneofvampires.",
+    "decision": "Canonicalregime/greatpolitician/reportnotinstruction/vampireclaim; noactualsupernaturalverification."
+  },
+  {
+    "id": "sonny-height-original-difference",
+    "scene": "068_sonny_02",
+    "source": "sand05/sand08/angel05ENgreaterthan heights, FR equality.",
+    "decision": "PrimaryENgreaterthansignpreserved, conflictingwitnessheightsnotaveraged."
+  },
+  {
+    "id": "antoine-age-and-career-conflicts",
+    "scene": "070_antoine_01",
+    "source": "Card68;EN/FRspoken74; earlyover45vs latealmost45.",
+    "decision": "Retainspokenfigures/cardandnotedsourceconflict, notsilentregender/rename/agecorrection."
+  },
+  {
+    "id": "antoine-millions-and-country",
+    "scene": "070_antoine_01",
+    "source": "Hypothetical100million,claim434millions,two monthsafter30years,son50k;Portugalwherefrom.",
+    "decision": "Amounts/currency/originpreserved, nofakecashchange/tax/realworldjackpotcap/LatinAmericaninference."
+  },
+  {
+    "id": "antoine-wish-priority",
+    "scene": "070_antoine_01",
+    "source": "spend→truth sets spend1+goaway1 butold selects spendfirst;restaurantspeechIspend setsrestaurantonly.",
+    "decision": "Sourceflags/prioritypreserved;drivertruthnotnewlyforcedoldreply."
+  },
+  {
+    "id": "antoine-role-family-and-fifty-shortcut",
+    "scene": "070_antoine_01",
+    "source": "Formerhouseconcierge;oldfriendswife/son;directjustfiftyskipsoldage/matchedwish.",
+    "decision": "No inventedhotel/grandkids/name/driverSon. Conditionalfamilyinfo remainsconditional."
+  },
+  {
+    "id": "antoine-rumor-day-and-knowledge",
+    "scene": "070_antoine_01",
+    "source": "Cluecandidatecommandsdespitenarratornothingnew, FoundToday=1, noDay1filterunlike068.",
+    "decision": "Originalcommands/memory preserved;same68reviewedUIkeys, notallsimultaneousclues."
+  },
+  {
+    "id": "antoine-class-politics-and-needs",
+    "scene": "070_antoine_01",
+    "source": "Limousineliberals/FRgauchecaviaroldдиванные, meetneeds/se satisfaire.",
+    "decision": "Wealthypoliticalelite/sufficiency, notunmotivatedinternetactivists/freeironicnewopinion."
+  },
+  {
+    "id": "marc-sophie-missing-lines",
+    "scene": "071_marcsophie_01",
+    "source": "Old RU lacks JeanLucopening, Marcstressreply, Sophiehotelreply, Sophiefarepayment, finalsilence.",
+    "decision": "Restore all119lines, temperatureflags decide different passengers at hotel/home."
+  },
+  {
+    "id": "pierrette-foreign-replacements",
+    "scene": "072_pierrette_01",
+    "source": "OldRU invents rage for lowered eyes, speechforlookaway, singingfordestination, Пропащаяforellipsis, гивашитыforgivashit.",
+    "decision": "Restore originals, natural language and intended silence."
+  },
+  {
+    "id": "pierrette-dossier-money",
+    "scene": "072_pierrette_01",
+    "source": "Bio financialtroubles vs speechIhavecash; cultmembershipnotconfesseddialogue.",
+    "decision": "Preserve both sources, no verdict or fabricated reconciliation."
+  },
+  {
+    "id": "pierrette-wine-return-commands",
+    "scene": "072_pierrette_01",
+    "source": "Wine1 exits via downstairswine→departure, wine0 explicitreturn/movie-stop.",
+    "decision": "Preserve structure and note boundary, no invented runtimecommands."
+  },
+  {
+    "id": "marc-sophie-goodluck-source",
+    "scene": "071_marcsophie_01",
+    "source": "ENGoodluck/Luck versus FRBoncourage/Decourage.",
+    "decision": "Use primaryENУдачи/Удачи?; same Sophie confusion and lowtip."
+  },
+  {
+    "id": "pierrette-tutoiement",
+    "scene": "072_pierrette_01",
+    "source": "FRvousearly then tu/friend in future, old RU reversed/mixed.",
+    "decision": "Earlyвы, Pierretteтыfromfuture, driverтыinapartment Tes toilettes; owner of pronouns maintained."
+  },
+  {
+    "id": "myriam-case-alternatives",
+    "scene": "073_myriam_00a",
+    "source": "Cardintro2271 thenAngel2272/Judge2273/Sandman2274, not four sequential encounters.",
+    "decision": "Sharedpickupthen case-specificstories; currentchildren/familiesnot merged."
+  },
+  {
+    "id": "myriam-age-and-school",
+    "scene": "073_myriam_02",
+    "source": "Cardage0 versus spoken19EN/FR; ENschool/FRétudiante.",
+    "decision": "19in reviewedfacts, card0explicitlyrecorded; учусьwithoutunprovenlevel."
+  },
+  {
+    "id": "myriam-shoes-owner-originals",
+    "scene": "073_myriam_01",
+    "source": "ENshekeepshershoes versus FRilrangeseschaussures.",
+    "decision": "PrimaryENmotherowns shoes, noteFRdifferent; closetandinnercabinetseparate."
+  },
+  {
+    "id": "myriam-random-tell3-unreachable",
+    "scene": "073_myriam_01",
+    "source": "Onlytwoincrements: tell1/2normal, conditiontell3routekept; randomweights1/2,3/4,8/9.",
+    "decision": "Nofakeguaranteedpolice/noextra tellincrement; choice3controlled entryseparate."
+  },
+  {
+    "id": "myriam-travel-original-difference",
+    "scene": "073_myriam_01",
+    "source": "FRstarttravelnotEN; ENchangeofhearttwo travelstop vs FRmovie-stop then travelstop.",
+    "decision": "PreserveENcommands, introalreadystarts; no silent runtimefix."
+  },
+  {
+    "id": "myriam-unrelated-ru-lines",
+    "scene": "073_myriam_01",
+    "source": "OldRUstartisintroinsteadbruisedchildstory;02snickerschangedreturntocabbreak;03freezesNo/parentremarkcut/childlessresponsemissing.",
+    "decision": "Restore all92passagesand363lines againstEN/FR."
+  },
+  {
+    "id": "myriam-father-and-advances",
+    "scene": "073_myriam_02",
+    "source": "Inlovefatherofbabysatboy, husbandlovesfamily; comeonto oldприходилквам.",
+    "decision": "Fatherofclientchild, adult19/doubleage, deniedadvancesnotvisits; letterpendingreaction."
+  },
+  {
+    "id": "myriam-driver-lies-and-brother",
+    "scene": "073_myriam_03",
+    "source": "Youlie:Nochildren, thenfinaltruthaboutcrueldeadelderbrother. Pastclaimlittlelie.",
+    "decision": "Nochildrenisfalse, continuity067son; truth/liefinaldifferentquestion; deathnotdeclaredlie."
+  },
+  {
+    "id": "emilia-name-calls-and-cat-gender",
+    "scene": "074_emilia_01",
+    "source": "Petit/Vincennesuntranslated andcathe/il switched кошка/она.",
+    "decision": "Кис/Венсен/Венсенскийлес; escapedindividualmale, not all labcatsgender."
+  },
+  {
+    "id": "emilia-progressive-lies",
+    "scene": "074_emilia_01",
+    "source": "Mycat→labcat, vetparents→northshoponlyStare, brokenpaw→partialdissection→assistantandbreathinglater.",
+    "decision": "Preserve progressive/conditional revelation, no up-front truth or provencriminaldiagnosis."
+  },
+  {
+    "id": "emilia-school-and-oldmaid",
+    "scene": "074_emilia_01",
+    "source": "ENschool/FRfac andoldmaidchambers/FRchambredebonne oldшкольнаялаборатория/комнатыстаройдевы.",
+    "decision": "Universityvetstudent andformermaidroom, onlydriverguessaboutresidence."
+  },
+  {
+    "id": "emilia-thanks-sorry-originals",
+    "scene": "074_emilia_01",
+    "source": "StartoutroENThanks vs FRdésolée.",
+    "decision": "FR227: явнаяотменапрежнего ENспасибо. Вstart-outroбормочетпростите поdésolée; отдельноеmerciосталосьспасибо.",
+    "previous_decision": "PrimaryENспасибо retained, discrepancy recorded."
+  },
+  {
+    "id": "emilia-year-semester-originals",
+    "scene": "074_emilia_01",
+    "source": "Story02ENpassyear vs FRcesemestre, bothrepeatsecondyear.",
+    "decision": "FR227: явнаяотменаENacademic year. Условиеэтотсеместр; последствиеповторкурса/второкурсники каквобоих. Не пересдачаодногоэкзамена/школа.",
+    "previous_decision": "ENacademic year/второкурсники, no school/exam rewrite."
+  },
+  {
+    "id": "emilia-flag-enum3",
+    "scene": "074_emilia_01",
+    "source": "appearance3 / related_to_killers4; EKillerNameFlagsAttribute, judge1 sandman2 angel4.",
+    "decision": "3meansjudge|sandman enumcomposition byread-onlyreflection, no newUnityspawnclaim or fieldchange."
+  },
+  {
+    "id": "emilia-parent-and-action-truth",
+    "scene": "074_emilia_01",
+    "source": "Secondgochoice redirectsclientaction,reveal1;driverhigh then finalnone override. Think bypassesexplicitkillparagraph, Concentrate adds brothermemory.",
+    "decision": "Preserve original branches, no new catrescue/earlyexit/guaranteedhightip/actualghost."
+  },
+  {
+    "id": "emilia-missing-and-swapped-lines",
+    "scene": "074_emilia_01",
+    "source": "OldRU missingshame/youare/glances/silence/lie/motor/action/smog/cruelmemory/latespeech/lastdeparture.",
+    "decision": "All235linesrestored, seatstrike not sitting, bloodcurdles not invigorates, keepgoing not walk."
+  },
+  {
+    "id": "henri-threat-original-negation",
+    "scene": "075_henri_01",
+    "source": "ENyoucantellhisthreatswereempty vsFRsesmenacesn’étaientpasdesparolesenl’air.",
+    "decision": "FR227дополнение: поFRугрозыНЕпустыепочувствуводителя, старыйENприоритетявноотменён; ужеFRтекстподтверждён. Не установленыпоказанныеновыеугрозы/профессия/последствия.",
+    "previous_decision": "PrimaryENemptythreatimpression, oppositionexplicitlyrecorded; no claimverifiedactualsafety."
+  },
+  {
+    "id": "henri-holdingup-originals",
+    "scene": "075_henri_01",
+    "source": "ENyoulooklikeyouholdingupok vsFRvousavezl’aird’ytenir.",
+    "decision": "FR227дополнение: привязан/дорожитМуйетт, не ENсправляетсясгорем. УжеFRответподтверждён, старыйконтекст/эталоннеоправдываютвозвратEN.",
+    "previous_decision": "PrimaryENcopingreply, notlateunrecordedrewriteasattachment."
+  },
+  {
+    "id": "henri-sympathy-high-unreachable",
+    "scene": "075_henri_01",
+    "source": "Defaultsympathy0, ordinarymax3, final>3.",
+    "decision": "No new increment. Keep unreachablehigh/07502andtestcontrolledthreshold3/4."
+  },
+  {
+    "id": "henri-homonym-guard",
+    "scene": "075_henri_01",
+    "source": "Henrifirstname075male vsDjenabouHensurname042female.",
+    "decision": "Guard excludesexactDjena/bouAnrinamespan only. Mixedsameblockwrongmaleformsstilldetected andDjenafemaleguardremainsactive."
+  },
+  {
+    "id": "henri-dog-pronoun-correction",
+    "scene": "075_henri_01",
+    "source": "DriverHe/ilthrowup, ownerHER/ELLEname.",
+    "decision": "Intentionalmaleassumptionkeptinchoice, actualdogfemaleMouillette everywhereelse."
+  },
+  {
+    "id": "henri-missing-and-misaligned-lines",
+    "scene": "075_henri_01",
+    "source": "OldRUshesgoing/startsilencewrongotherparagraphs, excuseschoiceinstructionsinspokenline, missingheadshake/endellipsiswrongЧёрт.",
+    "decision": "All137linesrestored, pausesandemiliarecallcorrect, endellipsisnoinventedexpletive."
+  },
+  {
+    "id": "henri-presence-and-smell",
+    "scene": "075_henri_01",
+    "source": "presence/prestanceoldliteralприсутствие; tootingnoiseFRhululement andfinalmothballs.",
+    "decision": "Dignity/statness, dogsoundnotinventedgas, successiveolfactoryhypothesesretained."
+  },
+  {
+    "id": "henri-appearance-flags5",
+    "scene": "075_henri_01",
+    "source": "Cardappearance5, verifiedEKillerNameFlagsAttributewithjudge1angel4.",
+    "decision": "Enumcombination1|4, no sourcecardchange/clueaddition/Unityspawnclaim."
+  },
+  {
+    "id": "angelique-age",
+    "scenes": [
+      "076_angelique_00a",
+      "076_angelique_00b",
+      "076_angelique_01",
+      "076_angelique_02",
+      "076_angelique_03",
+      "076_angelique_04"
+    ],
+    "source": "Card51 / spoken50 / narratorfifties",
+    "decision": "Preserve spoken50, record51card; not new birthday.",
+    "scene": "076_angelique_00a"
+  },
+  {
+    "id": "angelique-speech-intent",
+    "scenes": [
+      "076_angelique_00a",
+      "076_angelique_00b",
+      "076_angelique_01",
+      "076_angelique_02",
+      "076_angelique_03",
+      "076_angelique_04"
+    ],
+    "source": "01lastoutburst almostintentional /04whatifmeanit / TICanimations",
+    "decision": "Preserve her selfreport and uncertainty, no invented Tourette diagnosis or universal malicious intent.",
+    "scene": "076_angelique_04"
+  },
+  {
+    "id": "angelique-shifts-and-objects",
+    "scenes": [
+      "076_angelique_00a",
+      "076_angelique_00b",
+      "076_angelique_01",
+      "076_angelique_02",
+      "076_angelique_03",
+      "076_angelique_04"
+    ],
+    "source": "Old01startmisaligned / discreet / fur / perfumeownership",
+    "decision": "Restore bank opening, discreetfilming, clothingfur, perfumeownershipnotlack.",
+    "scene": "076_angelique_01"
+  },
+  {
+    "id": "angelique-family",
+    "scenes": [
+      "076_angelique_00a",
+      "076_angelique_00b",
+      "076_angelique_01",
+      "076_angelique_02",
+      "076_angelique_03",
+      "076_angelique_04"
+    ],
+    "source": "Jean-Pierre husband / Jean-Roland son / neighbor onlyson",
+    "decision": "Separate owners; no formal divorce or fatherdeath invented.",
+    "scene": "076_angelique_03"
+  },
+  {
+    "id": "angelique-swear-variants",
+    "scenes": [
+      "076_angelique_00a",
+      "076_angelique_00b",
+      "076_angelique_01",
+      "076_angelique_02",
+      "076_angelique_03",
+      "076_angelique_04"
+    ],
+    "source": "EN TinyDick vsFRcouillemolle; LeakyCondom vsrésidudecapote; RussianWhore vsBalkans; TightAss vsculrond",
+    "decision": "PrimaryEN obscene sense with differences explicit, no political/gender fact from shouted insults.",
+    "scene": "076_angelique_00b"
+  },
+  {
+    "id": "angelique-death-pea",
+    "scenes": [
+      "076_angelique_00a",
+      "076_angelique_00b",
+      "076_angelique_01",
+      "076_angelique_02",
+      "076_angelique_03",
+      "076_angelique_04"
+    ],
+    "source": "EN DEATHPEA / FRMange-mort",
+    "decision": "French clarifies lexical mistranslation: Пожирательсмерти; explicitly recorded deviation.",
+    "scene": "076_angelique_02"
+  },
+  {
+    "id": "angelique-letter-hint",
+    "scenes": [
+      "076_angelique_00a",
+      "076_angelique_00b",
+      "076_angelique_01",
+      "076_angelique_02",
+      "076_angelique_03",
+      "076_angelique_04"
+    ],
+    "source": "EN Tits/T / FRNichons/N",
+    "decision": "Russian титьки/т coherent localized hint.",
+    "scene": "076_angelique_03"
+  },
+  {
+    "id": "angelique-felches",
+    "scenes": [
+      "076_angelique_00a",
+      "076_angelique_00b",
+      "076_angelique_01",
+      "076_angelique_02",
+      "076_angelique_03",
+      "076_angelique_04"
+    ],
+    "source": "EN FELCHES /FRsacàfoutres",
+    "decision": "Taboo meaning checked Collins; coarse nonprocedural Russian спермохлёбы.",
+    "scene": "076_angelique_02"
+  },
+  {
+    "id": "angelique-speed",
+    "scenes": [
+      "076_angelique_00a",
+      "076_angelique_00b",
+      "076_angelique_01",
+      "076_angelique_02",
+      "076_angelique_03",
+      "076_angelique_04"
+    ],
+    "source": "04angryfast without immediate normal afterBALLS",
+    "decision": "Keep original commands; common finalTIC hasnormal; do not silently fix sourcegraph.",
+    "scene": "076_angelique_04"
+  },
+  {
+    "id": "angelique-rng",
+    "scenes": [
+      "076_angelique_00a",
+      "076_angelique_00b",
+      "076_angelique_01",
+      "076_angelique_02",
+      "076_angelique_03",
+      "076_angelique_04"
+    ],
+    "source": "00b two independent3-waygroups",
+    "decision": "All9 allowed pairs; do not assume fixed daughter/friend/utterance.",
+    "scene": "076_angelique_00b"
+  },
+  {
+    "id": "angelique-restaurant",
+    "scenes": [
+      "076_angelique_00a",
+      "076_angelique_00b",
+      "076_angelique_01",
+      "076_angelique_02",
+      "076_angelique_03",
+      "076_angelique_04"
+    ],
+    "source": "04breakdown3 setsRestaurantKnown1;072reads only",
+    "decision": "Validate handoff to earlier restaurant scenes without adding clue commands.",
+    "scene": "076_angelique_04"
+  },
+  {
+    "id": "santa-shifted-missing-text",
+    "scene": "077_santa_01",
+    "source": "OldRU missingraisedhand/kidsfirstline/stopcold/notfar/car/minutes; inserted choices in narration.",
+    "decision": "Restore every visibleline and order; answers onlymenus."
+  },
+  {
+    "id": "santa-palette",
+    "scene": "077_santa_01",
+    "source": "ENpalette misspelling /FRmewashmouth.",
+    "decision": "Palate meaning ротпрополоскать, no art palette."
+  },
+  {
+    "id": "santa-reindeer-count",
+    "scene": "077_santa_01",
+    "source": "ENcouplehalfdozen /FRdeuxdemidouzaines /RUhalfdozen.",
+    "decision": "Две полудюжины,12not6; no externalfolklorecorrection."
+  },
+  {
+    "id": "santa-elves-movie",
+    "scene": "077_santa_01",
+    "source": "ENdriver1 bare$$movie$$ /FRmovie:black; righthere bare inboth.",
+    "decision": "Keep ENactions exact, sourceanomaly notsilentlyfixed."
+  },
+  {
+    "id": "santa-clothes-pointing",
+    "scene": "077_santa_01",
+    "source": "ENhepointsathisclothes /FRvosvêtements.",
+    "decision": "PrimaryENownclothes, joke stilladdressesdriverclothes nextline."
+  },
+  {
+    "id": "santa-beer-and-gifts",
+    "scene": "077_santa_01",
+    "source": "ENmicrobrews vsFRBelgianbeer; ENbothgirlsboys dolls vsFRbothdollsandguns.",
+    "decision": "PrimaryENcraftbeer/dolls; giftscontextnotactualarmsdelivery."
+  },
+  {
+    "id": "santa-too-much",
+    "scene": "077_santa_01",
+    "source": "ENNottoomuch /FRtropbuje sais pas.",
+    "decision": "PrimaryENdenialofexcess, notFrenchuncertainty; nextsentenceboastsdrankwell."
+  },
+  {
+    "id": "santa-ice-and-wait",
+    "scene": "077_santa_01",
+    "source": "FRmetre/metre20 absentEN; ENfewminutes vsFRinstant.",
+    "decision": "PrimaryENentireicecap/fewminutes; no addednumbers."
+  },
+  {
+    "id": "santa-identity-and-prison",
+    "scene": "077_santa_01",
+    "source": "HeclaimsSanta/memory/letters/elves/prison; driverphysicalmemory; randomsky.",
+    "decision": "Ambiguous source kept, no objectivewizard/actor/diagnosis or inventedcriminalsentence."
+  },
+  {
+    "id": "santa-travel-restart",
+    "scene": "077_santa_01",
+    "source": "Originalstart/stop/start allroutes, nofare/clue/destination.",
+    "decision": "Preservetwo starts, mediumone, paidtext; no uniformone-start rewrite."
+  },
+  {
+    "id": "houssine-unrevealed-name",
+    "scene": "090_houssine_00a",
+    "source": "InternalfilenameHoussine /fullnamecard???/speaker???",
+    "decision": "Keep???; no publiclynamedHoussine/disease/realbrother declaration."
+  },
+  {
+    "id": "houssine-wrong-start-and-suicide",
+    "scene": "090_houssine_05",
+    "source": "Old01startintroparagraph; old05notawhore substitutes suicide for I had no choice.",
+    "decision": "Restore exact lines; no invented suicide or lost memory ofAngel attack."
+  },
+  {
+    "id": "houssine-gender-and-roles",
+    "scene": "090_houssine_03",
+    "source": "Oldmydearfemale/dumbgirl; maleprojection borrows Adevoice perMetAde.",
+    "decision": "Male driver/родной/дурак, conditional femalevoice not bodygenderchange. Julie/Cynthia distinctwomen."
+  },
+  {
+    "id": "houssine-arabic-insult",
+    "scene": "090_houssine_01",
+    "source": "bentkahba preservedbothsources, oldгнутыйкахба.",
+    "decision": "Retaincode-switchphoneticбенткахба; dictionarycomponentsrecorded, insultgender not actualdrivergender."
+  },
+  {
+    "id": "houssine-case-memories",
+    "scene": "090_houssine_01",
+    "source": "Card01Angel4/02Sand2/03Judge1; sourceclues3/UIsourcequestion.",
+    "decision": "Separate height/apology/wrinkles bycase; threshold1m70onlyUI, no createdclue/casecommands."
+  },
+  {
+    "id": "houssine-father-late-disclosure",
+    "scene": "090_houssine_04",
+    "source": "Dad died vs earlier076fatherleftmotherlifeunspecified.",
+    "decision": "Explicitlateevidenceupdatesrule, original076wordingcheckedandkeptambiguous, no motherdeath/unknowncause invented."
+  },
+  {
+    "id": "houssine-brother-accusation",
+    "scene": "090_houssine_05",
+    "source": "Image: Killing your own brother… vs073driverbrotherdiedwithnocause.",
+    "decision": "Recordlateraccusationandscar, preserveearliertruth/death; no name/sentence/weapon or full directconfession added."
+  },
+  {
+    "id": "houssine-car-cat",
+    "scene": "090_houssine_04",
+    "source": "ENcar /FRchat(cat).",
+    "decision": "PrimaryENмашина explicitlyselected, no silentfixedcat or Croukyappearance."
+  },
+  {
+    "id": "houssine-brother-balls",
+    "scene": "090_houssine_04",
+    "source": "ENIfyouwerehim/balls alone vsFRàsa placekillerdemescouilles; oldonyourplace.",
+    "decision": "PreserveENhyperbole, correctreferentbrothernotdriver himself."
+  },
+  {
+    "id": "houssine-paname-college",
+    "scene": "090_houssine_05",
+    "source": "PanameParis/slang vsoldPanama; ENcollegeFRfac.",
+    "decision": "Paris/university, not foreigncity/secondarycollege."
+  },
+  {
+    "id": "houssine-source-silence-anger",
+    "scene": "090_houssine_05",
+    "source": "Getout1silence→getout2introIlikewhenangry; shutitbypasses inEN/FR.",
+    "decision": "Keepgraph, mayreademotionwithoutwords; not silentlyswaplinks."
+  },
+  {
+    "id": "houssine-commands",
+    "scene": "090_houssine_06",
+    "source": "No travel/fare/destination inall8;01baremovie;06endDialogspeedslowwithoutnormal.",
+    "decision": "Originalcommands retained; no ordinary passengerpayment/drivingcycle added."
+  },
+  {
+    "id": "houssine-direct-differences",
+    "scene": "090_houssine_04",
+    "source": "ENyourhate/FRourhate; EN04minutes/FRmoments; EN06neutralmetal/FRtiède; EN02restinpeace/FRfinewhereheis.",
+    "decision": "PrimaryEN with recorded distinctions; no unreportedgender/timing/objectchange."
+  },
+  {
+    "id": "houssine-julie-truth-lie",
+    "scene": "090_houssine_06",
+    "source": "Truthshe scaredme / lie notattractive / awkwardFuckliteral / stretchedJuliename.",
+    "decision": "Branches notmerged; declinedhernamecannotexit; CyrillicЖюлиconsistently; no actualsexscene/romance/diagnosis added."
+  },
+  {
+    "id": "houssine-shared-height-ui",
+    "scene": "090_houssine_01",
+    "source": "Killer < 1m70 is the same exact English UI text in clue_angel_houssine_01 and clue_angel_customer_rumor_01. GlobalfallbackmappingcannotstoretwodifferentRussianstrings.",
+    "decision": "Use previously reviewed canonical Рост убийцы — меньше 1,70 м in both keys; retain separate dream/rumor sources. Read and checked 068sidecar, no wholesale replacement of other clue meanings."
+  },
+  {
+    "id": "gilda-scar-location",
+    "scene": "096_gilda_02",
+    "source": "EN thigh twice / FR flanc then torse;09601scar pain and09001belly wound/chest whistling.",
+    "decision": "Explicitly choose FR шрам на боку; do not invent additional thigh scar or replace other owners’ thigh references."
+  },
+  {
+    "id": "gilda-met-alias",
+    "scene": "096_gilda_02",
+    "source": "01sets_Driver.Met.Gilda;02reads_Gilda.Met;100cop05readsfirst;Unityaliasmanager not audited.",
+    "decision": "Keep both identifiers literal; raw handoff separately from externally supplied alias profiles."
+  },
+  {
+    "id": "gilda-destinations",
+    "scene": "096_gilda_02",
+    "source": "Call Bastille; dialogue Garnier Opera; narrative not going to Bastille; final unnamed oldchurch.",
+    "decision": "Retain source distinction, no invented church name or rewritten call."
+  },
+  {
+    "id": "gilda-book-and-friend",
+    "scene": "096_gilda_01",
+    "source": "FR monami; Jesus; Augustine bookXIX; old girlfriend/modern city/chapter.",
+    "decision": "Male friend, canonical book and image; no literal divine presence/new physical book."
+  },
+  {
+    "id": "gilda-ambiguous-apology",
+    "scene": "096_gilda_01",
+    "source": "reveal-silence narrator unsure if addressing driver orJesus.",
+    "decision": "Прошу прощения preserves ambiguous addressee rather than forcingты/вы."
+  },
+  {
+    "id": "gilda-mother-biography",
+    "scene": "096_gilda_02",
+    "source": "FR months ininstitut, EN hospitalized aftermotherdeath without duration.",
+    "decision": "Primary EN without added duration or diagnosis; fatheraliveworksOpera."
+  },
+  {
+    "id": "gilda-brother-and-children",
+    "scene": "096_gilda_02",
+    "source": "Ihavekids emergencyplea /067oneconfirmedson; voice denies brotherkilling /090imageaccuses.",
+    "decision": "Keep both source statements and scopes, no newchildren or objectiveguilt."
+  },
+  {
+    "id": "gilda-source-thresholds",
+    "scene": "096_gilda_02",
+    "source": "Strict trust=0; time>3/>5/>6; startsupertrust=3 and crisisfar<=0.",
+    "decision": "Keep graph/thresholds; reachable and externally controlled tests distinguished."
+  },
+  {
+    "id": "gilda-knife-and-police",
+    "scene": "096_gilda_02",
+    "source": "Knife drops beforeflight/shooting;100cop03policeplantinhand.",
+    "decision": "Keep unarmedflight/death, not livearrest or armed resistance."
+  },
+  {
+    "id": "gilda-address-attendez",
+    "scene": "096_gilda_02",
+    "source": "speech02-intro FR Attendez vs elsewhereJesusAttends/tu.",
+    "decision": "Подождите addresseddriver; explicitJesus speechты, no blanket conversion."
+  },
+  {
+    "id": "gilda-shaking-head",
+    "scene": "096_gilda_02",
+    "source": "joker-you EN shakeshead vsFRhoche.",
+    "decision": "Keep primaryENкачаетголовой; no silent gesture swap."
+  },
+  {
+    "id": "alexandre-whales-and-pauses",
+    "scene": "097_alexandre_01",
+    "source": "ENifwhales/FRsilesbaleines bothunfinished;oldRUaddedflyingquestion, endellipsisreplacedstaringafterheleft.",
+    "decision": "Keep unfinished а киты… and finalpause, no inventedquestion/secondstare."
+  },
+  {
+    "id": "alexandre-suspect-assertion",
+    "scene": "097_alexandre_01",
+    "source": "ENoldguyisakiller /FRet si… votre tueur. Ordinarysuspectconversationbeforeclimax.",
+    "decision": "Explicitly chooseFRhypothesis Авдруг…; retain caution without objectiveprematureverdict."
+  },
+  {
+    "id": "alexandre-numbers-and-history",
+    "scene": "097_alexandre_01",
+    "source": "ENwall2,3metres/FR2m30;01hundredsome/02over80;62card/Indochina20/1950slicence.",
+    "decision": "FR233 explicitlysupersedesPrimaryENwall2–3: two metres thirty/minimum, 01roughlyhundrednotmorethan,02over80separate.20yearsnotbarely20;62card/1950scontradiction retained, not historicallyrepaired.",
+    "previous_decision": "PrimaryENwall2–3/individualspokenfigures. No invented chronologicalrepair or uniformvictimcount."
+  },
+  {
+    "id": "alexandre-address-register",
+    "scene": "097_alexandre_02",
+    "source": "FRvousbeforevoice, tuaftervoice, onejokerWho vousquestion.",
+    "decision": "Matchlocaladdresses, driveralwaysvous; donotblanketreplaceallchapter withty/vy."
+  },
+  {
+    "id": "alexandre-gun-and-legend",
+    "scene": "097_alexandre_02",
+    "source": "Presentgun/pastrifle; inventedcompanyjob/apartmenttoescape; carbug.",
+    "decision": "Keepownerships, no realnewAnitabiography, no newmodel/dose; Betweentoldflagsbranchesremain."
+  },
+  {
+    "id": "alexandre-take-down",
+    "scene": "097_alexandre_02",
+    "source": "ENtake medown /FRabattre; oldповязать; immediate deathroute.",
+    "decision": "Hisfearisbeing shot, preserve threat; precedingrougharrestmenu uses force rather thannewcopconfessionofmurder."
+  },
+  {
+    "id": "alexandre-honor-and-oil",
+    "scene": "097_alexandre_02",
+    "source": "ENhonoryourdaughter/FRworthy; ENsea ofoil/FRmerd’huile.",
+    "decision": "Choose explicitFRдостойны notdaughterfuneral; calmseaidiom not literal oilspill."
+  },
+  {
+    "id": "alexandre-victim-gender-names",
+    "scene": "097_alexandre_02",
+    "source": "FRla journaliste/98205incrediblewoman; old malejournalist/Leclercк/Тийёль.",
+    "decision": "FemaleMickaela/Леклер/АнридюТийё canon, Sandrinefemale; role/case/claimscopepreserved."
+  },
+  {
+    "id": "alexandre-branch20-and30",
+    "scene": "097_alexandre_02",
+    "source": "20motionless/100cop04doctorstryingtosave;30two shots/100cop04noonehurtand arrested.",
+    "decision": "20uncertainty/30uninjuredarrest, no objective20death/newvictims."
+  },
+  {
+    "id": "alexandre-single-needle",
+    "scene": "097_alexandre_02",
+    "source": "ENdeathoneinjection thenellipsis;oldRUrepeatsinjection. ENneck/forehead vsFRnuque/tempe.",
+    "decision": "FR233 supersedesENbodylocations: nuque backofneck/tempe temple, oneinjection and separateellipsis preserved. No invented chemical/anatomical procedure.",
+    "previous_decision": "Restorepause andsingleinjection, primaryENbodylocations, no stagedmedicaldetails."
+  },
+  {
+    "id": "alexandre-service-fr-differences",
+    "scene": "097_alexandre_02",
+    "source": "FRconfesshubBmissingviolence/arrest10doorfromext vsENfromint.",
+    "decision": "KeepENemote/action, all otherlinks/modifiers/commandsmatch. Bare movie/sourcevarnames preserved."
+  },
+  {
+    "id": "alexandre-land-ui-and-shared-source",
+    "scene": "097_alexandre_01",
+    "source": "ENplanssellingland/FRwantedAlbatrosland; SuspectsIntelkeyedСведения/fallbackДосье.",
+    "decision": "FR233whole11UIfieldsread. GroupewantedtosellAlbatrosland, explicitpastintent+site, not completedtransaction. Shared4fallbackkeysunchanged; formerneutralENheading explicitlyretired. BIOFRno monthsago/superlativeprotestclaim.",
+    "previous_decision": "NeutralUIplans heading avoids inventedcompleted sale/date; align fallback with all4readexisting keys. Only defined11UIkeys reviewed, not full98204. Notes oflicence loss mean permissionrevoked, not lostpaperdocument."
+  },
+  {
+    "id": "ada-missing-lines",
+    "scene": "200_ada_01",
+    "source": "OldRU omits driverquestions/Uh/faceflicker/originpreface/60seconds/Lovelaceline/literature/robotposture/filmlines/manufacturingsteps.",
+    "decision": "Restore122visiblelines and25answers; correct fearanswer nothelpquestion, eachvoicekept."
+  },
+  {
+    "id": "ada-question-repetition",
+    "scene": "200_ada_01",
+    "source": "ENFRorigin-outroB/mont-outroB repeat previouslyaskedtopic; questioncounterstill3.",
+    "decision": "Preserve source links and robotunusedflag; explicit independent route validation, not repaired topics."
+  },
+  {
+    "id": "ada-sensors-origin-car",
+    "scene": "200_ada_01",
+    "source": "EN40/FRquarantaine;ENInstitute/FRlaboratoire;ENethnicity/FRbeliefs;ENbrakepads/FRABS.",
+    "decision": "FR227 явно отменяет прежнийPrimaryEN: laboratoire/около40/вероисповедания/ABS, чужая машина. Вся сцена перечитана; технические команды равны.",
+    "previous_decision": "PrimaryENexplicit; no invented institution branch/extra sensor data/taxi damage."
+  },
+  {
+    "id": "ada-identity-authors-initials",
+    "scene": "200_ada_01",
+    "source": "Ada5card/not human/she; LV426; teamR/H; namesWoolf/Yourcenar oldВульф/Маргарита.",
+    "decision": "Female robot nothumanminor/Ade; canonicalВулф/Маргерит via primary sources; initials literal, no guessed genders/surnames."
+  },
+  {
+    "id": "ada-film-and-class",
+    "scene": "200_ada_01",
+    "source": "ENbathroom/FRtoilettes; breathepun; condescend; ENindependentlywealthy/FRrentiers.",
+    "decision": "Toiletfight/дыхательнаяшутка/свысока/рантье; preserve source taste and source-scoped economics."
+  },
+  {
+    "id": "ada-invest-unspecified",
+    "scene": "200_ada_01",
+    "source": "ENinvestinyourown with unspecifiedobject; FRinvestissez. OldRUвсебя.",
+    "decision": "Choose explicitFRначинайтеинвестировать; no inventedownrobot/asset/selfdevelopment suggestion."
+  },
+  {
+    "id": "ada-manufacturing-and-courier",
+    "scene": "200_ada_01",
+    "source": "Femalebicyclecourier/pizza; Chiara1onlyprobableformerclient.",
+    "decision": "FR227: добывший металл человек/велосипед/повар, без добавленного отдельного шахтёра или сборщика как названной профессии. Курьерша/звонок/пицца, вероятное воспоминание, не явное имя.",
+    "previous_decision": "Restore miner/assembler/cook, no explicitChiaraidentity/cameoconfirmation/otherfood."
+  },
+  {
+    "id": "ada-disappearance-and-source-actions",
+    "scene": "200_ada_01",
+    "source": "Claimsplansstolen/datadestroyed, exitsstation; immediatehigh/1start1stop/noMetAda.",
+    "decision": "No newexplosion/death/actualeradication ofrobots; commands/animations/emotes retained."
+  },
+  {
+    "id": "milo-initial-source",
+    "scene": "203_milo_01",
+    "source": "OldRUintro contains Embassy scene/reveal20300instead of five real01lines.",
+    "decision": "Restore full01source wording;source commands unchanged."
+  },
+  {
+    "id": "milo-named-driver",
+    "scene": "203_milo_00a",
+    "source": "Houssineexplicitmenu/reservation name;090internalfilenamepreviouslynotspoken.",
+    "decision": "RegisterlateУссинwith203/219/990evidence;do not rename090???or revealearlier."
+  },
+  {
+    "id": "milo-family",
+    "scene": "203_milo_02",
+    "source": "Bothdriverheadshakesmean no currentmarriage/girlfriend;Milo03NoChildrenhasdifferent speaker.",
+    "decision": "No femalegesture/inventedfamily/pastwifeerase; driverknownsonkept."
+  },
+  {
+    "id": "milo-name-variant",
+    "scene": "203_milo_03",
+    "source": "Bogdan/Bohdan inbothENFR;oldRUtwo identicalБогдан.",
+    "decision": "Preserveg/hvariantsБогдан/Бохданanduncertaintyforone male trainee."
+  },
+  {
+    "id": "milo-people",
+    "scene": "203_milo_03",
+    "source": "EverypersonEN/ChaquepeupleFR; nextPolessteel/comparisonofpeoples.",
+    "decision": "ExplicitFRКаждыйнарод for contextualmetaphor, speakerstereotype notauthorfact."
+  },
+  {
+    "id": "milo-historical-claims",
+    "scene": "203_milo_03",
+    "source": "1988PolandnoLongerUSSR/thirtyyears sameENFR; chronologicallyquestionable.",
+    "decision": "Keepdates/sourceMilospeech withoutsilent1989/1991repair or childdeathdate."
+  },
+  {
+    "id": "milo-en-fr-quantities",
+    "scene": "203_milo_02",
+    "source": "TwoweeksEN/threeFR;wecarEN/IcarFR;180EN/>180FR;barstoryFRbecauseofme notEN.",
+    "decision": "PrimaryENkept, noaddedmethod/country/guiltstatement."
+  },
+  {
+    "id": "milo-occupation-days",
+    "scene": "203_milo_01",
+    "source": "FinanceMinisterEN/economyFR;todaymyturntomorrowyoursEN/yesterdaymetodayyouFR.",
+    "decision": "PrimaryEN, hypotheticalminister notactualoffice."
+  },
+  {
+    "id": "milo-snowden-label",
+    "scene": "203_milo_02",
+    "source": "ENhubBlabelhasEnglishSnowden plusFrenchSnowden;sameonechoice/link.",
+    "decision": "OneRussianlabel/icon/link retained;story0reset original, no logicfix."
+  },
+  {
+    "id": "milo-icons-and-tone",
+    "scene": "203_milo_01",
+    "source": "cosanostraSmileplainENFR/oldRU:smile:;02ENsilenceiconFRnone;03faggots/tarlouzesoldслабаки.",
+    "decision": "RestoreexactENicons, discriminationslurandlastwomenline."
+  },
+  {
+    "id": "milo-gun-and-death",
+    "scene": "203_milo_03",
+    "source": "Driver imaginesgun;FRpolicekilled/sourceENpolicegot +shotback.",
+    "decision": "Keep unshownweapon and reportedpolice killing, noresistance/medicaldiagnosis."
+  },
+  {
+    "id": "milo-third-french-link",
+    "scene": "203_milo_02",
+    "source": "Frenchmansuppliedbullet/gun/guyshot;FRfabriquéguy;oldRUFrenchmanreceivedbullet.",
+    "decision": "Keepthreepartellipticaljoke, notnationalityofvictim."
+  },
+  {
+    "id": "milo-unidentified-chantal",
+    "scene": "203_milo_02",
+    "source": "WifeChantalcountriesbranch only/20542jackhammer differentcontext.",
+    "decision": "Do notmergebyfirstname;herfateunknownMilospeech."
+  },
+  {
+    "id": "milo-moral",
+    "scene": "203_milo_02",
+    "source": "MarryaSOBaddressedmaledriver/FRvous; oldженскоевыходитьзамуж.",
+    "decision": "Universalневязывайтежизньwithlocalvous, no changedgender/orientation."
+  },
+  {
+    "id": "chantal-voice-and-numbers",
+    "scene": "205_chantal_01",
+    "source": "ENlow/FRfluette;ENsteelback/FRreinforcedconcrete;ENmostcolleagues/FRhalf.",
+    "decision": "PrimaryENlowvoice/steel/majority retained explicitly."
+  },
+  {
+    "id": "chantal-construction",
+    "scene": "205_chantal_01",
+    "source": "ENramjackhammerincement/FRdéfoncebétonpouringbadly.",
+    "decision": "Concrete in construction context, not drycement; no new technicalworkmethod."
+  },
+  {
+    "id": "chantal-licence",
+    "scene": "205_chantal_01",
+    "source": "ENlostlicence/FRnomorepermit,oldRUrevoked.",
+    "decision": "Rights no longer held; reason not stated, no inventedcourtdecision."
+  },
+  {
+    "id": "chantal-dream-relative",
+    "scene": "205_chantal_01",
+    "source": "Who/qui;ENcutits/FRcutsown;Russianwhichmasc conflicts with genericfox/dog nouns.",
+    "decision": "Who→кто,reflexiveFR/pastEN. Randomfragmentsremainseparate,notbiologicalgenderfacts."
+  },
+  {
+    "id": "chantal-dream-counter",
+    "scene": "205_chantal_01",
+    "source": "sleep>3afterincrement;initial0ordinarymax3atdrive02;81RNGoutcomes.",
+    "decision": "Original strictthreshold and links intact; controlledlocalvalues must be declared explicitly."
+  },
+  {
+    "id": "chantal-missing-and-money",
+    "scene": "205_chantal_01",
+    "source": "OldRUmissingquestions/onechoice/endellipsis;bill→счёт;tarot treatedascapitalTarot.",
+    "decision": "Restoreall100lines19choices;moneybanknote/cardsnotdivination;allrepeatedBanglineskept."
+  },
+  {
+    "id": "chantal-same-firstname",
+    "scene": "205_chantal_01",
+    "source": "Milo’sministerwifeChantalhasnofullname;205construction/cardLemonnier.",
+    "decision": "No identity inferencefromfirstname; politicalfantasy not objectivecrime/caseevidence."
+  },
+  {
+    "id": "amira-phone-time",
+    "scene": "206_amira_01",
+    "source": "ENevery4secs/FR3or4;outropausephone notvoice.",
+    "decision": "EN4retained; pauses/vibration owner corrected."
+  },
+  {
+    "id": "amira-game-series",
+    "scene": "206_amira_01",
+    "source": "Series in videogame context, oldRUтелесериал.",
+    "decision": "Seriesofgames; exactEnglishpropergametitle retained, no realcompanyinserted."
+  },
+  {
+    "id": "amira-china-fr",
+    "scene": "206_amira_01",
+    "source": "ENlaborcamps/FRreeducation;EnglishChinaIntroBpreviouslydisplaced.",
+    "decision": "PrimaryENlabourcamps,speakerclaimsnotcurrenteditorialnews; allsourceChina blocks restored."
+  },
+  {
+    "id": "amira-legal-and-head",
+    "scene": "206_amira_01",
+    "source": "ENcrimeblock3lines/FR4withnod;ENshakes/FRnodstorywhat.",
+    "decision": "PrimaryENlinecounts/headgesture; sourcelegalclaimnotverifiednewlegaladvice."
+  },
+  {
+    "id": "amira-stage-direction",
+    "scene": "206_amira_01",
+    "source": "I saidwhatIjustsaidtoyou/oldRUreverseorder;messagesdialoguepermuted.",
+    "decision": "Paststagespeechretoldtocurrentdriver;sourcewordorder/speakerrestored."
+  },
+  {
+    "id": "amira-two-endings",
+    "scene": "206_amira_01",
+    "source": "Story1onlyafterfullaccount/goodanswerprovokesanger;no-story0helpangrytoo.",
+    "decision": "Do notmakepolitegoodendingautomatic; twoobservingmennoticeawful/ignorenormal."
+  },
+  {
+    "id": "amira-tone",
+    "scene": "206_amira_01",
+    "source": "OldRUomittedface/answer,switchedtoтыininsult;voicecoldsmilesadthenrage.",
+    "decision": "Female/выthroughout; allgestures/restoredinsults, no diagnosis/identitybeyondsource."
+  },
+  {
+    "id": "lola-foreign-intro",
+    "scene": "207_lola_01",
+    "source": "OldRUintro is Chantal205includingname/weightlifting/outerbelt;next blocks displaced.",
+    "decision": "Restoreall40sourceblocks;no_Chantal_in207. AnonymousENThingsline isLOLAspeakerperFR."
+  },
+  {
+    "id": "lola-family-speaker",
+    "scene": "207_lola_01",
+    "source": "ENhis mum/herdad ambiguous, FRhis mother/father;gran/dog deaths withno tears.",
+    "decision": "ChooseFRparentsAhmed;cryingownedbyAhmed,not dog;no newLola father/marriage."
+  },
+  {
+    "id": "lola-food-and-work",
+    "scene": "207_lola_01",
+    "source": "ENpasties/FRsausage rolls;gigsdoingkitchens/FRrestaurantkitchens.",
+    "decision": "FR228: слойки с мясной начинкой поsausage rolls, прежнийENpiesотменён; несколькоресторанныхкухонь безобязательнойподработки/шефзвания. КультурныйисточникGreggs в контексте.",
+    "previous_decision": "PrimaryENpiesnotchebureki;explicitFRrestaurantwork,no chefqualification/renovator invented."
+  },
+  {
+    "id": "lola-pregnancy",
+    "scene": "207_lola_01",
+    "source": "ENshoppingcentrepiss/personalbusvsFRlimousineVIP;7feels17;Frenchthird/half.",
+    "decision": "FR228: лимузин с самыммаленькимVIP. ПрежнийENавтобус/торговыйцентр/туалетныйобраз отменён, нежность/7месяцев/кажется17 сохранены, не медицина/право.",
+    "previous_decision": "KeepENone metaphor,sourcehyperbole/affection,not realmedicalage/ancestrymath/legalpassportguarantee."
+  },
+  {
+    "id": "lola-idioms-and-vote",
+    "scene": "207_lola_01",
+    "source": "Thousandyard/Couldn’tbearsed/Didn’tfeelinsanenotatfirst/an’all/unravelled/geton.",
+    "decision": "Contextualmeaningsrestored;beforevotealsofear,notno;not mentaldiagnosis/timenotavailable."
+  },
+  {
+    "id": "lola-racism-and-country",
+    "scene": "207_lola_01",
+    "source": "ENAfghanistan/oneofthegoodones/UnionJackvsFRIslamistan/goodMuslims/Englishflag.",
+    "decision": "FR228 явноотменяетPrimaryEN: Исламистан/хорошиемусульмане/английскийфлаг. Саркастическийпересказрасиста не определяетеёрелигию/реальнуюстрану.",
+    "previous_decision": "PrimaryEN;sarcasticreportnotproofLolareligion;UKflagnotStGeorge."
+  },
+  {
+    "id": "lola-owner-and-threat",
+    "scene": "207_lola_01",
+    "source": "FuckoffWITHhim/oldRUleavehim. WaitsforanswerthenSHEdisappears/oldRUhandsdisappear.",
+    "decision": "FR228: приказАхмедуехатьдомой, Лолагрязнаяпредательница. Прежний ENприказЛолевместесним отменён. Онапозжескрываетсявтускломвестибюле, не руки.",
+    "previous_decision": "Coupleexpelledtogether,not relationshipbreak;Lolaentersbuilding,not amputatedhands."
+  },
+  {
+    "id": "lola-time-and-politics",
+    "scene": "207_lola_01",
+    "source": "Unspecifiedmonthsaftervote/rumourslaws/claimstoEUpassport;Frexitcounterfactual.",
+    "decision": "Fictionchronology/speakerpositionskept,no contemporarypolitical/legalrewrite."
+  },
+  {
+    "id": "lola-secret-condition",
+    "scene": "207_lola_01",
+    "source": "admission1onlythroughremain/leavepersonalstory;dontknow→irritated0.",
+    "decision": "AlloutrochoicespreserveconditionalconfessiontoAhmed;no newglobalMet/forcedrevelation."
+  },
+  {
+    "id": "lola-source-variants",
+    "scene": "207_lola_01",
+    "source": "ENUKmanyBritish/manyproud/weMiss/sinceweleft/everymoment;FREnglish/almostall/IMiss/sincestarting/herehere.",
+    "decision": "FR228 отменяетPrimaryEN: несколькоангличан/почтивсепревосходство/Яскучаю/НАработу/сначалатекущейпоездки/здесьвсёздесь; passeràautrechose=забытьижитьдальше, не ладить.",
+    "previous_decision": "PrimaryENwhereunstatedotherwise. Ourgenericdeepbreathdoesn’tassertgallon/litre."
+  },
+  {
+    "id": "lola-call-name",
+    "scene": "207_lola_01",
+    "source": "GoutteD’oroneuseincall;existingRUГутт-дОрvariants.",
+    "decision": "CanonicalГутт-д’Орretainedwithoutliteraltranslation;shortcallownedbyLola,not_Chantal_destination."
+  },
+  {
+    "id": "myrtille-shifted-intro",
+    "scene": "208_myrtille_00a",
+    "source": "OldRUwarmth moved todeal; actual moneytrouble firstline missing.",
+    "decision": "Restoreeachsourceblock/line; properwarmthlastintro andmoneyfirstdeal."
+  },
+  {
+    "id": "myrtille-foreign-intro",
+    "scene": "208_myrtille_01",
+    "source": "OldRUintro copied00a acquaintance insteadsecret riddle.",
+    "decision": "Restoreactualriddle/driverquestions/allbranches, no replayacquaintance."
+  },
+  {
+    "id": "myrtille-source-voice",
+    "scene": "208_myrtille_00a",
+    "source": "ENbrokenphonograph/FRoldrattle+three years homeless.",
+    "decision": "ENphonograph; no inventedEnglishduration. The sourceFRdifference is explicitly recorded."
+  },
+  {
+    "id": "myrtille-path-metaphor",
+    "scene": "208_myrtille_02",
+    "source": "ENCOMMON GROUND/mylittlecorner vsFRPARCOURS DE VIE/asifyouchosethispath.",
+    "decision": "ExplicitFRsemanticchoice for coherent life-path passage; sixENlines andoriginal links/actions retained. ENinitialirony retained."
+  },
+  {
+    "id": "myrtille-speakers-and-omissions",
+    "scene": "208_myrtille_04",
+    "source": "OldRUintro incomplete; simonepause/03smile/03enigmastop/04sigh replacedbynewwords. Earthdriverline andEarththought markedMYRTILLE.",
+    "decision": "Restoreeverylineandrightspeaker/innerthought/narration; no fabricatednewquestion."
+  },
+  {
+    "id": "myrtille-horizon",
+    "scene": "208_myrtille_04",
+    "source": "ENeverywhereseen/nowhereinbetween vsFRcannotbereached; oldRUopaqueandunstable.",
+    "decision": "FRclarifiesunreachablehorizon; oneRussianriddleallthreeoccurrences, no answername added. ThreeTickthenTock perEN, notFRalternation."
+  },
+  {
+    "id": "myrtille-female-cleverness",
+    "scene": "208_myrtille_04",
+    "source": "ENoutdoingtheotherguy/outsmartinghim/Orher vsFRnotstrongestlawbutcleverest/Oulaplusmaline.",
+    "decision": "ExplicitFRclarification:самыйсильный/самыйхитрый/самаяхитрая. Femalehumour preserved; no maleSimone/sexchange."
+  },
+  {
+    "id": "myrtille-simone-variants",
+    "scene": "208_myrtille_04",
+    "source": "ENking/twofingersthroatslash vsFRpresident/onefinger; pastshelter16th.",
+    "decision": "ENkingandtwofingerswithfemalebyla;16tharrondissementnot16thstreet. Friendlikesisternotbloodrelation;theftasreported."
+  },
+  {
+    "id": "myrtille-counter-exception",
+    "scene": "208_myrtille_01",
+    "source": "Fake mayonnaise→reveal bypassesBad+=1; ordinarywrongincrementsBad.",
+    "decision": "Preserveexactsourceexception, do not silentlyrepaircounter. Foodguess02doesincrementBadandsetssaucisson."
+  },
+  {
+    "id": "myrtille-truth-and-ellipsis",
+    "scene": "208_myrtille_04",
+    "source": "Truthcold/liebeautiful; ENpissphrasebreaksoffwhileFRendsrichpeople.",
+    "decision": "Emotionalcoldnotweather, truth/liechoiceorderpreserved. KeepENunfinishedsentence, no FRrichendinginserted."
+  },
+  {
+    "id": "myrtille-literal-idioms",
+    "scene": "208_myrtille_03",
+    "source": "Bad sport/smarty pants/JackRobinson;02myfoot/pain/pullout;04dumbwaiter.",
+    "decision": "Restoreidiommeanings; notsports/trousers/person/leg/bodyinjury/leavingcar/waiter. Astroprofessionleftincomplete."
+  },
+  {
+    "id": "xavier-male-card",
+    "scene": "210_xavier_01",
+    "source": "card2411gender0/age0 vsENman/he/his andFRhomme/il throughout3scenes.",
+    "decision": "Registermale fromdirectsource; exactage/causeofzerosunknown. Originalgamefieldsnotrewritten. Notfemale/infant."
+  },
+  {
+    "id": "xavier-source-commands",
+    "scene": "210_xavier_01",
+    "source": "ENtipmedium vsFRmid, otherlinks/modifiers/commands equal.",
+    "decision": "PreserveENmedium exactly; no change tooriginal flow orsource assets."
+  },
+  {
+    "id": "xavier-missing-words-and-options",
+    "scene": "210_xavier_01",
+    "source": "OldRUmissing firstlines/Who/Nameexplanation/Batman correction/hospital/ENKID/compliment andmultipleindependentanswers.",
+    "decision": "All22blocks/95lines30answers restored, firstBruceWayne error remains beforeBatman correction."
+  },
+  {
+    "id": "xavier-destination",
+    "scene": "210_xavier_01",
+    "source": "ENNeuilly vsFRNeuilly-Plaisance; oldRUНейи vsmappingНёйи.",
+    "decision": "KeepENabbreviation consistentlyНёйи, no inventedNeuilly-sur-Seine orsilentexpansion toFRfullname."
+  },
+  {
+    "id": "xavier-false-death-and-hospital",
+    "scene": "210_xavier_01",
+    "source": "Inanimatebody/pulsecheck; passenger saysunconscious beforewindow; hospital offerloopsbacktosameaddress.",
+    "decision": "Body notconfirmedcorpse/selfjump; no actualhospitalization/diagnosis added. Bloodsourceunknown."
+  },
+  {
+    "id": "xavier-false-narration",
+    "scene": "210_xavier_02",
+    "source": "OldRUthroatclear becomesweteyes; headshake becomesinformationquestion;pausesmissing.",
+    "decision": "Restoreoriginalspeaker/narration, unknownkillerheorsheunderfreeroam0;formalvous throughout."
+  },
+  {
+    "id": "xavier-foreign-intro",
+    "scene": "210_xavier_03",
+    "source": "OldRUintro femaleunusualoutfit/whereismissingallradiomenu.",
+    "decision": "Restorebuilding/guard/meterlevels/radiobutton andtwoactualsourcechoices; notfemaleXavier."
+  },
+  {
+    "id": "xavier-poem-and-voice",
+    "scene": "210_xavier_03",
+    "source": "ENher vsFRunchanteur; muse/amuse rhymecliché.",
+    "decision": "Neutral song/voice withoutinventedperformeridentity; adapted Russianмуза/обуза rhyme explicitly, notnonrhymingliteral."
+  },
+  {
+    "id": "xavier-idioms",
+    "scene": "210_xavier_03",
+    "source": "orphanwantsseconds/crapshoot/crossedpath/sourceheadshakes andleavesquietly.",
+    "decision": "Addedportionnotseconds;dice/chance notbadride;meetingnotobstruction;noinventedspokenquestions.02coastclear notriverbank."
+  },
+  {
+    "id": "xavier-source-hand-and-image",
+    "scene": "210_xavier_03",
+    "source": "ENlefthand vsFRright;ENtwohandsvsFRone;ENonecommando roll;02ENturkeyvsFRsausage.",
+    "decision": "PrimaryENleft/bothhands/oneroll/turkey retained. Injury early isinference,disappearance notconfirmeddeath."
+  },
+  {
+    "id": "xavier-timing",
+    "scene": "210_xavier_03",
+    "source": "Localtime0;time>1early; accident1onlyfromstoppingsecondthenrunningduringchat;drive-getrid hasnoincominglink.",
+    "decision": "Keepfourattainabletime/accprofiles andunlinkedparagraph;directstart only, no inventednewedge/realtimetimer. Notpanicleadsoriginalpanic."
+  },
+  {
+    "id": "xavier-speech-and-nuance",
+    "scene": "210_xavier_02",
+    "source": "Allegationsforeignkids/Albanian/German/farright/captains;hero deniespowers, claimssecretidentity;mutualvous.",
+    "decision": "Notconfirmedcriminalfacts/passport/diagnosis;childexploitationhintnotcompletedgraphically. Panic/swearing/businessvoice preserved withoutsocial-media modernisation."
+  },
+  {
+    "id": "roksana-missing-lines",
+    "scene": "214_roksana_01",
+    "source": "OldRUmissinginterrupt/fingers/accent/chosen-you/firstlines/knownquestion/finalellipsis.",
+    "decision": "Restoreall28blocks83lines19answers/call; no inventedwords/actorchanges."
+  },
+  {
+    "id": "roksana-claims-and-contradiction",
+    "scene": "214_roksana_01",
+    "source": "She saysneverseenLudwig, callshimancientdemon; insistsfriend/helpbutMet0talking→eternalUnderworld.",
+    "decision": "Claimsretained, not proofagainst009; bothoriginals contradictionpreserved withoutnewNOT."
+  },
+  {
+    "id": "roksana-name-and-accent",
+    "scene": "214_roksana_01",
+    "source": "RoksanaKrilova/strongEasternEuropeanmaybeRussian.",
+    "decision": "RetaincanonicalКрилова;no name-basedCyrillicКрылова/nationality/sexguess. Female39 independentlysupported."
+  },
+  {
+    "id": "roksana-marine-metaphor",
+    "scene": "214_roksana_01",
+    "source": "ENbarnacles/FRmoules→thenoysters.",
+    "decision": "PrimaryENморскиежёлуди/thenустрицы;not silentFRmussels/biologycorrection. UnderworldFREnfersclarifieshellimage."
+  },
+  {
+    "id": "roksana-question-speaker",
+    "scene": "214_roksana_01",
+    "source": "ENWhatfolks?Frenchpeople?quoted driver line vsFRinternalIci?France?",
+    "decision": "ENspokenquestionkept, notnewpassengerspeech."
+  },
+  {
+    "id": "roksana-sensory-ending",
+    "scene": "214_roksana_01",
+    "source": "Running inyourveins/FRLiquide; footstepsstopafterturn;refreshingair.",
+    "decision": "Fearflowsnotphysicalrunning, missingellipsiskept, notconfirmeddisappearance/death/ghostidentity/happymood."
+  },
+  {
+    "id": "roksana-fare-and-icons",
+    "scene": "214_roksana_01",
+    "source": "fare0initial/lowexit/noneaskingpayment;knownfourthanswer noENicon,oldRUhasextrasilence.",
+    "decision": "Keepzero fare despitepaymentrequest/no paidbranch ortravel; preserveEnglishicons,notFR/allmenusuniform."
+  },
+  {
+    "id": "alph-group-card",
+    "scene": "217_alph_01",
+    "source": "Gender2group/ethnicity2animal/age99/is_multiple0; sourcehe/il and hintssecondvoice.",
+    "decision": "CurrentCecilconstants verified;perceivedmascgrammar, notmale3/human99/exactspeciesorcount/TVAlf."
+  },
+  {
+    "id": "alph-intentional-pairs",
+    "scene": "217_alph_01",
+    "source": "EN/FRdoublegreetings/synonyms repeated throughout.",
+    "decision": "Keepasvoicetrait,not machine-tautology cleanup. Formalvousallscene,notoldRUrandomty."
+  },
+  {
+    "id": "alph-name-initial",
+    "scene": "217_alph_01",
+    "source": "ENFRThanks,H…; narratoronlythinkshearsname;oldRUЭйч.",
+    "decision": "LocalizeУ… percanonicalУссин203/219/990, nofullname/spoil. Early090???unchanged."
+  },
+  {
+    "id": "alph-money",
+    "scene": "217_alph_01",
+    "source": "50francbluegreen returnedthen50EURaccepted/money50;arrivalfareandthensome.",
+    "decision": "One50incomeonlypayingquestionsbranch, not100/obsolete50EUR;extraatendmoney,nothiddenobject.Thoughtportraitnotspokenquestion."
+  },
+  {
+    "id": "alph-missing-lines",
+    "scene": "217_alph_01",
+    "source": "OldRUwrongdrive-no/freefirstline andmissingneck/firstlines/odor/voiceparalysis;shrugbecomesSmile.",
+    "decision": "Restoreevery34block/152line/27answers, rightowner/speaker/thought/pacing."
+  },
+  {
+    "id": "alph-hypnosis",
+    "scene": "217_alph_01",
+    "source": "Onlywho-outromodifieshypnosis1;allendingsstilllosevoice/paralyse.",
+    "decision": "Keepadditionalconditionalparagraph anduniversalending, no newsourcecondition ordiagnosis."
+  },
+  {
+    "id": "alph-source-variants",
+    "scene": "217_alph_01",
+    "source": "ENlookdownEarthvsFRriseEarth;ENhumanitysacrificevsFRothers;ENowninterestvsFRagainstothers.",
+    "decision": "PrimaryENwhere different; no inventedearthrise/detail. Ferret/snakesasIFnotprovedspecies."
+  },
+  {
+    "id": "alph-show-and-name",
+    "scene": "217_alph_01",
+    "source": "RossRachelFriends/NBCdates/wedding; Alphname and animalcard.",
+    "decision": "Charactersspeechpreservedwithoutnewshowfacts/realTVAlfidentity;canonicalRussianRoss/Raychel/titlepun."
+  },
+  {
+    "id": "nathalie-age-and-role",
+    "scene": "219_nathalie_01",
+    "source": "Card74/driver0;ENFRspoken72 andwoman atwheel withmaincharacterbackseat.",
+    "decision": "Keep74card/72speech, rolefromactualscene, no inventedcause/theft/illegallicence."
+  },
+  {
+    "id": "nathalie-son-name",
+    "scene": "219_nathalie_01",
+    "source": "AliasRedwane explicitlyYourson’sname/FRvotrefils.",
+    "decision": "Registerdriver’ssonРедуан, no transferof020neighborbiography/age/no deadsoninunnamedfinalglimpse."
+  },
+  {
+    "id": "nathalie-wrong-thanks-name",
+    "scene": "219_nathalie_01",
+    "source": "BothENFR thankyou-houssine textAlfred; JeanPaul→JeanJacqueswithcorrection.",
+    "decision": "Keep sourcewrongname insteadoldRUUsinrepair. Couldbesourcebugorcharactererror,intentionunknown. Canondrivernameunchanged."
+  },
+  {
+    "id": "nathalie-misplaced-option",
+    "scene": "219_nathalie_01",
+    "source": "ENstoryA-outro hasYes/No; oldRUthirdSortofcomplicated fromnextblockleftnextblockempty.",
+    "decision": "Restoretwochoices andcorrectYourStoryBvisibleline; allsourcebranchesretained."
+  },
+  {
+    "id": "nathalie-missing-scenes",
+    "scene": "219_nathalie_01",
+    "source": "Missingphilosophy/age72bungee/pairedcareerfirstlines/thanks/ellipsis andchangedgrandchildren→teenagers.",
+    "decision": "Restoreevery61block205lines33answers, actors/chronology/ownfamily preserve."
+  },
+  {
+    "id": "nathalie-false-biographies",
+    "scene": "219_nathalie_01",
+    "source": "Fournames/fourjobs/kidsanswerno;sourceonehotflags/callbacks.",
+    "decision": "Nottrueprofessions/namechanges. NoKidslieconsistentwith067; genericpluralnotnewsecondchild."
+  },
+  {
+    "id": "nathalie-source-variants",
+    "scene": "219_nathalie_01",
+    "source": "ENpartVikingvsFRhalf;ENsoulsfoodvsFRcookpassengerstip;ENlongendingbefore6/copscursevsFRshort.",
+    "decision": "PrimaryENnoinvented50percent,keepfailedchefmetaphorandclippedcurse/clockascharacterwords."
+  },
+  {
+    "id": "nathalie-illness-and-privacy",
+    "scene": "219_nathalie_01",
+    "source": "Cancerallover6to12months/perdoctors, retired/bossrefusal/deterioratingeyes.",
+    "decision": "Herreportedexperience notnewmedicalstage/clinicaladvice/legalsummary. Familyrelations belongtoNathalie."
+  },
+  {
+    "id": "nathalie-ending-ambiguity",
+    "scene": "219_nathalie_01",
+    "source": "Finalunnamedhe/Nothim/neveragain, allroutes; sourceMet.NATHALIEuppercase.",
+    "decision": "Do notnamebrother/father/son/deadpassenger;exactglobalsetter case, singlefare0 andtravelpair retained."
+  },
+  {
+    "id": "jim-age-and-identity",
+    "scene": "221_jim_01",
+    "source": "Source card87/male3; apparent early30s and he/il.",
+    "decision": "Retain apparent age and card separately; no invented identity, biology or proof of actual vampire."
+  },
+  {
+    "id": "jim-missing-text",
+    "scene": "221_jim_01",
+    "source": "Old RU loses realestate joke, restaurant line, several firstlines and one service answer; replaces attack ellipsis.",
+    "decision": "Restore all47blocks137lines47answers and invitation, including empty-block menus/icons."
+  },
+  {
+    "id": "jim-food-and-drinks",
+    "scene": "221_jim_01",
+    "source": "Rare/consistency/Abbey triple/ristretto no sugar.",
+    "decision": "Meat with blood and food body/texture; abbey tripel not brand Эбби/threebeers; exact coffee order, not invented ifnotmistaken."
+  },
+  {
+    "id": "jim-aroused-and-customer",
+    "scene": "221_jim_01",
+    "source": "ENkeepyouaroused vs FRteniréveillé; unnamed night regular genderneutral EN/female FR.",
+    "decision": "FR clarifies keeping driver awake and female regular; threatening hints retained, no new sexual act/named identity."
+  },
+  {
+    "id": "jim-camille-callback",
+    "scene": "221_jim_01",
+    "source": "Exact Met.Camille conditional, not Met.CA.",
+    "decision": "Entrepreneur053, not mixedpair010; source onejobwell versus threebadly and optional annoyance retained."
+  },
+  {
+    "id": "jim-source-ambiguity",
+    "scene": "221_jim_01",
+    "source": "Attack then no wound/passenger and uncertain coins; tigerlike upholstery; narrator uncertain musician memories.",
+    "decision": "No permanent death/wound/new identity/real tiger/dates/definite tip inferred."
+  },
+  {
+    "id": "jim-source-controls",
+    "scene": "221_jim_01",
+    "source": "annoyed>2; only restaurant travelstop; narrated fare/tip without reward commands.",
+    "decision": "Normal annoyed is only -1/0/1/2: attack and no-drink fragment are source-unreachable. Preserve raw commands; check separate controlled original entries, not new links."
+  },
+  {
+    "id": "melchior-1",
+    "scene": "222_melchior_01/02",
+    "source": "Missing manyfirstlines/choices and shiftedcloud concept; oldRUbodyshape wrong.",
+    "decision": "Restore128blocks368lines115answers/twousefulcalls; servicestructure unchanged."
+  },
+  {
+    "id": "melchior-2",
+    "scene": "222_melchior_01/02",
+    "source": "ENroadkill/truckelephants versusFRmerde/TGV;ENGoodnight andWhosWho.",
+    "decision": "FR223explicitly supersedes oldENpriority: merde/chié/TGV in01, notroadkill/elephanttruck. Current01alreadyhadFRandwasrereadfully; goodnight asksaboutnight, WhosWho/notencyclopedia unchanged.",
+    "previous_decision": "PrimaryENmetaphors;goodnight asksabout evening, WhosWho=important people notencyclopedia."
+  },
+  {
+    "id": "melchior-3",
+    "scene": "222_melchior_01/02",
+    "source": "Paiddoctorimplant; selfdidthis; pupilblown; I/We andvoices.",
+    "decision": "Not selfsurgeon/burntpupil; single canonical нейрошлюз. Identity/species/count/diagnosis remainsunconfirmed."
+  },
+  {
+    "id": "melchior-4",
+    "scene": "222_melchior_01/02",
+    "source": "ENbedroom versusFRbathroom inAdepastmemory; three recalledinstructions unconditional.",
+    "decision": "FR223confirms salledebain/ванная in01memory; oldENспальня priority explicitlyrevoked. RecalledAdeinstructions do not establish new earlier choices, objective external control or brotherdeathcause.",
+    "previous_decision": "PrimaryENспальня, not anew correction of025scene; no threeactualearlierchoices or brotherdeathcause inferred."
+  },
+  {
+    "id": "melchior-5",
+    "scene": "222_melchior_01/02",
+    "source": "EN/FRgroupedprivacyclaims and ENBritishpopstarracisttwitter vsFRpoliticianhomophobia.",
+    "decision": "FR223original unnamed FEMALE EnMarche deputy/homophobic Twitter comparison, notENBritishpopstar/racism. Characterclaim, no actualperson inferred or modernnewsassertion.",
+    "previous_decision": "PrimaryEN and unnamedpeople, character claims nottranslator objective assertion."
+  },
+  {
+    "id": "melchior-6",
+    "scene": "222_melchior_01/02",
+    "source": "ENmilk/cocaine-horse/datapassesby versusFRbeer/powder-ox/datapassesthrough.",
+    "decision": "FR223beer/goodjoke/unspecifiedpowder/bull/informationTHROUGH him replacesENmilk/badjoke/cocaine/horse/BYhim. Assourdissant deafening, STOPbuttonwish and repeat surgery billard preserved; no actual drowning/newsubstance identified.",
+    "previous_decision": "PrimaryEN, preserve absurd metaphor and inabilitytostop, not invent actualdrowning or productbrand."
+  },
+  {
+    "id": "melchior-7",
+    "scene": "222_melchior_01/02",
+    "source": "Hans/Karlmale couple;Sabinefemale/changedname/mothergiftbeforemotherdeath.",
+    "decision": "No brothers/marriage/proven affair/newdeadname/biologicalgender/psychiatricdiagnosis inferred. Womanalive;motherdead."
+  },
+  {
+    "id": "melchior-8",
+    "scene": "222_melchior_01/02",
+    "source": "Randomselectors/underscoredeclared-hyphenmodifiedvars/unlinkedparagraphs;ENAF1marker/21stcentury.",
+    "decision": "Keeprawcontrols, separatelychecksourceunreachable;removeeditorialmarkeronly,keep21stcenturyandlinecount."
+  },
+  {
+    "id": "melchior-9",
+    "scene": "222_melchior_01/02",
+    "source": "Trafficlight/ATM/SMSfiction; sourceeffects notnewtip/moneycommands.",
+    "decision": "Preservenarrative/gamecommands separately; no actionable realexploit instructions or newdeathstate."
+  },
+  {
+    "id": "berenice-1",
+    "scene": "223_berenice_01",
+    "source": "Source female0/age31;sceneabout30;haine1ENFR28.",
+    "decision": "FR225: прежний приоритет EN отменён после полного чтения. Съёживается водитель, миллиарды женщин, ни один бар, задержка дыхания. Различие31/28/около30 оставлено по исходным владельцам. Исходный граф не изменён; гнев отдельно контролируется.",
+    "previous_decision": "Retain all three source perspectives,adult notactualchild;no invented three-year chronology."
+  },
+  {
+    "id": "berenice-2",
+    "scene": "223_berenice_01",
+    "source": "OldRU missing firstlines/doubleIdontknow;invented speech/whistle/reassuranceofdriver.",
+    "decision": "FR225: прежний приоритет EN отменён после полного чтения. Съёживается водитель, миллиарды женщин, ни один бар, задержка дыхания. Различие31/28/около30 оставлено по исходным владельцам. Исходный граф не изменён; гнев отдельно контролируется.",
+    "previous_decision": "Restore26blocks208lines19answers and useful invitation;correct actors/actions and target of halfsmile."
+  },
+  {
+    "id": "berenice-3",
+    "scene": "223_berenice_01",
+    "source": "Whatdoyoumean/pantiesbunch/totalidiot/innocencecandeur.",
+    "decision": "FR225: прежний приоритет EN отменён после полного чтения. Съёживается водитель, миллиарды женщин, ни один бар, задержка дыхания. Различие31/28/около30 оставлено по исходным владельцам. Исходный граф не изменён; гнев отдельно контролируется.",
+    "previous_decision": "Clarification not disbelief;natural idioms,no bodyweight/underwear/new virginity claim."
+  },
+  {
+    "id": "berenice-4",
+    "scene": "223_berenice_01",
+    "source": "Sexual touching/account,selfblame,hostile player options,friendmockery.",
+    "decision": "FR225: прежний приоритет EN отменён после полного чтения. Съёживается водитель, миллиарды женщин, ни один бар, задержка дыхания. Различие31/28/около30 оставлено по исходным владельцам. Исходный граф не изменён; гнев отдельно контролируется.",
+    "previous_decision": "Preserve character perspective;no new acts/diagnosis,not author-blame or inserted moral instruction."
+  },
+  {
+    "id": "berenice-5",
+    "scene": "223_berenice_01",
+    "source": "ENhershrinks/millions/thisbar/breathesin vsFRdrivershrinks/billions/anybar/holdsbreath.",
+    "decision": "FR225: прежний приоритет EN отменён после полного чтения. Съёживается водитель, миллиарды женщин, ни один бар, задержка дыхания. Различие31/28/около30 оставлено по исходным владельцам. Исходный граф не изменён; гнев отдельно контролируется.",
+    "previous_decision": "PrimaryEN explicit decisions;not arbitrary shifts of owner/scale/meaning."
+  },
+  {
+    "id": "berenice-6",
+    "scene": "223_berenice_01",
+    "source": "F5F6/metaphorical rewind,Ade vague memories,probablyhurtwomenbutnotlikethat.",
+    "decision": "FR225: прежний приоритет EN отменён после полного чтения. Съёживается водитель, миллиарды женщин, ни один бар, задержка дыхания. Различие31/28/около30 оставлено по исходным владельцам. Исходный граф не изменён; гнев отдельно контролируется.",
+    "previous_decision": "Not actualNightCall keybinding advice,new assault confession or onlyemotionalharm;ambiguity retained."
+  },
+  {
+    "id": "berenice-7",
+    "scene": "223_berenice_01",
+    "source": "Original agacement limits/two travelpairs/low then optionalnone/usefulFrenchcall.",
+    "decision": "FR225: прежний приоритет EN отменён после полного чтения. Съёживается водитель, миллиарды женщин, ни один бар, задержка дыхания. Различие31/28/около30 оставлено по исходным владельцам. Исходный граф не изменён; гнев отдельно контролируется.",
+    "previous_decision": "Rawcontrols/prefix kept,no addedpolicedestination/highreward;unreachable fragments handled separately."
+  },
+  {
+    "id": "nadiayves-1",
+    "scene": "224_nadiayves_01",
+    "source": "Couple mistaken for mother/son;cardmixed40 versus apparentmale20+/female40to45.",
+    "decision": "Adults/partners,not actualfamily;no inventedmarriage/realbios/age40foreach."
+  },
+  {
+    "id": "nadiayves-2",
+    "scene": "224_nadiayves_01",
+    "source": "OldRU switches toiwithoutFR,missing actorlines,wrongass/dreams/wealth/support.",
+    "decision": "Restore39blocks150lines40answers;allvous;hero selfcriticism,nightdreams,financialcomfort,she supportsleepinghim."
+  },
+  {
+    "id": "nadiayves-3",
+    "scene": "224_nadiayves_01",
+    "source": "Paidfare thenextra20/100bill;like>2,sourcecommands±20/100/high-low-none.",
+    "decision": "Keep originalcontrols/amounts;refundonlybribebill,not fare/allmoney. No new hotelcharge."
+  },
+  {
+    "id": "nadiayves-4",
+    "scene": "224_nadiayves_01",
+    "source": "ENbilllying/FRbillheldbetween seats,armwithdrawnlater.",
+    "decision": "Neutral spatialposition,not invented drop/transferbeforeplayerchoice."
+  },
+  {
+    "id": "nadiayves-5",
+    "scene": "224_nadiayves_01",
+    "source": "Badfinale sourceellipses replaced byoldRUdamns;Hsignworldprop.",
+    "decision": "Restore silences/parallel lie-tear fragments,keepLatinH distinctfromdriverpartialH/У."
+  },
+  {
+    "id": "nadiayves-6",
+    "scene": "224_nadiayves_01",
+    "source": "Driver optionalolderwomen/localallmale worktalk;Nadia reporteddecline.",
+    "decision": "Not newrelationship/medicaldiagnosis andnot denialofNathalie219;character statements retain scope."
+  },
+  {
+    "id": "gasstation-1",
+    "scene": "965/966",
+    "source": "OldRU CLERK untranslated/pumpsнасос/cabкабина.",
+    "decision": "ПРОДАВЕЦ/заправочные колонки/такси,owner-scopedmale agreement;unrelatedfemale clerks or other pumps untouched."
+  },
+  {
+    "id": "gasstation-2",
+    "scene": "965/966",
+    "source": "ENintrohub noVisitsetter versusFRsetter;Gasstation/GasStation case and lottery external starttags.",
+    "decision": "Preserve rawENcontrols. ActualGame PlayTicketDialog switch proves six external entrypoints;not dead winnings from defaultlosingroot."
+  },
+  {
+    "id": "gasstation-3",
+    "scene": "965/966",
+    "source": "ENhotdogs/airfreshener versusFRkebab/syntheticlavender,outroAnodversusshake.",
+    "decision": "PrimaryEN explicit,allsmells hypothetical,possible tip notnewpayment,mentalnote notnotebook."
+  },
+  {
+    "id": "gasstation-4",
+    "scene": "965/966",
+    "source": "ClueintroEexpectcapture versusoldRUapparentalreadycaught;coversnot necessarily killerphoto.",
+    "decision": "Expectation retained,newsaboutunknownkiller notportraitproof."
+  },
+  {
+    "id": "gasstation-5",
+    "scene": "965/966",
+    "source": "Gas clueangel04 oldvictimssubject insteadkiller appearance;angel03headline insteadtargeting;angel02freak.",
+    "decision": "Canonicalharmlessappearanceofkiller/targetactivists/religiousfanatic;sourcehearsay retained."
+  },
+  {
+    "id": "gasstation-6",
+    "scene": "965/966",
+    "source": "Sandgas05corrupted/FRcorrompue plusDanielbriberyfragment;scapegoat/Albatros/Process andheightsourcevariants.",
+    "decision": "Notsexualdepravity;keepunprovenmoralclaim,buildingname/regimecanon andprimaryENgreaterthan1m80. No newvictimbio."
+  },
+  {
+    "id": "gasstation-7",
+    "scene": "965/966",
+    "source": "966hour/halftank/knowone,oldrecognition/noone semantics.",
+    "decision": "Outoffuel notmechanicalfailure;hour/paymentnarration,no addedmoneycommands;recognizedyou remainsprobably."
+  },
+  {
+    "id": "roaming-empty076-correction",
+    "scene": "970_roaming_events_eng",
+    "passage": "re_ambient_076",
+    "source": "=== re_ambient_076 with %% Deleted. exists and has no visible lines.",
+    "decision": "Earlier reading saying the block is absent was wrong. Explicit empty block retained,not fabricated missing prose."
+  },
+  {
+    "id": "roaming-root-source-typo",
+    "scene": "970_roaming_events_eng",
+    "passage": "start",
+    "source": "67random alternatives include nonexistent re_ambient_01;re_ambient_010 exists separately. 045/046/070+/intel not in root.",
+    "decision": "Keep original control links/unused paragraphs;compile-pair equivalence is not proof all103blocks normally run."
+  },
+  {
+    "id": "gameover-boss-label-correction",
+    "scene": "951_gameover_ruined_eng",
+    "source": "Related reviewed09901/02 use БОСС,while preliminary handoff suggested НАЧАЛЬНИК.",
+    "decision": "Use established БОСС;confirmed male byHe/Il,formal driver/informal employer preserved."
+  },
+  {
+    "id": "roaming-source-variants",
+    "scene": "970_roaming_events_eng",
+    "source": "ENheadshake/yacht/pluralphotos versusFRnod/liner/onephoto;maleactorcelui/femalechurchsuspecte/barhabituée.",
+    "decision": "PrimaryEN for explicit differences,FR for unspecified gender/place. No anonymousperson given a knownpassengername."
+  },
+  {
+    "id": "angel-simon-ui-rescue-quantifier",
+    "scene": "981_Angel_02_Location_eng",
+    "passage": "981-02-simon",
+    "source": "ENHe wasn’t able to save anyone/FRIl n’a pu sauver personne versus UIENcouldn’t save everyone/FRpas sauvé plus d’habitants.",
+    "decision": "Keep exact scoped meanings;do not invent survivors or silently fix original discrepancy."
+  },
+  {
+    "id": "angel-moonie-tunes-canonical-cult",
+    "scene": "981_Angel_01_Location_eng",
+    "passage": "981-01-visit-answer",
+    "source": "ENspokenMoonieTunes versus FRChairdeLune and sourcecomments/UI MoonFlesh.",
+    "decision": "Explicitly use established культ «Лунная плоть» from072bio;one organization,not invented alias or second cult."
+  },
+  {
+    "id": "angel-paul-simon-name-editorial",
+    "scene": "981_Angel_02_Location_eng",
+    "source": "Paul/SimonCollomb,FRFrenchcharacters;oldmachineПол/СаймонКолломб.",
+    "decision": "Chosen Russian canon Поль/СимонКоллон;all other name occurrences queued for dependency check,not gender inferred by name."
+  },
+  {
+    "id": "angel-cemetery-silence3-source-unreachable",
+    "scene": "981_Angel_01_Location_eng",
+    "passage": "981-01-why-silence3",
+    "source": "Onlyvisit-silence andcult-silence increments;why-silence-intro doesnotincrement beforethreshold>2. Maximum2fromordinaryentry.",
+    "decision": "Keep source links and translate the block. Actual2880EN/RUordinary pairedroutes do not emit it;3isolated direct-entry controls verify its translation and allfinalanswers separately."
+  },
+  {
+    "id": "angel-church-ictus",
+    "scene": "981_Angel_03_Location_eng",
+    "passage": "981-03-symbol",
+    "source": "ENictus versusFRichthus;Greekfish/acrostic explanation inbothsources.",
+    "decision": "Useихтис,sourceclarifiedbyFRandRadioVaticana;do notintroduceunrelatedmedicalmeaning."
+  },
+  {
+    "id": "angel-case-flags-and-bar-nice",
+    "scene": "981_Angel_05_Location_eng",
+    "source": "VARnice0/pricemenuconditionsnice,butconversationmodifiescool. _Jonas.Met vs043_Driver.Met.Jonas;_Apollonie.Met vs023_Driver.Met.Apollonie.",
+    "decision": "Keep allsource identifiers/conditions;test ordinary andcontrolled scenarios separately,noUnityreachabilityclaim."
+  },
+  {
+    "id": "angel-belvedere-variant-entrances",
+    "scene": "981_Angel_05_Location_eng",
+    "source": "Fallbackcommentunmet stillreferstoregularpassenger;sourcecluecallsBelvedereCafe,sceneexplicitbar. FRbar02cliente vsENmalehe/guy.",
+    "decision": "Preserve entryprose/links,canonicalbarandmaleJulesbystorypronouns;do notinventnewbar/newwoman/newmeeting."
+  },
+  {
+    "id": "angel-three-locations-language-variants",
+    "scene": "981_Angel_04_Location_eng",
+    "source": "ENheadshake vsFRnod;FRHollywood more specificthanENmovies;barENheadshake/FRnod.",
+    "decision": "ENgesture andmoviegeneralityretained;barMoonieTunes normalizedtoexistingcanonicalcultasexplicitlydecidedat98101."
+  },
+  {
+    "id": "sand-fr-caretaker-speaker",
+    "scene": "982_Sandman_04_Location_eng",
+    "passage": "982-04-exit02",
+    "source": "FRexplicitGARDIEN:Lui et moi c’est jusqu’à la fin;ENunlabelledThetwoofus...",
+    "decision": "СМОТРИТЕЛЬговоритобАлександре,неводитель/неноваяклятвабрака."
+  },
+  {
+    "id": "sand-fr-caretaker-metric-discomfort",
+    "scene": "982_Sandman_04_Location_eng",
+    "source": "FR2m100kg98muscle/Vousn’êtespasàl’aise/Ilhoche;ENfeetpounds/comfortable/shakeshead.",
+    "decision": "FRметрика/неуютно/кивок;английскиедобавленияосыренеперенесены."
+  },
+  {
+    "id": "sand-fr-newsroom-variants",
+    "scene": "982_Sandman_05_Location_eng",
+    "source": "FRhoche/boules/camefrom/rentier/ausoleil/quelquesmetres/calage/rien deplus;ENshake/bucks/tropics/distantbike/that’sall.",
+    "decision": "FRкивок/валютанеуточнена/самопоправкавремени/рантье/зимойксолнцу/мотоциклапоблизости/заглох/короткийповтор."
+  },
+  {
+    "id": "sand-hospital-fr-meaning",
+    "scene": "982_Sandman_01_Location_eng",
+    "source": "FR PLUSdeplainte/surinterpretesignes/partiellementconscient/vol;ENthingscanbeworse/symptoms/untilpassout/break-in.",
+    "decision": "FRприоритет:некоторыенамёки,частичноесознание,кражабездобавленноговзлома;не новаямедицинскаякоррекция."
+  },
+  {
+    "id": "sand-marco-deliberate-malapropisms",
+    "scene": "982_Sandman_02_Location_eng",
+    "passage": "982-02-intel-intro",
+    "source": "Two explicit comments:Marco purposefully misquote an idiom here.",
+    "decision": "Задницанаволоске/поголовамлоктямиидут—намеренныесмешения;не машинныйдословныйперевод."
+  },
+  {
+    "id": "sand-escort-fr-details",
+    "scene": "982_Sandman_03_Location_eng",
+    "source": "FRSecretEscort75/recherchelisteouproche/seuldocument/hoche;ENParis/preferences/otherdocument/shakeno.",
+    "decision": "FRназвание/безпредпочтений/единственныйдокумент/кивок;водонагреватель,квитанция,списокразличены."
+  },
+  {
+    "id": "sand-escort-english-missing-choice-target",
+    "scene": "982_Sandman_03_Location_eng",
+    "passage": "982-03-heatingman-mistake",
+    "source": "EN choice0:982-03-notions questions (missing);FR choice0:982-03-no-questions (existing).",
+    "alignment": {
+      "passage": "982-03-heatingman-mistake",
+      "choice_index": 0,
+      "source_link": "982-03-notions questions",
+      "french_link": "982-03-no-questions",
+      "reason": "Original EN target does not exist in either source;original FR points to the existing no-questions branch. Restore French answer behavior,not a new invented branch."
+    },
+    "decision": "Only the missing EN target is corrected to the real FR branch. Unmodified EN/RU compiler check must report Choice navigation;separate aligned EN derivative and unmodified FR both pass. Ordinary FR/RU execution verifies the restored branch."
+  },
+  {
+    "id": "judge-concierge-formality-shared-node",
+    "scene": "980_Judge_01_Location_eng",
+    "passage": "judge-crimescene01-concierge-driver2",
+    "source": "Journalist comment says formal;shared FR Dégage and angry+=1 switches to tu.",
+    "decision": "СохраненафактическаяFRрезкаярепликаобщегоузла;непереписыватьобщуюлогикурадипротиворечивогокомментария."
+  },
+  {
+    "id": "judge-embassy-discount-eligibility",
+    "scene": "980_Judge_03_Location_eng",
+    "source": "Both FR/EN introA and introB require _Money.Balance>=250;actions -250/-200,spoken discount200.",
+    "decision": "Условие/обещанныеценыоставленыкакворигинале,тестировать199/200/249/250/251. Небезмолвноисправленныйгеймплей."
+  },
+  {
+    "id": "judge-gunshop-self-idiot",
+    "scene": "980_Judge_04_Location_eng",
+    "passage": "980-04-chat-getout-end",
+    "source": "Author comment:The Driver talks to himself in the next sentence;Quel abruti.",
+    "decision": "Ну я и идиот относитсякводителю,не хозяинемужчине."
+  },
+  {
+    "id": "judge-marco-french-movement-speaker",
+    "scene": "980_Judge_05_Location_eng",
+    "source": "FR se relève brutalement/se rassoit;J’lui ai rien dit;EN sits up/straightens/Didn’t say anything.",
+    "decision": "Марковскакивает/садится,иименноМарконичегонесказалСалиму. Домслужебный,футбольныйсимулятор."
+  },
+  {
+    "id": "judge-place-empty-sources",
+    "scenes": [
+      "980_Judge_01_Location_eng",
+      "980_Judge_02_Location_eng",
+      "980_Judge_03_Location_eng",
+      "980_Judge_04_Location_eng",
+      "980_Judge_05_Location_eng"
+    ],
+    "source": "All five poi_judge_*.source are empty in FR and EN;RU had invented generic labels including Park.",
+    "decision": "Пятьполейточечновозвращеныкпустотеоригинала,непропущенныйполезныйтекст."
+  },
+  {
+    "id": "judge-embassy-music-line-position",
+    "scene": "980_Judge_03_Location_eng",
+    "passage": "980-03-intel-refuse02",
+    "source": "FR:Tant pis then music-control60;EN:music-control60 then Your loss. Same command sequence/line counts,one relative line-position difference.",
+    "decision": "ТекстпереведёнпоFR,исходнаяENпозициямузыкисохраненавносителе. Проверенывидимыестроки/спискисобытий,несовпадениеихмелкоговзаимногорасположениянезамаскированопозиционнойкартой."
+  },
+  {
+    "id": "judge-embassy-missing-refusal-fallback",
+    "scene": "980_Judge_03_Location_eng",
+    "passage": "980-03-intel-pay-introB",
+    "source": "FR/ENintroBmissing980-03-intel-pay-refuse;existing980-03-intel-pay-refusedisusedbyparallelintroA. Originalnormalentryinsufficientdiscountpathyieldsnullchoices.",
+    "decision": "Точечноисправленассылкаобоихисходниковнасуществующийблокнехваткиденег. Исходныефайлынеизменны;порог250/снятие200сохранены;исключениевpassage_link_overrides.",
+    "alignment": {
+      "passage": "980-03-intel-pay-introB",
+      "source_link": "980-03-intel-pay-refuse",
+      "target_link": "980-03-intel-pay-refused",
+      "corroborating_passage": "980-03-intel-pay-introA",
+      "reason": "Both original FR and EN fallback names are absent. The parallel full-price check points to the existing refused passage with the explicit insufficient-money text. Actual normal-entry source run stalls on the missing name. Correct only this missing fallback;preserve both250eligibility conditions and250/200money actions."
+    }
+  },
+  {
+    "id": "newspapers-missing-random-passages",
+    "scene": "971_newspapers_eng",
+    "passages": [
+      "news-hub-miscA",
+      "news-hub-miscD"
+    ],
+    "source": "Both raw FR/EN random lists refer to absent News-Misc-04 and News-Misc-17.",
+    "decision": "Не выдумывать статьи или цели. Исходные веса/ссылки пока сохранены; требуется отдельное воспроизведение и обоснованное техническое исправление до готового патча."
+  },
+  {
+    "id": "newspapers-clue-test-spelling",
+    "scene": "971_newspapers_eng",
+    "source": "Both FR/EN declare/read test_clue_sand01..10/judge01..09/angel01..10 but assign test_clue_sand_01..10/judge_01..09/angel_01..10.",
+    "decision": "29 исходных несовпадений написания переменных сохранены и вынесены для проверки; не называть исчерпание статей проверенным. Не заменять глобально одинаковые куски текста."
+  },
+  {
+    "id": "newspapers-judge09-ui-absent",
+    "scene": "971_newspapers_eng",
+    "passage": "News-Killer-Judge-09",
+    "source": "Action clue_judge_journal09_01 has no .title/.source in bundled FR/EN dictionaries.",
+    "decision": "В существующем словаре нечего переводить; не добавлен придуманный текст/новая улика. Проверить ресурс и отображение при технической приёмке."
+  },
+  {
+    "id": "newspapers-angel01-fortune-scope",
+    "scene": "971_newspapers_eng",
+    "passage": "News-Killer-Angel-01",
+    "source": "FR article toute sa fortune;FR UI partie de sa fortune.",
+    "decision": "В статье всё состояние, в собственной подписи часть. Противоречие оригинала явно сохранено, не исправлено без доказательства."
+  },
+  {
+    "id": "newspapers-sand07-victim-index",
+    "scene": "971_newspapers_eng",
+    "passage": "News-Killer-Sandman-07",
+    "source": "FR/EN article second victim;FR/EN UI victim3.",
+    "decision": "Текст статьи и подпись переведены по собственному FR. Не менять номера/геймплей по догадке."
+  },
+  {
+    "id": "newspapers-french-intention",
+    "scene": "971_newspapers_eng",
+    "passages": [
+      "News-Killer-Sandman-03",
+      "News-Misc-22",
+      "news-hub02-intro"
+    ],
+    "source": "FR hope to find killer/skeptical Quel intérêt/forward pages versus EN disappointment/Sounds cool/back pages.",
+    "decision": "Выбран французский смысл в каждом из трёх мест; машинное английское наследование удалено."
+  },
+  {
+    "id": "radio-visible-line-carrier-alignment",
+    "scene": "972_radio_eng",
+    "source": "FRClient06has3visiblelinesversusEN2;FRClient08has2versusEN3;exactcompleteFrenchsegmentsandcarrierslotsrecorded.",
+    "alignment": [
+      {
+        "passage": "Radio-News-Clients-06",
+        "french_lines": [
+          "Entre deux informations pas très intéressantes, vous entendez qu’un DJ, ancienne star de la scène française des années 90, a été retrouvé mort chez lui.",
+          "Probablement un suicide.",
+          "Sans détails supplémentaires, vous doutez un instant qu’il ne s’agisse de votre client…"
+        ],
+        "carrier_lines": [
+          "In between two boring stories, you hear that DJ, a star of the French music scene back in the 90s, was found dead in his home.",
+          "They give no other details, but you wonder for a second if they’re not talking about your passenger…"
+        ],
+        "french_segments": [
+          "Entre deux informations pas très intéressantes, vous entendez qu’un DJ, ancienne star de la scène française des années 90, a été retrouvé mort chez lui.",
+          "Probablement un suicide.",
+          "Sans détails supplémentaires, vous doutez un instant qu’il ne s’agisse de votre client…"
+        ],
+        "target_slot_for_segment": [
+          0,
+          0,
+          1
+        ],
+        "russian_lines": [
+          "Между двумя не особенно интересными новостями вы слышите: диджея, бывшую звезду французской сцены девяностых, нашли дома мёртвым. Вероятно, самоубийство.",
+          "Других подробностей нет, и вы на мгновение задумываетесь: не ваш ли это пассажир?.."
+        ],
+        "reason": "Complete French wording retained;combine source0+1 into carrier0,source2→carrier1."
+      },
+      {
+        "passage": "Radio-News-Clients-08",
+        "french_lines": [
+          "Un reportage de quelques minutes offre une plongée en apnée dans l’univers du « cosplay » à l’occasion d’un salon.",
+          "Un des jeunes interviewés parle un vieux français qui vous fait rire. Vous imaginez sans peine la tête du journaliste devant l’armure de votre client…"
+        ],
+        "carrier_lines": [
+          "A longish news story brings you straight into heart of the cosplay world during a convention.",
+          "One of the young people being interviewed has an outdated way of speaking that makes you laugh.",
+          "You can just picture the reporter’s expression as she contemplates your passenger’s armor…"
+        ],
+        "french_segments": [
+          "Un reportage de quelques minutes offre une plongée en apnée dans l’univers du « cosplay » à l’occasion d’un salon.",
+          "Un des jeunes interviewés parle un vieux français qui vous fait rire.",
+          "Vous imaginez sans peine la tête du journaliste devant l’armure de votre client…"
+        ],
+        "target_slot_for_segment": [
+          0,
+          1,
+          2
+        ],
+        "russian_lines": [
+          "Несколько минут репортажа с фестиваля погружают вас с головой в мир косплея.",
+          "Один из молодых собеседников говорит на старинном французском, и вы смеётесь.",
+          "Легко представить лицо журналиста при виде доспехов вашего пассажира…"
+        ],
+        "reason": "Split French source line1 at its existing sentence boundary;source0→carrier0,line1firstsentence→1,line1secondsentence→2."
+      }
+    ],
+    "decision": "Explicit complete French segments mapped to2/3carrier slots;no loss of probably-suicide line or cosplay detail."
+  },
+  {
+    "id": "radio-ghost-nbsp-command",
+    "scene": "972_radio_eng",
+    "passage": "radio-ghost-outro",
+    "source": "FR one NBSP after sfx:,ENASCIIspace.",
+    "decision": "Preserve carrier command;only exact single occurrence normalized in separate FRcomparison derivative."
+  },
+  {
+    "id": "radio-shohreh-reported-age",
+    "scene": "972_radio_eng",
+    "passage": "Radio-News-Clients-01",
+    "source": "FR/ENradio33/card34;Fields/autism/French-Iranian explicitly reported here.",
+    "decision": "Separate source-scoped facts recorded,card unchanged,no invented birthday or backward revelation in030/046."
+  },
+  {
+    "id": "radio-vincent-manette-source-typo",
+    "scene": "972_radio_eng",
+    "passage": "Radio-TalkShow-Client-06",
+    "source": "FR972manette butMet.Vincent andFR008vincent-party/next mallette,ENbriefcase.",
+    "decision": "Портфель restored with explicit French owning-scene corroboration;no command/logic changes."
+  },
+  {
+    "id": "radio-angel-second-hub-reads-sand",
+    "scene": "972_radio_eng",
+    "passage": "radio-talkshow-killer-angel-hub2",
+    "source": "Both originals read talkshow-killer-sand04/03/02/01 when choosing Angel tests;hub1 reads Angel variables.",
+    "decision": "Original four predicates preserved;exhaustion/repeated selection behavior must be reproduced and resolved before final runtime acceptance."
+  },
+  {
+    "id": "radio-ghost05-unlinked",
+    "scene": "972_radio_eng",
+    "passage": "radio-ghost-05",
+    "source": "Original ghost random list contains00..04;05 has no inbound link.",
+    "decision": "Full text translated;not claimed reachable from ordinary menu. No extra random target added."
+  },
+  {
+    "id": "radio-angelshow-ui-actions",
+    "scene": "972_radio_eng",
+    "source": "Angelshow03ecoarticle action03_01hasvoicesvictim3UI;Angelshow04actions04_01/02 lackFR/ENUIfields.",
+    "decision": "Own texts translated separately;no fabricated new keys or rewiring. Original data inconsistency remains release technical debt."
+  },
+  {
+    "id": "radio-original-ui-wording-differences",
+    "scene": "972_radio_eng",
+    "source": "Angelnews02allfortune/UIpart;Sandshow04spokenover1.80/FRUIexact1.80.",
+    "decision": "French individual source wording preserved;not silently corrected from English or a different field."
+  },
+  {
+    "id": "radio-french-meaning-differences",
+    "scene": "972_radio_eng",
+    "source": "FRenvie vsENlust;demi-milliard vshalf-million;courierlifesafe/abandoned vsunhurt/fired;coachcareerbehindvsahead.",
+    "decision": "French source chosen explicitly,matching own UIthreat. Specific French cultural references restored without inventing sung lyrics."
+  },
+  {
+    "id": "radio-teen-eligibility",
+    "scene": "972_radio_eng",
+    "passage": "Radio-News-Clients-02-test",
+    "source": "Both source conditionMet.Alicia,commentAlicia&Esmeralda;useful news refers unnamed female young passenger.",
+    "decision": "Source predicate preserved,not silently changed toEsmeralda;no proper name added to ambiguous news."
+  },
+  {
+    "scene": "067_mathieu_02",
+    "passage": "mathieu-02-story2",
+    "source": "Immutable2263:FR4choices,EN3. FR Une côte cassée targets existing lie-fall-hub; EN retained target blocks but dropped answer.",
+    "decision": "FR221: additional_french_choices restores original slot2; silent EN answer/icon moves intact to output3. Everyexistinglink/ending/icon preserved; new answer copies exactFRlink/ending. 27guardprobes/18actualPrompter linked-profile checks; nativebuild/liveUnity pending.",
+    "id": "mathieu02-restored-original-french-rib-answer"
+  },
+  {
+    "id": "ludivine-french-madame-and-apology-register",
+    "scene": "054_ludivine_01",
+    "source": "FRmadame vsENMiss; sobre/classique versusbref; efficace; prendreàcœur; directorderlavirer.",
+    "decision": "FR222: maдам/запретмадам, сдержанно/классически против коротко, действенно. Не подменять близкоксердцу на иззаерунды; выгнать не вежливопросить. Все исходные веса/циклы/приоритеты остались."
+  },
+  {
+    "id": "ludivine-french-reciprocal-thanks-and-memory",
+    "scene": "054_ludivine_01",
+    "passage": "ludivine-01-nextsteps-sheknows",
+    "source": "FR extra LUDIVINE Merciàvous hasnoENslot; FR endmemoryfrottement/lueurfugace vsoldRUfeeling/presence.",
+    "decision": "FR222: обаисточника прочитаны, всеFRслова сохранены. Ответнаяблагодарность пассажирки прямаяцитата в последнемENслоте после narration; visible_text_alignment явный. Шорох/мимолётныйблик без добавленного оружия/лица. Pasbesoin не переводить мнеужелучше. No-call literal сохраняетtechnical_marker при каждомsave_scene."
+  },
+  {
+    "id": "melchior-french-billard-and-reversal",
+    "scene": "222_melchior_02",
+    "source": "FRRiendebienfolichon vspositiveoldRU;TVjoke;billardoperationidiomin01and02;démonrepeated.",
+    "decision": "FR223negativeinterest,TVretained, source-operatingtable repeated, démon consistent. Source83ordinary versus13unlinked02blocks remains intact; copies/forecasts not proven metaphysical identity. Primarydictionary https://www.dictionnaire-academie.fr/article/A9B1120"
+  },
+  {
+    "id": "camille-french-questionnaire-and-ui",
+    "scene": "053_camille_01",
+    "source": "FRpsychanalyse vsENpsychotherapy; FRhocher vsENshake; FRlilas vsENpalelavender; FRhealth/temperament vsENfit/angermanagement.",
+    "decision": "FR224: психоанализ scoped to questionnaire, regular payment nod agrees with negative crypto premise, сиреневый without added paleness. UIyounghealthy/irascible, no invented fitness/diagnosis. Sourcecommands/double-stop/weights/paid-free endings unchanged. UI2keys explicitly accepted, not all921."
+  },
+  {
+    "id": "berenice-french-perspective-and-breath",
+    "scene": "223_berenice_01",
+    "source": "FR driver shrinks/milliards/suspend sa respiration/un bar; EN passenger shrinks/millions/inhales/this bar. FR adult juvenile appearance, rhetorical negation, engine restart.",
+    "decision": "FR225: repaired owner, magnitude, breath and any-bar scope; adult appearance, not actual child; negated chance and rhetorical questions restored. No new assault details/diagnosis/moral author text; source graph/tips/police refusal unchanged."
+  },
+  {
+    "id": "fragonard08-french-address-and-gestures",
+    "scene": "014_fragonard_08",
+    "source": "FRstory4vous after reveltu, hocher inlie2/didntsayanything, peau repetition, public enemy, intime, generalized cancer/énième medication.",
+    "decision": "FR226: story4vous retained with gameover exception; two nods versus previous shakes, enemy of society, intimate voice, documents without added dossier copy; uncertainty/diagnosis/acquaintance gates and all three source endings unchanged."
+  },
+  {
+    "id": "fragonard-french-service-chronology",
+    "scene": "014_fragonard_08",
+    "source": "FR2097_items203/014_fragonard.bio Policier depuis1977 versus FRfrag-08-story-mesrineknown joined a fewmonths afterMesrine death and frag-08-story-refresh1979.",
+    "decision": "BothFrench dates kept in their own sources, no invented earlierbranch/re-entry/date correction. BiographyAntilles not narrowed toMartinique; mother journey and passenger birth are distinct facts. Deferredsourceconsistency item; no prompt to asleep user."
+  },
+  {
+    "id": "interface-core-french-descriptions-and-empty-confirmation",
+    "source": "FR2097 UI core133+23case/difficulty/display/yes-no: STORYSELECT.TITLE.CHOOSE.CONFIRMED empty inbothFRandEN; difficultyNORMAL description differs fromEN; case certainty/tone and source labels.",
+    "decision": "156 individually read keys explicitlyFRaccepted;41RUchanges. Restore sourceempty; hardlabelИспытание, normalneithertooeasytoohard, no ENperaction time mechanic added. Endshiftaction/улика/holdизучить/доскаconsistent. UI.VOLUME excludedpendingowner; placeholders/markupunchanged; no native/live acceptance."
+  },
+  {
+    "id": "emilia-french-dose-and-partout",
+    "scene": "074_emilia_01",
+    "source": "FRmal doser versus ENnot enough; FRpartout versus ENforever; FRtourner/revoyez versus jerk/currentblood; FRresponsibility general not yet.",
+    "decision": "FR227: ошиблисьсдозировкой безсубстанции/дозы; повсюду дважды; исходныйповорот/явнаяповторнаяпамять; общаянепривычкабратьответственность. Стадииобмана/закадровыедействия/исходныекоманды неизменны."
+  },
+  {
+    "id": "henri-french-sensitivity-and-uncertainty",
+    "scene": "075_henri_01",
+    "source": "FRsensibilité not style; surlesgenoux lap; grogne/sansdoute not groan/certainty; prestance and créatrice context.",
+    "decision": "Full39block reread: sensitivity/lap/shortgrowlprobablypain, dignifiedbearing and professionalmodelierCocowoman. No new tears/realhypnosis/medicalprocedure, alloriginaltiming/flags/tips unchanged."
+  },
+  {
+    "id": "geraldine-french-revenge-and-shared-intro",
+    "scene": "031_geraldine_01",
+    "scenes": [
+      "031_geraldine_01",
+      "032_anita_01"
+    ],
+    "source": "FRpubliclyfamousrestaurant versus ENyouheard; vousvenger action not desire; honte; contactgiven; force of habit not established regular.",
+    "decision": "Full39block031reread; sharedFrenchmatchingintroonly032. Knownflags/menu and432legacyroutecoverage retained; action/money/contact/remainingownedshares/subjectivehabit restored, no extra guilt/agency/employeeallquantifier."
+  },
+  {
+    "id": "anita-french-restaurant-and-metaphors",
+    "scene": "032_anita_01",
+    "source": "FRgrande table, santé entreprise, ausculter withpiercingeyes, bon courage, physicalseatbelt and tremors.",
+    "decision": "Full39blockadditionalreread: restaurantpraise not largekitchen, corporatewelfare not medicalhealth, visualexamination not touching, normaldrivergoodluckwish, seatbelt not weapon. Owners/uncertainty/branchvariables/clues/tips retained; all legacy check coverage preserved."
+  },
+  {
+    "id": "chiara-french-stall-and-adult-voice",
+    "scene": "033_chiara_01",
+    "source": "FRpetitebaraque vsENfoodtruck; mesdatespeople, coupdebarrefatigue not unconsciousness, n’apasdeprix invaluable; hypocrisieduventre.",
+    "decision": "Full28blockadditionalreread; larёkwithout inventedwheels, adultgender/owners/2sleepcounters and tips unchanged. EarlierEnglishcanonexplicitlyupdated, no guessed partnergender, employeridentity ornewmedical/legalclaim."
+  },
+  {
+    "id": "leonie-french-fantome-alias",
+    "scene": "051_leonie_01",
+    "source": "FR leonie-01-silence2-angel says leFantôme; question-silence-angel says Ange delaMort; ENbothAngelofDeath. All236FRscene scan found no other killer-nameFantôme.",
+    "decision": "Keep explicitFRПризрак in this one line, canonicalАнгелсмерти elsewhere and sourceAngelcondition untouched. Deferredambiguity, no establishedfourthkiller/connectiontoLudwig/globalrename."
+  },
+  {
+    "id": "mireille-french-document-and-physical-gesture",
+    "scene": "060_mireille_01",
+    "source": "FRanalyserundocument/rangezvosdocuments vsENnotebook; eyesfivefranccoins vsENglum; handONyours vsENextends; mensonge explicitFR.",
+    "decision": "Whole87blocksread. FormerEnglishnotebookcanon explicitlyretiredonly060, guard/ownerevidenceupdated. Actualfacialsurprise/physicalcontact/lie/sourcehesitation/France restored; no newparentage/marriage/arson certainty."
+  },
+  {
+    "id": "claudia-french-parents-agency-and-gestures",
+    "scene": "022_claudia_01",
+    "source": "FRclueexplicitparentskilledbyjunta vsENdiedduring; dialogueparentsdiedthere. Introhochevsfinish2secoue; facecrispe not wholebody.",
+    "decision": "All70blocks/3UIread. Restoreexplicitclueagencywithoutinsertingintononspecificspeech; twoheadmovements/face/pendingtears/voiceandfarelevelsfixed. Context-dependentindifferente choice explained withdictionaryevidence and sameFrenchsceneparallel; no diagnosis ornewhistoricaldetails."
+  },
+  {
+    "id": "annabelle-french-mother-agency-and-phone-address",
+    "scene": "057_annabelle_01",
+    "source": "FRnotyourFAULTifstartedphotography vsENdidnotINTRODUCE; phone03singularte thenpluralvous, phone04vousparents.4weeks vsENmonth; Frenchcallgenericairport.",
+    "decision": "All87Frenchblocks/296slots/54answers read. No motherblame, no deniedparticipation/newcamera-giver. Calleraddresses bothparents, notformaldriver. Exact4weeks/20days/2hours/tomorrowsources kept; France/Libya/Greecenotexpandedwithinventedroute; genericFRairportcall, commandsunchanged."
+  },
+  {
+    "id": "annabelle-french-door-sfx-placement",
+    "scene": "057_annabelle_01",
+    "source": "FR doorSFX in gasstation2-outro; EN same command in gasstation3 after reveal05704. Exact original arrays in evidence.",
+    "decision": "Original doorSFX occurs inFRgasstation2-outro atactualexit, ENgasstation3afterreveal05704. ENcarrier retains current command; deferred exactsourcepositionalignment/nativeaudioverify. No changedflag/yogastate orrewiredtransition.",
+    "evidence": [
+      {
+        "passage": "annabelle-01-gasstation2-outro",
+        "english": [
+          "$$ movie: black $$"
+        ],
+        "french": [
+          "$$ movie: black $$",
+          "$$ sfx: sfx_gameplay_car_openclose_from_int $$"
+        ]
+      },
+      {
+        "passage": "annabelle-01-gasstation3",
+        "english": [
+          "$$ reveal: 057_04 $$",
+          "$$ sfx: sfx_gameplay_car_openclose_from_int $$"
+        ],
+        "french": [
+          "$$ reveal: 057_04 $$"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "alexandre-french-complete-reread",
+    "scene": "097_alexandre_02",
+    "source": "101FRblocks/400slots/79answers/2calls/24animationdefs; hocheversusshake, daughtercriticisedbyothers, micro, truthcomesout, armedspeechandwar.",
+    "decision": "FullFrenchreread; addresses/owners/claims preserved. ThreeadditionalUIkeysaccepted; eightof11alreadyaccepted across related98204/98205/Mireille contexts. Bothdeathlocations/knownwalloldENdecisions retired. 30briquesworkinghistoricalunit/doorSFXexplicitdeferred."
+  },
+  {
+    "id": "alexandre-french-door-direction",
+    "scene": "097_alexandre_02",
+    "source": "FRarrest10sfx_gameplay_car_open_from_ext versusENsfx_gameplay_car_open_from_int; exact arrays in evidence.",
+    "evidence": [
+      {
+        "scene": "097_alexandre_02",
+        "passage": "alexandre-02-arrest-10",
+        "english": [
+          "$$ movie: AlexandreEnding $$",
+          "$$ sfx: sfx_gameplay_car_open_from_int $$",
+          "$$ movie: black $$",
+          "$$ reveal: 998_06 $$"
+        ],
+        "french": [
+          "$$ movie: AlexandreEnding $$",
+          "$$ sfx: sfx_gameplay_car_open_from_ext $$",
+          "$$ movie: black $$",
+          "$$ reveal: 998_06 $$"
+        ]
+      }
+    ],
+    "decision": "ENcarrier retained fornow. Requires exactbothsourcehash/scene/block/commandguarded replacement and Unityaudio, not arbitraryglobaldoorchange."
+  },
+  {
+    "id": "skaterz-french-owners-city-and-speech",
+    "scene": "026_skaterz_01",
+    "source": "FRÉvry/GaragarwithoutIV, twoROSEgestures, pastilledechiottes, localvous/tu, POUF/anis/NEVER.",
+    "decision": "Whole90blocks248lines34answersread. Englishadaptationssupersededexplicitly; exact gestureowner, toiletblockjoke not bathroomdrug, namedcityandlocaladdressesfixed. NEVERintentionalFrenchlanguagecode-switch, not untranslatedcarriertext; no inferredRedsex."
+  },
+  {
+    "id": "skaterz-french-carrier-differences",
+    "scene": "026_skaterz_01",
+    "source": "Two exact original differences: hotel-arrival threshold>1FR/=2EN; refusal GREEN_IDLE animFR versus GREEN_PUSH_2_IDLE anim-linkEN.",
+    "evidence": [
+      {
+        "passage": "ultra-01-start-mission-out",
+        "english_link": "ultra-01-end-bad",
+        "french_link": "ultra-01-end-bad",
+        "english_commands": [
+          "$$ dialogspeed: fast $$",
+          "$$ anim-link: GREEN_IDLE_2_PUSH $$",
+          "$$ dialogspeed: normal $$",
+          "$$ anim-link: GREEN_PUSH_2_IDLE $$",
+          "$$ dialogspeed: fast $$",
+          "$$ anim-link: GREEN_IDLE_2_PUSH $$",
+          "$$ dialogspeed: normal $$",
+          "$$ anim-link: PINK_IDLE_2_RIGHT $$",
+          "$$ anim-link: PINK_RIGHT_2_IDLE $$",
+          "$$ anim-link: GREEN_PUSH_2_IDLE $$"
+        ],
+        "french_commands": [
+          "$$ dialogspeed: fast $$",
+          "$$ anim-link: GREEN_IDLE_2_PUSH $$",
+          "$$ dialogspeed: normal $$",
+          "$$ anim: GREEN_IDLE $$",
+          "$$ dialogspeed: fast $$",
+          "$$ anim-link: GREEN_IDLE_2_PUSH $$",
+          "$$ dialogspeed: normal $$",
+          "$$ anim-link: PINK_IDLE_2_RIGHT $$",
+          "$$ anim-link: PINK_RIGHT_2_IDLE $$",
+          "$$ anim-link: GREEN_PUSH_2_IDLE $$"
+        ]
+      },
+      {
+        "passage": "ultra-01-hotel-arrival",
+        "english_link": "yellow_found=2?ultra-01-hotel-found;;ultra-01-hotel-arrival2",
+        "french_link": "yellow_found>1?ultra-01-hotel-found;;ultra-01-hotel-arrival2",
+        "english_commands": [
+          "$$ travel: stop $$",
+          "$$ anim-link: PINK_IDLE_2_RIGHT $$"
+        ],
+        "french_commands": [
+          "$$ travel: stop $$",
+          "$$ anim-link: PINK_IDLE_2_RIGHT $$"
+        ]
+      }
+    ],
+    "decision": "ENcarrier retained and deferred. Ordinary counter0/1/2navigation equivalent, no invented randomrelink/repairedemptyB or reset. Need exactsourceguarded native animation/conditionalignment before claiming French technicalparity."
+  },
+  {
+    "id": "carlo-french-pear-drink-and-three-fingers",
+    "scene": "021_carlo_01",
+    "source": "FRUnevieillepoirequipiquait afterfinaldrinkwitholdlady; LeRobertpoirealcoholmeaning. Troisfingers/nottwice speech; voicelowernoteyesnarrow; localvous/tu.",
+    "decision": "All72blocks392slots40answersread. Pearbrandy drink,notoldwoman drinker, no brand/quantity/ABV. Threefingersandtwicerepetitionsourcejoke kept; exactheadnod/rapidblink/voiceandlocaladdressesrestored. No addedchildsex or wifeactualreaction.",
+    "references": [
+      "https://dictionnaire.lerobert.com/definition/poire",
+      "https://dictionnaire.lerobert.com/definition/eau-de-vie"
+    ]
+  },
+  {
+    "id": "tps-french-full-context-236",
+    "scene": "066_tps_01",
+    "source": "208FRblocks814slots104answers; XenofessesvsXanax, prépavscollegeapplications, anneauxvshandring, ChansonvsBallad, portalinto/from, morebrains/partofworld/greyhand/nods.",
+    "decision": "Full manualFrenchreread applied after savedboundedreading draft. OldENdecisions explicitly retired in context/glossary/evidence. Names/genders/owners/gameversusactualbrother/conditions/RNG/flags retained. Two new exact owner-scoped guards and existingdaggerguard; roleplaylocalformalexceptions kept. No release/Unityclaim."
+  },
+  {
+    "id": "tps-french-final-imagery-and-owner",
+    "scene": "066_tps_01",
+    "source": "FRburnteyebrows/eyelids/hair; leavesinwind; neverlearnsavedvillagersnotyet; camerasaboveANDinhall; songpresenttheme; lastsession/prepa.",
+    "decision": "Restore misseddetails, no new bank/citizenship/realbaby/realbrothername/deathcause. Nobodywilllearn notmerelynotyet; lifesavedarevillagersnotbothdeadheroes. BodycoilsnotDEMring; powerfulnotomnipotent. PrimaryOnisep/Robertprepa confirm meaning, no studytrack/school/durationinvented.",
+    "references": [
+      "https://www.onisep.fr/formation/apres-le-bac-les-etudes-superieures/les-principales-filieres-d-etudes-superieures/les-cpge-classes-preparatoires-aux-grandes-ecoles",
+      "https://dictionnaire.lerobert.com/definition/prepa"
+    ]
+  },
+  {
+    "id": "tps-source-roll-ownership",
+    "scene": "066_tps_01",
+    "source": "81ShaineIthrowforChoubakk thenifPierrethrowsdoublesix; originalrollanimationShaine, oldbothsources.",
+    "decision": "LiteralFrenchspeakerkept, no inventedreal-worldrollownerrepair. Knownoriginalgamewording/numerical/flagdefects stay separatelydocumented, not translationnormalization."
+  },
+  {
+    "id": "tps-french-two-look-animations-order",
+    "scene": "066_tps_01",
+    "source": "OnlyFR/ENcommanddifference: two leading look-driver animations atbeg-help inoppositeorder. Original arrays in evidence.",
+    "evidence": [
+      {
+        "passage": "tps-01-game-xenofex-beg-help",
+        "english": [
+          "$$ anim-link: SH_BOARD_2_DRIVER $$",
+          "$$ anim-link: PI_BASIC_2_DRIVER $$",
+          "$$ anim-link: SH_DRIVER_2_BOARD $$",
+          "$$ anim-link: SH_BOARD_2_PIERRE $$",
+          "$$ anim-link: SH_PIERRE_2_SMILE $$",
+          "$$ anim-link: SH_SMILE_2_PIERRE $$",
+          "$$ anim-link: PI_DRIVER_2_BASIC $$",
+          "$$ anim-link: SH_PIERRE_2_BOARD $$"
+        ],
+        "french": [
+          "$$ anim-link: PI_BASIC_2_DRIVER $$",
+          "$$ anim-link: SH_BOARD_2_DRIVER $$",
+          "$$ anim-link: SH_DRIVER_2_BOARD $$",
+          "$$ anim-link: SH_BOARD_2_PIERRE $$",
+          "$$ anim-link: SH_PIERRE_2_SMILE $$",
+          "$$ anim-link: SH_SMILE_2_PIERRE $$",
+          "$$ anim-link: PI_DRIVER_2_BASIC $$",
+          "$$ anim-link: SH_PIERRE_2_BOARD $$"
+        ]
+      }
+    ],
+    "decision": "ENcarrier order retained duringeditorialpass. Needs precisebothsourcehash/block/commandorder guard and actualUnityposesbeforeclaimingFrenchvisualorderparity. No changedlink/flag/damage."
+  },
+  {
+    "id": "ui-french-six-height-values-not-inequalities",
+    "scene": "Original French UI clues across Angel/Sand cases",
+    "source": "Six French Tueur=1m75/1m80 fields versus English Killer>1m75/1m80; all source strings retained in per-key evidence.",
+    "evidence": [
+      {
+        "key": "clue_sand_customer_rumor_08.title",
+        "french": "Tueur = 1m75",
+        "english": "Killer > 1m75"
+      },
+      {
+        "key": "clue_sand_kcase_01.title",
+        "french": "Tueur = 1m75",
+        "english": "Killer > 1m75"
+      },
+      {
+        "key": "clue_angel_customer_rumor_05.title",
+        "french": "Tueur = 1m80",
+        "english": "Killer > 1m80"
+      },
+      {
+        "key": "clue_sand_customer_herve_01.title",
+        "french": "Tueur = 1m80",
+        "english": "Killer > 1m80"
+      },
+      {
+        "key": "clue_sand_customer_rumor_05.title",
+        "french": "Tueur = 1m80",
+        "english": "Killer > 1m80"
+      },
+      {
+        "key": "clue_sand_gas_01.title",
+        "french": "Tueur = 1m80",
+        "english": "Killer > 1m80"
+      }
+    ],
+    "french_file_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af",
+    "decision": "French value labels1.75/1.80 supersede previous English-derived greater-than in these six Russian keys only. Separate original < and > remain exact; no global height replacement, added exactly/approximately or changed game logic."
+  }
+]

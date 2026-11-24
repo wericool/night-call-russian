@@ -1,0 +1,66 @@
+[
+  {
+    "category": "character",
+    "key": "PassengerObjectScript/005_hugo/fullname",
+    "english": "Hugo Delanney",
+    "before": "Гюго Деланне",
+    "after": "Юго Деланне",
+    "reason": "Имя персонажа уточнено и внесено в глоссарий для согласования игровых текстов. Не подменять ключ пассажира его именем. Склонять имя по контексту."
+  },
+  {
+    "category": "character",
+    "key": "PassengerObjectScript/022_claudia/fullname",
+    "english": "Claudia Campos",
+    "before": "Клодия Кампос",
+    "after": "Клаудия Кампос",
+    "reason": "Имя персонажа уточнено и внесено в глоссарий для согласования игровых текстов. Не подменять ключ пассажира его именем. Склонять имя по контексту."
+  },
+  {
+    "category": "character",
+    "key": "PassengerObjectScript/041_francine/fullname",
+    "english": "Francine Gayard",
+    "before": "Франсина Гайар",
+    "after": "Франсин Гайар",
+    "reason": "Имя персонажа уточнено и внесено в глоссарий для согласования игровых текстов. Не подменять ключ пассажира его именем. Склонять имя по контексту."
+  },
+  {
+    "category": "character",
+    "key": "PassengerObjectScript/037_shinji/fullname",
+    "english": "Shinji Kurumada",
+    "before": "Шиндзи Курумада",
+    "after": "Синдзи Курумада",
+    "reason": "Полное имя согласовано с подписью японских реплик СИНДЗИ и сохранённым выбором японского шрифта; мужчина по оригиналу и gender=3."
+  },
+  {
+    "category": "character",
+    "key": "PassengerObjectScript/053_camille/fullname",
+    "english": "Camille Antoine",
+    "before": "Камилла Антуан",
+    "after": "Камий Антуан",
+    "reason": "Французское Camille согласовано с подписью КАМИЙ и всеми связанными ключами; Антуан — фамилия предпринимательницы, не парень из010."
+  },
+  {
+    "category": "character",
+    "key": "PassengerObjectScript/064_janet/fullname",
+    "english": "Janet Cho",
+    "before": "Жанет Чо",
+    "after": "Джанет Чо",
+    "reason": "Janet/Джанет согласовано со всеми семью встречами; прежнее Жанет в глоссарии было неподтверждённым."
+  },
+  {
+    "category": "character",
+    "key": "PassengerObjectScript/066_multiple/fullname",
+    "english": "Pierre-Henri de Préhaut & Shaïne Patel-Marquand",
+    "before": "Пьер-Анри де Прео и Шаинэ Пател-Маркан",
+    "after": "Пьер-Анри де Прео и Шаин Пател-Маркан",
+    "reason": "Шаин пооригинальнойорфографии/произношению и всей208блочнойсцене; старыеШаинэ/Шейннебылизакреплены."
+  },
+  {
+    "category": "character",
+    "key": "PassengerObjectScript/203_milo/fullname",
+    "english": "Milo Reacher",
+    "before": "Мило Ричер",
+    "after": "Майло Ричер",
+    "reason": "Единая русская передача имени американского персонажа: fullname согласован с подписями МАЙЛО во всех пяти целиком сверенных сценах. Мужчина подтверждён he/il/cardgender3, не выведен из имени; родство с литературным Ричером не установлено."
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "scene": "219_nathalie_01",
+  "source_sha256": "03d1cdc6a9a4332b2f4a5bb7ec00eec1b0450f62e51ff0dc81ce74c478f8653a",
+  "read_sources": [
+    "English complete scene",
+    "French complete scene",
+    "previous Russian complete scene",
+    "source PassengerObjectScript card"
+  ],
+  "related_reviewed": [
+    "067_mathieu_03",
+    "020_jacquie_01",
+    "203_milo_00a"
+  ],
+  "status": "superseded_by_complete_editorial_and_native_validation",
+  "validation": "localization/nathalie_scene_validation.json",
+  "remaining": []
+}

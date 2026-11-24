@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "scope": "Human-readable context/changelog explanations updated;all five native scene files and the200-scene exported input remain byte-identical to their actual runtime checks.",
+  "unchanged_sha256": {
+    "localization/reviewed_engine_input.json": "e64386b973911ddf68159c5d3060a23d8d9416974b78f90ff818e0f7270ec014",
+    "localization/native_scripts/980_Judge_01_Location_eng.txt": "68eedf3d598e865d08b8a8b358754b885641a68b0ddaa36fce734c3691fda545",
+    "localization/native_scripts/980_Judge_02_Location_eng.txt": "d1c2a435598a6409d5405cc18b1bf092ed12fd2d0426e93bb540d3c8b4ac9682",
+    "localization/native_scripts/980_Judge_03_Location_eng.txt": "752a298e0ac0c505a64b67cb61dc823e69eaba77e15ee0e396e311e5cf3a33b2",
+    "localization/native_scripts/980_Judge_04_Location_eng.txt": "988d3f0b740d4732b70dba2986ab507d41754b8fb3d9f21a5e51cb91410343d6",
+    "localization/native_scripts/980_Judge_05_Location_eng.txt": "bcd04a6a93d79287e694609522fdeb6c3dc6b99ac3c6ae08c8000d5e19850790"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "scope": "Metadata-only update:cult term old note said98105pending. Now both01and05completed;radio972pending. No new engine export and no native-text/input byte change.",
+  "unchanged_sha256": {
+    "localization/reviewed_engine_input.json": "e64386b973911ddf68159c5d3060a23d8d9416974b78f90ff818e0f7270ec014",
+    "localization/native_scripts/981_Angel_03_Location_eng.txt": "e4718aded441261c9e824026ba54563535d412f96cc66b95421534543388ee6b",
+    "localization/native_scripts/981_Angel_04_Location_eng.txt": "8b73a69fd7359dd24b234d64966d813fcb433ca62d192deba9f1084758b52bdf",
+    "localization/native_scripts/981_Angel_05_Location_eng.txt": "9221c1e1ccfda04a878c15dcf23edd45cd39502f7fbfcc0eda7b1a29e85eaa70"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "primary_language": "fr",
+  "secondary_language": "en",
+  "effective_date": "2026-10-15",
+  "user_instruction": "вроде разработчики французы? значит французский оригинал? тогда наверное лучше версию его оставить",
+  "applies_to": [
+    "all scenes",
+    "all choices",
+    "all passenger-call metadata",
+    "UI",
+    "facts/relationships/voice/idioms"
+  ],
+  "decision": "Французский смысловой источник основной по указанию пользователя;английский вспомогательный. Старые ENприоритетные решения не являются автоматическими исключениями.",
+  "exceptions": "Только явное доказательство ошибки французского оригинала/сопоставление ветвей и проверка зависимых сцен,а не предпочтение английской формулировки.",
+  "technical_boundary": "IDs,commands,control links and native carrier remain unchanged until their FR/EN structural alignment is explicitly reviewed. Semantic priority is not an instruction to globally replace game logic.",
+  "legacy_status": "223 scenes retain prior contextual editorial status and their exact proof boundaries. A separate full French-priority queue starts pending;no claim that these223already meet the new acceptance criterion.",
+  "evidence": [
+    {
+      "url": "https://nightcall-game.com/presskit/",
+      "kind": "official_game_presskit",
+      "finding": "MonkeyMoon is based in Lyon,France;NightCall collaboration withBlackMuffinStudio."
+    },
+    {
+      "url": "https://www.reddit.com/r/Games/comments/cesm08/we_are_the_developers_of_night_call_a_parisian/",
+      "kind": "verified_developer_AMA",
+      "finding": "Team identifies itself as French developers."
+    },
+    {
+      "url": "https://www.linkedin.com/posts/ajauneaud_narrative-writing-games-activity-6620585401545478144-Cavr",
+      "kind": "writer_statement",
+      "finding": "AnthonyJauneaud credits AmericanEnglish translators and French proofreaders separately;supports use of French as source text rather than choosing solely by nationality."
+    }
+  ]
+}

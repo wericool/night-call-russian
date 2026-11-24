@@ -1,0 +1,108 @@
+{
+  "passed": true,
+  "read_only": true,
+  "validator_sha256": "0c4aed791d9f8a9f8fc31ebd3c9b52f58dbecc307253e323ff6187706c5f9d37",
+  "original_game_dll_sha256": "b2e4a3562a6ab43822d3e4d8ee979f3ec84dbee7757a5b80b9e709a408658250",
+  "existing_clue": {
+    "file": "original/InvestigationScript/sharedassets0.assets/2101.json",
+    "file_sha256": "9e5910c3ebeb33a33eadb24eb47db8c857c70c06a8e075143a99743ddf3f839e",
+    "investigation": "judge",
+    "index": 111,
+    "clue": {
+      "id": "clue_judge_journal09_01",
+      "order": "600_newspaper",
+      "type": 7,
+      "source": 5,
+      "cost": 0.0,
+      "source_name": "Read in a newspaper…",
+      "title": "First 3 victims files = part of police leak 2 years ago",
+      "art": "clue_generic",
+      "is_for_gas_station": 0,
+      "unlock": [],
+      "suspects_links": [
+        {
+          "suspect_id": "014_fragonard",
+          "score": 1
+        },
+        {
+          "suspect_id": "059_pierrot",
+          "score": 1
+        },
+        {
+          "suspect_id": "007_salim",
+          "score": 1
+        },
+        {
+          "suspect_id": "022_claudia",
+          "score": 1
+        },
+        {
+          "suspect_id": "019_herve",
+          "score": 1
+        }
+      ],
+      "victims_links": [
+        {
+          "victim_id": "victim 1",
+          "score": 1
+        },
+        {
+          "victim_id": "victim 2",
+          "score": 1
+        },
+        {
+          "victim_id": "victim 3",
+          "score": 1
+        },
+        {
+          "victim_id": "victim 4",
+          "score": 0
+        }
+      ]
+    }
+  },
+  "original_locale_checks": [
+    {
+      "file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "name": "LocalizationDataENG",
+      "file_sha256": "cd3cb9ea9297144a2656fd6e24e593be323f550fbae0730ae2da22c9839360de",
+      "values": {
+        "clue_judge_journal09_01.title": null,
+        "clue_judge_journal09_01.source": null
+      }
+    },
+    {
+      "file": "original/LocalizationData/sharedassets0.assets/2097.json",
+      "name": "LocalizationDataFRA",
+      "file_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af",
+      "values": {
+        "clue_judge_journal09_01.title": null,
+        "clue_judge_journal09_01.source": null
+      }
+    },
+    {
+      "file": "original/LocalizationData/sharedassets0.assets/2098.json",
+      "name": "LocalizationDataGER",
+      "file_sha256": "5c9d47e503ec8835250266e863a9c5ad9da327e9471f316713592839f2375f90",
+      "values": {
+        "clue_judge_journal09_01.title": null,
+        "clue_judge_journal09_01.source": null
+      }
+    }
+  ],
+  "french_article_file": "original/TextAsset/sharedassets0.assets/799.json",
+  "french_article_file_sha256": "abcf40c127855eb1689737d35ca6f4b7ea5b61f16cb38ec4426b96c8d6b4646a",
+  "french_article": "\t\t%% Clue: First 3 victims files = part of police leak 2 years ago\r\n\t\t{ _News.Clue.Judge.09 = 1 }\r\nIl s’agit d’un article sur le « PoliceLeaks » récent… Mais qui évoque une précédente fuite de données.\r\nIl y a deux ans, de nombreux documents confidentiels de la police avaient été diffusés par accident.\r\nNotamment des documents liés à Ronan Besson, Charles Bougrain et Simon Gorodischer, les trois premières victimes du Juge.\r\nCurieux…\r\n\t\t$$ clue: clue_judge_journal09_01 $$\r\n\t\t{ _Found.Clue.Today = 1 }\r\n\t\t-> news-logic\r\n\r\n\r\n",
+  "generated_lookup_keys": [
+    "clue_judge_journal09_01.title",
+    "clue_judge_journal09_01.source"
+  ],
+  "il_proofs": {
+    "review/clue_runtime_original_il.txt": "672d2dda98cdf651ab14f57fbdc3476eb2481fa079c16d0f9a490ac64e2abd05",
+    "review/newspaper_LocalizedText_original_il.txt": "8f767441772eebfa855967f0235c25b61b0962c894e5d58e583a942eb5b53525",
+    "review/newspaper_LocalizationData_original_il.txt": "262d9d92318125d86fb10b9035955d96f14149acb03369eb1eb8e74202445133"
+  },
+  "finding": "The clue exists with real suspect/victim links. Its UI uses composed .title/.source keys. Original dictionaries and current native keyed table lack them; original LocalizedText missing-key branch constructs __KEY__ instead of using InvestigationClue.title/source_name.",
+  "next_action": "Add exactly two source-backed native locale entries with explicit extension guards; derive title from French Judge09/actual clue, preserve every clue/score and all other keys. Existing extra raw-English fallback alone is not a native locale extension.",
+  "boundary": "Positive serialized/IL evidence, not actual Unity popup display. No locale/build/game changes in this audit."
+}

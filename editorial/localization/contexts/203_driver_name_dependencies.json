@@ -1,0 +1,78 @@
+{
+  "status": "explicit_late_name_canon_registered",
+  "occurrences": [
+    {
+      "scene": "990_ending_eng",
+      "passage": "990-ending-end-pierrette-intro",
+      "text": "« It’s Houssine. »"
+    },
+    {
+      "scene": "990_ending_eng",
+      "passage": "990-ending-end-pierrette-silence",
+      "text": "« This is Houssine calling. »"
+    },
+    {
+      "scene": "990_ending_eng",
+      "passage": "990-ending-end-christophe-name",
+      "text": "« It’s me. Houssine. The taxi driver. »"
+    },
+    {
+      "scene": "990_ending_eng",
+      "passage": "990-ending-end-lucieemilie-intro",
+      "text": "« It’s me. Houssine. The taxi driver. »"
+    },
+    {
+      "scene": "990_ending_eng",
+      "passage": "990-ending-end-lucieemilie-yes",
+      "text": "LUCIE : « Thank you… Houssine. »"
+    },
+    {
+      "scene": "990_ending_eng",
+      "passage": "990-ending-end-ade-silence",
+      "text": "ADE : « Houssine? Is that you? »"
+    },
+    {
+      "scene": "990_ending_eng",
+      "passage": "990-ending-end-ade-name-introA",
+      "text": "« It’s me. It’s Houssine. »"
+    },
+    {
+      "scene": "990_ending_eng",
+      "passage": "990-ending-end-ade-name",
+      "text": "ADE : « Whenever you want, Houssine. »"
+    },
+    {
+      "scene": "203_milo_00a",
+      "passage": "milo-00a-intro",
+      "text": ":smile: “Houssine.”"
+    },
+    {
+      "scene": "203_milo_00a",
+      "passage": "milo-00a-houssine",
+      "text": "MILO: “Nice to meet you, Houssine.”"
+    },
+    {
+      "scene": "203_milo_00a",
+      "passage": "milo-00a-why",
+      "text": "MILO: “Yeah, right. Sorry… Houssine.”"
+    },
+    {
+      "scene": "203_milo_00b",
+      "passenger_call": 0,
+      "text": "passengercall: “Houssine! Taxi!”"
+    },
+    {
+      "scene": "219_nathalie_01",
+      "passage": "nathalie-01-ColleaguesB",
+      "text": "NATHALIE : « Houssine? »"
+    },
+    {
+      "scene": "219_nathalie_01",
+      "passage": "nathalie-01-ColleaguesC",
+      "text": "NATHALIE : « Very well, Houssine. »"
+    }
+  ],
+  "decision_pending": false,
+  "russian": "Уссин",
+  "limits": "219/990fullscripts remain pending;090???unchanged; no surname/originalArabic spelling assumed."
+}

@@ -1,0 +1,323 @@
+{
+  "status": "contextually_reviewed",
+  "keys": [
+    {
+      "key": "clue_judge_gas_01.title",
+      "english": "Victims = wealthy",
+      "french": "Victimes = riches",
+      "before": "Жертвы = богатые",
+      "russian": "Жертвы — состоятельные люди",
+      "reviewed": true,
+      "context": "Слух/сведения с заправки по указанному делу,не объективный приговор;род/владелец/числа сохранены."
+    },
+    {
+      "key": "clue_judge_gas_01.source",
+      "english": "Heard at a gas station…",
+      "french": "Entendu à la station-service…",
+      "before": "Слышал на бензоколонке...",
+      "russian": "Услышано на заправке…",
+      "reviewed": true,
+      "context": "Слух/сведения с заправки по указанному делу,не объективный приговор;род/владелец/числа сохранены."
+    },
+    {
+      "key": "clue_judge_gas_02.title",
+      "english": "Killer’s height > 1m80",
+      "french": "Taille du tueur > 1m80",
+      "before": "Рост убийцы > 1м80",
+      "russian": "Рост убийцы — больше 1,80 м",
+      "reviewed": true,
+      "context": "Слух/сведения с заправки по указанному делу,не объективный приговор;род/владелец/числа сохранены."
+    },
+    {
+      "key": "clue_judge_gas_02.source",
+      "english": "Heard at a gas station…",
+      "french": "Entendu à la station-service…",
+      "before": "Слышал на бензоколонке...",
+      "russian": "Услышано на заправке…",
+      "reviewed": true,
+      "context": "Слух/сведения с заправки по указанному делу,не объективный приговор;род/владелец/числа сохранены."
+    },
+    {
+      "key": "clue_judge_gas_03.title",
+      "english": "Victim 3 = colonel of the Junta, the Process",
+      "french": "Victime 3 = colonel de la Junte (le Processus)",
+      "before": "Жертва 3 = полковник Хунты, Процесс",
+      "russian": "Жертва №3 — полковник хунты («Процесс национальной реорганизации»)",
+      "reviewed": true,
+      "context": "Слух/сведения с заправки по указанному делу,не объективный приговор;род/владелец/числа сохранены."
+    },
+    {
+      "key": "clue_judge_gas_03.source",
+      "english": "Heard at a gas station…",
+      "french": "Entendu à la station-service…",
+      "before": "Слышал на бензоколонке...",
+      "russian": "Услышано на заправке…",
+      "reviewed": true,
+      "context": "Слух/сведения с заправки по указанному делу,не объективный приговор;род/владелец/числа сохранены."
+    },
+    {
+      "key": "clue_judge_gas_04.title",
+      "english": "Victim 3 = respected colonel & community pillar",
+      "french": "Victime 3 = colonel respecté et pilier de la communauté argentine",
+      "before": "Жертва 3 = уважаемый полковник и опора общества",
+      "russian": "Жертва №3 — уважаемый полковник и опора аргентинской общины",
+      "reviewed": true,
+      "context": "Слух/сведения с заправки по указанному делу,не объективный приговор;род/владелец/числа сохранены.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_victims_batch07_fr.py",
+          "before": "Жертва №3 — уважаемый полковник и опора общины",
+          "after": "Жертва №3 — уважаемый полковник и опора аргентинской общины"
+        }
+      ]
+    },
+    {
+      "key": "clue_judge_gas_04.source",
+      "english": "Heard at a gas station…",
+      "french": "Entendu à la station-service…",
+      "before": "Слышал на бензоколонке...",
+      "russian": "Услышано на заправке…",
+      "reviewed": true,
+      "context": "Слух/сведения с заправки по указанному делу,не объективный приговор;род/владелец/числа сохранены."
+    },
+    {
+      "key": "clue_judge_gas_05.title",
+      "english": "Homeless man seen around crime scene 2 & 3",
+      "french": "Sans-abri aperçu autour des scènes de crime 2 & 3",
+      "before": "Бездомного видели в районе места преступления 2 и 3",
+      "russian": "Бездомного видели у мест преступлений №2 и №3",
+      "reviewed": true,
+      "context": "Слух/сведения с заправки по указанному делу,не объективный приговор;род/владелец/числа сохранены."
+    },
+    {
+      "key": "clue_judge_gas_05.source",
+      "english": "Heard at a gas station…",
+      "french": "Entendu à la station-service…",
+      "before": "Слышал на бензоколонке...",
+      "russian": "Услышано на заправке…",
+      "reviewed": true,
+      "context": "Слух/сведения с заправки по указанному делу,не объективный приговор;род/владелец/числа сохранены."
+    },
+    {
+      "key": "clue_sand_gas_01.title",
+      "english": "Killer > 1m80",
+      "french": "Tueur = 1m80",
+      "before": "Убийца > 1м80",
+      "russian": "Рост убийцы — 1,80 м",
+      "reviewed": true,
+      "context": "Слух/сведения с заправки по указанному делу,не объективный приговор;род/владелец/числа сохранены.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_killer_batch09_fr.py",
+          "before": "Рост убийцы — больше 1,80 м",
+          "after": "Рост убийцы — 1,80 м"
+        }
+      ]
+    },
+    {
+      "key": "clue_sand_gas_01.source",
+      "english": "Heard at a gas station…",
+      "french": "Entendu à la station-service…",
+      "before": "Слышал на бензоколонке...",
+      "russian": "Услышано на заправке…",
+      "reviewed": true,
+      "context": "Слух/сведения с заправки по указанному делу,не объективный приговор;род/владелец/числа сохранены."
+    },
+    {
+      "key": "clue_sand_gas_02.title",
+      "english": "Witness described Killer as old man or woman",
+      "french": "Témoin = tueur était homme ou femme âgée",
+      "before": "Свидетель описал убийцу как пожилого мужчину или женщину.",
+      "russian": "Свидетель описал убийцу как пожилого мужчину или женщину",
+      "reviewed": true,
+      "context": "Слух/сведения с заправки по указанному делу,не объективный приговор;род/владелец/числа сохранены."
+    },
+    {
+      "key": "clue_sand_gas_02.source",
+      "english": "Heard at a gas station…",
+      "french": "Entendu à la station-service…",
+      "before": "Слышал на бензоколонке...",
+      "russian": "Услышано на заправке…",
+      "reviewed": true,
+      "context": "Слух/сведения с заправки по указанному делу,не объективный приговор;род/владелец/числа сохранены."
+    },
+    {
+      "key": "clue_sand_gas_03.title",
+      "english": "Victim 1’s death = scapegoat",
+      "french": "Mort de la victime 1 = bouc-émissaire pratique",
+      "before": "Смерть жертвы 1 = козел отпущения",
+      "russian": "Жертва №1 после смерти — удобный козёл отпущения",
+      "reviewed": true,
+      "context": "Слух/сведения с заправки по указанному делу,не объективный приговор;род/владелец/числа сохранены."
+    },
+    {
+      "key": "clue_sand_gas_03.source",
+      "english": "Heard at a gas station…",
+      "french": "Entendu à la station-service…",
+      "before": "Слышал на бензоколонке...",
+      "russian": "Услышано на заправке…",
+      "reviewed": true,
+      "context": "Слух/сведения с заправки по указанному делу,не объективный приговор;род/владелец/числа сохранены."
+    },
+    {
+      "key": "clue_sand_gas_04.title",
+      "english": "Albatros Fire = criminal act",
+      "french": "Incendie de l'Albatros = acte criminel",
+      "before": "Пожар на Альбатросе = преступное деяние",
+      "russian": "Пожар в «Альбатросе» — преступление",
+      "reviewed": true,
+      "context": "Слух/сведения с заправки по указанному делу,не объективный приговор;род/владелец/числа сохранены."
+    },
+    {
+      "key": "clue_sand_gas_04.source",
+      "english": "Heard at a gas station…",
+      "french": "Entendu à la station-service…",
+      "before": "Слышал на бензоколонке...",
+      "russian": "Услышано на заправке…",
+      "reviewed": true,
+      "context": "Слух/сведения с заправки по указанному делу,не объективный приговор;род/владелец/числа сохранены."
+    },
+    {
+      "key": "clue_sand_gas_05.title",
+      "english": "Victim 2 corrupted, deserved to die",
+      "french": "Victime 2 corrompue, elle méritait de mourir",
+      "before": "Жертва 2 развращена, заслуживает смерти",
+      "russian": "Жертва №2 была коррумпирована, заслуживала смерти",
+      "reviewed": true,
+      "context": "Слух/сведения с заправки по указанному делу,не объективный приговор;род/владелец/числа сохранены.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_victims_batch06_fr.py",
+          "before": "Жертва №2 — взяточница, заслуживала смерти",
+          "after": "Жертва №2 была коррумпирована, заслуживала смерти"
+        }
+      ]
+    },
+    {
+      "key": "clue_sand_gas_05.source",
+      "english": "Heard at a gas station…",
+      "french": "Entendu à la station-service…",
+      "before": "Слышал на бензоколонке...",
+      "russian": "Услышано на заправке…",
+      "reviewed": true,
+      "context": "Слух/сведения с заправки по указанному делу,не объективный приговор;род/владелец/числа сохранены."
+    },
+    {
+      "key": "clue_angel_gas_01.title",
+      "english": "Victim 4 = gave part of her fortune to defend animal cause",
+      "french": "Victime 4 a donné partie de sa fortune à des associations de protection des animaux",
+      "before": "Жертва 4 = отдала часть состояния на защиту животных",
+      "russian": "Жертва №4 пожертвовала часть состояния организациям по защите животных",
+      "reviewed": true,
+      "context": "Слух/сведения с заправки по указанному делу,не объективный приговор;род/владелец/числа сохранены.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_victims_batch07_fr.py",
+          "before": "Жертва №4 пожертвовала часть состояния на защиту животных",
+          "after": "Жертва №4 пожертвовала часть состояния организациям по защите животных"
+        }
+      ]
+    },
+    {
+      "key": "clue_angel_gas_01.source",
+      "english": "Heard at a gas station…",
+      "french": "Entendu à la station-service…",
+      "before": "Слышал на бензоколонке...",
+      "russian": "Услышано на заправке…",
+      "reviewed": true,
+      "context": "Слух/сведения с заправки по указанному делу,не объективный приговор;род/владелец/числа сохранены."
+    },
+    {
+      "key": "clue_angel_gas_02.title",
+      "english": "Killer = religious freak",
+      "french": "Tueur = fanatique religieux",
+      "before": "Убийца = религиозный урод",
+      "russian": "Убийца — религиозный фанатик",
+      "reviewed": true,
+      "context": "Слух/сведения с заправки по указанному делу,не объективный приговор;род/владелец/числа сохранены."
+    },
+    {
+      "key": "clue_angel_gas_02.source",
+      "english": "Heard at a gas station…",
+      "french": "Entendu à la station-service…",
+      "before": "Слышал на бензоколонке...",
+      "russian": "Услышано на заправке…",
+      "reviewed": true,
+      "context": "Слух/сведения с заправки по указанному делу,не объективный приговор;род/владелец/числа сохранены."
+    },
+    {
+      "key": "clue_angel_gas_03.title",
+      "english": "Killer targeting political activists",
+      "french": "Tueur vise militants et activistes",
+      "before": "Убийство политических активистов",
+      "russian": "Убийца охотится на активистов",
+      "reviewed": true,
+      "context": "Слух/сведения с заправки по указанному делу,не объективный приговор;род/владелец/числа сохранены.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_killer_batch09_fr.py",
+          "before": "Убийца охотится на политических активистов",
+          "after": "Убийца охотится на активистов"
+        }
+      ]
+    },
+    {
+      "key": "clue_angel_gas_03.source",
+      "english": "Heard at a gas station…",
+      "french": "Entendu à la station-service…",
+      "before": "Слышал на бензоколонке...",
+      "russian": "Услышано на заправке…",
+      "reviewed": true,
+      "context": "Слух/сведения с заправки по указанному делу,не объективный приговор;род/владелец/числа сохранены."
+    },
+    {
+      "key": "clue_angel_gas_04.title",
+      "english": "Victims let the killer in = must look inoffensive",
+      "french": "Victimes ont laissé le tueur rentrer = doit avoir l'air inoffensif",
+      "before": "Жертвы впускают убийцу в дом = должны выглядеть непринужденно",
+      "russian": "Жертвы впустили убийцу — должно быть, внешность безобидная",
+      "reviewed": true,
+      "context": "Слух/сведения с заправки по указанному делу,не объективный приговор;род/владелец/числа сохранены."
+    },
+    {
+      "key": "clue_angel_gas_04.source",
+      "english": "Heard at a gas station…",
+      "french": "Entendu à la station-service…",
+      "before": "Слышал на бензоколонке...",
+      "russian": "Услышано на заправке…",
+      "reviewed": true,
+      "context": "Слух/сведения с заправки по указанному делу,не объективный приговор;род/владелец/числа сохранены."
+    },
+    {
+      "key": "clue_angel_gas_05.title",
+      "english": "Victim 4 = host refugees in her hotel",
+      "french": "Victime 4 = héberge des réfugiés dans son hôtel",
+      "before": "Жертва 4 = принимала беженцев в своем отеле",
+      "russian": "Жертва №4 принимает беженцев в своём отеле",
+      "reviewed": true,
+      "context": "Слух/сведения с заправки по указанному делу,не объективный приговор;род/владелец/числа сохранены.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_victims_batch07_fr.py",
+          "before": "Жертва №4 принимала беженцев в своём отеле",
+          "after": "Жертва №4 принимает беженцев в своём отеле"
+        }
+      ]
+    },
+    {
+      "key": "clue_angel_gas_05.source",
+      "english": "Heard at a gas station…",
+      "french": "Entendu à la station-service…",
+      "before": "Слышал на бензоколонке...",
+      "russian": "Услышано на заправке…",
+      "reviewed": true,
+      "context": "Слух/сведения с заправки по указанному делу,не объективный приговор;род/владелец/числа сохранены."
+    }
+  ],
+  "source_files": [
+    "original/LocalizationData/sharedassets0.assets/2096.json",
+    "original/LocalizationData/sharedassets0.assets/2097.json"
+  ],
+  "author_file": "scripts/author_gasstation_context.py",
+  "scope": "Only30qualified gasstation clue title/source fields,not all921UI. Other qualified duplicates remain for their scene-specific audit;already-reviewed identical fallbacks kept."
+}

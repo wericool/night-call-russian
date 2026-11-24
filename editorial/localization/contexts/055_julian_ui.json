@@ -1,0 +1,116 @@
+{
+  "status": "contextually_reviewed",
+  "keys": [
+    {
+      "key": "clue_judge_julian_01.title",
+      "english": "Victim 3 = colonel of the Junta, the Process",
+      "russian": "Жертва №3 — полковник хунты («Процесс национальной реорганизации»)",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "fc50e92662f32983ac51f70a76d66fcd0c8c695cbb0d8af853c770027abf03a8"
+    },
+    {
+      "key": "clue_judge_julian_02.title",
+      "english": "First 3 victims files = NOT part of police leak",
+      "russian": "Досье на первых трёх жертв НЕ вошли в утечку полицейских документов",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "95eb6152a7106e5c2e67bb05ff0a179adac4565dc5d91815a8bbe0cd52950b17"
+    },
+    {
+      "key": "clue_judge_julian_03.title",
+      "english": "Fragonard’s first case = child molester",
+      "russian": "Первое дело Фрагонара — растлитель детей",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "df2e7f8bbc3fa30149cce439316da65a91884f9a61c0efa1af9c2e7d58e9aa1d"
+    },
+    {
+      "key": "clue_judge_julian_04.title",
+      "english": "Hervé received money from the Rictodin’s trial",
+      "russian": "Эрве получил деньги в связи с судебным процессом по «Риктодину»",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "37ca754030398d895c4b37a6e7c331b27b7bf7dbcee52ef2d42b5e0100726ae7"
+    },
+    {
+      "key": "clue_judge_julian_05.title",
+      "english": "Pierrot’s dad worked on Rictodin’s scandal",
+      "russian": "Отец Пьеро занимался скандалом с «Риктодином»",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "2b329cf7036899af4ca4f4e89ad6f0307ddaa4b9e2589b0a558be9fa5bd09d90"
+    },
+    {
+      "key": "doc_judge_julian.title",
+      "english": "Julian’s files",
+      "russian": "Документы Жюльяна",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "60f966c227596adb44d0004f7ee9031be9a761d599d882160f77d3e99fa78abc"
+    },
+    {
+      "key": "doc_judge_julian.source",
+      "english": "Given by Julian",
+      "russian": "Передал Жюльян",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "c9eea458986c2b0921e5e5cd2ee19e5e0c4763ddb4bd5067c040948376bcafcd"
+    },
+    {
+      "key": "clue_judge_julian_01.source",
+      "english": "Julian’s files",
+      "russian": "Документы Жюльяна",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "60f966c227596adb44d0004f7ee9031be9a761d599d882160f77d3e99fa78abc"
+    },
+    {
+      "key": "clue_judge_julian_02.source",
+      "english": "Julian’s files",
+      "russian": "Документы Жюльяна",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "60f966c227596adb44d0004f7ee9031be9a761d599d882160f77d3e99fa78abc"
+    },
+    {
+      "key": "clue_judge_julian_03.source",
+      "english": "Julian’s files",
+      "russian": "Документы Жюльяна",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "60f966c227596adb44d0004f7ee9031be9a761d599d882160f77d3e99fa78abc"
+    },
+    {
+      "key": "clue_judge_julian_04.source",
+      "english": "Julian’s files",
+      "russian": "Документы Жюльяна",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "60f966c227596adb44d0004f7ee9031be9a761d599d882160f77d3e99fa78abc"
+    },
+    {
+      "key": "clue_judge_julian_05.source",
+      "english": "Julian’s files",
+      "russian": "Документы Жюльяна",
+      "status": "contextually_reviewed",
+      "source_file": "original/LocalizationData/sharedassets0.assets/2096.json",
+      "source_sha256": "60f966c227596adb44d0004f7ee9031be9a761d599d882160f77d3e99fa78abc"
+    }
+  ],
+  "source_files": [
+    "original/LocalizationData/sharedassets0.assets/2096.json",
+    "original/LocalizationData/sharedassets0.assets/2097.json"
+  ],
+  "references": [
+    {
+      "url": "https://www.argentina.gob.ar/noticias/24-de-marzo-dia-nacional-por-la-memoria-la-verdad-y-la-justicia",
+      "usage": "Подтверждает самоназвание аргентинского военного режима Proceso de Reorganización Nacional. По контексту Junta/Processus в игровой улике раскрыто сокращение Процесс; новые годы и имена военных в игру не добавлены."
+    }
+  ],
+  "reason": "Все12связанных ключей, не весь интерфейс.",
+  "author_file": "scripts/finalize_julian_context.py",
+  "cross_source_discrepancies": [
+    "Будущаягазетаclue_judge_journal08_02 говоритfirst3filespartofleak2yearsago,055doc_judge_julian говоритnotpartofpoliceleak. Противоречиеисточников/временнойперспективысохранено, не заменятьодноуликовоесведение другим."
+  ]
+}

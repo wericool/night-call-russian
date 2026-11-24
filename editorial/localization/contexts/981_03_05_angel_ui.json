@@ -1,0 +1,230 @@
+{
+  "status": "contextually_reviewed",
+  "keys": [
+    {
+      "key": "clue_angel_church_01.title",
+      "english": "Fish = original symbol for Christianity",
+      "french": "Poisson = symbole des premiers chrétiens",
+      "before": "Рыба = первоначальный символ христианства",
+      "russian": "Рыба — символ первых христиан",
+      "reviewed": true,
+      "context": "Девять улик церкви/хакера/бара: канон имён/места/гендер источника,не доказательство виновности."
+    },
+    {
+      "key": "clue_angel_church_02.title",
+      "english": "Fish symbol seen in Gilda’s church",
+      "french": "Symbole de poisson vu à l'église fréquentée par Gilda",
+      "before": "Символ рыбы в церкви Гильды",
+      "russian": "Символ рыбы в церкви, куда ходит Гильда",
+      "reviewed": true,
+      "context": "Девять улик церкви/хакера/бара: канон имён/места/гендер источника,не доказательство виновности."
+    },
+    {
+      "key": "clue_angel_hacker_01.title",
+      "english": "Jonas = dangerous man",
+      "french": "Jonas = homme dangeureux",
+      "before": "Йонас — опасный человек",
+      "russian": "Йонас — опасный человек",
+      "reviewed": true,
+      "context": "Девять улик церкви/хакера/бара: канон имён/места/гендер источника,не доказательство виновности."
+    },
+    {
+      "key": "clue_angel_hacker_02.title",
+      "english": "Jonas = leader of dark web group",
+      "french": "Jonas = chef d'un groupe du dark web",
+      "before": "Йонас — лидер группы в даркнете",
+      "russian": "Йонас — лидер группы в даркнете",
+      "reviewed": true,
+      "context": "Девять улик церкви/хакера/бара: канон имён/места/гендер источника,не доказательство виновности."
+    },
+    {
+      "key": "clue_angel_hacker_03.title",
+      "english": "Jonas = testing his theory",
+      "french": "Jonas teste sa théorie",
+      "before": "Йонас проверяет свою теорию",
+      "russian": "Йонас проверяет свою теорию",
+      "reviewed": true,
+      "context": "Девять улик церкви/хакера/бара: канон имён/места/гендер источника,не доказательство виновности."
+    },
+    {
+      "key": "clue_angel_bar_01.title",
+      "english": "Victim 1 = client of Belvédère Café",
+      "french": "Victime 1 = client du Belvédère Café",
+      "before": "Жертва 1 = клиент кафе \"Бельведер",
+      "russian": "Жертва №1 — посетитель бара «Бельведер»",
+      "reviewed": true,
+      "context": "Девять улик церкви/хакера/бара: канон имён/места/гендер источника,не доказательство виновности.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_victims_batch06_fr.py",
+          "before": "Жертва 1 — посетитель бара «Бельведер»",
+          "after": "Жертва №1 — посетитель кафе «Бельведер»"
+        },
+        {
+          "author": "scripts/fieldwork_ui_amendment.py",
+          "before": "Жертва №1 — посетитель кафе «Бельведер»",
+          "after": "Жертва №1 — посетитель бара «Бельведер»",
+          "reason": "Единый бар Бельведер по полной FR-сцене98105 и связанному023/apollonie-end-belvedere. Не второй объект кафе с тем же именем; название не меняется."
+        }
+      ]
+    },
+    {
+      "key": "clue_angel_bar_02.title",
+      "english": "Victim 2 = client of Belvédère",
+      "french": "Victime 2 = cliente du Belvédère Café",
+      "before": "Жертва 2 = клиент Бельведера",
+      "russian": "Жертва №2 — посетитель бара «Бельведер»",
+      "reviewed": true,
+      "context": "Девять улик церкви/хакера/бара: канон имён/места/гендер источника,не доказательство виновности.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_victims_batch06_fr.py",
+          "before": "Жертва 2 — посетитель бара «Бельведер»",
+          "after": "Жертва №2 — посетительница кафе «Бельведер»"
+        },
+        {
+          "author": "scripts/fieldwork_ui_amendment.py",
+          "before": "Жертва №2 — посетительница кафе «Бельведер»",
+          "after": "Жертва №2 — посетитель бара «Бельведер»",
+          "reason": "Жюль мужчина по явным FR il/un type brillant в98105/angel-victims-yes и данным второй жертвы. Женская форма cliente в короткой FR-подписи при слове victime не заменяет сценовый пол персонажа. Посетительница исправлена, бар согласован с диалогами."
+        }
+      ]
+    },
+    {
+      "key": "clue_angel_bar_03.title",
+      "english": "Apollonie « hunting » young people",
+      "french": "Apollonie \"chasse\" des jeunes",
+      "before": "Аполлония «охотится» на молодёжь",
+      "russian": "Аполлони «охотится» на молодых людей",
+      "reviewed": true,
+      "context": "Девять улик церкви/хакера/бара: канон имён/места/гендер источника,не доказательство виновности."
+    },
+    {
+      "key": "clue_angel_bar_04.title",
+      "english": "Apollonie member of the Moon Flesh Cult",
+      "french": "Apollonie membre de la secte de la Chair de la Lune",
+      "before": "Аполлония — член Культа Лунной Плоти",
+      "russian": "Аполлони состоит в культе «Лунная плоть»",
+      "reviewed": true,
+      "context": "Девять улик церкви/хакера/бара: канон имён/места/гендер источника,не доказательство виновности."
+    },
+    {
+      "key": "clue_angel_church_01.source",
+      "english": "From the priest at Gilda’s church",
+      "french": "D'après le prêtre à l'églisée fréquentée par Gilda",
+      "before": "От священника в церкви Гильды",
+      "russian": "От священника в церкви Гильды",
+      "reviewed": true,
+      "context": "Девять улик церкви/хакера/бара: канон имён/места/гендер источника,не доказательство виновности."
+    },
+    {
+      "key": "clue_angel_church_02.source",
+      "english": "At Gilda’s church",
+      "french": "À l'église de Gilda",
+      "before": "В церкви Гильды",
+      "russian": "В церкви, куда ходит Гильда",
+      "reviewed": true,
+      "context": "Девять улик церкви/хакера/бара: канон имён/места/гендер источника,не доказательство виновности."
+    },
+    {
+      "key": "clue_angel_hacker_01.source",
+      "english": "From hacker source",
+      "french": "Selon votre ami hacker",
+      "before": "Из хакерского источника",
+      "russian": "По словам знакомого хакера",
+      "reviewed": true,
+      "context": "Девять улик церкви/хакера/бара: канон имён/места/гендер источника,не доказательство виновности.",
+      "previous_russian_before_ui_sources_batch01": "От знакомого хакера"
+    },
+    {
+      "key": "clue_angel_hacker_02.source",
+      "english": "From hacker source",
+      "french": "Selon votre ami hacker",
+      "before": "Из хакерского источника",
+      "russian": "По словам знакомого хакера",
+      "reviewed": true,
+      "context": "Девять улик церкви/хакера/бара: канон имён/места/гендер источника,не доказательство виновности.",
+      "previous_russian_before_ui_sources_batch01": "От знакомого хакера"
+    },
+    {
+      "key": "clue_angel_hacker_03.source",
+      "english": "From hacker source",
+      "french": "Selon votre ami hacker",
+      "before": "Из хакерского источника",
+      "russian": "По словам знакомого хакера",
+      "reviewed": true,
+      "context": "Девять улик церкви/хакера/бара: канон имён/места/гендер источника,не доказательство виновности.",
+      "previous_russian_before_ui_sources_batch01": "От знакомого хакера"
+    },
+    {
+      "key": "clue_angel_bar_01.source",
+      "english": "From the bartender at Belvédère",
+      "french": "D'après la barman au Belvédère",
+      "before": "От бармена в ресторане Belvédère",
+      "russian": "Со слов барменши «Бельведера»",
+      "reviewed": true,
+      "context": "Девять улик церкви/хакера/бара: канон имён/места/гендер источника,не доказательство виновности.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_sources_batch10_fr.py",
+          "before": "От барменши в «Бельведере»",
+          "after": "Со слов барменши «Бельведера»"
+        }
+      ]
+    },
+    {
+      "key": "clue_angel_bar_02.source",
+      "english": "From the bartender at Belvédère",
+      "french": "D'après la barman au Belvédère",
+      "before": "От бармена в ресторане Belvédère",
+      "russian": "Со слов барменши «Бельведера»",
+      "reviewed": true,
+      "context": "Девять улик церкви/хакера/бара: канон имён/места/гендер источника,не доказательство виновности.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_sources_batch10_fr.py",
+          "before": "От барменши в «Бельведере»",
+          "after": "Со слов барменши «Бельведера»"
+        }
+      ]
+    },
+    {
+      "key": "clue_angel_bar_03.source",
+      "english": "From the bartender at Belvédère",
+      "french": "D'après la barman au Belvédère",
+      "before": "От бармена в ресторане Belvédère",
+      "russian": "Со слов барменши «Бельведера»",
+      "reviewed": true,
+      "context": "Девять улик церкви/хакера/бара: канон имён/места/гендер источника,не доказательство виновности.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_sources_batch10_fr.py",
+          "before": "От барменши в «Бельведере»",
+          "after": "Со слов барменши «Бельведера»"
+        }
+      ]
+    },
+    {
+      "key": "clue_angel_bar_04.source",
+      "english": "From the bartender at Belvédère",
+      "french": "D'après la barman au Belvédère",
+      "before": "От бармена в ресторане Belvédère",
+      "russian": "Со слов барменши «Бельведера»",
+      "reviewed": true,
+      "context": "Девять улик церкви/хакера/бара: канон имён/места/гендер источника,не доказательство виновности.",
+      "russian_revision_history": [
+        {
+          "author": "scripts/review_ui_sources_batch10_fr.py",
+          "before": "От барменши в «Бельведере»",
+          "after": "Со слов барменши «Бельведера»"
+        }
+      ]
+    }
+  ],
+  "author_file": "scripts/author_angel_church_hacker_bar_context.py",
+  "source_files": [
+    "original/LocalizationData/sharedassets0.assets/2096.json",
+    "original/LocalizationData/sharedassets0.assets/2097.json"
+  ],
+  "scope": "18qualified clue title/source fields,not all interface. Shared English fallback untouched."
+}

@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "target_slot": "ENG",
+  "clue": "clue_judge_journal09_01",
+  "evidence": "review/newspaper_missing_clue_ui_evidence.json",
+  "evidence_sha256": "434fceacc8d4063a6045461c1053f2cc0d3f99fc54d38c182118d8cc8e80266d",
+  "keys": [
+    {
+      "key": "clue_judge_journal09_01.title",
+      "russian": "Документы о первых трёх жертвах утекли из полиции два года назад",
+      "english": "First 3 victims files = part of police leak 2 years ago",
+      "french_evidence": "Il y a deux ans, de nombreux documents confidentiels de la police avaient été diffusés par accident.\nNotamment des documents liés à Ronan Besson, Charles Bougrain et Simon Gorodischer, les trois premières victimes du Juge.",
+      "source_kind": "existing_clue_and_french_article",
+      "source": "original/TextAsset/sharedassets0.assets/799.json",
+      "passage": "News-Killer-Judge-09"
+    },
+    {
+      "key": "clue_judge_journal09_01.source",
+      "russian": "Прочитано в газете…",
+      "english": "Read in a newspaper…",
+      "french_evidence": "Lu dans un journal…",
+      "source_kind": "existing_clue_and_shared_french_newspaper_source_label",
+      "source": "original/LocalizationData/sharedassets0.assets/2097.json",
+      "source_key": "clue_judge_journal08_01.source"
+    }
+  ]
+}

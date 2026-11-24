@@ -1,0 +1,4802 @@
+{
+  "schema_version": 1,
+  "primary_language": "fr",
+  "secondary_language": "en",
+  "source_file": "original/RevealScript/sharedassets0.assets/2128.json",
+  "source_sha256": "17caa47e7e4079a8fef3e2081767aa9183b9d76a8e3749ed1809a8c6c0f76c36",
+  "prior_full_audit": "review/audit_20261018/passidex_fr_review.json",
+  "prior_full_audit_sha256": "33424981a83fa14cbca8753f6ec62b4a71e1c0f631c6821224326ed469a847f7",
+  "before_russian_sha256": "49e56a74aa1b66146c4677e72ccdf8aa3a6f997850b4875b391c49f295a36b91",
+  "context_sources": [
+    {
+      "scene": "006_esmeralda_02",
+      "reviewed_file": "localization/reviewed/006_esmeralda_02.json",
+      "reviewed_sha256": "faf418f86ca24f42cc0096052a22fb4ba49d0f8099def7f5d2accb701000bb41",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2137.json",
+      "french_file_sha256": "4468256934b82ba30d0785c4e2e3394a1809981004e0571e3611ed6dff475e7f"
+    },
+    {
+      "scene": "018_francois_01",
+      "reviewed_file": "localization/reviewed/018_francois_01.json",
+      "reviewed_sha256": "2da78d8e4483276a4dc7e35a795eca40ce42711a9605e93e0f5d6d17a0c81b9e",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2184.json",
+      "french_file_sha256": "9963be7a6fa1e1124189ca6c0a639a59833bec3ffea8670ae13b83110d09aa9b"
+    },
+    {
+      "scene": "018_francois_05",
+      "reviewed_file": "localization/reviewed/018_francois_05.json",
+      "reviewed_sha256": "0eae971ce8f0aa646324013a53b043d4a26c6e2ff7bf0a20684af669c5e003cf",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2188.json",
+      "french_file_sha256": "85c0af7a42a720c2d3f0f2444e3a6bd6246ba400f4e72a7fa8a6f388bf9fe0f9"
+    },
+    {
+      "scene": "023_apollonie_01",
+      "reviewed_file": "localization/reviewed/023_apollonie_01.json",
+      "reviewed_sha256": "c00055a804c14d83c7ba2baf8f8dfa506b9ca2bcf2c4feada3694eb70557be13",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2207.json",
+      "french_file_sha256": "3c0886329c5535b32e678fe53e4bc7ecd413b600562a2330f66ec1b670fca129"
+    },
+    {
+      "scene": "026_skaterz_01",
+      "reviewed_file": "localization/reviewed/026_skaterz_01.json",
+      "reviewed_sha256": "8ffb815485aabe4cde71c1727228c2a2c37b6fefc4f6455bca4ae112b7ec3a52",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2216.json",
+      "french_file_sha256": "b2d9264c523f835fc0198b698d8e7f96e22be27ed4c32d3ba3ea06cb017d753d"
+    },
+    {
+      "scene": "051_leonie_01",
+      "reviewed_file": "localization/reviewed/051_leonie_01.json",
+      "reviewed_sha256": "275a67763c68e297141ab636e2481635684958baea47f80b6dc72dc7bfa769e7",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2241.json",
+      "french_file_sha256": "7897c7e5e93dafe6a5541439f94f00e2f31c302fa9c8f8abe97af451576d21be"
+    },
+    {
+      "scene": "052_childeric_01",
+      "reviewed_file": "localization/reviewed/052_childeric_01.json",
+      "reviewed_sha256": "ae93a79f05ef99bab64c9b61f51292357f2997568360d1c77473d5c10bd8b819",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2242.json",
+      "french_file_sha256": "33ee91053a22e66294dbdf96936fa15b4333f237cc48d468ce8f65b5438d0e76"
+    },
+    {
+      "scene": "070_antoine_01",
+      "reviewed_file": "localization/reviewed/070_antoine_01.json",
+      "reviewed_sha256": "dc1ed5e84f0fa19460ddc2ff873458dce21762d6c638cb8bce7c049f37cd3137",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2268.json",
+      "french_file_sha256": "aab89056a659f582028a7e7816f1b1b858b7e3b341cbdcbaf983db9a79c07fc2"
+    },
+    {
+      "scene": "072_pierrette_01",
+      "reviewed_file": "localization/reviewed/072_pierrette_01.json",
+      "reviewed_sha256": "df7cfdcd24a44f00e134aac0b6829dceda4b9ca21984f4e7ed1cdb654d0f2910",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2270.json",
+      "french_file_sha256": "89ffa2e9cb47bc2294c437ef32080d55d8523b70ad3614efd053fc751c6cc186"
+    },
+    {
+      "scene": "073_myriam_02",
+      "reviewed_file": "localization/reviewed/073_myriam_02.json",
+      "reviewed_sha256": "991350e1a15bc4578a210df0133ac9c4753cabad3c0c388e3110cc27de7e07c6",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2273.json",
+      "french_file_sha256": "c19a2a10c466bfc21ae9fc1698ced612f16a4f3fb0611093ece01b4bc39d7e2e"
+    },
+    {
+      "scene": "075_henri_01",
+      "reviewed_file": "localization/reviewed/075_henri_01.json",
+      "reviewed_sha256": "b1aa5d0214b6b4fdd39ce5c62795d19e71324d55f6a894afa7f76c6901a9500a",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2276.json",
+      "french_file_sha256": "fc4c16139ac47fb5e5d179d5ef8ed10cc066dde44932c75582fdf15c88fbf567"
+    },
+    {
+      "scene": "010_camilleantoine_01",
+      "reviewed_file": "localization/reviewed/010_camilleantoine_01.json",
+      "reviewed_sha256": "311b2a8af73919533118b13d4645fce492d41c171e391fa4b83979eeeebe0544",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2151.json",
+      "french_file_sha256": "09e1002ac6e2f4d52223309be4cb8ead1f5d67960d0748a085d37223a3a43f6e"
+    },
+    {
+      "scene": "019_herve_00a",
+      "reviewed_file": "localization/reviewed/019_herve_00a.json",
+      "reviewed_sha256": "9d3247804f072b31ed052eb7a0eda832e19d28b5eda61de68b1e8cc57606781e",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2192.json",
+      "french_file_sha256": "4d2910d1d17264f7a4ded4238f1f8f368e23269d02ed74da92ab2fc363f8c0dd"
+    },
+    {
+      "scene": "019_herve_00b",
+      "reviewed_file": "localization/reviewed/019_herve_00b.json",
+      "reviewed_sha256": "346497d3f9f4dd910c623d76bbc14d66a8b25e48086e1c214e6663380bdbf6e5",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2193.json",
+      "french_file_sha256": "070cfd4c072fff0fdcb8bee2e4a8aaff8f95c0b21e1453e136a27dab23fea9d9"
+    },
+    {
+      "scene": "019_herve_01",
+      "reviewed_file": "localization/reviewed/019_herve_01.json",
+      "reviewed_sha256": "93704c2a80fb0021b6e07c740fa626b2e2984bd3440f0b17efbb02190ae20254",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2194.json",
+      "french_file_sha256": "27cdee8633323b14b8413c53a618f99715a675f12a47ba5d982b0b12c9d040e1"
+    },
+    {
+      "scene": "019_herve_02",
+      "reviewed_file": "localization/reviewed/019_herve_02.json",
+      "reviewed_sha256": "da9083186cd0f82a17086a4d1efaab2dff0cfa06f09c557272f922d1199ba596",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2195.json",
+      "french_file_sha256": "be43372fcfc641c4cd5ef1eaa5715af0b0933074e6133068b8c0851fe24c7f03"
+    },
+    {
+      "scene": "019_herve_03",
+      "reviewed_file": "localization/reviewed/019_herve_03.json",
+      "reviewed_sha256": "848a57ff94d514b2be7e06ec10a3f92c80c3fda8d00037505512d1fe4d398d7c",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2196.json",
+      "french_file_sha256": "c0e4d0c5625ae4f98419bfcc743796785b02da34d4f07efd4cd6d5fae630b2c7"
+    },
+    {
+      "scene": "019_herve_04",
+      "reviewed_file": "localization/reviewed/019_herve_04.json",
+      "reviewed_sha256": "65b74ff650cf483c43eba3b7eca4e2b65a8a46c1c99661233a9da7de47e1ec5d",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2197.json",
+      "french_file_sha256": "b9ac86d48130168190a2c59ffe753ba6ff044e9320209a73ed777020e0ccb229"
+    },
+    {
+      "scene": "019_herve_05",
+      "reviewed_file": "localization/reviewed/019_herve_05.json",
+      "reviewed_sha256": "2ddfd344087d36b785943c71d06880dac9128e585c30923287d665009625bbfa",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2198.json",
+      "french_file_sha256": "66a5f408a21373da0dc0c4449807ba36f22c8f8ed98cf6de624d468692ced04c"
+    },
+    {
+      "scene": "025_ade_00a",
+      "reviewed_file": "localization/reviewed/025_ade_00a.json",
+      "reviewed_sha256": "267f7300cf53986102b33b7023e9368c75ef6a888a29ad565232e8b8dcd1b8db",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2209.json",
+      "french_file_sha256": "bcecc54d10c6a14edeb05304e97dc1c6255d13e3f9b359967a37e30eeb1921bd"
+    },
+    {
+      "scene": "025_ade_00b",
+      "reviewed_file": "localization/reviewed/025_ade_00b.json",
+      "reviewed_sha256": "814f5979f0af69aa8356db849f8bec97cc3ee0b22c361481afed71028894b84d",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2210.json",
+      "french_file_sha256": "a98893ae7bbbd0bc7606af00d93f68b711503f1f22918762b049dab3d498ecc5"
+    },
+    {
+      "scene": "025_ade_01",
+      "reviewed_file": "localization/reviewed/025_ade_01.json",
+      "reviewed_sha256": "28672fa74f2186274f4bc3dabb9cf36388fdd4b4aa18c9b164c968c475a9e25b",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2211.json",
+      "french_file_sha256": "927f28df4602fb36017127344d68b27fc21f3f1d9fba8c69803dc4a9dbf3cd66"
+    },
+    {
+      "scene": "025_ade_02",
+      "reviewed_file": "localization/reviewed/025_ade_02.json",
+      "reviewed_sha256": "092cc5e78db86163c96270671b0187fe97bd529c69c5c5832e681ea6d3853965",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2212.json",
+      "french_file_sha256": "6f1b58c95b90c86b66b75708f3c8c666b0b3ed802a00e368cfed66b85755d99a"
+    },
+    {
+      "scene": "025_ade_03",
+      "reviewed_file": "localization/reviewed/025_ade_03.json",
+      "reviewed_sha256": "d09fa63b0c729f7b6a7560b73b76565dd9f5c6e90e134b7f76a4d93b1e3c4573",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2213.json",
+      "french_file_sha256": "40b41904905d4d5abda8c57372e35cb3b05ff182a139a1b55dada24738884726"
+    },
+    {
+      "scene": "025_ade_04",
+      "reviewed_file": "localization/reviewed/025_ade_04.json",
+      "reviewed_sha256": "fd5416925f372a75072634c736e668b0eda19f7c48110f30caab594fa2db2c4a",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2214.json",
+      "french_file_sha256": "d3e25af94627ddfaa07bfa5f25060df557fc7087586da8c17a9763f666630121"
+    },
+    {
+      "scene": "025_ade_07",
+      "reviewed_file": "localization/reviewed/025_ade_07.json",
+      "reviewed_sha256": "f4c8e3a74e9ebbe197ccf9f355e62eef8398aed506915ef8fdd089dff756950c",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2215.json",
+      "french_file_sha256": "94076cb2b3cab29c54c74fb042ace3a81cbac28a871a7a534f1f8ae3b743723a"
+    },
+    {
+      "scene": "043_jonas_01",
+      "reviewed_file": "localization/reviewed/043_jonas_01.json",
+      "reviewed_sha256": "c9db6e196484b50c3b429aaf2a9a8f968658c7adde20762fd5689296d5eb43d9",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2236.json",
+      "french_file_sha256": "acca884b0cbc85d54c4b6a40e18dbba01a759d1a6ceb18aeb00579dc1b9089b6"
+    },
+    {
+      "scene": "046_shohreh_01",
+      "reviewed_file": "localization/reviewed/046_shohreh_01.json",
+      "reviewed_sha256": "f9e25b74307964b946d724f80f048be1ed613c749b8a554e23abb855f3f39b66",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2239.json",
+      "french_file_sha256": "7ab642c4d8e0428325783c99cb200810f3c44fe5e1b8fc4adea0917e3a940fd2"
+    },
+    {
+      "scene": "047_amelie_01",
+      "reviewed_file": "localization/reviewed/047_amelie_01.json",
+      "reviewed_sha256": "5fdc1e569f63be183d86a07d2a72106abfc7118186ec51f14c1bdebb405d9bfd",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2240.json",
+      "french_file_sha256": "e9da922ae55fe5f995b0604bcbf93a2c0a79b30fb9afd4bbecbe1c148ab3607e"
+    },
+    {
+      "scene": "058_agnes_01",
+      "reviewed_file": "localization/reviewed/058_agnes_01.json",
+      "reviewed_sha256": "df506c29284930a6c0dc9cb488672e33bed4959354cf9a15fe18b530e00df257",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2248.json",
+      "french_file_sha256": "82574a90a15c601d6792fe9ce678994be3e51dc45522618d8e726ec858113ce3"
+    },
+    {
+      "scene": "059_pierrot_01",
+      "reviewed_file": "localization/reviewed/059_pierrot_01.json",
+      "reviewed_sha256": "b493ffbf416bf0d0553d8819e412ddb8e55879fbc4a6750dec2622c8b70ef290",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2249.json",
+      "french_file_sha256": "191e9a63f7d6191e35d9ee1874844f78c2233a4d86655dfc61a0b981fc0dd5ca"
+    },
+    {
+      "scene": "063_pauline_01",
+      "reviewed_file": "localization/reviewed/063_pauline_01.json",
+      "reviewed_sha256": "f87d829c4e87cadd19621b212ce198de25457733015a23d80f9304f74c41769d",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2252.json",
+      "french_file_sha256": "3e0ea716228a56b6115408784d6d9dda87fe041f8f67e4af1d28754be6ade41d"
+    },
+    {
+      "scene": "064_janet_00a",
+      "reviewed_file": "localization/reviewed/064_janet_00a.json",
+      "reviewed_sha256": "224f961a9aee6bf2529a9b04207e8dbfb16f14688e8b19722e354de88364b898",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2253.json",
+      "french_file_sha256": "1c728141d0d15d1fa32f74c8125892f6d54ab2f8f306ea8c127c3715de27013e"
+    },
+    {
+      "scene": "064_janet_00b",
+      "reviewed_file": "localization/reviewed/064_janet_00b.json",
+      "reviewed_sha256": "532cb2efc48397867062e56e4385d3079a9e93fa12c20456f8619038e5ac17c6",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2254.json",
+      "french_file_sha256": "4addf1bedec2b09bf6a8e14266db453e4668e29875e8917c06c0498331c48091"
+    },
+    {
+      "scene": "064_janet_01",
+      "reviewed_file": "localization/reviewed/064_janet_01.json",
+      "reviewed_sha256": "5ec87e6dd8ea1b1af825e482f77c9a512e2dc59282d29146646910cb5bc40ac8",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2255.json",
+      "french_file_sha256": "df8a629f9bfa4f843eff19c3999181e5b73f79f45f824c05c34027bbfd2977c2"
+    },
+    {
+      "scene": "064_janet_02",
+      "reviewed_file": "localization/reviewed/064_janet_02.json",
+      "reviewed_sha256": "faac0c5ba4f7e12456d520ea3dfd36078ee8bab3eb42fe6d5be0e969de129369",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2256.json",
+      "french_file_sha256": "93368a8eed77a88613ae4ef553dfbab3ab1d6e3a3ba028fa8b29bdc61eaa1f7c"
+    },
+    {
+      "scene": "064_janet_03",
+      "reviewed_file": "localization/reviewed/064_janet_03.json",
+      "reviewed_sha256": "112e5f173aa8cd52938ff470f320bbb5e4fe18089f7fd2a466a4777239fbee07",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2257.json",
+      "french_file_sha256": "88fab0911dfe4655dbfc65835955f8fd0845e735b8f6b32fea82bf30d10ff04b"
+    },
+    {
+      "scene": "064_janet_04",
+      "reviewed_file": "localization/reviewed/064_janet_04.json",
+      "reviewed_sha256": "e0ad15a4b60a1083893232148cf76f550d470d8ac7d7032c93c7005b1034af4f",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2258.json",
+      "french_file_sha256": "33768bcba3714b05f63291b044400875ee4ce39ef886044f11f365d1284f404a"
+    },
+    {
+      "scene": "064_janet_05",
+      "reviewed_file": "localization/reviewed/064_janet_05.json",
+      "reviewed_sha256": "5c7fa04bda3c6f50b1ef80fb8d1af7ae1117827bdead4fa002a7938ac23c26bd",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2259.json",
+      "french_file_sha256": "b67fc728c0f052bd298721772685d396d539d5797409a3af53bdf2b7ee2e5b80"
+    },
+    {
+      "scene": "076_angelique_00a",
+      "reviewed_file": "localization/reviewed/076_angelique_00a.json",
+      "reviewed_sha256": "226c123e1e814270631244381d545161a58f40b4424ad29b67edc7955011d209",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2277.json",
+      "french_file_sha256": "32d953cb6a0aed370f90c0f9b6ada2eb1c57cc019dc924cadaaef5fdf65b87b2"
+    },
+    {
+      "scene": "076_angelique_00b",
+      "reviewed_file": "localization/reviewed/076_angelique_00b.json",
+      "reviewed_sha256": "fd7585d5cf3bb8b417935e9cfd849114bef3c519b567a1601f8a369d179862e3",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2278.json",
+      "french_file_sha256": "9b0d0ce6420c39bc8791aa496f462649eafb73e077cb6047247297a1f6fb6a87"
+    },
+    {
+      "scene": "076_angelique_01",
+      "reviewed_file": "localization/reviewed/076_angelique_01.json",
+      "reviewed_sha256": "0e302820dab83fefa9e028f6ed867745e06c82f74fa111ff163044cadfc9e067",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2279.json",
+      "french_file_sha256": "b5ecaf581330a71809ce3f5c92895b540d21bd2d2d518f0a980ed1b271d40780"
+    },
+    {
+      "scene": "076_angelique_02",
+      "reviewed_file": "localization/reviewed/076_angelique_02.json",
+      "reviewed_sha256": "27e221229431d9ef252d89ce2cca87add4ae7ffdb9b992eae0e1e11c9d79d57e",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2280.json",
+      "french_file_sha256": "4346870be1773d41d9d651741a68585d960e3dc1f9d9197d500c431afaf4fb1a"
+    },
+    {
+      "scene": "076_angelique_03",
+      "reviewed_file": "localization/reviewed/076_angelique_03.json",
+      "reviewed_sha256": "e6f6e5cacd2e9734739ea0c36e8bc4c968bc108ad425f96ae5785ba49dea7cdb",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2281.json",
+      "french_file_sha256": "9c4b7d43a08c893cef60fbeab66441e2f970dee79ca4133cc0b50efabf4cd4e0"
+    },
+    {
+      "scene": "076_angelique_04",
+      "reviewed_file": "localization/reviewed/076_angelique_04.json",
+      "reviewed_sha256": "54946cc940212b6a04dc63cf52365f02e7bcb8c151475fd74719492147608a4d",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2282.json",
+      "french_file_sha256": "391c103add36e75b933576cafe0a0144f1e4b6d5cd84950324cd5d792778e84a"
+    },
+    {
+      "scene": "096_gilda_01",
+      "reviewed_file": "localization/reviewed/096_gilda_01.json",
+      "reviewed_sha256": "d419f67766f32e87af332d7e49c38f4937c287d41bb40d3d9f0db2157c469ba1",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2292.json",
+      "french_file_sha256": "c46188459ce72557c0c461b53a02aba5d1e28f5626c85afe5ea17ea3369bb58e"
+    },
+    {
+      "scene": "096_gilda_02",
+      "reviewed_file": "localization/reviewed/096_gilda_02.json",
+      "reviewed_sha256": "92840e8ae49443beb74e986be997b3d0fc9c6f3830c53d704f7e00d39c7af9d9",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2293.json",
+      "french_file_sha256": "fbe066e716ec192320b7a56b3434bfabb80a3423f22e5a49feacfdc2f79bf846"
+    },
+    {
+      "scene": "097_alexandre_01",
+      "reviewed_file": "localization/reviewed/097_alexandre_01.json",
+      "reviewed_sha256": "851799db5e9c9043a9bc35e4569857f89c6a4374dfb465fafde015cf33c2b6eb",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2294.json",
+      "french_file_sha256": "be1a2299fbab4a08f6d60cb0c473387e68f34aa6eb6e606ed84742f41e385922"
+    },
+    {
+      "scene": "097_alexandre_02",
+      "reviewed_file": "localization/reviewed/097_alexandre_02.json",
+      "reviewed_sha256": "6cc18a6a9c06013348b094a543583e678d7ca995b32a39eb49d4c74602b0b541",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2295.json",
+      "french_file_sha256": "327cce5291d8949a8a3672d350df54645181abefed6f87a8241178d1faf4d22b"
+    },
+    {
+      "scene": "208_myrtille_00a",
+      "reviewed_file": "localization/reviewed/208_myrtille_00a.json",
+      "reviewed_sha256": "9449cd08dbb7f8cfaf00d1313409631680320462c95203dc74bf4419585f8873",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2313.json",
+      "french_file_sha256": "d1759a0545fee800ecad1a9e7b7c7b9ca3c75ea41d96eb38bb579c8c80d55166"
+    },
+    {
+      "scene": "208_myrtille_00b",
+      "reviewed_file": "localization/reviewed/208_myrtille_00b.json",
+      "reviewed_sha256": "b3005e33e73cd47a630800c9a8f0fe6d43258e09e24a78f289224e55b57cb391",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2314.json",
+      "french_file_sha256": "05b749aae8920b22342f2d6ecd042300434ec2d5395157b6277b3d1a143855e0"
+    },
+    {
+      "scene": "208_myrtille_01",
+      "reviewed_file": "localization/reviewed/208_myrtille_01.json",
+      "reviewed_sha256": "55982330c4481edf243b2d22c855f92aed548b15fc18fe426f27df73a5588caa",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2315.json",
+      "french_file_sha256": "72c08162d7754be02cb310306655d9bc6b8ad6edffe0f5a1978c97bd3949d45f"
+    },
+    {
+      "scene": "208_myrtille_02",
+      "reviewed_file": "localization/reviewed/208_myrtille_02.json",
+      "reviewed_sha256": "76e8f9765725d9d71b014580cab7d868009d99609328fe380b708bdfd840196a",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2316.json",
+      "french_file_sha256": "bbff4c5979e8278134649c92ed49a5511fef302896c97792e6db6a05dd293c31"
+    },
+    {
+      "scene": "208_myrtille_03",
+      "reviewed_file": "localization/reviewed/208_myrtille_03.json",
+      "reviewed_sha256": "9a84d7e9dfb43ab14055c5f3277046f0009fb799a3ec64a7681faa688d671c3f",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2317.json",
+      "french_file_sha256": "e372acb50c59efa594b910ffa84b40dd8dd93ea2adfb7e6dcc997e8855bd1621"
+    },
+    {
+      "scene": "208_myrtille_04",
+      "reviewed_file": "localization/reviewed/208_myrtille_04.json",
+      "reviewed_sha256": "42af93e81989204381dcff8fe3eac35c68c49aea4615807854f20987fc62cd44",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2318.json",
+      "french_file_sha256": "f8a9b91028ead77fa4ae8dd7e74fdd26a9f3dd942993257d4270280c1e6ceac0"
+    },
+    {
+      "scene": "221_jim_01",
+      "reviewed_file": "localization/reviewed/221_jim_01.json",
+      "reviewed_sha256": "3a579614ef3114cb8af979ae251b4cbdad18e16c20dd665b320fd3f4a6f6cb65",
+      "french_original_file": "original/DialogObjectScript/sharedassets0.assets/2325.json",
+      "french_file_sha256": "4693f3be4a5100a5ecac0e5bbc687e77d9973de4f05b86baabe7c33153c0c424"
+    }
+  ],
+  "policy": "All481FR/RU pairs were read in the bound base audit;22base edits remain recorded there. Additional declared010_01/010_02amendments are in the camille_christophe20261018plan and its separate delta proof. Reveal IDs/order/conditions/source languages remain original; do not infer gender from names or replace words globally. Additional019_04injury clarification is declared in herve_20261018 with a separate row/context/export proof; all other current Russian rows and original languages/conditions/order stay exact. Additional025_04conversation amendment is declared in ade_20261018; all other480current rows/original languages/order/conditions remain exact, with seven complete Ade scene pins. Additional043_01guessing-programmer clarification is declared in jonas_20261019 with one row/export/context proof; all other current rows and original source fields stay exact. Additional046_03Fields-Medal naming consistency is declared in shohreh_amelie_20261019 with one row/export proof and two full scene pins; other current rows/source fields/order remain exact. Additional059_07/09contextual wording and complete058/059scene pins are declared in agnes_pierrot_20261019;479other rows and all481source pairs unchanged. Additional063_02explicit original-event/caption correction records Pauline geographic explanation, not guessed prior player knowledge. Eight complete scene pins added in pauline_janet_20261020;480other rows and481original pairs exact. Additional076_05quotedPHALLUS matches dialogue asГНИЛОЙФАЛЛОС; six complete076scene pins added in angelique_20261021; other480rows and all481source pairs/order/conditions exact. Additional096_02CityofGod naming and punctuation aligned with complete Gilda dialogue in gilda_20261021; two complete scene pins added,480other rows/481source pairs/order/conditions exact. Additional998_05Anita surname dative agreed with dialogue in alexandre_20261021; two complete097scene pins added,480other rows/481sourcepairs/order/conditions exact. Additional208_01/03riddle-title terminology agrees with complete six-scene French reread in myrtille_20261023b:Секрет/Дырка. Six complete208scene pins added;479other rows/481source pairs/order/conditions exact. Jim221_02 additional French reread23.10.2026:На вас напал Джим…?; uncertainty retained. One complete221 context pin added;480other rows and481sourcepairs/order/conditions exact.",
+  "rows": [
+    {
+      "index": 0,
+      "reveal_id": "000_00",
+      "passenger_id": 0,
+      "french": "Vous êtes sorti du coma.",
+      "english_auxiliary": "You came out of your coma.",
+      "russian": "Вы вышли из комы.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 1,
+      "reveal_id": "000_01",
+      "passenger_id": 0,
+      "french": "Vous avez découvert 2 % du Passidex (jeu de base).",
+      "english_auxiliary": "You have discovered 2% of the Passidex (base game).",
+      "russian": "Вы открыли 2% Пассидекса (базовая игра).",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 2,
+      "reveal_id": "000_02",
+      "passenger_id": 0,
+      "french": "Vous avez découvert 10 % du Passidex (jeu de base).",
+      "english_auxiliary": "You have discovered 10% of the Passidex (base game).",
+      "russian": "Вы открыли 10% Пассидекса (базовая игра).",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 3,
+      "reveal_id": "000_03",
+      "passenger_id": 0,
+      "french": "Vous avez découvert 25 % du Passidex (jeu de base).",
+      "english_auxiliary": "You have discovered 25% of the Passidex (base game).",
+      "russian": "Вы открыли 25% Пассидекса (базовая игра).",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 4,
+      "reveal_id": "000_04",
+      "passenger_id": 0,
+      "french": "Vous avez découvert 50 % du Passidex (jeu de base).",
+      "english_auxiliary": "You have discovered 50% of the Passidex (base game).",
+      "russian": "Вы открыли 50% Пассидекса (базовая игра).",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 5,
+      "reveal_id": "000_05",
+      "passenger_id": 0,
+      "french": "Vous avez découvert 75 % du Passidex (jeu de base).",
+      "english_auxiliary": "You have discovered 75% of the Passidex (base game).",
+      "russian": "Вы открыли 75% Пассидекса (базовая игра).",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 6,
+      "reveal_id": "000_06",
+      "passenger_id": 0,
+      "french": "Vous avez découvert 98 % du Passidex (jeu de base).",
+      "english_auxiliary": "You have discovered 98% of the Passidex (base game).",
+      "russian": "Вы открыли 98% Пассидекса (базовая игра).",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 7,
+      "reveal_id": "000_07",
+      "passenger_id": 0,
+      "french": "Vous vous êtes réveillé dans votre voiture.",
+      "english_auxiliary": "You woke up in your car.",
+      "russian": "Вы проснулись в своей машине.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 8,
+      "reveal_id": "000_08",
+      "passenger_id": 0,
+      "french": "Vous avez touché le gros lot.",
+      "english_auxiliary": "You hit the jackpot.",
+      "russian": "Вы сорвали куш.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 9,
+      "reveal_id": "000_09",
+      "passenger_id": 0,
+      "french": "Il vous arrive de pleurer.",
+      "english_auxiliary": "You do cry sometimes.",
+      "russian": "Вы иногда плачете.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 10,
+      "reveal_id": "000_10",
+      "passenger_id": 0,
+      "french": "Vous êtes tombé en panne d’essence.",
+      "english_auxiliary": "You ran out of gas.",
+      "russian": "У вас кончился бензин.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 11,
+      "reveal_id": "000_11",
+      "passenger_id": 0,
+      "french": "Vous avez rencontré tous les clients (jeu de base uniquement).",
+      "english_auxiliary": "You have met all the passengers (base game only).",
+      "russian": "Вы встретили всех пассажиров (только базовая игра).",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 12,
+      "reveal_id": "000_12",
+      "passenger_id": 0,
+      "french": "Vous avez arrêté tous les tueurs (jeu de base uniquement).",
+      "english_auxiliary": "You have arrested all the killers (base game only).",
+      "russian": "Вы арестовали всех убийц (только базовая игра).",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 13,
+      "reveal_id": "000_13",
+      "passenger_id": 0,
+      "french": "Vous avez roulé une nuit entière sans prendre un seul client.",
+      "english_auxiliary": "You drove all night without picking up a single passenger.",
+      "russian": "Вы проездили всю ночь, не взяв ни одного пассажира.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 14,
+      "reveal_id": "000_14",
+      "passenger_id": 0,
+      "french": "Vous n’avez pas ouvert un seul journal.",
+      "english_auxiliary": "You haven’t read a single newspaper.",
+      "russian": "Вы не открыли ни одной газеты.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 15,
+      "reveal_id": "000_15",
+      "passenger_id": 0,
+      "french": "Vous n’avez pas écouté la radio une seule fois.",
+      "english_auxiliary": "You haven’t listened to the radio even once.",
+      "russian": "Вы ни разу не включали радио.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 16,
+      "reveal_id": "000_16",
+      "passenger_id": 0,
+      "french": "Vous avez fait un cauchemar.",
+      "english_auxiliary": "You had a nightmare.",
+      "russian": "Вам приснился кошмар.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 17,
+      "reveal_id": "000_20",
+      "passenger_id": 0,
+      "french": "Vous avez visité tous les lieux liés au Juge.",
+      "english_auxiliary": "You’ve been to all the locations linked to the Judge.",
+      "russian": "Вы побывали во всех местах, связанных с Судьёй.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 18,
+      "reveal_id": "000_21",
+      "passenger_id": 0,
+      "french": "Vous avez visité tous les lieux liés à l’Ange de la Mort.",
+      "english_auxiliary": "You’ve been to all the locations linked to the Angel of Death.",
+      "russian": "Вы побывали во всех местах, связанных с Ангелом смерти.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 19,
+      "reveal_id": "000_22",
+      "passenger_id": 0,
+      "french": "Vous avez visité tous les lieux liés du Marchand de Sable.",
+      "english_auxiliary": "You’ve been to all the locations linked to the Sandman.",
+      "russian": "Вы побывали во всех местах, связанных с Песочным человеком.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 20,
+      "reveal_id": "001_00",
+      "passenger_id": 1,
+      "french": "Vous avez rencontré Patricia.",
+      "english_auxiliary": "You have met Patricia.",
+      "russian": "Вы встретили Патрисию.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 21,
+      "reveal_id": "001_01",
+      "passenger_id": 1,
+      "french": "Patricia vous a laissé son numéro.",
+      "english_auxiliary": "Patricia gave you her number.",
+      "russian": "Патрисия оставила вам свой номер.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 22,
+      "reveal_id": "001_02",
+      "passenger_id": 1,
+      "french": "Vous avez pris son numéro.",
+      "english_auxiliary": "You got her number.",
+      "russian": "Вы взяли её номер.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 23,
+      "reveal_id": "002_00",
+      "passenger_id": 2,
+      "french": "Vous avez rencontré Purva.",
+      "english_auxiliary": "You have met Purva.",
+      "russian": "Вы встретили Пурву.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 24,
+      "reveal_id": "002_01",
+      "passenger_id": 2,
+      "french": "Purva a parlé de son futur mari.",
+      "english_auxiliary": "Purva talked about her husband-to-be.",
+      "russian": "Пурва рассказала о своём будущем муже.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 25,
+      "reveal_id": "003_00",
+      "passenger_id": 3,
+      "french": "Vous avez rencontré Alaric.",
+      "english_auxiliary": "You have met Alaric.",
+      "russian": "Вы встретили Аларика.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 26,
+      "reveal_id": "003_01",
+      "passenger_id": 3,
+      "french": "Vous avez repensé à votre rencontre avec Alaric.",
+      "english_auxiliary": "You thought about when you met Alaric.",
+      "russian": "Вы вспомнили свою встречу с Алариком.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 27,
+      "reveal_id": "003_02",
+      "passenger_id": 3,
+      "french": "Vous avez parlé de votre père à Alaric.",
+      "english_auxiliary": "You told Alaric about your father.",
+      "russian": "Вы рассказали Аларику об отце.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 28,
+      "reveal_id": "004_00",
+      "passenger_id": 4,
+      "french": "Vous avez rencontré Jean-Noël.",
+      "english_auxiliary": "You have met Jean-Noël.",
+      "russian": "Вы встретили Жан-Ноэля.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 29,
+      "reveal_id": "004_01",
+      "passenger_id": 4,
+      "french": "Vous avez profité de Jean-Noël.",
+      "english_auxiliary": "You took advantage of Jean-Noël.",
+      "russian": "Вы воспользовались Жан-Ноэлем.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 30,
+      "reveal_id": "004_02",
+      "passenger_id": 4,
+      "french": "Vous avez revu Jean-Noël : il allait mieux.",
+      "english_auxiliary": "You saw Jean-Noël again. He was doing better.",
+      "russian": "Вы снова увидели Жан-Ноэля: ему стало лучше.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 31,
+      "reveal_id": "005_00",
+      "passenger_id": 5,
+      "french": "Vous avez rencontré Hugo.",
+      "english_auxiliary": "You have met Hugo.",
+      "russian": "Вы встретили Юго.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 32,
+      "reveal_id": "005_01",
+      "passenger_id": 5,
+      "french": "Vous avez remonté le moral d’Hugo.",
+      "english_auxiliary": "You cheered Hugo up.",
+      "russian": "Вы подняли Юго настроение.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 33,
+      "reveal_id": "006_00",
+      "passenger_id": 6,
+      "french": "Vous avez rencontré Esmeralda.",
+      "english_auxiliary": "You have met Esmeralda.",
+      "russian": "Вы встретили Эсмеральду.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 34,
+      "reveal_id": "006_01",
+      "passenger_id": 6,
+      "french": "Vous avez menti à Esmeralda.",
+      "english_auxiliary": "You lied to Esmeralda.",
+      "russian": "Вы солгали Эсмеральде.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 35,
+      "reveal_id": "006_02",
+      "passenger_id": 6,
+      "french": "Vous avez prononcé une phrase de vieux con.",
+      "english_auxiliary": "You said something really uncool.",
+      "russian": "Вы сказали что-то в духе старого пердуна.",
+      "status": "french_reviewed",
+      "before": "Вы сказали что-то в духе старого зануды.",
+      "decision": "Vieux con — грубое насмешливое обозначение морализатора, не фактический возраст водителя. «Старый пердун» сохраняет регистр и контекст реакции Эсмеральды на отцовское поучение; не смягчать до просто скучного человека.",
+      "related_context": "006_esmeralda_02/esmeralda-02-no-speech"
+    },
+    {
+      "index": 36,
+      "reveal_id": "007_00",
+      "passenger_id": 7,
+      "french": "Vous avez rencontré Salim.",
+      "english_auxiliary": "You have met Salim.",
+      "russian": "Вы встретили Салима.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 37,
+      "reveal_id": "007_01",
+      "passenger_id": 7,
+      "french": "Vous avez gardé le silence.",
+      "english_auxiliary": "You said nothing.",
+      "russian": "Вы промолчали.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 38,
+      "reveal_id": "007_02",
+      "passenger_id": 7,
+      "french": "Vous avez volé ses documents.",
+      "english_auxiliary": "You stole his documents.",
+      "russian": "Вы украли его документы.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 39,
+      "reveal_id": "008_00",
+      "passenger_id": 8,
+      "french": "Vous avez rencontré Vincent.",
+      "english_auxiliary": "You have met Vincent.",
+      "russian": "Вы встретили Венсана.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 40,
+      "reveal_id": "008_01",
+      "passenger_id": 8,
+      "french": "Vous avez gardé le silence.",
+      "english_auxiliary": "You said nothing.",
+      "russian": "Вы промолчали.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 41,
+      "reveal_id": "009_00",
+      "passenger_id": 9,
+      "french": "Vous avez rencontré Ludwig.",
+      "english_auxiliary": "You have met Ludwig.",
+      "russian": "Вы встретили Людвига.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 42,
+      "reveal_id": "009_01",
+      "passenger_id": 9,
+      "french": "Vous avez revu Ludwig.",
+      "english_auxiliary": "You saw Ludwig again.",
+      "russian": "Вы снова увидели Людвига.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 43,
+      "reveal_id": "009_02",
+      "passenger_id": 9,
+      "french": "Vous avez entendu toutes ses histoires.",
+      "english_auxiliary": "You heard all his stories.",
+      "russian": "Вы услышали все его истории.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 44,
+      "reveal_id": "009_03",
+      "passenger_id": 9,
+      "french": "Ludwig vous a aidé dans votre enquête.",
+      "english_auxiliary": "Ludwig helped you with your investigation.",
+      "russian": "Людвиг помог вам в расследовании.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 45,
+      "reveal_id": "009_04",
+      "passenger_id": 9,
+      "french": "Désormais, vous savez qui est Guy Môquet.",
+      "english_auxiliary": "Now, you know who Guy Môquet is.",
+      "russian": "Теперь вы знаете, кто такой Ги Моке.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 46,
+      "reveal_id": "009_05",
+      "passenger_id": 9,
+      "french": "Désormais, vous connaissez l’existence des zoos humains.",
+      "english_auxiliary": "Now, you know that human zoos exist.",
+      "russian": "Теперь вы знаете, что существовали человеческие зоопарки.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 47,
+      "reveal_id": "009_06",
+      "passenger_id": 9,
+      "french": "Désormais, vous savez qui est Petit Louis.",
+      "english_auxiliary": "Now, you know who Little Louis is.",
+      "russian": "Теперь вы знаете, кто такой Малыш Луи.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 48,
+      "reveal_id": "009_07",
+      "passenger_id": 9,
+      "french": "Désormais, vous savez qu’un Président français est mort à l’Élysée.",
+      "english_auxiliary": "Now, you know a French president died at the Élysée Palace.",
+      "russian": "Теперь вы знаете, что французский президент умер в Елисейском дворце.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 49,
+      "reveal_id": "009_08",
+      "passenger_id": 9,
+      "french": "Désormais, vous savez ce qu’est le garum.",
+      "english_auxiliary": "Now, you know what garum is.",
+      "russian": "Теперь вы знаете, что такое гарум.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 50,
+      "reveal_id": "009_09",
+      "passenger_id": 9,
+      "french": "Désormais, vous savez ce qu’il s’est passé dans la rue des Rosiers.",
+      "english_auxiliary": "Now, you know what happened in the rue des Rosiers.",
+      "russian": "Теперь вы знаете, что произошло на улице Розье.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 51,
+      "reveal_id": "009_10",
+      "passenger_id": 9,
+      "french": "Désormais, vous savez d’où vient ce fantôme.",
+      "english_auxiliary": "Now, you know where this ghost comes from.",
+      "russian": "Теперь вы знаете, откуда взялся этот призрак.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 52,
+      "reveal_id": "009_11",
+      "passenger_id": 9,
+      "french": "Désormais, vous savez ce qu’il s’est passé dans la rue des Marmousiers.",
+      "english_auxiliary": "Now, you know what happened in the rue des Marmousiers.",
+      "russian": "Теперь вы знаете, что произошло на улице Мармузье.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 53,
+      "reveal_id": "009_12",
+      "passenger_id": 9,
+      "french": "Ludwig vous a aidé dans votre enquête.",
+      "english_auxiliary": "Ludwig helped you with your investigation.",
+      "russian": "Людвиг помог вам в расследовании.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 54,
+      "reveal_id": "009_13",
+      "passenger_id": 9,
+      "french": "Vous avez repensé à votre rencontre avec Ludwig.",
+      "english_auxiliary": "You thought back to when you met Ludwig.",
+      "russian": "Вы вспомнили свою встречу с Людвигом.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 55,
+      "reveal_id": "010_00",
+      "passenger_id": 10,
+      "french": "Vous avez rencontré Camille & Antoine.",
+      "english_auxiliary": "You have met Camille & Antoine.",
+      "russian": "Вы встретили Камий и Антуана.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 56,
+      "reveal_id": "010_01",
+      "passenger_id": 10,
+      "french": "Vous avez été malaisant avec Camille & Antoine.",
+      "english_auxiliary": "You made Camille & Antoine uncomfortable.",
+      "russian": "Вы поставили Камий и Антуана в неловкое положение.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 57,
+      "reveal_id": "010_02",
+      "passenger_id": 10,
+      "french": "Vous avez été cool avec Camille & Antoine.",
+      "english_auxiliary": "You were cool with Camille & Antoine.",
+      "russian": "Вы хорошо отнеслись к Камий и Антуану.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 58,
+      "reveal_id": "011_00",
+      "passenger_id": 11,
+      "french": "Vous avez rencontré Ariane.",
+      "english_auxiliary": "You have met Ariane.",
+      "russian": "Вы встретили Ариану.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 59,
+      "reveal_id": "011_01",
+      "passenger_id": 11,
+      "french": "Vous avez tenu aussi longtemps que possible.",
+      "english_auxiliary": "You kept calm for as long as possible",
+      "russian": "Вы продержались так долго, как только могли.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 60,
+      "reveal_id": "011_02",
+      "passenger_id": 11,
+      "french": "Vous avez grillé un feu rouge pour Ariane.",
+      "english_auxiliary": "You ran a red light for Ariane.",
+      "russian": "Вы проехали на красный свет ради Арианы.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 61,
+      "reveal_id": "012_00",
+      "passenger_id": 12,
+      "french": "Vous avez rencontré Christophe.",
+      "english_auxiliary": "You have met Christophe.",
+      "russian": "Вы встретили Кристофа.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 62,
+      "reveal_id": "012_01",
+      "passenger_id": 12,
+      "french": "Vous vous êtes confessé.",
+      "english_auxiliary": "You confessed.",
+      "russian": "Вы исповедались.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 63,
+      "reveal_id": "012_02",
+      "passenger_id": 12,
+      "french": "Vous avez découvert son secret.",
+      "english_auxiliary": "You found out his secret.",
+      "russian": "Вы узнали его тайну.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 64,
+      "reveal_id": "012_03",
+      "passenger_id": 12,
+      "french": "Vous avez découvert son autre secret.",
+      "english_auxiliary": "You found out his other secret.",
+      "russian": "Вы узнали его другую тайну.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 65,
+      "reveal_id": "012_04",
+      "passenger_id": 12,
+      "french": "Vous avez aidé Christophe.",
+      "english_auxiliary": "You helped Christophe.",
+      "russian": "Вы помогли Кристофу.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 66,
+      "reveal_id": "012_05",
+      "passenger_id": 12,
+      "french": "Vous avez repensé à votre rencontre avec Christophe.",
+      "english_auxiliary": "You thought about when you met Christophe.",
+      "russian": "Вы вспомнили свою встречу с Кристофом.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 67,
+      "reveal_id": "013_00",
+      "passenger_id": 13,
+      "french": "Vous avez rencontré Leïa.",
+      "english_auxiliary": "You have met Leïa.",
+      "russian": "Вы встретили Лею.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 68,
+      "reveal_id": "013_01",
+      "passenger_id": 13,
+      "french": "Vous avez entendu toutes ses histoires.",
+      "english_auxiliary": "You have heard all her stories.",
+      "russian": "Вы услышали все её истории.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 69,
+      "reveal_id": "013_02",
+      "passenger_id": 13,
+      "french": "Vous lui avez parlé de Ludwig.",
+      "english_auxiliary": "You told Leia about Ludwig.",
+      "russian": "Вы рассказали ей о Людвиге.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 70,
+      "reveal_id": "013_03",
+      "passenger_id": 13,
+      "french": "Vous lui avez parlé de Crouky.",
+      "english_auxiliary": "You told Leia about Crouky.",
+      "russian": "Вы рассказали ей о Круки.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 71,
+      "reveal_id": "013_04",
+      "passenger_id": 13,
+      "french": "Vous lui avez parlé de Fragonard.",
+      "english_auxiliary": "You told Leia about Fragonard.",
+      "russian": "Вы рассказали ей о Фрагонаре.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 72,
+      "reveal_id": "013_05",
+      "passenger_id": 13,
+      "french": "De la chair humaine !",
+      "english_auxiliary": "Out of people!",
+      "russian": "Человечина!",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 73,
+      "reveal_id": "013_06",
+      "passenger_id": 13,
+      "french": "Vous avez fait découvrir du jazz éthiopien à Leïa.",
+      "english_auxiliary": "You introduced Leïa to Ethiopian jazz.",
+      "russian": "Вы познакомили Лею с эфиопским джазом.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 74,
+      "reveal_id": "013_07",
+      "passenger_id": 13,
+      "french": "Vous avez parlé à Leïa de ce film japonais vu à l’hôpital.",
+      "english_auxiliary": "You told Leïa about the Japanese movie you saw at the hospital.",
+      "russian": "Вы рассказали Лее о японском фильме, который видели в больнице.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 75,
+      "reveal_id": "013_08",
+      "passenger_id": 13,
+      "french": "Vous avez partagé un souvenir d’enfance avec Leïa.",
+      "english_auxiliary": "You shared a childhood memory with Leïa.",
+      "russian": "Вы поделились с Леей детским воспоминанием.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 76,
+      "reveal_id": "013_09",
+      "passenger_id": 13,
+      "french": "Vous avez repensé à votre rencontre avec Leïa.",
+      "english_auxiliary": "You thought about when you met Leïa.",
+      "russian": "Вы вспомнили свою встречу с Леей.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 77,
+      "reveal_id": "014_00",
+      "passenger_id": 14,
+      "french": "Vous avez rencontré Fragonard.",
+      "english_auxiliary": "You have met Fragonard.",
+      "russian": "Вы встретили Фрагонара.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 78,
+      "reveal_id": "014_01",
+      "passenger_id": 14,
+      "french": "Vous avez entendu toutes ses histoires.",
+      "english_auxiliary": "You have heard all his stories.",
+      "russian": "Вы услышали все его истории.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 79,
+      "reveal_id": "014_02",
+      "passenger_id": 14,
+      "french": "Il vous arrive de pleurer.",
+      "english_auxiliary": "You do cry sometimes.",
+      "russian": "Вы иногда плачете.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 80,
+      "reveal_id": "014_03",
+      "passenger_id": 14,
+      "french": "Fragonard vous a parlé d’un tueur en série.",
+      "english_auxiliary": "Fragonard told you about a serial killer.",
+      "russian": "Фрагонар рассказал вам о серийном убийце.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 81,
+      "reveal_id": "014_04",
+      "passenger_id": 14,
+      "french": "Fragonard vous a avoué avoir vomi.",
+      "english_auxiliary": "Fragonard admitted to having vomited.",
+      "russian": "Фрагонар признался вам, что его вырвало.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 82,
+      "reveal_id": "014_05",
+      "passenger_id": 14,
+      "french": "Fragonard vous a parlé de la prise d’otage du sex-shop.",
+      "english_auxiliary": "Fragonard told you about the hostage situation in a sex shop.",
+      "russian": "Фрагонар рассказал вам о захвате заложников в секс-шопе.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 83,
+      "reveal_id": "014_06",
+      "passenger_id": 14,
+      "french": "Fragonard a chassé un tigre.",
+      "english_auxiliary": "Fragonard hunted a tiger.",
+      "russian": "Фрагонар охотился на тигра.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 84,
+      "reveal_id": "014_07",
+      "passenger_id": 14,
+      "french": "Fragonard a été marié à une juge.",
+      "english_auxiliary": "Fragonard was married to a judge.",
+      "russian": "Фрагонар был женат на судье.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 85,
+      "reveal_id": "014_08",
+      "passenger_id": 14,
+      "french": "Vous avez menti à Fragonard.",
+      "english_auxiliary": "You lied to Fragonard.",
+      "russian": "Вы солгали Фрагонару.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 86,
+      "reveal_id": "014_09",
+      "passenger_id": 14,
+      "french": "Fragonard vous a parlé d’une de ses collègues.",
+      "english_auxiliary": "Fragonard told you about one of his female colleagues.",
+      "russian": "Фрагонар рассказал вам об одной из своих коллег.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 87,
+      "reveal_id": "014_10",
+      "passenger_id": 14,
+      "french": "Fragonard vous a parlé du braquage de la joaillerie.",
+      "english_auxiliary": "Fragonard told you about the jewelry store heist.",
+      "russian": "Фрагонар рассказал вам об ограблении ювелирного магазина.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 88,
+      "reveal_id": "014_11",
+      "passenger_id": 14,
+      "french": "Fragonard vous a parlé d’une scène de crime.",
+      "english_auxiliary": "Fragonard told you about a crime scene.",
+      "russian": "Фрагонар рассказал вам о месте преступления.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 89,
+      "reveal_id": "014_12",
+      "passenger_id": 14,
+      "french": "Vous avez retrouvé l’arme du crime.",
+      "english_auxiliary": "You found the murder weapon.",
+      "russian": "Вы нашли орудие убийства.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 90,
+      "reveal_id": "014_13",
+      "passenger_id": 14,
+      "french": "Vous avez repensé à votre rencontre avec Fragonard.",
+      "english_auxiliary": "You thought about when you met Fragonard.",
+      "russian": "Вы вспомнили свою встречу с Фрагонаром.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 91,
+      "reveal_id": "015_00",
+      "passenger_id": 15,
+      "french": "Vous avez rencontré Alicia.",
+      "english_auxiliary": "You have met Alicia.",
+      "russian": "Вы встретили Алисию.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 92,
+      "reveal_id": "015_01",
+      "passenger_id": 15,
+      "french": "Vous avez entendu tous ses poèmes.",
+      "english_auxiliary": "You have heard all her poems.",
+      "russian": "Вы услышали все её стихи.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 93,
+      "reveal_id": "015_02",
+      "passenger_id": 15,
+      "french": "Alicia vous a appris ce qu’est un billabong.",
+      "english_auxiliary": "Alicia taught you what a billabong is.",
+      "russian": "Алисия объяснила вам, что такое биллабонг.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 94,
+      "reveal_id": "015_03",
+      "passenger_id": 15,
+      "french": "Alicia a terminé son poème « Billabong ».",
+      "english_auxiliary": "Alicia finished her poem ‘Billabong’.",
+      "russian": "Алисия закончила стихотворение «Биллабонг».",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 95,
+      "reveal_id": "015_04",
+      "passenger_id": 15,
+      "french": "Alicia a terminé son poème « Truffe ».",
+      "english_auxiliary": "Alicia finished her poem ‘Truffle’.",
+      "russian": "Алисия закончила стихотворение «Трюфель».",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 96,
+      "reveal_id": "015_05",
+      "passenger_id": 15,
+      "french": "Alicia a terminé son poème « Chevalier ».",
+      "english_auxiliary": "Alicia finished her poem ‘Fragile’.",
+      "russian": "Алисия закончила стихотворение «Рыцарь».",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 97,
+      "reveal_id": "016_00",
+      "passenger_id": 16,
+      "french": "Vous avez rencontré Gérard.",
+      "english_auxiliary": "You have met Gérard.",
+      "russian": "Вы встретили Жерара.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 98,
+      "reveal_id": "016_01",
+      "passenger_id": 16,
+      "french": "Vous avez menti à Gérard.",
+      "english_auxiliary": "You lied to Gérard.",
+      "russian": "Вы солгали Жерару.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 99,
+      "reveal_id": "016_02",
+      "passenger_id": 16,
+      "french": "Vous avez été honnête avec Gérard.",
+      "english_auxiliary": "You were honest with Gérard.",
+      "russian": "Вы были честны с Жераром.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 100,
+      "reveal_id": "016_03",
+      "passenger_id": 16,
+      "french": "Vous êtes d’accord avec Gérard : la ville, quand elle veut pas, elle veut pas.",
+      "english_auxiliary": "You agreed with Gérard: when the city doesn’t want it, it’s not happening.",
+      "russian": "Вы согласились с Жераром: если город не хочет, значит, не хочет.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 101,
+      "reveal_id": "016_04",
+      "passenger_id": 16,
+      "french": "Vous avez repensé à votre rencontre avec Gérard.",
+      "english_auxiliary": "You thought about when you met Gérard.",
+      "russian": "Вы вспомнили свою встречу с Жераром.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 102,
+      "reveal_id": "017_00",
+      "passenger_id": 17,
+      "french": "Vous avez rencontré Grâce.",
+      "english_auxiliary": "You have met Grace.",
+      "russian": "Вы встретили Грейс.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 103,
+      "reveal_id": "017_01",
+      "passenger_id": 17,
+      "french": "Vous avez aidé Grâce à raccrocher.",
+      "english_auxiliary": "You helped Grace to hang up the phone.",
+      "russian": "Вы помогли Грейс положить трубку.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 104,
+      "reveal_id": "017_02",
+      "passenger_id": 17,
+      "french": "Grâce vous a parlé de « Lakmé » de Delibes.",
+      "english_auxiliary": "Grace told you about Delibes’‘Lakmé’.",
+      "russian": "Грейс рассказала вам о «Лакме» Делиба.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 105,
+      "reveal_id": "017_03",
+      "passenger_id": 17,
+      "french": "Grâce vous a avoué vouloir danser.",
+      "english_auxiliary": "Grace admitted she wanted to be a dancer.",
+      "russian": "Грейс призналась, что хочет танцевать.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 106,
+      "reveal_id": "018_00",
+      "passenger_id": 18,
+      "french": "Vous avez rencontré François.",
+      "english_auxiliary": "You have met François.",
+      "russian": "Вы встретили Франсуа.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 107,
+      "reveal_id": "018_01",
+      "passenger_id": 18,
+      "french": "Vous avez entendu toutes ses chroniques.",
+      "english_auxiliary": "You have heard all his chronicles.",
+      "russian": "Вы услышали все его колонки.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 108,
+      "reveal_id": "018_02",
+      "passenger_id": 18,
+      "french": "Vous lui avez remis un certain jeu entre les mains.",
+      "english_auxiliary": "You handed a certain game back to François.",
+      "russian": "Вы рассказали Франсуа, как снова сыграть в одну старую игру.",
+      "status": "french_reviewed",
+      "before": "Вы вернули ему в руки одну игру.",
+      "decision": "Remis un certain jeu entre les mains — образный итог. В francois-01-papou водитель только рассказывает о мобильном приложении; физического вручения игры не происходит.",
+      "related_context": "018_francois_01/francois-01-papou"
+    },
+    {
+      "index": 109,
+      "reveal_id": "018_03",
+      "passenger_id": 18,
+      "french": "François a écrit un livre intitulé « France la Soumise ».",
+      "english_auxiliary": "François wrote a book called ‘France in Submission’.",
+      "russian": "Франсуа написал книгу «Покорная Франция».",
+      "status": "french_reviewed",
+      "before": "Франсуа написал книгу «Покорённая Франция».",
+      "decision": "Одна книга France la Soumise. В dialogue francois-01-generation и consistency.terms уже «Покорная Франция»; «покорённая» меняет оттенок смысла.",
+      "related_context": "018_francois_01/francois-01-generation"
+    },
+    {
+      "index": 110,
+      "reveal_id": "018_04",
+      "passenger_id": 18,
+      "french": "François a écrit un livre intitulé « Monarchiste, et alors ? »",
+      "english_auxiliary": "François wrote a book called ‘I’m a Monarchist, what of it?’",
+      "russian": "Франсуа написал книгу «Я монархист… И что с того?»",
+      "status": "french_reviewed",
+      "before": "Франсуа написал книгу «Монархист, и что с того?»",
+      "decision": "То же Monarchiste, et alors ?; название в francois-01-game другое. Согласовать существующее русское название между сценой и Пассидексом. Конечный вопросительный знак остаётся внутри названия; лишняя точка не добавлена.",
+      "related_context": "018_francois_01/francois-01-game"
+    },
+    {
+      "index": 111,
+      "reveal_id": "018_05",
+      "passenger_id": 18,
+      "french": "Vous avez préféré ignorer ses commentaires sur Internet.",
+      "english_auxiliary": "You chose to ignore François’s comments about the internet.",
+      "russian": "Вы предпочли не слушать его комментарии об интернете.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 112,
+      "reveal_id": "018_06",
+      "passenger_id": 18,
+      "french": "Vous avez préféré ignorer ses commentaires sur la justice.",
+      "english_auxiliary": "You chose to ignore François’s comments about the justice system.",
+      "russian": "Вы предпочли не слушать его комментарии о правосудии.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 113,
+      "reveal_id": "018_07",
+      "passenger_id": 18,
+      "french": "Vous avez préféré ignorer ses commentaires sur la grève.",
+      "english_auxiliary": "You chose to ignore François’s comments about the strikes.",
+      "russian": "Вы предпочли не слушать его комментарии о забастовке.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 114,
+      "reveal_id": "018_08",
+      "passenger_id": 18,
+      "french": "Vous avez suivi François jusqu’à un New York Pizza Pizza.",
+      "english_auxiliary": "You followed François to a New York Pizza Pizza.",
+      "russian": "Вы увидели, как Франсуа зашёл в New York Pizza Pizza.",
+      "status": "french_reviewed",
+      "before": "Вы доехали за Франсуа до New York Pizza Pizza.",
+      "decision": "Сцена endstay: Франсуа пешком пересекает улицу, водитель наблюдает со своего места и лишь затем уезжает. «Доехали за» добавляет отсутствующее следование на такси. Предлагаемая фраза сохраняет suivre без новой поездки. Итог передан наблюдением: ни поездки, ни пешего преследования водителя не добавлено.",
+      "related_context": "018_francois_05/francois-05-endstay"
+    },
+    {
+      "index": 115,
+      "reveal_id": "018_09",
+      "passenger_id": 18,
+      "french": "Vous avez tenu tête à François.",
+      "english_auxiliary": "You stood up to François.",
+      "russian": "Вы дали отпор Франсуа.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 116,
+      "reveal_id": "018_10",
+      "passenger_id": 18,
+      "french": "Vous avez préféré ignorer François.",
+      "english_auxiliary": "You chose to ignore François.",
+      "russian": "Вы предпочли не обращать внимания на Франсуа.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 117,
+      "reveal_id": "018_11",
+      "passenger_id": 18,
+      "french": "Vous pensez que les voitures électriques sont écolos…",
+      "english_auxiliary": "You think electric cars are good for the environment.",
+      "russian": "Вы думаете, что электромобили экологичны…",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 118,
+      "reveal_id": "018_12",
+      "passenger_id": 18,
+      "french": "Vous avez préféré ignorer ses commentaires sur les réseaux sociaux.",
+      "english_auxiliary": "You chose to ignore François’s comments about social networking.",
+      "russian": "Вы предпочли не слушать его комментарии о соцсетях.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 119,
+      "reveal_id": "019_00",
+      "passenger_id": 19,
+      "french": "Vous avez rencontré Hervé.",
+      "english_auxiliary": "You have met Hervé.",
+      "russian": "Вы встретили Эрве.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 120,
+      "reveal_id": "019_01",
+      "passenger_id": 19,
+      "french": "Hervé vous a aidé dans votre enquête.",
+      "english_auxiliary": "Hervé helped you with your investigation.",
+      "russian": "Эрве помог вам в расследовании.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 121,
+      "reveal_id": "019_03",
+      "passenger_id": 19,
+      "french": "Vous avez appris que Hervé a été marié.",
+      "english_auxiliary": "You found out Hervé was once married.",
+      "russian": "Вы узнали, что Эрве был женат.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 122,
+      "reveal_id": "019_04",
+      "passenger_id": 19,
+      "french": "Vous avez découvert l’origine de la blessure d’Hervé.",
+      "english_auxiliary": "You found out how Hervé got his scar.",
+      "russian": "Вы узнали, как Эрве получил травму.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 123,
+      "reveal_id": "019_05",
+      "passenger_id": 19,
+      "french": "Vous avez repensé à votre rencontre avec Hervé.",
+      "english_auxiliary": "You thought about when you met Hervé.",
+      "russian": "Вы вспомнили свою встречу с Эрве.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 124,
+      "reveal_id": "020_00",
+      "passenger_id": 20,
+      "french": "Vous avez rencontré Jacquie.",
+      "english_auxiliary": "You have met Jacquie.",
+      "russian": "Вы встретили Жаки.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 125,
+      "reveal_id": "020_01",
+      "passenger_id": 20,
+      "french": "Jacquie vous a aidé dans votre enquête.",
+      "english_auxiliary": "Jacquie helped you with your investigation.",
+      "russian": "Жаки помогла вам в расследовании.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 126,
+      "reveal_id": "020_02",
+      "passenger_id": 20,
+      "french": "Vous avez raconté à Jacquie votre première fois.",
+      "english_auxiliary": "You told Jacquie about your first time.",
+      "russian": "Вы рассказали Жаки о своём первом разе.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 127,
+      "reveal_id": "020_03",
+      "passenger_id": 20,
+      "french": "Vous n’avez pas voulu raconter à Jacquie votre première fois.",
+      "english_auxiliary": "You didn’t want to tell Jacquie about your first time.",
+      "russian": "Вы не захотели рассказывать Жаки о своём первом разе.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 128,
+      "reveal_id": "020_04",
+      "passenger_id": 20,
+      "french": "Jacquie vous a parlé de son voisin.",
+      "english_auxiliary": "Jacquie told you about her neighbor.",
+      "russian": "Жаки рассказала вам о своём соседе.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 129,
+      "reveal_id": "020_05",
+      "passenger_id": 20,
+      "french": "Jacquie vous a parlé de son rêve.",
+      "english_auxiliary": "Jacquie told you about her dream.",
+      "russian": "Жаки рассказала вам о своей мечте.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 130,
+      "reveal_id": "020_06",
+      "passenger_id": 20,
+      "french": "Jacquie vous a parlé de son client ministre.",
+      "english_auxiliary": "Jacquie told you about her client who’s a politician.",
+      "russian": "Жаки рассказала вам о своём клиенте-министре.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 131,
+      "reveal_id": "021_00",
+      "passenger_id": 21,
+      "french": "Vous avez rencontré Carlo.",
+      "english_auxiliary": "You have met Carlo.",
+      "russian": "Вы встретили Карло.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 132,
+      "reveal_id": "021_01",
+      "passenger_id": 21,
+      "french": "Vous avez aidé Carlo à mentir à sa femme.",
+      "english_auxiliary": "You helped Carlo lie to his wife.",
+      "russian": "Вы помогли Карло солгать жене.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 133,
+      "reveal_id": "021_02",
+      "passenger_id": 21,
+      "french": "Vous avez refusé d’aider Carlo.",
+      "english_auxiliary": "You refused to help Carlo.",
+      "russian": "Вы отказались помогать Карло.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 134,
+      "reveal_id": "021_03",
+      "passenger_id": 21,
+      "french": "Vous avez aidé Carlo à construire un mensonge en or.",
+      "english_auxiliary": "You helped Carlo construct the perfect lie.",
+      "russian": "Вы помогли Карло сочинить безупречную ложь.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 135,
+      "reveal_id": "022_00",
+      "passenger_id": 22,
+      "french": "Vous avez rencontré Claudia.",
+      "english_auxiliary": "You have met Claudia.",
+      "russian": "Вы встретили Клаудию.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 136,
+      "reveal_id": "022_01",
+      "passenger_id": 22,
+      "french": "Vous avez repensé à votre rencontre avec Claudia.",
+      "english_auxiliary": "You thought about when you met Claudia.",
+      "russian": "Вы вспомнили свою встречу с Клаудией.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 137,
+      "reveal_id": "022_02",
+      "passenger_id": 22,
+      "french": "Vous avez charmé Claudia.",
+      "english_auxiliary": "You charmed Claudia.",
+      "russian": "Вы очаровали Клаудию.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 138,
+      "reveal_id": "022_03",
+      "passenger_id": 22,
+      "french": "Claudia a vous parlé de la Junte.",
+      "english_auxiliary": "Claudia told you about the military coup.",
+      "russian": "Клаудия рассказала вам о хунте.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 139,
+      "reveal_id": "023_00",
+      "passenger_id": 23,
+      "french": "Vous avez rencontré Apollonie.",
+      "english_auxiliary": "You have met Apollonie.",
+      "russian": "Вы встретили Аполлони.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 140,
+      "reveal_id": "023_01",
+      "passenger_id": 23,
+      "french": "Vous avez conduit Apollonie au Furiosa.",
+      "english_auxiliary": "You drove Apollonie to Furiosa.",
+      "russian": "Вы отвезли Аполлони в «Фуриозу».",
+      "status": "french_reviewed",
+      "before": "Вы отвезли Аполлони в Furiosa.",
+      "decision": "Каноническое название бара в диалогах и consistency.terms.",
+      "related_context": "023_apollonie_01/apollonie-goto-furiosa"
+    },
+    {
+      "index": 141,
+      "reveal_id": "023_02",
+      "passenger_id": 23,
+      "french": "Vous avez conduit Apollonie au Napo.",
+      "english_auxiliary": "You drove Apollonie to Napo.",
+      "russian": "Вы отвезли Аполлони в «Напо».",
+      "status": "french_reviewed",
+      "before": "Вы отвезли Аполлони в Napo.",
+      "decision": "Каноническое название бара в диалогах и consistency.terms.",
+      "related_context": "023_apollonie_01/apollonie-goto-napo"
+    },
+    {
+      "index": 142,
+      "reveal_id": "023_03",
+      "passenger_id": 23,
+      "french": "Vous avez conduit Apollonie au Soliles.",
+      "english_auxiliary": "You drove Apollonie to Soliles.",
+      "russian": "Вы отвезли Аполлони в «Солилес».",
+      "status": "french_reviewed",
+      "before": "Вы отвезли Аполлони в Soliles.",
+      "decision": "Каноническое название бара в диалогах и consistency.terms.",
+      "related_context": "023_apollonie_01/apollonie-goto-soliles"
+    },
+    {
+      "index": 143,
+      "reveal_id": "023_04",
+      "passenger_id": 23,
+      "french": "Vous avez conduit Apollonie au Carter.",
+      "english_auxiliary": "You drove Apollonie to Carter.",
+      "russian": "Вы отвезли Аполлони в «Картер».",
+      "status": "french_reviewed",
+      "before": "Вы отвезли Аполлони в Carter.",
+      "decision": "Каноническое название клуба в диалогах и consistency.terms.",
+      "related_context": "023_apollonie_01/apollonie-goto-carter"
+    },
+    {
+      "index": 144,
+      "reveal_id": "023_05",
+      "passenger_id": 23,
+      "french": "Vous avez conduit Apollonie au Belvédère.",
+      "english_auxiliary": "You drove Apollonie to Belvédère.",
+      "russian": "Вы отвезли Аполлони в «Бельведер».",
+      "status": "french_reviewed",
+      "before": "Вы отвезли Аполлони в Belvédère.",
+      "decision": "Каноническое название бара в диалогах и consistency.terms.",
+      "related_context": "023_apollonie_01/apollonie-goto-belvedere"
+    },
+    {
+      "index": 145,
+      "reveal_id": "024_00",
+      "passenger_id": 24,
+      "french": "Vous avez rencontré Alice & Hyoga.",
+      "english_auxiliary": "You have met Alice & Hyoga.",
+      "russian": "Вы встретили Алис и Хёгу.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 146,
+      "reveal_id": "024_01",
+      "passenger_id": 24,
+      "french": "Vous avez tenu tête à Alice.",
+      "english_auxiliary": "You stood up to Alice.",
+      "russian": "Вы дали отпор Алис.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 147,
+      "reveal_id": "024_02",
+      "passenger_id": 24,
+      "french": "Vous avez joué avec Hyoga.",
+      "english_auxiliary": "You played with Hyoga.",
+      "russian": "Вы поиграли с Хёгой.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 148,
+      "reveal_id": "025_00",
+      "passenger_id": 25,
+      "french": "Vous avez rencontré Ade.",
+      "english_auxiliary": "You have met Ade.",
+      "russian": "Вы встретили Аде.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 149,
+      "reveal_id": "025_01",
+      "passenger_id": 25,
+      "french": "Ade a tiré la Papesse, le Diable, la Maison-Dieu et la Justice.",
+      "english_auxiliary": "Ade drew the High Priestess, the Devil, the Tower and Judgment.",
+      "russian": "Аде вытянула Верховную жрицу, Дьявола, Башню и Справедливость.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 150,
+      "reveal_id": "025_02",
+      "passenger_id": 25,
+      "french": "Ade a laissé derrière elle des cornes de gazelle.",
+      "english_auxiliary": "Ade left gazelle horn pastries behind.",
+      "russian": "Аде оставила после себя рожки газели.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 151,
+      "reveal_id": "025_03",
+      "passenger_id": 25,
+      "french": "Ade a tiré la Justice, la Roue de la Fortune, la Force et l’Empereur.",
+      "english_auxiliary": "Ade drew Judgment Wheel of Fortune, Strength and the Emperor.",
+      "russian": "Аде вытянула Справедливость, Колесо Фортуны, Силу и Императора.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 152,
+      "reveal_id": "025_04",
+      "passenger_id": 25,
+      "french": "Vous n’avez pas parlé de votre frère avec Ade.",
+      "english_auxiliary": "You did not tell Ade about your brother.",
+      "russian": "Вы не поговорили с Аде о своём брате.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 153,
+      "reveal_id": "025_05",
+      "passenger_id": 25,
+      "french": "Ade a tiré la Papesse, l’Impératrice, le Soleil et la Lune.",
+      "english_auxiliary": "Ade drew the Priestess, the Empress, the Sun and the Moon.",
+      "russian": "Аде вытянула Верховную жрицу, Императрицу, Солнце и Луну.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 154,
+      "reveal_id": "025_06",
+      "passenger_id": 25,
+      "french": "Ade a tiré le Chariot, le Diable, le Bateleur et le Mat.",
+      "english_auxiliary": "Ade drew the Chariot, the Devil, the Magician and the Fool",
+      "russian": "Аде вытянула Колесницу, Дьявола, Мага и Шута.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 155,
+      "reveal_id": "025_07",
+      "passenger_id": 25,
+      "french": "Vous avez amorcé le dialogue.",
+      "english_auxiliary": "You started the conversation.",
+      "russian": "Вы начали разговор.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 156,
+      "reveal_id": "025_08",
+      "passenger_id": 25,
+      "french": "Ade a tiré la Justice et l’Ermite.",
+      "english_auxiliary": "Ade drew Judgment and the Hermit.",
+      "russian": "Аде вытянула Справедливость и Отшельника.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 157,
+      "reveal_id": "025_09",
+      "passenger_id": 25,
+      "french": "Ade a tiré l’Impératrice et le Pendu.",
+      "english_auxiliary": "Ade drew the Emperess and the Hanged Man.",
+      "russian": "Аде вытянула Императрицу и Повешенного.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 158,
+      "reveal_id": "025_10",
+      "passenger_id": 25,
+      "french": "Ade a tiré le Soleil.",
+      "english_auxiliary": "Ade drew the Sun.",
+      "russian": "Аде вытянула Солнце.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 159,
+      "reveal_id": "026_00",
+      "passenger_id": 26,
+      "french": "Vous avez rencontré Ultra Skaterz.",
+      "english_auxiliary": "You have met the Ultra Skaterz.",
+      "russian": "Вы встретили Ультра Скейтерз.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 160,
+      "reveal_id": "026_01",
+      "passenger_id": 26,
+      "french": "Vous n’avez pas aidé les Ultra Skaterz.",
+      "english_auxiliary": "You did not help the Ultra Skaterz.",
+      "russian": "Вы не помогли Ультра Скейтерз.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 161,
+      "reveal_id": "026_02",
+      "passenger_id": 26,
+      "french": "Vous avez retrouvé Ultra Jaune devant l’hôtel.",
+      "english_auxiliary": "You found Ultra Yellow in front of the hotel.",
+      "russian": "Вы нашли Ультра Жёлтую перед отелем.",
+      "status": "french_reviewed",
+      "before": "Вы нашли Ультра Жёлтого перед отелем.",
+      "decision": "FR elle/volatilisée в ultra-01-start-who подтверждают женщину; не вывод по цвету/имени. Все reviewed строки уже женского рода.",
+      "related_context": "026_skaterz_01/ultra-01-start-who"
+    },
+    {
+      "index": 162,
+      "reveal_id": "026_03",
+      "passenger_id": 26,
+      "french": "Vous avez retrouvé Ultra Jaune devant le Furiosa.",
+      "english_auxiliary": "You found Ultra Yellow at Furiosa.",
+      "russian": "Вы нашли Ультра Жёлтую перед «Фуриозой».",
+      "status": "french_reviewed",
+      "before": "Вы нашли Ультра Жёлтого перед Furiosa.",
+      "decision": "Женский род плюс уже установленное русское название бара.",
+      "related_context": "026_skaterz_01/ultra-01-start-who; ultra-01-drive"
+    },
+    {
+      "index": 163,
+      "reveal_id": "026_04",
+      "passenger_id": 26,
+      "french": "Vous avez retrouvé Ultra Jaune devant le parc.",
+      "english_auxiliary": "You found Ultra Yellow in the park.",
+      "russian": "Вы нашли Ультра Жёлтую перед парком.",
+      "status": "french_reviewed",
+      "before": "Вы нашли Ультра Жёлтого перед парком.",
+      "decision": "FR elle/volatilisée в ultra-01-start-who; все reviewed строки уже женского рода.",
+      "related_context": "026_skaterz_01/ultra-01-start-who"
+    },
+    {
+      "index": 164,
+      "reveal_id": "027_00",
+      "passenger_id": 27,
+      "french": "Vous avez rencontré Lucie & Émilie.",
+      "english_auxiliary": "You have met Lucie & Émilie.",
+      "russian": "Вы встретили Люси и Эмили.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 165,
+      "reveal_id": "027_01",
+      "passenger_id": 27,
+      "french": "Vous avez recroisé Lucie & Émilie.",
+      "english_auxiliary": "You ran into Lucie & Émilie again.",
+      "russian": "Вы снова встретили Люси и Эмили.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 166,
+      "reveal_id": "027_02",
+      "passenger_id": 27,
+      "french": "Vous avez conduit Lucie & Émilie une troisième fois.",
+      "english_auxiliary": "You drove Lucie & Émilie a third time.",
+      "russian": "Вы в третий раз везли Люси и Эмили.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 167,
+      "reveal_id": "027_03",
+      "passenger_id": 27,
+      "french": "Vous avez accepté de réfléchir à la proposition de Lucie & d’Émilie.",
+      "english_auxiliary": "You agreed to think about Lucie & Émilie’s proposal.",
+      "russian": "Вы согласились подумать над предложением Люси и Эмили.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 168,
+      "reveal_id": "027_04",
+      "passenger_id": 27,
+      "french": "Vous avez accepté d’aider Lucie & Émilie.",
+      "english_auxiliary": "You agreed to help Lucie & Émilie.",
+      "russian": "Вы согласились помочь Люси и Эмили.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 169,
+      "reveal_id": "028_00",
+      "passenger_id": 28,
+      "french": "Vous avez rencontré Carolina.",
+      "english_auxiliary": "You have met Carolina.",
+      "russian": "Вы встретили Каролину.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 170,
+      "reveal_id": "028_01",
+      "passenger_id": 28,
+      "french": "Vous avez accepté la proposition de Carolina.",
+      "english_auxiliary": "You accepted Carolina’s offer.",
+      "russian": "Вы приняли предложение Каролины.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 171,
+      "reveal_id": "029_00",
+      "passenger_id": 29,
+      "french": "Vous avez rencontré Jérôme.",
+      "english_auxiliary": "You have met Jérôme.",
+      "russian": "Вы встретили Жерома.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 172,
+      "reveal_id": "029_01",
+      "passenger_id": 29,
+      "french": "Vous avez recroisé Jérôme.",
+      "english_auxiliary": "You ran into Jérôme again.",
+      "russian": "Вы снова встретили Жерома.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 173,
+      "reveal_id": "029_02",
+      "passenger_id": 29,
+      "french": "Vous avez conduit Jérôme une troisième fois.",
+      "english_auxiliary": "You drove Jérôme a third time.",
+      "russian": "Вы в третий раз везли Жерома.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 174,
+      "reveal_id": "029_03",
+      "passenger_id": 29,
+      "french": "Vous ne vouliez pas savoir ce qu’était un trichiasis.",
+      "english_auxiliary": "You didn’t want to know what trichiasis was.",
+      "russian": "Вы не хотели знать, что такое трихиаз.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 175,
+      "reveal_id": "029_04",
+      "passenger_id": 29,
+      "french": "Vous avez malheureusement appris ce qu’était un trichiasis.",
+      "english_auxiliary": "You unfortunately learned what trichiasis was.",
+      "russian": "Вы, к несчастью, узнали, что такое трихиаз.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 176,
+      "reveal_id": "029_05",
+      "passenger_id": 29,
+      "french": "Jérôme semblait être un expert de Formule 1.",
+      "english_auxiliary": "Jérôme seemed to know a lot about Formula 1 racing.",
+      "russian": "Жером, похоже, разбирался в «Формуле-1».",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 177,
+      "reveal_id": "029_06",
+      "passenger_id": 29,
+      "french": "Vous avez été trop curieux.",
+      "english_auxiliary": "You were too curious.",
+      "russian": "Вы были слишком любопытны.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 178,
+      "reveal_id": "029_07",
+      "passenger_id": 29,
+      "french": "Vous avez essayé d’empêcher Jérôme de faire une connerie.",
+      "english_auxiliary": "You tried to keep Jérôme from doing something stupid.",
+      "russian": "Вы попытались удержать Жерома от глупости.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 179,
+      "reveal_id": "030_00",
+      "passenger_id": 30,
+      "french": "Vous avez rencontré Peter.",
+      "english_auxiliary": "You have met Peter.",
+      "russian": "Вы встретили Питера.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 180,
+      "reveal_id": "030_01",
+      "passenger_id": 30,
+      "french": "Vous vous êtes endormi.",
+      "english_auxiliary": "You fell asleep.",
+      "russian": "Вы заснули.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 181,
+      "reveal_id": "031_00",
+      "passenger_id": 31,
+      "french": "Vous avez rencontré Géraldine.",
+      "english_auxiliary": "You have met Géraldine.",
+      "russian": "Вы встретили Жеральдину.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 182,
+      "reveal_id": "031_01",
+      "passenger_id": 31,
+      "french": "Vous n’avez pas pris Anita dans votre taxi.",
+      "english_auxiliary": "You did not pick up Anita.",
+      "russian": "Вы не взяли Аниту в такси.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 183,
+      "reveal_id": "031_02",
+      "passenger_id": 31,
+      "french": "Géraldine vous a apprécié.",
+      "english_auxiliary": "Géraldine liked you.",
+      "russian": "Вы понравились Жеральдине.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 184,
+      "reveal_id": "031_03",
+      "passenger_id": 31,
+      "french": "Vous avez espionné Géraldine.",
+      "english_auxiliary": "You spied on Géraldine.",
+      "russian": "Вы шпионили за Жеральдиной.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 185,
+      "reveal_id": "032_00",
+      "passenger_id": 32,
+      "french": "Vous avez rencontré Anita.",
+      "english_auxiliary": "You have met Anita.",
+      "russian": "Вы встретили Аниту.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 186,
+      "reveal_id": "032_01",
+      "passenger_id": 32,
+      "french": "Vous n’avez pas pris Géraldine dans votre taxi.",
+      "english_auxiliary": "You did not pick up Géraldine.",
+      "russian": "Вы не взяли Жеральдину в такси.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 187,
+      "reveal_id": "032_02",
+      "passenger_id": 32,
+      "french": "Vous avez choisi de garder le silence…",
+      "english_auxiliary": "You chose to say nothing…",
+      "russian": "Вы решили промолчать…",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 188,
+      "reveal_id": "032_03",
+      "passenger_id": 32,
+      "french": "Vous avez dépassé les bornes avec Anita.",
+      "english_auxiliary": "You went too far with Anita.",
+      "russian": "Вы перешли границы с Анитой.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 189,
+      "reveal_id": "032_04",
+      "passenger_id": 32,
+      "french": "Vous avez été exemplaire avec Anita.",
+      "english_auxiliary": "You were perfect with Anita.",
+      "russian": "Вы вели себя безупречно с Анитой.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 190,
+      "reveal_id": "033_00",
+      "passenger_id": 33,
+      "french": "Vous avez rencontré Chiara.",
+      "english_auxiliary": "You have met Chiara.",
+      "russian": "Вы встретили Кьяру.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 191,
+      "reveal_id": "033_01",
+      "passenger_id": 33,
+      "french": "Vous avez fait attention à Chiara.",
+      "english_auxiliary": "You paid attention to Chiara.",
+      "russian": "Вы были внимательны к Кьяре.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 192,
+      "reveal_id": "033_02",
+      "passenger_id": 33,
+      "french": "Chiara vous a donné faim.",
+      "english_auxiliary": "Chiara made you hungry.",
+      "russian": "Кьяра пробудила у вас аппетит.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 193,
+      "reveal_id": "034_00",
+      "passenger_id": 34,
+      "french": "Vous avez rencontré Phil.",
+      "english_auxiliary": "You have met Phil.",
+      "russian": "Вы встретили Фила.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 194,
+      "reveal_id": "034_01",
+      "passenger_id": 34,
+      "french": "Vous avez dit à Phil le fond de votre pensée.",
+      "english_auxiliary": "You were straight with Phil.",
+      "russian": "Вы высказали Филу всё, что думаете.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 195,
+      "reveal_id": "034_02",
+      "passenger_id": 34,
+      "french": "Vous avez ignoré Phil.",
+      "english_auxiliary": "You ignored Phil.",
+      "russian": "Вы не обратили внимания на Фила.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 196,
+      "reveal_id": "035_00",
+      "passenger_id": 35,
+      "french": "Vous avez rencontré Sylvain & Sylvie.",
+      "english_auxiliary": "You have met Sylvain & Sylvie.",
+      "russian": "Вы встретили Сильвена и Сильви.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 197,
+      "reveal_id": "035_01",
+      "passenger_id": 35,
+      "french": "Vous avez écouté Sylvie.",
+      "english_auxiliary": "You listened to Sylvie.",
+      "russian": "Вы выслушали Сильви.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 198,
+      "reveal_id": "036_00",
+      "passenger_id": 36,
+      "french": "Vous avez rencontré Sean.",
+      "english_auxiliary": "You have met Sean.",
+      "russian": "Вы встретили Шона.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 199,
+      "reveal_id": "036_01",
+      "passenger_id": 36,
+      "french": "Vous avez été franc avec Sean.",
+      "english_auxiliary": "You were honest with Sean.",
+      "russian": "Вы были откровенны с Шоном.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 200,
+      "reveal_id": "036_02",
+      "passenger_id": 36,
+      "french": "Vous avez aidé Sean.",
+      "english_auxiliary": "You helped Sean.",
+      "russian": "Вы помогли Шону.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 201,
+      "reveal_id": "037_00",
+      "passenger_id": 37,
+      "french": "Vous avez rencontré Shinji.",
+      "english_auxiliary": "You have met Shinji.",
+      "russian": "Вы встретили Синдзи.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 202,
+      "reveal_id": "037_01",
+      "passenger_id": 37,
+      "french": "Vous avez repensé à votre rencontre avec Shinji.",
+      "english_auxiliary": "You thought about when you met Shinji.",
+      "russian": "Вы вспомнили свою встречу с Синдзи.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 203,
+      "reveal_id": "040_00",
+      "passenger_id": 40,
+      "french": "Vous avez rencontré Crouky.",
+      "english_auxiliary": "You have met Crouky.",
+      "russian": "Вы встретили Круки.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 204,
+      "reveal_id": "040_01",
+      "passenger_id": 40,
+      "french": "Vous avez conduit Crouky jusqu’à la gare Saint-Lazare.",
+      "english_auxiliary": "You drove Crouky to Saint-Lazare station.",
+      "russian": "Вы довезли Круки до вокзала Сен-Лазар.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 205,
+      "reveal_id": "041_00",
+      "passenger_id": 41,
+      "french": "Vous avez rencontré Francine.",
+      "english_auxiliary": "You have met Francine.",
+      "russian": "Вы встретили Франсин.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 206,
+      "reveal_id": "041_01",
+      "passenger_id": 41,
+      "french": "Vous avez dit à Francine la vérité sur son chat.",
+      "english_auxiliary": "You told Francine the truth about her cat.",
+      "russian": "Вы сказали Франсин правду о её коте.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 207,
+      "reveal_id": "041_02",
+      "passenger_id": 41,
+      "french": "Vous n’avez pas dit à Francine la vérité sur son chat.",
+      "english_auxiliary": "You did not tell Francine the truth about her cat.",
+      "russian": "Вы не сказали Франсин правду о её коте.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 208,
+      "reveal_id": "041_03",
+      "passenger_id": 41,
+      "french": "Vous avez brisé le cœur de Francine.",
+      "english_auxiliary": "You broke Francine’s heart.",
+      "russian": "Вы разбили Франсин сердце.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 209,
+      "reveal_id": "042_00",
+      "passenger_id": 42,
+      "french": "Vous avez rencontré Djena.",
+      "english_auxiliary": "You have met Djena.",
+      "russian": "Вы встретили Джену.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 210,
+      "reveal_id": "042_01",
+      "passenger_id": 42,
+      "french": "Vous avez énervé Djena.",
+      "english_auxiliary": "You made Djena angry.",
+      "russian": "Вы вывели Джену из себя.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 211,
+      "reveal_id": "042_02",
+      "passenger_id": 42,
+      "french": "Djena s’est excusée de vous avoir parlé de la mort de sa patiente.",
+      "english_auxiliary": "Djena apologized for telling you about the death of her female patient.",
+      "russian": "Джена извинилась за то, что рассказала вам о смерти своей пациентки.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 212,
+      "reveal_id": "042_03",
+      "passenger_id": 42,
+      "french": "Vous avez repensé à votre rencontre avec Djena.",
+      "english_auxiliary": "You thought about when you met Djena.",
+      "russian": "Вы вспомнили свою встречу с Дженой.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 213,
+      "reveal_id": "043_00",
+      "passenger_id": 43,
+      "french": "Vous avez rencontré Jonas.",
+      "english_auxiliary": "You have met Jonas.",
+      "russian": "Вы встретили Йонаса.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 214,
+      "reveal_id": "043_01",
+      "passenger_id": 43,
+      "french": "Vous aviez compris que Jonas était programmeur.",
+      "english_auxiliary": "You understood Jonas was a programmer.",
+      "russian": "Вы догадались, что Йонас программист.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 215,
+      "reveal_id": "043_02",
+      "passenger_id": 43,
+      "french": "Vous avez parlé franchement de votre foi avec Jonas.",
+      "english_auxiliary": "You were straight with Jonas about your beliefs.",
+      "russian": "Вы откровенно поговорили с Йонасом о своей вере.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 216,
+      "reveal_id": "043_03",
+      "passenger_id": 43,
+      "french": "Vous avez repensé à votre rencontre avec Jonas.",
+      "english_auxiliary": "You thought about when you met Jonas.",
+      "russian": "Вы вспомнили свою встречу с Йонасом.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 217,
+      "reveal_id": "044_00",
+      "passenger_id": 44,
+      "french": "Vous avez rencontré Chris.",
+      "english_auxiliary": "You have met Chris.",
+      "russian": "Вы встретили Криса.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 218,
+      "reveal_id": "044_01",
+      "passenger_id": 44,
+      "french": "Vous avez viré Chris de votre taxi.",
+      "english_auxiliary": "You threw Chris out of your cab.",
+      "russian": "Вы выставили Криса из такси.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 219,
+      "reveal_id": "044_02",
+      "passenger_id": 44,
+      "french": "Vous avez malgré tout conduit Chris chez Carolina.",
+      "english_auxiliary": "Despite everything, you drove Chris to Carolina’s.",
+      "russian": "Вы всё равно отвезли Криса к Каролине.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 220,
+      "reveal_id": "044_03",
+      "passenger_id": 44,
+      "french": "Vous avez malgré tout amené Chris à destination.",
+      "english_auxiliary": "Despite everything, you drove Chris where he was going.",
+      "russian": "Вы всё равно довезли Криса до места.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 221,
+      "reveal_id": "045_00",
+      "passenger_id": 45,
+      "french": "Vous avez rencontré Véronique.",
+      "english_auxiliary": "You have met Véronique.",
+      "russian": "Вы встретили Веронику.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 222,
+      "reveal_id": "045_01",
+      "passenger_id": 45,
+      "french": "Vous avez gardé le silence durant votre trajet.",
+      "english_auxiliary": "You said nothing during the trip.",
+      "russian": "Вы промолчали всю поездку.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 223,
+      "reveal_id": "045_02",
+      "passenger_id": 45,
+      "french": "Elle s’est pris un vent durant votre trajet.",
+      "english_auxiliary": "Véronique faced a negative answer during your trip.",
+      "russian": "Веронику отшили во время вашей поездки.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 224,
+      "reveal_id": "046_00",
+      "passenger_id": 46,
+      "french": "Vous avez rencontré Shohreh.",
+      "english_auxiliary": "You have met Shohreh.",
+      "russian": "Вы встретили Шохре.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 225,
+      "reveal_id": "046_01",
+      "passenger_id": 46,
+      "french": "Vous n’avez rien entendu dans la fréquence fantôme de Shohreh.",
+      "english_auxiliary": "You heard nothing on Shohreh’s ghost station.",
+      "russian": "Вы ничего не услышали на призрачной частоте Шохре.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 226,
+      "reveal_id": "046_02",
+      "passenger_id": 46,
+      "french": "Vous avez entendu quelque chose sur la fréquence fantôme de Shohreh.",
+      "english_auxiliary": "You heard something on Shohreh’s ghost station.",
+      "russian": "Вы что-то услышали на призрачной частоте Шохре.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 227,
+      "reveal_id": "046_03",
+      "passenger_id": 46,
+      "french": "Vous avez découvert que Shohreh a obtenu la médaille Fields.",
+      "english_auxiliary": "You found out Shohreh won the Fields medal.",
+      "russian": "Вы узнали, что Шохре получила Филдсовскую медаль.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 228,
+      "reveal_id": "047_00",
+      "passenger_id": 47,
+      "french": "Vous avez rencontré Amélie.",
+      "english_auxiliary": "You have met Amélie.",
+      "russian": "Вы встретили Амели.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 229,
+      "reveal_id": "047_01",
+      "passenger_id": 47,
+      "french": "Vous n’avez pas dévisagé Amélie au début du trajet.",
+      "english_auxiliary": "You did not so much as glance at Amélie at the beginning of the trip.",
+      "russian": "Вы не рассматривали Амели в начале поездки.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 230,
+      "reveal_id": "047_02",
+      "passenger_id": 47,
+      "french": "Vous avez menti à Amélie.",
+      "english_auxiliary": "You lied to Amélie.",
+      "russian": "Вы солгали Амели.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 231,
+      "reveal_id": "047_03",
+      "passenger_id": 47,
+      "french": "Vous avez été honnête avec Amélie.",
+      "english_auxiliary": "You were honest with Amélie.",
+      "russian": "Вы были честны с Амели.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 232,
+      "reveal_id": "047_04",
+      "passenger_id": 47,
+      "french": "Vous avez préféré ne pas répondre aux questions d’Amélie.",
+      "english_auxiliary": "You chose not to answer Amélie’s questions.",
+      "russian": "Вы предпочли не отвечать на вопросы Амели.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 233,
+      "reveal_id": "047_05",
+      "passenger_id": 47,
+      "french": "Amélie vous a aidé dans votre enquête.",
+      "english_auxiliary": "Amélie helped you with your investigation.",
+      "russian": "Амели помогла вам в расследовании.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 234,
+      "reveal_id": "051_00",
+      "passenger_id": 51,
+      "french": "Vous avez rencontré Léonie.",
+      "english_auxiliary": "You have met Léonie.",
+      "russian": "Вы встретили Леони.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 235,
+      "reveal_id": "051_01",
+      "passenger_id": 51,
+      "french": "Vous avez gardé le silence durant votre trajet avec Léonie.",
+      "english_auxiliary": "You said nothing during Léonie’s trip.",
+      "russian": "Вы промолчали всю поездку с Леони.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 236,
+      "reveal_id": "051_02",
+      "passenger_id": 51,
+      "french": "Léonie n’a pas besoin de votre pitié.",
+      "english_auxiliary": "Léonie doesn’t need your pity.",
+      "russian": "Леони не нужна ваша жалость.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 237,
+      "reveal_id": "051_03",
+      "passenger_id": 51,
+      "french": "Vous n’avez pas caché votre ennui face à la thèse de Léonie.",
+      "english_auxiliary": "You let it show you were bored with Léonie’s thesis topic.",
+      "russian": "Вы дали понять, что тема диссертации Леони вам скучна.",
+      "status": "french_reviewed",
+      "before": "Вы не скрыли скуку, слушая тему диссертации Леони.",
+      "decision": "«Слушая тему диссертации» — неестественная сочетаемость. Смысл ennui face à la thèse сохраняется.",
+      "related_context": "051_leonie_01"
+    },
+    {
+      "index": 238,
+      "reveal_id": "051_04",
+      "passenger_id": 51,
+      "french": "Vous avez fait écouter de la musique classique à Léonie.",
+      "english_auxiliary": "You played Léonie classical music.",
+      "russian": "Вы включили Леони классическую музыку.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 239,
+      "reveal_id": "051_05",
+      "passenger_id": 51,
+      "french": "Vous avez fait écouter du jazz à Léonie.",
+      "english_auxiliary": "You played Léonie jazz.",
+      "russian": "Вы включили Леони джаз.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 240,
+      "reveal_id": "051_06",
+      "passenger_id": 51,
+      "french": "Vous avez fait écouter du rock à Léonie.",
+      "english_auxiliary": "You played Léonie rock music.",
+      "russian": "Вы включили Леони рок.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 241,
+      "reveal_id": "051_07",
+      "passenger_id": 51,
+      "french": "Vous avez fait écouter de la tribal house à Léonie… et elle a adoré.",
+      "english_auxiliary": "You played Léonie tribal house … and she loved it.",
+      "russian": "Вы включили Леони трайбл-хаус… и ей очень понравилось.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 242,
+      "reveal_id": "051_08",
+      "passenger_id": 51,
+      "french": "Léonie a énormément apprécié votre attitude.",
+      "english_auxiliary": "Léonie really appreciated your attitude.",
+      "russian": "Леони очень понравилось, как вы к ней отнеслись.",
+      "status": "french_reviewed",
+      "before": "Леони очень оценила ваше отношение.",
+      "decision": "«Леони очень оценила» — русская калька с apprécié. Интенсивность énormément сохранить естественным оборотом.",
+      "related_context": "051_leonie_01"
+    },
+    {
+      "index": 243,
+      "reveal_id": "051_09",
+      "passenger_id": 51,
+      "french": "Vous avez entendu l’une des meilleures chansons des années 80.",
+      "english_auxiliary": "You heard one of the best ’80s songs.",
+      "russian": "Вы услышали одну из лучших песен 80-х.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 244,
+      "reveal_id": "052_00",
+      "passenger_id": 52,
+      "french": "Vous avez rencontré Childéric.",
+      "english_auxiliary": "You have met Childéric.",
+      "russian": "Вы встретили Шильдерика.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 245,
+      "reveal_id": "052_01",
+      "passenger_id": 52,
+      "french": "Vous avez joué le jeu autant que possible avec Childéric.",
+      "english_auxiliary": "You did your best to play along with Childéric.",
+      "russian": "Вы старались во всём подыгрывать Шильдерику.",
+      "status": "french_reviewed",
+      "before": "Вы играли с Шильдериком, как только могли.",
+      "decision": "Jouer le jeu в сцене косплеера: поддерживать его рыцарскую роль, не отдельная настольная игра. «Вы играли … как только могли» — буквальная и неестественная формулировка.",
+      "related_context": "052_childeric_01"
+    },
+    {
+      "index": 246,
+      "reveal_id": "052_02",
+      "passenger_id": 52,
+      "french": "Vous vous êtes souvenu de l’existence des Gravias.",
+      "english_auxiliary": "You recalled the existence of Gravias.",
+      "russian": "Вы вспомнили о существовании гравий.",
+      "status": "french_reviewed",
+      "before": "Вы вспомнили о существовании Гравиасов.",
+      "decision": "Gravias — вымышленная раса гравий из005/052, уже «гравия/гравии» в контексте, не новое собственное имя «Гравиасы».",
+      "related_context": "052_childeric_01/childeric-01-hugo"
+    },
+    {
+      "index": 247,
+      "reveal_id": "053_00",
+      "passenger_id": 53,
+      "french": "Vous avez rencontré Camille.",
+      "english_auxiliary": "You have met Camille.",
+      "russian": "Вы встретили Камий.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 248,
+      "reveal_id": "053_01",
+      "passenger_id": 53,
+      "french": "Ça a mal commencé avec Camille…",
+      "english_auxiliary": "Things didn’t go so well at first with Camille…",
+      "russian": "С Камий всё началось плохо…",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 249,
+      "reveal_id": "053_02",
+      "passenger_id": 53,
+      "french": "… et ça s’est mal terminé aussi.",
+      "english_auxiliary": "They didn’t end up so well either.",
+      "russian": "…и закончилось тоже плохо.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 250,
+      "reveal_id": "053_03",
+      "passenger_id": 53,
+      "french": "Vous avez été le plus patient possible avec Camille.",
+      "english_auxiliary": "You were as patient as possible with Camille.",
+      "russian": "Вы были максимально терпеливы с Камий.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 251,
+      "reveal_id": "053_04",
+      "passenger_id": 53,
+      "french": "Vous avez entendu le pitch de Camille.",
+      "english_auxiliary": "You listened to Camille’s pitch.",
+      "russian": "Вы выслушали питч Камий.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 252,
+      "reveal_id": "053_05",
+      "passenger_id": 53,
+      "french": "Vous avez insulté Camille.",
+      "english_auxiliary": "You insulted Camille.",
+      "russian": "Вы оскорбили Камий.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 253,
+      "reveal_id": "054_00",
+      "passenger_id": 54,
+      "french": "Vous avez rencontré Ludivine.",
+      "english_auxiliary": "You have met Ludivine.",
+      "russian": "Вы встретили Людивин.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 254,
+      "reveal_id": "054_01",
+      "passenger_id": 54,
+      "french": "Ça a mal commencé avec Ludivine…",
+      "english_auxiliary": "Things didn’t go so well at first with Ludivine…",
+      "russian": "С Людивин всё началось плохо…",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 255,
+      "reveal_id": "054_02",
+      "passenger_id": 54,
+      "french": "… mais ça s’est bien terminé.",
+      "english_auxiliary": "… but they ended up OK.",
+      "russian": "…но закончилось хорошо.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 256,
+      "reveal_id": "054_03",
+      "passenger_id": 54,
+      "french": "Vous avez souvent interrompu Ludivine.",
+      "english_auxiliary": "You interrupted Ludivine a lot.",
+      "russian": "Вы часто перебивали Людивин.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 257,
+      "reveal_id": "054_04",
+      "passenger_id": 54,
+      "french": "Vous avez avoué à Ludivine être la victime du tueur.",
+      "english_auxiliary": "You confessed to Ludivine you were one of the killer’s victims.",
+      "russian": "Вы признались Людивин, что стали жертвой убийцы.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 258,
+      "reveal_id": "055_00",
+      "passenger_id": 55,
+      "french": "Vous avez rencontré Julian.",
+      "english_auxiliary": "You have met Julian.",
+      "russian": "Вы встретили Жюльяна.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 259,
+      "reveal_id": "055_01",
+      "passenger_id": 55,
+      "french": "Vous avez demandé de l’aide à Julian.",
+      "english_auxiliary": "You asked Julian to help you.",
+      "russian": "Вы попросили Жюльяна помочь.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 260,
+      "reveal_id": "055_02",
+      "passenger_id": 55,
+      "french": "Vous avez dit la vérité à Julian.",
+      "english_auxiliary": "You told Julian the truth.",
+      "russian": "Вы сказали Жюльяну правду.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 261,
+      "reveal_id": "055_03",
+      "passenger_id": 55,
+      "french": "Vous avez préféré mentir à Julian.",
+      "english_auxiliary": "You decided to lie to Julian.",
+      "russian": "Вы предпочли солгать Жюльяну.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 262,
+      "reveal_id": "055_04",
+      "passenger_id": 55,
+      "french": "Vous avez reçu des documents de la part de Julian.",
+      "english_auxiliary": "You got documents from Julian.",
+      "russian": "Вы получили документы от Жюльяна.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 263,
+      "reveal_id": "056_00",
+      "passenger_id": 56,
+      "french": "Vous avez rencontré Kader.",
+      "english_auxiliary": "You have met Kader.",
+      "russian": "Вы встретили Кадера.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 264,
+      "reveal_id": "056_01",
+      "passenger_id": 56,
+      "french": "Kader vous a appris une insulte très colorée.",
+      "english_auxiliary": "Kader taught you a very colorful insult.",
+      "russian": "Кадер научил вас очень красочному ругательству.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 265,
+      "reveal_id": "056_02",
+      "passenger_id": 56,
+      "french": "Kader vous a dit qu’il sortait avec une flic.",
+      "english_auxiliary": "Kader told you he was dating a cop.",
+      "russian": "Кадер сказал, что встречается с копшей.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 266,
+      "reveal_id": "056_03",
+      "passenger_id": 56,
+      "french": "Kader vous a révélé qu’il lisait « Le Comte de Monte-Cristo ».",
+      "english_auxiliary": "Kader told you he was reading The Count of Monte Cristo.",
+      "russian": "Кадер признался, что читает «Графа Монте-Кристо».",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 267,
+      "reveal_id": "057_00",
+      "passenger_id": 57,
+      "french": "Vous avez rencontré Annabelle.",
+      "english_auxiliary": "You have met Annabelle.",
+      "russian": "Вы встретили Аннабель.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 268,
+      "reveal_id": "057_01",
+      "passenger_id": 57,
+      "french": "Annabelle n’a pas apprécié votre entrée en matière…",
+      "english_auxiliary": "Annabelle didn’t appreciate your icebreaker.",
+      "russian": "Аннабель не понравилось, как вы завели разговор…",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 269,
+      "reveal_id": "057_02",
+      "passenger_id": 57,
+      "french": "… Et elle vous l’a fait savoir à la fin de la course.",
+      "english_auxiliary": "… and let you know at the end of the ride.",
+      "russian": "…и она дала вам это понять в конце поездки.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 270,
+      "reveal_id": "057_03",
+      "passenger_id": 57,
+      "french": "Vous avez aidé Annabelle à raccrocher.",
+      "english_auxiliary": "You helped Annabelle keep it together.",
+      "russian": "Вы помогли Аннабель положить трубку.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 271,
+      "reveal_id": "057_04",
+      "passenger_id": 57,
+      "french": "Annabelle a fait du yoga.",
+      "english_auxiliary": "Annabelle did yoga.",
+      "russian": "Аннабель занялась йогой.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 272,
+      "reveal_id": "057_05",
+      "passenger_id": 57,
+      "french": "Vous avez fait écouter la fréquence fantôme à Annabelle.",
+      "english_auxiliary": "You played Annabelle the ghost station.",
+      "russian": "Вы включили Аннабель призрачную частоту.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 273,
+      "reveal_id": "057_06",
+      "passenger_id": 57,
+      "french": "Annabelle vous a parlé de ce groupe de rock qui a changé sa vie.",
+      "english_auxiliary": "Annabelle told you about the band that saved her life.",
+      "russian": "Аннабель рассказала вам о рок-группе, которая изменила её жизнь.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 274,
+      "reveal_id": "058_00",
+      "passenger_id": 58,
+      "french": "Vous avez rencontré Agnès.",
+      "english_auxiliary": "You have met Agnès.",
+      "russian": "Вы встретили Аньес.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 275,
+      "reveal_id": "058_01",
+      "passenger_id": 58,
+      "french": "Vous avez parlé de François de la Nérée à Agnès.",
+      "english_auxiliary": "You told Agnès about François de la Nérée.",
+      "russian": "Вы рассказали Аньес о Франсуа де ла Нере.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 276,
+      "reveal_id": "058_02",
+      "passenger_id": 58,
+      "french": "Vous avez été à son écoute durant tout le trajet.",
+      "english_auxiliary": "You listened attentively throughout the whole ride.",
+      "russian": "Вы слушали её всю дорогу.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 277,
+      "reveal_id": "059_00",
+      "passenger_id": 59,
+      "french": "Vous avez rencontré Pierrot.",
+      "english_auxiliary": "You have met Pierrot.",
+      "russian": "Вы встретили Пьеро.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 278,
+      "reveal_id": "059_01",
+      "passenger_id": 59,
+      "french": "Pierrot vous a annoncé qu’il était gay.",
+      "english_auxiliary": "Pierrot told you he was gay.",
+      "russian": "Пьеро сказал вам, что он гей.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 279,
+      "reveal_id": "059_02",
+      "passenger_id": 59,
+      "french": "Pierrot vous a parlé de James.",
+      "english_auxiliary": "Pierrot told you about James.",
+      "russian": "Пьеро рассказал вам о Джеймсе.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 280,
+      "reveal_id": "059_03",
+      "passenger_id": 59,
+      "french": "Pierrot a vomi.",
+      "english_auxiliary": "Pierrot threw up.",
+      "russian": "Пьеро вырвало.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 281,
+      "reveal_id": "059_04",
+      "passenger_id": 59,
+      "french": "Pierrot a revomi.",
+      "english_auxiliary": "Pierrot threw up again.",
+      "russian": "Пьеро вырвало ещё раз.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 282,
+      "reveal_id": "059_05",
+      "passenger_id": 59,
+      "french": "Vous avez conseillé à Pierrot de parler à ses collègues.",
+      "english_auxiliary": "You advised Pierrot to talk to his colleagues.",
+      "russian": "Вы посоветовали Пьеро поговорить с коллегами.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 283,
+      "reveal_id": "059_06",
+      "passenger_id": 59,
+      "french": "Vous avez conseillé à Pierrot de changer de métier.",
+      "english_auxiliary": "You advised Pierrot to change professions.",
+      "russian": "Вы посоветовали Пьеро сменить работу.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 284,
+      "reveal_id": "059_07",
+      "passenger_id": 59,
+      "french": "Vous avez conseillé à Pierrot de partir.",
+      "english_auxiliary": "You advised Pierrot to leave.",
+      "russian": "Вы посоветовали Пьеро уехать.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 285,
+      "reveal_id": "059_08",
+      "passenger_id": 59,
+      "french": "Vous avez déposé Pierrot chez lui.",
+      "english_auxiliary": "You dropped Pierrot off at his place.",
+      "russian": "Вы высадили Пьеро у его дома.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 286,
+      "reveal_id": "059_09",
+      "passenger_id": 59,
+      "french": "Vous avez déposé Pierrot au bar avec ses collègues.",
+      "english_auxiliary": "You dropped Pierrot off with his colleagues.",
+      "russian": "Вы высадили Пьеро у бара, где были его коллеги.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 287,
+      "reveal_id": "060_00",
+      "passenger_id": 60,
+      "french": "Vous avez rencontré Mireille.",
+      "english_auxiliary": "You have met Mireille.",
+      "russian": "Вы встретили Мирей.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 288,
+      "reveal_id": "060_01",
+      "passenger_id": 60,
+      "french": "Vous avez fait un arrêt sur le pont Mirabeau.",
+      "english_auxiliary": "You stopped on the Pont Mirabeau.",
+      "russian": "Вы остановились на мосту Мирабо.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 289,
+      "reveal_id": "060_02",
+      "passenger_id": 60,
+      "french": "Mireille vous a récité une ligne d’Apollinaire.",
+      "english_auxiliary": "She recited a line of an Apollinaire poem.",
+      "russian": "Мирей прочла вам строку Аполлинера.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 290,
+      "reveal_id": "060_03",
+      "passenger_id": 60,
+      "french": "Vous avez fait un arrêt au cimetière du Montparnasse.",
+      "english_auxiliary": "You stopped at the Montparnasse cemetery.",
+      "russian": "Вы остановились у кладбища Монпарнас.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 291,
+      "reveal_id": "060_04",
+      "passenger_id": 60,
+      "french": "Mireille vous a parlé de son mari et de son amant…",
+      "english_auxiliary": "She told you about her husband and her lover.",
+      "russian": "Мирей рассказала вам о муже и любовнике…",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 292,
+      "reveal_id": "060_05",
+      "passenger_id": 60,
+      "french": "Vous avez interrogé Mireille sur un de vos suspects.",
+      "english_auxiliary": "You asked Mireille a question about one of your suspects.",
+      "russian": "Вы расспросили Мирей об одном из подозреваемых.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 293,
+      "reveal_id": "060_06",
+      "passenger_id": 60,
+      "french": "Vous êtes arrivé au dernier moment à la gare.",
+      "english_auxiliary": "You got to the train station at the very last minute.",
+      "russian": "Вы приехали на вокзал в последний момент.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 294,
+      "reveal_id": "060_07",
+      "passenger_id": 60,
+      "french": "Vous êtes arrivé en avance à la gare.",
+      "english_auxiliary": "You got to the train station ahead of time.",
+      "russian": "Вы приехали на вокзал заранее.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 295,
+      "reveal_id": "061_00",
+      "passenger_id": 61,
+      "french": "Vous avez rencontré Denis.",
+      "english_auxiliary": "You have met Denis.",
+      "russian": "Вы встретили Дени.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 296,
+      "reveal_id": "061_01",
+      "passenger_id": 61,
+      "french": "Denis a compris que vous l’aviez reconnu.",
+      "english_auxiliary": "Denis knew you’d recognized him.",
+      "russian": "Дени понял, что вы его узнали.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 297,
+      "reveal_id": "061_02",
+      "passenger_id": 61,
+      "french": "Vous avez souhaité bonne chance à Denis.",
+      "english_auxiliary": "You wished Denis luck.",
+      "russian": "Вы пожелали Дени удачи.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 298,
+      "reveal_id": "061_03",
+      "passenger_id": 61,
+      "french": "Denis a tenté de vous expliquer pourquoi il n’est pas raciste.",
+      "english_auxiliary": "Denis tried to explain why he’s not racist.",
+      "russian": "Дени попытался объяснить, почему он не расист.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 299,
+      "reveal_id": "063_00",
+      "passenger_id": 63,
+      "french": "Vous avez rencontré Pauline.",
+      "english_auxiliary": "You have met Pauline.",
+      "russian": "Вы встретили Полин.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 300,
+      "reveal_id": "063_01",
+      "passenger_id": 63,
+      "french": "Vous avez été romantique.",
+      "english_auxiliary": "You chose romance.",
+      "russian": "Вы были романтичны.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 301,
+      "reveal_id": "063_02",
+      "passenger_id": 63,
+      "french": "Vous saviez où se trouvait l’île de la Réunion.",
+      "english_auxiliary": "You knew where Reunion Island was.",
+      "russian": "Полин объяснила вам, где находится остров Реюньон.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 302,
+      "reveal_id": "063_03",
+      "passenger_id": 63,
+      "french": "Pauline vous a demandé de faire demi-tour.",
+      "english_auxiliary": "Pauline asked you to turn around.",
+      "russian": "Полин попросила вас развернуться.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 303,
+      "reveal_id": "063_04",
+      "passenger_id": 63,
+      "french": "Vous avez demandé de l’aide à Pauline pour votre enquête.",
+      "english_auxiliary": "You asked Pauline to help you with your investigation.",
+      "russian": "Вы попросили Полин помочь вам с расследованием.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 304,
+      "reveal_id": "064_00",
+      "passenger_id": 64,
+      "french": "Vous avez rencontré Janet.",
+      "english_auxiliary": "You have met Janet.",
+      "russian": "Вы встретили Джанет.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 305,
+      "reveal_id": "064_01",
+      "passenger_id": 64,
+      "french": "Vous avez repensé à votre rencontre avec Janet.",
+      "english_auxiliary": "You thought about when you met Janet.",
+      "russian": "Вы вспомнили свою встречу с Джанет.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 306,
+      "reveal_id": "064_02",
+      "passenger_id": 64,
+      "french": "Vous avez revu Janet.",
+      "english_auxiliary": "You saw Janet again.",
+      "russian": "Вы снова увидели Джанет.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 307,
+      "reveal_id": "064_03",
+      "passenger_id": 64,
+      "french": "Vous pensez avoir entendu toute l’histoire de Janet.",
+      "english_auxiliary": "You thought you’d heard all of Janet’s story.",
+      "russian": "Вы думаете, что услышали всю историю Джанет.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 308,
+      "reveal_id": "064_04",
+      "passenger_id": 64,
+      "french": "Hyoga… Ce nom vous dit quelque chose…",
+      "english_auxiliary": "Hyoga … the name rings a bell…",
+      "russian": "Хёга… Это имя вам что-то говорит…",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 309,
+      "reveal_id": "064_05",
+      "passenger_id": 64,
+      "french": "Sean… Ce nom vous dit quelque chose…",
+      "english_auxiliary": "Sean … the name rings a bell…",
+      "russian": "Шон… Это имя вам что-то говорит…",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 310,
+      "reveal_id": "064_06",
+      "passenger_id": 64,
+      "french": "Annabelle… ?",
+      "english_auxiliary": "Annabelle…?",
+      "russian": "Аннабель…?",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 311,
+      "reveal_id": "064_07",
+      "passenger_id": 64,
+      "french": "Pauline… ?",
+      "english_auxiliary": "Pauline…?",
+      "russian": "Полин…?",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 312,
+      "reveal_id": "064_08",
+      "passenger_id": 64,
+      "french": "Vous avez retrouvé la fréquence de Janet.",
+      "english_auxiliary": "You found Janet’s station.",
+      "russian": "Вы поймали частоту Джанет.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 313,
+      "reveal_id": "064_09",
+      "passenger_id": 64,
+      "french": "Janet vous a donné un indice.",
+      "english_auxiliary": "Janet gave you a clue.",
+      "russian": "Джанет дала вам зацепку.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 314,
+      "reveal_id": "065_00",
+      "passenger_id": 65,
+      "french": "Vous avez rencontré Nina.",
+      "english_auxiliary": "You have met Nina.",
+      "russian": "Вы встретили Нину.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 315,
+      "reveal_id": "065_01",
+      "passenger_id": 65,
+      "french": "Vous avez laissé Nina tranquille.",
+      "english_auxiliary": "You let Nina be.",
+      "russian": "Вы оставили Нину в покое.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 316,
+      "reveal_id": "065_02",
+      "passenger_id": 65,
+      "french": "Nina s’est enfuie du taxi.",
+      "english_auxiliary": "Nina ran out of the cab.",
+      "russian": "Нина убежала из такси.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 317,
+      "reveal_id": "065_03",
+      "passenger_id": 65,
+      "french": "Vous avez ramené Nina au restaurant…",
+      "english_auxiliary": "You brought Nina back to the restaurant…",
+      "russian": "Вы отвезли Нину обратно в ресторан…",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 318,
+      "reveal_id": "065_04",
+      "passenger_id": 65,
+      "french": "… et Nina est arrivée trop tard.",
+      "english_auxiliary": "… and it was too late.",
+      "russian": "…и Нина приехала слишком поздно.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 319,
+      "reveal_id": "065_05",
+      "passenger_id": 65,
+      "french": "… et Nina est arrivée à temps.",
+      "english_auxiliary": "… and she got there in time.",
+      "russian": "…и Нина приехала вовремя.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 320,
+      "reveal_id": "066_00",
+      "passenger_id": 66,
+      "french": "Vous avez rencontré Pierre & Shaïne.",
+      "english_auxiliary": "You have met Pierre & Shaïne.",
+      "russian": "Вы встретили Пьера и Шаин.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 321,
+      "reveal_id": "066_01",
+      "passenger_id": 66,
+      "french": "Vous avez accepté de jouer avec Pierre & Shaïne.",
+      "english_auxiliary": "You agreed to play with Pierre & Shaïne.",
+      "russian": "Вы согласились поиграть с Пьером и Шаин.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 322,
+      "reveal_id": "066_02",
+      "passenger_id": 66,
+      "french": "Vous avez refusé de jouer avec Pierre & Shaïne.",
+      "english_auxiliary": "You refused to play with Pierre & Shaïne.",
+      "russian": "Вы отказались играть с Пьером и Шаин.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 323,
+      "reveal_id": "066_03",
+      "passenger_id": 66,
+      "french": "Vous avez terrassé Xenofex.",
+      "english_auxiliary": "You floored Xenofex.",
+      "russian": "Вы сразили Ксенофекса.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 324,
+      "reveal_id": "066_04",
+      "passenger_id": 66,
+      "french": "Vous avez été tué par Xenofex.",
+      "english_auxiliary": "You got killed by Xenofex.",
+      "russian": "Вас убил Ксенофекс.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 325,
+      "reveal_id": "066_05",
+      "passenger_id": 66,
+      "french": "Vous avez repensé à votre frère.",
+      "english_auxiliary": "You thought about your brother.",
+      "russian": "Вы вспомнили о своём брате.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 326,
+      "reveal_id": "067_00",
+      "passenger_id": 67,
+      "french": "Vous avez rencontré Mathieu.",
+      "english_auxiliary": "You have met Mathieu.",
+      "russian": "Вы встретили Матьё.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 327,
+      "reveal_id": "067_01",
+      "passenger_id": 67,
+      "french": "Vous avez repensé à votre rencontre avec Mathieu.",
+      "english_auxiliary": "You thought about when you met Mathieu.",
+      "russian": "Вы вспомнили свою встречу с Матьё.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 328,
+      "reveal_id": "067_02",
+      "passenger_id": 67,
+      "french": "Mathieu a parlé de son père…",
+      "english_auxiliary": "Mathieu talked about his father…",
+      "russian": "Матьё рассказал об отце…",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 329,
+      "reveal_id": "067_03",
+      "passenger_id": 67,
+      "french": "… et a évoqué sa douleur…",
+      "english_auxiliary": "… and about his pain…",
+      "russian": "…и о своей боли…",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 330,
+      "reveal_id": "067_04",
+      "passenger_id": 67,
+      "french": "… et vous l’avez déposé devant un bar.",
+      "english_auxiliary": "… and you dropped him off in front of a bar.",
+      "russian": "…и вы высадили его у бара.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 331,
+      "reveal_id": "067_05",
+      "passenger_id": 67,
+      "french": "… et vous l’avez déposé chez lui.",
+      "english_auxiliary": "… and you dropped him off at home.",
+      "russian": "…и вы высадили его у дома.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 332,
+      "reveal_id": "067_06",
+      "passenger_id": 67,
+      "french": "Mathieu a parlé de sa femme…",
+      "english_auxiliary": "Mathieu talked about his wife…",
+      "russian": "Матьё рассказал о своей жене…",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 333,
+      "reveal_id": "067_07",
+      "passenger_id": 67,
+      "french": "… et vous avez découvert la vérité.",
+      "english_auxiliary": "… and you found out the truth.",
+      "russian": "…и вы узнали правду.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 334,
+      "reveal_id": "067_08",
+      "passenger_id": 67,
+      "french": "… et il a disparu avec son bébé.",
+      "english_auxiliary": "… and he disappeared with his baby.",
+      "russian": "…и он исчез вместе с ребёнком.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 335,
+      "reveal_id": "068_00",
+      "passenger_id": 68,
+      "french": "Vous avez rencontré Sonny.",
+      "english_auxiliary": "You have met Sonny.",
+      "russian": "Вы встретили Сонни.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 336,
+      "reveal_id": "068_01",
+      "passenger_id": 68,
+      "french": "Sonny pense que vous êtes un chic type.",
+      "english_auxiliary": "Sonny thinks you’re a swell guy.",
+      "russian": "Сонни считает вас славным малым.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 337,
+      "reveal_id": "070_00",
+      "passenger_id": 70,
+      "french": "Vous avez rencontré Antoine.",
+      "english_auxiliary": "You have met Antoine.",
+      "russian": "Вы встретили Антуана.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 338,
+      "reveal_id": "070_01",
+      "passenger_id": 70,
+      "french": "Vous avez repensé à votre rencontre avec Antoine.",
+      "english_auxiliary": "You thought about when you met Antoine.",
+      "russian": "Вы вспомнили свою встречу с Антуаном.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 339,
+      "reveal_id": "070_02",
+      "passenger_id": 70,
+      "french": "Antoine a gagné au loto.",
+      "english_auxiliary": "Antoine won the lottery.",
+      "russian": "Антуан выиграл в лотерею.",
+      "status": "french_reviewed",
+      "before": "Антуан выиграл в лото.",
+      "decision": "Loto в этой сцене о крупном денежном выигрыше — лотерея. Утверждение, будто «лотерея» ошибочна только из-за слова loto, неверно. Русское «лото» допустимо как название, но требует согласования с диалогом.",
+      "related_context": "070_antoine_01/antoine-01-thequestion"
+    },
+    {
+      "index": 340,
+      "reveal_id": "070_03",
+      "passenger_id": 70,
+      "french": "Antoine a gagné 434 millions d’euros au loto.",
+      "english_auxiliary": "Antoine won 434 million euros playing the lottery.",
+      "russian": "Антуан выиграл в лотерею 434 миллиона евро.",
+      "status": "french_reviewed",
+      "before": "Антуан выиграл в лото 434 миллиона евро.",
+      "decision": "То же loto; сумму434 не менять под реальные тиражи/пределы выигрыша.",
+      "related_context": "070_antoine_01"
+    },
+    {
+      "index": 341,
+      "reveal_id": "070_04",
+      "passenger_id": 70,
+      "french": "Mais enfin, il est fou ?",
+      "english_auxiliary": "Well now, is he crazy?",
+      "russian": "Да он что, с ума сошёл?",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 342,
+      "reveal_id": "070_05",
+      "passenger_id": 70,
+      "french": "Punaise… 434 millions d’euros !",
+      "english_auxiliary": "Holy crap … 434 million euros!",
+      "russian": "Ничего себе… 434 миллиона евро!",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 343,
+      "reveal_id": "070_06",
+      "passenger_id": 70,
+      "french": "Antoine vous a aidé dans votre enquête.",
+      "english_auxiliary": "Antoine helped you with your investigation.",
+      "russian": "Антуан помог вам в расследовании.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 344,
+      "reveal_id": "071_00",
+      "passenger_id": 71,
+      "french": "Vous avez rencontré Marc & Sophie.",
+      "english_auxiliary": "You have met Marc & Sophie.",
+      "russian": "Вы встретили Марка и Софи.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 345,
+      "reveal_id": "071_01",
+      "passenger_id": 71,
+      "french": "Vous avez déposé Marc.",
+      "english_auxiliary": "You dropped Marc off.",
+      "russian": "Вы высадили Марка.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 346,
+      "reveal_id": "071_02",
+      "passenger_id": 71,
+      "french": "Vous avez déposé Sophie.",
+      "english_auxiliary": "You dropped Sophie off.",
+      "russian": "Вы высадили Софи.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 347,
+      "reveal_id": "072_00",
+      "passenger_id": 72,
+      "french": "Vous avez rencontré Pierrette.",
+      "english_auxiliary": "You have met Pierrette.",
+      "russian": "Вы встретили Пьеретт.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 348,
+      "reveal_id": "072_01",
+      "passenger_id": 72,
+      "french": "Vous avez repensé à votre rencontre avec Pierrette.",
+      "english_auxiliary": "You thought about when you met Pierrette.",
+      "russian": "Вы вспомнили свою встречу с Пьеретт.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 349,
+      "reveal_id": "072_02",
+      "passenger_id": 72,
+      "french": "Vous connaissiez déjà « La Pierre ».",
+      "english_auxiliary": "You already knew ‘La Pierre.’",
+      "russian": "Вы уже знали «Ла Пьер».",
+      "status": "french_reviewed",
+      "before": "Вы уже знали «La Pierre».",
+      "decision": "Тот же ресторан из031/032/071/072/076; русский канон закреплён в consistency.terms.",
+      "related_context": "072_pierrette_01; localization/consistency.json/terms"
+    },
+    {
+      "index": 350,
+      "reveal_id": "072_03",
+      "passenger_id": 72,
+      "french": "Vous avez dit la vérité à Pierrette.",
+      "english_auxiliary": "You told Pierrette the truth.",
+      "russian": "Вы сказали Пьеретт правду.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 351,
+      "reveal_id": "072_04",
+      "passenger_id": 72,
+      "french": "Vous avez menti à Pierrette.",
+      "english_auxiliary": "You lied to Pierrette.",
+      "russian": "Вы солгали Пьеретт.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 352,
+      "reveal_id": "072_05",
+      "passenger_id": 72,
+      "french": "Pierrette vous a proposé de monter…",
+      "english_auxiliary": "Pierrette invited you up…",
+      "russian": "Пьеретт предложила вам подняться…",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 353,
+      "reveal_id": "072_06",
+      "passenger_id": 72,
+      "french": "… et vous avez accepté.",
+      "english_auxiliary": "… and you accepted.",
+      "russian": "…и вы согласились.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 354,
+      "reveal_id": "072_07",
+      "passenger_id": 72,
+      "french": "… et vous avez refusé.",
+      "english_auxiliary": "… and you refused.",
+      "russian": "…и вы отказались.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 355,
+      "reveal_id": "072_08",
+      "passenger_id": 72,
+      "french": "Votre tête tourne.",
+      "english_auxiliary": "Your head is spinning.",
+      "russian": "У вас кружится голова.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 356,
+      "reveal_id": "073_00",
+      "passenger_id": 73,
+      "french": "Vous avez rencontré Myriam.",
+      "english_auxiliary": "You have met Myriam.",
+      "russian": "Вы встретили Мириам.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 357,
+      "reveal_id": "073_01",
+      "passenger_id": 73,
+      "french": "Vous ne vous rappelez pas de Myriam du tout.",
+      "english_auxiliary": "You don’t remember Myriam at all.",
+      "russian": "Вы совсем не помните Мириам.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 358,
+      "reveal_id": "073_02",
+      "passenger_id": 73,
+      "french": "Myriam a partagé l’histoire du petit garçon battu…",
+      "english_auxiliary": "Myriam tells you the story about the little boy who was beaten…",
+      "russian": "Мириам рассказала историю об избитом мальчике…",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 359,
+      "reveal_id": "073_03",
+      "passenger_id": 73,
+      "french": "… et elle s’est rendue à la police.",
+      "english_auxiliary": "… and she went to the police station.",
+      "russian": "…и пошла в полицию.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 360,
+      "reveal_id": "073_04",
+      "passenger_id": 73,
+      "french": "… et a décidé de ne rien dire.",
+      "english_auxiliary": "… and she decides not to say anything.",
+      "russian": "…и решила ничего не говорить.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 361,
+      "reveal_id": "073_05",
+      "passenger_id": 73,
+      "french": "Myriam vous a parlé de son amour pour le père…",
+      "english_auxiliary": "Myriam told you about her crush on the dad…",
+      "russian": "Мириам рассказала вам о своей влюблённости в отца ребёнка…",
+      "status": "french_reviewed",
+      "before": "Мириам рассказала вам о своей влюблённости в отца…",
+      "decision": "Она няня; во второй встрече влюблена в отца подопечного, не собственного отца. В диалоге перевод уже уточняет «отца ребёнка».",
+      "related_context": "073_myriam_02/myriam-02-start; myriam-02-invisible"
+    },
+    {
+      "index": 362,
+      "reveal_id": "073_06",
+      "passenger_id": 73,
+      "french": "… et vous vous en êtes mêlé.",
+      "english_auxiliary": "… and you got involved.",
+      "russian": "…и вы вмешались.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 363,
+      "reveal_id": "073_07",
+      "passenger_id": 73,
+      "french": "… et vous avez gardé vos distances.",
+      "english_auxiliary": "… and you kept your distance.",
+      "russian": "…и вы сохранили дистанцию.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 364,
+      "reveal_id": "073_08",
+      "passenger_id": 73,
+      "french": "Myriam a parlé du garçon flippant qu’elle garde…",
+      "english_auxiliary": "Myriam told you about the freaky boy she sits for…",
+      "russian": "Мириам рассказала о жутковатом мальчике, за которым присматривает…",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 365,
+      "reveal_id": "073_09",
+      "passenger_id": 73,
+      "french": "… et vous avez parlé de votre frère.",
+      "english_auxiliary": "… and you told her about your brother.",
+      "russian": "…и вы рассказали ей о своём брате.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 366,
+      "reveal_id": "073_10",
+      "passenger_id": 73,
+      "french": "… et vous avez préféré mentir.",
+      "english_auxiliary": "… and you decided to lie.",
+      "russian": "…и вы предпочли солгать.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 367,
+      "reveal_id": "074_00",
+      "passenger_id": 74,
+      "french": "Vous avez rencontré Émilia.",
+      "english_auxiliary": "You have met Émilia.",
+      "russian": "Вы встретили Эмилию.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 368,
+      "reveal_id": "074_01",
+      "passenger_id": 74,
+      "french": "Vous avez repensé à votre rencontre avec Émilia.",
+      "english_auxiliary": "You thought about when you met Émilia.",
+      "russian": "Вы вспомнили свою встречу с Эмилией.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 369,
+      "reveal_id": "074_02",
+      "passenger_id": 74,
+      "french": "Vous vous êtes occupé du problème d’Émilia.",
+      "english_auxiliary": "You took care of Émilia’s problem.",
+      "russian": "Вы занялись проблемой Эмилии.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 370,
+      "reveal_id": "074_03",
+      "passenger_id": 74,
+      "french": "Vous avez laissé Émilia gérer son problème toute seule.",
+      "english_auxiliary": "You let Émilia take care of her problem by herself.",
+      "russian": "Вы дали Эмилии самой справляться со своей проблемой.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 371,
+      "reveal_id": "074_04",
+      "passenger_id": 74,
+      "french": "Vous n’avez montré aucune pitié envers Émilia.",
+      "english_auxiliary": "You showed Émilia no pity.",
+      "russian": "Вы не проявили к Эмилии никакой жалости.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 372,
+      "reveal_id": "075_00",
+      "passenger_id": 75,
+      "french": "Vous avez rencontré Henri.",
+      "english_auxiliary": "You have met Henri.",
+      "russian": "Вы встретили Анри.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 373,
+      "reveal_id": "075_01",
+      "passenger_id": 75,
+      "french": "Vous avez viré Henri et Mouillette de votre taxi.",
+      "english_auxiliary": "You threw Henri and Mouillette out of your cab.",
+      "russian": "Вы выставили Анри и Муйетт из такси.",
+      "status": "french_reviewed",
+      "before": "Вы выставили Анри и Муйетта из такси.",
+      "decision": "Муйетт — собака женского пола; каноническое французское имя на согласный не превращать в мужскую склоняемую форму «Муйетта». В сцене Анри специально поправляет ошибочное «он» водителя.",
+      "related_context": "075_henri_01/henri-01-excuse; localization/consistency.json"
+    },
+    {
+      "index": 374,
+      "reveal_id": "075_02",
+      "passenger_id": 75,
+      "french": "Vous avez gagné la sympathie d’Henri.",
+      "english_auxiliary": "You got Henri to like you.",
+      "russian": "Вы завоевали симпатию Анри.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 375,
+      "reveal_id": "076_00",
+      "passenger_id": 76,
+      "french": "Vous avez rencontré Angélique.",
+      "english_auxiliary": "You have met Angélique.",
+      "russian": "Вы встретили Анжелику.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 376,
+      "reveal_id": "076_01",
+      "passenger_id": 76,
+      "french": "Vous avez entendu toutes ses histoires.",
+      "english_auxiliary": "You have heard all of her stories.",
+      "russian": "Вы услышали все её истории.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 377,
+      "reveal_id": "076_02",
+      "passenger_id": 76,
+      "french": "« HAMSTER DANS LE CUL ! »",
+      "english_auxiliary": "‘HAMSTER UP YOUR ASS!’",
+      "russian": "«ХОМЯК В ЖОПУ!»",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 378,
+      "reveal_id": "076_03",
+      "passenger_id": 76,
+      "french": "« SAC À FOUTRES ! »",
+      "english_auxiliary": "‘FELCHES!’",
+      "russian": "«МЕШОК СПЕРМЫ!»",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 379,
+      "reveal_id": "076_04",
+      "passenger_id": 76,
+      "french": "« OUTRE À PISSE ! »",
+      "english_auxiliary": "‘PISS-FILLED WATERSKIN!’",
+      "russian": "«БУРДЮК С МОЧОЙ!»",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 380,
+      "reveal_id": "076_05",
+      "passenger_id": 76,
+      "french": "« PHALLUS POURRI ! »",
+      "english_auxiliary": "‘ROTTEN PHALLUS!’",
+      "russian": "«ГНИЛОЙ ФАЛЛОС!»",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 381,
+      "reveal_id": "077_00",
+      "passenger_id": 77,
+      "french": "Vous avez rencontré Santa.",
+      "english_auxiliary": "You have met Santa.",
+      "russian": "Вы встретили Санту.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 382,
+      "reveal_id": "077_01",
+      "passenger_id": 77,
+      "french": "Vous avez repensé à votre rencontre avec Santa.",
+      "english_auxiliary": "You thought about when you met Santa.",
+      "russian": "Вы вспомнили свою встречу с Сантой.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 383,
+      "reveal_id": "077_02",
+      "passenger_id": 77,
+      "french": "Santa a parlé de votre frère.",
+      "english_auxiliary": "Santa talked about your brother.",
+      "russian": "Санта рассказал о вашем брате.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 384,
+      "reveal_id": "077_03",
+      "passenger_id": 77,
+      "french": "Vous avez retrouvé le traîneau de Santa.",
+      "english_auxiliary": "You found Santa’s sleigh.",
+      "russian": "Вы нашли сани Санты.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 385,
+      "reveal_id": "077_04",
+      "passenger_id": 77,
+      "french": "Vous n’avez pas retrouvé le traîneau de Santa.",
+      "english_auxiliary": "You did not find Santa’s sleigh.",
+      "russian": "Вы не нашли сани Санты.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 386,
+      "reveal_id": "090_00",
+      "passenger_id": 90,
+      "french": "Vous avez rencontré Houssine.",
+      "english_auxiliary": "You have met Houssine.",
+      "russian": "Вы встретили Уссина.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 387,
+      "reveal_id": "090_01",
+      "passenger_id": 90,
+      "french": "Vous avez repensé à votre rencontre avec Houssine.",
+      "english_auxiliary": "You thought about when you met Houssine.",
+      "russian": "Вы вспомнили свою встречу с Уссином.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 388,
+      "reveal_id": "090_02",
+      "passenger_id": 90,
+      "french": "L’Ange de la Mort ?",
+      "english_auxiliary": "The Angel of Death?",
+      "russian": "Ангел смерти?",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 389,
+      "reveal_id": "090_03",
+      "passenger_id": 90,
+      "french": "Le Marchand de Sable ?",
+      "english_auxiliary": "The Sandman?",
+      "russian": "Песочный человек?",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 390,
+      "reveal_id": "090_04",
+      "passenger_id": 90,
+      "french": "Le Juge ?",
+      "english_auxiliary": "The Judge?",
+      "russian": "Судья?",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 391,
+      "reveal_id": "090_05",
+      "passenger_id": 90,
+      "french": "Le Diable ?",
+      "english_auxiliary": "The Devil?",
+      "russian": "Дьявол?",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 392,
+      "reveal_id": "090_06",
+      "passenger_id": 90,
+      "french": "Busset ?",
+      "english_auxiliary": "Busset?",
+      "russian": "Бюссе?",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 393,
+      "reveal_id": "090_07",
+      "passenger_id": 90,
+      "french": "Julie ?",
+      "english_auxiliary": "Julie?",
+      "russian": "Жюли?",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 394,
+      "reveal_id": "096_00",
+      "passenger_id": 96,
+      "french": "Vous avez rencontré Gilda.",
+      "english_auxiliary": "You have met Gilda.",
+      "russian": "Вы встретили Гильду.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 395,
+      "reveal_id": "096_01",
+      "passenger_id": 96,
+      "french": "Vous avez rencontré Jésus Christ.",
+      "english_auxiliary": "You have met Jesus Christ.",
+      "russian": "Вы встретили Иисуса Христа.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 396,
+      "reveal_id": "096_02",
+      "passenger_id": 96,
+      "french": "Gilda vous a parlé de la Cité de Dieu.",
+      "english_auxiliary": "Gilda told you about the City of God.",
+      "russian": "Гильда рассказала вам о Граде Божием.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 397,
+      "reveal_id": "096_03",
+      "passenger_id": 96,
+      "french": "À chacun ses visions…",
+      "english_auxiliary": "To each their own visions…",
+      "russian": "У каждого свои видения…",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 398,
+      "reveal_id": "097_00",
+      "passenger_id": 97,
+      "french": "Vous avez rencontré Alexandre.",
+      "english_auxiliary": "You have met Alexandre.",
+      "russian": "Вы встретили Александра.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 399,
+      "reveal_id": "097_01",
+      "passenger_id": 97,
+      "french": "Vous avez repensé à votre rencontre avec Alexandre.",
+      "english_auxiliary": "You thought about when you met Alexandre.",
+      "russian": "Вы вспомнили свою встречу с Александром.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 400,
+      "reveal_id": "097_02",
+      "passenger_id": 97,
+      "french": "Vous avez réchauffé Alexandre.",
+      "english_auxiliary": "You warmed Alexandre up.",
+      "russian": "Вы согрели Александра.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 401,
+      "reveal_id": "097_03",
+      "passenger_id": 97,
+      "french": "Alexandre vous a parlé de Dan.",
+      "english_auxiliary": "Alexandre told you about Dan.",
+      "russian": "Александр рассказал вам о Дане.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 402,
+      "reveal_id": "099_00",
+      "passenger_id": 99,
+      "french": "Vous avez retrouvé votre boss.",
+      "english_auxiliary": "You saw your boss.",
+      "russian": "Вы встретились с боссом.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 403,
+      "reveal_id": "099_01",
+      "passenger_id": 99,
+      "french": "Vous avez gardé le silence avec votre boss.",
+      "english_auxiliary": "You said nothing to your boss.",
+      "russian": "Вы промолчали в разговоре с боссом.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 404,
+      "reveal_id": "099_02",
+      "passenger_id": 99,
+      "french": "Vous avez écouté les explications de votre boss.",
+      "english_auxiliary": "You listened to your boss’s explanations.",
+      "russian": "Вы выслушали объяснения босса.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 405,
+      "reveal_id": "099_03",
+      "passenger_id": 99,
+      "french": "Vous avez refusé d’écouter les explications de votre boss.",
+      "english_auxiliary": "You refused to listen to your boss’s explanations.",
+      "russian": "Вы отказались слушать объяснения босса.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 406,
+      "reveal_id": "099_04",
+      "passenger_id": 99,
+      "french": "Vous avez reçu un avertissement de votre boss.",
+      "english_auxiliary": "You got a warning from your boss.",
+      "russian": "Вы получили предупреждение от босса.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 407,
+      "reveal_id": "100_00",
+      "passenger_id": 100,
+      "french": "Vous avez rencontré le Lieutenant Busset.",
+      "english_auxiliary": "You have met Lieutenant Busset.",
+      "russian": "Вы встретили лейтенанта Бюссе.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 408,
+      "reveal_id": "100_01",
+      "passenger_id": 100,
+      "french": "Vous n’avez pas décroché lorsque Busset vous a appelé.",
+      "english_auxiliary": "You did not answer the phone when Busset called.",
+      "russian": "Вы не ответили, когда звонила Бюссе.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 409,
+      "reveal_id": "100_02",
+      "passenger_id": 100,
+      "french": "Lors de votre première rencontre avec Busset, vous avez gardé le silence.",
+      "english_auxiliary": "The first time you met, you said nothing.",
+      "russian": "При первой встрече с Бюссе вы промолчали.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 410,
+      "reveal_id": "100_03",
+      "passenger_id": 100,
+      "french": "« Sale pute. »",
+      "english_auxiliary": "‘Fucking bitch.’",
+      "russian": "«Грязная шлюха.»",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 411,
+      "reveal_id": "100_04",
+      "passenger_id": 100,
+      "french": "Vous avez révélé à Busset que le Juge vous a parlé d’elle.",
+      "english_auxiliary": "You informed Busset the Judge told you about her.",
+      "russian": "Вы сказали Бюссе, что Судья говорил вам о ней.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 412,
+      "reveal_id": "100_05",
+      "passenger_id": 100,
+      "french": "« Vous êtes des porcs. »",
+      "english_auxiliary": "‘You’re all pigs.’",
+      "russian": "«Вы все свиньи.»",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 413,
+      "reveal_id": "100_06",
+      "passenger_id": 100,
+      "french": "Busset vous a appelé Gandhi.",
+      "english_auxiliary": "Busset called you Gandhi.",
+      "russian": "Бюссе назвала вас Ганди.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 414,
+      "reveal_id": "100_07",
+      "passenger_id": 100,
+      "french": "« Allez vous faire foutre. »",
+      "english_auxiliary": "‘Go fuck yourself.’",
+      "russian": "«Идите на хуй.»",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 415,
+      "reveal_id": "100_08",
+      "passenger_id": 100,
+      "french": "Vous n’avez pas répondu à la provocation de Busset.",
+      "english_auxiliary": "You did not respond when Busset provoked you.",
+      "russian": "Вы не ответили на провокацию Бюссе.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 416,
+      "reveal_id": "200_00",
+      "passenger_id": 200,
+      "french": "Vous avez rencontré Ada.",
+      "english_auxiliary": "You have met Ada.",
+      "russian": "Вы встретили Аду.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 417,
+      "reveal_id": "200_01",
+      "passenger_id": 200,
+      "french": "Vous avez débattu avec Ada.",
+      "english_auxiliary": "You had an argument with Ada.",
+      "russian": "Вы поспорили с Адой.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 418,
+      "reveal_id": "203_00",
+      "passenger_id": 203,
+      "french": "Vous avez rencontré Milo.",
+      "english_auxiliary": "You have met Milo.",
+      "russian": "Вы встретили Майло.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 419,
+      "reveal_id": "203_01",
+      "passenger_id": 203,
+      "french": "Milo vous a parlé de Cuba.",
+      "english_auxiliary": "Milo told you about Cuba.",
+      "russian": "Майло рассказал вам о Кубе.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 420,
+      "reveal_id": "203_02",
+      "passenger_id": 203,
+      "french": "Milo vous a parlé de l'Afrique.",
+      "english_auxiliary": "Milo told you about Africa.",
+      "russian": "Майло рассказал вам об Африке.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 421,
+      "reveal_id": "203_03",
+      "passenger_id": 203,
+      "french": "Milo vous a parlé de la Pologne.",
+      "english_auxiliary": "Milo told you about Poland.",
+      "russian": "Майло рассказал вам о Польше.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 422,
+      "reveal_id": "205_00",
+      "passenger_id": 205,
+      "french": "Vous avez rencontré Chantal.",
+      "english_auxiliary": "You have met Chantal.",
+      "russian": "Вы встретили Шанталь.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 423,
+      "reveal_id": "205_01",
+      "passenger_id": 205,
+      "french": "Vous avez deviné son emploi.",
+      "english_auxiliary": "You guessed Chantal's work.",
+      "russian": "Вы угадали её работу.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 424,
+      "reveal_id": "206_00",
+      "passenger_id": 206,
+      "french": "Vous avez rencontré Amira.",
+      "english_auxiliary": "You have met Amira.",
+      "russian": "Вы встретили Амиру.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 425,
+      "reveal_id": "206_01",
+      "passenger_id": 206,
+      "french": "Amira a quitté votre taxi en colère.",
+      "english_auxiliary": "Amira left the cab angry.",
+      "russian": "Амира в гневе вышла из такси.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 426,
+      "reveal_id": "207_00",
+      "passenger_id": 207,
+      "french": "Vous avez rencontré Lola.",
+      "english_auxiliary": "You have met Lola.",
+      "russian": "Вы встретили Лолу.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 427,
+      "reveal_id": "208_00",
+      "passenger_id": 208,
+      "french": "Vous avez rencontré Myrtille.",
+      "english_auxiliary": "You have met Myrtille.",
+      "russian": "Вы встретили Миртиль.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 428,
+      "reveal_id": "208_01",
+      "passenger_id": 208,
+      "french": "Le secret.",
+      "english_auxiliary": "A secret.",
+      "russian": "Секрет.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 429,
+      "reveal_id": "208_02",
+      "passenger_id": 208,
+      "french": "Le vide.",
+      "english_auxiliary": "Emptiness.",
+      "russian": "Пустота.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 430,
+      "reveal_id": "208_03",
+      "passenger_id": 208,
+      "french": "Un trou.",
+      "english_auxiliary": "A hole.",
+      "russian": "Дырка.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 431,
+      "reveal_id": "208_04",
+      "passenger_id": 208,
+      "french": "L'horizon.",
+      "english_auxiliary": "The horizon.",
+      "russian": "Горизонт.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 432,
+      "reveal_id": "210_00",
+      "passenger_id": 210,
+      "french": "Vous avez rencontré Xavier.",
+      "english_auxiliary": "You have met Xavier.",
+      "russian": "Вы встретили Ксавье.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 433,
+      "reveal_id": "210_01",
+      "passenger_id": 210,
+      "french": "Vous avez revu Xavier.",
+      "english_auxiliary": "You met Xavier again.",
+      "russian": "Вы снова увидели Ксавье.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 434,
+      "reveal_id": "210_02",
+      "passenger_id": 210,
+      "french": "Vous avez aidé Xavier.",
+      "english_auxiliary": "You helped Xavier.",
+      "russian": "Вы помогли Ксавье.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 435,
+      "reveal_id": "210_03",
+      "passenger_id": 210,
+      "french": "Vous avez eu un accident.",
+      "english_auxiliary": "You had an accident.",
+      "russian": "Вы попали в аварию.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 436,
+      "reveal_id": "213_00",
+      "passenger_id": 213,
+      "french": "Vous avez rencontré Claudine.",
+      "english_auxiliary": "You have met Claudine.",
+      "russian": "Вы встретили Клодин.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 437,
+      "reveal_id": "213_01",
+      "passenger_id": 213,
+      "french": "Vous avez revu Claudine.",
+      "english_auxiliary": "You met Claudine again.",
+      "russian": "Вы снова увидели Клодин.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 438,
+      "reveal_id": "213_02",
+      "passenger_id": 213,
+      "french": "Claudine vous a parlé des pyramides.",
+      "english_auxiliary": "Claudine told you about the pyramids.",
+      "russian": "Клодин рассказала вам о пирамидах.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 439,
+      "reveal_id": "213_03",
+      "passenger_id": 213,
+      "french": "Claudine vous a parlé de la Terre plate.",
+      "english_auxiliary": "Claudine told you about the flat Earth.",
+      "russian": "Клодин рассказала вам о плоской Земле.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 440,
+      "reveal_id": "213_04",
+      "passenger_id": 213,
+      "french": "Claudine vous a parlé des vaccins.",
+      "english_auxiliary": "Claudine told you about the vaccines.",
+      "russian": "Клодин рассказала вам о вакцинах.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 441,
+      "reveal_id": "213_05",
+      "passenger_id": 213,
+      "french": "Claudine vous a parlé du secret du Président.",
+      "english_auxiliary": "Claudine told you about the President's secret.",
+      "russian": "Клодин рассказала вам о секрете Президента.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 442,
+      "reveal_id": "214_00",
+      "passenger_id": 214,
+      "french": "Vous avez rencontré Roksana.",
+      "english_auxiliary": "You have met Roksana.",
+      "russian": "Вы встретили Роксану.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 443,
+      "reveal_id": "217_00",
+      "passenger_id": 217,
+      "french": "Vous avez rencontré Alph.",
+      "english_auxiliary": "You have met Alph.",
+      "russian": "Вы встретили Альфа.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 444,
+      "reveal_id": "219_00",
+      "passenger_id": 219,
+      "french": "Vous avez été conduit par Nathalie.",
+      "english_auxiliary": "Nathalie was your cab driver.",
+      "russian": "Вас повезла Натали.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 445,
+      "reveal_id": "221_00",
+      "passenger_id": 221,
+      "french": "Vous avez rencontré Jim.",
+      "english_auxiliary": "You have met Jim.",
+      "russian": "Вы встретили Джима.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 446,
+      "reveal_id": "221_01",
+      "passenger_id": 221,
+      "french": "Vous avez dîné avec Jim.\n",
+      "english_auxiliary": "You had dinner with Jim.",
+      "russian": "Вы поужинали с Джимом.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 447,
+      "reveal_id": "221_02",
+      "passenger_id": 221,
+      "french": "Vous avez été attaqué par Jim… ?",
+      "english_auxiliary": "You have been… attacked by Jim?",
+      "russian": "На вас напал Джим…?",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 448,
+      "reveal_id": "221_03",
+      "passenger_id": 221,
+      "french": "Jim s'est enfui.",
+      "english_auxiliary": "Jim escaped.",
+      "russian": "Джим сбежал.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 449,
+      "reveal_id": "222_00",
+      "passenger_id": 222,
+      "french": "Vous avez rencontré Melchior.",
+      "english_auxiliary": "You have met Melchior.",
+      "russian": "Вы встретили Мельхиора.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 450,
+      "reveal_id": "222_01",
+      "passenger_id": 222,
+      "french": "Vous avez croisé Melchior une seconde fois.",
+      "english_auxiliary": "You met Melchior again.",
+      "russian": "Вы снова встретили Мельхиора.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 451,
+      "reveal_id": "222_02",
+      "passenger_id": 222,
+      "french": "Vous avez fouillé la vie d'autrui.",
+      "english_auxiliary": "You spied on someone else's life.",
+      "russian": "Вы покопались в чужой жизни.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 452,
+      "reveal_id": "223_00",
+      "passenger_id": 223,
+      "french": "Vous avez rencontré Bérénice.",
+      "english_auxiliary": "You have met Bérénice.",
+      "russian": "Вы встретили Беренис.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 453,
+      "reveal_id": "224_00",
+      "passenger_id": 224,
+      "french": "Vous avez rencontré Nadia & Yves.",
+      "english_auxiliary": "You have met Nadia & Yves.",
+      "russian": "Вы встретили Надю и Ива.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 454,
+      "reveal_id": "224_01",
+      "passenger_id": 225,
+      "french": "Nadia a abandonné Yves.",
+      "english_auxiliary": "Nadia left Yves behind.",
+      "russian": "Надя бросила Ива.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 455,
+      "reveal_id": "224_02",
+      "passenger_id": 226,
+      "french": "Nadia a changé d'avis.\n",
+      "english_auxiliary": "Nadia changed her mind.",
+      "russian": "Надя передумала.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 456,
+      "reveal_id": "997_00",
+      "passenger_id": 997,
+      "french": "Vous avez été attaqué par l’Ange de la Mort.",
+      "english_auxiliary": "You were attacked by the Angel of Death.",
+      "russian": "На вас напал Ангел смерти.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 457,
+      "reveal_id": "997_01",
+      "passenger_id": 997,
+      "french": "Vous avez découvert l’identité de l’Ange de la Mort.",
+      "english_auxiliary": "You discovered the Angel of Death’s identity.",
+      "russian": "Вы выяснили личность Ангела смерти.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 458,
+      "reveal_id": "997_02",
+      "passenger_id": 997,
+      "french": "Vous avez aidé à l’arrestation de l’Ange de la Mort.",
+      "english_auxiliary": "You helped the Angel of Death get arrested.",
+      "russian": "Вы помогли арестовать Ангела смерти.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 459,
+      "reveal_id": "997_03",
+      "passenger_id": 997,
+      "french": "L’Ange de la Mort vous a tué.",
+      "english_auxiliary": "The Angel of Death killed you.",
+      "russian": "Ангел смерти вас убил.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 460,
+      "reveal_id": "997_04",
+      "passenger_id": 997,
+      "french": "Jésus est le… vrai tueur ?",
+      "english_auxiliary": "Jesus is the … real killer?",
+      "russian": "Иисус — это… настоящий убийца?",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 461,
+      "reveal_id": "997_05",
+      "passenger_id": 997,
+      "french": "Vous avez parlé de sa mère à l’Ange de la Mort.",
+      "english_auxiliary": "You told the Angel of Death about your mother.",
+      "russian": "Вы заговорили с Ангелом смерти о его матери.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 462,
+      "reveal_id": "997_06",
+      "passenger_id": 997,
+      "french": "Vous êtes arrivé aussi vite que possible au lieu de rendez-vous.",
+      "english_auxiliary": "You got to the meeting point as quickly as possible.",
+      "russian": "Вы добрались до места встречи так быстро, как только могли.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 463,
+      "reveal_id": "998_00",
+      "passenger_id": 998,
+      "french": "Vous avez été attaqué par le Marchand de Sable.",
+      "english_auxiliary": "You were attacked by the Sandman.",
+      "russian": "На вас напал Песочный человек.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 464,
+      "reveal_id": "998_01",
+      "passenger_id": 998,
+      "french": "Vous avez découvert l’identité du Marchand de Sable.",
+      "english_auxiliary": "You discovered the Sandman’s identity.",
+      "russian": "Вы выяснили личность Песочного человека.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 465,
+      "reveal_id": "998_02",
+      "passenger_id": 998,
+      "french": "Vous avez aidé à l’arrestation du Marchand de Sable.",
+      "english_auxiliary": "You helped the Sandman get arrested.",
+      "russian": "Вы помогли арестовать Песочного человека.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 466,
+      "reveal_id": "998_03",
+      "passenger_id": 998,
+      "french": "Le Marchand de Sable vous a tué.",
+      "english_auxiliary": "The Sandman killed you.",
+      "russian": "Песочный человек вас убил.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 467,
+      "reveal_id": "998_04",
+      "passenger_id": 998,
+      "french": "Vous avez été honnête avec le Marchand de Sable.",
+      "english_auxiliary": "You were straight with the Sandman.",
+      "russian": "Вы были честны с Песочным человеком.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 468,
+      "reveal_id": "998_05",
+      "passenger_id": 998,
+      "french": "Vous avez fait croire au Marchand de Sable que vous le conduisiez chez Anita Ventimiglia.",
+      "english_auxiliary": "You led the Sandman to believe you were driving to Anita Ventimiglia’s home.",
+      "russian": "Вы заставили Песочного человека поверить, что везёте его к Аните Вентимилье.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 469,
+      "reveal_id": "998_06",
+      "passenger_id": 998,
+      "french": "Vous avez convaincu le Marchand de Sable de se rendre.",
+      "english_auxiliary": "You convinced the Sandman to turn himself in.",
+      "russian": "Вы убедили Песочного человека сдаться.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 470,
+      "reveal_id": "998_07",
+      "passenger_id": 998,
+      "french": "Le Marchand de Sable a tenté de mettre fin à ses jours.",
+      "english_auxiliary": "The Sandman tried to take his own life.",
+      "russian": "Песочный человек попытался покончить с собой.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 471,
+      "reveal_id": "998_08",
+      "passenger_id": 998,
+      "french": "Finalement, la police a fait feu sur le Marchand de Sable.",
+      "english_auxiliary": "The police opened fire at the Sandman.",
+      "russian": "В итоге полиция открыла огонь по Песочному человеку.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 472,
+      "reveal_id": "999_00",
+      "passenger_id": 999,
+      "french": "Vous avez été attaqué par le Juge.",
+      "english_auxiliary": "You were attacked by the Judge.",
+      "russian": "На вас напал Судья.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 473,
+      "reveal_id": "999_01",
+      "passenger_id": 999,
+      "french": "Vous avez découvert l’identité du Juge.",
+      "english_auxiliary": "You discovered the Judge’s identity.",
+      "russian": "Вы выяснили личность Судьи.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 474,
+      "reveal_id": "999_02",
+      "passenger_id": 999,
+      "french": "Vous avez aidé à l’arrestation du Juge.",
+      "english_auxiliary": "You helped the Judge get arrested.",
+      "russian": "Вы помогли арестовать Судью.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 475,
+      "reveal_id": "999_03",
+      "passenger_id": 999,
+      "french": "Le Juge vous a tué.",
+      "english_auxiliary": "The Judge killed you.",
+      "russian": "Судья вас убил.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 476,
+      "reveal_id": "999_04",
+      "passenger_id": 999,
+      "french": "Vous avez menti au Juge.",
+      "english_auxiliary": "You lied to the Judge.",
+      "russian": "Вы солгали Судье.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 477,
+      "reveal_id": "999_05",
+      "passenger_id": 999,
+      "french": "Vous avez rapporté au Juge les propos de Busset.",
+      "english_auxiliary": "You told the Judge what Busset said about him.",
+      "russian": "Вы передали Судье слова Бюссе.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 478,
+      "reveal_id": "999_06",
+      "passenger_id": 999,
+      "french": "Le Juge s’est installé sur le banc…",
+      "english_auxiliary": "The Judge sat on the bench…",
+      "russian": "Судья сел на скамью…",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 479,
+      "reveal_id": "999_07",
+      "passenger_id": 999,
+      "french": "… et a fui ses responsabilités.",
+      "english_auxiliary": "… and escaped his responsibilities.",
+      "russian": "…и ушёл от ответственности.",
+      "status": "french_reviewed"
+    },
+    {
+      "index": 480,
+      "reveal_id": "999_08",
+      "passenger_id": 999,
+      "french": "… et a décidé de se rendre.",
+      "english_auxiliary": "… and decided to turn himself in.",
+      "russian": "…и решил сдаться.",
+      "status": "french_reviewed"
+    }
+  ]
+}

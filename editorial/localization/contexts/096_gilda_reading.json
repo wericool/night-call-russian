@@ -1,0 +1,51 @@
+{
+  "status": "superseded_by_complete_editorial_and_native_validation",
+  "source_scenes": {
+    "096_gilda_01": {
+      "original_file": "original/DialogObjectScript/sharedassets0.assets/2292.json",
+      "source_sha256": "bb5f3aa9f841efe01c032ef1c929803ff7617c36098877e59664e9b54b891a50",
+      "passages": 50,
+      "lines": 191,
+      "answers": 32
+    },
+    "096_gilda_02": {
+      "original_file": "original/DialogObjectScript/sharedassets0.assets/2293.json",
+      "source_sha256": "677e649ff4e6fccc1451f4b1937a8ee75cfc4b464c60856ecddecfed80d7ecb7",
+      "passages": 79,
+      "lines": 231,
+      "answers": 47
+    }
+  },
+  "read_english_french_upstream_russian": true,
+  "card": "original/PassengerObjectScript/sharedassets0.assets/2401.json",
+  "candidate_canonical_name": "Гильда Берже",
+  "female_gender_evidence": "gender0/she/elle, age28card; voice seven-year-old is a simile, not her age",
+  "read_related": [
+    "100_cop_03",
+    "100_cop_05",
+    "096_gilda.bio EN/FR",
+    "096 case-clue title/source EN/FR"
+  ],
+  "notes": [
+    "Both complete scenes129passages/422lines/79answers/2calls read; no096editorial version saved yet, both pending.",
+    "CanonicalexistingГильдаБерже; female28,OpéraGarnier setdesigner/décoratrice; no inferred citizenship from ethnic1/Koreancommunity.",
+    "01friendmaleJesusChrist byFRmonami, not girlfriend; politeвы todriver,ты toclaimedJesus. Godvoice herclaim, narratorlate callshercrazy: no added diagnosis.",
+    "01physicaltravelNotreDame,02callerBastille but dialogueOperaGarnier and narrationnotgoingtoBastille, finalpoliceoldchurch. Preserve explicit differences, no silently rewritten caller.",
+    "01secretentrance usesMetLudwig; specialvoice priorityJanet>Ludwig>Houssine,8profiles. Ifsilentcatacombs latercanaskfriend, no loop back to earlier silence menu. city1 onlyfullsilentbranch/bookXIX.",
+    "Book CityofGod canonicalОградеБожием/metaphoricalГрадБожий; AugustinebookXIX notchapter19. Her interpretation not corrected to actual theology.",
+    "Primarytitle sources https://azbyka.org/otechnik/Avrelij_Avgustin/o-grade-bozhem/19_25 and https://www.newadvent.org/fathers/120119.htm .",
+    "01firstmetsets_Driver.Met.Gilda1;02reads_Gilda.Met. Exact alias gap preserved, no sourcecodefix. Onlyother rawcompiledreference100cop05reads_Driver.Met.Gilda; Unityaliasmanager not audited.",
+    "01Jobflag_Gilda.Job.Know1 onlyjobanswer. 02trustinitial0; recognizedintro+1, operaquestion-1, withknownjob+2 =>ordinarymax2 atstart, super==3 likelycontrolled-only; prove via source graph.",
+    "02timeinitial0/resetstory0; work3specificanswers+1, silence-1, crisis+2; crisis fallbacktime<=0 likelyunreachableordinary. Latercounterthresholds3,5,6; exacttrust=0 deaths not<=0, preserve.",
+    "02bugmicrophone/жучок,gearshaft contextualgearlever/рычагпередач, crews stageproduction not airplanecrew/filmcrew. Buytime=выигратьвремя, not купить.",
+    "02knife is fixed weapon throughout, falls between seats before unarmedGilda runs/gets shot. 100cop03 police thenplantknife intohand forphotos; actualclimaxcopsauditedaftertranslation.",
+    "02bodyposition ENthigh twice vsFRflanc/torse; 01scar/chestpain and090knifeintobelly/chestwhistle read. Translation decision still pending; record explicitly, no invented additionalscar without evidence.",
+    "02motherjoker requires_Angel.Joker1, setsUsed1; motherdeath/hospitalizationbio, not hospitalCynthia/driverparents. FatherstillworksOpera/difficultrelationship, no namedfather. Papa01silencefragment owner not explicitly identified.",
+    "02Ihavekids emergencyplural vs067one confirmedson: preserveplea without inferringnewchild. TruthbeliefGodyes/lieNo explicit, no automaticdenomination.",
+    "02death-confess I killed someone too, Gildavoiceclaims youdidnotkillyourbrother: preservecontradiction to090imageaccusation, not decideactualguilt/medicalexplanation.",
+    "02cops IsCaught1/GotKilled0; not alivearrest, shotafterknife drops. OtherdeathsGotKilled1 andtruth/lie/cursing/silence finalmenus. Confessadds2timecanreachcopsifprevious5/6; lowerfails. Do not alter source thresholds.",
+    "Known old errors: femaleGenderquestionnamesmaleBusset, GildaCallingJesusfriendfemale, unfinishedDoasСделай, callherbywindowasphonecall, bugasжукnearвалшестерни, listenmic hiding, syrupyvoiceasсочная, theatricalcrewasfilmcrew, understandwhat asЧто вы поняли."
+  ],
+  "editorial_context": "localization/contexts/096_gilda.json",
+  "validation": "localization/gilda_scene_validation.json"
+}

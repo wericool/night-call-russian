@@ -1,0 +1,32 @@
+{
+  "status": "superseded_by_complete_editorial_and_native_validation",
+  "scene": "205_chantal_01",
+  "source_sha256": "2ab70fb85122523be1a8349c0ac7775e9b31e0592ccf5a767c9f97e68fb6700a",
+  "original_file": "original/DialogObjectScript/sharedassets0.assets/2310.json",
+  "passages": 38,
+  "visible_lines": 100,
+  "answers": 19,
+  "source_card": "original/PassengerObjectScript/sharedassets0.assets/2407.json",
+  "notes": [
+    "EN/FR/старыйRU прочитаны все38блоков/100строк/19ответов, карточка2407female0/age42/related0/appearance0/hascall0; полезныйpassengercall Ijustwanttoridearound перевести. Сцена остаётсяpending,редактурынет.",
+    "ШантальЛемонье женщинасбольшимтелом/руками/широкимиплечами; гипотезаводителяспортсменка не профессия. Она работаетнастройке/отбойныймолоток/бетон, не установленнаяженаафриканскогоминистраМайло. Обаобщаютсянавы; старыйRUсрываетсянатыguess02/end.",
+    "ENнизкийголос vsFRfluetteтонкий;ENsteelbackvsFRбетонарматура;ENmostcolleaguesvsFRполовина. ОсновнойENлибо явнорешитьрасхождения,не молчаливогармонизировать.",
+    "Периферик/парижскаяокружнаядорога одноназвание,не внешнийпояс/внешнеекольцо/новаядорога. Часоваястрелкаоднонаправление;intro-whichwayне жестс точнымвыборомдругойтрассы.",
+    "Недостающаякнопка Itsnoneofmybusiness вdrive01 и многиепервыефразы:drive01вопрос,guess01Isitobvious,guessnoAbodyguard,guessnoCполностью,guess02noсупергероиня,guess02yesпростаяработа,drive02свет/моргание,initialellipsisendintro.",
+    "LostlicenceEN/FRj’aiplusdepermisне устанавливаетпричину/лишениеправасудом. СтарыйRUправазабралислишкомточен. Intro-explainPrettyStraightforwardвопрос,не Именно.",
+    "Tarot выигрышденегуколлег — карточнаяигра, не гадание/магия;проверитьпервичныйисточникназвания. CementпоFRbeton/плохозалитнастройке=бетонпо смыслу, не вбиватьмолотоквсухойцемент.",
+    "RNGsleep6→4→4, cookieпервыйFсразуend:5×4×4+1=81комбинация. Две-трифразыснаобрывки,необъективнаяулика/действительноеубийство/новаяживотнаяистория. Грамматическинеобязательносогласовыватьвсе81какразвернутыйрассказ, случайностьисходная. Toeодинпалец, cookieпеченье.",
+    "Sleepcutits tongueENvsFRcutsown tongue, выборзаписать. OldRUотрезалемуязыквводитдругого владельца, нельзяавтоматическизакреплятьненазваннуюжертву.",
+    "Финалощущениенавязчивоймыслиисонливость,неновыймеддиагноз. Угрозарасстрелятьгосударственныхдеятелей=словапассажирки/условнаяфантазия, не инструкция/произошедшеесобытие/новыеимена. Gunне модельоружия. ТриBangстрокипослеосновногоBangсохранить.",
+    "Bill вend-intro=купюра,не счётвтекстепассажирки. Дваждыупомянутаяподачакупюрывsourceне дополнительныйплатёжпрограммой. Sleepwalkingсравнение, не диагностированноелунатизм. Driverdyingtosleepидиома,неумирает.",
+    "EN/FRссылки/модификаторы/командывсех38блоковсовпали. Служебныеsleep/sleepknow/seriously/поездка/чаевыепрочитатьполныйпорядоквследующейредактуре. Новыхфлагов/инфоне придумывать.",
+    "Tarotкарточнаяигра подтвержденаофициальнымиправиламиФранцузскойфедерации: https://www.fftarot.fr/assets/documents/Reglement%20FFT.pdf . Переводне долженпревращатьвыигрышденегвгадание; правила/78картне добавлятьвреплику.",
+    "Полныйпорядоккоманд/модификаторовпрочитан:seriously1/sleep_know1даётраннееобъяснение;drive01/sleep+=1,dontcare/guess02+1,drive02+1. Условиеsleep>3послеинкрементаобычноне достигаетсяприначальномsleep0:drive03непропускается,контроль2→3/3→4требуетчастнойинициализацииdeclaredlocal. Все81сонныеисходызатемодинаковыйфиниш. Travelstartвintro-drive/stopend-intro,highоднажды,dialogspeedпереходыисходные,нетявногоMet/clue/fare. UI205BIOключейнет.",
+    "Подготовленполныйчерновик38/100/19, толькоshapevalidateбезsave_scene/rules/export. Передприменениемручнаясверкаголоса, сонныхродовлиса/собака vsкоторый/лис/пёс ивозвратностиFR; затемканонженщины/профессии, правила/анomalies/нативная81RNGпроверка."
+  ],
+  "remaining_reading": [],
+  "draft": "scripts/author_chantal_context_draft.py",
+  "draft_shape_verified": true,
+  "editorial_context": "localization/contexts/205_chantal.json",
+  "validation": "localization/chantal_amira_scene_validation.json"
+}

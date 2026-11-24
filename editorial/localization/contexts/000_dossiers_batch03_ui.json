@@ -1,0 +1,400 @@
+{
+  "scope": "25explicit French UI fields manually read/accepted; not whole interface.",
+  "french_priority_author": "scripts/review_ui_dossiers_batch03_fr.py",
+  "french_priority_decisions": [
+    "Вручную прочитаны25целыхFRполей с EN/текущимRU: восемь биографий023/044/007/019/032/043/031/072 и17подписей/улик/названий. Каждое включено явно, не все досье игры.",
+    "Аполлони: sans doute une rentière — вероятно живёт на доходы от капитала, НЕ обязательно богатая наследница/источник наследства. Гваделупа остаётся возможно, ночной образ жизни не доказывает вампира; её столетия и карточка110 не превращены в доказанную биографию.",
+    "Крис044: FR études без добавленной ступени школы; неизвестны дела, не доказанный приговор; возрастная причина освобождения/несовершеннолетие изENподтверждают прошлые задержания, не нынешний возраст19. FR угоны без ENonly незапертых машин. Возможные наркотики не превращены в установленное употребление.",
+    "Салим: FR многочисленные жертвы сексуальных злоупотреблений, без ограничения только несколькими детьми изEN. Известность/Сент-Уэн/делоДуара/футболв10 сохранены; национальность/вина/принадлежность не додуманы.",
+    "Эрве: FR ровно ДВА задержания, не несколько; за кражи со взломом. Связь здоровья со скандалом сохранена без нового точного времени начала/диагноза/причины. Вторая жертваШарльБугрен и90-е относятся к этому делу, не ко всем случаям.",
+    "Анита: близкие, не только друзья; связи отца не стали её доказанным членством вмафии. Противоположные оценки конфликта031/032 сохранены. Три связанныеулики теперь передают volé, не добровольное уступила. Только SuspectsIntel содержит кавычки воFR, они сохранены отдельно; источники не становятся единым авторским приговором.",
+    "Жеральдина: каноническая форма имени Жеральдина/Жеральдины (consistency031), не Жеральдин. FR отец умер НЕДАВНО, английский точный год отменён именно вбио. FR colérique — вспыльчива, не клиническая проблема управлениягневом. Общее arme не сужено до пистолета; служба/Израиль/полицейский/несколькомесяцев поисточнику.",
+    "Йонас: уничтожено много ДОКУМЕНТОВ, не обязательно доказанных улик; сразу после начала расследования. Книги осимуляции остаются авторскимтезисом персонажа. Программист здесь/физик вподсказке исходно расходятся, ниодна профессия не унифицируется догадкой.",
+    "Пьеретт: шеф-женщина, финансовые трудности/активизмвмолодости/культЛуннаяплоть без новых утверждений. Французский язык, Батиньоль иПасси, церковьГильды, троекратный сонввопросительнойформе ифотокриминалистов/рыба прочитаны, корректные формулировки сохранены. Фрагонар делитсяопытомоворах, заголовок трусы остаётся слухом."
+  ],
+  "linked_contexts_read": [
+    "023_apollonie",
+    "044_chris",
+    "007_salim_01",
+    "019_herve",
+    "031_geraldine",
+    "032_anita",
+    "043_jonas",
+    "072_pierrette",
+    "014_fragonard"
+  ],
+  "keys": [
+    {
+      "key": "GC.DOCUMENT.TT.PHOTOGRAPHY07.FISH",
+      "english": "A photo taken by the scientific police at the scene of the second murder.",
+      "french": "Une photo prise par la police scientifique sur les lieux du deuxième meurtre.",
+      "russian": "Фото, сделанное криминалистами на месте второго убийства.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Фото, сделанное криминалистами на месте второго убийства.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.DOCUMENT.NAME.PHOTOGRAPHY07.FISH",
+      "english": "Photography: Fish Symbol",
+      "french": "Photographie : Symbole de poisson",
+      "russian": "Фотография: символ рыбы",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Фотография: Символ рыбы",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.DOCUMENT.TT.RUMOR08.BURGLARS",
+      "english": "Fragonard, retired cop, shared with you his experience about burglars.",
+      "french": "Fragonard, un ancien flic, vous a partagé son expérience avec les cambrioleurs.",
+      "russian": "Фрагонар, бывший полицейский, рассказал вам о квартирных ворах, с которыми ему приходилось иметь дело.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Фрагонар, отставной полицейский, поделился с вами своим опытом о грабителях.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_julian_03.title",
+      "english": "Fragonard’s first case = child molester",
+      "french": "Première affaire de Fragonard = abuseur d'enfant",
+      "russian": "Первое дело Фрагонара — растлитель детей",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Первое дело Фрагонара — растлитель детей",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "FRA",
+      "english": "Français",
+      "french": "Français",
+      "russian": "Французский",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Французский",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "poi_sand_cemetery.title",
+      "english": "Batignolles Cemetery",
+      "french": "Cimetière des Batignolles",
+      "russian": "Кладбище Батиньоль",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Кладбище Батиньоль",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "poi_angel_cemetery.title",
+      "english": "Passy Cemetery",
+      "french": "Cimetière de Passy",
+      "russian": "Кладбище Пасси",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Кладбище Пасси",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_anita_01.title",
+      "english": "Géraldine lost her company to Groupe Diamant",
+      "french": "Groupe Diamant a volé la société de Géraldine",
+      "russian": "Группа «Диамант» украла компанию Жеральдины",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жеральдин уступила свою компанию Groupe Diamant",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_geraldine_01.title",
+      "english": "Géraldine lost her company to Groupe Diamant",
+      "french": "Groupe Diamant a volé la société de Géraldine",
+      "russian": "Группа «Диамант» украла компанию Жеральдины",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жеральдин уступила свою компанию Groupe Diamant",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_suspectsintel_03.title",
+      "english": "Géraldine lost her company to Groupe Diamant",
+      "french": "Groupe Diamant a \"volé\" la société de Géraldine",
+      "russian": "Группа «Диамант» «украла» компанию Жеральдины",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Жеральдин уступила свою компанию Groupe Diamant",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.DOCUMENT.NAME.RUMOR08.BURGLARS",
+      "english": "Rumor: Burglars are cowards.",
+      "french": "Rumeur : Les cambrioleurs sont des lâches.",
+      "russian": "Слух: квартирные воры — трусы",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Слухи: Взломщики - трусы.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_houssine_01.source",
+      "english": "Seen in a… dream?",
+      "french": "Vu dans un… rêve ?",
+      "russian": "Увидено… во сне?",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Увидено… во сне?",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_houssine_01.source",
+      "english": "Seen in a… dream?",
+      "french": "Vu dans un… rêve ?",
+      "russian": "Увидено… во сне?",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Увидено… во сне?",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_houssine_01.source",
+      "english": "Seen in a… dream?",
+      "french": "Vu… dans un rêve ?",
+      "russian": "Увидено… во сне?",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Увидено… во сне?",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "poi_angel_church.title",
+      "english": "Gilda’s Church",
+      "french": "Église de Gilda",
+      "russian": "Церковь Гильды",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Церковь Гильды",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "023_apollonie.bio",
+      "english": "Height = 1m70.\nBlurry past. Weird woman… probably a rich heir or something.\nWas born in Guadeloupe (maybe). Night owl.",
+      "french": "Taille = 1m70.\nPassé vague. Femme étrange… sans doute une rentière.\nNée à la Guadeloupe (peut-être). Un oiseau de nuit.",
+      "russian": "Рост: 1,70 м.\nО прошлом известно мало. Странная женщина… Скорее всего, живёт на доходы от капитала.\nВозможно, родилась в Гваделупе. Ведёт ночной образ жизни.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Рост: 1,70 м.\nО прошлом известно мало. Странная женщина… Возможно, богатая наследница или что-то в этом роде.\nВозможно, родилась в Гваделупе. Ведёт ночной образ жизни.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "044_chris.bio",
+      "english": "Height = 1m71.\nA young drifter, drop-out of school.\nAverage physical state.\nArrested but always released (minor at the time). Reasons unknown.\nNo known address in Paris. Suspected to steal unlocked cars.\nPossible use of drugs.",
+      "french": "Taille = 1m71.\nUn jeune vagabond, a abandonné ses études.\nÉtat physique moyen.\nArrêté, mais toujours relâché à cause de son âge. Affaires inconnues.\nPas d'adresse connue à Paris. Suspecté dans des vols de voiture.\nUsage possible de drogue.",
+      "russian": "Рост: 1,71 м.\nМолодой бродяга, бросил учёбу.\nСредняя физическая форма.\nЗадерживался, но каждый раз его отпускали: тогда он был несовершеннолетним. Подробности дел неизвестны.\nАдрес в Париже неизвестен. Подозревается в угонах автомобилей.\nВозможно, употребляет наркотики.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Рост: 1,71 м.\nМолодой бродяга, бросил школу.\nСредняя физическая форма.\nЗадерживался, но каждый раз его отпускали: тогда он был несовершеннолетним. Причины задержаний неизвестны.\nАдрес в Париже неизвестен. Подозревается в угоне незапертых автомобилей.\nВозможно, употребляет наркотики.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "007_salim.bio",
+      "english": "Height = 1m75.\nWell-known lawyer from Saint-Ouen.\nDefender on the Douar case.\nDefender of several molested kids in poor neighbourhoods.\nWas a promising football player when he was 10.",
+      "french": "Taille = 1m75.\nAvocat très connu, originaire de Saint-Ouen.\nDéfense dans l'affaire Douar.\nDéfense de nombreuses victimes d'abus sexuels dans les quartiers défavorisés.\nJoueur de foot prometteur quand il avait 10 ans.",
+      "russian": "Рост: 1,75 м.\nШироко известный адвокат из Сент-Уэна.\nЗащитник по делу Дуара.\nПредставлял интересы многих жертв сексуального насилия из неблагополучных кварталов.\nВ десять лет был подающим надежды футболистом.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Рост: 1,75 м.\nИзвестный адвокат из Сент-Уэна.\nЗащитник по делу Дуара.\nПредставлял интересы нескольких детей из бедных кварталов, подвергшихся сексуальному насилию.\nВ десять лет был подающим надежды футболистом.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "019_herve.bio",
+      "english": "Height = 1m77.\nHomeless man with an unknown background.\nBriefly worked for Charles Bougrain (victim 2) in the 90s.\nGot health issues after Rictodin health scandal.\nA couple of arrests for breaking and entering.",
+      "french": "Taile = 1m77.\nSans-abri au passé inconnu.\nA brièvement travaillé pour Charles Bougrain (deuxième victime) dans les années 90.\nComplications de santé liées au scandale du Rictodin.\nDeux arrestations pour cambriolage.",
+      "russian": "Рост: 1,77 м.\nБездомный. О прошлом известно мало.\nВ девяностых недолго работал на Шарля Бугрена — вторую жертву.\nПроблемы со здоровьем, связанные со скандалом вокруг «Риктодина».\nДва задержания за кражи со взломом.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Рост: 1,77 м.\nБездомный. О прошлом известно мало.\nВ девяностых недолго работал на Шарля Бугрена — вторую жертву.\nПосле скандала с препаратом «Риктодин» у него начались проблемы со здоровьем.\nНесколько задержаний за незаконное проникновение со взломом.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "032_anita.bio",
+      "english": "Height = 1m79.\nCEO of Groupe Diamant (owner of the Albatros building).\nExcellent physical state.\nHas been difficult to investigate, have friends in high places.\nDescribed as a shark by rivals… & friends. Ruthless & ready for anything.\nFather was linked to the Corsican mafia.",
+      "french": "Taille = 1m79.\nPDG du Groupe Diamant (propriétaire de l'immeuble Albatros).\nExcellente forme physique.\nDifficile à enquêter, a des amis haut placés.\nDécrite comme un requin par ses concurrents et ses proches. Sans pitié & prête à tout.\nSon père avait des liens avec la mafia corse.",
+      "russian": "Рост: 1,79 м.\nГенеральный директор группы «Диамант», владеющей зданием «Альбатрос».\nВ отличной физической форме.\nСобирать сведения о ней было непросто: у неё влиятельные друзья.\nСоперники и близкие называют её акулой. Безжалостна и готова на всё.\nОтец был связан с корсиканской мафией.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Рост: 1,79 м.\nГенеральный директор группы «Диамант», владеющей зданием «Альбатрос».\nВ отличной физической форме.\nСобирать сведения о ней было непросто: у неё влиятельные друзья.\nИ соперники… и друзья называют её акулой. Безжалостна и готова на всё.\nОтец был связан с корсиканской мафией.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "043_jonas.bio",
+      "english": "Height = 1m81.\nA brilliant programmer for several start-ups & companies.\nWrote books about the \"simulation we're all living in.\"\nDestroyed evidence when the police started investigating.",
+      "french": "Taille = 1m81.\nProgrammeur brillant pour des start-ups & sociétés.\nA écrit des livres sur \"la simulation dans laquelle nous vivons tous\".\nA détruit de nombreux documents dès que la police a commencé à enquêter.",
+      "russian": "Рост: 1,81 м.\nТалантливый программист, работал на стартапы и компании.\nАвтор книг о «симуляции, в которой мы все живём».\nУничтожил много документов, как только полиция начала расследование.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Рост: 1,81 м.\nТалантливый программист, работал на несколько стартапов и компаний.\nАвтор книг о «симуляции, в которой мы все живём».\nУничтожил улики, когда полиция начала расследование.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "031_geraldine.bio",
+      "english": "Height = 1m83.\nAn ex-partner of Groupe Diamant, recently fired from the board.\nGood physical state.\nLost her dad a year ago.\nDid her military service in Israel. Knows how to handle a gun.\nAnger management issues. Assaulted a cop a few months ago.",
+      "french": "Taille = 1m83.\nAncienne partenaire du Groupe Diamant, récemment virée du conseil d'administration.\nBonne forme physique.\nA perdu son père récemment.\nA fait son service militaire en Israël. Sait utiliser une arme.\nColérique. A attaqué un policier il y a quelques mois.",
+      "russian": "Рост: 1,83 м.\nБывшая деловая партнёрша группы «Диамант». Недавно исключена из совета директоров.\nВ хорошей физической форме.\nНедавно потеряла отца.\nСлужила в армии Израиля. Умеет обращаться с оружием.\nВспыльчива. Несколько месяцев назад напала на полицейского.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Рост: 1,83 м.\nБывший партнёр группы «Диамант». Недавно исключена из совета директоров.\nВ хорошей физической форме.\nГод назад потеряла отца.\nСлужила в армии Израиля. Умеет обращаться с оружием.\nПроблемы с контролем гнева. Несколько месяцев назад напала на полицейского.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "072_pierrette.bio",
+      "english": "Height = 1m89.\nChef in La Pierre restaurant in Paris.\nIn financial troubles.\nWas an activist when she was younger.\nPart of the Moon Flesh cult.",
+      "french": "Taille = 1m89.\nCheffe du restaurant La Pierre, à Paris.\nProblèmes financiers.\nA été une militante durant sa jeunesse.\nMembre de la secte de la Chair de Lune.",
+      "russian": "Рост: 1,89 м.\nШеф-повар ресторана «Ла Пьер» в Париже.\nФинансовые трудности.\nВ молодости была активисткой.\nСостоит в культе «Лунная плоть».",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Рост: 1,89 м.\nШеф-повар ресторана «Ла Пьер» в Париже.\nФинансовые трудности.\nВ молодости была активисткой.\nСостоит в культе «Лунная плоть».",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_customer_geraldine_02.title",
+      "english": "Groupe Diamant is shady",
+      "french": "Groupe Diamant est louche",
+      "russian": "Группа «Диамант» — сомнительная компания",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Groupe Diamant - сомнительная компания",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.SUSPECT.NAME.HERVE",
+      "english": "Hervé",
+      "french": "Hervé",
+      "russian": "Эрве",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Эрве",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    }
+  ],
+  "exact_legacy_fallback_updates": [
+    {
+      "english": "Photography: Fish Symbol",
+      "ui_keys": [
+        "GC.DOCUMENT.NAME.PHOTOGRAPHY07.FISH"
+      ],
+      "previous_fallback": "Фотография: Символ рыбы",
+      "russian": "Фотография: символ рыбы"
+    },
+    {
+      "english": "Fragonard, retired cop, shared with you his experience about burglars.",
+      "ui_keys": [
+        "GC.DOCUMENT.TT.RUMOR08.BURGLARS"
+      ],
+      "previous_fallback": null,
+      "russian": "Фрагонар, бывший полицейский, рассказал вам о квартирных ворах, с которыми ему приходилось иметь дело."
+    },
+    {
+      "english": "Rumor: Burglars are cowards.",
+      "ui_keys": [
+        "GC.DOCUMENT.NAME.RUMOR08.BURGLARS"
+      ],
+      "previous_fallback": "Слухи: Взломщики - трусы.",
+      "russian": "Слух: квартирные воры — трусы"
+    },
+    {
+      "english": "Height = 1m70.\nBlurry past. Weird woman… probably a rich heir or something.\nWas born in Guadeloupe (maybe). Night owl.",
+      "ui_keys": [
+        "023_apollonie.bio"
+      ],
+      "previous_fallback": "Рост: 1,70 м.\nО прошлом известно мало. Странная женщина… Возможно, богатая наследница или что-то в этом роде.\nВозможно, родилась в Гваделупе. Ведёт ночной образ жизни.",
+      "russian": "Рост: 1,70 м.\nО прошлом известно мало. Странная женщина… Скорее всего, живёт на доходы от капитала.\nВозможно, родилась в Гваделупе. Ведёт ночной образ жизни."
+    },
+    {
+      "english": "Height = 1m71.\nA young drifter, drop-out of school.\nAverage physical state.\nArrested but always released (minor at the time). Reasons unknown.\nNo known address in Paris. Suspected to steal unlocked cars.\nPossible use of drugs.",
+      "ui_keys": [
+        "044_chris.bio"
+      ],
+      "previous_fallback": "Рост: 1,71 м.\nМолодой бродяга, бросил школу.\nСредняя физическая форма.\nЗадерживался, но каждый раз его отпускали: тогда он был несовершеннолетним. Причины задержаний неизвестны.\nАдрес в Париже неизвестен. Подозревается в угоне незапертых автомобилей.\nВозможно, употребляет наркотики.",
+      "russian": "Рост: 1,71 м.\nМолодой бродяга, бросил учёбу.\nСредняя физическая форма.\nЗадерживался, но каждый раз его отпускали: тогда он был несовершеннолетним. Подробности дел неизвестны.\nАдрес в Париже неизвестен. Подозревается в угонах автомобилей.\nВозможно, употребляет наркотики."
+    },
+    {
+      "english": "Height = 1m75.\nWell-known lawyer from Saint-Ouen.\nDefender on the Douar case.\nDefender of several molested kids in poor neighbourhoods.\nWas a promising football player when he was 10.",
+      "ui_keys": [
+        "007_salim.bio"
+      ],
+      "previous_fallback": "Рост: 1,75 м.\nИзвестный адвокат из Сент-Уэна.\nЗащитник по делу Дуара.\nПредставлял интересы нескольких детей из бедных кварталов, подвергшихся сексуальному насилию.\nВ десять лет был подающим надежды футболистом.",
+      "russian": "Рост: 1,75 м.\nШироко известный адвокат из Сент-Уэна.\nЗащитник по делу Дуара.\nПредставлял интересы многих жертв сексуального насилия из неблагополучных кварталов.\nВ десять лет был подающим надежды футболистом."
+    },
+    {
+      "english": "Height = 1m77.\nHomeless man with an unknown background.\nBriefly worked for Charles Bougrain (victim 2) in the 90s.\nGot health issues after Rictodin health scandal.\nA couple of arrests for breaking and entering.",
+      "ui_keys": [
+        "019_herve.bio"
+      ],
+      "previous_fallback": "Рост: 1,77 м.\nБездомный. О прошлом известно мало.\nВ девяностых недолго работал на Шарля Бугрена — вторую жертву.\nПосле скандала с препаратом «Риктодин» у него начались проблемы со здоровьем.\nНесколько задержаний за незаконное проникновение со взломом.",
+      "russian": "Рост: 1,77 м.\nБездомный. О прошлом известно мало.\nВ девяностых недолго работал на Шарля Бугрена — вторую жертву.\nПроблемы со здоровьем, связанные со скандалом вокруг «Риктодина».\nДва задержания за кражи со взломом."
+    },
+    {
+      "english": "Height = 1m79.\nCEO of Groupe Diamant (owner of the Albatros building).\nExcellent physical state.\nHas been difficult to investigate, have friends in high places.\nDescribed as a shark by rivals… & friends. Ruthless & ready for anything.\nFather was linked to the Corsican mafia.",
+      "ui_keys": [
+        "032_anita.bio"
+      ],
+      "previous_fallback": "Рост: 1,79 м.\nГенеральный директор группы «Диамант», владеющей зданием «Альбатрос».\nВ отличной физической форме.\nСобирать сведения о ней было непросто: у неё влиятельные друзья.\nИ соперники… и друзья называют её акулой. Безжалостна и готова на всё.\nОтец был связан с корсиканской мафией.",
+      "russian": "Рост: 1,79 м.\nГенеральный директор группы «Диамант», владеющей зданием «Альбатрос».\nВ отличной физической форме.\nСобирать сведения о ней было непросто: у неё влиятельные друзья.\nСоперники и близкие называют её акулой. Безжалостна и готова на всё.\nОтец был связан с корсиканской мафией."
+    },
+    {
+      "english": "Height = 1m81.\nA brilliant programmer for several start-ups & companies.\nWrote books about the \"simulation we're all living in.\"\nDestroyed evidence when the police started investigating.",
+      "ui_keys": [
+        "043_jonas.bio"
+      ],
+      "previous_fallback": "Рост: 1,81 м.\nТалантливый программист, работал на несколько стартапов и компаний.\nАвтор книг о «симуляции, в которой мы все живём».\nУничтожил улики, когда полиция начала расследование.",
+      "russian": "Рост: 1,81 м.\nТалантливый программист, работал на стартапы и компании.\nАвтор книг о «симуляции, в которой мы все живём».\nУничтожил много документов, как только полиция начала расследование."
+    },
+    {
+      "english": "Height = 1m83.\nAn ex-partner of Groupe Diamant, recently fired from the board.\nGood physical state.\nLost her dad a year ago.\nDid her military service in Israel. Knows how to handle a gun.\nAnger management issues. Assaulted a cop a few months ago.",
+      "ui_keys": [
+        "031_geraldine.bio"
+      ],
+      "previous_fallback": "Рост: 1,83 м.\nБывший партнёр группы «Диамант». Недавно исключена из совета директоров.\nВ хорошей физической форме.\nГод назад потеряла отца.\nСлужила в армии Израиля. Умеет обращаться с оружием.\nПроблемы с контролем гнева. Несколько месяцев назад напала на полицейского.",
+      "russian": "Рост: 1,83 м.\nБывшая деловая партнёрша группы «Диамант». Недавно исключена из совета директоров.\nВ хорошей физической форме.\nНедавно потеряла отца.\nСлужила в армии Израиля. Умеет обращаться с оружием.\nВспыльчива. Несколько месяцев назад напала на полицейского."
+    },
+    {
+      "english": "Groupe Diamant is shady",
+      "ui_keys": [
+        "clue_sand_customer_geraldine_02.title"
+      ],
+      "previous_fallback": "Groupe Diamant - сомнительная компания",
+      "russian": "Группа «Диамант» — сомнительная компания"
+    }
+  ],
+  "legacy_fallback_owner_collisions": [
+    {
+      "key": "clue_sand_customer_anita_01.title",
+      "english": "Géraldine lost her company to Groupe Diamant",
+      "owners": [
+        "clue_sand_customer_anita_01.title",
+        "clue_sand_customer_geraldine_01.title",
+        "clue_sand_suspectsintel_03.title"
+      ],
+      "decision": "Keyed Russian is authoritative. Global legacy fallback cannot distinguish owners; unchanged."
+    },
+    {
+      "key": "clue_sand_customer_geraldine_01.title",
+      "english": "Géraldine lost her company to Groupe Diamant",
+      "owners": [
+        "clue_sand_customer_anita_01.title",
+        "clue_sand_customer_geraldine_01.title",
+        "clue_sand_suspectsintel_03.title"
+      ],
+      "decision": "Keyed Russian is authoritative. Global legacy fallback cannot distinguish owners; unchanged."
+    },
+    {
+      "key": "clue_sand_suspectsintel_03.title",
+      "english": "Géraldine lost her company to Groupe Diamant",
+      "owners": [
+        "clue_sand_customer_anita_01.title",
+        "clue_sand_customer_geraldine_01.title",
+        "clue_sand_suspectsintel_03.title"
+      ],
+      "decision": "Keyed Russian is authoritative. Global legacy fallback cannot distinguish owners; unchanged."
+    }
+  ]
+}

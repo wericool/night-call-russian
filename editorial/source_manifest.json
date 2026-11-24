@@ -1,0 +1,4449 @@
+{
+  "files": {
+    "globalgamemanagers.assets": "5af80aa8a29701d51cf19f194bdb966c8c56c37463c812a604f2a9aa45693a50",
+    "level0": "fd3d3426e94ac59d97e65fb98a3023f07de6d83184bc98419b9d0090926c9189",
+    "level3": "5bffb481dfc7ea0aa4865e1c4d8dd408d221947beb08142c1200c9afe12f2d23",
+    "level7": "9d14a805d002b1d097dfd986d8e9a3a674e5dfb12348699f716903e7679823a8",
+    "resources.assets": "a1a3d1ab6911d8f330a927af285d756c5d2b3e2019ef142985cf0d7c3ce4b854",
+    "sharedassets0.assets": "cb218b06d8c76d854b92ea42f6887cd9b4c1e1e6a9b581b0855f5a05fdd7fb89",
+    "sharedassets5.assets": "02982980150b3b89ad32b409464e24249cd76a98c1da46b530533d23e9959b70",
+    "Managed/Assembly-CSharp.dll": "b2e4a3562a6ab43822d3e4d8ee979f3ec84dbee7757a5b80b9e709a408658250",
+    "Managed/Prompter.dll": "a5e9b109a6aff69884e5550bc91ad2b690ffeef89c18706bbd937f45dd08781d",
+    "Managed/PrompterCompiler.dll": "b50118d38ee007bde589169c743d39700e45637ad9cea0403f92c43ec8036d28",
+    "Managed/UnityEngine.dll": "8db0cfa7a0d0b3628cb5df5b712b9b163b78d340b0a1f7fb8179388795dddb28",
+    "Managed/UnityEngine.CoreModule.dll": "99612a2e60e219370a4396ee4ec8caabde492369cf70cc06401cb2a73f1a751d"
+  },
+  "objects": [
+    {
+      "asset": "level0",
+      "path_id": 163,
+      "cls": "LocalizationManager",
+      "name": "",
+      "file": "original/LocalizationManager/level0/163.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 234,
+      "cls": "TextAsset",
+      "name": "LineBreaking Following Characters",
+      "file": "original/TextAsset/resources.assets/234.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 235,
+      "cls": "TextAsset",
+      "name": "LICENSE",
+      "file": "original/TextAsset/resources.assets/235.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 236,
+      "cls": "TextAsset",
+      "name": "LineBreaking Leading Characters",
+      "file": "original/TextAsset/resources.assets/236.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 237,
+      "cls": "TextAsset",
+      "name": "COPYING",
+      "file": "original/TextAsset/resources.assets/237.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8375,
+      "cls": "PassengerObjectScript",
+      "name": "290_houssine",
+      "file": "original/PassengerObjectScript/resources.assets/8375.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8376,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-000_Driver_Male-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8376.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8377,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-001_Patricia-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8377.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8378,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-002_Purva-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8378.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8379,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-003_Alaric-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8379.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8380,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-004_JeanNoel-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8380.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8381,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-005_Hugo-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8381.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8382,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-006_Esmeralda-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8382.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8383,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-007_Salim-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8383.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8384,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-008_Vincent-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8384.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8385,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-009_Ludwig-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8385.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8386,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-010_CamilleAntoine-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8386.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8387,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-011_Ariane-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8387.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8388,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-012_Christophe-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8388.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8389,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-013_Leia-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8389.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8390,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-014_Fragonard-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8390.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8391,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-015_Alicia-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8391.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8392,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-016_Gerard-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8392.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8393,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-017_Grace-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8393.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8394,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-018_Francois-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8394.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8395,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-019_Herve-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8395.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8396,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-020_Jacquie-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8396.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8397,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-021_Carlo-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8397.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8398,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-022_Claudia-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8398.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8399,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-023_Apollonie-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8399.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8400,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-024_01_Alice-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8400.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8401,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-024_02_Hyoga-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8401.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8402,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-025_Ade-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8402.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8403,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-026_01_Vert-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8403.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8404,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-026_02_Rose-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8404.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8405,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-026_03_Red-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8405.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8406,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-026_04_Blue-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8406.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8407,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-027_01_Lucie-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8407.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8408,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-027_02_Emilie-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8408.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8409,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-028_CarolinaJ-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8409.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8410,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-029_Jerome-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8410.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8411,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-030_Peter-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8411.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8412,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-031_Geraldine-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8412.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8413,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-032_Anita-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8413.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8414,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-033_Chiara-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8414.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8415,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-034_Phil-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8415.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8416,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-035_01_Sylvie-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8416.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8417,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-035_02_Sylvain-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8417.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8418,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-036_Sean-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8418.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8419,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-037_Shinji-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8419.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8420,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-040_Crouky-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8420.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8421,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-041_Francine-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8421.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8422,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-042_Djena-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8422.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8423,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-043_Jonas-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8423.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8424,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-044_Chris-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8424.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8425,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-045_Vero-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8425.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8426,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-046_Shohreh-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8426.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8427,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-047_Amelie-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8427.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8428,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-051_Leonie-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8428.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8429,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-052_Childeric-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8429.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8430,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-053_Camille-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8430.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8431,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-054_Ludivine-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8431.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8432,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-055_Julian-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8432.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8433,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-056_Kader-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8433.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8434,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-057_Annabelle-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8434.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8435,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-058_Agnes-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8435.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8436,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-059_Pierrot-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8436.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8437,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-060_Mireille-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8437.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8438,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-061_Denis-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8438.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8439,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-063_Pauline-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8439.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8440,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-064_Janet-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8440.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8441,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-065_Nina-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8441.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8442,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-066_01_Shaine-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8442.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8443,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-066_02_Pierre-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8443.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8444,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-067_01_Mathieu-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8444.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8445,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-067_02_Couffin-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8445.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8446,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-068_Sonny-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8446.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8447,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-070_Antoine-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8447.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8448,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-071_01_Marc-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8448.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8449,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-071_02_Sophie-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8449.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8450,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-072_Pierrette-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8450.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8451,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-073_Myriam-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8451.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8452,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-074_Emilia-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8452.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8453,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-075_Henri-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8453.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8454,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-076_Angelique-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8454.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8455,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-077_Santa-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8455.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8456,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-090_Houssine-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8456.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8457,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-096_Gilda-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8457.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8458,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-097_Alexandre-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8458.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8459,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-099_Boss-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8459.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8460,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-100_Cop-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8460.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8461,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-200_Ada-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8461.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8462,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-203_Milo-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8462.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8463,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-205_Chantal-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8463.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8464,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-206_Amira-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8464.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8465,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-207_Lola-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8465.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8466,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-208_Myrtille-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8466.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8467,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-210_Xavier-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8467.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8468,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-214_Roksana-NightCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8468.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8469,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-217_Alph-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8469.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8470,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-219_Nathalie-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8470.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8471,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-221_Jim-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8471.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8472,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-222_Melchior-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8472.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8473,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-223_Berenice-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8473.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8474,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-224_01_Nadia-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8474.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8475,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-224_NadiaYves-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8475.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8476,
+      "cls": "SpreadsheetAsset",
+      "name": "Spritesheet-290_Houssine-NIghtCall-sheet_Top",
+      "file": "original/SpreadsheetAsset/resources.assets/8476.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8477,
+      "cls": "PassengerObjectScript",
+      "name": "000_driver_male",
+      "file": "original/PassengerObjectScript/resources.assets/8477.json"
+    },
+    {
+      "asset": "resources.assets",
+      "path_id": 8478,
+      "cls": "PassengersFlowData",
+      "name": "PassengersFlowData",
+      "file": "original/PassengersFlowData/resources.assets/8478.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 798,
+      "cls": "TextAsset",
+      "name": "980_Judge_05_Location_ger",
+      "file": "original/TextAsset/sharedassets0.assets/798.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 799,
+      "cls": "TextAsset",
+      "name": "971_newspapers_fra",
+      "file": "original/TextAsset/sharedassets0.assets/799.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 800,
+      "cls": "TextAsset",
+      "name": "965_gasstation_13_shop_clues_outro_ger",
+      "file": "original/TextAsset/sharedassets0.assets/800.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 801,
+      "cls": "TextAsset",
+      "name": "953_gameover_gas_fra",
+      "file": "original/TextAsset/sharedassets0.assets/801.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 802,
+      "cls": "TextAsset",
+      "name": "965_gasstation_10_shop_entrance_eng",
+      "file": "original/TextAsset/sharedassets0.assets/802.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 803,
+      "cls": "TextAsset",
+      "name": "981_Angel_02_Location_eng",
+      "file": "original/TextAsset/sharedassets0.assets/803.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 804,
+      "cls": "TextAsset",
+      "name": "965_gasstation_20_shop_exit_eng",
+      "file": "original/TextAsset/sharedassets0.assets/804.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 805,
+      "cls": "TextAsset",
+      "name": "965_gasstation_01_intro_eng",
+      "file": "original/TextAsset/sharedassets0.assets/805.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 806,
+      "cls": "TextAsset",
+      "name": "982_Sandman_04_Location_eng",
+      "file": "original/TextAsset/sharedassets0.assets/806.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 807,
+      "cls": "TextAsset",
+      "name": "935_wake_ger",
+      "file": "original/TextAsset/sharedassets0.assets/807.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 808,
+      "cls": "TextAsset",
+      "name": "981_Angel_01_Location_eng",
+      "file": "original/TextAsset/sharedassets0.assets/808.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 809,
+      "cls": "TextAsset",
+      "name": "900_intro_ger",
+      "file": "original/TextAsset/sharedassets0.assets/809.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 810,
+      "cls": "TextAsset",
+      "name": "980_Judge_03_Location_ger",
+      "file": "original/TextAsset/sharedassets0.assets/810.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 811,
+      "cls": "TextAsset",
+      "name": "965_gasstation_12_shop_clues_intro_fra",
+      "file": "original/TextAsset/sharedassets0.assets/811.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 812,
+      "cls": "TextAsset",
+      "name": "965_gasstation_11_shop_ticket_fra",
+      "file": "original/TextAsset/sharedassets0.assets/812.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 813,
+      "cls": "TextAsset",
+      "name": "965_gasstation_01_intro_ger",
+      "file": "original/TextAsset/sharedassets0.assets/813.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 814,
+      "cls": "TextAsset",
+      "name": "980_Judge_05_Location_eng",
+      "file": "original/TextAsset/sharedassets0.assets/814.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 815,
+      "cls": "TextAsset",
+      "name": "980_Judge_04_Location_ger",
+      "file": "original/TextAsset/sharedassets0.assets/815.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 816,
+      "cls": "TextAsset",
+      "name": "981_Angel_02_Location_ger",
+      "file": "original/TextAsset/sharedassets0.assets/816.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 817,
+      "cls": "TextAsset",
+      "name": "981_Angel_04_Location_ger",
+      "file": "original/TextAsset/sharedassets0.assets/817.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 818,
+      "cls": "TextAsset",
+      "name": "935_wake_eng",
+      "file": "original/TextAsset/sharedassets0.assets/818.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 819,
+      "cls": "TextAsset",
+      "name": "965_gasstation_13_shop_clues_outro_fra",
+      "file": "original/TextAsset/sharedassets0.assets/819.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 820,
+      "cls": "TextAsset",
+      "name": "965_gasstation_11_shop_ticket_eng",
+      "file": "original/TextAsset/sharedassets0.assets/820.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 821,
+      "cls": "TextAsset",
+      "name": "982_Sandman_03_Location_eng",
+      "file": "original/TextAsset/sharedassets0.assets/821.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 822,
+      "cls": "TextAsset",
+      "name": "981_Angel_03_Location_fra",
+      "file": "original/TextAsset/sharedassets0.assets/822.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 823,
+      "cls": "TextAsset",
+      "name": "972_radio_ger",
+      "file": "original/TextAsset/sharedassets0.assets/823.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 824,
+      "cls": "TextAsset",
+      "name": "981_Angel_02_Location_fra",
+      "file": "original/TextAsset/sharedassets0.assets/824.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 825,
+      "cls": "TextAsset",
+      "name": "965_gasstation_30_outro_fra",
+      "file": "original/TextAsset/sharedassets0.assets/825.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 826,
+      "cls": "TextAsset",
+      "name": "953_gameover_gas_ger",
+      "file": "original/TextAsset/sharedassets0.assets/826.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 827,
+      "cls": "TextAsset",
+      "name": "971_newspapers_ger",
+      "file": "original/TextAsset/sharedassets0.assets/827.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 828,
+      "cls": "TextAsset",
+      "name": "990_ending_eng",
+      "file": "original/TextAsset/sharedassets0.assets/828.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 829,
+      "cls": "TextAsset",
+      "name": "980_Judge_01_Location_fra",
+      "file": "original/TextAsset/sharedassets0.assets/829.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 830,
+      "cls": "TextAsset",
+      "name": "965_gasstation_01_intro_fra",
+      "file": "original/TextAsset/sharedassets0.assets/830.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 831,
+      "cls": "TextAsset",
+      "name": "982_Sandman_03_Location_ger",
+      "file": "original/TextAsset/sharedassets0.assets/831.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 832,
+      "cls": "TextAsset",
+      "name": "981_Angel_05_Location_fra",
+      "file": "original/TextAsset/sharedassets0.assets/832.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 833,
+      "cls": "TextAsset",
+      "name": "971_newspapers_eng",
+      "file": "original/TextAsset/sharedassets0.assets/833.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 834,
+      "cls": "TextAsset",
+      "name": "981_Angel_03_Location_ger",
+      "file": "original/TextAsset/sharedassets0.assets/834.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 835,
+      "cls": "TextAsset",
+      "name": "981_Angel_03_Location_eng",
+      "file": "original/TextAsset/sharedassets0.assets/835.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 836,
+      "cls": "TextAsset",
+      "name": "982_Sandman_05_Location_fra",
+      "file": "original/TextAsset/sharedassets0.assets/836.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 837,
+      "cls": "TextAsset",
+      "name": "966_gasstation_emptygas_eng",
+      "file": "original/TextAsset/sharedassets0.assets/837.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 838,
+      "cls": "TextAsset",
+      "name": "980_Judge_02_Location_ger",
+      "file": "original/TextAsset/sharedassets0.assets/838.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 839,
+      "cls": "TextAsset",
+      "name": "970_roaming_events_fra",
+      "file": "original/TextAsset/sharedassets0.assets/839.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 840,
+      "cls": "TextAsset",
+      "name": "982_Sandman_02_Location_eng",
+      "file": "original/TextAsset/sharedassets0.assets/840.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 841,
+      "cls": "TextAsset",
+      "name": "981_Angel_04_Location_fra",
+      "file": "original/TextAsset/sharedassets0.assets/841.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 842,
+      "cls": "TextAsset",
+      "name": "966_gasstation_emptygas_ger",
+      "file": "original/TextAsset/sharedassets0.assets/842.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 843,
+      "cls": "TextAsset",
+      "name": "981_Angel_05_Location_ger",
+      "file": "original/TextAsset/sharedassets0.assets/843.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 844,
+      "cls": "TextAsset",
+      "name": "965_gasstation_11_shop_ticket_ger",
+      "file": "original/TextAsset/sharedassets0.assets/844.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 845,
+      "cls": "TextAsset",
+      "name": "951_gameover_ruined_ger",
+      "file": "original/TextAsset/sharedassets0.assets/845.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 846,
+      "cls": "TextAsset",
+      "name": "965_gasstation_30_outro_eng",
+      "file": "original/TextAsset/sharedassets0.assets/846.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 847,
+      "cls": "TextAsset",
+      "name": "965_gasstation_10_shop_entrance_ger",
+      "file": "original/TextAsset/sharedassets0.assets/847.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 848,
+      "cls": "TextAsset",
+      "name": "900_intro_fra",
+      "file": "original/TextAsset/sharedassets0.assets/848.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 849,
+      "cls": "TextAsset",
+      "name": "965_gasstation_13_shop_clues_outro_eng",
+      "file": "original/TextAsset/sharedassets0.assets/849.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 850,
+      "cls": "TextAsset",
+      "name": "970_roaming_events_ger",
+      "file": "original/TextAsset/sharedassets0.assets/850.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 851,
+      "cls": "TextAsset",
+      "name": "980_Judge_02_Location_fra",
+      "file": "original/TextAsset/sharedassets0.assets/851.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 852,
+      "cls": "TextAsset",
+      "name": "951_gameover_ruined_fra",
+      "file": "original/TextAsset/sharedassets0.assets/852.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 853,
+      "cls": "TextAsset",
+      "name": "980_Judge_01_Location_ger",
+      "file": "original/TextAsset/sharedassets0.assets/853.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 854,
+      "cls": "TextAsset",
+      "name": "980_Judge_05_Location_fra",
+      "file": "original/TextAsset/sharedassets0.assets/854.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 855,
+      "cls": "TextAsset",
+      "name": "982_Sandman_02_Location_ger",
+      "file": "original/TextAsset/sharedassets0.assets/855.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 856,
+      "cls": "TextAsset",
+      "name": "981_Angel_01_Location_ger",
+      "file": "original/TextAsset/sharedassets0.assets/856.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 857,
+      "cls": "TextAsset",
+      "name": "965_gasstation_20_shop_exit_fra",
+      "file": "original/TextAsset/sharedassets0.assets/857.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 858,
+      "cls": "TextAsset",
+      "name": "972_radio_fra",
+      "file": "original/TextAsset/sharedassets0.assets/858.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 859,
+      "cls": "TextAsset",
+      "name": "951_gameover_ruined_eng",
+      "file": "original/TextAsset/sharedassets0.assets/859.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 860,
+      "cls": "TextAsset",
+      "name": "982_Sandman_01_Location_fra",
+      "file": "original/TextAsset/sharedassets0.assets/860.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 861,
+      "cls": "TextAsset",
+      "name": "980_Judge_02_Location_eng",
+      "file": "original/TextAsset/sharedassets0.assets/861.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 862,
+      "cls": "TextAsset",
+      "name": "981_Angel_05_Location_eng",
+      "file": "original/TextAsset/sharedassets0.assets/862.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 863,
+      "cls": "TextAsset",
+      "name": "970_roaming_events_eng",
+      "file": "original/TextAsset/sharedassets0.assets/863.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 864,
+      "cls": "TextAsset",
+      "name": "982_Sandman_01_Location_eng",
+      "file": "original/TextAsset/sharedassets0.assets/864.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 865,
+      "cls": "TextAsset",
+      "name": "982_Sandman_01_Location_ger",
+      "file": "original/TextAsset/sharedassets0.assets/865.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 866,
+      "cls": "TextAsset",
+      "name": "972_radio_eng",
+      "file": "original/TextAsset/sharedassets0.assets/866.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 867,
+      "cls": "TextAsset",
+      "name": "980_Judge_04_Location_fra",
+      "file": "original/TextAsset/sharedassets0.assets/867.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 868,
+      "cls": "TextAsset",
+      "name": "966_gasstation_emptygas_fra",
+      "file": "original/TextAsset/sharedassets0.assets/868.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 869,
+      "cls": "TextAsset",
+      "name": "980_Judge_03_Location_eng",
+      "file": "original/TextAsset/sharedassets0.assets/869.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 870,
+      "cls": "TextAsset",
+      "name": "980_Judge_04_Location_eng",
+      "file": "original/TextAsset/sharedassets0.assets/870.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 871,
+      "cls": "TextAsset",
+      "name": "965_gasstation_12_shop_clues_intro_eng",
+      "file": "original/TextAsset/sharedassets0.assets/871.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 872,
+      "cls": "TextAsset",
+      "name": "953_gameover_gas_eng",
+      "file": "original/TextAsset/sharedassets0.assets/872.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 873,
+      "cls": "TextAsset",
+      "name": "980_Judge_01_Location_eng",
+      "file": "original/TextAsset/sharedassets0.assets/873.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 874,
+      "cls": "TextAsset",
+      "name": "935_wake_fra",
+      "file": "original/TextAsset/sharedassets0.assets/874.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 875,
+      "cls": "TextAsset",
+      "name": "990_ending_fra",
+      "file": "original/TextAsset/sharedassets0.assets/875.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 876,
+      "cls": "TextAsset",
+      "name": "982_Sandman_03_Location_fra",
+      "file": "original/TextAsset/sharedassets0.assets/876.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 877,
+      "cls": "TextAsset",
+      "name": "982_Sandman_05_Location_ger",
+      "file": "original/TextAsset/sharedassets0.assets/877.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 878,
+      "cls": "TextAsset",
+      "name": "965_gasstation_30_outro_ger",
+      "file": "original/TextAsset/sharedassets0.assets/878.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 879,
+      "cls": "TextAsset",
+      "name": "982_Sandman_04_Location_fra",
+      "file": "original/TextAsset/sharedassets0.assets/879.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 880,
+      "cls": "TextAsset",
+      "name": "982_Sandman_04_Location_ger",
+      "file": "original/TextAsset/sharedassets0.assets/880.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 881,
+      "cls": "TextAsset",
+      "name": "981_Angel_01_Location_fra",
+      "file": "original/TextAsset/sharedassets0.assets/881.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 882,
+      "cls": "TextAsset",
+      "name": "980_Judge_03_Location_fra",
+      "file": "original/TextAsset/sharedassets0.assets/882.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 883,
+      "cls": "TextAsset",
+      "name": "982_Sandman_05_Location_eng",
+      "file": "original/TextAsset/sharedassets0.assets/883.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 884,
+      "cls": "TextAsset",
+      "name": "965_gasstation_10_shop_entrance_fra",
+      "file": "original/TextAsset/sharedassets0.assets/884.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 885,
+      "cls": "TextAsset",
+      "name": "965_gasstation_12_shop_clues_intro_ger",
+      "file": "original/TextAsset/sharedassets0.assets/885.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 886,
+      "cls": "TextAsset",
+      "name": "982_Sandman_02_Location_fra",
+      "file": "original/TextAsset/sharedassets0.assets/886.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 887,
+      "cls": "TextAsset",
+      "name": "965_gasstation_20_shop_exit_ger",
+      "file": "original/TextAsset/sharedassets0.assets/887.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 888,
+      "cls": "TextAsset",
+      "name": "900_intro_eng",
+      "file": "original/TextAsset/sharedassets0.assets/888.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 889,
+      "cls": "TextAsset",
+      "name": "981_Angel_04_Location_eng",
+      "file": "original/TextAsset/sharedassets0.assets/889.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 1982,
+      "cls": "CutsceneScript",
+      "name": "AlexandreEnding",
+      "file": "original/CutsceneScript/sharedassets0.assets/1982.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 1983,
+      "cls": "CutsceneScript",
+      "name": "AlexandreGun_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/1983.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 1984,
+      "cls": "CutsceneScript",
+      "name": "Bar_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/1984.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 1985,
+      "cls": "CutsceneScript",
+      "name": "Bridge_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/1985.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 1986,
+      "cls": "CutsceneScript",
+      "name": "CarBack",
+      "file": "original/CutsceneScript/sharedassets0.assets/1986.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 1987,
+      "cls": "CutsceneScript",
+      "name": "CigaretteStore_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/1987.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 1988,
+      "cls": "CutsceneScript",
+      "name": "CityLightOnHood_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/1988.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 1989,
+      "cls": "CutsceneScript",
+      "name": "ClientLeavingTaxiBehind",
+      "file": "original/CutsceneScript/sharedassets0.assets/1989.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 1990,
+      "cls": "CutsceneScript",
+      "name": "Airport_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/1990.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 1991,
+      "cls": "CutsceneScript",
+      "name": "BarbesShop_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/1991.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 1992,
+      "cls": "CutsceneScript",
+      "name": "CarStartingOutside1",
+      "file": "original/CutsceneScript/sharedassets0.assets/1992.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 1993,
+      "cls": "CutsceneScript",
+      "name": "CarStartingOutside2",
+      "file": "original/CutsceneScript/sharedassets0.assets/1993.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 1994,
+      "cls": "CutsceneScript",
+      "name": "CarStartingOutside3",
+      "file": "original/CutsceneScript/sharedassets0.assets/1994.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 1995,
+      "cls": "CutsceneScript",
+      "name": "Dock_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/1995.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 1996,
+      "cls": "CutsceneScript",
+      "name": "Grocery_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/1996.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 1997,
+      "cls": "CutsceneScript",
+      "name": "LaDefense_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/1997.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 1998,
+      "cls": "CutsceneScript",
+      "name": "MauriceColumn_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/1998.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 1999,
+      "cls": "CutsceneScript",
+      "name": "Park_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/1999.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2000,
+      "cls": "CutsceneScript",
+      "name": "Railway_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/2000.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2001,
+      "cls": "CutsceneScript",
+      "name": "RivoliStreet_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/2001.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2002,
+      "cls": "CutsceneScript",
+      "name": "StreetWork_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/2002.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2003,
+      "cls": "CutsceneScript",
+      "name": "TaxiTopPassengerEnter",
+      "file": "original/CutsceneScript/sharedassets0.assets/2003.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2004,
+      "cls": "CutsceneScript",
+      "name": "TaxiTopPassengerOut",
+      "file": "original/CutsceneScript/sharedassets0.assets/2004.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2005,
+      "cls": "CutsceneScript",
+      "name": "Theatre_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/2005.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2006,
+      "cls": "CutsceneScript",
+      "name": "DeathByFragonard",
+      "file": "original/CutsceneScript/sharedassets0.assets/2006.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2007,
+      "cls": "CutsceneScript",
+      "name": "DiscoverBody",
+      "file": "original/CutsceneScript/sharedassets0.assets/2007.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2008,
+      "cls": "CutsceneScript",
+      "name": "DriverInBed_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/2008.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2009,
+      "cls": "CutsceneScript",
+      "name": "DriverLostRoom",
+      "file": "original/CutsceneScript/sharedassets0.assets/2009.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2010,
+      "cls": "CutsceneScript",
+      "name": "DriverSmocking_Big_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/2010.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2011,
+      "cls": "CutsceneScript",
+      "name": "DriverSmocking_Little",
+      "file": "original/CutsceneScript/sharedassets0.assets/2011.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2012,
+      "cls": "CutsceneScript",
+      "name": "DriverSmocking_Little_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/2012.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2013,
+      "cls": "CutsceneScript",
+      "name": "FaceCar_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/2013.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2014,
+      "cls": "CutsceneScript",
+      "name": "FragonardEndingA_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/2014.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2015,
+      "cls": "CutsceneScript",
+      "name": "FragonardGun_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/2015.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2016,
+      "cls": "CutsceneScript",
+      "name": "FragonardKillHimself",
+      "file": "original/CutsceneScript/sharedassets0.assets/2016.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2017,
+      "cls": "CutsceneScript",
+      "name": "GameOver_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/2017.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2018,
+      "cls": "CutsceneScript",
+      "name": "Garbage_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/2018.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2019,
+      "cls": "CutsceneScript",
+      "name": "GasStation_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/2019.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2020,
+      "cls": "CutsceneScript",
+      "name": "GildaGetKilled_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/2020.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2021,
+      "cls": "CutsceneScript",
+      "name": "GildaKnife_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/2021.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2022,
+      "cls": "CutsceneScript",
+      "name": "GildaSmile",
+      "file": "original/CutsceneScript/sharedassets0.assets/2022.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2023,
+      "cls": "CutsceneScript",
+      "name": "InOut",
+      "file": "original/CutsceneScript/sharedassets0.assets/2023.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2024,
+      "cls": "CutsceneScript",
+      "name": "IntroRoom",
+      "file": "original/CutsceneScript/sharedassets0.assets/2024.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2025,
+      "cls": "CutsceneScript",
+      "name": "Intro_Attack",
+      "file": "original/CutsceneScript/sharedassets0.assets/2025.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2026,
+      "cls": "CutsceneScript",
+      "name": "Kebab_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/2026.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2027,
+      "cls": "CutsceneScript",
+      "name": "KillerArrest_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/2027.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2028,
+      "cls": "CutsceneScript",
+      "name": "Lamparo_OFF",
+      "file": "original/CutsceneScript/sharedassets0.assets/2028.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2029,
+      "cls": "CutsceneScript",
+      "name": "Lamparo_ON",
+      "file": "original/CutsceneScript/sharedassets0.assets/2029.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2030,
+      "cls": "CutsceneScript",
+      "name": "Lamparo_changed",
+      "file": "original/CutsceneScript/sharedassets0.assets/2030.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2031,
+      "cls": "CutsceneScript",
+      "name": "Lamparo_loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/2031.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2032,
+      "cls": "CutsceneScript",
+      "name": "Lampshade",
+      "file": "original/CutsceneScript/sharedassets0.assets/2032.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2033,
+      "cls": "CutsceneScript",
+      "name": "LightsOnRadio_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/2033.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2034,
+      "cls": "CutsceneScript",
+      "name": "Metro",
+      "file": "original/CutsceneScript/sharedassets0.assets/2034.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2035,
+      "cls": "CutsceneScript",
+      "name": "Metro_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/2035.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2036,
+      "cls": "CutsceneScript",
+      "name": "NewspaperKiosk_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/2036.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2037,
+      "cls": "CutsceneScript",
+      "name": "On_Car",
+      "file": "original/CutsceneScript/sharedassets0.assets/2037.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2038,
+      "cls": "CutsceneScript",
+      "name": "OutroForest",
+      "file": "original/CutsceneScript/sharedassets0.assets/2038.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2039,
+      "cls": "CutsceneScript",
+      "name": "OutroForestWalk",
+      "file": "original/CutsceneScript/sharedassets0.assets/2039.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2040,
+      "cls": "CutsceneScript",
+      "name": "OutroForest_loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/2040.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2041,
+      "cls": "CutsceneScript",
+      "name": "PassengerEnter",
+      "file": "original/CutsceneScript/sharedassets0.assets/2041.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2042,
+      "cls": "CutsceneScript",
+      "name": "PassengerEnter_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/2042.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2043,
+      "cls": "CutsceneScript",
+      "name": "Perfusion_BlinkIN",
+      "file": "original/CutsceneScript/sharedassets0.assets/2043.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2044,
+      "cls": "CutsceneScript",
+      "name": "Perfusion_BlinkOUT",
+      "file": "original/CutsceneScript/sharedassets0.assets/2044.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2045,
+      "cls": "CutsceneScript",
+      "name": "Perfusion_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/2045.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2046,
+      "cls": "CutsceneScript",
+      "name": "Pharmacie_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/2046.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2047,
+      "cls": "CutsceneScript",
+      "name": "Plafond_Blink",
+      "file": "original/CutsceneScript/sharedassets0.assets/2047.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2048,
+      "cls": "CutsceneScript",
+      "name": "Plafond_BlinkIN",
+      "file": "original/CutsceneScript/sharedassets0.assets/2048.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2049,
+      "cls": "CutsceneScript",
+      "name": "Plafond_BlinkOUT",
+      "file": "original/CutsceneScript/sharedassets0.assets/2049.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2050,
+      "cls": "CutsceneScript",
+      "name": "Plafond_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/2050.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2051,
+      "cls": "CutsceneScript",
+      "name": "PlaneInSky_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/2051.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2052,
+      "cls": "CutsceneScript",
+      "name": "RadioOff",
+      "file": "original/CutsceneScript/sharedassets0.assets/2052.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2053,
+      "cls": "CutsceneScript",
+      "name": "RadioOn",
+      "file": "original/CutsceneScript/sharedassets0.assets/2053.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2054,
+      "cls": "CutsceneScript",
+      "name": "ReadingNewspaper_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/2054.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2055,
+      "cls": "CutsceneScript",
+      "name": "StartingCar",
+      "file": "original/CutsceneScript/sharedassets0.assets/2055.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2056,
+      "cls": "CutsceneScript",
+      "name": "ArgentinianEmbassy",
+      "file": "original/CutsceneScript/sharedassets0.assets/2056.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2057,
+      "cls": "CutsceneScript",
+      "name": "Belvedere",
+      "file": "original/CutsceneScript/sharedassets0.assets/2057.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2058,
+      "cls": "CutsceneScript",
+      "name": "Black",
+      "file": "original/CutsceneScript/sharedassets0.assets/2058.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2059,
+      "cls": "CutsceneScript",
+      "name": "Cemetery",
+      "file": "original/CutsceneScript/sharedassets0.assets/2059.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2060,
+      "cls": "CutsceneScript",
+      "name": "CemeteryHouse",
+      "file": "original/CutsceneScript/sharedassets0.assets/2060.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2061,
+      "cls": "CutsceneScript",
+      "name": "Church",
+      "file": "original/CutsceneScript/sharedassets0.assets/2061.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2062,
+      "cls": "CutsceneScript",
+      "name": "Escort",
+      "file": "original/CutsceneScript/sharedassets0.assets/2062.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2063,
+      "cls": "CutsceneScript",
+      "name": "FireStation",
+      "file": "original/CutsceneScript/sharedassets0.assets/2063.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2064,
+      "cls": "CutsceneScript",
+      "name": "GunShop",
+      "file": "original/CutsceneScript/sharedassets0.assets/2064.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2065,
+      "cls": "CutsceneScript",
+      "name": "HackerFriend",
+      "file": "original/CutsceneScript/sharedassets0.assets/2065.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2066,
+      "cls": "CutsceneScript",
+      "name": "Hospital",
+      "file": "original/CutsceneScript/sharedassets0.assets/2066.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2067,
+      "cls": "CutsceneScript",
+      "name": "Parking",
+      "file": "original/CutsceneScript/sharedassets0.assets/2067.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2068,
+      "cls": "CutsceneScript",
+      "name": "PoliceArchive",
+      "file": "original/CutsceneScript/sharedassets0.assets/2068.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2069,
+      "cls": "CutsceneScript",
+      "name": "PressRoom",
+      "file": "original/CutsceneScript/sharedassets0.assets/2069.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2070,
+      "cls": "CutsceneScript",
+      "name": "StadeCharlety",
+      "file": "original/CutsceneScript/sharedassets0.assets/2070.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2071,
+      "cls": "CutsceneScript",
+      "name": "StickersProstitute_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/2071.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2072,
+      "cls": "CutsceneScript",
+      "name": "SubwayPassingByWithoutMetro_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/2072.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2073,
+      "cls": "CutsceneScript",
+      "name": "Subwaypassingbywithmetro",
+      "file": "original/CutsceneScript/sharedassets0.assets/2073.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2074,
+      "cls": "CutsceneScript",
+      "name": "Tabac",
+      "file": "original/CutsceneScript/sharedassets0.assets/2074.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2075,
+      "cls": "CutsceneScript",
+      "name": "TaximeterOFF",
+      "file": "original/CutsceneScript/sharedassets0.assets/2075.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2076,
+      "cls": "CutsceneScript",
+      "name": "TaximeterON",
+      "file": "original/CutsceneScript/sharedassets0.assets/2076.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2077,
+      "cls": "CutsceneScript",
+      "name": "TunnelDriving_Loop",
+      "file": "original/CutsceneScript/sharedassets0.assets/2077.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2083,
+      "cls": "CutsceneHolderScript",
+      "name": "CutsceneHolderComplete",
+      "file": "original/CutsceneHolderScript/sharedassets0.assets/2083.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2089,
+      "cls": "GameIntroNarrativeContentScript",
+      "name": "GameIntroNarrativeContent",
+      "file": "original/GameIntroNarrativeContentScript/sharedassets0.assets/2089.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2090,
+      "cls": "GameWakeUpNarrativeContentScript",
+      "name": "GameWakeupNarrativeContentScript",
+      "file": "original/GameWakeUpNarrativeContentScript/sharedassets0.assets/2090.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2092,
+      "cls": "GasStationNarrativeContentScript",
+      "name": "GasStationNarrativeContent",
+      "file": "original/GasStationNarrativeContentScript/sharedassets0.assets/2092.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2094,
+      "cls": "LangHolder",
+      "name": "LangHolder",
+      "file": "original/LangHolder/sharedassets0.assets/2094.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2096,
+      "cls": "LocalizationData",
+      "name": "LocalizationDataENG",
+      "file": "original/LocalizationData/sharedassets0.assets/2096.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2097,
+      "cls": "LocalizationData",
+      "name": "LocalizationDataFRA",
+      "file": "original/LocalizationData/sharedassets0.assets/2097.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2098,
+      "cls": "LocalizationData",
+      "name": "LocalizationDataGER",
+      "file": "original/LocalizationData/sharedassets0.assets/2098.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2100,
+      "cls": "InvestigationScript",
+      "name": "Investigation_999_freeroam",
+      "file": "original/InvestigationScript/sharedassets0.assets/2100.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2101,
+      "cls": "InvestigationScript",
+      "name": "investigation_001_judge",
+      "file": "original/InvestigationScript/sharedassets0.assets/2101.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2102,
+      "cls": "InvestigationScript",
+      "name": "investigation_002_angel_of_death",
+      "file": "original/InvestigationScript/sharedassets0.assets/2102.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2103,
+      "cls": "InvestigationScript",
+      "name": "investigation_003_sandman",
+      "file": "original/InvestigationScript/sharedassets0.assets/2103.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2108,
+      "cls": "EndingNarratives",
+      "name": "NarrativeEnding",
+      "file": "original/EndingNarratives/sharedassets0.assets/2108.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2109,
+      "cls": "PointOfInteresetNarratives",
+      "name": "980_Judge_01_Location (parking)",
+      "file": "original/PointOfInteresetNarratives/sharedassets0.assets/2109.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2110,
+      "cls": "PointOfInteresetNarratives",
+      "name": "980_Judge_02_Location (archive)",
+      "file": "original/PointOfInteresetNarratives/sharedassets0.assets/2110.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2111,
+      "cls": "PointOfInteresetNarratives",
+      "name": "980_Judge_03_Location (embassy)",
+      "file": "original/PointOfInteresetNarratives/sharedassets0.assets/2111.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2112,
+      "cls": "PointOfInteresetNarratives",
+      "name": "980_Judge_04_Location (gun shop)",
+      "file": "original/PointOfInteresetNarratives/sharedassets0.assets/2112.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2113,
+      "cls": "PointOfInteresetNarratives",
+      "name": "980_Judge_05_Location (stade)",
+      "file": "original/PointOfInteresetNarratives/sharedassets0.assets/2113.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2114,
+      "cls": "PointOfInteresetNarratives",
+      "name": "981_Angel_01_Location (cemetery)",
+      "file": "original/PointOfInteresetNarratives/sharedassets0.assets/2114.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2115,
+      "cls": "PointOfInteresetNarratives",
+      "name": "981_Angel_02_Location (fire station)",
+      "file": "original/PointOfInteresetNarratives/sharedassets0.assets/2115.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2116,
+      "cls": "PointOfInteresetNarratives",
+      "name": "981_Angel_03_Location (church)",
+      "file": "original/PointOfInteresetNarratives/sharedassets0.assets/2116.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2117,
+      "cls": "PointOfInteresetNarratives",
+      "name": "981_Angel_04_Location (hacker friend)",
+      "file": "original/PointOfInteresetNarratives/sharedassets0.assets/2117.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2118,
+      "cls": "PointOfInteresetNarratives",
+      "name": "981_Angel_05_Location (belvedere)",
+      "file": "original/PointOfInteresetNarratives/sharedassets0.assets/2118.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2119,
+      "cls": "PointOfInteresetNarratives",
+      "name": "982_Sandman_01_Location (hospital)",
+      "file": "original/PointOfInteresetNarratives/sharedassets0.assets/2119.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2120,
+      "cls": "PointOfInteresetNarratives",
+      "name": "982_Sandman_02_Location (groupe diamant)",
+      "file": "original/PointOfInteresetNarratives/sharedassets0.assets/2120.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2121,
+      "cls": "PointOfInteresetNarratives",
+      "name": "982_Sandman_03_Location (secret escort)",
+      "file": "original/PointOfInteresetNarratives/sharedassets0.assets/2121.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2122,
+      "cls": "PointOfInteresetNarratives",
+      "name": "982_Sandman_04_Location (cemetery)",
+      "file": "original/PointOfInteresetNarratives/sharedassets0.assets/2122.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2123,
+      "cls": "PointOfInteresetNarratives",
+      "name": "982_Sandman_05_Location (newsroom)",
+      "file": "original/PointOfInteresetNarratives/sharedassets0.assets/2123.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2124,
+      "cls": "RoamingNarratives",
+      "name": "Roaming Narrative",
+      "file": "original/RoamingNarratives/sharedassets0.assets/2124.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2125,
+      "cls": "ForcedNarrativePassengerBehaviourScript",
+      "name": "BossBehaviour",
+      "file": "original/ForcedNarrativePassengerBehaviourScript/sharedassets0.assets/2125.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2126,
+      "cls": "ForcedNarrativePassengerBehaviourScript",
+      "name": "CopBehaviour",
+      "file": "original/ForcedNarrativePassengerBehaviourScript/sharedassets0.assets/2126.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2128,
+      "cls": "RevealScript",
+      "name": "Reveals",
+      "file": "original/RevealScript/sharedassets0.assets/2128.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2130,
+      "cls": "DialogObjectScript",
+      "name": "001_patricia_02",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2130.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2131,
+      "cls": "DialogObjectScript",
+      "name": "002_purva_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2131.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2132,
+      "cls": "DialogObjectScript",
+      "name": "003_alaric_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2132.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2133,
+      "cls": "DialogObjectScript",
+      "name": "004_jeannoel_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2133.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2134,
+      "cls": "DialogObjectScript",
+      "name": "004_jeannoel_02",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2134.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2135,
+      "cls": "DialogObjectScript",
+      "name": "005_hugo_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2135.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2136,
+      "cls": "DialogObjectScript",
+      "name": "006_esmeralda_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2136.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2137,
+      "cls": "DialogObjectScript",
+      "name": "006_esmeralda_02",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2137.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2138,
+      "cls": "DialogObjectScript",
+      "name": "007_salim_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2138.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2139,
+      "cls": "DialogObjectScript",
+      "name": "008_vincent_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2139.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2140,
+      "cls": "DialogObjectScript",
+      "name": "009_ludwig_00a",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2140.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2141,
+      "cls": "DialogObjectScript",
+      "name": "009_ludwig_00b",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2141.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2142,
+      "cls": "DialogObjectScript",
+      "name": "009_ludwig_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2142.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2143,
+      "cls": "DialogObjectScript",
+      "name": "009_ludwig_02",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2143.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2144,
+      "cls": "DialogObjectScript",
+      "name": "009_ludwig_03",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2144.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2145,
+      "cls": "DialogObjectScript",
+      "name": "009_ludwig_04",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2145.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2146,
+      "cls": "DialogObjectScript",
+      "name": "009_ludwig_05",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2146.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2147,
+      "cls": "DialogObjectScript",
+      "name": "009_ludwig_06",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2147.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2148,
+      "cls": "DialogObjectScript",
+      "name": "009_ludwig_07",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2148.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2149,
+      "cls": "DialogObjectScript",
+      "name": "009_ludwig_08",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2149.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2150,
+      "cls": "DialogObjectScript",
+      "name": "009_ludwig_09",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2150.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2151,
+      "cls": "DialogObjectScript",
+      "name": "010_camilleantoine_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2151.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2152,
+      "cls": "DialogObjectScript",
+      "name": "011_ariane_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2152.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2153,
+      "cls": "DialogObjectScript",
+      "name": "012_christophe_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2153.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2154,
+      "cls": "DialogObjectScript",
+      "name": "012_christophe_02",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2154.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2155,
+      "cls": "DialogObjectScript",
+      "name": "012_christophe_03",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2155.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2156,
+      "cls": "DialogObjectScript",
+      "name": "012_christophe_04",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2156.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2157,
+      "cls": "DialogObjectScript",
+      "name": "013_leia_00a",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2157.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2158,
+      "cls": "DialogObjectScript",
+      "name": "013_leia_00b",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2158.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2159,
+      "cls": "DialogObjectScript",
+      "name": "013_leia_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2159.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2160,
+      "cls": "DialogObjectScript",
+      "name": "013_leia_02",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2160.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2161,
+      "cls": "DialogObjectScript",
+      "name": "013_leia_03",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2161.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2162,
+      "cls": "DialogObjectScript",
+      "name": "013_leia_04",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2162.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2163,
+      "cls": "DialogObjectScript",
+      "name": "013_leia_05",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2163.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2164,
+      "cls": "DialogObjectScript",
+      "name": "013_leia_06",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2164.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2165,
+      "cls": "DialogObjectScript",
+      "name": "013_leia_07",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2165.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2166,
+      "cls": "DialogObjectScript",
+      "name": "013_leia_08",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2166.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2167,
+      "cls": "DialogObjectScript",
+      "name": "014_fragonard_00a",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2167.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2168,
+      "cls": "DialogObjectScript",
+      "name": "014_fragonard_00b",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2168.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2169,
+      "cls": "DialogObjectScript",
+      "name": "014_fragonard_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2169.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2170,
+      "cls": "DialogObjectScript",
+      "name": "014_fragonard_02",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2170.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2171,
+      "cls": "DialogObjectScript",
+      "name": "014_fragonard_03",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2171.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2172,
+      "cls": "DialogObjectScript",
+      "name": "014_fragonard_04",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2172.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2173,
+      "cls": "DialogObjectScript",
+      "name": "014_fragonard_05",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2173.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2174,
+      "cls": "DialogObjectScript",
+      "name": "014_fragonard_06",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2174.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2175,
+      "cls": "DialogObjectScript",
+      "name": "014_fragonard_07",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2175.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2176,
+      "cls": "DialogObjectScript",
+      "name": "014_fragonard_08",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2176.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2177,
+      "cls": "DialogObjectScript",
+      "name": "015_alicia_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2177.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2178,
+      "cls": "DialogObjectScript",
+      "name": "015_alicia_02",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2178.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2179,
+      "cls": "DialogObjectScript",
+      "name": "015_alicia_03",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2179.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2180,
+      "cls": "DialogObjectScript",
+      "name": "016_gerard_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2180.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2181,
+      "cls": "DialogObjectScript",
+      "name": "017_grace_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2181.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2182,
+      "cls": "DialogObjectScript",
+      "name": "018_francois_00a",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2182.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2183,
+      "cls": "DialogObjectScript",
+      "name": "018_francois_00b",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2183.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2184,
+      "cls": "DialogObjectScript",
+      "name": "018_francois_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2184.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2185,
+      "cls": "DialogObjectScript",
+      "name": "018_francois_02",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2185.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2186,
+      "cls": "DialogObjectScript",
+      "name": "018_francois_03",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2186.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2187,
+      "cls": "DialogObjectScript",
+      "name": "018_francois_04",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2187.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2188,
+      "cls": "DialogObjectScript",
+      "name": "018_francois_05",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2188.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2189,
+      "cls": "DialogObjectScript",
+      "name": "018_francois_06",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2189.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2190,
+      "cls": "DialogObjectScript",
+      "name": "018_francois_07",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2190.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2191,
+      "cls": "DialogObjectScript",
+      "name": "018_francois_08",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2191.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2192,
+      "cls": "DialogObjectScript",
+      "name": "019_herve_00a",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2192.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2193,
+      "cls": "DialogObjectScript",
+      "name": "019_herve_00b",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2193.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2194,
+      "cls": "DialogObjectScript",
+      "name": "019_herve_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2194.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2195,
+      "cls": "DialogObjectScript",
+      "name": "019_herve_02",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2195.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2196,
+      "cls": "DialogObjectScript",
+      "name": "019_herve_03",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2196.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2197,
+      "cls": "DialogObjectScript",
+      "name": "019_herve_04",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2197.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2198,
+      "cls": "DialogObjectScript",
+      "name": "019_herve_05",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2198.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2199,
+      "cls": "DialogObjectScript",
+      "name": "020_jacquie_00a",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2199.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2200,
+      "cls": "DialogObjectScript",
+      "name": "020_jacquie_00b",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2200.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2201,
+      "cls": "DialogObjectScript",
+      "name": "020_jacquie_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2201.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2202,
+      "cls": "DialogObjectScript",
+      "name": "020_jacquie_02",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2202.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2203,
+      "cls": "DialogObjectScript",
+      "name": "020_jacquie_03",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2203.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2204,
+      "cls": "DialogObjectScript",
+      "name": "020_jacquie_04",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2204.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2205,
+      "cls": "DialogObjectScript",
+      "name": "021_carlo_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2205.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2206,
+      "cls": "DialogObjectScript",
+      "name": "022_claudia_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2206.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2207,
+      "cls": "DialogObjectScript",
+      "name": "023_apollonie_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2207.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2208,
+      "cls": "DialogObjectScript",
+      "name": "024_alicehyoga_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2208.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2209,
+      "cls": "DialogObjectScript",
+      "name": "025_ade_00a",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2209.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2210,
+      "cls": "DialogObjectScript",
+      "name": "025_ade_00b",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2210.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2211,
+      "cls": "DialogObjectScript",
+      "name": "025_ade_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2211.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2212,
+      "cls": "DialogObjectScript",
+      "name": "025_ade_02",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2212.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2213,
+      "cls": "DialogObjectScript",
+      "name": "025_ade_03",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2213.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2214,
+      "cls": "DialogObjectScript",
+      "name": "025_ade_04",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2214.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2215,
+      "cls": "DialogObjectScript",
+      "name": "025_ade_07",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2215.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2216,
+      "cls": "DialogObjectScript",
+      "name": "026_skaterz_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2216.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2217,
+      "cls": "DialogObjectScript",
+      "name": "027_lucieemilie_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2217.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2218,
+      "cls": "DialogObjectScript",
+      "name": "027_lucieemilie_02",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2218.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2219,
+      "cls": "DialogObjectScript",
+      "name": "027_lucieemilie_03",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2219.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2220,
+      "cls": "DialogObjectScript",
+      "name": "028_carolinaj_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2220.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2221,
+      "cls": "DialogObjectScript",
+      "name": "029_jerome_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2221.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2222,
+      "cls": "DialogObjectScript",
+      "name": "029_jerome_02",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2222.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2223,
+      "cls": "DialogObjectScript",
+      "name": "029_jerome_03",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2223.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2224,
+      "cls": "DialogObjectScript",
+      "name": "030_peter_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2224.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2225,
+      "cls": "DialogObjectScript",
+      "name": "031_geraldine_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2225.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2226,
+      "cls": "DialogObjectScript",
+      "name": "032_anita_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2226.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2227,
+      "cls": "DialogObjectScript",
+      "name": "033_chiara_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2227.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2228,
+      "cls": "DialogObjectScript",
+      "name": "034_phil_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2228.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2229,
+      "cls": "DialogObjectScript",
+      "name": "035_sylvainsylvie_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2229.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2230,
+      "cls": "DialogObjectScript",
+      "name": "036_sean_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2230.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2231,
+      "cls": "DialogObjectScript",
+      "name": "037_shinji_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2231.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2232,
+      "cls": "DialogObjectScript",
+      "name": "040_crouky_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2232.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2233,
+      "cls": "DialogObjectScript",
+      "name": "041_francine_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2233.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2234,
+      "cls": "DialogObjectScript",
+      "name": "042_djena_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2234.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2235,
+      "cls": "DialogObjectScript",
+      "name": "042_djena_02",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2235.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2236,
+      "cls": "DialogObjectScript",
+      "name": "043_jonas_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2236.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2237,
+      "cls": "DialogObjectScript",
+      "name": "044_chris_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2237.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2238,
+      "cls": "DialogObjectScript",
+      "name": "045_vero_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2238.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2239,
+      "cls": "DialogObjectScript",
+      "name": "046_shohreh_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2239.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2240,
+      "cls": "DialogObjectScript",
+      "name": "047_amelie_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2240.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2241,
+      "cls": "DialogObjectScript",
+      "name": "051_leonie_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2241.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2242,
+      "cls": "DialogObjectScript",
+      "name": "052_childeric_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2242.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2243,
+      "cls": "DialogObjectScript",
+      "name": "053_camille_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2243.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2244,
+      "cls": "DialogObjectScript",
+      "name": "054_ludivine_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2244.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2245,
+      "cls": "DialogObjectScript",
+      "name": "055_julian_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2245.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2246,
+      "cls": "DialogObjectScript",
+      "name": "056_kader_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2246.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2247,
+      "cls": "DialogObjectScript",
+      "name": "057_annabelle_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2247.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2248,
+      "cls": "DialogObjectScript",
+      "name": "058_agnes_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2248.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2249,
+      "cls": "DialogObjectScript",
+      "name": "059_pierrot_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2249.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2250,
+      "cls": "DialogObjectScript",
+      "name": "060_mireille_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2250.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2251,
+      "cls": "DialogObjectScript",
+      "name": "061_denis_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2251.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2252,
+      "cls": "DialogObjectScript",
+      "name": "063_pauline_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2252.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2253,
+      "cls": "DialogObjectScript",
+      "name": "064_janet_00a",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2253.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2254,
+      "cls": "DialogObjectScript",
+      "name": "064_janet_00b",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2254.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2255,
+      "cls": "DialogObjectScript",
+      "name": "064_janet_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2255.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2256,
+      "cls": "DialogObjectScript",
+      "name": "064_janet_02",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2256.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2257,
+      "cls": "DialogObjectScript",
+      "name": "064_janet_03",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2257.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2258,
+      "cls": "DialogObjectScript",
+      "name": "064_janet_04",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2258.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2259,
+      "cls": "DialogObjectScript",
+      "name": "064_janet_05",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2259.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2260,
+      "cls": "DialogObjectScript",
+      "name": "065_nina_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2260.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2261,
+      "cls": "DialogObjectScript",
+      "name": "066_tps_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2261.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2262,
+      "cls": "DialogObjectScript",
+      "name": "067_mathieu_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2262.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2263,
+      "cls": "DialogObjectScript",
+      "name": "067_mathieu_02",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2263.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2264,
+      "cls": "DialogObjectScript",
+      "name": "067_mathieu_03",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2264.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2265,
+      "cls": "DialogObjectScript",
+      "name": "067_mathieu_04",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2265.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2266,
+      "cls": "DialogObjectScript",
+      "name": "068_sonny_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2266.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2267,
+      "cls": "DialogObjectScript",
+      "name": "068_sonny_02",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2267.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2268,
+      "cls": "DialogObjectScript",
+      "name": "070_antoine_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2268.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2269,
+      "cls": "DialogObjectScript",
+      "name": "071_marcsophie_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2269.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2270,
+      "cls": "DialogObjectScript",
+      "name": "072_pierrette_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2270.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2271,
+      "cls": "DialogObjectScript",
+      "name": "073_myriam_00a",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2271.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2272,
+      "cls": "DialogObjectScript",
+      "name": "073_myriam_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2272.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2273,
+      "cls": "DialogObjectScript",
+      "name": "073_myriam_02",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2273.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2274,
+      "cls": "DialogObjectScript",
+      "name": "073_myriam_03",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2274.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2275,
+      "cls": "DialogObjectScript",
+      "name": "074_emilia_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2275.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2276,
+      "cls": "DialogObjectScript",
+      "name": "075_henri_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2276.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2277,
+      "cls": "DialogObjectScript",
+      "name": "076_angelique_00a",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2277.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2278,
+      "cls": "DialogObjectScript",
+      "name": "076_angelique_00b",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2278.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2279,
+      "cls": "DialogObjectScript",
+      "name": "076_angelique_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2279.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2280,
+      "cls": "DialogObjectScript",
+      "name": "076_angelique_02",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2280.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2281,
+      "cls": "DialogObjectScript",
+      "name": "076_angelique_03",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2281.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2282,
+      "cls": "DialogObjectScript",
+      "name": "076_angelique_04",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2282.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2283,
+      "cls": "DialogObjectScript",
+      "name": "077_santa_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2283.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2284,
+      "cls": "DialogObjectScript",
+      "name": "090_houssine_00a",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2284.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2285,
+      "cls": "DialogObjectScript",
+      "name": "090_houssine_00b",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2285.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2286,
+      "cls": "DialogObjectScript",
+      "name": "090_houssine_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2286.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2287,
+      "cls": "DialogObjectScript",
+      "name": "090_houssine_02",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2287.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2288,
+      "cls": "DialogObjectScript",
+      "name": "090_houssine_03",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2288.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2289,
+      "cls": "DialogObjectScript",
+      "name": "090_houssine_04",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2289.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2290,
+      "cls": "DialogObjectScript",
+      "name": "090_houssine_05",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2290.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2291,
+      "cls": "DialogObjectScript",
+      "name": "090_houssine_06",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2291.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2292,
+      "cls": "DialogObjectScript",
+      "name": "096_gilda_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2292.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2293,
+      "cls": "DialogObjectScript",
+      "name": "096_gilda_02",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2293.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2294,
+      "cls": "DialogObjectScript",
+      "name": "097_alexandre_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2294.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2295,
+      "cls": "DialogObjectScript",
+      "name": "097_alexandre_02",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2295.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2296,
+      "cls": "DialogObjectScript",
+      "name": "099_boss_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2296.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2297,
+      "cls": "DialogObjectScript",
+      "name": "099_boss_02",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2297.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2298,
+      "cls": "DialogObjectScript",
+      "name": "100_cop_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2298.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2299,
+      "cls": "DialogObjectScript",
+      "name": "100_cop_02",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2299.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2300,
+      "cls": "DialogObjectScript",
+      "name": "100_cop_03",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2300.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2301,
+      "cls": "DialogObjectScript",
+      "name": "100_cop_04",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2301.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2302,
+      "cls": "DialogObjectScript",
+      "name": "100_cop_05",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2302.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2303,
+      "cls": "DialogObjectScript",
+      "name": "100_cop_06",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2303.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2304,
+      "cls": "DialogObjectScript",
+      "name": "200_ada_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2304.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2305,
+      "cls": "DialogObjectScript",
+      "name": "203_milo_00a",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2305.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2306,
+      "cls": "DialogObjectScript",
+      "name": "203_milo_00b",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2306.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2307,
+      "cls": "DialogObjectScript",
+      "name": "203_milo_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2307.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2308,
+      "cls": "DialogObjectScript",
+      "name": "203_milo_02",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2308.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2309,
+      "cls": "DialogObjectScript",
+      "name": "203_milo_03",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2309.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2310,
+      "cls": "DialogObjectScript",
+      "name": "205_chantal_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2310.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2311,
+      "cls": "DialogObjectScript",
+      "name": "206_amira_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2311.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2312,
+      "cls": "DialogObjectScript",
+      "name": "207_lola_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2312.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2313,
+      "cls": "DialogObjectScript",
+      "name": "208_myrtille_00a",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2313.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2314,
+      "cls": "DialogObjectScript",
+      "name": "208_myrtille_00b",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2314.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2315,
+      "cls": "DialogObjectScript",
+      "name": "208_myrtille_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2315.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2316,
+      "cls": "DialogObjectScript",
+      "name": "208_myrtille_02",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2316.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2317,
+      "cls": "DialogObjectScript",
+      "name": "208_myrtille_03",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2317.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2318,
+      "cls": "DialogObjectScript",
+      "name": "208_myrtille_04",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2318.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2319,
+      "cls": "DialogObjectScript",
+      "name": "210_xavier_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2319.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2320,
+      "cls": "DialogObjectScript",
+      "name": "210_xavier_02",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2320.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2321,
+      "cls": "DialogObjectScript",
+      "name": "210_xavier_03",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2321.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2322,
+      "cls": "DialogObjectScript",
+      "name": "214_roksana_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2322.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2323,
+      "cls": "DialogObjectScript",
+      "name": "217_alph_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2323.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2324,
+      "cls": "DialogObjectScript",
+      "name": "219_nathalie_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2324.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2325,
+      "cls": "DialogObjectScript",
+      "name": "221_jim_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2325.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2326,
+      "cls": "DialogObjectScript",
+      "name": "222_melchior_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2326.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2327,
+      "cls": "DialogObjectScript",
+      "name": "222_melchior_02",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2327.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2328,
+      "cls": "DialogObjectScript",
+      "name": "223_berenice_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2328.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2329,
+      "cls": "DialogObjectScript",
+      "name": "224_nadiayves_01",
+      "file": "original/DialogObjectScript/sharedassets0.assets/2329.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2330,
+      "cls": "PassengerObjectScript",
+      "name": "001_patricia",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2330.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2331,
+      "cls": "PassengerObjectScript",
+      "name": "002_purva",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2331.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2332,
+      "cls": "PassengerObjectScript",
+      "name": "003_alaric",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2332.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2333,
+      "cls": "PassengerObjectScript",
+      "name": "004_jeannoel",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2333.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2334,
+      "cls": "PassengerObjectScript",
+      "name": "005_hugo",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2334.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2335,
+      "cls": "PassengerObjectScript",
+      "name": "006_esmeralda",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2335.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2336,
+      "cls": "PassengerObjectScript",
+      "name": "007_salim",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2336.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2337,
+      "cls": "PassengerObjectScript",
+      "name": "008_vincent",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2337.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2338,
+      "cls": "PassengerObjectScript",
+      "name": "009_ludwig",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2338.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2339,
+      "cls": "PassengerObjectScript",
+      "name": "010_camilleantoine",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2339.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2340,
+      "cls": "PassengerObjectScript",
+      "name": "011_ariane",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2340.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2341,
+      "cls": "PassengerObjectScript",
+      "name": "012_christophe",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2341.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2342,
+      "cls": "PassengerObjectScript",
+      "name": "013_leia",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2342.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2343,
+      "cls": "PassengerObjectScript",
+      "name": "014_fragonard",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2343.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2344,
+      "cls": "PassengerObjectScript",
+      "name": "015_alicia",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2344.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2345,
+      "cls": "PassengerObjectScript",
+      "name": "016_gerard",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2345.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2346,
+      "cls": "PassengerObjectScript",
+      "name": "017_grace",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2346.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2347,
+      "cls": "PassengerObjectScript",
+      "name": "018_francois",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2347.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2348,
+      "cls": "PassengerObjectScript",
+      "name": "019_herve",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2348.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2349,
+      "cls": "PassengerObjectScript",
+      "name": "020_jacquie",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2349.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2350,
+      "cls": "PassengerObjectScript",
+      "name": "021_carlo",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2350.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2351,
+      "cls": "PassengerObjectScript",
+      "name": "022_claudia",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2351.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2352,
+      "cls": "PassengerObjectScript",
+      "name": "023_apollonie",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2352.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2353,
+      "cls": "PassengerObjectScript",
+      "name": "024_multiple",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2353.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2354,
+      "cls": "PassengerObjectScript",
+      "name": "025_ade",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2354.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2355,
+      "cls": "PassengerObjectScript",
+      "name": "026_multiple",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2355.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2356,
+      "cls": "PassengerObjectScript",
+      "name": "027_multiple",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2356.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2357,
+      "cls": "PassengerObjectScript",
+      "name": "028_carolinaj",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2357.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2358,
+      "cls": "PassengerObjectScript",
+      "name": "029_jerome",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2358.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2359,
+      "cls": "PassengerObjectScript",
+      "name": "030_peter",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2359.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2360,
+      "cls": "PassengerObjectScript",
+      "name": "031_geraldine",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2360.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2361,
+      "cls": "PassengerObjectScript",
+      "name": "032_anita",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2361.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2362,
+      "cls": "PassengerObjectScript",
+      "name": "033_chiara",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2362.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2363,
+      "cls": "PassengerObjectScript",
+      "name": "034_phil",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2363.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2364,
+      "cls": "PassengerObjectScript",
+      "name": "035_multiple",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2364.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2365,
+      "cls": "PassengerObjectScript",
+      "name": "036_sean",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2365.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2366,
+      "cls": "PassengerObjectScript",
+      "name": "037_shinji",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2366.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2367,
+      "cls": "PassengerObjectScript",
+      "name": "040_crouky",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2367.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2368,
+      "cls": "PassengerObjectScript",
+      "name": "041_francine",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2368.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2369,
+      "cls": "PassengerObjectScript",
+      "name": "042_djena",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2369.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2370,
+      "cls": "PassengerObjectScript",
+      "name": "043_jonas",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2370.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2371,
+      "cls": "PassengerObjectScript",
+      "name": "044_chris",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2371.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2372,
+      "cls": "PassengerObjectScript",
+      "name": "045_vero",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2372.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2373,
+      "cls": "PassengerObjectScript",
+      "name": "046_shohreh",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2373.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2374,
+      "cls": "PassengerObjectScript",
+      "name": "047_amelie",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2374.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2375,
+      "cls": "PassengerObjectScript",
+      "name": "051_leonie",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2375.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2376,
+      "cls": "PassengerObjectScript",
+      "name": "052_childeric",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2376.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2377,
+      "cls": "PassengerObjectScript",
+      "name": "053_camille",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2377.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2378,
+      "cls": "PassengerObjectScript",
+      "name": "054_ludivine",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2378.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2379,
+      "cls": "PassengerObjectScript",
+      "name": "055_julian",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2379.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2380,
+      "cls": "PassengerObjectScript",
+      "name": "056_kader",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2380.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2381,
+      "cls": "PassengerObjectScript",
+      "name": "057_annabelle",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2381.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2382,
+      "cls": "PassengerObjectScript",
+      "name": "058_agnes",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2382.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2383,
+      "cls": "PassengerObjectScript",
+      "name": "059_pierrot",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2383.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2384,
+      "cls": "PassengerObjectScript",
+      "name": "060_mireille",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2384.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2385,
+      "cls": "PassengerObjectScript",
+      "name": "061_denis",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2385.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2386,
+      "cls": "PassengerObjectScript",
+      "name": "063_pauline",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2386.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2387,
+      "cls": "PassengerObjectScript",
+      "name": "064_janet",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2387.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2388,
+      "cls": "PassengerObjectScript",
+      "name": "065_nina",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2388.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2389,
+      "cls": "PassengerObjectScript",
+      "name": "066_multiple",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2389.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2390,
+      "cls": "PassengerObjectScript",
+      "name": "067_multiple",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2390.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2391,
+      "cls": "PassengerObjectScript",
+      "name": "068_sonny",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2391.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2392,
+      "cls": "PassengerObjectScript",
+      "name": "070_antoine",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2392.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2393,
+      "cls": "PassengerObjectScript",
+      "name": "071_multiple",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2393.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2394,
+      "cls": "PassengerObjectScript",
+      "name": "072_pierrette",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2394.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2395,
+      "cls": "PassengerObjectScript",
+      "name": "073_myriam",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2395.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2396,
+      "cls": "PassengerObjectScript",
+      "name": "074_emilia",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2396.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2397,
+      "cls": "PassengerObjectScript",
+      "name": "075_henri",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2397.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2398,
+      "cls": "PassengerObjectScript",
+      "name": "076_angelique",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2398.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2399,
+      "cls": "PassengerObjectScript",
+      "name": "077_santa",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2399.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2400,
+      "cls": "PassengerObjectScript",
+      "name": "090_houssine",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2400.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2401,
+      "cls": "PassengerObjectScript",
+      "name": "096_gilda",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2401.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2402,
+      "cls": "PassengerObjectScript",
+      "name": "097_alexandre",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2402.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2403,
+      "cls": "PassengerObjectScript",
+      "name": "099_boss",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2403.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2404,
+      "cls": "PassengerObjectScript",
+      "name": "100_cop",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2404.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2405,
+      "cls": "PassengerObjectScript",
+      "name": "200_ada",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2405.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2406,
+      "cls": "PassengerObjectScript",
+      "name": "203_milo",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2406.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2407,
+      "cls": "PassengerObjectScript",
+      "name": "205_chantal",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2407.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2408,
+      "cls": "PassengerObjectScript",
+      "name": "206_amira",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2408.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2409,
+      "cls": "PassengerObjectScript",
+      "name": "207_lola",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2409.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2410,
+      "cls": "PassengerObjectScript",
+      "name": "208_myrtille",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2410.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2411,
+      "cls": "PassengerObjectScript",
+      "name": "210_xavier",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2411.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2412,
+      "cls": "PassengerObjectScript",
+      "name": "214_roksana",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2412.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2413,
+      "cls": "PassengerObjectScript",
+      "name": "217_alph",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2413.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2414,
+      "cls": "PassengerObjectScript",
+      "name": "219_nathalie",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2414.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2415,
+      "cls": "PassengerObjectScript",
+      "name": "221_jim",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2415.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2416,
+      "cls": "PassengerObjectScript",
+      "name": "222_melchior",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2416.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2417,
+      "cls": "PassengerObjectScript",
+      "name": "223_berenice",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2417.json"
+    },
+    {
+      "asset": "sharedassets0.assets",
+      "path_id": 2418,
+      "cls": "PassengerObjectScript",
+      "name": "224_nadiayves",
+      "file": "original/PassengerObjectScript/sharedassets0.assets/2418.json"
+    },
+    {
+      "asset": "sharedassets5.assets",
+      "path_id": 83,
+      "cls": "TextAsset",
+      "name": "925_phone_suspect_ger",
+      "file": "original/TextAsset/sharedassets5.assets/83.json"
+    },
+    {
+      "asset": "sharedassets5.assets",
+      "path_id": 84,
+      "cls": "TextAsset",
+      "name": "926_phone_pickone_fra",
+      "file": "original/TextAsset/sharedassets5.assets/84.json"
+    },
+    {
+      "asset": "sharedassets5.assets",
+      "path_id": 85,
+      "cls": "TextAsset",
+      "name": "930_sleep_ger",
+      "file": "original/TextAsset/sharedassets5.assets/85.json"
+    },
+    {
+      "asset": "sharedassets5.assets",
+      "path_id": 86,
+      "cls": "TextAsset",
+      "name": "925_phone_suspect_fra",
+      "file": "original/TextAsset/sharedassets5.assets/86.json"
+    },
+    {
+      "asset": "sharedassets5.assets",
+      "path_id": 87,
+      "cls": "TextAsset",
+      "name": "930_sleep_fra",
+      "file": "original/TextAsset/sharedassets5.assets/87.json"
+    },
+    {
+      "asset": "sharedassets5.assets",
+      "path_id": 88,
+      "cls": "TextAsset",
+      "name": "930_sleep_eng",
+      "file": "original/TextAsset/sharedassets5.assets/88.json"
+    },
+    {
+      "asset": "sharedassets5.assets",
+      "path_id": 89,
+      "cls": "TextAsset",
+      "name": "920_board_ger",
+      "file": "original/TextAsset/sharedassets5.assets/89.json"
+    },
+    {
+      "asset": "sharedassets5.assets",
+      "path_id": 90,
+      "cls": "TextAsset",
+      "name": "927_phone_reveal_ger",
+      "file": "original/TextAsset/sharedassets5.assets/90.json"
+    },
+    {
+      "asset": "sharedassets5.assets",
+      "path_id": 91,
+      "cls": "TextAsset",
+      "name": "927_phone_reveal_fra",
+      "file": "original/TextAsset/sharedassets5.assets/91.json"
+    },
+    {
+      "asset": "sharedassets5.assets",
+      "path_id": 92,
+      "cls": "TextAsset",
+      "name": "925_phone_suspect_eng",
+      "file": "original/TextAsset/sharedassets5.assets/92.json"
+    },
+    {
+      "asset": "sharedassets5.assets",
+      "path_id": 93,
+      "cls": "TextAsset",
+      "name": "926_phone_pickone_eng",
+      "file": "original/TextAsset/sharedassets5.assets/93.json"
+    },
+    {
+      "asset": "sharedassets5.assets",
+      "path_id": 94,
+      "cls": "TextAsset",
+      "name": "927_phone_reveal_eng",
+      "file": "original/TextAsset/sharedassets5.assets/94.json"
+    },
+    {
+      "asset": "sharedassets5.assets",
+      "path_id": 95,
+      "cls": "TextAsset",
+      "name": "920_board_fra",
+      "file": "original/TextAsset/sharedassets5.assets/95.json"
+    },
+    {
+      "asset": "sharedassets5.assets",
+      "path_id": 96,
+      "cls": "TextAsset",
+      "name": "920_board_eng",
+      "file": "original/TextAsset/sharedassets5.assets/96.json"
+    },
+    {
+      "asset": "sharedassets5.assets",
+      "path_id": 97,
+      "cls": "TextAsset",
+      "name": "926_phone_pickone_ger",
+      "file": "original/TextAsset/sharedassets5.assets/97.json"
+    }
+  ]
+}

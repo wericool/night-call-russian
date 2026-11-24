@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "counts": {
+    "unchanged_objects_byte_verified": 13766,
+    "fonts_cyrillic_and_original_pixels_verified": 10,
+    "ui_entries": 921,
+    "dialog_objects": 200,
+    "passages": 5399,
+    "choices": 3500,
+    "latin_only_candidates": 2
+  },
+  "boundaries": [
+    "No live passenger playthrough yet.",
+    "Inherited passages outside editorial overrides require semantic review."
+  ]
+}

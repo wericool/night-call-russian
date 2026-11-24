@@ -1,0 +1,30 @@
+{
+  "status": "targeted_sampling_scope_recorded",
+  "source_sha256": "2ab70fb85122523be1a8349c0ac7775e9b31e0592ccf5a767c9f97e68fb6700a",
+  "targeted_checks": 815,
+  "actual_answer_histories": 60,
+  "actual_sleep_outcomes": 22,
+  "controlled_sleep_combinations": 81,
+  "abandoned_sampling": [
+    {
+      "delay_ms": "12..34",
+      "observed": "30/81 after480rides",
+      "result": "Stopped manually; no content/state/action assertion failed."
+    },
+    {
+      "delay_ms": "1..151",
+      "observed": "29/81 after305rides",
+      "result": "Stopped manually; variable reading delays did not establish exhaustive actualRNGcoverage."
+    }
+  ],
+  "interpretation": "Strong correlation observed, not proof that missing combinations are impossible in Unity. Current tests keep60complete answerhistories with originalRNG, and separately select each allowed81sleepchain in privatecopies. Originalrow serialization equality and input/source hashes guard against publication of forcedlinks.",
+  "diagnostics": [
+    "review/InspectChantalFlowCalls.cs",
+    "review/chantal_flow_calls.txt",
+    "review/InspectChantalReader.cs",
+    "review/chantal_reader_inspection.txt"
+  ],
+  "targeted_output": "localization/chantal_amira_validation_output.txt",
+  "input_sha256": "7272e59807ae2c3564455366497633d200e33e39798c75a49a2a2d01037b06fa",
+  "validator_sha256": "9cbf556fdca48a9a68fa349bb59ab9ed4615b97355051a51dcddabc167560b0c"
+}

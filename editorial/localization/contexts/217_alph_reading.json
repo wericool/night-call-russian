@@ -1,0 +1,34 @@
+{
+  "status": "superseded_by_complete_editorial_and_native_validation",
+  "scene": "217_alph_01",
+  "source_file": "original/DialogObjectScript/sharedassets0.assets/2323.json",
+  "source_sha256": "1eb3bad419f2605d775a3e70675f637039d7cf46513bb2786ebe76d248f18825",
+  "source_card": "original/PassengerObjectScript/sharedassets0.assets/2413.json",
+  "controls_EN_FR_equal": true,
+  "notes": [
+    "All34blocks152lines27answers/1call pending, noauthoring. Mutualvous/вы throughout.",
+    "Cardgender2 is GROUP perreview/passenger_enums.json, notfemale0/male3. Narratoruseshe/il/apparentmale, doublevoices/eyes/coatmovements arehints. Do notinventexactspecies/number/medicaldiagnosis,99cardnotprovedhumanage. Verifycurrentenumassembly beforefactregistration.",
+    "Pairedsynonyms/greetings repeatedly intentionalinENandFR, do notsmoothaway asmachineredundancy. Initialevening/dayreversevsrepeatedday/evening sourcepreserved.",
+    "Address96ruePerrichon/16tharrondissement exactfictiondestination; don’t inventEugène/fullstreet/alternateaddress tofixrealmap.",
+    "Onlyrefusedquestions→moneyoffer→accept pathmoney50. Firstobsolete50francsbluegreen/portraitSaintExupéry, then50EUROactualtransfer. Fareandextraonarrival separatefromquerypayment;notnewtiphigh. No addeddate/extraLittlePrince/title/facts.",
+    "Driverthinksaboutportraitnamewithoutasking, passengerthenstatesSaintExupéry. Preservethoughtvsquotes. Deepjacketpocket/money billputbacknothandsintopassengerbody.",
+    "RollercoastersnotRussianhills, safeartificialrisk vsdeath/panic; Mooncolonisationquestiontospecies/notdriverpersonally. ClaimsaboutMoonandhumanityarespeakersideas.",
+    "FriendsrealseriesRoss/Rachel/NBC1994–2004exactascharactersspeech, keepbadjokeaboutfriendsandshowtitles. No addedshowfacts/corrections orlinktoTVAlfbyname.",
+    "Hypnosis1onlywho-outro:insistidentity/Getout/show-whocares; Friendsapology/shrug canavoid. ALLroutesstilllosevoice/paralyseatend, notonlyhypnosis1. hyp1addsfeelinghespeakingthroughdriver.",
+    "Smellturpentineandpeas,coatnoiseasIFferret,bodytwistingasIFsnake;noactualanimal/alienidentityproven. Gustsvoicebothhighandlow/possible2ndvoice notnewcharacterlabel.",
+    "H…EN/FRpartialfirstname, oldRUЭйчwrong. NeedexplicitcanonicaldecisionusingdrivernameУссинfromreviewed203Milo and219/990sourcebeforelocalisinginitial, do NOTexpandfullname/spoilpartialhint. Narratorhearsnameinmind, notactualspokenfullname.",
+    "OldRUwrongdrive-no/freefirstlines/guessedvsyou, missingneck/secondvoice/firstlines/hypnosisfirstline/odor/voiceparalysis. Lastarrivalandthensome isextramoney, notunknownobject. ShrugearlynotSmile. Phenomenaobsnotnewdiagnosis.",
+    "Enumtableethnicity2=animal inadditiontogender2=group;is_multiple0/multiple_id-1 aredifferentenginefields. No namedanimal/species/actualnumber/biology asserted fromthese codes; do not silently reinterpret group asmale3."
+  ],
+  "remaining": [],
+  "card_metadata": {
+    "age": 99,
+    "gender": 2,
+    "ethnicity": 2,
+    "is_multiple": 0,
+    "multiple_id": -1
+  },
+  "source_enum_table": "review/passenger_enums.json",
+  "source_enum_table_sha256": "157b05e49a4700a08e2d6830a43fc30dc0b1038cbb5bc02883aafd9c9ab076d7",
+  "validation": "localization/alph_scene_validation.json"
+}

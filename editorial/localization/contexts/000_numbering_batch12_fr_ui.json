@@ -1,0 +1,73 @@
+{
+  "scope": "5explicit French UI fields manually read/accepted; not whole interface.",
+  "french_priority_author": "scripts/accept_five_ui_numbering_fields.py",
+  "french_priority_decisions": [
+    "Пять спорных числовых полей приняты с явным адресным исключением из буквального FR. Это не предпочтение удобного английского и не новая общая замена номеров.",
+    "В деле Судьи ровно4зарегистрированные жертвы. Документ doc_judge_autopsy04 открывает все три clue_judge_autopsy04_01/02/03; каждая улика имеет единственную положительную связь victim4. Первый французский source уже Victime4; остальные два source дают5/6, а заголовок того же документа7. Подтверждён единый отчёт о жертве4; русское4во всех трёх спорных полях сохранено. Номера5/6/7 не объявлены новыми жертвами.",
+    "Фото Ангела01: французские заголовок документа и source обеих улик говорят scène1, документ открывает именно clue_angel_pic01_01/02 и обе имеют положительную связь victim1; art AngelPictureScene1. Изолированное FRчисло2в сообщении противоречит своему документу и связям. Русское1сохранено.",
+    "Фото Судьи03: французские заголовок документа/source говорят scène3, doc_judge_pic03 открывает clue_judge_pic03_01 с единственной положительной связью victim3; art picture_judge_crime03. Изолированное FRчисло4в сообщении противоречит связанному документу. Русское3сохранено.",
+    "Номер не читался из пикселей. Предыдущие исходные изображения и цепочки art→prefab→material→texture сохранены в pending_ui_art_exports/visual_review; изображений с новыми номерами не создавали. Нет предположения о том, как разработчики допустили разнобой.",
+    "Все пять русских значений уже были верны:0текстовых/0графических изменений, принимается доказанное редакторское решение. Шестая подсказка GC.CLUE.TT.RECLUSE.VIC02 остаётся pending: её собственное FRNAME2поддерживает2, но связанный runtime-владелец отдельно не установлен. Отсутствие GC.CLUE/RECLUSE литералов в DLL не доказывает неиспользуемость составного ключа. Сохраняем рабочее2, не заявляем единственно доказанный исходный замысел.",
+    "28.10.2026: Message в двух оставшихся заголовках унифицирован как «Надпись на месте преступления», по замечанию пользователя. Это тот же тип найденной надписи; номера1/3 сохраняются по ранее доказанным связям документов и жертв, вопреки изолированным FR2/4. Содержимое сообщений прежнее; исправлены только русский термин и оформление."
+  ],
+  "linked_contexts_read": [
+    "review/ui_pending_association_evidence.json",
+    "review/pending_ui_art_exports.json",
+    "review/pending_ui_art_visual_review.json",
+    "review/clue_locale_literal_inspection.json"
+  ],
+  "keys": [
+    {
+      "key": "clue_judge_autopsy04_02.source",
+      "english": "Autopsy Report, Victim 4",
+      "french": "Rapport d'autopsie, Victime 5",
+      "russian": "Отчёт о вскрытии, жертва 4",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Отчёт о вскрытии, жертва 4",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_autopsy04_03.source",
+      "english": "Autopsy Report, Victim 4",
+      "french": "Rapport d'autopsie, Victime 6",
+      "russian": "Отчёт о вскрытии, жертва 4",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Отчёт о вскрытии, жертва 4",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_judge_autopsy04.title",
+      "english": "Autopsy Report, Victim 4",
+      "french": "Rapport d'autopsie, Victime 7",
+      "russian": "Отчёт о вскрытии, жертва 4",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Отчёт о вскрытии, жертва 4",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_pic01_01.title",
+      "english": "Message on crime scene 1 = « ONLY ONE GOD »",
+      "french": "Message scène de crime 2 = « UN DIEU UNIQUE »",
+      "russian": "Надпись на месте преступления №1: «ТОЛЬКО ОДИН БОГ»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Сообщение на месте преступления 1 = \"ТОЛЬКО ОДИН БОГ\"",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_pic03_01.title",
+      "english": "Message on crime scene 3 = « TIME IS UP »",
+      "french": "Message scène de crime 4 = « TEMPS ÉCOULÉ »",
+      "russian": "Надпись на месте преступления №3: «ВРЕМЯ ВЫШЛО»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Сообщение на месте преступления 3 = \"ВРЕМЯ ВЫШЛО\".",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    }
+  ],
+  "exact_legacy_fallback_updates": [],
+  "legacy_fallback_owner_collisions": []
+}

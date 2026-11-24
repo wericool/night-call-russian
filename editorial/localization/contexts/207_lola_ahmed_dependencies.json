@@ -1,0 +1,30 @@
+{
+  "status": "source_name_occurrences_only_no_identity_merge",
+  "occurrences": [
+    {
+      "scene": "207_lola_01",
+      "passage": "england-outro",
+      "text": "LOLA: “That’s why I’m over here. Ahmed insisted the little bugger pops out over here.”"
+    },
+    {
+      "scene": "207_lola_01",
+      "passage": "brexit",
+      "text": "LOLA: “Ahmed was more into it than I was. Kept bringing home these fliers, blue for remain, red for leave.”"
+    },
+    {
+      "scene": "207_lola_01",
+      "passage": "frexit-intro",
+      "text": "LOLA: “Ahmed had a few run ins with Brexiteers. You know, the hardline knobs with Union Jack hoodies and Winston Churchill tattoos.”"
+    },
+    {
+      "scene": "207_lola_01",
+      "passage": "frexit-intro",
+      "text": "LOLA: “Wasn’t worth it over there. Ahmed’s jobs had dried up anyway, no-one wanted to hire a foreigner.”"
+    },
+    {
+      "scene": "207_lola_01",
+      "passage": "outro-ahmed",
+      "text": "LOLA: “I never told Ahmed that I…”"
+    }
+  ]
+}

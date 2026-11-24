@@ -1,0 +1,133 @@
+{
+  "status": "french_priority_reviewed",
+  "primary_language": "fr",
+  "keys": [
+    {
+      "key": "clue_sand_cemetery_01.title",
+      "english": "Alexandre = doctor in French Army",
+      "french": "Alexandre = médecin dans l'armée française",
+      "before": "Александр был врачом во французской армии",
+      "russian": "Александр был врачом во французской армии",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "РучнаяFRсверкаисточника/уликивсвязаннойсцене. 1950-еестьвUI,не добавленывустныйрассказ;профессияпрошлогонеможетподменитьнынешнеедосье."
+    },
+    {
+      "key": "clue_sand_cemetery_02.title",
+      "english": "Alexandre = lost medical licence back in the 50s",
+      "french": "Alexandre = licence médicale révoquée dans les années 50",
+      "before": "Александр лишился права на врачебную практику в 1950-х",
+      "russian": "Александр лишился права на врачебную практику в 1950-х",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "РучнаяFRсверкаисточника/уликивсвязаннойсцене. 1950-еестьвUI,не добавленывустныйрассказ;профессияпрошлогонеможетподменитьнынешнеедосье."
+    },
+    {
+      "key": "clue_sand_cemetery_03.title",
+      "english": "Groupe Diamant plan on selling land",
+      "french": "Groupe Diamant voulait vendre terrain de l'Albatros",
+      "before": "Планы группы «Диамант» продать землю",
+      "russian": "Группа «Диамант» хотела продать участок «Альбатроса»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "РучнаяFRсверкаисточника/уликивсвязаннойсцене. 1950-еестьвUI,не добавленывустныйрассказ;профессияпрошлогонеможетподменитьнынешнеедосье. FR233связаннаяполнаяредактура097: voulaitПРОШЛОЕнамерение, участокАЛЬБАТРОСА. Старыйнейтральныйзаголовоксогласован, не новаяпродажа/дата.",
+      "previous_contextual_russian": "Планы группы «Диамант» продать землю"
+    },
+    {
+      "key": "clue_sand_newsroom_01.title",
+      "english": "Victim 3 = received death threats",
+      "french": "Victime 3 a reçu des menaces de mort",
+      "before": "Жертва 3 = получала угрозы убийства",
+      "russian": "Жертва 3 — получала угрозы убийства",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "РучнаяFRсверкаисточника/уликивсвязаннойсцене. 1950-еестьвUI,не добавленывустныйрассказ;профессияпрошлогонеможетподменитьнынешнеедосье."
+    },
+    {
+      "key": "clue_sand_newsroom_02.title",
+      "english": "Victim 2 received money to shut up about Albatros",
+      "french": "Victime 2 a reçu de l'argent pour ne rien dire au sujet de l'Albatros",
+      "before": "Жертва 2 получила деньги за то, чтобы замолчать об Альбатросе",
+      "russian": "Жертва 2 — получила деньги за молчание об «Альбатросе»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "РучнаяFRсверкаисточника/уликивсвязаннойсцене. 1950-еестьвUI,не добавленывустныйрассказ;профессияпрошлогонеможетподменитьнынешнеедосье."
+    },
+    {
+      "key": "clue_sand_newsroom_03.title",
+      "english": "Victim 4 refused to renovate Albatros before fire",
+      "french": "Victime 4 = refuse payer pour rénovations de l'Albatros avant l'incendie",
+      "before": "Жертва 4 отказалась ремонтировать \"Альбатрос\" перед пожаром",
+      "russian": "Жертва 4 — отказалась платить за ремонт «Альбатроса» до пожара",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "РучнаяFRсверкаисточника/уликивсвязаннойсцене. 1950-еестьвUI,не добавленывустныйрассказ;профессияпрошлогонеможетподменитьнынешнеедосье."
+    },
+    {
+      "key": "clue_sand_cemetery_01.source",
+      "english": "From the visit at the Batignolles Cemetery",
+      "french": "D'après la visite au cimetière des Batignolles",
+      "before": "Посещение кладбища Батиньоль",
+      "russian": "Посещение кладбища Батиньоль",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "РучнаяFRсверкаисточника/уликивсвязаннойсцене. 1950-еестьвUI,не добавленывустныйрассказ;профессияпрошлогонеможетподменитьнынешнеедосье."
+    },
+    {
+      "key": "clue_sand_cemetery_02.source",
+      "english": "From the visit at the Batignolles Cemetery",
+      "french": "D'après la visite au cimetière des Batignolles",
+      "before": "Посещение кладбища Батиньоль",
+      "russian": "Посещение кладбища Батиньоль",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "РучнаяFRсверкаисточника/уликивсвязаннойсцене. 1950-еестьвUI,не добавленывустныйрассказ;профессияпрошлогонеможетподменитьнынешнеедосье."
+    },
+    {
+      "key": "clue_sand_cemetery_03.source",
+      "english": "From the visit at the Batignolles Cemetery",
+      "french": "D'après la visite au cimetière des Batignolles",
+      "before": "Посещение кладбища Батиньоль",
+      "russian": "Посещение кладбища Батиньоль",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "РучнаяFRсверкаисточника/уликивсвязаннойсцене. 1950-еестьвUI,не добавленывустныйрассказ;профессияпрошлогонеможетподменитьнынешнеедосье."
+    },
+    {
+      "key": "clue_sand_newsroom_01.source",
+      "english": "From my source at InfoTV",
+      "french": "Selon votre source à InfoTV",
+      "before": "От моего источника на InfoTV",
+      "russian": "От моего источника на InfoTV",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "РучнаяFRсверкаисточника/уликивсвязаннойсцене. 1950-еестьвUI,не добавленывустныйрассказ;профессияпрошлогонеможетподменитьнынешнеедосье."
+    },
+    {
+      "key": "clue_sand_newsroom_02.source",
+      "english": "From my source at InfoTV",
+      "french": "Selon votre source à InfoTV",
+      "before": "От моего источника на InfoTV",
+      "russian": "От моего источника на InfoTV",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "РучнаяFRсверкаисточника/уликивсвязаннойсцене. 1950-еестьвUI,не добавленывустныйрассказ;профессияпрошлогонеможетподменитьнынешнеедосье."
+    },
+    {
+      "key": "clue_sand_newsroom_03.source",
+      "english": "From my source at InfoTV",
+      "french": "Selon votre source à InfoTV",
+      "before": "От моего источника на InfoTV",
+      "russian": "От моего источника на InfoTV",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "context": "РучнаяFRсверкаисточника/уликивсвязаннойсцене. 1950-еестьвUI,не добавленывустныйрассказ;профессияпрошлогонеможетподменитьнынешнеедосье."
+    }
+  ],
+  "author_file": "scripts/author_sand_caretaker_newsroom_fr.py",
+  "source_files": [
+    "original/LocalizationData/sharedassets0.assets/2096.json",
+    "original/LocalizationData/sharedassets0.assets/2097.json"
+  ],
+  "scope": "12qualified fields,including6unchanged previouslyqualifiedAlexandre fields;not the entire UI."
+}

@@ -1,0 +1,54 @@
+{
+  "status": "contextually_reviewed",
+  "keys": [
+    {
+      "key": "clue_angel_houssine_01.source",
+      "english": "Seen in a… dream?",
+      "french": "Vu dans un… rêve ?",
+      "before": "Увидено… во сне?",
+      "russian": "Увидено… во сне?",
+      "reviewed": true
+    },
+    {
+      "key": "clue_sand_houssine_01.source",
+      "english": "Seen in a… dream?",
+      "french": "Vu… dans un rêve ?",
+      "before": "Увидено… во сне?",
+      "russian": "Увидено… во сне?",
+      "reviewed": true
+    },
+    {
+      "key": "clue_judge_houssine_01.source",
+      "english": "Seen in a… dream?",
+      "french": "Vu dans un… rêve ?",
+      "before": "Увидено… во сне?",
+      "russian": "Увидено… во сне?",
+      "reviewed": true
+    },
+    {
+      "key": "clue_angel_houssine_01.title",
+      "english": "Killer < 1m70",
+      "french": "Tueur < 1m70",
+      "before": "Убийца ниже 1,70 м",
+      "russian": "Рост убийцы — меньше 1,70 м",
+      "reviewed": true
+    },
+    {
+      "key": "clue_sand_houssine_01.title",
+      "english": "Killer was sorry",
+      "french": "Tueur désolé",
+      "before": "Убийца извинился",
+      "russian": "Убийца извинился",
+      "reviewed": true
+    },
+    {
+      "key": "clue_judge_houssine_01.title",
+      "english": "Killer had wrinkles on their hands",
+      "french": "Tueur avait mains ridées",
+      "before": "На руках убийцы были морщины",
+      "russian": "На руках убийцы были морщины",
+      "reviewed": true
+    }
+  ],
+  "scope": "Six090caseclue title/source keys only; sourcequestion preserved, separate case-specific memories; not fullinterface review."
+}

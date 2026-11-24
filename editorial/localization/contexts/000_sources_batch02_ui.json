@@ -1,0 +1,590 @@
+{
+  "scope": "44explicit French UI fields manually read/accepted; not whole interface.",
+  "french_priority_author": "scripts/review_ui_sources_batch02_fr.py",
+  "french_priority_decisions": [
+    "Вручную прочитаны45оставшихся полей EN/FR/текущийRU,44приняты; ENG=Русский оставлен pending как сознательная адаптация английского языкового слота, требующая проверки нативного потребителя, а не обычный словарный перевод English.",
+    "15подписей и названий фотографий мест преступлений1/2/3/4 прочитаны отдельно, номера сохранены. Salim source — украдено уСалима, не выдано добровольно; контекст007уже FRсверен, владение документом не выдумано заново.",
+    "Йонас: FR только домашнее насилие, английское отдельное assault убрано. Последний партнёр — мужчина, его уверенность не установление виновности. Physicien сохранён именно в подсказке: противоречие программисту из биографии/диалога исходное, уже закреплено вconsistency043, не исправлено молча.",
+    "Алисия: невиновность/снятие подозрений, но формальный оправдательный приговор не установлен; не добавлять судебную процедуру. Культ со второй жертвой/80-е/1979 сохранены; не подменять второй на третью без конкретного доказательства оригинальной ошибки.",
+    "Крис044, не священник012: сайт был добавлен толькоEN, FRговорит обэскортеSecretEscort75. Не добавлять секс вулику: по диалогу онназываетработуплатонической. Номерамест1/2/3, несколько месяцев/дней ивероятность первойсцены сохранены, не утвердительное опознание.",
+    "Discrets — действуют незаметно, не залегли на дно. Cambrioleurs в этом контексте квартирные воры; burglary кража со взломом, без новой угрозы насилия. Другие взломы/грабежи автоматически не заменяются.",
+    "Double des clés — запасной ключ без добавленного мужского владельца. Первые3досье: Жюльян говорит НЕчастьутечки, газета говоритчастьдвухлетнейутечки; оба свидетельства оставлены противоположными. Вскрытие: FR инъекция И асфиксия, английская причинная связка не добавляется как отдельное утверждение.",
+    "ДосьеAOD: восстановлена лейтенантБюссе как женщина и ограничение что смогла дать; не просто безымянныйкоп. Объём/точность/туманность — три свойства оригинала, не техническая справка. Монтруж — пожарная часть, Этьен — квартира, Бельведер — кафе.",
+    "Рыба — ранний христианский символ, вцерквиГильды замечен и кровьюнастене нарисован; связь с культом отдельнаяулика, не авторскийвыводовиновности. Couteauàpoisson — инструмент, не материал и не обязательное оружиекаждогорыбака. Немецкий — названиеязыка, не имяперсонажа."
+  ],
+  "linked_contexts_read": [
+    "007_salim",
+    "015_alicia",
+    "043_jonas",
+    "044_chris",
+    "096_gilda",
+    "100_cop"
+  ],
+  "keys": [
+    {
+      "key": "doc_judge_salim.source",
+      "english": "Stolen from Salim",
+      "french": "Volé à Salim",
+      "russian": "Украдено у Салима",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Украдено у Салима",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_pic01_01.source",
+      "english": "Picture of Crime Scene 1",
+      "french": "Photo de scène de crime 1",
+      "russian": "Фотография места преступления 1",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Фотография места преступления 1",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_pic01_02.source",
+      "english": "Picture of Crime Scene 1",
+      "french": "Photo de scène de crime 1",
+      "russian": "Фотография места преступления 1",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Фотография места преступления 1",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_pic01_01.source",
+      "english": "Picture of Crime Scene 1",
+      "french": "Photo de scène de crime 1",
+      "russian": "Фотография места преступления 1",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Фотография места преступления 1",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_angel_pic01.title",
+      "english": "Picture of Crime Scene 1",
+      "french": "Photo de scène de crime 1",
+      "russian": "Фотография места преступления 1",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Фотография места преступления 1",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_judge_pic01.title",
+      "english": "Picture of Crime Scene 1",
+      "french": "Photo de scène de crime 1",
+      "russian": "Фотография места преступления 1",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Фотография места преступления 1",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_pic02_02.source",
+      "english": "Picture of Crime Scene 2",
+      "french": "Photo de scène de crime 2",
+      "russian": "Фотография места преступления 2",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Фотография места преступления 2",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_pic02_01.source",
+      "english": "Picture of Crime Scene 2",
+      "french": "Photo de scène de crime 2",
+      "russian": "Фотография места преступления 2",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Фотография места преступления 2",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_angel_pic02.title",
+      "english": "Picture of Crime Scene 2",
+      "french": "Photo de scène de crime 2",
+      "russian": "Фотография места преступления 2",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Фотография места преступления 2",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_judge_pic02.title",
+      "english": "Picture of Crime Scene 2",
+      "french": "Photo de scène de crime 2",
+      "russian": "Фотография места преступления 2",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Фотография места преступления 2",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_pic03_01.source",
+      "english": "Picture of Crime Scene 3",
+      "french": "Photo de scène de crime 3",
+      "russian": "Фотография места преступления 3",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Фотография места преступления 3",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_pic03_01.source",
+      "english": "Picture of Crime Scene 3",
+      "french": "Photo de scène de crime 3",
+      "russian": "Фотография места преступления 3",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Фотография места преступления 3",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_angel_pic03.title",
+      "english": "Picture of Crime Scene 3",
+      "french": "Photo de scène de crime 3",
+      "russian": "Фотография места преступления 3",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Фотография места преступления 3",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_judge_pic03.title",
+      "english": "Picture of Crime Scene 3",
+      "french": "Photo de scène de crime 3",
+      "russian": "Фотография места преступления 3",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Фотография места преступления 3",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_pic04_01.source",
+      "english": "Picture of Crime Scene 4",
+      "french": "Photo de scène de crime 4",
+      "russian": "Фотография места преступления 4",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Фотография места преступления 4",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "doc_judge_pic04.title",
+      "english": "Picture of Crime Scene 4",
+      "french": "Photo de scène de crime 4",
+      "russian": "Фотография места преступления 4",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Фотография места преступления 4",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.SUSPECT.TT.JONAS",
+      "english": "This brilliant physicist was arrested twice for assault and domestic violence. His last companion reached the police, saying he was sure Jonas was the Angel of Death. His passion: ﬁshing.",
+      "french": "Ce brillant physicien a été arrêté deux fois pour violence domestique. Son dernier compagnon a appelé la police, en leur disant qu'il était persuadé que Jonas était l'Ange de la Mort. Sa passion : la pêche.",
+      "russian": "Этого талантливого физика дважды арестовывали за домашнее насилие. Его последний партнёр позвонил в полицию, заявив, что уверен: Йонас — Ангел смерти. Его увлечение — рыбалка.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Этот талантливый физик дважды был арестован за нападение и домашнее насилие. Его последний партнёр обратился в полицию, заявив, что уверен: Йонас — Ангел смерти. Его увлечение — рыбалка.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "poi_angel_bar.title",
+      "english": "Belvédère Café",
+      "french": "Belvédère Café",
+      "russian": "Кафе «Бельведер»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Кафе «Бельведер»",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_chrisrecords_01.title",
+      "english": "Chris = escort for Secret Escort 75 website",
+      "french": "Chris = escort pour Secret Escort 75",
+      "russian": "Крис работает в эскорте «Secret Escort 75»",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Крис оказывает эскорт-услуги через сайт Secret Escort 75",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_chrisrecords_03.title",
+      "english": "Chris seen near crime scene 2 months before",
+      "french": "Chris aperçu près de la scène de crime 2 qques mois avant",
+      "russian": "Криса видели рядом с местом преступления № 2 за несколько месяцев до его совершения",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Криса видели рядом с местом преступления № 2 за несколько месяцев до его совершения",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_chrisrecords_02.title",
+      "english": "Chris probably seen near crime scene 1",
+      "french": "Chris probablement aperçu près de la scène de crime 1",
+      "russian": "Криса, вероятно, видели возле места преступления № 1",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Криса, вероятно, видели возле места преступления № 1",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_chrisrecords_04.title",
+      "english": "Chris seen near crime scene 3 days before",
+      "french": "Chris aperçu près de la scène de crime 3 qques jours avant",
+      "russian": "Криса видели рядом с местом преступления № 3 за несколько дней до его совершения",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Криса видели рядом с местом преступления № 3 за несколько дней до его совершения",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GER",
+      "english": "Deutsch",
+      "french": "Deutsch",
+      "russian": "Немецкий",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Немецкий",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.SUSPECT.TT.ALICIA",
+      "english": "A poetess who has been been a part of the same cult as the second victim in the 80s. Alicia has long been suspected of killing her husband back in 1979 but she came out clean.",
+      "french": "Une poète qui a fait parti du même culte que la seconde victime dans les années 80. Alicia a longtemps été suspectée d'avoir tué son mari en 1979 avant d’être innocentée.",
+      "russian": "Поэтесса, в 80-х состоявшая в том же культе, что и вторая жертва. Алисию долго подозревали в убийстве мужа в 1979 году, но впоследствии с неё сняли подозрения.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Поэтесса, которая была членом того же культа, что и вторая жертва в 80-х. Алисию долго подозревали в убийстве мужа в 1979 году, но она была оправдана.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.TT.BURGLARY.QUIET",
+      "english": "Burglars don't leave traces.",
+      "french": "Les cambrioleurs ne laissent pas de traces.",
+      "russian": "Квартирные воры не оставляют следов.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Грабители не оставляют следов.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.NAME.BURGLARY.QUIET",
+      "english": "Burglars lay low",
+      "french": "Cambrioleurs = discrets",
+      "russian": "Квартирные воры действуют незаметно",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Грабители залегли на дно",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.TT.BURGLARY.EMPTY",
+      "english": "Burglars wait for flat to be empty.",
+      "french": "Les cambrioleurs attendent que les appartements soient vides.",
+      "russian": "Квартирные воры ждут, когда квартиры опустеют.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Грабители ждут, когда квартира опустеет.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.NAME.BURGLARY.REPORT",
+      "english": "Burglary through balcony",
+      "french": "Cambriolage par le balcon",
+      "russian": "Кража со взломом через балкон",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Ограбление через балкон",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.TT.BURGLARY.COMMON",
+      "english": "Burglaries more common than ever.",
+      "french": "Cambriolages plus communs que jamais.",
+      "russian": "Кражи со взломом распространены как никогда.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Кражи со взломом распространены как никогда.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.NAME.BURGLARY.COMMON",
+      "english": "Burglaries widespread",
+      "french": "Cambriolages répandus",
+      "russian": "Кражи со взломом широко распространены",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Широко распространены кражи со взломом",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_report03_01.title",
+      "english": "Left spare key under door mat.",
+      "french": "Double des clés sous le paillasson",
+      "russian": "Запасной ключ под ковриком у двери",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Оставил запасной ключ под дверным ковриком.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_julian_02.title",
+      "english": "First 3 victims files = NOT part of police leak",
+      "french": "Dossiers des 3 premières victimes = PAS partie de la fuite",
+      "russian": "Досье на первых трёх жертв НЕ вошли в утечку полицейских документов",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Досье на первых трёх жертв НЕ вошли в утечку полицейских документов",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_judge_journal08_02.title",
+      "english": "First 3 victims files = part of police leak 2 years ago",
+      "french": "Dossiers des 3 premières victimes = fuités il y a 2 ans",
+      "russian": "Досье на первых трёх жертв попали в утечку два года назад",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Досье первых трёх жертв вошли в полицейскую утечку двухлетней давности",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_sand_kcase_03.title",
+      "english": "Death by injection of muscle relaxant leading to asphyxia",
+      "french": "Mort par injection de relaxant musculaire & asphyxie",
+      "russian": "Смерть от инъекции миорелаксанта и асфиксии",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Смерть от инъекции миорелаксанта, приведшей к асфиксии",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "poi_angel_hacker.title",
+      "english": "Étienne’s Flat",
+      "french": "Appartement d'Étienne",
+      "russian": "Квартира Этьена",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Квартира Этьена",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.DOCUMENT.TT.REPORT03.AOD.CASE",
+      "english": "The case folder... Well, what the cop gave you. It's really long, really accurate... and at the same time really fuzzy. However, it contains informations about the murderer.",
+      "french": "Le dossier de l’enquête… Enfin ce que le lieutenant Busset a pu vous donner. C’est très long, très précis… et en même temps très vague. Contient toutefois des informations sur le tueur.",
+      "russian": "Материалы расследования… Вернее, то, что смогла передать вам лейтенант Бюссе. Очень объёмные, очень точные… и в то же время очень туманные. Но сведения об убийце в них всё-таки есть.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Папка с делом... Ну, то, что дал вам коп. Это очень длинно, очень подробно... и в то же время очень размыто. Тем не менее, содержит информацию об убийце.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "poi_angel_fire.title",
+      "english": "Montrouge Fire Station",
+      "french": "Caserne de pompiers de Montrouge",
+      "russian": "Пожарная часть Монтружа",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Пожарная станция Монтруж",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_church_01.title",
+      "english": "Fish = original symbol for Christianity",
+      "french": "Poisson = symbole des premiers chrétiens",
+      "russian": "Рыба — символ первых христиан",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Рыба — символ первых христиан",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_rumor_12.title",
+      "english": "Fish = original symbol for Christianity",
+      "french": "Poisson = symbole des premiers chrétiens",
+      "russian": "Рыба — символ первых христиан",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Рыба — символ первых христиан",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_customer_rumor_13.title",
+      "english": "Fish symbol = linked to a cult",
+      "french": "Symbole de poisson = lié à une secte",
+      "russian": "Символ рыбы связан с культом",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Символ рыбы связан с культом",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_church_02.title",
+      "english": "Fish symbol seen in Gilda’s church",
+      "french": "Symbole de poisson vu à l'église fréquentée par Gilda",
+      "russian": "Символ рыбы в церкви, куда ходит Гильда",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Символ рыбы в церкви, куда ходит Гильда",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.TT.CHURCH.LINK.PHOTO",
+      "english": "Symbol is a fish and an early Christian symbol",
+      "french": "Le symbole est un poisson et un ancien symbole chrétien.",
+      "russian": "Изображение рыбы — древний христианский символ.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Символ - рыба и раннехристианский символ",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "clue_angel_pic01_02.title",
+      "english": "Fish symbol drawn on wall with blood",
+      "french": "Symbole de poisson dessiné sur le mur avec du sang",
+      "russian": "Символ рыбы, нарисованный на стене кровью",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Символ рыбы, нарисованный на стене кровью",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    },
+    {
+      "key": "GC.CLUE.TT.KNIFE.STANDARD",
+      "english": "Fish knife: standard material for fishermen.",
+      "french": "Couteau à poisson: outil commun pour les pêcheurs.",
+      "russian": "Нож для рыбы — обычный инструмент рыбака.",
+      "reviewed": true,
+      "french_priority_reviewed": true,
+      "previous_contextual_russian": "Нож для рыбы: стандартный материал для рыбаков.",
+      "french_source_sha256": "f6f9b7801bf30ffea8f55caef5a65ae79db6dead5ec03a74b69b4b287c08f6af"
+    }
+  ],
+  "exact_legacy_fallback_updates": [
+    {
+      "english": "This brilliant physicist was arrested twice for assault and domestic violence. His last companion reached the police, saying he was sure Jonas was the Angel of Death. His passion: ﬁshing.",
+      "ui_keys": [
+        "GC.SUSPECT.TT.JONAS"
+      ],
+      "previous_fallback": "Этот талантливый физик дважды был арестован за нападение и домашнее насилие. Его последний партнёр обратился в полицию, заявив, что уверен: Йонас — Ангел смерти. Его увлечение — рыбалка.",
+      "russian": "Этого талантливого физика дважды арестовывали за домашнее насилие. Его последний партнёр позвонил в полицию, заявив, что уверен: Йонас — Ангел смерти. Его увлечение — рыбалка."
+    },
+    {
+      "english": "Chris = escort for Secret Escort 75 website",
+      "ui_keys": [
+        "clue_sand_chrisrecords_01.title"
+      ],
+      "previous_fallback": "Крис оказывает эскорт-услуги через сайт Secret Escort 75",
+      "russian": "Крис работает в эскорте «Secret Escort 75»"
+    },
+    {
+      "english": "A poetess who has been been a part of the same cult as the second victim in the 80s. Alicia has long been suspected of killing her husband back in 1979 but she came out clean.",
+      "ui_keys": [
+        "GC.SUSPECT.TT.ALICIA"
+      ],
+      "previous_fallback": null,
+      "russian": "Поэтесса, в 80-х состоявшая в том же культе, что и вторая жертва. Алисию долго подозревали в убийстве мужа в 1979 году, но впоследствии с неё сняли подозрения."
+    },
+    {
+      "english": "Burglars don't leave traces.",
+      "ui_keys": [
+        "GC.CLUE.TT.BURGLARY.QUIET"
+      ],
+      "previous_fallback": "Грабители не оставляют следов.",
+      "russian": "Квартирные воры не оставляют следов."
+    },
+    {
+      "english": "Burglars lay low",
+      "ui_keys": [
+        "GC.CLUE.NAME.BURGLARY.QUIET"
+      ],
+      "previous_fallback": "Грабители залегли на дно",
+      "russian": "Квартирные воры действуют незаметно"
+    },
+    {
+      "english": "Burglars wait for flat to be empty.",
+      "ui_keys": [
+        "GC.CLUE.TT.BURGLARY.EMPTY"
+      ],
+      "previous_fallback": "Грабители ждут, когда квартира опустеет.",
+      "russian": "Квартирные воры ждут, когда квартиры опустеют."
+    },
+    {
+      "english": "Burglary through balcony",
+      "ui_keys": [
+        "GC.CLUE.NAME.BURGLARY.REPORT"
+      ],
+      "previous_fallback": "Ограбление через балкон",
+      "russian": "Кража со взломом через балкон"
+    },
+    {
+      "english": "Burglaries widespread",
+      "ui_keys": [
+        "GC.CLUE.NAME.BURGLARY.COMMON"
+      ],
+      "previous_fallback": "Широко распространены кражи со взломом",
+      "russian": "Кражи со взломом широко распространены"
+    },
+    {
+      "english": "Left spare key under door mat.",
+      "ui_keys": [
+        "clue_angel_report03_01.title"
+      ],
+      "previous_fallback": "Оставил запасной ключ под дверным ковриком.",
+      "russian": "Запасной ключ под ковриком у двери"
+    },
+    {
+      "english": "Death by injection of muscle relaxant leading to asphyxia",
+      "ui_keys": [
+        "clue_sand_kcase_03.title"
+      ],
+      "previous_fallback": null,
+      "russian": "Смерть от инъекции миорелаксанта и асфиксии"
+    },
+    {
+      "english": "The case folder... Well, what the cop gave you. It's really long, really accurate... and at the same time really fuzzy. However, it contains informations about the murderer.",
+      "ui_keys": [
+        "GC.DOCUMENT.TT.REPORT03.AOD.CASE"
+      ],
+      "previous_fallback": null,
+      "russian": "Материалы расследования… Вернее, то, что смогла передать вам лейтенант Бюссе. Очень объёмные, очень точные… и в то же время очень туманные. Но сведения об убийце в них всё-таки есть."
+    },
+    {
+      "english": "Montrouge Fire Station",
+      "ui_keys": [
+        "poi_angel_fire.title"
+      ],
+      "previous_fallback": "Пожарная станция Монтруж",
+      "russian": "Пожарная часть Монтружа"
+    },
+    {
+      "english": "Symbol is a fish and an early Christian symbol",
+      "ui_keys": [
+        "GC.CLUE.TT.CHURCH.LINK.PHOTO"
+      ],
+      "previous_fallback": "Символ - рыба и раннехристианский символ",
+      "russian": "Изображение рыбы — древний христианский символ."
+    },
+    {
+      "english": "Fish knife: standard material for fishermen.",
+      "ui_keys": [
+        "GC.CLUE.TT.KNIFE.STANDARD"
+      ],
+      "previous_fallback": "Нож для рыбы: стандартный материал для рыбаков.",
+      "russian": "Нож для рыбы — обычный инструмент рыбака."
+    }
+  ],
+  "legacy_fallback_owner_collisions": [
+    {
+      "key": "clue_judge_journal08_02.title",
+      "english": "First 3 victims files = part of police leak 2 years ago",
+      "owners": [
+        "clue_judge_journal08_02.title",
+        "clue_judge_radionews01_01.title"
+      ],
+      "decision": "Keyed Russian is authoritative. Global legacy fallback cannot distinguish owners; unchanged."
+    }
+  ]
+}

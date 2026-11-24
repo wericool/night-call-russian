@@ -1,0 +1,205 @@
+{
+  "status": "superseded_by_complete_editorial_and_native_validation",
+  "scene": "214_roksana_01",
+  "source_file": "original/DialogObjectScript/sharedassets0.assets/2322.json",
+  "source_sha256": "edf47aed164b70c8d7a494e913b819bbfb607e1311d554c264896964e9b521ec",
+  "controls_EN_FR_equal": true,
+  "reviewed_context": "localization/contexts/214_roksana.json",
+  "related_reviewed": "localization/reviewed/009_ludwig_01.json",
+  "source_met_ludwig_setters": [
+    {
+      "scene": "009_ludwig_00a",
+      "passage": "ludwig-00a-start",
+      "modifier": "_Driver.Met.Ludwig=1"
+    }
+  ],
+  "named_references": [
+    {
+      "scene": "214_roksana_01",
+      "passage": "ludwig-intro-unknown",
+      "text": "ROKSANA : «I came too early… He’ll be here soon.»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "ludwig-intro-known",
+      "text": "ROKSANA : «He’s come before, right?»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "ludwig-intro",
+      "text": "ROKSANA : «Him.»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "ludwig-intro",
+      "text": "ROKSANA : «Ludwig.»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "ludwig-chat-known-dontknow",
+      "text": "ROKSANA : «Oh, but you do.»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "ludwig-chat-known-seehim",
+      "text": "ROKSANA : «For reasons I can’t explain, he chose you. It’s quite obvious…»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "ludwig-chat-known-seehim",
+      "text": "ROKSANA : «But, to answer your question, no. No, I do not see him. I have never seen him.»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "ludwig-chat-unknown",
+      "text": "ROKSANA : «The name may not ring a bell now… but soon…»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "ludwig-chat-unknown-soon",
+      "text": "ROKSANA : «He’ll be sitting right here, STARING at you with his dead little eyes!»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "ludwig-chat-unknown-dontexist",
+      "text": "ROKSANA : «Of course they exist. What a stupid thing to say. Pointless, really.»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "ludwig-chat-unknown-dontbelieve",
+      "text": "ROKSANA : «But you think they could exist?»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "ludwig-chat-unknown-dontbelieve",
+      "text": "ROKSANA : «Nice. What a lovely way to see the world.»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "ludwig-chat-silence",
+      "text": "ROKSANA : «You’re quite surprising. Unusual, actually.»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "roksana-intro",
+      "text": "ROKSANA : «I am a ghost hunter, sir.»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "roksana-intro",
+      "text": "ROKSANA : «Some creatures from the Nether-World live among us, encrusting themselves onto our lives like barnacles.»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "roksana-intro",
+      "text": "ROKSANA : «Like oysters!»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "roksana-intro",
+      "text": "ROKSANA : «Ghosts are parasites. Dead weight bearing down on our shoulders and back.»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "ludwig-ghosts",
+      "text": "ROKSANA : «Of course, sir. Not believing in something doesn’t make it any less dangerous.»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "ludwig-ghosts",
+      "text": "ROKSANA : «On the contrary…»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "ludwig-mad",
+      "text": "ROKSANA : «I’m not crazy. And that word… is horrendous. Dirty. Don’t use it.»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "ludwig-mad",
+      "text": "ROKSANA : «I couldn’t care less what you think of me. Honestly.»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "ludwig-poor-intro",
+      "text": "ROKSANA : «No, no. That’s what he wants you to believe. What he wants you to think.»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "ludwig-poor-introsilence",
+      "text": "ROKSANA : «I’m not going to beat around the bush, sir.»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "ludwig-poor",
+      "text": "ROKSANA : «You need to keep two essential things in mind.»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "ludwig-poor",
+      "text": "ROKSANA : «Ludwig IS evil incarnate.»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "ludwig-poor",
+      "text": "ROKSANA : «He is a tour guide from the Underworld trying to sell you your own death.»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "ludwig-poor",
+      "text": "ROKSANA : «His cold fingers gripping on the edge of your window… I can feel it. I know it. They’ll soon be here, holding on, just like this.»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "ludwig-poor",
+      "text": "ROKSANA : «You have two essential things to keep in mind and that was the first.»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "ludwig-poor",
+      "text": "ROKSANA : «The second is even more important.»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "roksana-secondadvice",
+      "text": "ROKSANA : «Do not make him angry. Listen to him. Help him. Make friends with him.»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "roksana-secondadvice-ludwigunknown",
+      "text": "ROKSANA : «He will take you with him to the Underworld… for all eternity.»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "roksana-exit",
+      "text": "ROKSANA : «It’s easy to think that Ludwig is a child. He’s no child.»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "roksana-exit",
+      "text": "ROKSANA : «He is a creature that has lived for centuries.»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "roksana-exit",
+      "text": "ROKSANA : «A demon. Dangerous. Violent.»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "roksana-exit",
+      "text": "ROKSANA : «Don’t forget. Make friends. No matter what.»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "roksana-exit-money",
+      "text": "ROKSANA : «You folks are unbelievable.»"
+    },
+    {
+      "scene": "214_roksana_01",
+      "passage": "roksana-exit-money",
+      "text": "ROKSANA : «I’m saving your life. And you want me to pay?»"
+    }
+  ],
+  "remaining": [],
+  "validation": "localization/roksana_scene_validation.json"
+}
